@@ -2,7 +2,7 @@ using System;
 using Macquarie.Handbook.Data.Shared;
 using Newtonsoft.Json;
 
-namespace Macquarie.Handbook.Data.Unit
+namespace Macquarie.Handbook.Data.Shared
 {
     public class AcademicItem
     {

@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Course
 {
-    public class MacquarieCurriculumStructure
+    public class MacquarieCurriculumStructureData
     {
         [JsonProperty("curriculum_structure")]
         public KeyValueIdType CurriculumStructure { get; set; }

@@ -1,0 +1,56 @@
+using System;
+using Macquarie.Handbook.Data.Shared;
+using Macquarie.Handbook.Data.Unit;
+using Newtonsoft.Json;
+
+namespace Macquarie.Handbook.Data
+{
+    public class MacquarieUnit : MacquarieMetadata
+    {
+        //Must be populated after object deserialised
+        public MacquarieUnitData UnitData { get; set; }
+        
+
+        [JsonProperty("creditPoints")]
+        public UInt16 CreditPoints { get; set; }
+        [JsonProperty("sysId")]
+        public string SysId { get; set; }
+        [JsonProperty("description")]
+        public string Description { get; set; }
+        [JsonProperty("type")]
+        public string Type { get; set; }
+        [JsonProperty("baseType")]
+        public string BaseType { get; set; }
+        [JsonProperty("mode")]
+        public string Mode { get; set; }
+        [JsonProperty("academicOrg")]
+        public string AcademicOrg { get; set; }
+        [JsonProperty("level")]
+        public string Level { get; set; }
+        [JsonProperty("active")]
+        public string Active { get; set; }
+        [JsonProperty("teachingPeriod")]
+        public string TeachingPeriod { get; set; }
+        [JsonProperty("version")]
+        public string Version { get; set; }
+        [JsonProperty("publishedInHandbook")]
+        public UInt16 PublishedInHandbook { get; set; }
+        [JsonProperty("location")]
+        public string Location { get; set; }
+        [JsonProperty("levelDisplay")]
+        public string LevelDisplay { get; set; }
+        [JsonProperty("effectiveDate", NullValueHandling = NullValueHandling.Ignore)]
+        public DateTime? EffectiveDate { get; set; }
+        [JsonProperty("status")]
+        public string Status { get; set; }
+
+        public override void DeserialiseInnerJson()
+        {
+            if (this.InnerJsonData != null) {
+                this.UnitData = JsonConvert.DeserializeObject<MacquarieUnitData>(this.InnerJsonData);
+            } else {
+                System.Diagnostics.Debug.WriteLine("Unable to deserialise inner Unit json data.");
+            }
+        }
+    }
+}

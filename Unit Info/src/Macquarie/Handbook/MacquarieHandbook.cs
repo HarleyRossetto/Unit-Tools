@@ -18,7 +18,6 @@ namespace Macquarie.Handbook
             var response = await httpClient.GetAsync(url);
             return await response.Content.ReadAsStringAsync();
         }
-
         public static async Task<MacquarieDataResponseCollection<T>> GetDataResponseCollection<T>(HandbookApiRequestBuilder apiRequest) where T : MacquarieMetadata {
             return await GetDataResponseCollection<T>(apiRequest.ToString());
         }

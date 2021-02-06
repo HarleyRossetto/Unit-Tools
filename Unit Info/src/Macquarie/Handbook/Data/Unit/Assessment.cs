@@ -1,6 +1,5 @@
 using Macquarie.Handbook.Data.Shared;
 using Newtonsoft.Json;
-using static Unit_Info.MacquarieCourseHandbook;
 
 namespace Macquarie.Handbook.Data.Unit
 {

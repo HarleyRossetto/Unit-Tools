@@ -5,20 +5,20 @@ namespace Macquarie.Handbook.Data.Shared
 {
     public class MacquarieDataResponseCollection<T> where T : MacquarieMetadata
     {
-        private List<T> _Units;
+        private List<T> _Objects;
         [JsonProperty("contentlets")]
-        public List<T> Units { 
+        public List<T> Objects { 
             get {
-                return _Units;
+                return _Objects;
             }
             set {
-                _Units = value;
+                _Objects = value;
                 DeserialiseObjectsInnerJson();
             } 
         }
 
         protected void DeserialiseObjectsInnerJson() {
-            foreach (var unit in Units)
+            foreach (var unit in Objects)
             {
                 unit.DeserialiseInnerJson();
             }
@@ -26,7 +26,7 @@ namespace Macquarie.Handbook.Data.Shared
 
         public T this[int index] {
             get {
-                return Units[index] != null ? Units[index] : default(T);
+                return Objects[index] != null ? Objects[index] : default(T);
             }
         }
     }

@@ -1,14 +1,15 @@
 using System;
+using Macquarie.Handbook.Data.Course;
 using Macquarie.Handbook.Data.Shared;
 using Newtonsoft.Json;
 
-namespace Macquarie.Handbook.Data.Course
+namespace Macquarie.Handbook.Data
 {
     public class MacquarieCourse : MacquarieMetadata
     {
         //Must be populated after object deserialised
         public MacquarieCourseData CourseData { get; set; }
-        public MacquarieCurriculumStructure CurriculumStructure { get; set; }
+        public MacquarieCurriculumStructureData CurriculumData { get; set; }
 
         [JsonProperty("urlYear")]
         public string UrlYear { get; set; }
@@ -28,9 +29,9 @@ namespace Macquarie.Handbook.Data.Course
             } else {
                 System.Diagnostics.Debug.WriteLine("Unable to deserialise inner Course json data.");
             }
-            
+
             if (this.CurriculumStructureJson != null)             {
-                this.CurriculumStructure = JsonConvert.DeserializeObject<MacquarieCurriculumStructure>(this.CurriculumStructureJson);
+                this.CurriculumData = JsonConvert.DeserializeObject<MacquarieCurriculumStructureData>(this.CurriculumStructureJson);
             } else {
                 System.Diagnostics.Debug.WriteLine("Unable to deserialise Curriculum Structure json data.");
             }

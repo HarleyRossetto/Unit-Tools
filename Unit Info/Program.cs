@@ -20,16 +20,14 @@ namespace Unit_Info
         {
             HandbookApiRequestBuilder apiRequest = new UnitApiRequestBuilder() { ImplementationYear = 2021 };
             
-            var unitCollection = await MacquarieHandbook.GetDataResponseCollection<Macquarie.Handbook.Data.MacquarieUnit>(apiRequest);
+            var unitCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieUnit>(apiRequest);
             
             MacquarieUnit unit = unitCollection[0];
-            unit.DeserialiseInnerJson();
             Console.WriteLine(unit.UnitData.ClassName);
 
             apiRequest = new CourseApiRequestBuilder() { ImplementationYear = 2021, Code = "C000105"};
-            var courseCollection = await MacquarieHandbook.GetDataResponseCollection<Macquarie.Handbook.Data.MacquarieCourse>(apiRequest);
+            var courseCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieCourse>(apiRequest);
             MacquarieCourse course = courseCollection[0];
-            course.DeserialiseInnerJson();
             Console.WriteLine(course.CourseData.CourseSearchTitle);
         }
     }

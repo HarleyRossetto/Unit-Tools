@@ -7,7 +7,7 @@ namespace Macquarie.Handbook.Data.Shared
     public class MacquarieMaterialMetadata
     {
         [JsonProperty("published_in_handbook")]
-        public LabelledValue published_in_handbook { get; set; }
+        public LabelledValue PublishedInHandbook { get; set; }
         [JsonProperty("implementationYear")]
         public string ImplementationYear { get; set; }
         [JsonProperty("status")]

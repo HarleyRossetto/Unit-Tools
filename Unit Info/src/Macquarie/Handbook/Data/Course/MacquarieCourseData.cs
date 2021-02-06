@@ -65,8 +65,8 @@ namespace Macquarie.Handbook.Data.Course
         public string CricosCode { get; set; }
         [JsonProperty("specialisations")]
         public string Specialisations { get; set; }
-        [JsonProperty("aqf_level")]
-        public LabelledValue govt_special_course_type { get; set; }
+        [JsonProperty("govt_special_course_type")]
+        public LabelledValue GovtSpecialCourseType { get; set; }
         [JsonProperty("entry_list")]
         public List<string> EntryList { get; set; }
         [JsonProperty("entry_guarantee")]

@@ -1,21 +1,9 @@
 ﻿
 using System;
 using System.Threading.Tasks;
-using System.Net;
-using System.Net.Http;
-using HtmlAgilityPack;
-// using System.Text.Json;
-using Newtonsoft.Json;
-using System.Collections.Generic;
-using System.IO;
-using Newtonsoft.Json.Linq;
-using System.Diagnostics;
-
 using Macquarie.Handbook;
 using Macquarie.Handbook.Data;
 using Macquarie.Handbook.WebApi;
-using Macquarie.Handbook.Data.Unit;
-using Macquarie.Handbook.Data.Shared;
 
 namespace Unit_Info
 {

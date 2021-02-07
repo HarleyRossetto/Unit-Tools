@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Course
 {
-    public class Level1_OrgUnitData
+    public class OrgUnitData
     {
         [JsonProperty("parent")]
         public LabelledValue Parent { get; set; }

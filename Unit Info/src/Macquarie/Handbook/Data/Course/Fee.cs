@@ -14,7 +14,7 @@ namespace Macquarie.Handbook.Data.Course
         [JsonProperty("other_fee_type")]
         public string OtherFeeType { get; set; }
         [JsonProperty("intakes")]
-        public List<string> Intakes { get; set; }
+        public List<KeyValueIdType> Intakes { get; set; }
         [JsonProperty("applies_to_all_intakes")]
         public bool AppliesToAllIntakes { get; set; }
         [JsonProperty("estimated_annual_fee")]

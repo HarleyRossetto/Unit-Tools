@@ -192,7 +192,7 @@ namespace Macquarie.Handbook.Data.Course
         [JsonProperty("course_duration_in_years")]
         public LabelledValue CourseDurationInYears { get; set; }
         [JsonProperty("entry_pathways_and_adjustment_factors")]
-        public List<string> EntryPathwaysAndAdjustmentFactors { get; set; }
+        public List<KeyValueIdType> EntryPathwaysAndAdjustmentFactors { get; set; }
         [JsonProperty("does_undergraduate_principle_26_3_apply")]
         public bool DoesUndergraduatePrinciple_26_3Apply { get; set; }
         [JsonProperty("formal_articulation_pathway_to_higher_award")]
@@ -264,7 +264,7 @@ namespace Macquarie.Handbook.Data.Course
         [JsonProperty("assessment")]
         public string Assessment { get; set; }
         [JsonProperty("level2_org_unit_data")]
-        public List<string> Level2OrgUnitData { get; set; }
+        public List<OrgUnitData> Level2OrgUnitData { get; set; }
         [JsonProperty("related_associated_items")]
         public List<string> RelatedAssociatedItems { get; set; }
         [JsonProperty("offering")]
@@ -284,9 +284,9 @@ namespace Macquarie.Handbook.Data.Course
         [JsonProperty("higher_level_courses_that_students_may_exit_from")]
         public List<HigherLevelCoursesThatStudentsMayExitFrom> HigherLevelCoursesThatStudentsMayExitFrom { get; set; }
         [JsonProperty("level1_org_unit_data")]
-        public List<Level1_OrgUnitData> Level1OrgUnitData { get; set; }
+        public List<OrgUnitData> Level1OrgUnitData { get; set; }
         [JsonProperty("articulations")]
-        public List<string> Articulations { get; set; }
+        public List<Articulation> Articulations { get; set; }
         [JsonProperty("course_search_title")]
         public string CourseSearchTitle { get; set; }
         [JsonProperty("availableInDoubles")]

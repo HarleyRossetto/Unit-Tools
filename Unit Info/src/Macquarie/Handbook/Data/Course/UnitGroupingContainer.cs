@@ -33,7 +33,7 @@ namespace Macquarie.Handbook.Data.Course
         [JsonProperty("parentConnector")]
         public LabelledValue ParentConnector { get; set; }
         [JsonProperty("dynamic_relationship")]
-        public List<string> DynamicRelationship { get; set; }
+        public List<DynamicRelation> DynamicRelationship { get; set; }
         [JsonProperty("container")]
         public List<UnitGroupingContainer> Container { get; set; }
         [JsonProperty("relationship")]

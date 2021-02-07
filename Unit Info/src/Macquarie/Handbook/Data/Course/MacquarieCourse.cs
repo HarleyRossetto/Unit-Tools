@@ -13,28 +13,36 @@ namespace Macquarie.Handbook.Data
 
         [JsonProperty("urlYear")]
         public string UrlYear { get; set; }
+
+        private string _CurriculumStructureJson;
         [JsonProperty("CurriculumStructure")]
-        public string CurriculumStructureJson { get; set; }
+        public string CurriculumStructureJson { 
+            get {
+                return _CurriculumStructureJson;
+            } 
+            set {
+                _CurriculumStructureJson = value;
+                CurriculumData = DeserialiseInnerJson<MacquarieCurriculumStructureData>(ref _CurriculumStructureJson);
+            } 
+        }
+
+        [JsonProperty("data")]
+        public string InnerJsonData { 
+            get {
+                return _InnerJsonData;
+            }
+            set {
+                _InnerJsonData = value;
+                CourseData = DeserialiseInnerJson<MacquarieCourseData>(ref _InnerJsonData);
+            } 
+        }
+
+
         [JsonProperty("generic")]
         public string Generic { get; set; }
         [JsonProperty("modUserName")]
         public string ModUserName { get; set; }
         [JsonProperty("urlMap")]
         public string UrlMap { get; set; }
-
-        public override void DeserialiseInnerJson()
-        {
-            if (this.InnerJsonData != null) {
-                this.CourseData = JsonConvert.DeserializeObject<MacquarieCourseData>(this.InnerJsonData);
-            } else {
-                System.Diagnostics.Debug.WriteLine("Unable to deserialise inner Course json data.");
-            }
-
-            if (this.CurriculumStructureJson != null)             {
-                this.CurriculumData = JsonConvert.DeserializeObject<MacquarieCurriculumStructureData>(this.CurriculumStructureJson);
-            } else {
-                System.Diagnostics.Debug.WriteLine("Unable to deserialise Curriculum Structure json data.");
-            }
-        }
     }
 }

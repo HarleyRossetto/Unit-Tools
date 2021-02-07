@@ -1,4 +1,4 @@
-#define WRITE_ALL_JSON_TO_DISK
+//#define WRITE_ALL_JSON_TO_DISK
 
 using System;
 using System.IO;
@@ -28,16 +28,16 @@ namespace Macquarie.Handbook
         }
 
         public static async Task<MacquarieDataResponseCollection<T>> GetDataResponseCollection<T>(string url) where T : MacquarieMetadata {
-            return await DeserialiseJsonObject<MacquarieDataResponseCollection<T>>(await DownloadString(url));
+            return DeserialiseJsonObject<MacquarieDataResponseCollection<T>>(await DownloadString(url));
         }
 
         public static async Task<MacquarieDataResponseCollection<MacquarieUnit>> GetUnitCollectionResponse(UnitApiRequestBuilder apiRequest) {
             return await GetDataResponseCollection<MacquarieUnit>(apiRequest);
         }
 
-        public static async Task<T> DeserialiseJsonObject<T>(string json) {
+        public static T DeserialiseJsonObject<T>(string json) {
             #if WRITE_ALL_JSON_TO_DISK
-                await WriteJsonToFile(json);
+                WriteJsonToFile(json);
             #endif
 
             return JsonConvert.DeserializeObject<T>(json);

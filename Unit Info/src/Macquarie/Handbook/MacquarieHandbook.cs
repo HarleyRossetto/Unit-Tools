@@ -1,3 +1,7 @@
+#define WRITE_ALL_JSON_TO_DISK
+
+using System;
+using System.IO;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Macquarie.Handbook.Data;
@@ -24,11 +28,27 @@ namespace Macquarie.Handbook
         }
 
         public static async Task<MacquarieDataResponseCollection<T>> GetDataResponseCollection<T>(string url) where T : MacquarieMetadata {
-            return JsonConvert.DeserializeObject<MacquarieDataResponseCollection<T>>(await DownloadString(url));
+            return await DeserialiseJsonObject<MacquarieDataResponseCollection<T>>(await DownloadString(url));
         }
 
         public static async Task<MacquarieDataResponseCollection<MacquarieUnit>> GetUnitCollectionResponse(UnitApiRequestBuilder apiRequest) {
             return await GetDataResponseCollection<MacquarieUnit>(apiRequest);
+        }
+
+        public static async Task<T> DeserialiseJsonObject<T>(string json) {
+            #if WRITE_ALL_JSON_TO_DISK
+                await WriteJsonToFile(json);
+            #endif
+
+            return JsonConvert.DeserializeObject<T>(json);
+        }
+
+        public static async Task WriteJsonToFile(string json) {
+            await File.WriteAllTextAsync(
+                                        string.Format(
+                                                        "C:/Users/accou/Desktop/MQ Uni Data Tools/Unit Tools/Unit Info/downloaded/{0}.json", 
+                                                        DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss-fffffff")), 
+                                        json);
         }
     }
 }

@@ -43,9 +43,9 @@ namespace Macquarie.Handbook.Data.Shared
         [JsonProperty("academic_item_type")]
         public string AcademicItemType { get; set; }
         [JsonProperty("inherent_requirements")]
-        public List<string> InherentRequirements { get; set; }
+        public List<Requirement> InherentRequirements { get; set; }
         [JsonProperty("other_requirements")]
-        public List<string> OtherRequirements { get; set; }
+        public List<Requirement> OtherRequirements { get; set; }
         [JsonProperty("external_provider")]
         public string ExternalProvider { get; set; }
         [JsonProperty("links")]

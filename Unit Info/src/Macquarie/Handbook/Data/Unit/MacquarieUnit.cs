@@ -10,6 +10,17 @@ namespace Macquarie.Handbook.Data
         //Must be populated after object deserialised
         public MacquarieUnitData UnitData { get; set; }
         
+        [JsonProperty("data")]
+        public string InnerJsonData { 
+            get {
+                return _InnerJsonData;
+            }
+            set {
+                _InnerJsonData = value;
+                UnitData = DeserialiseInnerJson<MacquarieUnitData>(ref _InnerJsonData);
+            } 
+        }
+
 
         [JsonProperty("creditPoints")]
         public UInt16 CreditPoints { get; set; }
@@ -43,14 +54,5 @@ namespace Macquarie.Handbook.Data
         public DateTime? EffectiveDate { get; set; }
         [JsonProperty("status")]
         public string Status { get; set; }
-
-        public override void DeserialiseInnerJson()
-        {
-            if (this.InnerJsonData != null) {
-                this.UnitData = JsonConvert.DeserializeObject<MacquarieUnitData>(this.InnerJsonData);
-            } else {
-                System.Diagnostics.Debug.WriteLine("Unable to deserialise inner Unit json data.");
-            }
-        }
     }
 }

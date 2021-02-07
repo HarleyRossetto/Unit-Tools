@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Shared
 {
-    public abstract class MacquarieMetadata
+    public class MacquarieMetadata
     {
         [JsonProperty("hostName")]
         public string HostName { get; set; }
@@ -11,8 +11,9 @@ namespace Macquarie.Handbook.Data.Shared
         public DateTime? ModificationDate { get; set; }
         [JsonProperty("code")]
         public string Code { get; set; }
-        [JsonProperty("data")]
-        public string InnerJsonData { get; set; }
+
+        protected string _InnerJsonData;
+
         [JsonProperty("studyLevel")]
         public string StudyLevel { get; set; }
         [JsonProperty("title")]
@@ -21,9 +22,9 @@ namespace Macquarie.Handbook.Data.Shared
         public string ContentTypeLabel { get; set; }
         [JsonProperty("inode")]
         public string IndexNode { get; set; }
-        [JsonProperty("archived")]        
+        [JsonProperty("archived")]
         public bool Archived { get; set; }
-        [JsonProperty("host")]        
+        [JsonProperty("host")]
         public string Host { get; set; }
         [JsonProperty("working")]
         public bool Working { get; set; }
@@ -47,7 +48,7 @@ namespace Macquarie.Handbook.Data.Shared
         public string UrlMapForContent { get; set; }
         [JsonProperty("parentAcademicOrg")]
         public string ParentAcademicOrg { get; set; }
-        [JsonProperty("url")]        
+        [JsonProperty("url")]
         public string Url { get; set; }
         [JsonProperty("titleImage")]
         public string TitleImage { get; set; }
@@ -62,6 +63,9 @@ namespace Macquarie.Handbook.Data.Shared
         [JsonProperty("modUser")]
         public string ModificationUser { get; set; }
 
-        public abstract void DeserialiseInnerJson();
+        protected T DeserialiseInnerJson<T>(ref string json)
+        {
+            return MacquarieHandbook.DeserialiseJsonObject<T>(json).Result;
+        }
     }
 }

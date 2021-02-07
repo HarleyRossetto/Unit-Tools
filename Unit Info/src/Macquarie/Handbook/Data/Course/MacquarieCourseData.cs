@@ -272,7 +272,7 @@ namespace Macquarie.Handbook.Data.Course
         [JsonProperty("study_modes")]
         public List<string> StudyModes { get; set; }
         [JsonProperty("additional_admission_points")]
-        public List<string> AdditionalAdmissionPoints { get; set; }
+        public List<AdmissionRequirementPoint> AdditionalAdmissionPoints { get; set; }
         [JsonProperty("course_rules")]
         public List<string> CourseRules { get; set; }
         [JsonProperty("course_notes")]
@@ -282,7 +282,7 @@ namespace Macquarie.Handbook.Data.Course
         [JsonProperty("fees")]
         public List<Fee> Fees { get; set; }
         [JsonProperty("higher_level_courses_that_students_may_exit_from")]
-        public List<string> HigherLevelCoursesThatStudentsMayExitFrom { get; set; }
+        public List<HigherLevelCoursesThatStudentsMayExitFrom> HigherLevelCoursesThatStudentsMayExitFrom { get; set; }
         [JsonProperty("level1_org_unit_data")]
         public List<Level1_OrgUnitData> Level1OrgUnitData { get; set; }
         [JsonProperty("articulations")]

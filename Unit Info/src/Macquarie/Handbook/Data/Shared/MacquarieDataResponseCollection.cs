@@ -14,5 +14,11 @@ namespace Macquarie.Handbook.Data.Shared
                 return Collection[index] != null ? Collection[index] : default(T);
             }
         }
+
+        public int Count {
+            get {
+                return Collection.Count;
+            }
+        }
     }
 }

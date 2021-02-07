@@ -65,7 +65,7 @@ namespace Macquarie.Handbook.Data.Shared
 
         protected T DeserialiseInnerJson<T>(ref string json)
         {
-            return MacquarieHandbook.DeserialiseJsonObject<T>(json).Result;
+            return MacquarieHandbook.DeserialiseJsonObject<T>(json);
         }
     }
 }

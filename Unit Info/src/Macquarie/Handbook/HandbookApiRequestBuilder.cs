@@ -3,6 +3,72 @@ using System.Text;
 
 namespace Macquarie.Handbook.WebApi
 {
+    public static class HandbookApiRequest
+    {
+        private static readonly ApiRequest UNIT_API_REQUEST = new ApiRequest("https://coursehandbook.mq.edu.au/api/content/render/false/query/+contentType:mq2_p", "subject");
+        private static readonly ApiRequest COURSE_API_REQUEST = new ApiRequest("https://macquarie-prod-handbook.factor5-curriculum.com.au/api/content/render/false/query/+contentType:mq2_p", "course");
+
+        public static ApiRequest UnitRequest {
+            get { return UNIT_API_REQUEST; }
+        }
+
+        public static ApiRequest CourseRequest {
+            get { return COURSE_API_REQUEST; }
+        }
+    }
+
+    public class ApiRequest {
+        protected readonly string apiStringBase;
+        protected readonly string requestObjectString;
+        private StringBuilder apiRequest;
+        public string BaseRequest { get { return apiStringBase; } }
+
+        public ApiRequest(string baseApiUrl, string objectString) {
+            apiStringBase = baseApiUrl;
+            requestObjectString = objectString;
+        }
+
+        private ApiRequest AppendRequestFormatInternal(string filter, params object[] values) {
+            this.apiRequest.AppendFormat(filter, values);
+            return this;
+        }
+
+        private ApiRequest AppendRequestInternal(string value) {
+            this.apiRequest.Append(value);
+            return this;
+        }
+
+        private ApiRequest AppendFilterInternal(string filter, object value) {
+            return AppendRequestFormatInternal("%20+mq2_p{0}.{1}:{2}", requestObjectString, filter, value);
+        }
+
+        public ApiRequest SetLimit(int limit) {
+            return AppendRequestFormatInternal("/limit/{0}", limit);
+        }
+
+        public ApiRequest FilterImplementationYear(int year) {
+            return AppendFilterInternal("implementationYear", year);
+        }
+
+        public ApiRequest FilterCode(string code) {
+            return AppendFilterInternal("code", code);
+        }
+
+        public ApiRequest FilterParentAcademicOrganisation(string academicOrganisationHash) {
+            return AppendFilterInternal("parentAcademicOrg", academicOrganisationHash);
+        }
+
+        public ApiRequest FilterStudyLevel(int studylevel) {
+            return AppendFilterInternal("studyLevel", studylevel);
+        }
+
+        public string GetRequest() {
+            return apiRequest.ToString();
+        }
+    }
+
+    
+
     public abstract class HandbookApiRequestBuilder
     {
         protected StringBuilder API_STRING = new StringBuilder(250);

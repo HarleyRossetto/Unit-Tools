@@ -50,6 +50,8 @@ namespace Unit_Info
 
             var apiRequest = new CourseApiRequestBuilder() { ImplementationYear = 2021, Code = "C000105" };
 
+            var newApiRequest = HandbookApiRequest.CourseRequest.FilterImplementationYear(2021).FilterCode("C000105");
+
             sw.Start();
             var courseCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieCourse>(apiRequest);
             sw.Stop();

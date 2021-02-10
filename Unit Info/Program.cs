@@ -23,11 +23,24 @@ namespace Unit_Info
 
             //await program.CustomAPI_CourseDownloadAndTranslation();
 
+            //await program.CustomAPI_UnitDownloadAndTranslation();
+
+
             // await program.SaveListOfCourseCodesAndTitles();
 
             // await program.SaveListOfUnitCodesAndTitles();
-
             
+
+
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+            var json = await MacquarieHandbook.DownloadString("https://macquarie-prod-handbook.factor5-curriculum.com.au/api/content/render/false/query/+owner:dotcms.org.1/limit/100000");
+            await File.WriteAllTextAsync(string.Format("C:/Users/accou/Desktop/MQ Uni Data Tools/Unit Tools/Unit Info/data/{0}_{1}.json",
+                                                        "Factor5Data",
+                                                        DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
+                                                        json);
+            sw.Stop();
+            Console.Write("{0} to download and save.", sw.Elapsed.ToString());
         }
 
         /// <summary>
@@ -77,13 +90,13 @@ namespace Unit_Info
             var courseCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieCourse>(apiRequest);
             sw.Stop();
 
-            var jsonString = JsonConvert.SerializeObject(courseCollection, Formatting.Indented);
+            var enumerable = courseCollection.Collection.AsEnumerable().OrderBy(crs => crs.Code).GroupBy(crs => crs.CourseData.School.Value);
+            var jsonString = JsonConvert.SerializeObject(enumerable, Formatting.Indented);
             await File.WriteAllTextAsync(string.Format("C:/Users/accou/Desktop/MQ Uni Data Tools/Unit Tools/Unit Info/data/{0}_{1}.json",
                                                         "Macquare_Courses",
                                                         DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
                                                         jsonString);
 
-            Console.WriteLine(courseCollection.Collection[3].Title);
             Console.WriteLine("{0} milliseconds for {1} course query & deserialisation.", sw.ElapsedMilliseconds, courseCollection.Count);
         }
 
@@ -101,11 +114,16 @@ namespace Unit_Info
 
             sw.Restart();
             var unitCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieUnit>(apiRequest);
+
+            var enumerable = unitCollection.Collection.AsEnumerable().OrderBy(unit => unit.Code).GroupBy(unit => unit.UnitData.School.Value);
+            var jsonString = JsonConvert.SerializeObject(enumerable, Formatting.Indented);
+            await File.WriteAllTextAsync(string.Format("C:/Users/accou/Desktop/MQ Uni Data Tools/Unit Tools/Unit Info/data/{0}_{1}.json",
+                                                        "Macquare_Units",
+                                                        DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
+                                                        jsonString);
             sw.Stop();
 
             Console.WriteLine("{0} milliseconds for {1} unit query & deserialisation.", sw.ElapsedMilliseconds, unitCollection.Count);
-
-            Console.Read();
         }
 
         public async Task SaveListOfUnitCodesAndTitles()

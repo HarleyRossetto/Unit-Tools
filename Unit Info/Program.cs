@@ -89,7 +89,7 @@ namespace Unit_Info
 
         /// <summary>
         /// Demonstrates Unit request API creation, data collection and access.
-        /// Requests all 2021 Units, with a limit of 250 results.
+        /// Requests all 2021 Units, with a limit of 3000 results.
         /// </summary>
         public async Task CustomAPI_UnitDownloadAndTranslation()
         {

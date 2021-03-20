@@ -143,16 +143,11 @@ namespace Unit_Info
             sw.Restart();
             var unitCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieUnit>(apiRequest);                            
 
-            List<string> rules = new List<string>(3000);
+            var prerequisites =     from enrolementRule in (from t2 in unitCollection.Collection from enrolementRules in t2.UnitData.EnrolmentRules select enrolementRules).ToList()
+                                    where enrolementRule.Type.Value == "prerequisite"
+                                    select enrolementRule.Description;
 
-            foreach (var unit in unitCollection.Collection) {
-                foreach (var enrolmentRule in unit.UnitData.EnrolmentRules) {
-                    if (enrolmentRule.Type.Value == "prerequisite")
-                        rules.Add(enrolmentRule.Description);
-                }
-            }
-
-            var jsonString = JsonConvert.SerializeObject(rules, Formatting.Indented);
+            var jsonString = JsonConvert.SerializeObject(prerequisites, Formatting.Indented);
             await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
                                                         "Macquarie_EnrolmentRules",
                                                         DateTime.Now.ToString("yyMMdd_HHmmssfffff")),

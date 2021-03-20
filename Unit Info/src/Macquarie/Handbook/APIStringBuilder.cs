@@ -6,7 +6,18 @@ namespace Macquarie.Handbook.WebApi
     public abstract class HandbookApiRequestBuilder
     {
         protected StringBuilder API_STRING = new StringBuilder(250);
-        public string Code { get; set; } = "NO_CODE";
+
+        private string _code = "NO_CODE";
+        public string Code
+        {
+            get { return _code; }
+            set { 
+                if (value != null)
+                    _code = value;                             
+            }
+        }
+        
+        
         public int ImplementationYear { get; set; } = -1;
         public int Limit { get; set; } = -1;
 

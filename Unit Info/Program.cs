@@ -27,11 +27,14 @@ namespace Unit_Info
 
             //await program.CustomAPI_GetCourse("N000062");
 
-            await program.CustomAPI_GetUnit("COMP1010");
+            //await program.CustomAPI_GetUnit("COMP1010");
 
             // await program.SaveListOfCourseCodesAndTitles();
 
             // await program.SaveListOfUnitCodesAndTitles();
+
+            //Downloads all units and saves a copy of only the prerequisite enrolment rules.
+            await program.CustomAPI_GetAllUnitPrerequsiteForDevelopment();
         }
 
         /// <summary>
@@ -96,7 +99,7 @@ namespace Unit_Info
             var enumerable = courseCollection.Collection.AsEnumerable().OrderBy(crs => crs.Code).GroupBy(crs => crs.CourseData.School.Value);
             var jsonString = JsonConvert.SerializeObject(enumerable, Formatting.Indented);
             await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
-                                                        "Macquare_Courses",
+                                                        "Macquarie_Courses",
                                                         DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
                                                         jsonString);
 
@@ -121,7 +124,37 @@ namespace Unit_Info
             var enumerable = unitCollection.Collection.AsEnumerable().OrderBy(unit => unit.Code).GroupBy(unit => unit.UnitData.School.Value);
             var jsonString = JsonConvert.SerializeObject(enumerable, Formatting.Indented);
             await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
-                                                        "Macquare_Units",
+                                                        "Macquarie_Units",
+                                                        DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
+                                                        jsonString);
+            sw.Stop();
+
+            Console.WriteLine("{0} milliseconds for {1} unit query & deserialisation.", sw.ElapsedMilliseconds, unitCollection.Count);
+        }
+
+         public async Task CustomAPI_GetAllUnitPrerequsiteForDevelopment()
+        {
+            Stopwatch sw = new Stopwatch();
+
+            var apiRequest = new UnitApiRequestBuilder() { ImplementationYear = 2021, Limit = 3000 };
+
+            Console.WriteLine(apiRequest.ToString());
+
+            sw.Restart();
+            var unitCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieUnit>(apiRequest);                            
+
+            List<string> rules = new List<string>(3000);
+
+            foreach (var unit in unitCollection.Collection) {
+                foreach (var enrolmentRule in unit.UnitData.EnrolmentRules) {
+                    if (enrolmentRule.Type.Value == "prerequisite")
+                        rules.Add(enrolmentRule.Description);
+                }
+            }
+
+            var jsonString = JsonConvert.SerializeObject(rules, Formatting.Indented);
+            await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
+                                                        "Macquarie_EnrolmentRules",
                                                         DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
                                                         jsonString);
             sw.Stop();
@@ -134,7 +167,7 @@ namespace Unit_Info
             var unitCodes = await GetListOfUnitCodes();
             var jsonString = JsonConvert.SerializeObject(unitCodes, Formatting.Indented);
             await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
-                                                        "Macquare_Unit_Codes",
+                                                        "Macquarie_Unit_Codes",
                                                         DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
                                                         jsonString);
         }
@@ -159,7 +192,7 @@ namespace Unit_Info
             var courseCodes = await GetListOfCourseCodes();
             var jsonString = JsonConvert.SerializeObject(courseCodes, Formatting.Indented);
             await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
-                                                        "Macquare_Course_Codes",
+                                                        "Macquarie_Course_Codes",
                                                         DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
                                                         jsonString);
         }

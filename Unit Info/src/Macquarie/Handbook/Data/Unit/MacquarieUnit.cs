@@ -78,7 +78,10 @@ namespace Macquarie.Handbook.Data
 
             //Matches 4 characters and 4 digits, beginning and ending on word boundaries.
             //i.e. COMP1000
-            Regex regex2020UnitCode = new Regex(@"\b([A-Z]{4})(\d{4})\b");
+            Regex regex2020UnitCode_variation1 = new Regex(@"\b([A-Z]{4})(\d{4})\b");
+            //Matches 4 characters, a single whitespace and 4 digits, beginning and ending on word boundaries.
+            //i.e. CHIN 1210
+            Regex regex2020UnitCode_variation2 = new Regex(@"\b([A-Z]{4})(\s{1})(\d{4})\b");
             //Matches 4 characters and 3 digits, beginning and ending on word boundaries.
             //i.e. COMP125
             Regex regexPre2020UnitCode_variation1 = new Regex(@"\b([A-Z]{4})(\d{3})\b");
@@ -89,11 +92,16 @@ namespace Macquarie.Handbook.Data
             //i.e. MAS 110
             Regex regexPre2020UnitCode_variation3 = new Regex(@"\b([A-Z]{3})(\s{1})(\d{3})\b");
 
+
+            Regex regexHSC = new Regex(@"\bHSC(\s{1})([A-Z]*)\b");
+
+
             //Throw these in a list
-            List<Regex> regexFilters = new List<Regex>() {  regex2020UnitCode,
-                                                                regexPre2020UnitCode_variation1,
-                                                                regexPre2020UnitCode_variation2,
-                                                                regexPre2020UnitCode_variation3};
+            List<Regex> regexFilters = new List<Regex>() {  regex2020UnitCode_variation1,
+                                                            regex2020UnitCode_variation2,
+                                                            regexPre2020UnitCode_variation1,
+                                                            regexPre2020UnitCode_variation2,
+                                                            regexPre2020UnitCode_variation3};
 
             //We need a temporary list to hold new rules because we cannot modify UnitData.EnrolementRules
             //whilst we operating on the results of the LINQ query;

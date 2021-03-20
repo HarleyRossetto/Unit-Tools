@@ -145,7 +145,9 @@ namespace Unit_Info
 
             var prerequisites =     from enrolementRule in (from t2 in unitCollection.Collection from enrolementRules in t2.UnitData.EnrolmentRules select enrolementRules).ToList()
                                     where enrolementRule.Type.Value == "prerequisite"
+                                    orderby enrolementRule.Description.Split(' ')[0]
                                     select enrolementRule.Description;
+                                    
 
             var jsonString = JsonConvert.SerializeObject(prerequisites, Formatting.Indented);
             await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",

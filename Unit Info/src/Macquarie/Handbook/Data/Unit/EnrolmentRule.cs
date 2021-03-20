@@ -14,5 +14,10 @@ namespace Macquarie.Handbook.Data.Unit
         public string CL_ID { get; set; }
         [JsonProperty("order")]
         public UInt16 Order { get; set; }
+
+        public override string ToString()
+        {
+            return Description;
+        }
     }
 }

@@ -12,5 +12,10 @@ namespace Macquarie.Handbook.Data.Shared
         public string CL_ID { get; set; }
         [JsonProperty("type")]
         public string Type { get; set; }
+
+        public override string ToString()
+        {
+            return Value;
+        }
     }
 }

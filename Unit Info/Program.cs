@@ -21,7 +21,9 @@ namespace Unit_Info
 
             //await program.CustomApi_XXXXXXX();
 
-            //await program.CustomAPI_CourseDownloadAndTranslation();
+            await program.CustomAPI_CourseDownloadAndTranslation();
+
+            await program.CustomAPI_UnitDownloadAndTranslation();
 
             // await program.SaveListOfCourseCodesAndTitles();
 
@@ -65,13 +67,13 @@ namespace Unit_Info
 
         /// <summary>
         /// Demonstrates Course request API creation, data collection and access.
-        /// Requests all 2021 courses, with a limit of 250 results.
+        /// Requests all 2021 courses, with a limit of 100 results.
         /// </summary>
         public async Task CustomAPI_CourseDownloadAndTranslation()
         {
             Stopwatch sw = new Stopwatch();
 
-            var apiRequest = new CourseApiRequestBuilder() { ImplementationYear = 2021, Limit = 250 };
+            var apiRequest = new CourseApiRequestBuilder() { ImplementationYear = 2021, Limit = 1000 };
 
             Console.WriteLine(apiRequest.ToString());
 
@@ -91,7 +93,7 @@ namespace Unit_Info
 
         /// <summary>
         /// Demonstrates Unit request API creation, data collection and access.
-        /// Requests all 2021 Units, with a limit of 250 results.
+        /// Requests all 2021 Units, with a limit of 3000 results.
         /// </summary>
         public async Task CustomAPI_UnitDownloadAndTranslation()
         {
@@ -104,6 +106,12 @@ namespace Unit_Info
             sw.Restart();
             var unitCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieUnit>(apiRequest);
             sw.Stop();
+
+            var jsonString = JsonConvert.SerializeObject(unitCollection, Formatting.Indented);
+            await File.WriteAllTextAsync(string.Format("C:/Users/accou/Desktop/MQ Uni Data Tools/Unit Tools/Unit Info/data/{0}_{1}.json",
+                                                        "Macquare_Units",
+                                                        DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
+                                                        jsonString);
 
             Console.WriteLine("{0} milliseconds for {1} unit query & deserialisation.", sw.ElapsedMilliseconds, unitCollection.Count);
 

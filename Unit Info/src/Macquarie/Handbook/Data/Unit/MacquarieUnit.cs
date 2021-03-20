@@ -2,6 +2,9 @@ using System;
 using Macquarie.Handbook.Data.Shared;
 using Macquarie.Handbook.Data.Unit;
 using Newtonsoft.Json;
+using System.Linq;
+using System.Text.RegularExpressions;
+using System.Collections.Generic;
 
 namespace Macquarie.Handbook.Data
 {
@@ -16,8 +19,44 @@ namespace Macquarie.Handbook.Data
                 return _InnerJsonData;
             }
             set {
-                _InnerJsonData = value;
-                UnitData = DeserialiseInnerJson<MacquarieUnitData>(ref _InnerJsonData);
+                //Let's not worry storing the json string again, we don't need it.
+                //_InnerJsonData = value;
+
+                //Deserialise the inner json.
+                //UnitData = DeserialiseInnerJson<MacquarieUnitData>(ref _InnerJsonData);
+                UnitData = DeserialiseInnerJson<MacquarieUnitData>(ref value);
+
+                //Parse some prereqs while we are at it?
+                IEnumerable<EnrolmentRule> preReqsRaw =     from rule in UnitData.EnrolmentRules
+                                                            where rule.Type.Value == "prerequisite"
+                                                            select rule;
+
+                Regex regex2020UnitCode                 = new Regex(@"\b([A-Z]{4})(\d{4})\b");
+                Regex regexPre2020UnitCode_variation1   = new Regex(@"\b([A-Z]{4})(\d{3})\b");
+                Regex regexPre2020UnitCode_variation2   = new Regex(@"\b([A-Z]{3})(\d{3})\b");
+                Regex regexPre2020UnitCode_variation3   = new Regex(@"\b([A-Z]{3})(\s{1})(\d{3})\b");
+
+                List<Regex> regexFilters = new List<Regex>() {  regex2020UnitCode,
+                                                                regexPre2020UnitCode_variation1,
+                                                                regexPre2020UnitCode_variation2,
+                                                                regexPre2020UnitCode_variation3};
+
+                List<EnrolmentRule> tempNewRules = new List<EnrolmentRule>(3);
+
+                foreach (var prerequsite in preReqsRaw) {
+                    foreach (var filter in regexFilters) {
+                        var matches = filter.Match(prerequsite.Description);
+
+                        foreach (var prerequisiteSubject in matches.Captures) {
+                            EnrolmentRule newRule = new EnrolmentRule();
+                            newRule.Type = new LabelledValue() { Label = "Pre-requsite Parsed", Value = "prerequisiteparsed"};
+                            newRule.Description = prerequisiteSubject.ToString();
+                            tempNewRules.Add(newRule);
+                        }
+                    }
+                }
+
+                UnitData.EnrolmentRules.AddRange(tempNewRules);
             } 
         }
 

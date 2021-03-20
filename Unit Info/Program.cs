@@ -132,7 +132,7 @@ namespace Unit_Info
             Console.WriteLine("{0} milliseconds for {1} unit query & deserialisation.", sw.ElapsedMilliseconds, unitCollection.Count);
         }
 
-         public async Task CustomAPI_GetAllUnitPrerequsiteForDevelopment()
+        public async Task CustomAPI_GetAllUnitPrerequsiteForDevelopment()
         {
             Stopwatch sw = new Stopwatch();
 
@@ -141,15 +141,15 @@ namespace Unit_Info
             Console.WriteLine(apiRequest.ToString());
 
             sw.Restart();
-            var unitCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieUnit>(apiRequest);                            
+            var unitCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieUnit>(apiRequest);
 
-            var prerequisites =     from enrolementRule in (from t2 in unitCollection.Collection from enrolementRules in t2.UnitData.EnrolmentRules select enrolementRules).ToList()
-                                    where enrolementRule.Type.Value == "prerequisite"
-                                    orderby enrolementRule.Description.Length
-                                    select enrolementRule.Description;
-                                    
+            var prerequisites = from enrolementRule in (from t2 in unitCollection.Collection from enrolementRules in t2.UnitData.EnrolmentRules select enrolementRules).ToList()
+                                where enrolementRule.Type.Value == "prerequisite"
+                                select enrolementRule.Description;
 
-            var jsonString = JsonConvert.SerializeObject(prerequisites, Formatting.Indented);
+            var grouped = prerequisites.OrderBy(g => g.Length).GroupBy(g => g.Split(' ')[0]);
+
+            var jsonString = JsonConvert.SerializeObject(grouped, Formatting.Indented);
             await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
                                                         "Macquarie_EnrolmentRules_Order_LENGTH",
                                                         DateTime.Now.ToString("yyMMdd_HHmmssfffff")),

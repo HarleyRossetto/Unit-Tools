@@ -59,7 +59,6 @@ namespace Macquarie.Handbook.Data.Unit
         public LabelledValue PlacementProportion { get; set; }
         [JsonProperty("unit_description")]
         public List<string> UnitDescription { get; set; }
-
         [JsonProperty("unit_learning_outcomes")]
         public List<LearningOutcome> UnitLearningOutcomes { get; set; }
         [JsonProperty("non_scheduled_learning_activities")]

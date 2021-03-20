@@ -28,6 +28,6 @@ namespace Macquarie.Handbook.Data.Unit
         [JsonProperty("end_date", NullValueHandling = NullValueHandling.Ignore)]
         public DateTime? EndDate { get; set; }
         [JsonProperty("containers")]
-        public List<container_requisit_temporaryname> Requisites { get; set; }
+        public List<ContainerRequisiteTemporaryName> Requisites { get; set; }
     }
 }

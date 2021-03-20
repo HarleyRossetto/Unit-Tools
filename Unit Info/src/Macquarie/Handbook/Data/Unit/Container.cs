@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Unit
 {
-    public class container_requisit_temporaryname
+    public class ContainerRequisiteTemporaryName
     {
         [JsonProperty("cl_id")]
         public string CL_ID { get; set; }
@@ -18,7 +18,7 @@ namespace Macquarie.Handbook.Data.Unit
         [JsonProperty("parent_connector")]
         public LabelledValue ParentConnector { get; set; }
         [JsonProperty("containers")]
-        public List<container_requisit_temporaryname> Containers { get; set; }
+        public List<ContainerRequisiteTemporaryName> Containers { get; set; }
         [JsonProperty("relationships")]
         public List<AcademicItem> Relationships { get; set; }
     }

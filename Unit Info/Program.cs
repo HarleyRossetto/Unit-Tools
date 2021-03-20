@@ -21,9 +21,13 @@ namespace Unit_Info
 
             //await program.CustomApi_XXXXXXX();
 
-            await program.CustomAPI_CourseDownloadAndTranslation();
+            //await program.CustomAPI_CourseDownloadAndTranslation();
 
-            await program.CustomAPI_UnitDownloadAndTranslation();
+            //await program.CustomAPI_UnitDownloadAndTranslation();
+
+            //await program.CustomAPI_GetCourse("N000062");
+
+            await program.CustomAPI_GetUnit("COMP1010");
 
             // await program.SaveListOfCourseCodesAndTitles();
 
@@ -33,32 +37,44 @@ namespace Unit_Info
         /// <summary>
         /// Demonstrates Unit request API creation, data collection and access.
         /// </summary>
-        public async Task CustomAPI_GetUnit()
+        public async Task CustomAPI_GetUnit(String unitCode)
         {
-            HandbookApiRequestBuilder apiRequest = new UnitApiRequestBuilder() { ImplementationYear = 2021 };
+            HandbookApiRequestBuilder apiRequest = new UnitApiRequestBuilder() { ImplementationYear = 2021, Code = unitCode };
             var unitCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieUnit>(apiRequest);
-            MacquarieUnit unit = unitCollection[0];
-            Console.WriteLine(unit.UnitData.ClassName);
+
+            if (unitCollection.Count > 0) {
+                MacquarieUnit unit = unitCollection[0];
+                Console.WriteLine(unit.UnitData.Title);
+            } else {
+                Console.WriteLine("Unit with code '{0}' was not found.", apiRequest.Code);
+            }
         }
 
         /// <summary>
         /// Demonstrates Course request API creation, data collection and access.
         /// </summary>
-        public async Task CustomAPI_GetCourse()
+        /// <param name="courseCode">
+        /// The course code to attempt to retreive.
+        /// </param> 
+        public async Task CustomAPI_GetCourse(String courseCode)
         {
             Stopwatch sw = new Stopwatch();
 
-            var apiRequest = new CourseApiRequestBuilder() { ImplementationYear = 2021, Code = "C000105" };
+            var apiRequest = new CourseApiRequestBuilder() { ImplementationYear = 2021, Code = courseCode };
 
             sw.Start();
             var courseCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieCourse>(apiRequest);
             sw.Stop();
 
-            MacquarieCourse course = courseCollection[0];
+            if (courseCollection.Count > 0) {
+                MacquarieCourse course = courseCollection[0];
 
-            Console.WriteLine(course.CourseData.CourseSearchTitle);
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("{0} milliseconds for 2nd request.", sw.ElapsedMilliseconds);
+                Console.WriteLine(course.CourseData.CourseSearchTitle);
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Course retrevial & deserialisation took {0} milliseconds.", sw.ElapsedMilliseconds);
+            } else {
+                Console.WriteLine("No course with code '{0}' was found.", courseCode);
+            }
         }
 
         /// <summary>

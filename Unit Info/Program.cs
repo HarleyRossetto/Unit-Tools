@@ -28,8 +28,6 @@ namespace Unit_Info
             // await program.SaveListOfCourseCodesAndTitles();
 
             // await program.SaveListOfUnitCodesAndTitles();
-
-            
         }
 
         /// <summary>

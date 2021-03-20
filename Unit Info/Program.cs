@@ -21,26 +21,13 @@ namespace Unit_Info
 
             //await program.CustomApi_XXXXXXX();
 
-            //await program.CustomAPI_CourseDownloadAndTranslation();
+            await program.CustomAPI_CourseDownloadAndTranslation();
 
-            //await program.CustomAPI_UnitDownloadAndTranslation();
-
+            await program.CustomAPI_UnitDownloadAndTranslation();
 
             // await program.SaveListOfCourseCodesAndTitles();
 
             // await program.SaveListOfUnitCodesAndTitles();
-            
-
-
-            Stopwatch sw = new Stopwatch();
-            sw.Start();
-            var json = await MacquarieHandbook.DownloadString("https://macquarie-prod-handbook.factor5-curriculum.com.au/api/content/render/false/query/+owner:dotcms.org.1/limit/100000");
-            await File.WriteAllTextAsync(string.Format("C:/Users/accou/Desktop/MQ Uni Data Tools/Unit Tools/Unit Info/data/{0}_{1}.json",
-                                                        "Factor5Data",
-                                                        DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
-                                                        json);
-            sw.Stop();
-            Console.Write("{0} to download and save.", sw.Elapsed.ToString());
         }
 
         /// <summary>

@@ -15,6 +15,11 @@ namespace Macquarie.Handbook
     {
         static readonly HttpClient httpClient = new HttpClient();
 
+        static MacquarieHandbook() {
+            if (!Directory.Exists("data/"))
+                Directory.CreateDirectory("data/");
+        }
+
         public static async Task<string> DownloadString(HandbookApiRequestBuilder apiRequest) {
             return await DownloadString(apiRequest.ToString());
         }
@@ -46,7 +51,7 @@ namespace Macquarie.Handbook
         public static async Task WriteJsonToFile(string json) {
             await File.WriteAllTextAsync(
                                         string.Format(
-                                                        "C:/Users/accou/Desktop/MQ Uni Data Tools/Unit Tools/Unit Info/downloaded/{0}.json", 
+                                                        "downloaded/{0}.json", 
                                                         DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss-fffffff")), 
                                         json);
         }

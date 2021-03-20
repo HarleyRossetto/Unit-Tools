@@ -33,7 +33,7 @@ namespace ScratchPad
             string url = string.Format("https://coursehandbook.mq.edu.au/api/content/render/false/query/+contentType:mq2_psubject%20+mq2_psubject.implementationYear:{0}/limit/{1}", year, limit);
             var subjectListJson = await DownloadWebpageContentAsString(url);
             var fileName = string.Format("units_{0}_limit_{1}_date_{2}.json", year, limit, DateTime.UtcNow.ToLongTimeString().Replace(":", "-"));
-            var fullFile = string.Format("C:/Users/accou/Desktop/MQ Uni Data Tools/Unit Tools/Documentation/{0}", fileName);
+            var fullFile = string.Format("Documentation/{0}", fileName);
             Console.WriteLine(fullFile);
             await File.WriteAllTextAsync(@fullFile, subjectListJson);
         }

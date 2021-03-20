@@ -79,7 +79,7 @@ namespace Unit_Info
 
             var enumerable = courseCollection.Collection.AsEnumerable().OrderBy(crs => crs.Code).GroupBy(crs => crs.CourseData.School.Value);
             var jsonString = JsonConvert.SerializeObject(enumerable, Formatting.Indented);
-            await File.WriteAllTextAsync(string.Format("C:/Users/accou/Desktop/MQ Uni Data Tools/Unit Tools/Unit Info/data/{0}_{1}.json",
+            await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
                                                         "Macquare_Courses",
                                                         DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
                                                         jsonString);
@@ -104,7 +104,7 @@ namespace Unit_Info
 
             var enumerable = unitCollection.Collection.AsEnumerable().OrderBy(unit => unit.Code).GroupBy(unit => unit.UnitData.School.Value);
             var jsonString = JsonConvert.SerializeObject(enumerable, Formatting.Indented);
-            await File.WriteAllTextAsync(string.Format("C:/Users/accou/Desktop/MQ Uni Data Tools/Unit Tools/Unit Info/data/{0}_{1}.json",
+            await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
                                                         "Macquare_Units",
                                                         DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
                                                         jsonString);
@@ -117,7 +117,7 @@ namespace Unit_Info
         {
             var unitCodes = await GetListOfUnitCodes();
             var jsonString = JsonConvert.SerializeObject(unitCodes, Formatting.Indented);
-            await File.WriteAllTextAsync(string.Format("C:/Users/accou/Desktop/MQ Uni Data Tools/Unit Tools/Unit Info/data/{0}_{1}.json",
+            await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
                                                         "Macquare_Unit_Codes",
                                                         DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
                                                         jsonString);
@@ -142,7 +142,7 @@ namespace Unit_Info
         {
             var courseCodes = await GetListOfCourseCodes();
             var jsonString = JsonConvert.SerializeObject(courseCodes, Formatting.Indented);
-            await File.WriteAllTextAsync(string.Format("C:/Users/accou/Desktop/MQ Uni Data Tools/Unit Tools/Unit Info/data/{0}_{1}.json",
+            await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
                                                         "Macquare_Course_Codes",
                                                         DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
                                                         jsonString);

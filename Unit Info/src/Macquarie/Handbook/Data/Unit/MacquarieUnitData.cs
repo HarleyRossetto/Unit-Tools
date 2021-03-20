@@ -13,7 +13,6 @@ namespace Macquarie.Handbook.Data.Unit
         public LabelledValue StudyLevel { get; set; }
         [JsonProperty("quota_enrolment_requirements")]
         public string QuoteEnrolmentRequirements { get; set; }
-        
         [JsonProperty("duration_ft_max")]
         public string DurationFullTimeMax { get; set; }
         [JsonProperty("duration_pt_max")]

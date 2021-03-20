@@ -1,4 +1,5 @@
 using Macquarie.Handbook.Data.Shared;
+using Macquarie.Handbook.Data.Helpers;
 using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Unit
@@ -11,8 +12,16 @@ namespace Macquarie.Handbook.Data.Unit
         public LabelledValue Type { get; set; }
         [JsonProperty("weight")]
         public string Weight { get; set; }
+        private string _Description;
         [JsonProperty("description")]
-        public string Description { get; set; }
+        public string Description {
+            get {
+                return _Description;
+            }
+            set {
+                _Description = HTMLTagStripper.StripHtmlTags(value);
+            }
+        }
         [JsonProperty("cl_id")]
         public string CL_ID { get; set; }
         [JsonProperty("applies_to_all_offerings")]
@@ -23,5 +32,10 @@ namespace Macquarie.Handbook.Data.Unit
         public string Offerings { get; set; }
         [JsonProperty("individual")]
         public LabelledValue Individual { get; set; }
+
+        public override string ToString()
+        {
+            return Description;
+        }
     }
 }

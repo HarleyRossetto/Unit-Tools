@@ -29,5 +29,10 @@ namespace Macquarie.Handbook.Data.Unit
         public DateTime? EndDate { get; set; }
         [JsonProperty("containers")]
         public List<ContainerRequisiteTemporaryName> Requisites { get; set; }
+
+        public override string ToString()
+        {
+            return Description;
+        }
     }
 }

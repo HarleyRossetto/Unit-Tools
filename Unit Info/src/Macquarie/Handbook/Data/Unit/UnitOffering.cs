@@ -42,5 +42,10 @@ namespace Macquarie.Handbook.Data.Unit
         public string CL_ID { get; set; }
         [JsonProperty("quota_limit")]
         public string QuotaLimit { get; set; }
+
+        public override string ToString()
+        {
+            return DisplayName;
+        }
     }
 }

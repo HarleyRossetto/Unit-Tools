@@ -14,6 +14,11 @@ namespace Macquarie.Handbook.Data.Unit
         public string CL_ID { get; set; }
         [JsonProperty("offerings")]
         public string Offerings { get; set; }
+
+        public override string ToString()
+        {
+            return Description;
+        }
     }
 
     public class ScheduledLearningActivity : LearningActivity { }

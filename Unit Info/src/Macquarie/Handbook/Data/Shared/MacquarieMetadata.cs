@@ -4,9 +4,7 @@ using Newtonsoft.Json;
 namespace Macquarie.Handbook.Data.Shared
 {
     public class MacquarieMetadata
-    {
-        protected string _InnerJsonData;
-       
+    {       
         [JsonProperty("hostName")]
         public string HostName { get; set; }
         [JsonProperty("modDate", NullValueHandling = NullValueHandling.Ignore)]
@@ -61,10 +59,5 @@ namespace Macquarie.Handbook.Data.Shared
         public UInt16 SortOrder { get; set; }
         [JsonProperty("modUser")]
         public string ModificationUser { get; set; }
-
-        protected T DeserialiseInnerJson<T>(ref string json)
-        {
-            return MacquarieHandbook.DeserialiseJsonObject<T>(json);
-        }
     }
 }

@@ -1,33 +1,15 @@
 using System;
 using Macquarie.Handbook.Data.Shared;
 using Macquarie.Handbook.Data.Unit;
+using Macquarie.Handbook.Data.Converters;
 using Newtonsoft.Json;
-using System.Linq;
-using System.Text.RegularExpressions;
-using System.Collections.Generic;
-
 namespace Macquarie.Handbook.Data
 {
     public class MacquarieUnit : MacquarieMetadata
     {
-        //Must be populated after object deserialised
-        public MacquarieUnitData UnitData { get; set; }
-
         [JsonProperty("data")]
-        public string InnerJsonData {
-            get {
-                return _InnerJsonData;
-            }
-            set {
-                //Let's not worry storing the json string again, we don't need it.
-                //_InnerJsonData = value;
-
-                //Deserialise the inner json.
-                //UnitData = DeserialiseInnerJson<MacquarieUnitData>(ref _InnerJsonData);
-                UnitData = DeserialiseInnerJson<MacquarieUnitData>(ref value);
-            }
-        }
-
+        [JsonConverter(typeof(MacquarieEmbeddedJsonConverter<MacquarieUnitData>))]
+        public MacquarieUnitData UnitData { get; set; }
         [JsonProperty("creditPoints")]
         public UInt16 CreditPoints { get; set; }
         [JsonProperty("sysId")]

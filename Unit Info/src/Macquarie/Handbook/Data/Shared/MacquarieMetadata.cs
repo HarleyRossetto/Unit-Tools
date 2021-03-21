@@ -5,15 +5,14 @@ namespace Macquarie.Handbook.Data.Shared
 {
     public class MacquarieMetadata
     {
+        protected string _InnerJsonData;
+       
         [JsonProperty("hostName")]
         public string HostName { get; set; }
         [JsonProperty("modDate", NullValueHandling = NullValueHandling.Ignore)]
         public DateTime? ModificationDate { get; set; }
         [JsonProperty("code")]
         public string Code { get; set; }
-
-        protected string _InnerJsonData;
-
         [JsonProperty("studyLevel")]
         public string StudyLevel { get; set; }
         [JsonProperty("title")]

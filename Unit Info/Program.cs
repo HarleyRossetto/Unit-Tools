@@ -25,16 +25,16 @@ namespace Unit_Info
 
             //await program.CustomAPI_UnitDownloadAndTranslation();
 
-            //await program.CustomAPI_GetCourse("N000062");
+            //await program.CustomAPI_GetCourse("C000006");
 
             //await program.CustomAPI_GetUnit("COMP1010");
 
-            // await program.SaveListOfCourseCodesAndTitles();
+            //await program.SaveListOfCourseCodesAndTitles();
 
-            // await program.SaveListOfUnitCodesAndTitles();
+            await program.SaveListOfUnitCodesAndTitles();
 
             //Downloads all units and saves a copy of only the prerequisite enrolment rules.
-            await program.CustomAPI_GetAllUnitPrerequsiteForDevelopment();
+            //await program.CustomAPI_GetAllUnitPrerequsiteForDevelopment();
         }
 
         /// <summary>
@@ -48,6 +48,9 @@ namespace Unit_Info
             if (unitCollection.Count > 0) {
                 MacquarieUnit unit = unitCollection[0];
                 Console.WriteLine(unit.UnitData.Title);
+
+                await WriteObjectToJsonFileInDataDir(unit, "TestSerialisation");
+
             } else {
                 Console.WriteLine("Unit with code '{0}' was not found.", apiRequest.Code);
             }
@@ -75,6 +78,8 @@ namespace Unit_Info
                 Console.WriteLine(course.CourseData.CourseSearchTitle);
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Course retrevial & deserialisation took {0} milliseconds.", sw.ElapsedMilliseconds);
+
+                await WriteObjectToJsonFileInDataDir(course, "Test_Course_Serialisation");
             } else {
                 Console.WriteLine("No course with code '{0}' was found.", courseCode);
             }
@@ -97,11 +102,7 @@ namespace Unit_Info
             sw.Stop();
 
             var enumerable = courseCollection.Collection.AsEnumerable().OrderBy(crs => crs.Code).GroupBy(crs => crs.CourseData.School.Value);
-            var jsonString = JsonConvert.SerializeObject(enumerable, Formatting.Indented);
-            await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
-                                                        "Macquarie_Courses",
-                                                        DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
-                                                        jsonString);
+            await WriteObjectToJsonFileInDataDir(enumerable, "Macquarie_Courses");
 
             Console.WriteLine("{0} milliseconds for {1} course query & deserialisation.", sw.ElapsedMilliseconds, courseCollection.Count);
         }
@@ -110,8 +111,7 @@ namespace Unit_Info
         /// Demonstrates Unit request API creation, data collection and access.
         /// Requests all 2021 Units, with a limit of 3000 results.
         /// </summary>
-        public async Task CustomAPI_UnitDownloadAndTranslation()
-        {
+        public async Task CustomAPI_UnitDownloadAndTranslation() {
             Stopwatch sw = new Stopwatch();
 
             var apiRequest = new UnitApiRequestBuilder() { ImplementationYear = 2021, Limit = 3000 };
@@ -122,17 +122,13 @@ namespace Unit_Info
             var unitCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieUnit>(apiRequest);
 
             var enumerable = unitCollection.Collection.AsEnumerable().OrderBy(unit => unit.Code).GroupBy(unit => unit.UnitData.School.Value);
-            var jsonString = JsonConvert.SerializeObject(enumerable, Formatting.Indented);
-            await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
-                                                        "Macquarie_Units",
-                                                        DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
-                                                        jsonString);
+            await WriteObjectToJsonFileInDataDir(enumerable, "Macquarie_Units");
             sw.Stop();
 
             Console.WriteLine("{0} milliseconds for {1} unit query & deserialisation.", sw.ElapsedMilliseconds, unitCollection.Count);
         }
 
-         public async Task CustomAPI_GetAllUnitPrerequsiteForDevelopment()
+        public async Task CustomAPI_GetAllUnitPrerequsiteForDevelopment()
         {
             Stopwatch sw = new Stopwatch();
 
@@ -147,13 +143,8 @@ namespace Unit_Info
                                     where enrolementRule.Type.Value == "prerequisite"
                                     orderby enrolementRule.Description.Length
                                     select enrolementRule.Description;
-                                    
 
-            var jsonString = JsonConvert.SerializeObject(prerequisites, Formatting.Indented);
-            await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
-                                                        "Macquarie_EnrolmentRules_Order_LENGTH",
-                                                        DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
-                                                        jsonString);
+            await WriteObjectToJsonFileInDataDir(prerequisites, "Macquarie_EnrolmentRules_Order_LENGTH");
             sw.Stop();
 
             Console.WriteLine("{0} milliseconds for {1} unit query & deserialisation.", sw.ElapsedMilliseconds, unitCollection.Count);
@@ -162,11 +153,8 @@ namespace Unit_Info
         public async Task SaveListOfUnitCodesAndTitles()
         {
             var unitCodes = await GetListOfUnitCodes();
-            var jsonString = JsonConvert.SerializeObject(unitCodes, Formatting.Indented);
-            await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
-                                                        "Macquarie_Unit_Codes",
-                                                        DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
-                                                        jsonString);
+
+            await WriteObjectToJsonFileInDataDir(unitCodes, "Macquarie_Unit_Codes");
         }
 
         public async Task<IEnumerable<IGrouping<string, MacquarieBasicItemInfo>>> GetListOfUnitCodes()
@@ -187,11 +175,8 @@ namespace Unit_Info
         public async Task SaveListOfCourseCodesAndTitles()
         {
             var courseCodes = await GetListOfCourseCodes();
-            var jsonString = JsonConvert.SerializeObject(courseCodes, Formatting.Indented);
-            await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
-                                                        "Macquarie_Course_Codes",
-                                                        DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
-                                                        jsonString);
+
+            await WriteObjectToJsonFileInDataDir(courseCodes, "Macquarie_Course_Codes");
         }
 
         public async Task<IEnumerable<IGrouping<string, MacquarieBasicItemInfo>>> GetListOfCourseCodes()
@@ -207,6 +192,14 @@ namespace Unit_Info
             var query = enumerable.Select(item => new MacquarieBasicItemInfo(item.Code, item.Title, item.Value)).OrderBy(item => item.Code).GroupBy(item => item.Department);
 
             return query;
+        }
+
+         private static async Task WriteObjectToJsonFileInDataDir(object obj, string fileName, Boolean humanReadable = true) {
+            var jsonString = JsonConvert.SerializeObject(obj, Formatting.Indented);
+            await File.WriteAllTextAsync(string.Format("data/{0}_{1}.json",
+                                                        fileName,
+                                                        DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
+                                                        jsonString);
         }
     }
 

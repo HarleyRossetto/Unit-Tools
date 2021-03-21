@@ -2,6 +2,8 @@ using Newtonsoft.Json;
 using Macquarie.Handbook.Data.Shared;
 using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
+using System.Linq;
 
 namespace Macquarie.Handbook.Data.Unit
 {
@@ -65,8 +67,20 @@ namespace Macquarie.Handbook.Data.Unit
         public List<NonScheduledLearningActivity> NonScheduledLearningActivities { get; set; }
         [JsonProperty("scheduled_learning_activites")]
         public List<ScheduledLearningActivity> ScheduledLearningActivites { get; set; }
+        private List<EnrolmentRule> _enrolmentRules;
         [JsonProperty("enrolment_rules")]
-        public List<EnrolmentRule> EnrolmentRules { get; set; }
+        public List<EnrolmentRule> EnrolmentRules {
+            get {
+                return _enrolmentRules;
+            }
+            set {
+                if (value != null) {
+                    _enrolmentRules = value;
+
+                    ParsePrerequisites();
+                }
+            }
+        }
         [JsonProperty("assessments")]
         public List<Assessment> Assessments { get; set; }
         [JsonProperty("requisites")]
@@ -77,5 +91,54 @@ namespace Macquarie.Handbook.Data.Unit
         public string UnitOfferingText { get; set; }
         [JsonProperty("subject_search_title")]
         public string SubjectSearchTitle { get; set; }
+
+        private void ParsePrerequisites() {
+            //Parse some prereqs while we are at it?
+            //Potentially move this later into some kind of observer / notifier system to accomodate
+            //more runtime data extraction.
+            IEnumerable<EnrolmentRule> preReqsRaw = from rule in EnrolmentRules
+                                                    where rule.Type.Value == "prerequisite"
+                                                    select rule;
+
+            //Matches 4 characters and 4 digits, beginning and ending on word boundaries.
+            //i.e. COMP1000
+            Regex regex2020UnitCode = new Regex(@"\b([A-Z]{4})(\d{4})\b");
+            //Matches 4 characters and 3 digits, beginning and ending on word boundaries.
+            //i.e. COMP125
+            Regex regexPre2020UnitCode_variation1 = new Regex(@"\b([A-Z]{4})(\d{3})\b");
+            //Matches 3 characters and 3 digits, beginning and ending on word boundaries.
+            //i.e. BCM102
+            Regex regexPre2020UnitCode_variation2 = new Regex(@"\b([A-Z]{3})(\d{3})\b");
+            //Matches 3 characters, a single whitespace and 3 digits, beginning and ending on word boundaries.
+            //i.e. MAS 110
+            Regex regexPre2020UnitCode_variation3 = new Regex(@"\b([A-Z]{3})(\s{1})(\d{3})\b");
+
+            //Throw these in a list
+            List<Regex> regexFilters = new List<Regex>() {  regex2020UnitCode,
+                                                                regexPre2020UnitCode_variation1,
+                                                                regexPre2020UnitCode_variation2,
+                                                                regexPre2020UnitCode_variation3};
+
+            //We need a temporary list to hold new rules because we cannot modify UnitData.EnrolementRules
+            //whilst we operating on the results of the LINQ query;
+            List<EnrolmentRule> tempNewRules = new List<EnrolmentRule>(3);
+
+            foreach (var prerequsite in preReqsRaw) {
+                foreach (var filter in regexFilters) {
+                    var matches = filter.Match(prerequsite.Description);
+
+                    foreach (var prerequisiteSubject in matches.Captures) {
+                        EnrolmentRule newRule = new EnrolmentRule();
+                        //Use "prerequsiteparsed" as a flag to let us know this is a value we can work with directly.
+                        newRule.Type = new LabelledValue() { Label = "Pre-requsite Parsed", Value = "prerequisiteparsed" };
+                        newRule.Description = prerequisiteSubject.ToString();
+                        tempNewRules.Add(newRule);
+                    }
+                }
+            }
+
+            //Add our extracted rules into the units' enrolement rules list.
+            EnrolmentRules.AddRange(tempNewRules);
+        }
     }
 }

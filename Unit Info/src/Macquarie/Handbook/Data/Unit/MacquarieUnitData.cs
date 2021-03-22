@@ -121,10 +121,10 @@ namespace Macquarie.Handbook.Data.Unit
                 if (value != null) {
                     _enrolmentRules = value;
 
-                    SanitisePreRequsites();
+                    RemoveEscapeSequencesFromPrerequisites();
 
 
-                    //ParsePrerequisites();
+                    ParsePrerequisites();
                 }
             }
         }
@@ -139,7 +139,7 @@ namespace Macquarie.Handbook.Data.Unit
         [JsonProperty("subject_search_title")]
         public string SubjectSearchTitle { get; set; }
 
-        private void SanitisePreRequsites() {
+        private void RemoveEscapeSequencesFromPrerequisites() {
             foreach (var item in EnrolmentRules) {
                 if (item.Type.Value == "prerequisite" && (item.Description.Contains("\n") || item.Description.Contains("\t"))) {
                     item.Description = item.Description.Replace("\n", "").Replace("\t", " ");
@@ -155,13 +155,57 @@ namespace Macquarie.Handbook.Data.Unit
                                                     where rule.Type.Value == "prerequisite"
                                                     select rule;
 
-            ParseEnrolmentRegexParentheses(preReqsRaw);
+            //ParseEnrolmentRegexParentheses(preReqsRaw);
 
-            EnrolmentRuleParentheseParser.ParseParentheseGroups(preReqsRaw);
+            var parentheseGroups = EnrolmentRuleParentheseParser.ParseParentheseGroups(preReqsRaw);
+
+
+            var connectorStructureDictionary = new Dictionary<int, Tuple<Connector, ParentheseGroup>>();
+
+            foreach (var group in parentheseGroups.Reverse()) {
+                //If the group cannot be broken down further, we can beging parsing for other
+                //tokens (AND, OR)
+                // if (!group.Value.CanBeBrokenDownFurther) {
+                    Connector result = null;
+                    result = TryParseOrStructure(group.Value);
+                    result = (result == null ? TryParseAndStructure(group.Value) : result);
+
+                    if (result != null)
+                        connectorStructureDictionary.Add(group.Value.ID, new Tuple<Connector, ParentheseGroup>(result, group.Value));
+                // }
+            }
 
             //Add our extracted rules into the units' enrolement rules list.
-            EnrolmentRules.AddRange(ParseEnrolmentRulesWithRegex(preReqsRaw));
+            //EnrolmentRules.AddRange(ParseEnrolmentRulesWithRegex(preReqsRaw));
         }
+
+        private ANDConnector TryParseAndStructure(ParentheseGroup group) {
+            if (group.GroupString.Contains(" and ")) {
+                // int indexOfOr = group.GroupString.IndexOf(" or ");
+                var split = group.GroupString.Split(" and ", 3, StringSplitOptions.TrimEntries);
+
+                if (split.Length >= 2) {
+                    return new ANDConnector() { LefthandSideString = split[0], RighthandSideString = split[1] };
+                }
+
+            }
+            return null;
+        }
+
+        private ORConnector TryParseOrStructure(ParentheseGroup group) {
+            if (group.GroupString.Contains(" or ")) {
+                // int indexOfOr = group.GroupString.IndexOf(" or ");
+                var split = group.GroupString.Split(" or ", 3, StringSplitOptions.TrimEntries);
+
+                if (split.Length >= 2) {
+                    return new ORConnector() { LefthandSideString = split[0], RighthandSideString = split[1] };
+                }
+
+            }
+            return null;
+        }
+
+        #region REGEX_STUFF
 
         //Matches 4 characters and 4 digits, beginning and ending on word boundaries.
         //i.e. COMP1000
@@ -223,7 +267,9 @@ namespace Macquarie.Handbook.Data.Unit
             return null;
         }
 
+        #endregion
 
+        #region OLDER_VERSION_OF_SOME_CODE_DEAL_WITH_SOON
         //"(ELEC2070 or ELEC270) and (ELEC2005 or (ELCT2005 or ELEC295) or (ELEC2075 or ELEC275))"
 
         /// <summary>
@@ -279,7 +325,35 @@ namespace Macquarie.Handbook.Data.Unit
             return returnable;
         }
     }
+    #endregion
 }
+
+public abstract class Connector
+{
+    public static string DELINEATOR { get; protected set; }
+    public string LefthandSideString { get; set; }
+    public Connector LefthandSide { get; set; }
+    public string RighthandSideString { get; set; }
+    public Connector RighthandSide { get; set; }
+
+    public bool IsMostBasic {
+        get {
+            return LefthandSide == null && RighthandSide == null;
+        }
+    }
+}
+
+public class ANDConnector : Connector
+{
+    static ANDConnector() { DELINEATOR = " and "; }
+}
+
+public class ORConnector : Connector
+{
+    static ORConnector() { DELINEATOR = " or "; }
+}
+
+#region  OLD_CODE_PROB_WONT_REUSE
 
 
 /// HOLD THIS OLD MESS
@@ -335,3 +409,5 @@ namespace Macquarie.Handbook.Data.Unit
                 orSplits.Add(split);
             }
     */
+
+#endregion

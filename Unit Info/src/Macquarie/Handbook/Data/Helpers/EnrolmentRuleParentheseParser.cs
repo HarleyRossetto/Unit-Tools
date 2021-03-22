@@ -5,13 +5,14 @@ using System.Collections.Generic;
 using System.Linq;
 using Macquarie.Handbook.Data.Unit.Prerequisites;
 
-namespace Macquarie.Handbook.Data.Helpers {
+namespace Macquarie.Handbook.Data.Helpers
+{
     public static class EnrolmentRuleParentheseParser
     {
-       public static Dictionary<int, ParentheseGroup> BreakdownParentheseGroupingsRecursive(string rule, int level, int parentID) {
+        public static Dictionary<int, ParentheseGroup> BreakdownParentheseGroupingsRecursive(string rule, int level, int parentID) {
             var groups = new Dictionary<int, ParentheseGroup>();
 
-            int levels = 0;
+            int depth = 0;
             int indexOfFirstOpenBracket = 0;
             bool ignoreNextClose = false;
 
@@ -30,18 +31,18 @@ namespace Macquarie.Handbook.Data.Helpers {
                     }
                     if (!ignoreNextClose) {
                         //Looking at top level parenthese only
-                        if (levels == 0) {
+                        if (depth == 0) {
                             indexOfFirstOpenBracket = stringIndexer;
                         }
-                        levels++;
+                        depth++;
                     }
                 } else if (currentCharacter == ')') {
                     if (ignoreNextClose)
                         ignoreNextClose = false;
                     else
-                        levels--;
+                        depth--;
 
-                    if (levels == 0) {
+                    if (depth == 0) {
                         int lengthOfSubstring = (stringIndexer + 1) - (indexOfFirstOpenBracket);
 
                         //Select the substring, NOT removing the parenthese on each end, because it might NOT be a parenthese!.
@@ -77,9 +78,9 @@ namespace Macquarie.Handbook.Data.Helpers {
             }
 
             //We have a parenthese mismatch somewhere!
-            if (levels != 0) {
+            // if (depth != 0) {
 
-            }
+            // }
 
             level += 1;
 
@@ -107,29 +108,44 @@ namespace Macquarie.Handbook.Data.Helpers {
         public static Dictionary<int, ParentheseGroup> ParseParentheseGroups(IEnumerable<EnrolmentRule> rules) {
             //Get breakdown for all rules.
             const int TOP_LEVEL_PARENT_ID = 0;
+            int decompositionLevel = 0;
             var results = new Dictionary<int, ParentheseGroup>();
-            foreach (var rule in rules) {
-                var groupings = BreakdownParentheseGroupingsRecursive(rule.Description, 0, TOP_LEVEL_PARENT_ID); //Use ParentID of 0 to signify there is no parent.
-                foreach (var item in groupings) {
-                    results.Add(item.Key, item.Value);
+
+            //If the collection isnt empty
+            if (rules.Count() >= 1) {
+                //Add Top level statement to dictionary first.
+                var topLevelRule = rules.ElementAt(0);
+                var topLevelRange = new Range(0, topLevelRule.Description.Length - 1);
+                int topLevelId = topLevelRule.Description.GetHashCode() + topLevelRule.GetHashCode();
+                results.Add(topLevelId, new ParentheseGroup(topLevelRange,
+                                                            topLevelRule.Description,
+                                                            true,
+                                                            decompositionLevel++,
+                                                            topLevelId,
+                                                            TOP_LEVEL_PARENT_ID));
+
+                foreach (var rule in rules) {
+                    var groupings = BreakdownParentheseGroupingsRecursive(rule.Description, decompositionLevel, topLevelId); //Use ParentID of 0 to signify there is no parent.
+                    foreach (var item in groupings) {
+                        results.Add(item.Key, item.Value);
+                    }
                 }
-            }
 
-            //Go through each grouping and replace it's occurance in its' parents' string with it's ID.
-            for (int i = results.Values.Count - 1; i >= 0; i--) {
-                var element = results.Values.ElementAt(i);
-                if (element.ParentID != 0) {
-                    //Get reference to parent item
-                    var parentElement = results[element.ParentID];
-                    //Remove the original value from parent string
-                    parentElement.GroupString = parentElement.GroupString.Remove(element.CharacterRangeInParentString.Start.Value,
-                                                                                    element.CharacterRangeInParentString.End.Value - element.CharacterRangeInParentString.Start.Value + 1);
+                //Go through each grouping and replace it'stringValue occurance in its' parents' string with it'stringValue ID.
+                foreach (var element in results.Values.Reverse()) {
+                    if (element.ParentID != 0) {
+                        //Get reference to parent item
+                        var parentElement = results[element.ParentID];
+                        //Remove the original value from parent string
+                        parentElement.GroupString = parentElement.GroupString.Remove(element.CharacterRangeInParentString.Start.Value,
+                                                                                        element.CharacterRangeInParentString.End.Value - element.CharacterRangeInParentString.Start.Value + 1);
 
-                    //Insert reference to group ID
-                    parentElement.GroupString = parentElement.GroupString.Insert(element.CharacterRangeInParentString.Start.Value, "{" + element.ID.ToString() + "}");
+                        //Insert reference to group ID
+                        parentElement.GroupString = parentElement.GroupString.Insert(element.CharacterRangeInParentString.Start.Value, "{" + element.ID.ToString() + "}");
 
-                    //Reassign.
-                    results[element.ParentID] = parentElement;
+                        //Reassign.
+                        results[element.ParentID] = parentElement;
+                    }
                 }
             }
 
@@ -138,26 +154,26 @@ namespace Macquarie.Handbook.Data.Helpers {
     }
 
     public struct ParentheseGroup
-        {
-            public ParentheseGroup(Range r, String s, Boolean b, int l, int id, int parentId) {
-                CharacterRangeInParentString = r;
-                GroupString = s;
-                CanBeBrokenDownFurther = b;
-                Level = l;
-                ID = id;
-                ParentID = parentId;
-            }
-
-            public Range CharacterRangeInParentString { get; init; }
-            public String GroupString { get; set; }
-            public Boolean CanBeBrokenDownFurther { get; init; }
-            public int Level { get; init; }
-            public int ParentID { get; init; }
-            public int ID { get; init; }
-
-            public override string ToString() {
-                return GroupString + " LVL: " + Level;
-            }
+    {
+        public ParentheseGroup(Range stringRange, string stringValue, bool canBeBrokenDownFurther, int decompositionLevel, int id, int parentId) {
+            CharacterRangeInParentString = stringRange;
+            GroupString = stringValue;
+            CanBeBrokenDownFurther = canBeBrokenDownFurther;
+            Level = decompositionLevel;
+            ID = id;
+            ParentID = parentId;
         }
+
+        public Range CharacterRangeInParentString { get; init; }
+        public string GroupString { get; set; }
+        public bool CanBeBrokenDownFurther { get; init; }
+        public int Level { get; init; }
+        public int ParentID { get; init; }
+        public int ID { get; init; }
+
+        public override string ToString() {
+            return GroupString + " LVL: " + Level;
+        }
+    }
 
 }

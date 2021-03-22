@@ -1,33 +1,40 @@
+//#define IGNORE_UNNECESSARY
+
 using System.Collections.Generic;
 
 using Newtonsoft.Json;
 
-using Macquarie.Handbook;
+using Macquarie.Handbook.Data.Converters;
 using Macquarie.Handbook.Data.Shared;
+using Macquarie.Handbook.Data.Helpers;
 
 namespace Macquarie.Handbook.Data.Course
 {
     public class DynamicRelation
     {
+        private string description;
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("parent_record")]
+#endif
         public KeyValueIdType ParentRecord { get; set; }
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("parent_table")]
+#endif
         public string ParentTable { get; set; }
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("cl_id")]
+#endif
         public string CL_ID { get; set; }
         [JsonProperty("description")]
-        public string Description { get; set; }
-        private string _InnerRuleJson;
+        public string Description { get => description; set => description = HTMLTagStripper.StripHtmlTags(value); }
         [JsonProperty("rule")]
-        public string InnerRuleJson {
-            get {
-                return _InnerRuleJson;
-            }
-            set {
-                _InnerRuleJson = value;
-                Rule = MacquarieHandbook.DeserialiseJsonObject<DynamicRelationRule>(value);
-            }
-        }
+        [JsonConverter(typeof(MacquarieEmbeddedJsonConverter<DynamicRelationRule>))]
         public DynamicRelationRule Rule { get; set; }
         [JsonProperty("wildcard")]
         public string Wildcard { get; set; }
@@ -49,7 +56,11 @@ namespace Macquarie.Handbook.Data.Course
         public string GroupConnector { get; set; }
         [JsonProperty("id")]
         public string ID { get; set; }
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("order")]
+#endif
         public string Order { get; set; }
         [JsonProperty("parent_record")]
         public string ParentRecord { get; set; }
@@ -59,7 +70,11 @@ namespace Macquarie.Handbook.Data.Course
     {
         [JsonProperty("parent_record")]
         public string ParentRecord { get; set; }
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("order")]
+#endif
         public string Order { get; set; }
         [JsonProperty("id")]
         public string ID { get; set; }

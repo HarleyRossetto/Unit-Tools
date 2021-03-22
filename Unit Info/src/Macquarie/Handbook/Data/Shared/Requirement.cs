@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Macquarie.Handbook.Data.Helpers;
 using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Shared
@@ -12,11 +13,17 @@ namespace Macquarie.Handbook.Data.Shared
     }
     public class Rule
     {
+        private string description;
+
         [JsonProperty("description")]
-        public string Description { get; set; }
+        public string Description { get => description; set => description = HTMLTagStripper.StripHtmlTags(value); }
         [JsonProperty("domain")]
         public LabelledValue Domain { get; set; }
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("links")]
+#endif
         public List<string> Links { get; set; }
     }
 }

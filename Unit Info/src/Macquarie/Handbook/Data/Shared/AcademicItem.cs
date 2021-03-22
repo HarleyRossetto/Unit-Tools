@@ -1,3 +1,5 @@
+//#define IGNORE_UNNECESSARY
+
 using System;
 using Macquarie.Handbook.Data.Shared;
 using Newtonsoft.Json;
@@ -8,11 +10,23 @@ namespace Macquarie.Handbook.Data.Shared
     {
         [JsonProperty("academic_item")]
         public KeyValueIdType AcademicItemInnerId { get; set; }
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("parent_record")]
+#endif
         public KeyValueIdType ParentRecord { get; set; }
+      #if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("order")]
+#endif
         public string Order { get; set; }
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("cl_id")]
+#endif
         public string CL_ID { get; set; }
         [JsonProperty("academic_item_type")]
         public LabelledValue AcademicItemType { get; set; }

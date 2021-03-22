@@ -1,3 +1,5 @@
+//#define IGNORE_UNNECESSARY
+
 using Macquarie.Handbook.Data.Shared;
 using Macquarie.Handbook.Data.Helpers;
 using Newtonsoft.Json;
@@ -22,7 +24,11 @@ namespace Macquarie.Handbook.Data.Unit
                 _Description = HTMLTagStripper.StripHtmlTags(value);
             }
         }
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("cl_id")]
+#endif
         public string CL_ID { get; set; }
         [JsonProperty("applies_to_all_offerings")]
         public string AppliesToAllOfferings { get; set; }

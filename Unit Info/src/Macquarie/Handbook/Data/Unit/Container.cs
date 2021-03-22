@@ -1,3 +1,5 @@
+//#define IGNORE_UNNECESSARY
+
 using System;
 using System.Collections.Generic;
 using Macquarie.Handbook.Data.Shared;
@@ -7,7 +9,11 @@ namespace Macquarie.Handbook.Data.Unit
 {
     public class ContainerRequisiteTemporaryName
     {
+        #if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("cl_id")]
+#endif
         public string CL_ID { get; set; }
         [JsonProperty("parent_container_value")]
         public string ParentContainerTable { get; set; }

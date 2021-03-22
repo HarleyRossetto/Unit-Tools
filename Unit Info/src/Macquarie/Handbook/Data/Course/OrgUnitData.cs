@@ -1,3 +1,5 @@
+//#define IGNORE_UNNECESSARY
+
 using Macquarie.Handbook.Data.Shared;
 using Newtonsoft.Json;
 
@@ -11,7 +13,11 @@ namespace Macquarie.Handbook.Data.Course
         public string Url { get; set; }
         [JsonProperty("name")]
         public string Name { get; set; }
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("cl_id")]
+#endif
         public string CL_ID { get; set; }
     }
 }

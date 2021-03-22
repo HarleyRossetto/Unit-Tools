@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Macquarie.Handbook.Data.Unit
+namespace Macquarie.Handbook.Data.Unit.Prerequisites
 {
     public class CompoundEnrolmentRule : EnrolmentRule
     {

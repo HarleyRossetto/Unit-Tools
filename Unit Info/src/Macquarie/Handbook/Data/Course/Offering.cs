@@ -1,3 +1,5 @@
+//#define IGNORE_UNNECESSARY
+
 using System;
 using System.Collections.Generic;
 using Macquarie.Handbook.Data.Shared;
@@ -11,7 +13,11 @@ namespace Macquarie.Handbook.Data.Course
         public LabelledValue Mode { get; set; }
         [JsonProperty("admission_calendar")]
         public LabelledValue AdmissionCalendar { get; set; }
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("clarification_to_appear_in_handbook")]
+#endif
         public string ClarificationToAppearInHandbook { get; set; }
         [JsonProperty("start_date", NullValueHandling = NullValueHandling.Ignore)]
         public DateTime? StartDate { get; set; }
@@ -29,9 +35,17 @@ namespace Macquarie.Handbook.Data.Course
         public LabelledValue Status { get; set; }
         [JsonProperty("offered")]
         public bool Offered { get; set; }
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("linking_id")]
+#endif
         public string LinkingId { get; set; }
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("cl_id")]
+#endif
         public string CL_ID { get; set; }
         [JsonProperty("display_name")]
         public string DisplayName { get; set; }
@@ -39,7 +53,11 @@ namespace Macquarie.Handbook.Data.Course
         public LabelledValue Location { get; set; }
         [JsonProperty("name")]
         public string Name { get; set; }
+      #if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("order")]
+#endif
         public string Order { get; set; }
         [JsonProperty("attendance_type")]
         public List<string> AttendanceType { get; set; }

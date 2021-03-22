@@ -4,6 +4,9 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Unit_Info</RootNamespace>
+
+    <DefineConstants>IGNORE_UNNECESSARY</DefineConstants>
+
   </PropertyGroup>
 
   <ItemGroup>

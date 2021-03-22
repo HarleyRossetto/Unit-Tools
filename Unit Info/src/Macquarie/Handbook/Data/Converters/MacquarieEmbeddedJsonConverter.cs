@@ -8,7 +8,7 @@ namespace Macquarie.Handbook.Data.Converters {
     {
         public override T ReadJson(JsonReader reader, Type objectType, [AllowNull] T existingValue, bool hasExistingValue, JsonSerializer serializer) {
             if (reader.Value != null)
-                return JsonConvert.DeserializeObject<T>((string)reader.Value);
+                return MacquarieHandbook.DeserialiseJsonObject<T>((string)reader.Value);
             else {
                 return default(T);
             }

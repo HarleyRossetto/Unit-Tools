@@ -3,6 +3,24 @@
         "NewLinesForBracesInProperties": false,
         "NewLinesForBracesInMethods": false,
         "NewLinesForBracesInAccessors": false,
-        "NewLinesForBracesInControlBlocks": false
+        "NewLinesForBracesInControlBlocks": false,
+        "NewLineForElse": false,
+        "NewLineForCatch": false,
+        "NewLineForFinally": false,
+        "SpaceAfterComma": true,
+        "SpaceAfterColonInBaseTypeDeclaration": true,
+        "SpaceAfterMethodCallName": true,
+        "SpaceBeforeColonInBaseTypeDeclaration": true,
+        "SpaceAfterControlFlowStatementKeyword": true,
+        "SpaceAfterSemicolonsInForStatement": true,
+        "OrganiseImports": true
+    },
+    "RenameOptions": {
+        "RenameInComments": true,
+        "RenameInStrings": false,
+        "RenameOverloads": true
+    },
+    "ImplementTypeOptions": { 
+        "PropertyGenerationBehavior": "PreferAutoProperties"
     }
 }

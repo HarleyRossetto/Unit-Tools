@@ -141,7 +141,7 @@ namespace Macquarie.Handbook.Data.Helpers
                                                                                         element.CharacterRangeInParentString.End.Value - element.CharacterRangeInParentString.Start.Value + 1);
 
                         //Insert reference to group ID
-                        parentElement.GroupString = parentElement.GroupString.Insert(element.CharacterRangeInParentString.Start.Value, "{" + element.ID.ToString() + "}");
+                        parentElement.GroupString = parentElement.GroupString.Insert(element.CharacterRangeInParentString.Start.Value, element.ID.ToString());
 
                         //Reassign.
                         results[element.ParentID] = parentElement;

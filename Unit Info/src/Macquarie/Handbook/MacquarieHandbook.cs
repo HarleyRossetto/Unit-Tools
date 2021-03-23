@@ -72,6 +72,8 @@ namespace Macquarie.Handbook
         }
 
         public static async Task WriteJsonToFile(string json, string file) {
+            if (File.Exists(file))
+                File.Delete(file);
             await File.WriteAllTextAsync(file, json);
         }
     }

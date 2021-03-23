@@ -121,6 +121,7 @@ namespace Macquarie.Handbook.Data.Unit
                 if (value != null) {
                     _enrolmentRules = value;
 
+                    //Sanitise the input.
                     RemoveEscapeSequencesFromPrerequisites();
 
 
@@ -159,6 +160,8 @@ namespace Macquarie.Handbook.Data.Unit
 
             var parentheseGroups = EnrolmentRuleParentheseParser.ParseParentheseGroups(preReqsRaw);
 
+            var hashedStrings = from v in parentheseGroups.Keys
+                                select v.ToString();
 
             var connectorStructureDictionary = new Dictionary<int, Tuple<Connector, ParentheseGroup>>();
 
@@ -166,40 +169,89 @@ namespace Macquarie.Handbook.Data.Unit
                 //If the group cannot be broken down further, we can beging parsing for other
                 //tokens (AND, OR)
                 // if (!group.Value.CanBeBrokenDownFurther) {
-                    Connector result = null;
-                    result = TryParseOrStructure(group.Value);
-                    result = (result == null ? TryParseAndStructure(group.Value) : result);
+                Connector result = null;
+                result = TryParseOrStructure(group.Value);
+                result = (result == null ? TryParseAndStructure(group.Value) : result);
 
-                    if (result != null)
-                        connectorStructureDictionary.Add(group.Value.ID, new Tuple<Connector, ParentheseGroup>(result, group.Value));
-                // }
+                if (result != null)
+                    connectorStructureDictionary.Add(group.Value.ID, new Tuple<Connector, ParentheseGroup>(result, group.Value));
+                else {
+                    result = new Connector() { ConnectionType = ConnectorType.NONE };
+                    result.StringValues.Add(group.Value.GroupString);
+                    connectorStructureDictionary.Add(group.Value.ID, new Tuple<Connector, ParentheseGroup>(result, group.Value));
+                }
             }
 
-            //Add our extracted rules into the units' enrolement rules list.
-            //EnrolmentRules.AddRange(ParseEnrolmentRulesWithRegex(preReqsRaw));
+            //Regex braceExpression = new Regex(@"\{-?(\d{10})\}");
+            Regex hashcodeRegex = new Regex(@"-?\d{8,10}");
+            foreach (var expression in connectorStructureDictionary.Values) {
+                /*
+                    If the expression is in its most basic form, find its parent
+                    and begin rebuilding the sequence as a graph.
+                */
+                if (expression.Item2.CanBeBrokenDownFurther) {
+
+                    //connectorStructureDictionary[expression.Item2.ParentID]
+                    var removeOnCompletion = new List<string>(10);
+                    foreach (var parentIdHash in expression.Item1.StringValues) {
+                        var bracedValue = hashcodeRegex.Match(parentIdHash);
+                        int hashCode = Convert.ToInt32(bracedValue.Value);
+                        expression.Item1.ConnectorValues.Add(connectorStructureDictionary[hashCode].Item1);
+
+                        removeOnCompletion.Add(parentIdHash);
+                    }
+
+                    removeOnCompletion.ForEach(s => expression.Item1.StringValues.Remove(s));
+                }
+            }
+
+            var topLevelConnector = connectorStructureDictionary.Values.Last().Item1;
+            PrintPrereqGraph(topLevelConnector, 0);
+
         }
 
-        private ANDConnector TryParseAndStructure(ParentheseGroup group) {
-            if (group.GroupString.Contains(" and ")) {
-                // int indexOfOr = group.GroupString.IndexOf(" or ");
-                var split = group.GroupString.Split(" and ", 3, StringSplitOptions.TrimEntries);
-
-                if (split.Length >= 2) {
-                    return new ANDConnector() { LefthandSideString = split[0], RighthandSideString = split[1] };
+        private void PrintPrereqGraph(Connector connector, int level) {
+            if (connector.IsMostBasic) {
+                var lastString = connector.StringValues.Last();
+                foreach (var preReqs in connector.StringValues) {
+                    Console.WriteLine(preReqs);
+                    if (preReqs != lastString)
+                        System.Console.WriteLine(level + " " + connector.ConnectionType.ToString());
                 }
+            } else {
+                var lastConnector = connector.ConnectorValues.Last();
+                foreach (var child in connector.ConnectorValues) {
+                    PrintPrereqGraph(child, level++);
+                    if (child != lastConnector)
+                        System.Console.WriteLine(level + " " + connector.ConnectionType.ToString());
+                }
+            }
+        }
+
+        private void WriteNTabs(int n) {
+            for (int i = 0; i < n; i++)
+                Console.Write("\t");
+        }
+
+        private Connector TryParseAndStructure(ParentheseGroup group) {
+            if (group.GroupString.Contains(" and ")) {
+                var split = group.GroupString.Split(" and ", StringSplitOptions.TrimEntries);
+
+                var connector = new Connector() { ConnectionType = ConnectorType.AND };
+                connector.StringValues.AddRange(split);
+                return connector;
 
             }
             return null;
         }
 
-        private ORConnector TryParseOrStructure(ParentheseGroup group) {
+        private Connector TryParseOrStructure(ParentheseGroup group) {
             if (group.GroupString.Contains(" or ")) {
-                // int indexOfOr = group.GroupString.IndexOf(" or ");
-                var split = group.GroupString.Split(" or ", 3, StringSplitOptions.TrimEntries);
+                var split = group.GroupString.Split(" or ", StringSplitOptions.TrimEntries);
 
-                if (split.Length >= 2) {
-                    return new ORConnector() { LefthandSideString = split[0], RighthandSideString = split[1] };
-                }
+                 var connector = new Connector() { ConnectionType = ConnectorType.OR };
+                connector.StringValues.AddRange(split);
+                return connector;
 
             }
             return null;
@@ -328,29 +380,33 @@ namespace Macquarie.Handbook.Data.Unit
     #endregion
 }
 
-public abstract class Connector
+public class Connector
 {
-    public static string DELINEATOR { get; protected set; }
-    public string LefthandSideString { get; set; }
-    public Connector LefthandSide { get; set; }
-    public string RighthandSideString { get; set; }
-    public Connector RighthandSide { get; set; }
+    public ConnectorType ConnectionType { get; init; }
+    public List<string> StringValues { get; set; } = new List<string>(2);
+    public List<Connector> ConnectorValues { get; set; } = new List<Connector>(2);
 
+    
     public bool IsMostBasic {
         get {
-            return LefthandSide == null && RighthandSide == null;
+            if (ConnectorValues == null) {
+                return false;
+            } else {
+                return ConnectorValues.Count == 0;
+            }
         }
+    }
+
+    public override string ToString() {
+        return "Connector: " + ConnectionType.ToString();
     }
 }
 
-public class ANDConnector : Connector
+public enum ConnectorType
 {
-    static ANDConnector() { DELINEATOR = " and "; }
-}
-
-public class ORConnector : Connector
-{
-    static ORConnector() { DELINEATOR = " or "; }
+    AND,
+    OR,
+    NONE
 }
 
 #region  OLD_CODE_PROB_WONT_REUSE

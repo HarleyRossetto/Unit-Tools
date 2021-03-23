@@ -1,0 +1,92 @@
+{
+    "ConnectionType": "OR",
+    "StringValues": [],
+    "ConnectorValues": [
+        {
+            "ConnectionType": "AND",
+            "StringValues": [],
+            "ConnectorValues": [
+                {
+                    "ConnectionType": "NONE",
+                    "StringValues": [
+                        "Admission to BEd(Prim)"
+                    ],
+                    "ConnectorValues": [],
+                    "IsMostBasic": true
+                },
+                {
+                    "ConnectionType": "OR",
+                    "StringValues": [
+                        "EDUC258",
+                        "EDUC2580"
+                    ],
+                    "ConnectorValues": [],
+                    "IsMostBasic": true
+                },
+                {
+                    "ConnectionType": "OR",
+                    "StringValues": [
+                        "EDUC260",
+                        "EDUC2600"
+                    ],
+                    "ConnectorValues": [],
+                    "IsMostBasic": true
+                },
+                {
+                    "ConnectionType": "OR",
+                    "StringValues": [
+                        "EDUC267",
+                        "EDUC2670"
+                    ],
+                    "ConnectorValues": [],
+                    "IsMostBasic": true
+                }
+            ],
+            "IsMostBasic": false
+        },
+        {
+            "ConnectionType": "AND",
+            "StringValues": [],
+            "ConnectorValues": [
+                {
+                    "ConnectionType": "OR",
+                    "StringValues": [
+                        "EDUC258",
+                        "EDUC2580"
+                    ],
+                    "ConnectorValues": [],
+                    "IsMostBasic": true
+                },
+                {
+                    "ConnectionType": "OR",
+                    "StringValues": [
+                        "EDUC260",
+                        "EDUC2600"
+                    ],
+                    "ConnectorValues": [],
+                    "IsMostBasic": true
+                },
+                {
+                    "ConnectionType": "OR",
+                    "StringValues": [
+                        "EDUC267",
+                        "EDUC2670"
+                    ],
+                    "ConnectorValues": [],
+                    "IsMostBasic": true
+                },
+                {
+                    "ConnectionType": "OR",
+                    "StringValues": [
+                        "EDTE353",
+                        "EDTE3530"
+                    ],
+                    "ConnectorValues": [],
+                    "IsMostBasic": true
+                }
+            ],
+            "IsMostBasic": false
+        }
+    ],
+    "IsMostBasic": false
+}

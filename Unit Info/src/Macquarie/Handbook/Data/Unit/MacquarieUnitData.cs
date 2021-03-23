@@ -8,6 +8,7 @@ using System.Text.RegularExpressions;
 using System.Linq;
 using Macquarie.Handbook.Data.Unit.Prerequisites;
 using Macquarie.Handbook.Data.Helpers;
+using System.Threading.Tasks;
 
 namespace Macquarie.Handbook.Data.Unit
 {
@@ -206,6 +207,14 @@ namespace Macquarie.Handbook.Data.Unit
             }
 
             var topLevelConnector = connectorStructureDictionary.Values.Last().Item1;
+
+
+            var task = new Task(() =>
+            {
+                MacquarieHandbook.SerialiseObjectToFile(topLevelConnector, $"data/parsed/prerequisites/{Code}.json");
+            });
+            task.Start();
+
             PrintPrereqGraph(topLevelConnector, 0);
 
         }

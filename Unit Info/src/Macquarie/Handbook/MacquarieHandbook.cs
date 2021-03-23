@@ -55,7 +55,8 @@ namespace Macquarie.Handbook
         }
 
         public static string SerialiseObject(object obj) {
-            return JsonConvert.SerializeObject(obj, new StringEnumConverter());
+            return JsonConvert.SerializeObject(obj, Formatting.Indented, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore, Converters = {new StringEnumConverter()}});
+//            return JsonConvert.SerializeObject(obj, Formatting.Indented, new StringEnumConverter());
         }
 
         public static async Task SerialiseObjectToFile(object obj, string file) {

@@ -207,6 +207,7 @@ namespace Macquarie.Handbook.Data.Unit
             }
 
             var topLevelConnector = connectorStructureDictionary.Values.Last().Item1;
+            topLevelConnector.OriginalString = preReqsRaw.First().Description;
 
             MacquarieHandbook.SerialiseObjectToFile(topLevelConnector, $"data/parsed/prerequisites/{Code}.json");
 
@@ -386,11 +387,13 @@ namespace Macquarie.Handbook.Data.Unit
 
 public class Connector
 {
+    public string OriginalString { get; set; }
     public ConnectorType ConnectionType { get; init; }
     public List<string> StringValues { get; set; } = new List<string>(2);
     public List<Connector> ConnectorValues { get; set; } = new List<Connector>(2);
 
 
+    [JsonIgnore]
     public bool IsMostBasic {
         get {
             if (ConnectorValues == null) {

@@ -1,92 +1,82 @@
 {
-    "ConnectionType": "OR",
-    "StringValues": [],
-    "ConnectorValues": [
+  "OriginalString": "(Admission to BEd(Prim) and (EDUC258 or EDUC2580) and (EDUC260 or EDUC2600) and (EDUC267 or EDUC2670)) or (130cp including (EDUC258 or EDUC2580) and (EDUC260 or EDUC2600) and (EDUC267 or EDUC2670) and (EDTE353 or EDTE3530))",
+  "ConnectionType": "OR",
+  "StringValues": [],
+  "ConnectorValues": [
+    {
+      "ConnectionType": "AND",
+      "StringValues": [],
+      "ConnectorValues": [
         {
-            "ConnectionType": "AND",
-            "StringValues": [],
-            "ConnectorValues": [
-                {
-                    "ConnectionType": "STATEMENT",
-                    "StringValues": [
-                        "Admission to BEd(Prim)"
-                    ],
-                    "ConnectorValues": [],
-                    "IsMostBasic": true
-                },
-                {
-                    "ConnectionType": "OR",
-                    "StringValues": [
-                        "EDUC258",
-                        "EDUC2580"
-                    ],
-                    "ConnectorValues": [],
-                    "IsMostBasic": true
-                },
-                {
-                    "ConnectionType": "OR",
-                    "StringValues": [
-                        "EDUC260",
-                        "EDUC2600"
-                    ],
-                    "ConnectorValues": [],
-                    "IsMostBasic": true
-                },
-                {
-                    "ConnectionType": "OR",
-                    "StringValues": [
-                        "EDUC267",
-                        "EDUC2670"
-                    ],
-                    "ConnectorValues": [],
-                    "IsMostBasic": true
-                }
-            ],
-            "IsMostBasic": false
+          "ConnectionType": "STATEMENT",
+          "StringValues": [
+            "Admission to BEd(Prim)"
+          ],
+          "ConnectorValues": []
         },
         {
-            "ConnectionType": "AND",
-            "StringValues": [],
-            "ConnectorValues": [
-                {
-                    "ConnectionType": "OR",
-                    "StringValues": [
-                        "EDUC258",
-                        "EDUC2580"
-                    ],
-                    "ConnectorValues": [],
-                    "IsMostBasic": true
-                },
-                {
-                    "ConnectionType": "OR",
-                    "StringValues": [
-                        "EDUC260",
-                        "EDUC2600"
-                    ],
-                    "ConnectorValues": [],
-                    "IsMostBasic": true
-                },
-                {
-                    "ConnectionType": "OR",
-                    "StringValues": [
-                        "EDUC267",
-                        "EDUC2670"
-                    ],
-                    "ConnectorValues": [],
-                    "IsMostBasic": true
-                },
-                {
-                    "ConnectionType": "OR",
-                    "StringValues": [
-                        "EDTE353",
-                        "EDTE3530"
-                    ],
-                    "ConnectorValues": [],
-                    "IsMostBasic": true
-                }
-            ],
-            "IsMostBasic": false
+          "ConnectionType": "OR",
+          "StringValues": [
+            "EDUC258",
+            "EDUC2580"
+          ],
+          "ConnectorValues": []
+        },
+        {
+          "ConnectionType": "OR",
+          "StringValues": [
+            "EDUC260",
+            "EDUC2600"
+          ],
+          "ConnectorValues": []
+        },
+        {
+          "ConnectionType": "OR",
+          "StringValues": [
+            "EDUC267",
+            "EDUC2670"
+          ],
+          "ConnectorValues": []
         }
-    ],
-    "IsMostBasic": false
+      ]
+    },
+    {
+      "ConnectionType": "AND",
+      "StringValues": [],
+      "ConnectorValues": [
+        {
+          "ConnectionType": "OR",
+          "StringValues": [
+            "EDUC258",
+            "EDUC2580"
+          ],
+          "ConnectorValues": []
+        },
+        {
+          "ConnectionType": "OR",
+          "StringValues": [
+            "EDUC260",
+            "EDUC2600"
+          ],
+          "ConnectorValues": []
+        },
+        {
+          "ConnectionType": "OR",
+          "StringValues": [
+            "EDUC267",
+            "EDUC2670"
+          ],
+          "ConnectorValues": []
+        },
+        {
+          "ConnectionType": "OR",
+          "StringValues": [
+            "EDTE353",
+            "EDTE3530"
+          ],
+          "ConnectorValues": []
+        }
+      ]
+    }
+  ]
 }

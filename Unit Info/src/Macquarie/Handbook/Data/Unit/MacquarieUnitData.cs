@@ -177,14 +177,14 @@ namespace Macquarie.Handbook.Data.Unit
                 if (result != null)
                     connectorStructureDictionary.Add(group.Value.ID, new Tuple<Connector, ParentheseGroup>(result, group.Value));
                 else {
-                    result = new Connector() { ConnectionType = ConnectorType.NONE };
+                    result = new Connector() { ConnectionType = ConnectorType.STATEMENT };
                     result.StringValues.Add(group.Value.GroupString);
                     connectorStructureDictionary.Add(group.Value.ID, new Tuple<Connector, ParentheseGroup>(result, group.Value));
                 }
             }
 
             //Regex braceExpression = new Regex(@"\{-?(\d{10})\}");
-            Regex hashcodeRegex = new Regex(@"-?\d{8,10}");
+            Regex hashcodeRegex = new Regex(@"-?\d{6,10}"); // USING HASHCODE IS TERRIBLE IDEA. CHANGE TO A BETTER METHOD.
             foreach (var expression in connectorStructureDictionary.Values) {
                 /*
                     If the expression is in its most basic form, find its parent
@@ -208,12 +208,7 @@ namespace Macquarie.Handbook.Data.Unit
 
             var topLevelConnector = connectorStructureDictionary.Values.Last().Item1;
 
-
-            var task = new Task(() =>
-            {
-                MacquarieHandbook.SerialiseObjectToFile(topLevelConnector, $"data/parsed/prerequisites/{Code}.json");
-            });
-            task.Start();
+            MacquarieHandbook.SerialiseObjectToFile(topLevelConnector, $"data/parsed/prerequisites/{Code}.json");
 
             PrintPrereqGraph(topLevelConnector, 0);
 
@@ -258,7 +253,7 @@ namespace Macquarie.Handbook.Data.Unit
             if (group.GroupString.Contains(" or ")) {
                 var split = group.GroupString.Split(" or ", StringSplitOptions.TrimEntries);
 
-                 var connector = new Connector() { ConnectionType = ConnectorType.OR };
+                var connector = new Connector() { ConnectionType = ConnectorType.OR };
                 connector.StringValues.AddRange(split);
                 return connector;
 
@@ -395,7 +390,7 @@ public class Connector
     public List<string> StringValues { get; set; } = new List<string>(2);
     public List<Connector> ConnectorValues { get; set; } = new List<Connector>(2);
 
-    
+
     public bool IsMostBasic {
         get {
             if (ConnectorValues == null) {
@@ -415,7 +410,8 @@ public enum ConnectorType
 {
     AND,
     OR,
-    NONE
+    NONE,
+    STATEMENT
 }
 
 #region  OLD_CODE_PROB_WONT_REUSE

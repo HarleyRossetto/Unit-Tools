@@ -8,7 +8,6 @@ using System.Text.RegularExpressions;
 using System.Linq;
 using Macquarie.Handbook.Data.Unit.Prerequisites;
 using Macquarie.Handbook.Data.Helpers;
-using System.Threading.Tasks;
 
 namespace Macquarie.Handbook.Data.Unit
 {
@@ -141,6 +140,7 @@ namespace Macquarie.Handbook.Data.Unit
         [JsonProperty("subject_search_title")]
         public string SubjectSearchTitle { get; set; }
 
+
         private void RemoveEscapeSequencesFromPrerequisites() {
             foreach (var item in EnrolmentRules) {
                 if (item.Type.Value == "prerequisite" && (item.Description.Contains("\n") || item.Description.Contains("\t"))) {
@@ -217,7 +217,7 @@ namespace Macquarie.Handbook.Data.Unit
                 var topLevelConnector = connectorStructureDictionary.Values.Last().Item1;
                 topLevelConnector.OriginalString = preReqsRaw.First().Description;
 
-                MacquarieHandbook.SerialiseObjectToFile(topLevelConnector, $"data/parsed/prerequisites/{Code}.json");
+                MacquarieHandbook.SerialiseObjectToJsonFile(topLevelConnector, $"data/parsed/prerequisites/{Code}.json");
 
                 PrintPrereqGraph(topLevelConnector, 0);
             }
@@ -254,30 +254,6 @@ namespace Macquarie.Handbook.Data.Unit
                 var connector = new Connector() { ConnectionType = type };
                 connector.StringValues.AddRange(split);
                 return connector;
-            }
-            return null;
-        }
-
-        private Connector TryParseAndStructure(ParentheseGroup group) {
-            if (group.GroupString.Contains(" and ")) {
-                var split = group.GroupString.Split(" and ", StringSplitOptions.TrimEntries);
-
-                var connector = new Connector() { ConnectionType = ConnectorType.AND };
-                connector.StringValues.AddRange(split);
-                return connector;
-
-            }
-            return null;
-        }
-
-        private Connector TryParseOrStructure(ParentheseGroup group) {
-            if (group.GroupString.Contains(" or ")) {
-                var split = group.GroupString.Split(" or ", StringSplitOptions.TrimEntries);
-
-                var connector = new Connector() { ConnectionType = ConnectorType.OR };
-                connector.StringValues.AddRange(split);
-                return connector;
-
             }
             return null;
         }

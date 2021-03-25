@@ -8,6 +8,7 @@ using System.Text.RegularExpressions;
 using System.Linq;
 using Macquarie.Handbook.Data.Unit.Prerequisites;
 using Macquarie.Handbook.Data.Helpers;
+using static Macquarie.JSON.JsonSerialisationHelper;
 
 namespace Macquarie.Handbook.Data.Unit
 {
@@ -217,7 +218,7 @@ namespace Macquarie.Handbook.Data.Unit
                 var topLevelConnector = connectorStructureDictionary.Values.Last().Item1;
                 topLevelConnector.OriginalString = preReqsRaw.First().Description;
 
-                MacquarieHandbook.SerialiseObjectToJsonFile(topLevelConnector, $"data/parsed/prerequisites/{Code}.json");
+                SerialiseObjectToJsonFile(topLevelConnector, $"data/parsed/prerequisites/{Code}.json");
 
                 PrintPrereqGraph(topLevelConnector, 0);
             }

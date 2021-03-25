@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Unit_Info.JSON
+namespace Macquarie.JSON
 {
     public static class JsonSerialisationHelper
     {

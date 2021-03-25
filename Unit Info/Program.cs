@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
 
-using static Unit_Info.JSON.JsonSerialisationHelper;
+using static Macquarie.JSON.JsonSerialisationHelper;
 
 using Macquarie.Handbook;
 using Macquarie.Handbook.Data;
@@ -105,7 +105,7 @@ namespace Unit_Info
 
             if (courseCollection.Collection.Count > 0) {
                 var enumerable = courseCollection.Collection.AsEnumerable().OrderBy(crs => crs.Code).GroupBy(crs => crs.CourseData.School.Value);
-                await SerialiseObject(enumerable, "data/courses/Macquarie_Courses");
+                await SerialiseObjectToJsonFile(enumerable, "data/courses/Macquarie_Courses");
 
                 Console.WriteLine("{0} milliseconds for {1} course query & deserialisation.", sw.ElapsedMilliseconds, courseCollection.Count);
             }
@@ -128,7 +128,7 @@ namespace Unit_Info
             //var enumerable = unitCollection.Collection.AsEnumerable().OrderBy(unit => unit.Code).GroupBy(unit => unit.UnitData.School.Value);
             
             foreach (var unit in unitCollection.Collection) {
-                await SerialiseObject(unit, $"data/units/{unit.Code}");
+                await SerialiseObjectToJsonFile(unit, $"data/units/{unit.Code}");
             }
             
             //await WriteObjectToJsonFile(enumerable, "data/Macquarie_Units");

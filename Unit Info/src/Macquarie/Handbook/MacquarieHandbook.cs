@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Macquarie.Handbook.Data;
 using Macquarie.Handbook.Data.Shared;
 using Macquarie.Handbook.WebApi;
-using static Unit_Info.JSON.JsonSerialisationHelper;
+using static Macquarie.JSON.JsonSerialisationHelper;
 
 namespace Macquarie.Handbook
 {

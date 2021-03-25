@@ -31,6 +31,7 @@ namespace Macquarie.Handbook
         }
 
         public static async Task<string> DownloadString(string url) {
+            Console.WriteLine(url);
             var response = await httpClient.GetAsync(url);
             return await response.Content.ReadAsStringAsync();
         }

@@ -41,7 +41,11 @@ namespace Macquarie.Handbook.Data.Shared
         public string LO_CL_ID { get; set; }
         [JsonProperty("code")]
         public string Code { get; set; }
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#else
         [JsonProperty("academic_item")]
+#endif
         public KeyValueIdType AcademicItem { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]

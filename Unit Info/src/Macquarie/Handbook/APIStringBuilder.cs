@@ -7,81 +7,97 @@ namespace Macquarie.Handbook.WebApi
     {
         protected StringBuilder API_STRING = new StringBuilder(250);
 
-        private string _code = "NO_CODE";
-        public string Code
-        {
+        private string _code = null;
+        public string Code {
             get { return _code; }
-            set { 
+            set {
                 if (value != null)
-                    _code = value;                             
+                    _code = value;
             }
         }
-        
-        
-        public int ImplementationYear { get; set; } = -1;
-        public int Limit { get; set; } = -1;
 
-        public abstract override string ToString();
-        public abstract void Reset();
-    }
-    
-    public class UnitApiRequestBuilder : HandbookApiRequestBuilder
-    {
-       // private const string BASE_API_STRING = "https://coursehandbook.mq.edu.au/api/content/render/false/query/+contentType:mq2_psubject";
-        private const string BASE_API_STRING = "https://macquarie-prod-handbook.factor5-curriculum.com.au/api/content/render/false/query/+contentType:mq2_psubject";
+        protected string BASE_API_STRING { get; set; } = null;
+        public int? ImplementationYear { get; set; } = null;
+        public int? Limit { get; set; } = null;
 
-
-        public override void Reset()
-        {
-            Code = "NO_CODE";
-            ImplementationYear = -1;
-            Limit = -1;
+        public HandbookApiRequestBuilder() {
+            BASE_API_STRING = GetBaseAPIString();
         }
 
-        public override string ToString()
-        {               
+        public HandbookApiRequestBuilder(string code, int? implementationYear) : this() {
+            Code = code;
+            ImplementationYear = implementationYear;
+        }
+
+        protected abstract string GetBaseAPIString();
+        protected abstract string GetRequestHeader();
+
+        public override string ToString() {
+            //if (Code == null || Code.Length == 0)
+                //return "127.0.0.1";
+
+
             API_STRING.Clear();
             API_STRING.Append(BASE_API_STRING);
 
-            if (ImplementationYear != -1) {
-                API_STRING.AppendFormat("%20+mq2_psubject.implementationYear:{0}", ImplementationYear);
+            if (ImplementationYear != null) {
+                API_STRING.Append($"%20+{GetRequestHeader()}.implementationYear:{ImplementationYear}");
             }
-            if (Code != "NO_CODE") {
-                API_STRING.AppendFormat("%20+mq2_psubject.code:{0}", Code);
+            if (Code != null) {
+                API_STRING.Append($"%20+{GetRequestHeader()}.code:{Code}");
             }
-            if (Limit != -1) {
-                API_STRING.AppendFormat("/limit/{0}", Limit);
+            if (Limit != null) {
+                API_STRING.Append($"/limit/{Limit}");
             }
             return API_STRING.ToString();
+        }
+        public virtual void Reset() {
+            Code = null;
+            ImplementationYear = null;
+            Limit = null;
+        }
+    }
+
+    public class UnitApiRequestBuilder : HandbookApiRequestBuilder
+    {
+
+        public UnitApiRequestBuilder() : base() { }
+
+        public UnitApiRequestBuilder(string unitCode) : base(unitCode, DateTime.Now.Year) { }
+
+        public UnitApiRequestBuilder(string unitCode, int? implementationYear) : base(unitCode, implementationYear) { }
+
+        public override void Reset() {
+            base.Reset();
+        }
+        protected override string GetRequestHeader() {
+            return "mq2_psubject";
+        }
+
+        protected override string GetBaseAPIString() {
+            //"https://coursehandbook.mq.edu.au/api/content/render/false/query/+contentType:mq2_psubject";
+            return "https://macquarie-prod-handbook.factor5-curriculum.com.au/api/content/render/false/query/+contentType:mq2_psubject";
         }
     }
 
     public class CourseApiRequestBuilder : HandbookApiRequestBuilder
     {
-        private const string BASE_API_STRING = "https://macquarie-prod-handbook.factor5-curriculum.com.au/api/content/render/false/query/+contentType:mq2_pcourse";
+        public CourseApiRequestBuilder() : base() { }
 
-        public override void Reset()
-        {
-            Code = "NO_CODE";
-            ImplementationYear = -1;
-            Limit = -1;
+        public CourseApiRequestBuilder(string unitCode) : base(unitCode, DateTime.Now.Year) { }
+
+        public CourseApiRequestBuilder(string unitCode, int? implementationYear) : base(unitCode, implementationYear) { }
+
+        public override void Reset() {
+            base.Reset();
         }
 
-        public override string ToString()
-        {                    
-            API_STRING.Clear();
-            API_STRING.Append(BASE_API_STRING);
+        protected override string GetBaseAPIString() {
+            return "https://macquarie-prod-handbook.factor5-curriculum.com.au/api/content/render/false/query/+contentType:mq2_pcourse";
+        }
 
-            if (ImplementationYear != -1) {
-                API_STRING.AppendFormat("%20+mq2_pcourse.implementationYear:{0}", ImplementationYear);
-            }
-            if (Code != "NO_CODE") {
-                API_STRING.AppendFormat("%20+mq2_pcourse.code:{0}", Code);
-            }
-            if (Limit != -1) {
-                API_STRING.AppendFormat("/limit/{0}", Limit);
-            }
-            return API_STRING.ToString();
+        protected override string GetRequestHeader() {
+            return "mq2_pcourse";
         }
     }
 }

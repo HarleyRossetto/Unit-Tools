@@ -1,9 +1,9 @@
 //#define WRITE_ALL_JSON_TO_DISK
 
 using System;
-using System.IO;
 using System.Net.Http;
 using System.Threading.Tasks;
+
 using Macquarie.Handbook.Data;
 using Macquarie.Handbook.Data.Shared;
 using Macquarie.Handbook.WebApi;
@@ -15,15 +15,7 @@ namespace Macquarie.Handbook
     {
         static readonly HttpClient httpClient = new HttpClient();
 
-        static MacquarieHandbook() {
-            if (!Directory.Exists("data/"))
-                Directory.CreateDirectory("data/");
-        }
-
-        public static TimeSpan WebRequestTimeout {
-            get { return httpClient.Timeout; }
-            set { httpClient.Timeout = value; }
-        }
+        public static TimeSpan WebRequestTimeout { get => httpClient.Timeout; set => httpClient.Timeout = value; }
 
         public static async Task<string> DownloadString(HandbookApiRequestBuilder apiRequest) {
             return await DownloadString(apiRequest.ToString());
@@ -34,16 +26,56 @@ namespace Macquarie.Handbook
             var response = await httpClient.GetAsync(url);
             return await response.Content.ReadAsStringAsync();
         }
-        public static async Task<MacquarieDataResponseCollection<T>> GetDataResponseCollection<T>(HandbookApiRequestBuilder apiRequest) where T : MacquarieMetadata {
-            return await GetDataResponseCollection<T>(apiRequest.ToString());
+        public static async Task<MacquarieDataCollection<T>> GetCMSDataCollection<T>(HandbookApiRequestBuilder apiRequest) where T : MacquarieMetadata {
+            return await GetCMSDataCollection<T>(apiRequest.ToString());
         }
 
-        public static async Task<MacquarieDataResponseCollection<T>> GetDataResponseCollection<T>(string url) where T : MacquarieMetadata {
-            return DeserialiseJsonObject<MacquarieDataResponseCollection<T>>(await DownloadString(url));
+        public static async Task<MacquarieDataCollection<T>> GetCMSDataCollection<T>(string url) where T : MacquarieMetadata {
+            return DeserialiseJsonObject<MacquarieDataCollection<T>>(await DownloadString(url));
         }
 
-        public static async Task<MacquarieDataResponseCollection<MacquarieUnit>> GetUnitCollectionResponse(UnitApiRequestBuilder apiRequest) {
-            return await GetDataResponseCollection<MacquarieUnit>(apiRequest);
+        public static async Task<MacquarieUnit> GetUnit(string unitCode, int? implementationYear = null) {
+            HandbookApiRequestBuilder apiRequest = new UnitApiRequestBuilder(unitCode, implementationYear);
+            var unitResultsCollection = await GetCMSDataCollection<MacquarieUnit>(apiRequest);
+
+            //The JSON returned from the request is always a list, even if just one value.
+            //CMS requests through this function should only every return 1 value.
+            if (unitResultsCollection.Count == 1) {
+                return unitResultsCollection[0];
+            } else {
+                return null;
+            }
+        }
+
+        public static async Task<MacquarieDataCollection<MacquarieUnit>> GetAllUnits(int? implementationYear = null, int limit = 3000) {
+            if (implementationYear == null)
+                implementationYear = DateTime.Now.Year;
+
+            var apiRequest = new UnitApiRequestBuilder() { ImplementationYear = implementationYear, Limit = limit };
+
+            return await GetCMSDataCollection<MacquarieUnit>(apiRequest);
+        }
+
+        public static async Task<MacquarieCourse> GetCourse(string courseCode, int? implementationYear = null) {
+              HandbookApiRequestBuilder apiRequest = new CourseApiRequestBuilder(courseCode, implementationYear);
+            var courseResultsCollection = await GetCMSDataCollection<MacquarieCourse>(apiRequest);
+
+            //The JSON returned from the request is always a list, even if just one value.
+            //CMS requests through this function should only every return 1 value.
+            if (courseResultsCollection.Count == 1) {
+                return courseResultsCollection[0];
+            } else {
+                return null;
+            }
+        }
+
+        public static async Task<MacquarieDataCollection<MacquarieCourse>> GetAllCourses(int? implementationYear = null, int limit = 3000) {
+            if (implementationYear == null)
+                implementationYear = DateTime.Now.Year;
+
+            var apiRequest = new CourseApiRequestBuilder() { ImplementationYear = implementationYear, Limit = limit };
+
+            return await GetCMSDataCollection<MacquarieCourse>(apiRequest);
         }
     }
 }

@@ -1,0 +1,230 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "<strong>Appraise policy interventions designed to improve the well-being of the poor.</strong>",
+        "code": "ULO3"
+      },
+      {
+        "description": "<strong>Evaluate the evidence that show how economic agents make decisions, and the impact this has on their well-being.</strong>",
+        "code": "ULO1"
+      },
+      {
+        "description": "<strong>Critically analyse the pursuit of the Sustainable Development Goals in low-income countries.</strong>",
+        "code": "ULO4"
+      },
+      {
+        "description": "<strong>Assess the impact on the well-being of the poor arising from the institutions that govern their lives.</strong>",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "The unit relies on independent learning through preparation prior to attending class. Preparation include reading prescribed articles and other relevant online material each week.  ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECON632 or ECON6032 or ECON633 or ECON6033 or ECON649 or ECON6049 or ECON991 or ECON8091 or admission to MPH or MSusDev",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECON857",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam Online",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "The 2-hour open book online final exam, which addresses the material discussed in the second part of the unit, will be held during the University Examination Period on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Discussion",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "Three times throughout the session, students will choose to prepare for an online discussion through the discussion forum on iLearn. Each task is worth 10% of the overall mark for the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Project",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "This assessment involves students undertaking an individual research project chosen from a set of topics. This mid session project consists of a 1,500-word essay (excluding tables, diagrams and reference list).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Discussion",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "Three times throughout the session, students will choose to prepare for an in class discussion or submit a written discussion piece, in the style of a mini essay, that accompanies the prescribed readings. Each task is worth 10% of the overall mark for the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "The 2-hour open book final exam, which addresses the material discussed in the second part of the unit, will be held during the University Examination Period. Students are permitted to take one A4 sheet of notes (written or typed) into the exam room. More details about the exam will be provided near the end of the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECON8057-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON8057"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECON8057-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON8057"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ECON8057 - Economic Development",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Economics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to give students a critical understanding of the inherent problems facing developing countries. The focus is on the research that provides insights into the constraints and decisions of the poor and the implications for practical and achievable policy interventions that improves the lives of the poor. The range of topics covered includes the poverty trap, nutrition, health, how families make decisions on issues such as fertility and gender; how the poor make decisions about education; and the general failure of the market and institutions including credit, savings and insurance markets in providing services to the poor and fostering economic development.",
+    "search_title": "ECON8057 - Economic Development",
+    "code": "ECON8057",
+    "title": "Economic Development",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to give students a critical understanding of the inherent problems facing developing countries. The focus is on the research that provides insights into the constraints and decisions of the poor and the implications for practical and achievable policy interventions that improves the lives of the poor. The range of topics covered includes the poverty trap, nutrition, health, how families make decisions on issues such as fertility and gender; how the poor make decisions about education; and the general failure of the market and institutions including credit, savings and insurance markets in providing services to the poor and fostering economic development.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T13:54:13.249",
+  "code": "ECON8057",
+  "title": "Economic Development",
+  "implementationYear": "2021"
+}

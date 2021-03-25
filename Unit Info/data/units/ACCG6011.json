@@ -1,0 +1,250 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain the purpose of accounting and accounting processes and appreciate the role of accounting in business sustainability and ethical decision making. ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Explain the value of internal control and management’s responsibility in relation to it and apply internal control principles to the sales and purchases cycles and the cash guarding procedure.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Undertake basic analysis of the financial statements of organisations, through ratio analysis.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify, record and process business transactions in the accounting system and report their effect by preparing structured financial statements.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Calculate and describe the use of cost–volume–profit (CVP) analysis in management decision making.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "The unit relies on independent learning where students revise seminar notes and readings from the textbook.  Class preparation enables students to enjoy a productive and meaningful learning experience during seminars.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MAccg or MAccLead or MBioBus or MCom or MIntBus or GradCertForAccg or GradDipForAccg or MForAccgFinCri or MProfAcc or MProfAccgLead or MBusAnalytics",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ACCG611",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A 2-hour online final examination will be held during the University Examination period. Students are expected to access the exam online at the time designated in the University Examination Timetable.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Tests x2",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Students are required to attempt one (1) multiple-choice quiz (worth 10%) and one (1) class test comprising of short answer questions (worth 20%). The quiz will be held at the beginning of the session and serve as an early diagnostic indicator of student performance. The class test will be held closer to the end of the session and serves to help students measure and monitor their progress, in preparation for the final exam.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Xero assignment",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "15",
+        "description": "This assignment is designed to prepare students with the accounting software skills they need to work in a modern day practice. Through the completion of an accounting cycle for a fictional business, students will gain experience in the practical and technical skills essential to accounting.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Virtual experience program",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "5",
+        "description": "The virtual experience program is designed to develop students&#39; work-readiness skills that enable students to transition effectively into the world of work. Students are required to write FIVE (5) journal entries at different stages of the virtual experience program to reflect on their experience in the program.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACCG6011-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG6011"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG6011-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG6011"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG6011-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG6011"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG6011-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG6011"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG6011 - Principles of Accounting",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students with a graduate-level understanding of accounting as a business process of recording, measuring, classifying and reporting economic, financial and other related information and transactions for use by a variety of stakeholders. Students completing this unit are expected to be able to prepare, analyse and discuss financial reports in various business contexts. Classes cover the core aspects of the preparation and basic analysis of financial statements and the underlying accounting policies and principles.",
+    "search_title": "ACCG6011 - Principles of Accounting",
+    "code": "ACCG6011",
+    "title": "Principles of Accounting",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides students with a graduate-level understanding of accounting as a business process of recording, measuring, classifying and reporting economic, financial and other related information and transactions for use by a variety of stakeholders. Students completing this unit are expected to be able to prepare, analyse and discuss financial reports in various business contexts. Classes cover the core aspects of the preparation and basic analysis of financial statements and the underlying accounting policies and principles.",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T13:11:43.938",
+  "code": "ACCG6011",
+  "title": "Principles of Accounting",
+  "implementationYear": "2021"
+}

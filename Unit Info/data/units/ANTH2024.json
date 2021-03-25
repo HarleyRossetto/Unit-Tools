@@ -1,0 +1,258 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse and interpret assumptions about other cultures and cultural differences and what is considered ‘natural’ or ‘normal’ human experience.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate an ability to analyse the cultural construction of abnormality and difference within public representations of culture, madness and deviance.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Demonstrate an ability to analyse and interpret the significance and impact of medicalisation, labelling and stigmatisation.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Analyse comparative ethnographic perspectives on themes related to culture and madness, disorder, deviance, addictions, and mental health.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply critical analytic skills to discover how desire and deviance transcend individual bodies and are incited, monitored and regulated within the social body and the body politic.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify and analyse the social and cultural factors that make madness a powerful metaphor and site of surveillance within societies.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate command of anthropological knowledge and theories related to normality, abnormality, and how social difference is constructed and managed within particular social, cultural, political, and environmental contexts.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "study and understanding the readings and lectures ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "preparation for online tutorial activity and Echo recording lectures ",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": "Session 1-Online"
+      },
+      {
+        "description": "Tutorials and lectures preparation ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 1-Weekday-North Ryde"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(ANTH150 or ANTH1050) or 40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ANTH224",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Take-home exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Take-home written exam",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Online Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "A final quiz (multiple choice and/or short answer) that will be completed online.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Tutorial Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Active attendance and engagement with lecture and tutorial materials for on campus students in class. Active attendance and engagement with lecture and tutorial materials via the discussion forums in iLearn for online students.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Midterm Quiz (online)",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "A quiz (multiple choice and/or short answer) that will be completed online.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ANTH2024-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH2024"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ANTH2024-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH2024"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ANTH2024-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH2024"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "ANTH2024 - Mad, Bad, Sad: Cross Cultural Perspectives",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "How do cultures in different parts of the world determine and understand who is mad, bad or sad? Madness, deviance and other forms of social difference are cultural constructs that vary considerably across both historical period and cultural context. Moreover, these ideas have profound moral implications that become dramatically entwined with people&#39;s lived experience, as well as broader socio-political structures. We examine the cultural and social construction of normality, with a focus on what happens when people find themselves outside these bounds. We will explore comparative perspectives on social structures and individual experiences and meaning, examining themes such as &#39;sanity&#39;, mental illness and culture, melancholy and depression, emotions, sexuality, gender norms, and their transgressions. Throughout, we will focus on the social processes of labeling, representation, medicalisation, and stigmatisation associated with these experiences. Ultimately, students will come to understand how difference is constructed and embodied, and become aware of how deviance is surveilled, managed, and constrained in a variety of cultural contexts.",
+    "search_title": "ANTH2024 - Mad, Bad, Sad: Cross Cultural Perspectives",
+    "code": "ANTH2024",
+    "title": "Mad, Bad, Sad: Cross Cultural Perspectives",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "How do cultures in different parts of the world determine and understand who is mad, bad or sad? Madness, deviance and other forms of social difference are cultural constructs that vary considerably across both historical period and cultural context. Moreover, these ideas have profound moral implications that become dramatically entwined with people&#39;s lived experience, as well as broader socio-political structures. We examine the cultural and social construction of normality, with a focus on what happens when people find themselves outside these bounds. We will explore comparative perspectives on social structures and individual experiences and meaning, examining themes such as &#39;sanity&#39;, mental illness and culture, melancholy and depression, emotions, sexuality, gender norms, and their transgressions. Throughout, we will focus on the social processes of labeling, representation, medicalisation, and stigmatisation associated with these experiences. Ultimately, students will come to understand how difference is constructed and embodied, and become aware of how deviance is surveilled, managed, and constrained in a variety of cultural contexts.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T09:09:53.006",
+  "code": "ANTH2024",
+  "title": "Mad, Bad, Sad: Cross Cultural Perspectives",
+  "implementationYear": "2021"
+}

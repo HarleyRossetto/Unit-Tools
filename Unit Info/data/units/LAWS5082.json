@@ -1,0 +1,120 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "5000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse and apply relevant legal principles to factual situations involving insolvency law.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain legal principles, cases and statutes related to insolvency law.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Evaluate the effectiveness of insolvency law in resolving issues of bankruptcy and corporate insolvency.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "LAW582, LAWS582",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "80cp in LAW or LAWS units",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "To be determined",
+        "teaching_period": {
+          "value": "To be determined"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5082"
+        }
+      }
+    ],
+    "unit_offering_text": "To be determined<br />",
+    "subject_search_title": "LAWS5082 - Insolvency Law",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Insolvency law is focused on the law and practice of bankruptcy and corporate insolvency, an increasingly important body of law for commercial law practice. The unit explores personal insolvency including topics covering the history and purpose of bankruptcy law, bankruptcy notices, creditor&#39;s and debtor&#39;s petitions, and administration and termination of bankruptcy. Corporate insolvency is also studied, with topics covering liquidation, winding-up, receivership, voluntary administration and deeds of company arrangement. The unit considers the consequences of insolvency on trustees, shareholders and creditors. ",
+    "search_title": "LAWS5082 - Insolvency Law",
+    "code": "LAWS5082",
+    "title": "Insolvency Law",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Insolvency law is focused on the law and practice of bankruptcy and corporate insolvency, an increasingly important body of law for commercial law practice. The unit explores personal insolvency including topics covering the history and purpose of bankruptcy law, bankruptcy notices, creditor&#39;s and debtor&#39;s petitions, and administration and termination of bankruptcy. Corporate insolvency is also studied, with topics covering liquidation, winding-up, receivership, voluntary administration and deeds of company arrangement. The unit considers the consequences of insolvency on trustees, shareholders and creditors. ",
+  "level": "5000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:10:29.698",
+  "code": "LAWS5082",
+  "title": "Insolvency Law",
+  "implementationYear": "2021"
+}

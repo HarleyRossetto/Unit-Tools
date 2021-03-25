@@ -1,0 +1,107 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "TRAN869 or TRAN8069",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "TRAN835, TRAN885",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8085"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />",
+    "subject_search_title": "TRAN8085 - Advanced Auslan Interpreting",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides interpreting students with the opportunity to develop interpreting skills in linguistically sophisticated and potentially challenging domains of Auslan-English interpreting. This includes working in conference-like settings, and alongside Deaf interpreters working with linguistically disadvantaged deaf clients. Students also conduct a minor research task related to their interpreting practice. The unit offers a practice session for those seeking to subsequently undertake a NAATI Certified interpreter exam.",
+    "search_title": "TRAN8085 - Advanced Auslan Interpreting",
+    "code": "TRAN8085",
+    "title": "Advanced Auslan Interpreting",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides interpreting students with the opportunity to develop interpreting skills in linguistically sophisticated and potentially challenging domains of Auslan-English interpreting. This includes working in conference-like settings, and alongside Deaf interpreters working with linguistically disadvantaged deaf clients. Students also conduct a minor research task related to their interpreting practice. The unit offers a practice session for those seeking to subsequently undertake a NAATI Certified interpreter exam.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:53:49.589",
+  "code": "TRAN8085",
+  "title": "Advanced Auslan Interpreting",
+  "implementationYear": "2021"
+}

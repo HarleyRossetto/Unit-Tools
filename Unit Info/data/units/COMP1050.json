@@ -1,0 +1,211 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Make engineering tradeoffs.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Create and analyse design models.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Work with version control, configuration management, unit/regression testing, issue tracking, and debugging tools.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate an understanding of software engineering culture and form camaraderie.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Create a project plan.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class preparation, reading, review, programming and self-study",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Enrolment in BEng degree",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Working in teams on a substantial software engineering project",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "40",
+        "description": "Students work in groups to develop week-by-week a software engineering project, both learning the principles and practices of software engineering, and gaining an overview of a wide range of software engineering areas (that are studied in much greater depth in individual units later in their program).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "An opportunity to demonstrate the learning achieved in the second half of the unit&#39;s lectures",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "An invigilated examination of the unit&#39;s content.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "An opportunity to demonstrate the learning achieved in the first half of the unit&#39;s lectures",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "COMP1050-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP1050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "COMP1050-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP1050"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "COMP1050 - Introduction to the Study of Software Engineering",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This units covers the fundamentals of software engineering, including understanding system requirements, finding appropriate engineering compromises, learning software engineering culture, forming camaraderie, understanding basic methods of design, coding, and testing, team software development, and the application of engineering tools.",
+    "search_title": "COMP1050 - Introduction to the Study of Software Engineering",
+    "code": "COMP1050",
+    "title": "Introduction to the Study of Software Engineering",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This units covers the fundamentals of software engineering, including understanding system requirements, finding appropriate engineering compromises, learning software engineering culture, forming camaraderie, understanding basic methods of design, coding, and testing, team software development, and the application of engineering tools.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-16T13:14:43.351",
+  "code": "COMP1050",
+  "title": "Introduction to the Study of Software Engineering",
+  "implementationYear": "2021"
+}

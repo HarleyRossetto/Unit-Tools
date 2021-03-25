@@ -1,0 +1,267 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify marketing stimuli and explain how they influence consumers’ decision-making, purchase and consumption.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Synthesise relevant literature streams and conduct a research project",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate and explain theories, concepts and principles of consumer decision-making and behaviour.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MKTG815, MKTG715",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Workshop activities",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Workshop activities provide opportunities to internalise your learning. These activities also allow you to engage in discussions with your peers and share your thoughts, help you explain your points of view, and develop not only your own knowledge, but also assist your fellow classmates to gain a better understanding of the topic.<br />The group component (10 marks) is based on weekly small group activities. The individual component (10 marks) is based on five 150-word answers to questions, or case study questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Literature Review",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "40",
+        "description": "The Literature review is specifically designed to facilitate your abilities to research a topic of study by identifying relevant literature (e.g., journal articles) about one specific topic that you can choose from the unit weekly topics. You are to identify gaps or limitations in previous research, and synthesize new knowledge into a written literature review. For this assessment task, you are required to discuss literature review within its appropriate and wider context, consider the theoretical underpinnings of the journal articles reviewed (and not just the results), present a coherent and structured discussion of the literature including both depth and breadth of analysis, use the review to identify gaps or limitations in prior research, and show original thought to constructively criticise existing literature. Students must support their discussion with clear evidence (e.g., high quality articles accessed from top ranking journals) that support, explain and critique the consumer behaviour theory / concept chosen.<br />Length: 2000 words±10%",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Consumer behaviour analysis report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Consumer behaviour analysis report enables you to apply the concepts and theories of consumer behaviour to a single product/brand. This assignment allows you to analyse consumer behaviours and develop your discussion with clear evidences (i.e. scholarly articles) that support, explain and critique consumer behaviour theories within the product/brand information that you have collected. <br />Length: 2000 words ±10%",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MKTG7015",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MKTG7015"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MKTG8015"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Advanced Consumer Behaviour",
+                "academic_item_code": "MKTG8015",
+                "academic_item_url": "/2020/units/MKTG8015"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MKTG7015-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG7015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MKTG7015-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG7015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MKTG7015-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG7015"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MKTG7015 - Advanced Consumer Behaviour",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Marketing "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Consumer behaviour is the study of factors that explain and predict consumers&#39;consumers’ consumption related behaviour. Understanding consumer behaviour and purchase decision making is an integral part of developing effective marketing strategies. Understanding consumers enables marketing managers to critically analyse their potential or current target markets and design strategies tailored to meet their needs. In this unit, students will develop knowledge of the theories, concepts, and principles of consumer decision-making and behaviour. Students will learn to apply and analyse consumer behaviour theories and conceptconcepts to solve marketing problems. Further, students will develop skills to identify marketing stimuli and explain how they influence consumers&#39;consumers’ decision-making, purchase, and consumption.",
+    "search_title": "MKTG7015 - Advanced Consumer Behaviour",
+    "code": "MKTG7015",
+    "title": "Advanced Consumer Behaviour",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Consumer behaviour is the study of factors that explain and predict consumers&#39;consumers’ consumption related behaviour. Understanding consumer behaviour and purchase decision making is an integral part of developing effective marketing strategies. Understanding consumers enables marketing managers to critically analyse their potential or current target markets and design strategies tailored to meet their needs. In this unit, students will develop knowledge of the theories, concepts, and principles of consumer decision-making and behaviour. Students will learn to apply and analyse consumer behaviour theories and conceptconcepts to solve marketing problems. Further, students will develop skills to identify marketing stimuli and explain how they influence consumers&#39;consumers’ decision-making, purchase, and consumption.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-18T10:02:13.54",
+  "code": "MKTG7015",
+  "title": "Advanced Consumer Behaviour",
+  "implementationYear": "2021"
+}

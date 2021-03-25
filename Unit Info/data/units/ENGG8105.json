@@ -1,0 +1,199 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply knowledge of quality control to evaluate the impact on the engineering discipline and on business management, supply chain solutions and project management.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply international standards for quality control and quality improvement.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Conduct total quality management, including determining productivity and cost relationships, utilising quality systems and their components and the interaction between quality and design functions.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Synthesize advanced and integrated knowledge of process capability and improvement studies, control charting, techniques for quality studies and design for quality improvement.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Research on case studies",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Class preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MEngMgt",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Final Examination",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case study response",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "Case studies on Engineering Control and Reliability",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Midterm assignment",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "30",
+        "description": "Midterm project and practice based work",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGG8105"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGG8105"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ENGG8105 - Quality and Reliability",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "School of Engineering"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The unit aims to deliver the insights, knowledge and skills necessary to operate engineering projects with professional standards by maintaining quality and reliability. The unit will cover a broad range of topics for all engineering graduates that include total quality management, productivity and cost relationships; quality systems and their components, international standards; interaction between quality and design functions; quality control; quality improvement; process capability and improvement studies; control charting; techniques for quality studies and design for quality improvement.",
+    "search_title": "ENGG8105 - Quality and Reliability",
+    "code": "ENGG8105",
+    "title": "Quality and Reliability",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The unit aims to deliver the insights, knowledge and skills necessary to operate engineering projects with professional standards by maintaining quality and reliability. The unit will cover a broad range of topics for all engineering graduates that include total quality management, productivity and cost relationships; quality systems and their components, international standards; interaction between quality and design functions; quality control; quality improvement; process capability and improvement studies; control charting; techniques for quality studies and design for quality improvement.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:30:09.247",
+  "code": "ENGG8105",
+  "title": "Quality and Reliability",
+  "implementationYear": "2021"
+}

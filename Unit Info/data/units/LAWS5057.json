@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "5000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain how choice of law and choice of forum apply in commercial, contractual, or tort disputes.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critically analyse the common law and statutory rules governing conflict of laws.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Evaluate the mechanics and controversy regarding anti-suit injunctions with respect to foreign legal proceedings.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically analyse key international agreements and jurisdictional concepts that may apply to conflict situations.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically analyse challenges posed by the internet in general and social media in particular in situations involving contract and tort disputes, including commercial transactions, privacy, defamation, and local suppression orders.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Examine the doctrine of international comity as it relates to protection of local judicial process and the implications of enforcement of foreign judgments within Australia and Australian judgments in other countries.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly Readings ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LAW557, LAWS557",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "80cp in LAW or LAWS units",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "This is the final online test.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "All students must write an essay in response to a set question or problem that will be based on a current issue encompassed within conflict of laws.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-Semester Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "This will be a mid-semester test.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Formative Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "0",
+        "description": "These are open book multiple choice quizzes. These will not count for final grade, but used to assess understanding across semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5057"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5057"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "LAWS5057 - Conflict of Laws",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit deals with rules for resolving difficulties when a private legal problem has an international element. Such difficulties fall into three categories: first, do our courts have jurisdiction to decide a matter that has connections with another country; second, which law should our courts use to decide the dispute, our law or the law of some other country; and third, if a matter has been decided by a foreign court, should our courts recognise and enforce the foreign judgment? Therefore this unit spans many related topics, including tort, contract, succession and family law.",
+    "search_title": "LAWS5057 - Conflict of Laws",
+    "code": "LAWS5057",
+    "title": "Conflict of Laws",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit deals with rules for resolving difficulties when a private legal problem has an international element. Such difficulties fall into three categories: first, do our courts have jurisdiction to decide a matter that has connections with another country; second, which law should our courts use to decide the dispute, our law or the law of some other country; and third, if a matter has been decided by a foreign court, should our courts recognise and enforce the foreign judgment? Therefore this unit spans many related topics, including tort, contract, succession and family law.",
+  "level": "5000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:38:23.892",
+  "code": "LAWS5057",
+  "title": "Conflict of Laws",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,195 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Pass/Fail",
+      "value": "pass-fail"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Conduct an empirical research project which has direct relevance for clinical neuropsychology.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply data analysis techniques used in neuropsychological research.",
+        "code": "ULO2"
+      },
+      {
+        "description": "UL03 Submit a draft of the introduction to the empirical paper which is completed in PSYN8921",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Conduct research project",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MClinNeuro and (PSYN918 or PSYN8918)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PSYN832, PSYN920",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Literature review draft",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "100",
+        "description": "Students submit a draft of the literature review intended to form the Introduction section of the dissertation to be submitted in PSYN8921. The draft should be 2000-3000 words in length and formatted according to the guidelines in the APA Style Manual",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PSYN8920",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PSYN8920"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PSYN8832"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "20",
+                "academic_item_name": "Dissertation",
+                "academic_item_code": "PSYN8832",
+                "academic_item_url": "/2020/units/PSYN8832"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYN8920"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "PSYN8920 - Clinical Neuropsychology Dissertation I",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit involves the preparation of a research thesis as planned in PSYN8918 Research Proposal, and progressed in PSYN8920 Clinical Neuropsychology Dissertation 1. The research findings are submitted in the form of a 5,000-8,000 word journal article, evaluated by a Macquarie-based examiner and an external examiner.",
+    "search_title": "PSYN8920 - Clinical Neuropsychology Dissertation I",
+    "code": "PSYN8920",
+    "title": "Clinical Neuropsychology Dissertation I",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit involves the preparation of a research thesis as planned in PSYN8918 Research Proposal, and progressed in PSYN8920 Clinical Neuropsychology Dissertation 1. The research findings are submitted in the form of a 5,000-8,000 word journal article, evaluated by a Macquarie-based examiner and an external examiner.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T16:45:09.355",
+  "code": "PSYN8920",
+  "title": "Clinical Neuropsychology Dissertation I",
+  "implementationYear": "2021"
+}

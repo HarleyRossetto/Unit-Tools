@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and evaluate the complex role and impact of policy, global institutions, non-governmental organizations, and major funders in global health.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Synthesise the common anthropological, epidemiological, historical, policy, and political-economic approaches to major global health problems.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Describe the particular health needs of vulnerable populations.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Describe the global burden of disease, emerging global health problems, the causes and control of epidemics, and communicable and non-communicable diseases at the global level.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Discuss and evaluate the major issues confronting global health, including their trends, determinants, and effect on individuals and populations.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify the role of poverty, inequality, and structural violence in global health contexts and how health can be distributed unequally within and between populations.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings assigned for each week",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MDevStud or MPH or 30cp at 8000 level or above or (ANTH816 or ANTH8016)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ANTH832",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Research essay exploring a chosen topic from the course material",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation and reading response",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Completion of weekly reading summary and active participation in weekly seminars",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Short answer essays",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "A take-home short answer exam on key concepts",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "Short presentation of research topic for main essay",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH8032"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH8032"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ANTH8032 - Global Health",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Global health recognises a holistic understanding of health that transcends borders and encompasses the links and transnational movements of people, materials and ideas. To affect change at the individual, community and global levels, we need to appreciate how human biology and health are shaped by the larger contexts in which they are embedded and the dynamic and uneven circulation of resources, technology, culture, values and people. In this unit, we will examine the role of social, political-economic and environmental forces that shape the patterning and the distribution of disease and health across communities and take a critical perspective when examining the underlying value systems in biomedical science, policy, health interventions, and global health practice. This unit offers a framework for understanding the complex ways that health and disease intersect within a range of global contexts, institutions and practices.",
+    "search_title": "ANTH8032 - Global Health",
+    "code": "ANTH8032",
+    "title": "Global Health",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Global health recognises a holistic understanding of health that transcends borders and encompasses the links and transnational movements of people, materials and ideas. To affect change at the individual, community and global levels, we need to appreciate how human biology and health are shaped by the larger contexts in which they are embedded and the dynamic and uneven circulation of resources, technology, culture, values and people. In this unit, we will examine the role of social, political-economic and environmental forces that shape the patterning and the distribution of disease and health across communities and take a critical perspective when examining the underlying value systems in biomedical science, policy, health interventions, and global health practice. This unit offers a framework for understanding the complex ways that health and disease intersect within a range of global contexts, institutions and practices.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T20:02:35.857",
+  "code": "ANTH8032",
+  "title": "Global Health",
+  "implementationYear": "2021"
+}

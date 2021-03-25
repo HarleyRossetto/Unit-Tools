@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Improve skills in written, verbal and conversational forms of research communication.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify and reflect on novel areas of research and engagement across human and non-human boundaries<strong>. </strong>",
+        "code": "ULO2"
+      },
+      {
+        "description": "Conceptualise links between Anthropocene issues and personal research interests.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop advanced multidisciplinary knowledge and understanding of the challenges posed by the Anthropocene.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Develop and apply research design and practice skills that engage with emergent themes of the Anthropocene.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings, preparation of points for discussion",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "FOAR703",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to BPhil/MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Living in the Anthropocene Blog",
+        "type": {
+          "label": "Non-academic writing",
+          "value": "Non_academic_writing"
+        },
+        "weight": "25",
+        "description": "A substantive 1500-word blog linked to a unit theme. The blog is written in a topical and engaging style that competently engages with complex concepts associated with the topic and the broader challenges associated with living in the Anthropocene.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Anthropocene Field Project",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "45",
+        "description": "A small field 3000-word research project informed by ideas, theories and debates associated with the Anthropocene. The ‘field’ is flexibly defined in this task and can involve a combination of textual, media and observational analysis.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Reflective Summaries",
+        "type": {
+          "label": "Log book",
+          "value": "log_book"
+        },
+        "weight": "30",
+        "description": "Thoughtful and reflective record of the weekly required readings assigned the unit.  It will include a summary of the reading material and a reflection on new insights gained, what was interesting, and any points of disagreement.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "FOAR7005-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOAR7005"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "FOAR7005-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOAR7005"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "FOAR7005-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOAR7005"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "FOAR7005 - Research Theme 1: Living in the Anthropocene",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Geologists are investigating whether we have entered a new geological epoch known as the Anthropocene in which humanity is a driving force of global environmental change. With human activities increasingly connected to processes of planetary degradation there is an urgent need for multidisciplinary research that overcomes traditional divides between physical scientists, social scientists and environmental humanities researchers. This unit offers an interdisciplinary and critical introduction to Anthropocene studies, an important area for current and future research. The unit focuses upon how we should live in the Anthropocene and respond to the knowledge that current socioecological practices are not sustainable. Some key themes include: histories of the Anthropocene; human-nature relations; social and environmental justice; Indigenous knowledges; non-human agency; environmental governance; activism and impacts. The unit is team taught involving leading thinkers from across the university. It is designed to be accessible to students from a wide range of backgrounds and incorporates considerable flexibility to steer assessments towards your research interests.",
+    "search_title": "FOAR7005 - Research Theme 1: Living in the Anthropocene",
+    "code": "FOAR7005",
+    "title": "Research Theme 1: Living in the Anthropocene",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Geologists are investigating whether we have entered a new geological epoch known as the Anthropocene in which humanity is a driving force of global environmental change. With human activities increasingly connected to processes of planetary degradation there is an urgent need for multidisciplinary research that overcomes traditional divides between physical scientists, social scientists and environmental humanities researchers. This unit offers an interdisciplinary and critical introduction to Anthropocene studies, an important area for current and future research. The unit focuses upon how we should live in the Anthropocene and respond to the knowledge that current socioecological practices are not sustainable. Some key themes include: histories of the Anthropocene; human-nature relations; social and environmental justice; Indigenous knowledges; non-human agency; environmental governance; activism and impacts. The unit is team taught involving leading thinkers from across the university. It is designed to be accessible to students from a wide range of backgrounds and incorporates considerable flexibility to steer assessments towards your research interests.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-28T10:28:54.023",
+  "code": "FOAR7005",
+  "title": "Research Theme 1: Living in the Anthropocene",
+  "implementationYear": "2021"
+}

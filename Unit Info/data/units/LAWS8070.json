@@ -1,0 +1,230 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and resolve the constitutional dimensions of legal problems, recognizing the impact that the High Court has had on the development of constitutional principles, the character of the federal system and federal institutions of government.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Describe and analyse central constitutional law concepts, structural features, and implications arising from the constitutional text.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify and critique theories of constitutional interpretation and understand their relationship to different doctrinal positions.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse the legal dimensions of contemporary constitutional law controversies, examining these within their social, political and historical context.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Further readings to supplement lectures, tutorials and assessment",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(LAWS803 or LAWS8030) and (LAWS805 or LAWS8005)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LAWS807",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Unit Assessment",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "50",
+        "description": "A time limited take-home assessment that will cover all of the unit materials",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In class and/or online activities",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "A series of online/in class discussions, role plays, debates and problem solving activities",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Constitutional Law Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "The essay topic will be set by the convenor and will require independent research on primary and secondary constitutional law sources",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LAWS8070-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8070-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8070-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8070-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8070"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "LAWS8070 - Constitutional Law",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit analyses the Constitution of the Commonwealth of Australia and the New South Wales Constitution. The Commonwealth Constitution is the founding, national document that sets out the powers of the Commonwealth and its structure of government. In this unit students will examine how the constitutional texts are interpreted, analyse practices affecting the operation of government in Australia, and reflect on constitutional change. The unit examines the fundamental distributions of power in Australia between the States and the Commonwealth; between the legislature, executive, and judiciary; and between the government and individual citizens.",
+    "search_title": "LAWS8070 - Constitutional Law",
+    "code": "LAWS8070",
+    "title": "Constitutional Law",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit analyses the Constitution of the Commonwealth of Australia and the New South Wales Constitution. The Commonwealth Constitution is the founding, national document that sets out the powers of the Commonwealth and its structure of government. In this unit students will examine how the constitutional texts are interpreted, analyse practices affecting the operation of government in Australia, and reflect on constitutional change. The unit examines the fundamental distributions of power in Australia between the States and the Commonwealth; between the legislature, executive, and judiciary; and between the government and individual citizens.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:42:13.125",
+  "code": "LAWS8070",
+  "title": "Constitutional Law",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,242 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and describe theories and frameworks and research findings in Organisational Behaviour (OB).",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically reflect on and practically apply contingent perspectives of OB theoretical frameworks in exploring organisational problems and phenomena.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Communicate from a range of perspectives to influence others, both as an individual and as a team.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class readings and research",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MGSM870",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(Admission to MBA or PGDipMgt or GradDipMgt or GradCertMgt or MSusDev or MSocEntre) or (admission to MAppFin or MAppFin(Adv) and (AFCP801 or AFCP8001))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "OB – Analysis and Presentation",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "50",
+        "description": "Students will use their knowledge of OB theory and frameworks in the context of a current issue. A set of questions that relate to topics and/or key themes need to be addressed. Whilst students work in a group, parts of this task are assessed individually. Each student will make an oral presentation as part of a group, of up to 25 minutes per group. This will form a group mark of 20%. The remaining 30% of the marks will be derived from the individual written submission.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "OB – Theory and Practice",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "This assessment focuses on early unit content. Students will write 1,500 words on OB theories and how they believe they have been knowingly and/or unknowingly impacted.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "OB – Reflection",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "30",
+        "description": "This task requires the students to look back on both their first reflective piece and their experiences. Students will submit up to 2,000 words on specified topics and/or issues. Due at the end of the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMBA8070-unit_teaching_period-Online",
+        "display_name": "Term 1-Online",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8070-unit_teaching_period-Special",
+        "display_name": "Term 3-Special",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8070-unit_teaching_period-Online",
+        "display_name": "Term 4-Online",
+        "teaching_period": {
+          "value": "Term 4"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8070-unit_teaching_period-Online",
+        "display_name": "Term 2-Online",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8070-unit_teaching_period-Intensive-subject",
+        "display_name": "Term 3-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "40",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8070"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 1, Fully online/virtual*<br />Term 2, Fully online/virtual*<br />Term 3, Intensive attendance, North Ryde*<br />Term 3, Special circumstances<br />Term 4, Fully online/virtual*<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MMBA8070 - Managing People",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Organisational Behaviour (OB) is a multi-disciplinary field that uses insights from psychology, anthropology, philosophy and sociology to study human behaviour in organisational settings. In this unit, students critically examine insights into human behaviour to better manage and improve organisational performance and capability, with an emphasis on ethical management and a global mindset. The unit covers the micro, meso and marco perspectives of OB as well as contemporary issues in OB.",
+    "search_title": "MMBA8070 - Managing People",
+    "code": "MMBA8070",
+    "title": "Managing People",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Organisational Behaviour (OB) is a multi-disciplinary field that uses insights from psychology, anthropology, philosophy and sociology to study human behaviour in organisational settings. In this unit, students critically examine insights into human behaviour to better manage and improve organisational performance and capability, with an emphasis on ethical management and a global mindset. The unit covers the micro, meso and marco perspectives of OB as well as contemporary issues in OB.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-25T11:44:34.977",
+  "code": "MMBA8070",
+  "title": "Managing People",
+  "implementationYear": "2021"
+}

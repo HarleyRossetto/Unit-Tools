@@ -1,0 +1,282 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply knowledge of relevant medical sciences, clinical presentations, scientific principles and mechanisms of disease to explain a variety of common or clinically-significant disease states, as well as how drugs and other treatments are used to manage or prevent disease in various population sub-groups <strong>(Capability 1:Scientist and Scholar)</strong>",
+        "code": "ULO1"
+      },
+      {
+        "description": "Use feedback from teachers, clinicians, peers and patients, to inform self-evaluation and critical reflection <strong>(Capability 4: Professional)</strong>",
+        "code": "ULO9"
+      },
+      {
+        "description": "Elicit a concise and accurate medical history with real patients with common presentations in primary care and cancer. Identify relevant symptoms, recent and past medical history, medication, allergies and social history, and accurate physical examination identifying relevant abnormal signs<strong> (Capability 2: Clinical Practitioner)</strong>",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify and discuss, social, cultural and economic factors as well as the healthcare team and health system factors which may impact on healthcare and population health relevant to primary care, wellbeing and cancer (<strong>Capability 3: Engaged Global Citizen</strong>)",
+        "code": "ULO7"
+      },
+      {
+        "description": "Use sound clinical reasoning skills to derive diagnoses, investigations and basic management plans for common medical and surgical conditions, as relevant to primary care, wellbeing and cancer <strong> (Capability 2: Clinical Practitioner)</strong>",
+        "code": "ULO5"
+      },
+      {
+        "description": "Summarise history and physical examination findings concisely and accurately in verbal or written form to peers or colleagues <strong> (Capability 2: Clinical Practitioner)</strong>",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify questions and learning needs arising from clinical cases, and work individually or as part of a group to create appropriate responses to clinical scenarios relevant to primary care, wellbeing and cancer by evaluating evidence from a range of sources, including medical scientific literature <strong>(Capability 1:Scientist and Scholar)</strong>",
+        "code": "ULO2"
+      },
+      {
+        "description": "Participate as an effective team player in tutorial groups and clinical environment with peers and clinical staff <strong>(Capability 4: Professional)</strong>",
+        "code": "ULO8"
+      },
+      {
+        "description": "Demonstrate basic procedural skills in a simulated or clinical environment <strong> (Capability 2: Clinical Practitioner)</strong>",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparatory and consolidation activities for all learning opportunities",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MEDI920",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(MEDI8100 or MEDI910) and (MEDI8101 or MEDI911) and (MEDI8102 or MEDI912) and (MEDI8103 or MEDI913) and (MEDI8104 or MEDI914) and (MEDI8105 or MEDI915)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Mini-CEX",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "0",
+        "description": "Mini-CEX assessments are formative and are designed to provide you with personalised feedback to improve your clinical skills.  Overall performance, capability aspects and Stage 1  Entrustable Professional Activities will be assessed and recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Clinical Quiz",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "The Clinical Quiz is a written examination consisting of mainly multiple choice and some short answer questions which will be mapped to capability aspects.  Overall and capability aspects performance will be recorded in your  Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Direct Observation of Procedural Skills (DOPS)",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "0",
+        "description": "DOPS assessments are formative and are designed to provide you with personalised feedback to improve your clinical skills. Overall performance, capability aspects and Stage 1  Entrustable Professional Activities will be assessed and recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "The case report is a written assignment about a patient you have taken a comprehensive history and performed a physical examination.  Overall performance, capability aspects and Stage 1  Entrustable Professional Activities will be assessed and recorded in your Macquarie Assessment Portfolio. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Bedside Tutor Report",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "0",
+        "description": "The bedside tutor will provide a supervision rating on the Stage 1 Entrustable Professional Activities which will be recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "MindSpot Wellbeing Course",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "0",
+        "description": "You will be responsible for completing the online Mindspot Wellbeing Course. MindSpot will confirm your completion which will enable you to pass this hurdle task.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Logbook, Learning Plan and In-training Assessment",
+        "type": {
+          "label": "Log book",
+          "value": "log_book"
+        },
+        "weight": "20",
+        "description": "You must keep a logbook documenting your attendance at your clinical placements and recording your interactions with patients, key learnings and reflections. You will be required to reflect on your experiences over the entire unit, identify your ongoing learning needs and  generate a learning plan. In addition an in-training assessment will be completed. Overall performance, capability aspects and Stage 1  Entrustable Professional Activities will be assessed and recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Clinical Viva",
+        "type": {
+          "label": "Viva/oral examination",
+          "value": "viva_oral_exam"
+        },
+        "weight": "20",
+        "description": "The viva will involve an oral presentation of the case presented in your Case Report and will involve answering questions relevant to the case.   Overall performance, capability aspects and Stage 1  Entrustable Professional Activities will be assessed and recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Medicine and Health Sciences MDA-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Medicine and Health Sciences MDA"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI8200"
+        }
+      }
+    ],
+    "unit_offering_text": "Medicine and Health Sciences MDA, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MEDI8200 - Primary Care, Wellbeing and Cancer",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "20",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The unit expands on your clinical knowledge and advances your understanding of the clinical disciplines of Primary Care, Wellbeing, Mental Health, Diagnostics and Cancer.  Over a 10-week period, you will build your understanding of a range of clinical disciplines integrated with applied medical sciences and the social sciences relevant to health and disease.  The unit uses a weekly thematic structure, common across all units in the session to provide a central focus for your learning. These themes represent conceptual understanding of the complexity of health; major mechanisms of diseases and important challenges of modern health care delivery.  The unit incorporates an experiential learning component contextually focused on patient-centred  health care  delivered in the clinical disciplines of  Primary Care, Wellbeing, Mental Health, Diagnostics and Cancer.  The unit includes weekly lectures/seminars, case based learning sessions, clinical bedside tutorials, procedural skills sessions, as well as clinical placements. You are expected to use these learning opportunities to demonstrate significant progress toward the development of the 4 Macquarie MD Graduate Capabilities: Scientist and Scholar, Clinical Practitioner, Engaged Global Citizen and Professional, and the Entrustable Professional Activities, at a standard appropriate to  end of Stage 1 of the Macquarie MD.",
+    "search_title": "MEDI8200 - Primary Care, Wellbeing and Cancer",
+    "code": "MEDI8200",
+    "title": "Primary Care, Wellbeing and Cancer",
+    "content_type": "Unit",
+    "credit_points_header": "20 credit points"
+  },
+  "creditPoints": 20,
+  "description": "The unit expands on your clinical knowledge and advances your understanding of the clinical disciplines of Primary Care, Wellbeing, Mental Health, Diagnostics and Cancer.  Over a 10-week period, you will build your understanding of a range of clinical disciplines integrated with applied medical sciences and the social sciences relevant to health and disease.  The unit uses a weekly thematic structure, common across all units in the session to provide a central focus for your learning. These themes represent conceptual understanding of the complexity of health; major mechanisms of diseases and important challenges of modern health care delivery.  The unit incorporates an experiential learning component contextually focused on patient-centred  health care  delivered in the clinical disciplines of  Primary Care, Wellbeing, Mental Health, Diagnostics and Cancer.  The unit includes weekly lectures/seminars, case based learning sessions, clinical bedside tutorials, procedural skills sessions, as well as clinical placements. You are expected to use these learning opportunities to demonstrate significant progress toward the development of the 4 Macquarie MD Graduate Capabilities: Scientist and Scholar, Clinical Practitioner, Engaged Global Citizen and Professional, and the Entrustable Professional Activities, at a standard appropriate to  end of Stage 1 of the Macquarie MD.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:31:38.805",
+  "code": "MEDI8200",
+  "title": "Primary Care, Wellbeing and Cancer",
+  "implementationYear": "2021"
+}

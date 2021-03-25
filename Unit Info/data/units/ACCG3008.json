@@ -1,0 +1,250 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate well justified advice and solutions for issues faced by businesses in different settings using appropriate language and evidence.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critically evaluate accounting theories and issues underlying corporate reporting.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Prepare consolidated financial statements and account for associated companies in accordance with Australian standards. ",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply relevant findings from entrepreneurship and business strategy research to business advisory settings.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Examine the nature of accounting for business combinations in Australia. ",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students should undertake readings, preparation and self-study for the lectures and tutorials, and the assessment tasks. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(ACCG224 or ACCG2024) or 130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ACCG308",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Students are required to complete two quizzes during the session. The first quiz is worth 7% and the second quiz is worth 13%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "A 2.5 hour closed-book final examination will be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Business advisory report ",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "The report assesses students’ understanding of business advisory content and their ability to undertake research and apply research findings to provide a well prepared and justified business case.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "Two hours online open book exam during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACCG3008-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG3008"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG3008-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG3008"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG3008-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG3008"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG3008-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG3008"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG3008 - Corporate Accounting and Business Advisory",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit has two components. The first component examines the framework and techniques that are used to prepare general purpose financial reports for companies, and in particular the techniques used to prepare the consolidated financial statements for a corporate group. This component builds on first and second year financial accounting units and provides students with the technical accounting knowledge to prepare and use company financial statements. Political and ethical issues surrounding recent financial reporting controversies are also considered. The second component introduces students to the perspective of acting as a trusted business advisor. This component builds on prior knowledge of accounting, accounting information systems, compliance and business strategy, and applies these skills in a real-world setting. Both components of the unit develop graduate capabilities centred on higher order analysis and effective communication skills.",
+    "search_title": "ACCG3008 - Corporate Accounting and Business Advisory",
+    "code": "ACCG3008",
+    "title": "Corporate Accounting and Business Advisory",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit has two components. The first component examines the framework and techniques that are used to prepare general purpose financial reports for companies, and in particular the techniques used to prepare the consolidated financial statements for a corporate group. This component builds on first and second year financial accounting units and provides students with the technical accounting knowledge to prepare and use company financial statements. Political and ethical issues surrounding recent financial reporting controversies are also considered. The second component introduces students to the perspective of acting as a trusted business advisor. This component builds on prior knowledge of accounting, accounting information systems, compliance and business strategy, and applies these skills in a real-world setting. Both components of the unit develop graduate capabilities centred on higher order analysis and effective communication skills.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-01T08:44:22.745",
+  "code": "ACCG3008",
+  "title": "Corporate Accounting and Business Advisory",
+  "implementationYear": "2021"
+}

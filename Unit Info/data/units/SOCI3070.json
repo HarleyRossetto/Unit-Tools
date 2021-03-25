@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "demonstrate an advanced understanding of the foundations, generative mechanisms and multi-dimensional nature of social inequality",
+        "code": "ULO1"
+      },
+      {
+        "description": "demonstrate an understanding of the technical and sociological measurement of inequality",
+        "code": "ULO2"
+      },
+      {
+        "description": "demonstrate an ability to interpret debates and policy, political and social-movement responses to inequality",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Reading for weekly tutorials ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "SOCI399",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment ",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "30",
+        "description": "Responses to six questions about interesting readings and problems in the field of social inequality.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Participation in at least 8 weeks of lectures and tutorials across the Semester OR ONLINE PARTICIPATION for online students",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Examination ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "Final examination at the end of Semester ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "SOCI3070-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI3070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SOCI3070-unit_teaching_period-exam_att-subject",
+        "display_name": "Session 1-exam_att-Exam centre within Australia ",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Attendance for exam only"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI3070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SOCI3070-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI3070"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Attendance for exam only, Exam centre within Australia <br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "SOCI3070 - Social Inequality",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The organisational and institutional dynamics of modern societies are powerful generators of social inequality and yet they equally generate resources through which inequalities can be identified and challenged. This unit explores the social mechanisms that drive inequalities and surveys the impact of socio-economic inequality on a wide range of areas of social life (gender, culture, employment, and the economy). The unit considers how sociological theory can explain the emergence and persistence of social inequalities, the normative conflicts and struggles that inequalities produce, and the ways social institutions overcome, respond or merely adapt to inequality. We conclude the unit by looking at whether democratic societies can survive widening socio-economic inequalities and how we might explain the improvement in some types of inequality and discrimination and the curious persistence of others.",
+    "search_title": "SOCI3070 - Social Inequality",
+    "code": "SOCI3070",
+    "title": "Social Inequality",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The organisational and institutional dynamics of modern societies are powerful generators of social inequality and yet they equally generate resources through which inequalities can be identified and challenged. This unit explores the social mechanisms that drive inequalities and surveys the impact of socio-economic inequality on a wide range of areas of social life (gender, culture, employment, and the economy). The unit considers how sociological theory can explain the emergence and persistence of social inequalities, the normative conflicts and struggles that inequalities produce, and the ways social institutions overcome, respond or merely adapt to inequality. We conclude the unit by looking at whether democratic societies can survive widening socio-economic inequalities and how we might explain the improvement in some types of inequality and discrimination and the curious persistence of others.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-25T14:55:14.372",
+  "code": "SOCI3070",
+  "title": "Social Inequality",
+  "implementationYear": "2021"
+}

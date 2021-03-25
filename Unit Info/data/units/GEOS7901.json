@@ -1,0 +1,247 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyze the ethics associated with their scientific discipline and how it relates to publishing scientific research papers",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate a working understanding of strategies and methods of conducting research in the Earth and Environmental Sciences as well as knowledge of general research tools and practices.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply effective communication strategies for sharing research results in writing, oral and graphical form.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Actively engage with on-going research activities in the department and develop hand's on experience with the methods used.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Various reading tasks associated with each week's small group teaching activity.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Research experience project time",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "GEOS705, GEOS813",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "This mark includes participation in seminar discussions and minor assignments associated with lectures.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Ethics Case Study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "25",
+        "description": "A written case study on a scientific ethics topic",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research experience and planning project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "engage with an active research/project within the department, develop a research proposal and present the results",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Scientific Figure",
+        "type": {
+          "label": "Design Implementation",
+          "value": "design_impl"
+        },
+        "weight": "10",
+        "description": "Construct a scientific figure fit for journal publication using graphics editing software.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "GEOS7901",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: GEOS7901"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: GEOS8801"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Methods in Earth and Environmental Sciences",
+                "academic_item_code": "GEOS8801",
+                "academic_item_url": "/2020/units/GEOS8801"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "GEOS7901-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOS7901"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "GEOS7901 - Research Methods in Earth and Environmental Sciences",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Earth and Environmental Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This foundation unit facilitates student transition from undergraduate studies to the scientific research environment. The unit provides advanced training in research methods and develops a variety of practical skills that are required to become a successful researcher in Earth and Environmental Sciences. Students will shadow a current PhD student or staff scientist to experience some of the active research being conducted within the department. Students will be trained in technical software and will investigate research techniques relevant to their specific research interests.",
+    "search_title": "GEOS7901 - Research Methods in Earth and Environmental Sciences",
+    "code": "GEOS7901",
+    "title": "Research Methods in Earth and Environmental Sciences",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This foundation unit facilitates student transition from undergraduate studies to the scientific research environment. The unit provides advanced training in research methods and develops a variety of practical skills that are required to become a successful researcher in Earth and Environmental Sciences. Students will shadow a current PhD student or staff scientist to experience some of the active research being conducted within the department. Students will be trained in technical software and will investigate research techniques relevant to their specific research interests.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-01T08:55:43.77",
+  "code": "GEOS7901",
+  "title": "Research Methods in Earth and Environmental Sciences",
+  "implementationYear": "2021"
+}

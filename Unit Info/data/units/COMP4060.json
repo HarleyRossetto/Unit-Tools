@@ -1,0 +1,189 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Effectively practise self-learning, time-management, and project management, individually and in a group setting.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate mastery of selected advanced concepts in software engineering, including topical issues and current research (more specific outcomes are negotiated individually for chosen advanced concepts)",
+        "code": "ULO3"
+      },
+      {
+        "description": "Regularly reevaluate your own skill-base with respect to the ACS-EA Joint Board on Software Engineering competencies, in addition to practising detailed technical skills in each of the competency areas",
+        "code": "ULO1"
+      },
+      {
+        "description": "Describe and critically analyse the state of the profession of software engineering in Australia, and in less detail internationally, including significant industrial stakeholders, the roles of professional societies, legislative support for professionals, and the nature of professionalism",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "200cp at 1000 level or above including (COMP2050 or COMP255) and (COMP3010 or COMP333)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "COMP434",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Submissions",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "30",
+        "description": "There will be a sequence of agreed written deliverables (these can include problem solutions, software, reports and essays) required throughout the unit.  The most important of these is the unit portfolio, and it is expected that the other deliverables will form a part of it too.   Nevertheless, some deliverables need to be submitted during the unit, while the portfolio will only be finally submitted near the end of the unit.\n\nThe unit portfolio is a student&#39;s record of their significant achievements, including their reflections, from throughout the unit.  Thus it is both a technical document, and a personal journal.  The personal reflections are very important.\n\n",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Student Engagement",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "50",
+        "description": "In a simulated environment the students will interact as professionals in a business to analyse proposals, manage projects and evaluate performance in advanced software engineering problems.\n\nThe unit is built around highly interactive sessions for which students need to prepare between classes, and then they need to demonstrate critical thinking and active engagement in the in-class debates.  Assessment of each student will be openly discussed with frequent feedback in a small class environment (and with each student&#39;s agreement).\n\nThis mode of learning is so important for the unit, and requires so much work by the students, that it has initially been given a substantial weighting in the assessment.\n\nNevertheless, as part of the active involvement of students the weightings are subject to negotiated change.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Student Presentations",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "During the unit students are individually assigned problems to analyse (both critically themselves, and through a review of relevant literature) and the results of their studies are made available to the class in formal presentations.\n\nAssessment of presentations includes a substantial component based on content, but also a component for surface features including the quality and clarity of their communication.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "COMP4060-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP4060"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "COMP4060-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP4060"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "COMP4060 - Advanced Software Engineering",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit integrates prior learning in a specialist area of engineering with problem solving, emerging technology and aspects of engineering application, technical reporting and self-management to prepare students to work at a professional capacity.  The unit aims to address the application of fundamental principles and methods at an advanced level in the context of standards and practices, modelling, analysis, design and practical implementation.  The unit also develops skills in the critical evaluation of information, software and sources of error, and experimental methods. Learning will be achieved using case studies, laboratories, presentations, group work and traditional lecture format.",
+    "search_title": "COMP4060 - Advanced Software Engineering",
+    "code": "COMP4060",
+    "title": "Advanced Software Engineering",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit integrates prior learning in a specialist area of engineering with problem solving, emerging technology and aspects of engineering application, technical reporting and self-management to prepare students to work at a professional capacity.  The unit aims to address the application of fundamental principles and methods at an advanced level in the context of standards and practices, modelling, analysis, design and practical implementation.  The unit also develops skills in the critical evaluation of information, software and sources of error, and experimental methods. Learning will be achieved using case studies, laboratories, presentations, group work and traditional lecture format.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-03T09:39:24.089",
+  "code": "COMP4060",
+  "title": "Advanced Software Engineering",
+  "implementationYear": "2021"
+}

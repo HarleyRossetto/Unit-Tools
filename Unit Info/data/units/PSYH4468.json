@@ -1,0 +1,246 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Integrate/synthesise multiple theoretical perspectives and systems to explain complex behaviours or predicaments.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Undertake research on specific developmental problems and evidence based treatment approaches.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Respond thoughtfully and compassionately to a range of human predicaments and contexts, as well as demonstrating objectivity, critical reflection and scientific enquiry.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Present assessment and management plans and research findings succinctly and clearly in written (case report) and oral (PowerPoint presentation) formats.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Apply a range of developmental theories to real-world problems.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify contextual factors that facilitate or impede development at different life-stages.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSYH490 or PSHY4490 or PSYH495 or PSYH4495",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "PSY432, PSY468, PSYC768",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "In class presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "Students are required to research a specific question, present their findings succinctly and cogently in a four minute PowerPoint presentation",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "50",
+        "description": "Students prepare a 1500 word case report on a topic related to issues covered in class",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Short Answer examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Seven short answer questions. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PSYH4468",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PSYH4468"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PSYM7768"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Advanced Issues in Developmental Psychology: Development Problems across the Lifespan",
+                "academic_item_code": "PSYM7768",
+                "academic_item_url": "/2020/units/PSYM7768"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: PSYH4432"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Advanced Issues in Developmental Psychology: Child Abuse and Neglect",
+                "academic_item_code": "PSYH4432",
+                "academic_item_url": "/2020/units/PSYH4432"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PSYH4468-unit_teaching_period",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYH4468"
+        }
+      }
+    ],
+    "unit_offering_text": "2022<br />",
+    "subject_search_title": "PSYH4468 - Advanced Issues in Development Psychology: Development Problems across the Lifespan",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will enable students to apply developmental theories to real-world problems across the lifespan. A series of developmental predicaments will be presented and students will be required to integrate multiple theoretical perspectives to analyse the biological, psychological and social aspects of the problem and predict developmental trajectories. The topics are based on five cases each of which will run over two weeks. Students work in small groups. The unit will introduce students to the clinical reasoning process from assessment through to theoretically informed models of intervention and the identification of potential research topics that underpin evidence-based practice.",
+    "search_title": "PSYH4468 - Advanced Issues in Development Psychology: Development Problems across the Lifespan",
+    "code": "PSYH4468",
+    "title": "Advanced Issues in Development Psychology: Development Problems across the Lifespan",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will enable students to apply developmental theories to real-world problems across the lifespan. A series of developmental predicaments will be presented and students will be required to integrate multiple theoretical perspectives to analyse the biological, psychological and social aspects of the problem and predict developmental trajectories. The topics are based on five cases each of which will run over two weeks. Students work in small groups. The unit will introduce students to the clinical reasoning process from assessment through to theoretically informed models of intervention and the identification of potential research topics that underpin evidence-based practice.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-20T14:32:23.244",
+  "code": "PSYH4468",
+  "title": "Advanced Issues in Development Psychology: Development Problems across the Lifespan",
+  "implementationYear": "2021"
+}

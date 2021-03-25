@@ -1,0 +1,194 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain the basic qualitative principles of, and observational evidence for, current cosmological models.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Calculate the dynamical properties of stellar systems based on analytic gravitational potentials, and use these to make inferences about galaxies.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply metric tensors in the context of cosmological models, and understand how observations constrain different components of these models.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate knowledge of current galaxy formation and evolutionary theories, and the techniques used to simulate these.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Explain the principle properties of stellar populations, including their evolution with time and metallicity, and how their properties are modelled.",
+        "code": "ULO2"
+      },
+      {
+        "description": "design, conduct, analyse and report on observational experiments related to measuring the radiation from stars, galaxies and other astronomical objects in order to determine their properties.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Demonstrate knowledge of quantitative and qualitative galaxy morphology from a variety of observational evidence, and relate this to theories of galaxy formation and evolution.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "ASTR3010 or ASTR377",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "A final exam held during the University exam period will be used to assess skills and knowledge developed over the entire unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignments",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "There will be four problem-set assignments given through the semester: two for the first half of the course, focussed on galaxies; and two for the second half, focused on cosmology. The assignments will be based on the lecture content, and are designed to deepen students’ understanding of the course content, and develop problem-solving skills. Each assignment will be equally weighted. Feedback on submitted work will be provided to each student, along with worked solutions posted on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Lab report",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "20",
+        "description": "Each lab project will be assessed using the electronically submitted python notebooks directly. These are mostly completed during the lab sessions, so only a small amount of additional time is needed to prepare these for submission.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ASTR3020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ASTR3020"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ASTR3020 - Extragalactic Astronomy and Cosmology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Physics and Astronomy "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Galaxies are vast collections of stars, gas and dust, gravitationally bound into an evolving and dynamic ecosystem of physical processes. The Milky Way Galaxy in which we live is just one of billions of galaxies in the observable Universe. This unit will look beyond our Milky Way, and examine how galaxies form and evolve over cosmic time, how we quantify and categorise their properties, and what they tell us about the Universe on the largest possible scales. Topics covered will include galaxy evolution, super-massive black holes, dark matter, dark energy, Big Bang cosmology, and gravitational waves. These topics will also be explored through practical sessions making use of public research data archives and contemporary analysis techniques.",
+    "search_title": "ASTR3020 - Extragalactic Astronomy and Cosmology",
+    "code": "ASTR3020",
+    "title": "Extragalactic Astronomy and Cosmology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Galaxies are vast collections of stars, gas and dust, gravitationally bound into an evolving and dynamic ecosystem of physical processes. The Milky Way Galaxy in which we live is just one of billions of galaxies in the observable Universe. This unit will look beyond our Milky Way, and examine how galaxies form and evolve over cosmic time, how we quantify and categorise their properties, and what they tell us about the Universe on the largest possible scales. Topics covered will include galaxy evolution, super-massive black holes, dark matter, dark energy, Big Bang cosmology, and gravitational waves. These topics will also be explored through practical sessions making use of public research data archives and contemporary analysis techniques.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-29T13:01:22.908",
+  "code": "ASTR3020",
+  "title": "Extragalactic Astronomy and Cosmology",
+  "implementationYear": "2021"
+}

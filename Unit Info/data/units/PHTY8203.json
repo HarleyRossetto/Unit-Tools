@@ -1,0 +1,349 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Work independently and collaboratively to enhance self and peer learning, while adhering to ethical, professional, privacy and confidentiality requirements. (<strong>Professional)</strong>",
+        "code": "ULO2"
+      },
+      {
+        "description": "Monitor and reflect on clinical experiences with reference to the Physiotherapy Practice thresholds for Australia and Aotearoa New Zealand to identify gaps in knowledge, skills or experiences. (<strong>Professional)</strong>",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply the philosophy and theory of reflective practice and professional development using various tools, including observational records, narratives, critical incidents, case studies and diaries. (<strong>Professional)</strong>",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply strategies for optimising professional performance and provide evidence of clinical and professional skill development ",
+        "code": "ULO6"
+      },
+      {
+        "description": "Translate reflections on physiotherapy practice to develop plans to address identified gaps in professional knowledge, skills, practice and/or experience, both as an independent practitioner and as a member of a multidisciplinary team. (<strong>Professional</strong>)",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify and discuss emerging professional interests, and strategies for optimising performance and achieving professional goals. (<strong>Professional</strong>)",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "You will undertake online activities throughout the semester, including Connected Curriculum modules, discussion forums and readings that support both the practice of reflective writing and development of professional planning skills.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": "Session 2-Weekday-On location at placement"
+      },
+      {
+        "description": "You will undertake research into areas specific to your own development goals and needs to enhance your own professional development",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": "Session 2-Weekday-On location at placement"
+      },
+      {
+        "description": "You will undertake research into areas specific to your own development goals and needs to enhance your own professional development",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": "Session 2-Special-North Ryde"
+      },
+      {
+        "description": "You will work collaboratively with your peers through connected online discussion forums and activities to support professional reflection and development",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": "Session 2-Weekday-On location at placement"
+      },
+      {
+        "description": "You will work collaboratively with your peers through connected online discussion forums and activities to support professional reflection and development",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": "Session 2-Special-North Ryde"
+      },
+      {
+        "description": "You will undertake online activities throughout the semester, including Connected Curriculum modules, discussion forums and readings that support both the practice of reflective writing and development of professional planning skills.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": "Session 2-Special-North Ryde"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(PHTY808 or PHTY8200) and (PHTY809 or PHTY8201) and (PHTY810 or PHTY8202)",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "(PHTY805 or PHTY8105) and (PHTY806 or PHTY8106) and (PHTY807 or PHTY8107) and (MEDI912 or MEDI8102 or PHTY804 or PHTY8104)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PHTY811",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Professional Development Blog",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "30",
+        "description": "You will compile a portfolio of blog posts outlining your process of clinical and professional skill development, including evidence of your attainment of skill or process of skill development.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Professional Development Plan 1",
+        "type": {
+          "label": "Learning plan",
+          "value": "learning_plan"
+        },
+        "weight": "15",
+        "description": "You will present a professional development plan that identifies strengths, as well as areas for improvement and strategies to enhance future performance.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online discussion forum",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "15",
+        "description": "You will be required to participate in online discussion forums related to your observations and experiences while on clinical placement, displaying engagement and critical thinking, whilst also upholding standards of ethical and professional behaviour, as well as privacy and confidentiality requirements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-On location at placement",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Clinical skills mastery register",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "0",
+        "description": "The mastery register for PHTY8203 is a list of key skills in which competence is considered to be a requirement for the assurance of quality physiotherapy practice for registration. You must demonstrate a minimum level of competence in these skills as a condition of passing this unit by achieving 60% completion of the mastery register for each of the four specific modules, i.e. neurological, cardiorespiratory, peripheral musculoskeletal and musculoskeletal spinal modules, in order to successfully complete this unit and prior to commencing any clinical placement unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online discussion forum",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "15",
+        "description": "You will be required to participate in online discussion forums related to your observations and experiences while on clinical placement, displaying engagement and critical thinking, whilst also upholding standards of ethical and professional behaviour, as well as privacy and confidentiality requirements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Professional Development Blog - Stage 1",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "10",
+        "description": "You will present a reflective blog that will form part of your Professional Development Blog, allowing an opportunity for early feedback upon your reflective writing skills",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Professional Development Blog",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "30",
+        "description": "You will compile a portfolio of blog posts outlining your process of clinical and professional skill development, including evidence of your attainment of skill or process of skill development.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-On location at placement",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Professional Development Plan 2",
+        "type": {
+          "label": "Learning plan",
+          "value": "learning_plan"
+        },
+        "weight": "15",
+        "description": "You will present a professional development plan that includes a review of Professional Development Plan 1, as well as areas for improvement and strategies to enhance future performance.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Professional Development Plan 3",
+        "type": {
+          "label": "Learning plan",
+          "value": "learning_plan"
+        },
+        "weight": "15",
+        "description": "You will present a professional development plan that includes a review of Professional Development Plan 1, as well as areas for improvement and strategies to enhance future performance.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PHTY8203-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-On location at placement",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8203"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PHTY8203-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8203"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances, North Ryde<br />Session 2, Weekday attendance, On location at placement<br />",
+    "subject_search_title": "PHTY8203 - Reflective Practice and Professional Development",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Health Professions"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit further develops the role of reflective practice in the delivery of person-centred interprofessional health care. Using experiences from clinical physiotherapy placements and exploration of written accounts of personal experiences of health care, you will examine and reflect on interprofessional practice in Australian health care. You will also develop strategies for self-management and lifelong development within the physiotherapy profession. You will be required to draft professional development plans based on your experience and emerging interests.",
+    "search_title": "PHTY8203 - Reflective Practice and Professional Development",
+    "code": "PHTY8203",
+    "title": "Reflective Practice and Professional Development",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit further develops the role of reflective practice in the delivery of person-centred interprofessional health care. Using experiences from clinical physiotherapy placements and exploration of written accounts of personal experiences of health care, you will examine and reflect on interprofessional practice in Australian health care. You will also develop strategies for self-management and lifelong development within the physiotherapy profession. You will be required to draft professional development plans based on your experience and emerging interests.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-23T10:36:25.454",
+  "code": "PHTY8203",
+  "title": "Reflective Practice and Professional Development",
+  "implementationYear": "2021"
+}

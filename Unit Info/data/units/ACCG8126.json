@@ -1,0 +1,269 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse and integrate conceptual and technical corporate accounting knowledge to report formation of organisations",
+        "code": "ULO2"
+      },
+      {
+        "description": "Effectively communicate within a group and to an intended audience",
+        "code": "ULO4"
+      },
+      {
+        "description": "Use a visual analytics software to explore and gain insight(s) into a company’s financial and non-financial performance",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate the application and basis of selected accounting standards and apply accounting standards including the Conceptual Framework in the preparation of company financial statements",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are required to prepare solutions to the weekly homework questions prior to attending the following class. As solutions to selected weekly homework questions will be discussed in class, this gives students an opportunity to discuss any problems or difficulties they are experiencing with the subject content.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MAccg or MAccLead or MAccg(Adv) or MProfAcc or MProfAccgLead",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ACCG855, ACCG926",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "ACCG923 or ACCG8123",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Company analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "10",
+        "description": "Students will use a visual analytics software to explore and gain insights into a company’s financial and non-financial performance. Students are required to conduct analysis for multiple years and effectively communicate their finding(s) in the presentation slides.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessed coursework",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Practical questions that are similar to weekly homework questions are included in the assessed coursework. Four assessed coursework will be collected throughout the session. Each assessment will contribute 5% to student’s overall assessment for this unit. Marks will be awarded based on accuracy.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "A two-hour online examination will be held during the University examination period",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "The online quiz will be computer based (accessed from iLearn) with multiple choice questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "A 2.5 hour closed book final examination for this unit will be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACCG8126-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8126"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG8126-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8126"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG8126-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8126"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG8126-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8126"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG8126 - Corporate Accounting",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit discusses and analyses the accounting issues that pertain to the corporate form of organisation operating in the private sector. It includes an examination of the framework for regulating corporate financial reporting in Australia, as well as an in-depth study of the requirements for the preparation of financial statements for a group of companies operating under common control. This unit evaluates the application and basis of selected accounting standards that relates to investment in entities, which includes consolidation, equity accounting and joint arrangement. Case studies are used to illustrate the application of accounting standards in the real-world setting. Students are expected to analyse and integrate conceptual and technical corporate accounting knowledge.",
+    "search_title": "ACCG8126 - Corporate Accounting",
+    "code": "ACCG8126",
+    "title": "Corporate Accounting",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit discusses and analyses the accounting issues that pertain to the corporate form of organisation operating in the private sector. It includes an examination of the framework for regulating corporate financial reporting in Australia, as well as an in-depth study of the requirements for the preparation of financial statements for a group of companies operating under common control. This unit evaluates the application and basis of selected accounting standards that relates to investment in entities, which includes consolidation, equity accounting and joint arrangement. Case studies are used to illustrate the application of accounting standards in the real-world setting. Students are expected to analyse and integrate conceptual and technical corporate accounting knowledge.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T13:40:13.695",
+  "code": "ACCG8126",
+  "title": "Corporate Accounting",
+  "implementationYear": "2021"
+}

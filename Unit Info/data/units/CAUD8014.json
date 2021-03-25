@@ -1,0 +1,226 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify how interpreters - specifically including AUSLAN interpreters - may be effectively integrated and incorporated into your future clinical practice.        ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Appraise the complex way in which the social determinants of health can affect health outcomes and the consequences of this for socioeconomically disadvantaged communities in Australia and globally.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate and apply the principles of human-centred design, and identify its importance in designing complex, implementable solutions.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Use theories of public health to demonstrate an advanced understanding of how community-based rehabilitation (CBR) can be applied to prevent, detect or manage hearing loss across a low or middle income population or country.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Discuss community programs and how they can be integrated and used to bridge the gap between medical and social models of health.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Online activities and readings suggested in online modules",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Class prep",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CAUD810",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "CAUD8009 and CAUD8010 and CAUD8012",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Indigenous Hearing Health ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "Students will be asked to review and critique evidence regarding Indigenous hearing health. 2500 word maximum length.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Community Based Rehabilitation ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "Students will be asked to complete an essay on community based rehabilitation in relation to a specific population. 2500 word maximum length. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Students will complete a 3 hours plus 10 minute reading time written examination",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Public Health Intervention",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "10",
+        "description": "Students will be asked to design and present a hypothetical public health intervention. Written material should be no more than 6 pages of 12 point font, with a video/presentation of no more than 10 minutes. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CAUD8014"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CAUD8014"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "CAUD8014 - Audiology and Public Health",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores the role of audiology in the public health domain. It identifies the need for and role of remote delivery of hearing health services as well as service delivery models for different populations (such as Indigenous communities). Models of community programs and their effectiveness in targeting the needs of the community are discussed.",
+    "search_title": "CAUD8014 - Audiology and Public Health",
+    "code": "CAUD8014",
+    "title": "Audiology and Public Health",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores the role of audiology in the public health domain. It identifies the need for and role of remote delivery of hearing health services as well as service delivery models for different populations (such as Indigenous communities). Models of community programs and their effectiveness in targeting the needs of the community are discussed.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:57:07.445",
+  "code": "CAUD8014",
+  "title": "Audiology and Public Health",
+  "implementationYear": "2021"
+}

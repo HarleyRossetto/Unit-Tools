@@ -1,0 +1,287 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply and/or customise big data and data science solutions to various business contexts.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Use tangible and intangible resources to gain insights from large and versatile sets of data and understand the additional requirements needed. ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop a broad understanding and knowledge of the Big Data ecosystem and its applications within the context of managerial decision-making processes.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Explore Data Science theories, methodologies and tools and their practical applications to solve real life business problems.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for classes and assessments. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MGSM960 or MMBA8160",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MGSM913",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Individual Assignment",
+        "type": {
+          "label": "Modelling task",
+          "value": "modelling_task"
+        },
+        "weight": "15",
+        "description": "Individual assignments are based on a number of analytics case studies given in class with their relevant datasets. Students will be given a choice to select one of these case studies and perform suitable predictive modelling techniques, including exploratory analysis, modelling and visualisation. Students will be required to submit a report (approx. 5 – 6 pages in length) highlighting the application of insights, concepts, and relevant techniques used to perform the case study outcomes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "A closed book three hour examination will be held during the University Examination Period. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class contribution",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students will be required to participate in in-class discussions. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Assignment and Presentation",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "35",
+        "description": "The group will be required to produce a report of no more than 6000 words and present the findings to the class. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MMBA8113",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.06",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MMBA8113"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: BUSA8037"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Big Data and Decision Analysis",
+                "academic_item_code": "BUSA8037",
+                "academic_item_url": "/2020/units/BUSA8037"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMBA8113-unit_teaching_period-Intensive-subject",
+        "display_name": "Term 1-Intensive-City",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8113"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8113-unit_teaching_period-Special",
+        "display_name": "Term 3-Special",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8113"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8113-unit_teaching_period-Weekday-subject",
+        "display_name": "Term 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "40",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8113"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8113-unit_teaching_period-Special",
+        "display_name": "Term 1-Special",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8113"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 1, Intensive attendance, City*<br />Term 1, Special circumstances<br />Term 3, Weekday attendance, North Ryde*<br />Term 3, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MMBA8113 - Big Data and Decision Making",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Actuarial Studies and Business Analytics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is a bridge between business and information technology and will equip students with knowledge and skills required to lead and manage big data and data science projects for organisations. Specifically, the unit focuses on data science development practices and the underlying big data applications, on both strategic and operational levels.<br />More importantly, this unit focuses on transforming business processes through big data and data science, the impact on companies’ IT infrastructure, the use of resources to conduct data science workstreams, and identifying the necessary technological underpinnings of big data ecosystem.<br />The unit is especially tailored for MBA students and business managers with a primary focus on managerial discussions surrounding big data employment and decision making, using big data and analytics insights within large companies. The technical aspect of the unit is on a level comprehensible and applicable to MBA students who do not necessarily possess technical training in big data software applications.",
+    "search_title": "MMBA8113 - Big Data and Decision Making",
+    "code": "MMBA8113",
+    "title": "Big Data and Decision Making",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is a bridge between business and information technology and will equip students with knowledge and skills required to lead and manage big data and data science projects for organisations. Specifically, the unit focuses on data science development practices and the underlying big data applications, on both strategic and operational levels.<br />More importantly, this unit focuses on transforming business processes through big data and data science, the impact on companies’ IT infrastructure, the use of resources to conduct data science workstreams, and identifying the necessary technological underpinnings of big data ecosystem.<br />The unit is especially tailored for MBA students and business managers with a primary focus on managerial discussions surrounding big data employment and decision making, using big data and analytics insights within large companies. The technical aspect of the unit is on a level comprehensible and applicable to MBA students who do not necessarily possess technical training in big data software applications.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-25T11:34:23.611",
+  "code": "MMBA8113",
+  "title": "Big Data and Decision Making",
+  "implementationYear": "2021"
+}

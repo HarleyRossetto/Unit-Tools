@@ -1,0 +1,257 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify key threatening processes that lead to the loss of biodiversity, including those experienced through the PACE activity",
+        "code": "ULO2"
+      },
+      {
+        "description": "Evaluate the major patterns and services provided by biodiversity globally",
+        "code": "ULO1"
+      },
+      {
+        "description": "Evaluate the efficacy of new conservation management strategies in a professional context",
+        "code": "ULO5"
+      },
+      {
+        "description": "Critically evaluate and synthesise diverse information sources on a current, real-world conservation issue, and communicate that understanding using a variety of techniques",
+        "code": "ULO3"
+      },
+      {
+        "description": "Understand conservation management plans for practical application using principles of conservation biology",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Additional readings and papers for in-depth understanding",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "BIOL349",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(BIOL3310 or BIOL316) or (BIOL3410 or BIOL347) or (BIOL3430 or BIOL368) or (BIOL3510 or BIOL369) or (BIOL3440 or BIOL373)",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above including (BIOL2410 or BIOL227)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Individual Research Project",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "25",
+        "description": "You will research an allocated project on an aspect of conservation and/or biodiversity relevant to Sydney. You will be given data to manipulate and you will produce a scientific report, which you will submit electronically.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Species Assessment",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "25",
+        "description": "You will write a document on the status of an animal or plant species occurring in NSW. You will identify the history of the species in NSW, threats challenging the species&#39; persistence and nominate a level of threat to the species based on IUCN Red List criteria.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "35",
+        "description": "You will sit a final examination during the examination period at the end of the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Poster",
+        "type": {
+          "label": "Poster",
+          "value": "poster"
+        },
+        "weight": "15",
+        "description": "You will prepare a poster that summarises and critically appraises a scientific journal article from the recent conservation biology literature. You will submit this online.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3420"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3420"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3420"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3420"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, Other<br />",
+    "subject_search_title": "BIOL3420 - Biodiversity and Conservation",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "Conservation of populations, species and ecosystems are essential in maintaining biodiversity. Any loss or deterioration in the condition of biodiversity can compromise ecological and human wellbeing. This PACE unit covers the major themes of biodiversity and conservation: patterns of biodiversity, principles of conservation biology, human impacts and management principles. Topics include global biodiversity, threatening processes, protected areas, habitat fragmentation, restoration ecology, climate change impacts and management of threatened species. Practical work is conducted in two compulsory intensive sessions in collaboration with a partner organisation, one on campus during a weekend and the other off campus in Sydney for three consecutive days. This unit is beneficial for students interested in conservation and management of marine, freshwater and/or terrestrial ecosystems.",
+    "search_title": "BIOL3420 - Biodiversity and Conservation",
+    "code": "BIOL3420",
+    "title": "Biodiversity and Conservation",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Conservation of populations, species and ecosystems are essential in maintaining biodiversity. Any loss or deterioration in the condition of biodiversity can compromise ecological and human wellbeing. This PACE unit covers the major themes of biodiversity and conservation: patterns of biodiversity, principles of conservation biology, human impacts and management principles. Topics include global biodiversity, threatening processes, protected areas, habitat fragmentation, restoration ecology, climate change impacts and management of threatened species. Practical work is conducted in two compulsory intensive sessions in collaboration with a partner organisation, one on campus during a weekend and the other off campus in Sydney for three consecutive days. This unit is beneficial for students interested in conservation and management of marine, freshwater and/or terrestrial ecosystems.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:34:52.289",
+  "code": "BIOL3420",
+  "title": "Biodiversity and Conservation",
+  "implementationYear": "2021"
+}

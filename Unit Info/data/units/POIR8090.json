@@ -1,0 +1,268 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate the quality, validity and reliability of research relating to a specific policy problem.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Show competent knowledge of the theoretical literature as well as of the empirical cases covered in the readings.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Communicate research findings and views accurately and effectively using a variety of techniques (written, spoken, visual).",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify, critically analyse and discuss the major debates and controversies involved in issues such inequality, labour market liberalisation, the institutional convergence or divergence of capitalist systems, and the mutual relationship between society and political institutions.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Engage in independent research showing the ability to build on international scholarship and international examples to address a public policy problem.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading of texts for class discussion and activities",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MPSP or MPH or MILGPP or MIC or MSusDev or MPlan",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Peer learning exercise ",
+        "type": {
+          "label": "Non-academic writing",
+          "value": "Non_academic_writing"
+        },
+        "weight": "20",
+        "description": "Provide informed and constructive feedback on fellow students’ draft essay",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "The essay provides students with the opportunity to explore a topic of interest in depth. Students should develop a considered answer to a specific question based on reading a range of sources.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Weekly quizzes on the mandatory readings",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Informed and constructive participation in discussions and activities",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "POIR8090",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.05",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: POIR8090"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: POIX8090"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Advanced Introduction to Policy",
+                "academic_item_code": "POIX8090",
+                "academic_item_url": "/2020/units/POIX8090"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "POIR8090-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "POIR8090"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "POIR8090-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "POIR8090"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "POIR8090-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "POIR8090"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "POIR8090 - Advanced Introduction to Policy",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on how policy is made and who makes it. Taking an international perspective, the unit introduces students to the policy process, the state and societal actors that cooperate (and fight) over policy and to the context in which they operate. Students will engage in peer learning, discuss cases studies as well as write on policy issues using the materials and concepts presented in the unit. \nThe topics covered indicatively include: The policy process; policy paradigms, networks, monopolies, cycles, and policy diffusion; the regulatory state; state autonomy and state capture; the reciprocal influence between state and society, with a focus on relationship between social capital and democratic governance; clientelism, its determinants, and its implications for policy-making; the decline of trust in public institutions in advanced democracies.",
+    "search_title": "POIR8090 - Advanced Introduction to Policy",
+    "code": "POIR8090",
+    "title": "Advanced Introduction to Policy",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on how policy is made and who makes it. Taking an international perspective, the unit introduces students to the policy process, the state and societal actors that cooperate (and fight) over policy and to the context in which they operate. Students will engage in peer learning, discuss cases studies as well as write on policy issues using the materials and concepts presented in the unit. \nThe topics covered indicatively include: The policy process; policy paradigms, networks, monopolies, cycles, and policy diffusion; the regulatory state; state autonomy and state capture; the reciprocal influence between state and society, with a focus on relationship between social capital and democratic governance; clientelism, its determinants, and its implications for policy-making; the decline of trust in public institutions in advanced democracies.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-05T16:09:44.352",
+  "code": "POIR8090",
+  "title": "Advanced Introduction to Policy",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,319 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop a scientific report to communicate a study you have undertaken, demonstrating appropriate linkages to scientific literature and ecological theory",
+        "code": "ULO6"
+      },
+      {
+        "description": "Describe and analyse how interactions between organisms, and between organisms and the environment, influence population, community and ecosystem patterns",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically evaluate and compare ecological concepts and principles, and apply these to find solutions to contemporary environmental issues",
+        "code": "ULO2"
+      },
+      {
+        "description": "Carry out and correctly interpret a range of equations and statistical tests to measure characteristics of populations and communities",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate knowledge of professional responsibility and safe working practices whilst undertaking field work",
+        "code": "ULO5"
+      },
+      {
+        "description": "Develop testable hypotheses to assess ecological patterns and processes, and design comparative experiments to test these",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for practical classes",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Unit readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(50cp including [20cp from ((BIOL1310 or BIOL114) or (BIOL1110 or BIOL115) or BIOL121)] or [10cp from ((BIOL1310 or BIOL114) or (BIOL1110 or BIOL115) or BIOL121) and 10cp from (ENVE117 or (ENVS1017 or ENVS117) or GEOS117)] and [10cp from ((STAT1170 or STAT170) or (STAT1371 or STAT171) or FOSE1015)])",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BIOL227, BIOL601",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Practical Report",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "20",
+        "description": "You will write a scientific report, in the format of a paper for the journal Austral Ecology, describing one of the practical experiments, and discussing principles of fieldwork. The report will be uploaded to Turnitin.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "The final exam will be held during the Semester 2 Exam Period. Please consult the University Handbook to determine the commencement and finishing dates of the compulsory exam period. This exam will assess your understanding and interpretation of ecological patterns, processes and concepts, and your ability to use these to suggest solutions to contemporary environmental issues",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Lecture participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "5",
+        "description": "All students are expected to actively participate in the lectures each week. Active participation, for this unit, is defined as viewing the lectures within the week of their delivery, for at least nine of the 12 lecture weeks <em>and</em> answering the questions related to each lecture posted on iLearn by the convenor.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "There will be two open-book online quizzes. The questions may be based on lectures, reading materials and practicals. Each quiz is worth 10% and will test your knowledge of ecological concepts and your understanding of equations used in different subfields of ecology. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Ecology in the Anthropocene",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "You will select one of five contemporary environmental issues and develop an essay synthesising scientific consensus of the issue, discussing how ecological concepts can be used to find solutions to your selected issue, and comparing and prioritising uncertainties and knowledge gaps.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "BIOL2410",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: BIOL2410"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: BIOL6410"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Ecology",
+                "academic_item_code": "BIOL6410",
+                "academic_item_url": "/2020/units/BIOL6410"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL2410"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-On location at placement",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL2410"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL2410"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL2410"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Special circumstances, On location at placement<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, Other<br />",
+    "subject_search_title": "BIOL2410 - Ecology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Ecology is the study of the distribution and abundance of organisms and of the processes that generate these patterns. This unit covers basic ecological concepts at the level of organisms, populations, communities, and ecosystems. We study how interactions among organisms - and between organisms and their physical environment - shape the natural world. This unit also addresses how ecological concepts can be applied to current issues such as climate change, conservation, fisheries and agriculture. A first year Statistics unit is a prerequisite for this unit because we use both descriptive statistics and statistical tests to investigate community structure, population dynamics and how organisms interact with the environment. Many students find that the skills they gain taking BIOL2610 and or BIOL235 complements the skills needed in this Ecology unit.",
+    "search_title": "BIOL2410 - Ecology",
+    "code": "BIOL2410",
+    "title": "Ecology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Ecology is the study of the distribution and abundance of organisms and of the processes that generate these patterns. This unit covers basic ecological concepts at the level of organisms, populations, communities, and ecosystems. We study how interactions among organisms - and between organisms and their physical environment - shape the natural world. This unit also addresses how ecological concepts can be applied to current issues such as climate change, conservation, fisheries and agriculture. A first year Statistics unit is a prerequisite for this unit because we use both descriptive statistics and statistical tests to investigate community structure, population dynamics and how organisms interact with the environment. Many students find that the skills they gain taking BIOL2610 and or BIOL235 complements the skills needed in this Ecology unit.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:34:14.942",
+  "code": "BIOL2410",
+  "title": "Ecology",
+  "implementationYear": "2021"
+}

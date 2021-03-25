@@ -1,0 +1,254 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "5000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify tax law issues and be able to apply the Income Tax, Fringe Benefits Tax, GST and the Taxation Administration Act provisions to simulated real life situations for the purposes of giving professional advice.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain and analyse the principal rules that relate to taxation in Australia in their historical, social and legal context",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse the way that taxation laws impact social welfare and the distribution of wealth in Australia",
+        "code": "ULO4"
+      },
+      {
+        "description": "Develop a suitable set of tax management strategies for individuals and business at various stages.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "preparation for seminars and assessment",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp in LAW or LAWS units",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BUSL320, LAW553, LAWS553",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "problem solving task",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "40",
+        "description": "legal problem solving task\n\n",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "research essay",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Problem Questions",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Students will be allocated problem questions each week to discuss in class. Answers should be pre-prepared and students will be required to submit their answers in class.\n\nStudents will be assessed on their understanding of the lecture and reading materials and their ability to critically engage in discussion of the law and theory of taxation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "LAWS5053",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: LAWS5053"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: LAWS8025"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Taxation Law",
+                "academic_item_code": "LAWS8025",
+                "academic_item_url": "/2020/units/LAWS8025"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: ACCG3020"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Taxation Law and Practice",
+                "academic_item_code": "ACCG3020",
+                "academic_item_url": "/2020/units/ACCG3020"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LAWS5053-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5053"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS5053-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5053"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "LAWS5053 - Taxation",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is an examination of the Australian taxation system from a legal perspective. Students will study a range of topics including taxation of capital gains, deductions, capital allowances, and tax avoidance issues, as well as the administration of the taxation system and the taxation of companies, trusts and partnerships.  The unit includes an examination of how the law regulates income distribution through the  social security system and the legal availability of welfare benefits. The unit provides a basic knowledge of the taxation system and is a good background for all law students whether or not they intend to practice in the taxation area.",
+    "search_title": "LAWS5053 - Taxation",
+    "code": "LAWS5053",
+    "title": "Taxation",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is an examination of the Australian taxation system from a legal perspective. Students will study a range of topics including taxation of capital gains, deductions, capital allowances, and tax avoidance issues, as well as the administration of the taxation system and the taxation of companies, trusts and partnerships.  The unit includes an examination of how the law regulates income distribution through the  social security system and the legal availability of welfare benefits. The unit provides a basic knowledge of the taxation system and is a good background for all law students whether or not they intend to practice in the taxation area.",
+  "level": "5000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T16:08:33.912",
+  "code": "LAWS5053",
+  "title": "Taxation",
+  "implementationYear": "2021"
+}

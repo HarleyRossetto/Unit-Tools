@@ -1,0 +1,209 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate critical thinking skills through the understanding and questioning of key concepts, issues and debates.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate understanding of both the assumptions that underpin key theories, and the methods used for research and investigation.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate critical communication skills, including the ability to present sustained, persuasive and original verbal and written arguments cogently and coherently, and mediate in-class debate and discussion.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Evaluate the theoretical approaches that frame the field of Security Studies and Criminology, including the relationship to their historical context.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Engage consistently with the unit through proactive communication with peers and the convener, and demonstrate professional conduct in all class activities and in the submission of assessments.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MSecStragegicStud or MCrim or MIntell or MCTerrorism or MCyberSec or GradDipSecStudCr or GradCertSecStudCr or MIntPubDip or MPICT or MIntSecStud or GradDipIntSecStud or MPICTMIntSecSt or MCPICT or MCPICTMIntSecSt or MSecStrategicStudMCrim or MSecStrategicStudMIntell or MSecStrategicStudMCyberSec or MSecStrategicStudMCTerrorism or MIntellMCrim or MIntellMCyberSec or MIntellMCTerrorism or MCyberSecMCTerrorism or MCyberSecMCrim or MCTerrorismMCrim or Master of Cyber Security Analysis or 10cps at 6000 level or 10cps 8000 level",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PICT812, PICX812",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Portfolio task",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "40",
+        "description": "The portfolio tasks must be completed regularly at a set period throughout the semester. Students will be asked to respond to key questions in a short and succinct manner during the seminar to scaffold knowledge. The aims are twofold: demonstrating skill, as well as enabling students to do research on their projects. Each portfolio task will relate to their developing research questions and will help with the final research design assessment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "3-minute challenge",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "A critical skill required of all graduates is the demonstrated ability to present one’s own research. Students are therefore required to present their research design in 3 minutes in a manner that conveys their argument and significance of their research to a nonspecialist audience. Students should consider the presentation as a type of &#34;pitch&#34; for their research.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Engagement",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students will be required to demonstrate in class an active and critical engagement with course materials. This includes showing a detailed knowledge and understanding of weekly readings and a critical awareness of, and response to, issues raised in the weekly lecture. This will be demonstrated by responding to the weekly questions posted on the forum as well as engage in forum discussion.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Design",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Students will be expected to work with convenors to produce a coherent and logical research design. Students will be expected to demonstrate and articulate: 1. A research question (what is the focus of their study); 2. Research significant and objectives (why their project is of critical importance); 3. Research methods (how they propose to conduct their study); and 4. Preliminary literature review (what relevant literature that currently exists will inform the project).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PICX8012-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICX8012"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PICX8012-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICX8012"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 2, Fully online/virtual<br />",
+    "subject_search_title": "PICX8012 - Critical Thought and Research Design",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is a graduate seminar that provides training for student proficiency in critical thinking and research design. The course content utilises inter-disciplinary approaches and methods for the social sciences. Students will practice advanced reading and writing skills, examine the logic of inquiry, investigate methodologies and theoretical approaches, and evaluate diverse sources. Students will apply their advanced research skills through critical thinking and problem-solving. Students will be assessed based on their application of skills to practice, both in formulating research design and presenting their research for broader consumption.",
+    "search_title": "PICX8012 - Critical Thought and Research Design",
+    "code": "PICX8012",
+    "title": "Critical Thought and Research Design",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is a graduate seminar that provides training for student proficiency in critical thinking and research design. The course content utilises inter-disciplinary approaches and methods for the social sciences. Students will practice advanced reading and writing skills, examine the logic of inquiry, investigate methodologies and theoretical approaches, and evaluate diverse sources. Students will apply their advanced research skills through critical thinking and problem-solving. Students will be assessed based on their application of skills to practice, both in formulating research design and presenting their research for broader consumption.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T10:43:53.634",
+  "code": "PICX8012",
+  "title": "Critical Thought and Research Design",
+  "implementationYear": "2021"
+}

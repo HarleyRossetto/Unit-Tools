@@ -1,0 +1,230 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply digital business models to new business settings.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critique a range of digital business models which sustain competitive advantage in products and services.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Produce a business digital transformation plan that recommends solutions to enhance organisations’ decision making and the management of innovation.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Evaluate the concepts of digital innovations and disruption.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class preparation, readings, research.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MGNT805",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MBusAnalytics or MMgmt or MEngMgt",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Class preparation and contributions",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Individual participation throughout the unit will be graded and is worth 20%. Marks will be allocated to weekly quizzes, online activities, contributions to discussion, and attendance.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Digital Innovation Proposal",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "This assessment is worth 50% in total (25% allocated to group performance and 25% allocated to individual contribution and performance). It is a 5,000 word group report that will also be presented to the class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Video Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "This assessment is worth 30% in total. It is a 5 minute individual presentation plus 10 minute question and answer session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT8005-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "120",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8005"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT8005-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "60",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8005"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT8005-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8005"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT8005-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8005"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde*<br />Session 2, Weekday attendance, North Ryde*<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MGMT8005 - Managing Technology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Digital innovation is disrupting markets, organisations and management itself. It is an important means for creating value for customers and a necessary aspect of a modern manager’s mindset. Managers have to be able to critically evaluate the nature and significance of digital technology to understand unfolding trends and avoid fads. Digital innovation also offers new techniques and tools for effective organisational management in dynamic environments. In this unit, students will develop the knowledge and skills required to manage technology and innovation. They will learn to reconceptualise how business is done with technology to promote sustainable business performance, research and design solutions to enhance decision making, and manage innovation.",
+    "search_title": "MGMT8005 - Managing Technology",
+    "code": "MGMT8005",
+    "title": "Managing Technology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Digital innovation is disrupting markets, organisations and management itself. It is an important means for creating value for customers and a necessary aspect of a modern manager’s mindset. Managers have to be able to critically evaluate the nature and significance of digital technology to understand unfolding trends and avoid fads. Digital innovation also offers new techniques and tools for effective organisational management in dynamic environments. In this unit, students will develop the knowledge and skills required to manage technology and innovation. They will learn to reconceptualise how business is done with technology to promote sustainable business performance, research and design solutions to enhance decision making, and manage innovation.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-05T09:58:23.248",
+  "code": "MGMT8005",
+  "title": "Managing Technology",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,290 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply a range of research tools and models of business performance and productivity to measure and track sustainable value creation across organisational processes and projects.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify and describe models of managing data.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Use quantitative research tools to assess the implications of strategic decisions from a whole of entity perspective and across a range of stakeholders.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class prep, online resources, readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MMgmt",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MGNT604",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Examination ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "An open book two hour online exam will be held during the University Examination Period. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Individual Assignment",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "20",
+        "description": "Students will be required to complete a quantitative analysis task. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Students are required to conduct quantitative and qualitative analysis and write a report of 1,500 - 2,000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Student will complete 5 online quizzes consisting of multiple choice/short answer questions. Each quiz will worth 2%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "The final examination is of two hours plus (10) minutes reading time. The exam format will be closed book. More details on the exam will be provided via iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "There will be 4 online quizzes. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid Session Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "A closed book 90 minute test will be conducted in class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "60",
+        "study_level": {},
+        "academic_item": {
+          "value": "BUSA6004"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "60",
+        "study_level": {},
+        "academic_item": {
+          "value": "BUSA6004"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BUSA6004"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BUSA6004"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde*<br />Session 2, Weekday attendance, North Ryde*<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "BUSA6004 - Managing Data",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Actuarial Studies and Business Analytics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides the quantitative/statistical research tools, data analysis and computer modelling necessary to assist managers with strategic planning, tactical decision-making, and resolving business problems. Students will develop research skills to solve problems.",
+    "search_title": "BUSA6004 - Managing Data",
+    "code": "BUSA6004",
+    "title": "Managing Data",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides the quantitative/statistical research tools, data analysis and computer modelling necessary to assist managers with strategic planning, tactical decision-making, and resolving business problems. Students will develop research skills to solve problems.",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:28:03.359",
+  "code": "BUSA6004",
+  "title": "Managing Data",
+  "implementationYear": "2021"
+}

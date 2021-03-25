@@ -1,0 +1,226 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Research, develop and present, as a member of a team, a new enterprise project.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop and demonstrate interpersonal and written skills to achieve desired outcomes.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate and apply concepts and theory to new enterprise management.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings and class preparations",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(MGSM850 or MMBA8050) and (MGSM835 or MMBA8035)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MGSM859",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "In-Class Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students will have a range of within class tasks and discussions that require students to participate and engage in unit content, activities and forums.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Interactive Analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "Students will research and prepare answers to a range of case study questions twice over the session. These answers will then be integrated in a group environment to develop and reflect upon solutions and enterprise strategy. Individual preparation and contributions will contribute 30% of the total mark.  Group contributions, interactions and arguments will contribute 10% to the final mark.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "New Enterprise Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "This task requires students to work in teams to develop a new enterprise project and has two parts. Part one requires students to work in teams to develop and submit a written new enterprise business plan which will attract a group mark worth 25%. The project will be of 1,000 words per person (so, 3,000 words for 3 people, 4,000 for 4 people).  Part two requires students to present their business plan pitch with each student presenting one aspect of the business plan a 4 – 5 minute Online Presentation. Even though students will continue to communicate and work with their group, each presentation will be graded individually for a mark out of 25%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 3-Special, Term 3-Special-Other",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "New Enterprise Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "This task requires students to work in teams to develop a new enterprise project and has two parts. Part one requires students to work in teams to develop and submit a written new enterprise business plan which will attract a group mark worth 25%. The project will be of 1,000 words per person (so, 3,000 words for 3 people, 4,000 for 4 people).  Part two requires students to present their business plan pitch with each student presenting one aspect of the business plan a 4 – 5 minute Presentation. Even though students will continue to communicate and work with their group, each presentation will be graded individually for a mark out of 25%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 3-Intensive-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMBA8059-unit_teaching_period-Special-subject",
+        "display_name": "Term 3-Special-Other",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8059"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8059-unit_teaching_period-Special",
+        "display_name": "Term 3-Special",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8059"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8059-unit_teaching_period-Intensive-subject",
+        "display_name": "Term 3-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8059"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 3, Special circumstances, Other<br />Term 3, Intensive attendance, North Ryde*<br />Term 3, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MMBA8059 - New Enterprise Management",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "New Enterprise Management deals with the fundamentals of establishing and managing new enterprises. Students will study concepts and theories to apply them and develop solutions to current challenges.",
+    "search_title": "MMBA8059 - New Enterprise Management",
+    "code": "MMBA8059",
+    "title": "New Enterprise Management",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "New Enterprise Management deals with the fundamentals of establishing and managing new enterprises. Students will study concepts and theories to apply them and develop solutions to current challenges.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-14T13:43:03.578",
+  "code": "MMBA8059",
+  "title": "New Enterprise Management",
+  "implementationYear": "2021"
+}

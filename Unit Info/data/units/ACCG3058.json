@@ -1,0 +1,202 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Construct a critical synthesised evaluation of and response to Information Systems audit risk assessments. ",
+        "code": "ULO5"
+      },
+      {
+        "description": "Explain how Information Systems audit objectives provide effective Information Systems Governance ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Assess Information Systems risks and controls and their implications for organisations. ",
+        "code": "ULO2"
+      },
+      {
+        "description": "Evaluate and explain Information Systems audit tools and techniques. ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Evaluate and demonstrate the importance of Information Systems Audit for Information Systems Governance for organisations",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will prepare for class by reviewing teaching material, lecture notes and literature review and writing their critics. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ACCG250 or ACCG2050",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ACCG358",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "A 2.5 hour (plus 10 minutes reading time) examination will be held during the University Examination Period. The final exam is designed to let students demonstrate the knowledge and skills they have attained during the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study ",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "Students are required to prepare an Information Systems audit report. Full details of the assignment (assignment objectives, question material, requirements, etc) will be made available through the unit’s iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessed Coursework ",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "Each activity will be undertaken in the timeframe allocated during the tutorials and must be submitted at the end of tutorial by each student. Each activity is worth 10%. There will be 3 in-class tasks for this assessment during 3 random weeks of the session (between weeks 3 to 12). The task will take the form of a group discussion (5-6 students per group) followed by each student completing the assessment task individually.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACCG3058-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG3058"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG3058-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG3058"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG3058 - Information Systems Audit and Assurance",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit further develops an understanding of internal and operational controls as well as knowledge of the organisation as it relates to information systems (IS) audit and assurance. Students will examine the risks associated with information systems using frameworks that provide professional standards, guidelines, tools and techniques for IS audit and control. The risk-based approach to IS audit is developed so that students have an understanding of inherent risks, control risks and detection risks. Students will be exposed to computer auditing tools and techniques that both directly and indirectly examine the internal logic of an organisation&#39;s applications. In this unit students develop graduate capabilities in a range of areas, including: critical analysis skills in information management and analysis; problem-solving skills in sourcing and identifying relevant information and interpreting output in a multidisciplinary environment; and communication and negotiation skills. ",
+    "search_title": "ACCG3058 - Information Systems Audit and Assurance",
+    "code": "ACCG3058",
+    "title": "Information Systems Audit and Assurance",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit further develops an understanding of internal and operational controls as well as knowledge of the organisation as it relates to information systems (IS) audit and assurance. Students will examine the risks associated with information systems using frameworks that provide professional standards, guidelines, tools and techniques for IS audit and control. The risk-based approach to IS audit is developed so that students have an understanding of inherent risks, control risks and detection risks. Students will be exposed to computer auditing tools and techniques that both directly and indirectly examine the internal logic of an organisation&#39;s applications. In this unit students develop graduate capabilities in a range of areas, including: critical analysis skills in information management and analysis; problem-solving skills in sourcing and identifying relevant information and interpreting output in a multidisciplinary environment; and communication and negotiation skills. ",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T15:33:14.874",
+  "code": "ACCG3058",
+  "title": "Information Systems Audit and Assurance",
+  "implementationYear": "2021"
+}

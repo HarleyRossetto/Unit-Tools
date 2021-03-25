@@ -1,0 +1,291 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply relevant language conventions to create meaningful intercultural encounters.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Develop intermediate level skills in reading, writing, listening and speaking in Greek language.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify, describe and evaluate some aspects of Greek-speaking cultures and societies.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify, evaluate and deploy the grammatical structures of Greek at intermediate level. ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate a refined awareness of language and language use, in both Greek and English.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to spend time on daily review of grammar and vocabulary, and Greek practice. Students should be familiar with and feel comfortable with each week’s content before starting a new week. Class preparation time also includes time to study, revise seminar content and prepare for the quizzes and tests.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MGK102 or MGRK1020",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MGK205",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "2 Online Quizzes. These will be held as a part of regular seminar time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Written Assignment",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "15",
+        "description": "Based on cultural concepts discussed in weeks 1-7.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Oral Test",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "15",
+        "description": "Students are required to prepare a given scenario and act out specific roles appropriately.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "This is the final online test and is a comprehensive test of reading and writing skills, covering the content of Weeks 1-12. This will be held as a part of regular seminar time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Engagement with learning materials and weekly activities as part of regular seminar time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MGRK2010",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MGRK2010"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MGRK1210"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.01R",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "C Modern Greek Studies 3",
+                "academic_item_code": "MGRK1210",
+                "academic_item_url": "/2021/units/MGRK1210"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGRK2010-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGRK2010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGRK2010-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGRK2010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGRK2010-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGRK2010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MGRK2010 - I Modern Greek Studies 3",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit aims to enable students to become independent users of the Greek language. It seeks to develop students&#39; skills in reading, writing, comprehension and speaking in Greek and further develops students&#39; knowledge of Greek culture. The unit aims to develop students&#39; language skills to B1 level in the Common European Framework of Reference for Languages (CEFRL).",
+    "search_title": "MGRK2010 - I Modern Greek Studies 3",
+    "code": "MGRK2010",
+    "title": "I Modern Greek Studies 3",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit aims to enable students to become independent users of the Greek language. It seeks to develop students&#39; skills in reading, writing, comprehension and speaking in Greek and further develops students&#39; knowledge of Greek culture. The unit aims to develop students&#39; language skills to B1 level in the Common European Framework of Reference for Languages (CEFRL).",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-27T09:36:54.968",
+  "code": "MGRK2010",
+  "title": "I Modern Greek Studies 3",
+  "implementationYear": "2021"
+}

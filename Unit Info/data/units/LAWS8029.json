@@ -1,0 +1,239 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Formulate, present and evaluate arguments about succession drawing upon relevant legal authority and policy considerations as regards different conceptions of inheritance.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse and apply case law on the Succession Act 2006 (NSW) and law related to the distribution of property after death and apply to family provision and the validity and interpretation of wills.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Advise on competing claims dealing with testate estates, intestate estates and partial intestacy and resolve complex disputes of succession law",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate a detailed and thorough knowledge of legal principles relating to the nature of succession law and the theoretical basis for the law",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "A weekly schedule of readings will be required to prepare for lectures and tutorials",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(Admission to JD and 80cp of LAWS or LAW units at 6000 level or above) or (admission to LLM) ",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LAW556, LAWS829",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online multiple choice quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "A one hour online test of the latter parts of the course",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Succession Law Problem Solving task",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "30",
+        "description": "Students will be presented with a problem scenario and will be required to apply the law of succession in NSW in a written response",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online multiple choice quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "A one hour online test of the early unit materials",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Essay ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Students will prepare a research essay on a topic of their own choosing relevant to Succession Law in NSW",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "LAWS8029",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: LAWS8029"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: LAWS5056"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Succession",
+                "academic_item_code": "LAWS5056",
+                "academic_item_url": "/2020/units/LAWS5056"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8029"
+        }
+      }
+    ],
+    "unit_offering_text": "2022<br />",
+    "subject_search_title": "LAWS8029 - Succession",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Succession law involves the study of wills, probate matters and inheritance. This unit is designed to explore the legal philosophical basis for the principles existing in this area of law, comprised of a combination of distinct categories of law such as property law and equity. In addition, an understanding of the formalities and requirements for valid wills, as well as the interpretative and constructive powers of the courts will be examined. This will equip a law student with the knowledge required to advise on estate planning matters and disputes relating to wills or on intestacy. <br /><br />",
+    "search_title": "LAWS8029 - Succession",
+    "code": "LAWS8029",
+    "title": "Succession",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Succession law involves the study of wills, probate matters and inheritance. This unit is designed to explore the legal philosophical basis for the principles existing in this area of law, comprised of a combination of distinct categories of law such as property law and equity. In addition, an understanding of the formalities and requirements for valid wills, as well as the interpretative and constructive powers of the courts will be examined. This will equip a law student with the knowledge required to advise on estate planning matters and disputes relating to wills or on intestacy. <br /><br />",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T14:53:57.822",
+  "code": "LAWS8029",
+  "title": "Succession",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,220 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Collect information from self-selected sources to complete a prescribed research task.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Discuss theories of world politics in depth with peers.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate a critical understanding of the specific theories used in the study of international relations.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate capacity to apply the major analytic and theoretical frameworks in several subfields of international relations.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify and analyse interconnections between international relations theory and contemporary international politics.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading for classes",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "40cp at 1000 level or above OR (10cp in HIST or MHIS or POL or POIR or MHIX or POIX units)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Quizzes based on weekly readings",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Quizzes based on weekly readings – dates and details provided on ilearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research essay and presentation",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "55",
+        "description": "Research essay requiring independent research. Essay questions and marking criteria will be provided on ilearn. Completion of task will require in-class or online presentation summarising essay&#39;s argument.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online discussion",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "25",
+        "description": "Students will be assessed a) on their participation in the weekly discussion forums on ilearn (10%) and b) on their written submission responding to on one week&#39;s tutorial activity (15%). Details on ilearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "POIX2030",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: POIX2030"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: POIR2030"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Theories of World Politics",
+                "academic_item_code": "POIR2030",
+                "academic_item_url": "/2020/units/POIR2030"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "POIX2030-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "POIX2030"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "POIX2030 - Theories of World Politics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to the major theories of international relations, key debates that have shaped the discipline and interconnections between theory and the actual practice of international politics. International relations was founded as a distinct discipline shortly after the First World War, with the explicit goal of identifying the causes of war and peace. While war and great power conflict remain central concerns, the discipline has grappled with new challenges as de-colonisation and globalisation have created a densely interconnected global system of sovereign states. Students will engage with key themes including power, great power rivalry, nationalism, national interest, critical approaches, justice and cooperation under anarchy. All enrolment queries should be directed to Open Universities Australia (OUA): see www.open.edu.au",
+    "search_title": "POIX2030 - Theories of World Politics",
+    "code": "POIX2030",
+    "title": "Theories of World Politics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to the major theories of international relations, key debates that have shaped the discipline and interconnections between theory and the actual practice of international politics. International relations was founded as a distinct discipline shortly after the First World War, with the explicit goal of identifying the causes of war and peace. While war and great power conflict remain central concerns, the discipline has grappled with new challenges as de-colonisation and globalisation have created a densely interconnected global system of sovereign states. Students will engage with key themes including power, great power rivalry, nationalism, national interest, critical approaches, justice and cooperation under anarchy. All enrolment queries should be directed to Open Universities Australia (OUA): see www.open.edu.au",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-03T09:32:23.519",
+  "code": "POIX2030",
+  "title": "Theories of World Politics",
+  "implementationYear": "2021"
+}

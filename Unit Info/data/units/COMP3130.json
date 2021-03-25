@@ -1,0 +1,239 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Implement a transactional mobile application as an interface to a web service.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply a knowledge of mobile application technology to the design of an effective user experience.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate a mobile application with respect to usability and accessibility.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Explain the security and privacy issues inherent in web-based mobile applications.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Describe the options for deployment and monetisation of mobile applications.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Critically evaluate mobile implementation platforms and technologies relative to the needs of a project.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Watching Online resources",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Weekly Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "COMP229 or COMP2000 or COMP249 or COMP2110",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "User Experience Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "This assessment is to assess students&#39; ability to create a user experience questionnaire and write a report based on its feedback ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Quizzes to assess students individual strengths, weaknesses, knowledge and skills to develop a baseline of what students know about the topic.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mobile Security Challenges",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "A group presentation to assess students&#39; ability to clearly assess, understand and communicate the security challenges in a mobile application environment",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Peer Review of the Major Work",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "10",
+        "description": "Peer Review of the Major Project to be able to assess students&#39; ability to critically evaluate the  application based on the given case study",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mobile Application Development ",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "40",
+        "description": "Major Work project to assess students&#39; skills on design, implementation, testing and deployment for a Mobile Application. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "COMP3130-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP3130"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "COMP3130-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP3130"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances<br />Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "COMP3130 - Mobile Application Development",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers the design and development of mobile applications from a technical and user experience perspective.  The underlying environments made available by mobile devices will be reviewed and the relative merits of different implementation technologies will be evaluated.  The relationship between mobile applications and the web will be discussed as well as the requirements for providing an effective user-experience for offline and intermittently connected devices.  The unit will also cover the design of the user experience for mobile applications and develop students&#39; ability to critically evaluate the usability of a mobile design.",
+    "search_title": "COMP3130 - Mobile Application Development",
+    "code": "COMP3130",
+    "title": "Mobile Application Development",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit covers the design and development of mobile applications from a technical and user experience perspective.  The underlying environments made available by mobile devices will be reviewed and the relative merits of different implementation technologies will be evaluated.  The relationship between mobile applications and the web will be discussed as well as the requirements for providing an effective user-experience for offline and intermittently connected devices.  The unit will also cover the design of the user experience for mobile applications and develop students&#39; ability to critically evaluate the usability of a mobile design.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-07T10:40:23.252",
+  "code": "COMP3130",
+  "title": "Mobile Application Development",
+  "implementationYear": "2021"
+}

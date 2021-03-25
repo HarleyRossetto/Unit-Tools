@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "demonstrate advanced communication skills, written and oral in language(s) other than English.",
+        "code": "ULO1"
+      },
+      {
+        "description": "communicate deep knowledge of a specialist topic in language and culture.",
+        "code": "ULO4"
+      },
+      {
+        "description": "critically evaluate resources, prioritise relevance and apply to achieving an identified goal.",
+        "code": "ULO5"
+      },
+      {
+        "description": "apply independent and analytical judgment to a research, professional or language accreditation project.",
+        "code": "ULO2"
+      },
+      {
+        "description": "organise and manage a project plan to accomplish an identified goal.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Engagement with resources and practical activities developing skills necessary to achieve project goals, which may include peer-led engagement and scaffolded practice and evaluative tasks. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "EUL307, INTS310",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Written communication",
+        "type": {
+          "label": "LOTE written composition",
+          "value": "lote_written_composition"
+        },
+        "weight": "40",
+        "description": "Produce carefully articulated and project-specific written communications engaging with the language you are studying and the communicative context and purposes of the project goals. Take into account feedback received in preparatory tasks.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Oral communication",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "Demonstrate project-appropriate communication skills and content relevance. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Comprehension and analysis of texts",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "20",
+        "description": "Comprehension and evaluation of resources.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project goals, plan and timeline ",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "10",
+        "description": "Design project plan. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "INTS3010-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS3010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "INTS3010-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS3010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "INTS3010-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS3010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Special circumstances<br />Session 2, Fully online/virtual<br />",
+    "subject_search_title": "INTS3010 - International Studies Project",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit uses key themes to explore language and cultural contexts. Students will work in groups with relevant staff in Languages and Cultures undertaking projects in one of the languages and cultures offered in the Department. Assessment is by individual projects which allow students to accomplish identified goals in relation to literature, theatre, film, music, fine arts, education, or linguistics, to examine relationships between language and culture and demonstrate the application of advanced skills in languages and cultures. Students will use language(s) they are studying to deepen their understanding of and communicate specialist knowledge in language or culture. Students need to have at least upper intermediate language skills and have completed prior units of study in languages and cultures and articulate their intended project goals in their enrolment request. ",
+    "search_title": "INTS3010 - International Studies Project",
+    "code": "INTS3010",
+    "title": "International Studies Project",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit uses key themes to explore language and cultural contexts. Students will work in groups with relevant staff in Languages and Cultures undertaking projects in one of the languages and cultures offered in the Department. Assessment is by individual projects which allow students to accomplish identified goals in relation to literature, theatre, film, music, fine arts, education, or linguistics, to examine relationships between language and culture and demonstrate the application of advanced skills in languages and cultures. Students will use language(s) they are studying to deepen their understanding of and communicate specialist knowledge in language or culture. Students need to have at least upper intermediate language skills and have completed prior units of study in languages and cultures and articulate their intended project goals in their enrolment request. ",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:04:58.02",
+  "code": "INTS3010",
+  "title": "International Studies Project",
+  "implementationYear": "2021"
+}

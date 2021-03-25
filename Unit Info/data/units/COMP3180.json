@@ -1,0 +1,117 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Independently research and evaluate advanced games programming techniques.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Evaluate alternative game development approaches in terms of usability and performance.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply software engineering techniques to collaboratively develop complex game architectures.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate knowledge of advanced games programming techniques.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "COMP2150 and COMP2160",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP3180"
+        }
+      }
+    ],
+    "unit_offering_text": "2022<br />",
+    "subject_search_title": "COMP3180 - Advanced Game Development",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers advanced topic in the development of games and virtual worlds, such as: virtual and augmented reality (VR/AR), game analytics, procedural generation, artificial intelligence, network programming and tools development.",
+    "search_title": "COMP3180 - Advanced Game Development",
+    "code": "COMP3180",
+    "title": "Advanced Game Development",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit covers advanced topic in the development of games and virtual worlds, such as: virtual and augmented reality (VR/AR), game analytics, procedural generation, artificial intelligence, network programming and tools development.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-05T13:59:32.973",
+  "code": "COMP3180",
+  "title": "Advanced Game Development",
+  "implementationYear": "2021"
+}

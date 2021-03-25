@@ -1,0 +1,265 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify the components of the neural and endocrine systems that maintain energy balance in the human body",
+        "code": "ULO2"
+      },
+      {
+        "description": "Evaluate and synthesize information on contemporary topics in human physiology",
+        "code": "ULO7"
+      },
+      {
+        "description": "Identify the components, mechanisms and consequences of an immune response",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain how the cardiovascular, renal, and respiratory systems contribute to homeostasis",
+        "code": "ULO1"
+      },
+      {
+        "description": "Synthesise information from the scientific literature for presentation in written and oral formats, individually and in groups",
+        "code": "ULO6"
+      },
+      {
+        "description": "Analyse experimental data and interpret physiological significance",
+        "code": "ULO5"
+      },
+      {
+        "description": "Perform measurements of physiological responses safely in human subjects",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "[(BIOL2220 or BIOL247) and ((BIOL2230 or BIOL257) or (MEDI2300 or MEDI204) or (admission to BHumanSc))] and 20cp at 2000 level including BIOL2220 or BIOL247",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BIOL376",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Formal exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "An invigilated exam will be held during the final exam period. All the lecture and practical material is examinable. A non-programmable scientific calculator will be required in the exam but dictionaries are not allowed.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case study quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Quizzes will be administered to support learning outcomes around the four guest lectures delivered as part of the lecture material. These quizzes will help you to evaluate and synthesise information on contemporary content in the field. The quizzes will be administered through ilearn and be multiple choice format. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "20",
+        "description": "You will write an essay on a topic chosen from the list on the iLearn site. The essay must be written in your own words. The main criterion for marking will be the physiological content but writing style will also be considered. The rubric used to mark the essay is on the iLearn site.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quizzes on Laboratory content and outcomes",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "10",
+        "description": "The laboratory content will be assessed by submission of a quiz either during, or shortly after the practical session. The quizzes will be administered through iLearn and will be partly multiple choice questions, and partly the submission of data or outcomes of data analysis from experiments ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Seminar",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "The seminar topics will be the same as your essay topic. You will present your seminar as part of a team of three students. Each seminar is of 15 minutes duration with an extra 5 minutes of question time. There will be time during the practical sessions for you to decide on the distribution of tasks between team members. All three students must present part of the seminar and answer questions from the audience. The main criterion for marking will be the quality of presentation although the physiological content will also be considered and the rubric used to mark the seminar is included on the ilearn site.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "BIOL3210-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3210"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL3210-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3210"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL3210-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3210"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL3210-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3210"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "BIOL3210 - Advanced Human Physiology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit follows on from BIOL2230 and BIOL2220. We will investigate the interaction of the renal and respiratory systems in the control of body pH. The next topic is the control of blood pressure leading to a discussion of hypertension and exercise. We continue with endocrinology discussing signal transduction and messenger pathways, and the role of hormones in the regulation of blood chemistry. A discussion of neuroendocrine systems and function of thyroid, sex, growth, mineralocorticoid and glucocorticoid hormones leads into a discussion of stress and the stress hormones. The immune system will be introduced to develop an understanding of immunity and health problems associated with autoimmune responses. As obesity is currently a major threat to human health we will consider energy balance and the neurological basis for homeostatic and hedonic control of appetite before investigating other factors involved in weight control including genetics, foetal programming, protein leverage and the gut microbiota. Guest lectures will showcase important aspects of physiology in a clinical and research perspective. Practical classes will make use of laboratory experiments to measure physiological parameters such as blood pressure during exercise, and acid and base levels in the urine. In these classes students will act both as investigators and experimental subjects.",
+    "search_title": "BIOL3210 - Advanced Human Physiology",
+    "code": "BIOL3210",
+    "title": "Advanced Human Physiology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit follows on from BIOL2230 and BIOL2220. We will investigate the interaction of the renal and respiratory systems in the control of body pH. The next topic is the control of blood pressure leading to a discussion of hypertension and exercise. We continue with endocrinology discussing signal transduction and messenger pathways, and the role of hormones in the regulation of blood chemistry. A discussion of neuroendocrine systems and function of thyroid, sex, growth, mineralocorticoid and glucocorticoid hormones leads into a discussion of stress and the stress hormones. The immune system will be introduced to develop an understanding of immunity and health problems associated with autoimmune responses. As obesity is currently a major threat to human health we will consider energy balance and the neurological basis for homeostatic and hedonic control of appetite before investigating other factors involved in weight control including genetics, foetal programming, protein leverage and the gut microbiota. Guest lectures will showcase important aspects of physiology in a clinical and research perspective. Practical classes will make use of laboratory experiments to measure physiological parameters such as blood pressure during exercise, and acid and base levels in the urine. In these classes students will act both as investigators and experimental subjects.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-02T11:07:14.328",
+  "code": "BIOL3210",
+  "title": "Advanced Human Physiology",
+  "implementationYear": "2021"
+}

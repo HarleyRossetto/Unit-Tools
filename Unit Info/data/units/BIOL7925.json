@@ -1,0 +1,226 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Professionally communicate and defend your selected methodology.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Build and articulate a case for the importance of funding your research project.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify, critically evaluate and apply potential methods to undertake your research.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply knowledge of your Work Health and Safety obligations to create a risk assessment and management plan for your research project.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify an appropriate funding body for your proposed research project.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Working to gain background in methods.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Placement with research group.",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BIOL760",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Skills plan and supervisors report",
+        "type": {
+          "label": "Work-integrated task",
+          "value": "work_integrated_task"
+        },
+        "weight": "20",
+        "description": "Students and supervisors will outline an agreed series of tasks designed to train the student in relevant lab, field, or data analysis techniques. Students will provide a written reflection on these tasks and supervisors will feedback on student performance, progress, participation in group activities, abilities acquired, competency with performing methods, and attendance throughout the placement.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research methods",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "40",
+        "description": "Students will describe and defend the appropriateness of the methods they have learnt in their placement in written form for publication.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "WHS portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "10",
+        "description": "A portfolio outlining the WHS training plan from Lab Essentials, completion of the required WHS modules, and a project specific evaluation of WHS needs. Students will need to work a supervisor and the relevant professional and technical staff to ensure that a comprehensive risk assessment and risk management plan is produced.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Grant Proposal",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "30",
+        "description": "Students, with assistance from a supervisor and the unit convenor, will identify an appropriate grant opportunity relevant to their proposed project. They will write a grant application using the format specified by the grant opportunity.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL7925"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL7925"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "BIOL7925 - Biology in the 21st Century",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to provide students with hands-on experience in biological research, particularly in the area relative to your second year project. The unit also aims for you to develop your skills with working with potential supervisors and research groups. Students will undertake the equivalent of 150 hours work experience in a research group in the Department of Biological Sciences. Students will learn methods used by the research group, assist in research relative to their project, attend research group meetings, and, potentially, pursue their own small individual project.",
+    "search_title": "BIOL7925 - Biology in the 21st Century",
+    "code": "BIOL7925",
+    "title": "Biology in the 21st Century",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to provide students with hands-on experience in biological research, particularly in the area relative to your second year project. The unit also aims for you to develop your skills with working with potential supervisors and research groups. Students will undertake the equivalent of 150 hours work experience in a research group in the Department of Biological Sciences. Students will learn methods used by the research group, assist in research relative to their project, attend research group meetings, and, potentially, pursue their own small individual project.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:36:23.204",
+  "code": "BIOL7925",
+  "title": "Biology in the 21st Century",
+  "implementationYear": "2021"
+}

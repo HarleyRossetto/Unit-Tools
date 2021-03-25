@@ -1,0 +1,210 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply International HRM theories and concepts to solve problems.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse and explain the key differences between domestic and international HRM theories and strategies.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically evaluate International HRM theories and concepts in organisational, domestic and globalised contexts.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class preparation & readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "HRM307",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(HRM201 or MGMT2040) and (HRM250 or MGMT2050)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "35",
+        "description": "A two-hour closed-book examination worth 35% will be held during the University Examination Period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "35",
+        "description": "A two-hour online examination worth 35% will be held during the University Examination Period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "A thirty minute quiz worth 15%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "International HRM Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "This task has two components. The first is a group Prezi of 6 slides worth 20%. The second is an individual report of up to 2,000 words worth 30%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT3007-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3007"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT3007-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3007"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MGMT3007 - International Human Resource Management",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores the concepts and contemporary challenges of managing human resources in both domestic and international contexts. Students will learn about theoretical and conceptual models of managing a globalised workforce. The unit will also provide students with an opportunity to critically apply their conceptual learning to develop solutions for organisations in managing a global workforce.",
+    "search_title": "MGMT3007 - International Human Resource Management",
+    "code": "MGMT3007",
+    "title": "International Human Resource Management",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores the concepts and contemporary challenges of managing human resources in both domestic and international contexts. Students will learn about theoretical and conceptual models of managing a globalised workforce. The unit will also provide students with an opportunity to critically apply their conceptual learning to develop solutions for organisations in managing a global workforce.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-07T16:38:12.554",
+  "code": "MGMT3007",
+  "title": "International Human Resource Management",
+  "implementationYear": "2021"
+}

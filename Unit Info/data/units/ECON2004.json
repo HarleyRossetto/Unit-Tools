@@ -1,0 +1,274 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically analyse models and theories to solve contemporary macroeconomic problems.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply macroeconomic models and theories to understand macroeconomic phenomena, and critique macroeconomic phenomena both individually and as a member of a team.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse and apply theoretical models in contemporary macroeconomics.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading the assigned literature",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECON201, ECON204",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "50cp at 1000 level or above including ECON110 or ECON1021",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final examination online",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A two-hour examination, consisting of descriptive short and long answer questions, will be held during the University Examination Period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A two-hour closed book examination, consisting of descriptive short and long answer questions, will be held during the University Examination Period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid session test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Mid session test",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid session online test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Mid session online test",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Several online quizzes will be held during the session. Details will be available in iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Part 1: Tutorial solution presentations (10%) Part 2: Central Bank Simulation (10%)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECON2004-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON2004"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECON2004-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON2004"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECON2004-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON2004"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECON2004-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON2004"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ECON2004 - Macroeconomic Analysis and Applications",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Economics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit builds on the IS-LM model by incorporating expectations into goods and financial markets, by introducing openness and by integrating the labour market. The aggregate supply and demand framework is used to examine the short- and medium-run effects of monetary and fiscal policy. Other topics may include: growth; inflation; unemployment; and financial crises. This unit should enable students to evaluate the recurrent debates on macroeconomic policy and to analyse important real-world problems.",
+    "search_title": "ECON2004 - Macroeconomic Analysis and Applications",
+    "code": "ECON2004",
+    "title": "Macroeconomic Analysis and Applications",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit builds on the IS-LM model by incorporating expectations into goods and financial markets, by introducing openness and by integrating the labour market. The aggregate supply and demand framework is used to examine the short- and medium-run effects of monetary and fiscal policy. Other topics may include: growth; inflation; unemployment; and financial crises. This unit should enable students to evaluate the recurrent debates on macroeconomic policy and to analyse important real-world problems.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-02T11:09:43.738",
+  "code": "ECON2004",
+  "title": "Macroeconomic Analysis and Applications",
+  "implementationYear": "2021"
+}

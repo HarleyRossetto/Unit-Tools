@@ -1,0 +1,178 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "<strong>Apply </strong>notions of cultural identity, acculturation, assimilation, rejection, and superiority amongst peoples and cultures of Egypt and the ancient Near East.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Communicate effectively with teaching staff and peers.",
+        "code": "ULO5"
+      },
+      {
+        "description": "<strong>Conduct </strong>independent research, synthesize acquired knowledge, and effectively plan, organize and prioritize work.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Acquire skills necessary for the analysis and interpretation of social and political identity in the ancient world.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Understand and critically evaluate methodological approaches to the study of cultural dialogue in antiquity.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [],
+    "assessments": [
+      {
+        "assessment_title": "Weekly Readings",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "20",
+        "description": "<div>\n<div>Summaries of Weekly Readings.</div>\n</div>\n<div> </div>",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Long Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "<div>\n<div>Essay requiring independent research; Length: 3,500 words</div>\n</div>\n<div> </div>",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Short Essay (Literature Review)",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "20",
+        "description": "<div>\n<div>Essay requiring independent research; Length: 1,000 words;</div>\n</div>\n<div> </div>",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class discussion",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "<div>\n<div>Discussion of reading of the week in tutorials by answering questions pertaining to readings.</div>\n</div>\n<div> </div>",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "AHIX3241-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIX3241"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "AHIX3241 - Dialogue of Cultures: Ancient Egypt and the Near East",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit offers and advanced study of cultural dialogue between ancient societies, by examining the material and literary records of the ancient Near East and neighboring regions, including Egypt. Western cultural stereotypes and prejudices are investigated, as well as notions of cultural identity, assimilation, rejection, and superiority. Problems to be addressed may concern, among many, cultural borrowing, funerary traditions, gift-giving, tribute, plundering, arts and coinage, trade, and dress.  ",
+    "search_title": "AHIX3241 - Dialogue of Cultures: Ancient Egypt and the Near East",
+    "code": "AHIX3241",
+    "title": "Dialogue of Cultures: Ancient Egypt and the Near East",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit offers and advanced study of cultural dialogue between ancient societies, by examining the material and literary records of the ancient Near East and neighboring regions, including Egypt. Western cultural stereotypes and prejudices are investigated, as well as notions of cultural identity, assimilation, rejection, and superiority. Problems to be addressed may concern, among many, cultural borrowing, funerary traditions, gift-giving, tribute, plundering, arts and coinage, trade, and dress.  ",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T11:07:15.298",
+  "code": "AHIX3241",
+  "title": "Dialogue of Cultures: Ancient Egypt and the Near East",
+  "implementationYear": "2021"
+}

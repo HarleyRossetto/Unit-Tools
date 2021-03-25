@@ -1,0 +1,246 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Examine and employ a variety of exposed to risk, graduation and mortality projection techniques.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Develop an understanding of aspects of the theory and practice of statistical learning methods.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Discuss the concept of the Actuarial Control Cycle and apply it to solve a variety of practical business problems involving financial and actuarial risks.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Model and critically analyse scenarios involving financial risks for various types of financial institutions and compare ways of managing these risks.",
+        "code": "ULO3"
+      },
+      {
+        "description": "<div><strong>Explain and justify decision making to different stakeholders using the actuarial control cycle framework</strong></div>\n<div> </div>",
+        "code": "ULO6"
+      },
+      {
+        "description": "Identify and apply the relevant statistical techniques in solving practical actuarial problems within the actuarial control cycle framework.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for lectures and various assessment items.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Further article readings will form part of the learning resources to supplement lecture notes",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "STAT810 or STAT8310 or STAT806",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ACST819, ACST886",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "The final examination will be closed book, a one and half hours written paper with ten minutes reading time, to be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "The presentation is an oral presentation to the class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Class Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "The test will be approximately 90 minutes, to be held during class time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "25",
+        "description": "This is an individual assignment which focuses on actuarial modelling using R.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Game and Discussion Forum Posts",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "5",
+        "description": "Seminar and discussion forum participation with game questions/answers",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACST8086-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACST8086"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACST8086-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACST8086"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ACST8086 - Actuarial Modelling",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Actuarial Studies and Business Analytics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Survival models will be used to estimate decrement rates from actual experience, compare these with standard rates, and prepare new tables. In constructing new tables, consideration will be given to risk factors; selection; data collection; graduation; and testing the graduation. The concept of actuarial modelling will be discussed. Methods for mortality projection will be described and applied. Machine learning will be introduced. The &#39;actuarial control cycle&#39;, a conceptual framework of the processes for developing and managing financial enterprises and products, will be studied. Students gaining a weighted average of credit across all of ACST8084, ACST8085 and the CS2-related components of the assessment in ACST8086 (minimum mark of 60% on all three components) will satisfy the requirements for exemption from the professional subject CS2 of the Actuaries Institute.",
+    "search_title": "ACST8086 - Actuarial Modelling",
+    "code": "ACST8086",
+    "title": "Actuarial Modelling",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Survival models will be used to estimate decrement rates from actual experience, compare these with standard rates, and prepare new tables. In constructing new tables, consideration will be given to risk factors; selection; data collection; graduation; and testing the graduation. The concept of actuarial modelling will be discussed. Methods for mortality projection will be described and applied. Machine learning will be introduced. The &#39;actuarial control cycle&#39;, a conceptual framework of the processes for developing and managing financial enterprises and products, will be studied. Students gaining a weighted average of credit across all of ACST8084, ACST8085 and the CS2-related components of the assessment in ACST8086 (minimum mark of 60% on all three components) will satisfy the requirements for exemption from the professional subject CS2 of the Actuaries Institute.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T08:55:32.481",
+  "code": "ACST8086",
+  "title": "Actuarial Modelling",
+  "implementationYear": "2021"
+}

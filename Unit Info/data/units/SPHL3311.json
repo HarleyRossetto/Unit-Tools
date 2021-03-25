@@ -1,0 +1,202 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate theories of typical language processing using information about the performance of people with language disorder",
+        "code": "ULO5"
+      },
+      {
+        "description": "Discuss and apply methods of data collection typically used with people who have acquired disorders of language",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify the kinds of research and clinical issues addressed in working with people who have acquired disorders of language",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse and interpret the speech and language skills of people with acquired communication disorders",
+        "code": "ULO4"
+      },
+      {
+        "description": "Interpret and evaluate theories and research in the area of acquired speech and language disorders",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly required reading",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "20cp in LING or SPHL 2000 level including (LING220 or LING2220 or LING214 or LING2214 or LING217 or LING2217 or PSY238 or PSYU2238) or admission to BMedScs",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LING303, SPH306, SPH311",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Oral Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "You will deliver a 10 minute oral presentation on ONE article chosen from a larger set prescribed by the course convenor. You will work in a small group to prepare your presentation with accompanying PowerPoint slides. You will submit your PowerPoint slides on the day of the presentation as part of the assessment requirements. Individual students&#39; marks allocated for this assessment will be based on the group presentation (50%) and completion of a short (100-word) individual reflection on the value of working in a team (50%).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Case Study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "45",
+        "description": "You will be provided with assessment data collected from a single participant with an acquired language disorder. You will be required to summarise and interpret the data in relation to current literature in the field (2000 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Take Home Exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "45",
+        "description": "You will complete an open-book, take home exam covering the unit content. SIX questions will be included, FOUR of which must be answered within a three-hour period. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPHL3311"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPHL3311"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "SPHL3311 - Acquired Speech and Language Disorders",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit, you will learn about the nature of acquired communication disorders in adults. You will learn how to interpret experimental and observational data obtained from patients in light of models of typical language and cognitive processing; and how to access and evaluate the literature related to acquired communication disorders. The unit covers a general introduction to the structure of the human brain, particularly as it relates to language use. Throughout the unit, we build on this basis in considering different types of brain damage that are associated with communication disorders (for example, stroke, traumatic brain injury). Topics include: aphasia, cognitive-communication impairments, acquired reading and spelling disorders; motor speech disorders, and bilingual aphasia.",
+    "search_title": "SPHL3311 - Acquired Speech and Language Disorders",
+    "code": "SPHL3311",
+    "title": "Acquired Speech and Language Disorders",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit, you will learn about the nature of acquired communication disorders in adults. You will learn how to interpret experimental and observational data obtained from patients in light of models of typical language and cognitive processing; and how to access and evaluate the literature related to acquired communication disorders. The unit covers a general introduction to the structure of the human brain, particularly as it relates to language use. Throughout the unit, we build on this basis in considering different types of brain damage that are associated with communication disorders (for example, stroke, traumatic brain injury). Topics include: aphasia, cognitive-communication impairments, acquired reading and spelling disorders; motor speech disorders, and bilingual aphasia.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:59:10.685",
+  "code": "SPHL3311",
+  "title": "Acquired Speech and Language Disorders",
+  "implementationYear": "2021"
+}

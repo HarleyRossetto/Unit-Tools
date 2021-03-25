@@ -1,0 +1,206 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "communicate theoretical understanding of, and competence with, unit material and the Max/MSP/Jitter software tool-kits.",
+        "code": "ULO4"
+      },
+      {
+        "description": "manipulate and utilize audiovisual media forms in real time.",
+        "code": "ULO3"
+      },
+      {
+        "description": "evaluate and analyse contemporary practices of computer-based audiovisual performance.",
+        "code": "ULO2"
+      },
+      {
+        "description": "apply technological concepts to creative works to develop problem-solving skills.",
+        "code": "ULO5"
+      },
+      {
+        "description": "synthesize new creative works through interaction with aural and visual media forms.",
+        "code": "ULO6"
+      },
+      {
+        "description": "apply theoretical concepts and disciplinary knowledge of new media to audiovisual performance practices, interactive and computational arts and original creative works.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "External readings and exercises",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MUS302",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Pitch",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "15",
+        "description": "An outline of an original creative work that students will work towards completing by the end of the unit. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Max Worksheets",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "50",
+        "description": "A set of interactive problem-based exercises aimed at putting unit content into practice. The worksheets are open-book. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Live Audiovisual Performance Work",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "35",
+        "description": "A short real-time computer-mediated performance work. Students are encouraged to work across media forms (incorporating both audio and video). Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC3023-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3023"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC3023-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3023"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MMCC3023 - Interactive and Digital Arts",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is aimed at students and digital artists interested in time-based art and computer-based audio-visual performance. The unit introduces Max: a graphical programming environment for &#39;new media&#39; artists, and aims to arm students with an adaptable skill set for creating customized digital performance and interactive works.",
+    "search_title": "MMCC3023 - Interactive and Digital Arts",
+    "code": "MMCC3023",
+    "title": "Interactive and Digital Arts",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is aimed at students and digital artists interested in time-based art and computer-based audio-visual performance. The unit introduces Max: a graphical programming environment for &#39;new media&#39; artists, and aims to arm students with an adaptable skill set for creating customized digital performance and interactive works.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:47:56.854",
+  "code": "MMCC3023",
+  "title": "Interactive and Digital Arts",
+  "implementationYear": "2021"
+}

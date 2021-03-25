@@ -1,0 +1,356 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Pathway",
+        "value": "pathway"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "appraise issues and debates specific to cultural and social communication practices and their associated philosophical and political underpinnings.",
+        "code": "ULO5"
+      },
+      {
+        "description": "recognise and define different areas of visual culture studies and communication theory, and apply them through a variety of activities.",
+        "code": "ULO1"
+      },
+      {
+        "description": "explain the politicised aspects of visual media and concepts in terms of both production and content (as discourses, texts, lived realities).",
+        "code": "ULO2"
+      },
+      {
+        "description": "critically review, analyse and synthesise findings.",
+        "code": "ULO3"
+      },
+      {
+        "description": "present work in a manner conforming to accepted academic standards in both written and spoken form.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Completing before/after class activities",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Completing set readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CUL121, MECO100, ICOM100, WMEC100, WMCO100",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "description": "Students will choose a topic from a set provided and deliver a presentation during the lesson. They should organise activities to stimulate discussion.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Students are required to complete three quizzes in this unit. Quiz 1 is a short answer quiz. Quizzes 2 and 3 are comprised of multiple choice questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Image analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "15",
+        "description": "Students are required to choose an image from a set provided. They need to write a short analysis of the image and submit their text via the Turnitin submission link provided on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "35",
+        "description": "Students are required to write an essay on one of the major topics covered in the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Active Contribution",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "Students are required to actively contribute to class discussions and other learning activities completed during the lessons throughout the Term.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "WMMC1000",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: WMMC1000"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MMCC1000"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.04",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Visual Media and Communications",
+                "academic_item_code": "MMCC1000",
+                "academic_item_url": "/2020/units/MMCC1000"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 6-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 6"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMMC1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 4-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 4"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMMC1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 1-Special",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMMC1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 3-Special",
+        "teaching_period": {
+          "value": "MUIC term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMMC1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMMC1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 4-Special",
+        "teaching_period": {
+          "value": "MUIC term 4"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMMC1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMMC1000"
+        }
+      }
+    ],
+    "unit_offering_text": "MUIC term 3, Special circumstances<br />MUIC term 3, Weekday attendance, North Ryde<br />MUIC term 4, Special circumstances<br />MUIC term 4, Weekday attendance, North Ryde<br />MUIC term 6, Weekday attendance, North Ryde<br />MUIC term 1, Weekday attendance, North Ryde<br />MUIC term 1, Special circumstances<br />",
+    "subject_search_title": "WMMC1000 - Visual Media and Communications",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie University International College"
+    },
+    "school": {
+      "value": "Macquarie University International College"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit brings together theories, practices and texts that explore the relationship between visual media and the way people act in their everyday lives. This unit introduces critical concepts to analyse visual texts, technologies, and communication practices. From film, television, photography and advertising, to social media applications and sites, the unit looks at the ways media and communication shape (and are shaped by) our social worlds, our bodies and identities, changing technologies and online communities. The unit focuses on visual communication and practices of normalisation, contemporary politics, events, embodiment, digital cultures, globalisation and social networking. Within these frameworks, this unit explores the (re)production, performance and use of identity and subjectivity, and canvasses notions of genre, discourse, power and textuality through the application and testing of methods of visual analysis. Finally, it places visual communication within the personal, the sensory and the everyday through the practical exploration of social media use.",
+    "search_title": "WMMC1000 - Visual Media and Communications",
+    "code": "WMMC1000",
+    "title": "Visual Media and Communications",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit brings together theories, practices and texts that explore the relationship between visual media and the way people act in their everyday lives. This unit introduces critical concepts to analyse visual texts, technologies, and communication practices. From film, television, photography and advertising, to social media applications and sites, the unit looks at the ways media and communication shape (and are shaped by) our social worlds, our bodies and identities, changing technologies and online communities. The unit focuses on visual communication and practices of normalisation, contemporary politics, events, embodiment, digital cultures, globalisation and social networking. Within these frameworks, this unit explores the (re)production, performance and use of identity and subjectivity, and canvasses notions of genre, discourse, power and textuality through the application and testing of methods of visual analysis. Finally, it places visual communication within the personal, the sensory and the everyday through the practical exploration of social media use.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-03T15:27:23.662",
+  "code": "WMMC1000",
+  "title": "Visual Media and Communications",
+  "implementationYear": "2021"
+}

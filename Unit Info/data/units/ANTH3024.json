@@ -1,0 +1,294 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Prepare a sample research proposal for a feasible participant-observation ethnographic study.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Conduct ethnographic research.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Acquire the knowledge and confidence to competently discuss and apply field research techniques relevant for employment as a field researcher.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Understand and apply a variety of ethnographic research methods. ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply a variety of qualitative research methods, including interviewing, semantic domain analysis, unobtrusive observation, preparing literature review, and time allocation surveys.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Present research to peers and instructors in written and oral format.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are required to conduct ethnographic research ",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Seminar preparation involves doing weekly readings. ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above including (30cp from ANTH units including (10cp from ANTH units at 3000 level))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ANTH385,ANTH324",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Oral presentation of research",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "Students will present their research projects in the class in Weeks 12/13. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Ethics quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "0",
+        "description": "Students will take the online ethics module for social science research and the online quiz at the end of the module. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research journal",
+        "type": {
+          "label": "Field book",
+          "value": "field_book"
+        },
+        "weight": "15",
+        "description": "From the third week of class students will be asked to keep a research journal. This should be a participant-observation record of their research activity. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Ethnographic research paper",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "35",
+        "description": "Students will write an ethnographic research paper of approximately 2,500 words based on the data that they have collected in their ethnographic research journal. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Seminar participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Seminar participation, including discussion preparation guide",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research proposal ",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "20",
+        "description": "Research proposals will be original project designs for ethnographic research projects. Your research proposal should be a formal description of the ongoing project of ethnographic description that you are engaged in for this class. Your grade on this assignment will be based on a combination of the research proposal you submit and the feedback you give to your peers. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH3024"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH3024"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH3024"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH3024"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ANTH3024 - Doing Ethnography",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "What tools do cultural anthropologists use to observe humans and make sense of their actions in the world? This unit introduces the practical, methodological, and ethical dimensions of ethnographic research. As the primary goal of the unit is to teach students how to conduct ethnographic fieldwork, over the semester students engage in first-hand research projects where they regularly participate in and observe a cultural scene of their own choosing. Weekly meetings frame the fieldwork process as students learn anthropological research methods under the guidance of an experienced staff member, and then apply this knowledge to their ethnographic study. These meetings provide students an opportunity to share their fieldwork experiences with each other, discuss the methodological issues, and workshop concerns raised by their own studies. Simultaneously students will read several classic ethnographies to develop an understanding of the relationship between ethnographic research and ethnographic writing.",
+    "search_title": "ANTH3024 - Doing Ethnography",
+    "code": "ANTH3024",
+    "title": "Doing Ethnography",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "What tools do cultural anthropologists use to observe humans and make sense of their actions in the world? This unit introduces the practical, methodological, and ethical dimensions of ethnographic research. As the primary goal of the unit is to teach students how to conduct ethnographic fieldwork, over the semester students engage in first-hand research projects where they regularly participate in and observe a cultural scene of their own choosing. Weekly meetings frame the fieldwork process as students learn anthropological research methods under the guidance of an experienced staff member, and then apply this knowledge to their ethnographic study. These meetings provide students an opportunity to share their fieldwork experiences with each other, discuss the methodological issues, and workshop concerns raised by their own studies. Simultaneously students will read several classic ethnographies to develop an understanding of the relationship between ethnographic research and ethnographic writing.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:02:50.352",
+  "code": "ANTH3024",
+  "title": "Doing Ethnography",
+  "implementationYear": "2021"
+}

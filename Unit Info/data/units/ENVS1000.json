@@ -1,0 +1,215 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate professional qualities and behaviours, including expertise in writing a formal email, and compliance with work, health and safety requirements when in the laboratory or in the field.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Achieve a basic level of competency in operating some of the tools and equipment that are commonly used in the office, laboratory and field by environment professionals.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Engage with feedback from others and undertake self-review, reflecting on how these apply to your performance both as an individual and as a team member.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Describe why each skill is important and show using examples, how they are applied in different contexts.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate an understanding of the technical and employability skills that are needed to work effectively in environmental roles.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Show evidence of skills development by recording achievements in an ePortfolio, and demonstrate an understanding of the transferability of these skills within and between different disciplines.",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings and review of learning material",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to BEnv",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Learning and participation tasks (Hurdle)",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "Completion of online quizzes, peer review, attendance and engagement in an employability event, compliance with work health and safety, and creation of an ePortfolio",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "GPS and map reading",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "20",
+        "description": "Determine different locations using GPS coordinates and maps",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Timed assessment",
+        "type": {
+          "label": "Work-integrated task",
+          "value": "work_integrated_task"
+        },
+        "weight": "40",
+        "description": "Exam-style timed assessment covering all of the content presented in the unit including the online modules and practicals",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reference list",
+        "type": {
+          "label": "Annotated bibliography",
+          "value": "annotated_bibliography"
+        },
+        "weight": "20",
+        "description": "Compile a reference list using the Harvard style of referencing",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation of figures",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Create and present good quality figures that are suitable for inclusion in a report or scientific paper",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ENVS1000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENVS1000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "ENVS1000 - Environment Skills",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Earth and Environmental Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This core skills-based unit introduces students to the employability and technical skills that are essential for a career in the environmental sciences, and lays the important groundwork for subsequent units in the Bachelor of Environment. The unit is delivered through a series of online modules, masterclasses and practical sessions, aimed at providing a fundamental understanding of what each skill is and why it is important. Opportunities for practical hands-on experience in the field and laboratory are also provided so that each student can being developing their capabilities and confidence in mastering these essential employability and technical skills.",
+    "search_title": "ENVS1000 - Environment Skills",
+    "code": "ENVS1000",
+    "title": "Environment Skills",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This core skills-based unit introduces students to the employability and technical skills that are essential for a career in the environmental sciences, and lays the important groundwork for subsequent units in the Bachelor of Environment. The unit is delivered through a series of online modules, masterclasses and practical sessions, aimed at providing a fundamental understanding of what each skill is and why it is important. Opportunities for practical hands-on experience in the field and laboratory are also provided so that each student can being developing their capabilities and confidence in mastering these essential employability and technical skills.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-03T10:21:43.156",
+  "code": "ENVS1000",
+  "title": "Environment Skills",
+  "implementationYear": "2021"
+}

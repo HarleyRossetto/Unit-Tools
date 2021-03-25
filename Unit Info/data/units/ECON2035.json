@@ -1,0 +1,258 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and describe aspects in the operation and management of banks, and other types of financial institutions.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify, define and analyse problems associated with financial markets and recommend creative solutions within real-world constraints.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate a capacity to work independently, including the ability to research, form challenging and coherent arguments, and write short-discussion pieces.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading the assigned literature",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECON335",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "50cp at 1000 level or above including ECON110 or ECON111 or ECON1020",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Test 1",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "A one-hour test will be held in week 7.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Assessments",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "The online assessments will take the form of quizzes and discussions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination (online)",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A two-hour online examination (open book) will be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-Session Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The 60 minute test will consist of a combination of true/false with explanation, and short-answer questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Discussion",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "The assignment will contain a number of discussion/explanation questions based on the provided articles.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Online Discussion",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Every week, students are required to post their response to the discussion question in iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A two-hour exam will be held during the end of session Formal Examination Period, and will consist of true/false, short-answer, and essay-type questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECON2035-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON2035"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECON2035-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON2035"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ECON2035 - The Economics of Financial Institutions",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Economics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides an overview of the Australian and global financial systems and the management of financial institutions. Topics may include: the objectives and performance of financial institutions; risks and their controls; asset and liability management; credit evaluation; capital adequacy and regulations; informal money lenders and microfinance institutions; and shadow banking. The unit pays particular attention to the events and circumstances that, in recent times, have caused great difficulties in the financial sector, as well as the lessons learnt as a consequence.",
+    "search_title": "ECON2035 - The Economics of Financial Institutions",
+    "code": "ECON2035",
+    "title": "The Economics of Financial Institutions",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an overview of the Australian and global financial systems and the management of financial institutions. Topics may include: the objectives and performance of financial institutions; risks and their controls; asset and liability management; credit evaluation; capital adequacy and regulations; informal money lenders and microfinance institutions; and shadow banking. The unit pays particular attention to the events and circumstances that, in recent times, have caused great difficulties in the financial sector, as well as the lessons learnt as a consequence.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-18T09:44:33.821",
+  "code": "ECON2035",
+  "title": "The Economics of Financial Institutions",
+  "implementationYear": "2021"
+}

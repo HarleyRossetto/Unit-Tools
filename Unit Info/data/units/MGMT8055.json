@@ -1,0 +1,198 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Employ problem solving skills to design and propose solutions to business problems and challenges.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply research skills to investigate, analyse and advance International Business knowledge and real-world business challenges.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Collaborate with others in a team to engage in and deliver a consultancy project for a client company and to synthesise learning",
+        "code": "ULO4"
+      },
+      {
+        "description": "Synthesise international business knowledge and apply subject knowledge critically and analytically in proposing practical solutions to International Business / Management problems.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Online resources, collaborative peer learning, reading, research",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MGMT8003 or BUS803",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "MGMT8004 or BUS804",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Reflection & Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "This assessment is worth 20% in total. It is comprised on individual participation included 700-800 word reflection assessment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Project Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "40",
+        "description": "This assessment is worth 40% in total (20% allocated to group performance and 20% allocated to individual contribution and performance). It is a 20 minute group presentation plus a 10 minute question and answer session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Individual Project report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "This assessment is worth 40% in total. It is a 2000 word individual report.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT8055-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8055"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT8055-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8055"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MGMT8055 - International Business Project",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This Capstone unit is designed to synthesise knowledge and skills learnt within the Master of International Business degree. Students work individually and collaboratively to synthesise and critically analyse concepts, theories and models in their international business discipline and apply this body of knowledge to contemporary business challenges. Students are required to complete two major research projects in international business under the supervision of a faculty member. By the end of the unit, students will be capable of researching, analysing and interpreting international business or industry issues to be proficient practitioners.",
+    "search_title": "MGMT8055 - International Business Project",
+    "code": "MGMT8055",
+    "title": "International Business Project",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This Capstone unit is designed to synthesise knowledge and skills learnt within the Master of International Business degree. Students work individually and collaboratively to synthesise and critically analyse concepts, theories and models in their international business discipline and apply this body of knowledge to contemporary business challenges. Students are required to complete two major research projects in international business under the supervision of a faculty member. By the end of the unit, students will be capable of researching, analysing and interpreting international business or industry issues to be proficient practitioners.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-07T09:25:44.774",
+  "code": "MGMT8055",
+  "title": "International Business Project",
+  "implementationYear": "2021"
+}

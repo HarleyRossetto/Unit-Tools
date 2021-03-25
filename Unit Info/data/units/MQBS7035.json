@@ -1,0 +1,243 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Formulate hypotheses and propose appropriate research design and analysis techniques.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify and defend quantitative data analysis techniques in relevant disciplinary contexts of management, accounting and marketing.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse data using advanced statistical techniques, and interpret results.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students need to read assigned weekly readings.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparation for analyses of the weekly discussed research approaches.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "FOBE730 or MQBS7030",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ACCG730, ACCG804",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Proposal",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "description": "Students are required to develop a research proposal on a topic of their own choice and present a suitable research approach.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Project",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "55",
+        "description": "Students are given a set of raw data in a general business discipline and they are required to apply a number of advanced statistical techniques to analyse data, report and interpret the results (in 3000 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research paper critique",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "20",
+        "description": "Students are given research papers by the UC and are required to provide a critical review of the papers (in 1000 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MQBS7035",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MQBS7035"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ACCG8004"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Advanced Quantitative Research Approaches in Business and Economics",
+                "academic_item_code": "ACCG8004",
+                "academic_item_url": "/2020/units/ACCG8004"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MQBS7035-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MQBS7035"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MQBS7035-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MQBS7035"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MQBS7035 - Advanced Quantitative Research Approaches in Business and Economics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Advanced quantitative research underpins rigorous and valid research findings. This unit addresses key considerations about research methodology, data characteristics, and data analysis and interpretation. Students will learn advanced research approaches and methods such as experimental research, structural equation modelling, and secondary data analysis. Students will develop advanced research skills that are critical to knowledge generation in business research and problem solving.",
+    "search_title": "MQBS7035 - Advanced Quantitative Research Approaches in Business and Economics",
+    "code": "MQBS7035",
+    "title": "Advanced Quantitative Research Approaches in Business and Economics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Advanced quantitative research underpins rigorous and valid research findings. This unit addresses key considerations about research methodology, data characteristics, and data analysis and interpretation. Students will learn advanced research approaches and methods such as experimental research, structural equation modelling, and secondary data analysis. Students will develop advanced research skills that are critical to knowledge generation in business research and problem solving.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T09:18:12.728",
+  "code": "MQBS7035",
+  "title": "Advanced Quantitative Research Approaches in Business and Economics",
+  "implementationYear": "2021"
+}

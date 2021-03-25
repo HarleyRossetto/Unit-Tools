@@ -1,0 +1,258 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically evaluate theory and policy designed to improve the well-being of the poor.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify and describe theories of economic development. ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse and explain how economic agents, including the poor, make economic decisions and the consequences of those decisions.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading the assigned literature",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above including ((ECON110 or ECON111 or ECON1020) and 20cp at 2000 level or above)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECON235, ECON336",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Mid session in-class test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "A 90-minute mid session test will assess content and application.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination online",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "An online open-book exam of 2 hours duration plus 10 minutes reading time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid session online test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "A 90-minute online open book Mid-Session Test will assess content and application.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Individual Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "15",
+        "description": "Students will work remotely in groups based on their selected Written Analysis topic. They will then prepare a presentation of their topic for face-to-face or remote delivery in tutorial, to be assessed on the quality of the content and the skill with which it is presented. Whilst the mark each students receives will be for their individual presentation, teamwork, collaboration and coordination skills will also be required and assessed during the presentation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Individual Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "15",
+        "description": "Students will work in groups based on their selected report topic. They will then make an oral presentation during tutorial times. Whilst the mark each students receives will be for their individual presentation, teamwork, collaboration and coordination skills will also be required and assessed during the presentation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Written Analysis",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "A 2,000 word written assessment on concepts and issues in economic development.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "A closed book exam of 2 hours duration plus 10 minutes reading time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECON3036-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON3036"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECON3036-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON3036"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ECON3036 - Economic Development",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Economics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides an introduction to the theory and practice of development economics.  It develops a critical understanding of the problems facing underdeveloped and developing countries. It provides an in-depth analysis of the different explanations and measures that may be taken to foster economic development. An integral component of the unit is discussion of the most recent research by economists who work in the field, testing and devising cheap and feasible policy solutions to improve outcomes for the global poor.  The unit investigates and evaluates the effectiveness of existing policy measures. Students will develop skills in writing and oral communication.",
+    "search_title": "ECON3036 - Economic Development",
+    "code": "ECON3036",
+    "title": "Economic Development",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an introduction to the theory and practice of development economics.  It develops a critical understanding of the problems facing underdeveloped and developing countries. It provides an in-depth analysis of the different explanations and measures that may be taken to foster economic development. An integral component of the unit is discussion of the most recent research by economists who work in the field, testing and devising cheap and feasible policy solutions to improve outcomes for the global poor.  The unit investigates and evaluates the effectiveness of existing policy measures. Students will develop skills in writing and oral communication.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T15:56:34.265",
+  "code": "ECON3036",
+  "title": "Economic Development",
+  "implementationYear": "2021"
+}

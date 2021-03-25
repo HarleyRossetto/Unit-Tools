@@ -1,0 +1,247 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and interpret a wide variety of secondary and primary materials.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse historical evidence, scholarship and changing representations of the past.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Contribute to contemporary debates about Europe and the world with an informed and critical understanding of the relationship between past and present.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate an understanding of a variety of conceptual and historiographical approaches to interpreting twentieth-century European history.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Reflect critically on the knowledge and skills developed in their study of history.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Undertaking an original research project with an evidence-based argument that adheres to the methodological and ethical conventions of the discipline.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class Preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MHIS321, HIST244, HIST270, HIST333, HIST370, MHIS220, MHIX220",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "40cp at 1000 level or above OR (10cp in HIST or MHIS or POL or POIR or MHIX or POIX units)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Secondary Source Analysis",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "25",
+        "description": "For this assignment, students must examine a monograph (i.e. book) of their choosing. This monograph should be related to their final paper topic.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "Students are expected to participate in and lead seminar discussions throughout the semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Paper",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "45",
+        "description": "Essay: self-designed from Assignment 1 - your research project proposal.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project Proposal/Annotated Bibliography",
+        "type": {
+          "label": "Annotated bibliography",
+          "value": "annotated_bibliography"
+        },
+        "weight": "15",
+        "description": "This assessment has two required components.\nComponent One: In the proposal, students must design a research essay question focusing on any topic in 20th century European history.\nComponent Two: In the Annotated Bibliography, students will generate a bibliography of at least five secondary sources that supports their research project.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MHIX2020",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MHIX2020"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MHIS2020"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Twentieth-Century Europe",
+                "academic_item_code": "MHIS2020",
+                "academic_item_url": "/2020/units/MHIS2020"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MHIX2020-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIX2020"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "MHIX2020 - Twentieth Century Europe",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Was Europe indeed the &#39;dark continent&#39; suggested by historian Mark Mazower?  This unit offers a political, social, cultural and economic overview of Europe&#39;s 20th century relations with the wider world. We will trace European’s obsession with race and empire and consider how that gave rise to the First World War.  In the second part, we address the crisis of European liberalism in the face of the Great Depression, Russian communism, and the rise of fascism and Nazism.  We finish with an investigation of Europe’s postwar evolution in the context of the Cold War; the Americanisation of Western Europe and the effects of decolonisation and post-colonial immigration. Through a wide range of primary and secondary sources, class discussions, and scaffolded assessments students will develop their critical historical reading and writing skills. ",
+    "search_title": "MHIX2020 - Twentieth Century Europe",
+    "code": "MHIX2020",
+    "title": "Twentieth Century Europe",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Was Europe indeed the &#39;dark continent&#39; suggested by historian Mark Mazower?  This unit offers a political, social, cultural and economic overview of Europe&#39;s 20th century relations with the wider world. We will trace European’s obsession with race and empire and consider how that gave rise to the First World War.  In the second part, we address the crisis of European liberalism in the face of the Great Depression, Russian communism, and the rise of fascism and Nazism.  We finish with an investigation of Europe’s postwar evolution in the context of the Cold War; the Americanisation of Western Europe and the effects of decolonisation and post-colonial immigration. Through a wide range of primary and secondary sources, class discussions, and scaffolded assessments students will develop their critical historical reading and writing skills. ",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-15T15:08:53.799",
+  "code": "MHIX2020",
+  "title": "Twentieth Century Europe",
+  "implementationYear": "2021"
+}

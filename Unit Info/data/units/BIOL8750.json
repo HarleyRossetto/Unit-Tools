@@ -1,0 +1,241 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate a capacity for undertaking literature-based research into key topics in conservation biology and synthesising the current state-of-knowledge",
+        "code": "ULO5"
+      },
+      {
+        "description": "Describe theoretical concepts in conservation biology and current conservation issues in Australia and abroad",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify how research in conservation biology influences environmental management practices and assess how effectively this is undertaken",
+        "code": "ULO4"
+      },
+      {
+        "description": "Evaluate literature on conservation issues within peer-reviewed scientific literature and present them in the popular media",
+        "code": "ULO3"
+      },
+      {
+        "description": "Communicate scientific research and issues in conservation to various target audiences in verbal and written form",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MBiotech or MBioBus or GradDipBiotech or MConsBiol or GradDipConsBiol or GradCertConsBiol or MEnv or MEnvPlan or GradDipEnv or MMarScMgt or MSusDev or GradDipSusDev or MPlan or MSc or MScInnovation or MScInnovationBioConsMgmt or BBioConsMConsBiol",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BIOL875, GSE804",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Weekly Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "24",
+        "description": "On the day following each lecture (excluding final lecture), a quiz will become available on iLearn (worth ~2%) that you will have 7 days to complete. The 12 online exercises will consist of short answers and multiple-choice questions that revise the topic of each lecture (including tutorial discussions), encourage thinking and research skills, in alignment with the Austral Ark textbook chapters. The exercises may involve consulting peer-reviewed literature discussed in lectures, external websites, and chapters within Austral Ark. The schedule for the availability and due dates of each online quiz will be available on iLearn. Note: quizzes become available before 5pm the day after each lecture and will close 7 DAYS LATER at 5pm.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "26",
+        "description": "Your task is to give a 10-minute pre-recorded presentation (using powerpoint slides with audio only) to provide a RESEARCH UPDATE AND SYNTHESIS on a conservation issue of interest, integrating scientific literature published in the last FIVE years around your topic. You are required to choose a topic of conservation interest in Australia or New Zealand/ Oceania. The topic you choose may, e.g., be in relation to a threatened/invasive species, a threatened habitat, or threatening processes such as fire, disease spread or human disturbance.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Popular science article",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "You will write a popular science article (up to 2000 word) for The Conversation (see https://theconversation.com/au). To do this, you will choose a recently (less than 1 year old) published scientific paper from a journal within conservation biology. The chosen journal article may focus on conservation issues occurring in any part of the world (i.e. not restricted to Australia or New Zealand).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Abstract",
+        "type": {
+          "label": "Summary",
+          "value": "summary"
+        },
+        "weight": "10",
+        "description": "This abstract of no more than 400 words should summarise your presentation, as if you were presenting it at an international scientific conference.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "BIOL8750-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8750"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL8750-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8750"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL8750-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8750"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL8750-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8750"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances<br />Session 1, Special circumstances, Other<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Infrequent attendance, Other<br />",
+    "subject_search_title": "BIOL8750 - Contemporary Conservation in Australia",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides a current perspective of the values, threats to existence and conservation of Australian wildlife. The special characteristics of the Australian biota (plants, animals and other organisms) and the key threatening processes are discussed as well as its global and historical context. The role of biological research in informing conservation management is explored, and how conservation-based research is communicated and interpreted. An emphasis is placed on case studies in conservation biology with critical analysis of conservation successes and failures.",
+    "search_title": "BIOL8750 - Contemporary Conservation in Australia",
+    "code": "BIOL8750",
+    "title": "Contemporary Conservation in Australia",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides a current perspective of the values, threats to existence and conservation of Australian wildlife. The special characteristics of the Australian biota (plants, animals and other organisms) and the key threatening processes are discussed as well as its global and historical context. The role of biological research in informing conservation management is explored, and how conservation-based research is communicated and interpreted. An emphasis is placed on case studies in conservation biology with critical analysis of conservation successes and failures.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T12:59:04.348",
+  "code": "BIOL8750",
+  "title": "Contemporary Conservation in Australia",
+  "implementationYear": "2021"
+}

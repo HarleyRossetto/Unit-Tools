@@ -1,0 +1,170 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply critical thinking to issues related to people with disability and their personal goals, to action change both locally and broadly.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Draw on historical and contemporary global approaches to disability to critically examine the models that underpin Australian disability policies and practice.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate knowledge and scholarly understanding of inclusive views of disability by applying a person-centered approach when addressing complex disability-related issues.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically reflect on strategies that will facilitate new professional roles in the disability sector that are autonomous, informed and unique within the diverse Australian context.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Examine and apply the principles of the World Health Organization International Classification, Functioning and Disability as a measure of health and disability to explore a person's functional needs.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "(Admission to MDisabilityStud or (EDST8301and admission to MEd)) and permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Case study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "Case study related to real world scenario. (2000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Student online discussion",
+        "type": {
+          "label": "Non-academic writing",
+          "value": "Non_academic_writing"
+        },
+        "weight": "20",
+        "description": "Contribution to online discussion related to the portfolio, the case study and general online discussions",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical Reflection Portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "40",
+        "description": "Professional portfolio based on a critical reflection model. (2000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPED8914"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "SPED8914 - Perspectives in Disability",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will explore the theoretical underpinnings of practice in the disability sector. This unit will support students to translate from their current role to one that reflects a contemporary global disability paradigm. The unit will facilitate a holistic view of disability and encourage critical thinking that contributes to future practice within the Australian disability sector.",
+    "search_title": "SPED8914 - Perspectives in Disability",
+    "code": "SPED8914",
+    "title": "Perspectives in Disability",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will explore the theoretical underpinnings of practice in the disability sector. This unit will support students to translate from their current role to one that reflects a contemporary global disability paradigm. The unit will facilitate a holistic view of disability and encourage critical thinking that contributes to future practice within the Australian disability sector.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:23:14.425",
+  "code": "SPED8914",
+  "title": "Perspectives in Disability",
+  "implementationYear": "2021"
+}

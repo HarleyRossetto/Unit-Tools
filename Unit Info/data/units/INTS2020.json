@@ -1,0 +1,242 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "present sustained, cogent and persuasive arguments in both written and oral work.",
+        "code": "ULO5"
+      },
+      {
+        "description": "analyse the concept of citizenship and identity in a range of historical contexts.",
+        "code": "ULO2"
+      },
+      {
+        "description": "demonstrate, through assessment tasks, the ability to undertake independent research into a range of topics with limited guidance.",
+        "code": "ULO4"
+      },
+      {
+        "description": "analyse the shifting political and socio-cultural landscapes that have given rise to transnational and global citizenships.",
+        "code": "ULO3"
+      },
+      {
+        "description": "acquire, through unit content and independent research, knowledge of histories and theories of citizenship.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to engage with assigned academic readings each week before class.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students are expected to engage with set tutorial topics, questions, and activities by drawing on lecture content and academic readings each week before class.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "INTS201, INTS202",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "Students will demonstrate their knowledge of material covered in the unit through an online quiz. Further information pertaining to the task can be found on the iLearn site for the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay.",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "45",
+        "description": "Students will draw on unit resources and undertake independent research to write an essay that engages with concepts, theories, and case studies covered in the unit, as well as case studies/examples identified through students’ own research. Further information pertaining to the task can be found on the iLearn site for the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Annotated bibliography.",
+        "type": {
+          "label": "Annotated bibliography",
+          "value": "annotated_bibliography"
+        },
+        "weight": "35",
+        "description": "Students will undertake research in preparation for the Essay and in this Annotated Bibliography assessment they will engage in a critical analysis of a selection of the sources they may use in their Essay. Further information pertaining to the task can be found on the iLearn site for the unit",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Active participation.",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "Students will demonstrate active engagement with weekly content. Further information pertaining to the task can be found on the iLearn site for the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "INTS2020-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS2020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "INTS2020-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS2020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "INTS2020-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS2020"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "INTS2020 - Citizenship, Borders and Transnationalism",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Interest in citizenship and borders has never been higher - conceptual and practical aspects of citizenship permeate a range of contemporary debates on belonging, identity, the nation, and touch on some of the most pressing global challenges we face. This unit presents historical and conceptual approaches to citizenship, national borders, and national as well as transnational identities. The first part of the unit explores these through historical overviews of these concepts and practices, and the second part offers an examination of the contemporary political and socio-cultural landscapes that have given rise to transnational and global citizenships.",
+    "search_title": "INTS2020 - Citizenship, Borders and Transnationalism",
+    "code": "INTS2020",
+    "title": "Citizenship, Borders and Transnationalism",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Interest in citizenship and borders has never been higher - conceptual and practical aspects of citizenship permeate a range of contemporary debates on belonging, identity, the nation, and touch on some of the most pressing global challenges we face. This unit presents historical and conceptual approaches to citizenship, national borders, and national as well as transnational identities. The first part of the unit explores these through historical overviews of these concepts and practices, and the second part offers an examination of the contemporary political and socio-cultural landscapes that have given rise to transnational and global citizenships.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-27T08:39:54.651",
+  "code": "INTS2020",
+  "title": "Citizenship, Borders and Transnationalism",
+  "implementationYear": "2021"
+}

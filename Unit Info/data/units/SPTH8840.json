@@ -1,0 +1,198 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain the ethical application of marketing, branding, and e-media promotion of professional services within speech pathology.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate understanding of current and projected legal regulations, and federal and state policies, and their potential impact on speech pathology service delivery.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically evaluate the relationship between individual professional development and leadership systems in healthcare, and how this impacts the development of the speech pathology profession.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse the implications of major health care funding systems for the delivery of speech pathology services in Australia and elsewhere.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Before and after class learning activities including readings, small group work, development of materials shared with peers, engagement in online discussion.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "SPTH8832",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "SPHL840",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Critical analysis of speech pathology marketing",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "In this assessment, students will critically evaluate an example of current speech pathology marketing material that is available in Australia. Students will apply concepts derived from the Speech Pathology Australia Code of Ethics, and other relevant professional guidelines in their evaluation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical self-reflection and development planning",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "30",
+        "description": "In this assessment, students will identify areas of professional competency requiring further development as new graduate speech pathologists, and how this contributes to the speech pathology profession more broadly. They will also identify and critically evaluate their role in a challenging clinical situation that they have experienced, and discuss what they would do differently in a similar situation in future.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical analysis of policy",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "In this assessment, students will be required to discuss and critically appraise current or proposed policy settings relevant to speech pathology practice. Potential sources of policies are Speech Pathology Australia, Australian or international federal and state governments, and other relevant regulatory bodies. Students must demonstrate advanced understanding of the current or possible future effects of the policy settings on speech pathology practice in Australia, and offer a coherent response to the challenges and opportunities presented.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPTH8840"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPTH8840"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "SPTH8840 - Advanced Professional Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit, students will explore the relationships between healthcare policy and funding settings, ethical speech pathology service delivery and practice, and the future of the speech pathology profession. Emerging national and international topics in healthcare will be included to prepare students for future practice and leadership.",
+    "search_title": "SPTH8840 - Advanced Professional Practice",
+    "code": "SPTH8840",
+    "title": "Advanced Professional Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit, students will explore the relationships between healthcare policy and funding settings, ethical speech pathology service delivery and practice, and the future of the speech pathology profession. Emerging national and international topics in healthcare will be included to prepare students for future practice and leadership.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-02T11:30:13.687",
+  "code": "SPTH8840",
+  "title": "Advanced Professional Practice",
+  "implementationYear": "2021"
+}

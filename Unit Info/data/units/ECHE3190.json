@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Plan, implement, and evaluate learning/lesson sequences based on curriculum outcomes in the Creative Arts for 0-5 and K-6 Educational settings.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate a developing knowledge of materials, resources and repertoire in each art form which reflects a range of cultural traditions.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate knowledge, skills and understandings in each of the four art form areas.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Take responsibility for personal and professional development as critically reflective and skilled Creative Arts educators.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Demonstrate an understanding of the relationship of the Creative Arts to other Key Learning Areas/learning outcomes in the Primary school/ Early Years Learning Framework.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Make their own creative works in each of the arts disciplines and appreciate their works and those of others.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate knowledge of the major research-based pedagogies associated with the learning and teaching of each arts discipline in 0-12 settings.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Unit Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Rehearsals for Performance",
+        "activity": {
+          "label": "Rehearsals",
+          "value": "rehearsals"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(130cp at 1000 level or above) including (ECH131 or ECHE1310 or ECH129)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECH319",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment 1 Part A: Group Creative Task",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "30",
+        "description": "Create and present an original piece for performance by children in either Stage 1, 2 or 3. 5 minute. (5 minute recorded performance and 15 page dramatic script).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Assignment 1: Part B Reflection",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "Write a reflective report about the process undertaken in Part A. 500 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessment Task 2: Planning for and with the Creative Arts ",
+        "type": {
+          "label": "Programming Task",
+          "value": "programming_task"
+        },
+        "weight": "50",
+        "description": "Provide a summary of sequential learning experiences in the Visual Arts integrated with the other Creative Arts (Dance, Drama, Music). 2000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECHE3190-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE3190"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECHE3190-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE3190"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ECHE3190 - The Arts in Education",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to provide students with the knowledge, understandings and skills necessary to implement the creative arts syllabus in the K-6 context and prior-to-school settings. Lectures and workshops will guide students through making, performing and appreciating in music, visual arts, drama and dance and developing appropriate teaching and assessment strategies. Students will examine approaches to integrating the creative arts across other key learning areas.",
+    "search_title": "ECHE3190 - The Arts in Education",
+    "code": "ECHE3190",
+    "title": "The Arts in Education",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to provide students with the knowledge, understandings and skills necessary to implement the creative arts syllabus in the K-6 context and prior-to-school settings. Lectures and workshops will guide students through making, performing and appreciating in music, visual arts, drama and dance and developing appropriate teaching and assessment strategies. Students will examine approaches to integrating the creative arts across other key learning areas.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-03T08:48:03.887",
+  "code": "ECHE3190",
+  "title": "The Arts in Education",
+  "implementationYear": "2021"
+}

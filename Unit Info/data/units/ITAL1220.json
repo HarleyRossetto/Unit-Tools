@@ -1,0 +1,348 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "<div>\n<div>Apply relevant language conventions to create meaningful intercultural encounters.</div>\n</div>\n<div> </div>",
+        "code": "ULO4"
+      },
+      {
+        "description": "<div>\n<div>Demonstrate a refined awareness of language and language use, in both Italian and in English.</div>\n</div>\n<div> </div>",
+        "code": "ULO5"
+      },
+      {
+        "description": "<div>\n<div>Identify, describe and evaluate many aspects of Italian-speaking cultures and societies.</div>\n</div>\n<div> </div>",
+        "code": "ULO2"
+      },
+      {
+        "description": "<div>\n<div>Identify, evaluate and deploy the grammatical structures of Italian at intermediate level.</div>\n</div>\n<div> </div>",
+        "code": "ULO3"
+      },
+      {
+        "description": "<div>\n<div>Develop intermediate level skills in reading, writing, listening and speaking in the Italian language.</div>\n</div>\n<div> </div>",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to spend time on daily review of grammar and vocabulary, and Italian practice. Students should be familiar with the content of a week before attending their following seminar and feel comfortable with each week's content before starting a new week.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ITAL1210",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Written Assignments",
+        "type": {
+          "label": "LOTE written composition",
+          "value": "lote_written_composition"
+        },
+        "weight": "20",
+        "description": "Written take-home tasks in Italian plus one assignment. Grammar exercises, comprehension questions and original compositions are included. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 2-exam_att",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Written Assignments",
+        "type": {
+          "label": "LOTE written composition",
+          "value": "lote_written_composition"
+        },
+        "weight": "20",
+        "description": "Written take-home tasks in Italian plus one in-class assignment. Grammar exercises, comprehension questions and original compositions are included. External students submit all tasks online.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Listening Comprehension",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Students will listen to an audio recording and then answer a series of comprehension questions. External students will complete online.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "Final exam covering all material studied in second semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 2-exam_att",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Online Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Final exam covering all material studied in second semester. Student will complete their final test online.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Oral Video Presentation",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "10",
+        "description": "Students are required to prepare and perform a role play in Italian and record it on a video file. Presentations will be viewed in class for internal students.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Oral Video Presentation",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "10",
+        "description": "Students are required to prepare and perform a role play in Italian and record it on a video file. Students will complete this task online via synchronous and/or asynchronous activities. See iLearn for more information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Online assessment covering individual book chapters and revision work.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Preparation and Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Weekly activities to check and confirm active engagement with course material. This includes online forum discussions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ITAL1220",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ITAL1220"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ITAL2020"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "I Italian Studies 4",
+                "academic_item_code": "ITAL2020",
+                "academic_item_url": "/2020/units/ITAL2020"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ITAL1220-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ITAL1220"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ITAL1220-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ITAL1220"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ITAL1220-unit_teaching_period-exam_att",
+        "display_name": "Session 2-exam_att",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Attendance for exam only"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ITAL1220"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Attendance for exam only<br />Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "ITAL1220 - C Italian Studies 4",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to further develop skills in all areas of Italian language (reading, writing, listening and speaking) to a higher level of proficiency. Students learn to discuss a wider range of topics as well as substantially increase their knowledge of vocabulary as well as increasing students&#39; skills in intercultural communication so that they will be able to communicate in a manner which is culturally as well as linguistically appropriate.",
+    "search_title": "ITAL1220 - C Italian Studies 4",
+    "code": "ITAL1220",
+    "title": "C Italian Studies 4",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to further develop skills in all areas of Italian language (reading, writing, listening and speaking) to a higher level of proficiency. Students learn to discuss a wider range of topics as well as substantially increase their knowledge of vocabulary as well as increasing students&#39; skills in intercultural communication so that they will be able to communicate in a manner which is culturally as well as linguistically appropriate.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-20T11:16:43.313",
+  "code": "ITAL1220",
+  "title": "C Italian Studies 4",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,278 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse real financial data to evaluate the well-being of companies.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Recognise fundamental concepts in corporate finance and investment management.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply financial theory to real world corporate and personal finanicial decisions.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Express financial concepts in mathematical formulas and then applied in valuing equity, debt, property and business projects.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for lectures, tutorials and assessment tasks.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "AFIN100, AFIN252, AFIN102",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "ACST101 or ACST1001 or ACST152 or ACST1052 or WACT101 or WACT1001",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A two hour online open book exam will be held during the University Examination Period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "The online quiz will consist of 5 to 10 questions and will be available on iLearn. Please use the quiz result as an indicator of whether you are progressing satisfactorily in the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid Session Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "An online mid session test of 90 minutes will be held to give students practice on a summative task and to provide feedback on their progress midway through the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A two hour closed book exam will be held during the University Examination Period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "25",
+        "description": "The assignment will cover quantitative and qualitative analysis of a financial scenario or problem. Student will be required to produce a report of 800 to 1200 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid Session Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "A closed book mid session test of 90 minutes will be held to give students practice on a summative task and to provide feedback on their progress midway through the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "AFIN1002-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFIN1002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AFIN1002-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFIN1002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AFIN1002-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFIN1002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AFIN1002-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFIN1002"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "AFIN1002 - Finance 1B",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to the financial sector, preparing them for more advanced studies in finance, and developing their interest in a career in finance. It explains the theories, principles and methods used in financial decision-making by individuals, financial institutions and companies, and applies them to the real world using current examples and market data. It further explores financial institutions and markets, and other real world considerations that affect financial transactions of individuals, financial institutions, companies and governments in a modern economy. This is an interesting and relevant unit for students intending to undertake further studies in any area of business and economics, and is required for further studies in finance. Students without a background of at least HSC Mathematics (2 Unit) or equivalent are strongly advised to have studied MATH1000 or equivalent prior to enrolling in this unit.",
+    "search_title": "AFIN1002 - Finance 1B",
+    "code": "AFIN1002",
+    "title": "Finance 1B",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to the financial sector, preparing them for more advanced studies in finance, and developing their interest in a career in finance. It explains the theories, principles and methods used in financial decision-making by individuals, financial institutions and companies, and applies them to the real world using current examples and market data. It further explores financial institutions and markets, and other real world considerations that affect financial transactions of individuals, financial institutions, companies and governments in a modern economy. This is an interesting and relevant unit for students intending to undertake further studies in any area of business and economics, and is required for further studies in finance. Students without a background of at least HSC Mathematics (2 Unit) or equivalent are strongly advised to have studied MATH1000 or equivalent prior to enrolling in this unit.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-26T09:26:14.345",
+  "code": "AFIN1002",
+  "title": "Finance 1B",
+  "implementationYear": "2021"
+}

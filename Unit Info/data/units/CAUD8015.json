@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Compare and contrast the different approaches to facilitating speech and/or language acquisition in children with ongoing or permanent hearing loss.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain the effects of hearing disorders on speech and language development and speech and language processing in children.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Discuss and apply the principles of family-centred practice in the field of early intervention or general management of childhood disorders.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Outline the role of the audiologist in providing amplification and related services to children with permanent or ongoing hearing loss, with particular reference to the service model used in Australia.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Discuss the various medical, educational and audiological strategies that are used to manage the effects of hearing loss in children, and apply the educational and audiological strategies to clinical cases.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "4",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CAUD8009 and CAUD8010",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CAUD809",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "The exam will integrate the theory learned in this unit. The exam will take place in the university examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Amplification essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "20",
+        "description": "This essay aims to assess your understanding of the different approaches to facilitating outcomes in children with hearing loss. The details of the essay will be provided to you at the beginning of the semester. It will be assessed according to the assessment criteria outlined. The essay should be no more than 2000 words (excluding references and citations).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Problem-based exercise",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "20",
+        "description": "This essay aims to assess your ability to apply the principles outlined in this unit to a clinical case. The details of the essay will be provided to you at the beginning of the semester. It will be assessed according to the assessment criteria outlined. The essay should be no more than 2500 words (excluding references and citations).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Minimal hearing loss essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "20",
+        "description": "This essay aims to assess your understanding of the effects of minimal hearing loss, as well as the strategies that are used to manage the effects of hearing loss in children. The details of the essay will be provided to you at the beginning of the semester. It will be assessed according to the assessment criteria outlined. The essay should be no more than 2000 words (excluding references and citations).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CAUD8015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CAUD8015"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "CAUD8015 - Principles of Management of Childhood Deafness",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores the normal development of speech in children and the effect of acquired hearing impairment and/or acquired language disorders on speech perception, production, and the development of oral language in children. Common acquired auditory and language disorders observed clinically are discussed with regard to the management of medical, audiological and speech pathology issues. Issues regarding (re)-habilitation and education are addressed. This unit incorporates a number of site visits to educational facilities and services for children and adults with hearing impairment.",
+    "search_title": "CAUD8015 - Principles of Management of Childhood Deafness",
+    "code": "CAUD8015",
+    "title": "Principles of Management of Childhood Deafness",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores the normal development of speech in children and the effect of acquired hearing impairment and/or acquired language disorders on speech perception, production, and the development of oral language in children. Common acquired auditory and language disorders observed clinically are discussed with regard to the management of medical, audiological and speech pathology issues. Issues regarding (re)-habilitation and education are addressed. This unit incorporates a number of site visits to educational facilities and services for children and adults with hearing impairment.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:44:03.261",
+  "code": "CAUD8015",
+  "title": "Principles of Management of Childhood Deafness",
+  "implementationYear": "2021"
+}

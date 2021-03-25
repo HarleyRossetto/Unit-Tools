@@ -1,0 +1,202 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "analyse and implement creative and technical strategies through a critical appraisal of a range of non-fiction screen works and digital production, post-production and distribution methods.",
+        "code": "ULO2"
+      },
+      {
+        "description": "implement advanced digital screen media production strategies working in collaboration with peers, social actors, industry professionals and external partners in different learning environments, both on campus and off-site locations.",
+        "code": "ULO4"
+      },
+      {
+        "description": "analyse the contexts and formal strategies of non-fiction screen media.",
+        "code": "ULO1"
+      },
+      {
+        "description": "evaluate your own work and that of others by providing clear, evidence-based and constructive analyses.",
+        "code": "ULO5"
+      },
+      {
+        "description": "synthesise advanced organisational, technical and conceptual skills through the research, development and collaborative realisation of creative non-fiction screen productions.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Unit preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MECO835",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MCrInd or MMediaComm",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Project Research Proposal",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "30",
+        "description": "Write a research proposal for a short documentary of around 5 to 10 mins. The research proposal needs to describe the idea and themes that you are hoping to explore, any argument you may wish to make, and the potential for an engaging story.  Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Non Fiction Screen Work",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "40",
+        "description": "Create a coherent, short non-fiction screen production based on the project proposal of between 5 and 10 minutes in length. Students may complete the production and post-production aspects of this assignment individually or in small groups although each student will be marked individually. Along with the film, you need to submit all production documents and a report critically analysing and evaluating the production and the student’s contribution. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Video Essay ",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "30",
+        "description": "Each student will research and produce a 5 min video essay on a theme and subject of their choice.  Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC8035-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC8035"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC8035-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC8035"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MMCC8035 - Non-Fiction Screen Media",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit surveys the history and aesthetics of non-fiction forms of screen media and, in particular, the proliferation of documentary through digital technologies. Through critical readings and viewings, the unit will investigate non-fiction film&#39;s aesthetic and rhetorical strategies in fashioning the real and its corresponding status as a way of knowing the world. It combines critical analysis with practice-led research offering an opportunity for students to develop a non-fiction screen media work.",
+    "search_title": "MMCC8035 - Non-Fiction Screen Media",
+    "code": "MMCC8035",
+    "title": "Non-Fiction Screen Media",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit surveys the history and aesthetics of non-fiction forms of screen media and, in particular, the proliferation of documentary through digital technologies. Through critical readings and viewings, the unit will investigate non-fiction film&#39;s aesthetic and rhetorical strategies in fashioning the real and its corresponding status as a way of knowing the world. It combines critical analysis with practice-led research offering an opportunity for students to develop a non-fiction screen media work.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:25:54.304",
+  "code": "MMCC8035",
+  "title": "Non-Fiction Screen Media",
+  "implementationYear": "2021"
+}

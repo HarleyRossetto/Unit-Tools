@@ -1,0 +1,257 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and resolve ethical and/or copyright issues in relation to the creative work’s subject matter, sources or potential audience.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Plan, commence and sustain the writing of a manuscript in the genres of novella, novel, short story collection or poetry sequence.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Utilise professional and mature communication skills and capacity to respond to feedback.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Exercise higher level editorial abilities through independent reflection, revision and rewriting of the manuscript.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Locate and appraise appropriate resources to develop the manuscript.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "40 credit points",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "Permission by special approval (waiver)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Reflection",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "Critical evaluation of work in progress, student’s writing and editing processes and ability to appraise and utilise feedback.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Manuscript Planning and Conceptualisation",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "20",
+        "description": "Students will plan a major creative manuscript (or equivalent in the case of poetry).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Manuscript",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "60",
+        "description": "Students will finish a major creative manuscript (or equivalent in the case of poetry).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGL8036"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGL8036"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGL8036"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGL8036"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGL8036"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGL8036"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Fully online/virtual<br />Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ENGL8036 - Manuscript Project B",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In Manuscript Project B students finish a 25,000 word creative manuscript (or equivalent in the case of poetry), which may be a complete work such as a themed collection of poetry or short stories, creative nonfiction essays, the opening chapters of a longer work such as a novella or novel, or a digital interactive text-based work. Together the two units (Manuscript Project A and Manuscript Project B) provide an opportunity for a sustained piece of writing to be developed over two sessions. There are no classes or workshops: students work independently with regular written and verbal feedback from a writing supervisor. At the completion of this unit, students will have completed either a full manuscript or the opening 25,000 words of a longer work. It is expected that the final work will be of a potentially publishable standard. Application is open to students who have demonstrated excellent progress in their writing units and have submitted a compelling and potentially publishable project plan. Contact the Course Director for further information on how to apply for entry to this unit.",
+    "search_title": "ENGL8036 - Manuscript Project B",
+    "code": "ENGL8036",
+    "title": "Manuscript Project B",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In Manuscript Project B students finish a 25,000 word creative manuscript (or equivalent in the case of poetry), which may be a complete work such as a themed collection of poetry or short stories, creative nonfiction essays, the opening chapters of a longer work such as a novella or novel, or a digital interactive text-based work. Together the two units (Manuscript Project A and Manuscript Project B) provide an opportunity for a sustained piece of writing to be developed over two sessions. There are no classes or workshops: students work independently with regular written and verbal feedback from a writing supervisor. At the completion of this unit, students will have completed either a full manuscript or the opening 25,000 words of a longer work. It is expected that the final work will be of a potentially publishable standard. Application is open to students who have demonstrated excellent progress in their writing units and have submitted a compelling and potentially publishable project plan. Contact the Course Director for further information on how to apply for entry to this unit.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-16T16:53:53.824",
+  "code": "ENGL8036",
+  "title": "Manuscript Project B",
+  "implementationYear": "2021"
+}

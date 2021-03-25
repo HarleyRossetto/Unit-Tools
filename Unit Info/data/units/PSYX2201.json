@@ -1,0 +1,169 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate basic interviewing skills around a given problem.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Articulate methods of interviewing in counselling settings.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Show understanding of theories of counselling.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply critical thinking and independent learning to solve problems related to counselling in the workplace.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Show working knowledge around the principles of ethical and professional practice.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "PSYC201",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(PSYC104 or PSYU1104 or PSYX104 or PSYX1104 PSYU1101 or PSYX1101) or (PSYC105 or PSYU1105 or PSYX105 or PSYX1105 or PSYU1102 or PSYX1102) ",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [
+      {
+        "academic_item_code": "PSYX2201",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PSYX2201"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PSYU2201"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.01R",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Counselling Approaches and Principles",
+                "academic_item_code": "PSYU2201",
+                "academic_item_url": "/2021/units/PSYU2201"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PSYX2201-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYX2201"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "PSYX2201 - Counselling Approaches and Principles",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The aim of this unit is to provide an introduction to contemporary approaches to counselling, and to teach basic interviewing skills for use in the workplace. There will be a balanced focus on theory, research and practice throughout the unit. Theoretical frameworks used in counselling will be reviewed, followed by a step-by-step introduction to conducting a counselling interview. Role-plays, demonstrations and case examples will be used to teach basic therapeutic skills. The unit will also involve self-reflective exercises, and will have a focus on ethical and professional practice.",
+    "search_title": "PSYX2201 - Counselling Approaches and Principles",
+    "code": "PSYX2201",
+    "title": "Counselling Approaches and Principles",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The aim of this unit is to provide an introduction to contemporary approaches to counselling, and to teach basic interviewing skills for use in the workplace. There will be a balanced focus on theory, research and practice throughout the unit. Theoretical frameworks used in counselling will be reviewed, followed by a step-by-step introduction to conducting a counselling interview. Role-plays, demonstrations and case examples will be used to teach basic therapeutic skills. The unit will also involve self-reflective exercises, and will have a focus on ethical and professional practice.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-27T15:31:23.307",
+  "code": "PSYX2201",
+  "title": "Counselling Approaches and Principles",
+  "implementationYear": "2021"
+}

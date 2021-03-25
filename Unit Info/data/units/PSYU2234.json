@@ -1,0 +1,251 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Conduct an analysis of a research topic within personality or social psychology.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Discuss the concepts attained in the lectures and readings in a small class forum",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate an understanding of the key theories and research in social and personality psychology.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSY234, PSYX234",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "((PSYC104 or PSYU1104 or PSYX104 or PSYX1104) and (PSYC105 or PSYU1105 or PSYX105 or PSYX1105)) OR ((PSYU1101 or PSYX1101) and (PSYU1102 or PSYX1102) and (STAT1103 or STAX1103)) ",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "20",
+        "description": "Four short-answer questions of between 50 and 300 words each, based on a set journal article.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Final examination held within the University’s formal exam period, in accordance with relevant requirements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-session Examination",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Online multiple choice mid-session exam, testing unit content.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "Tutorial Participation and engagement with activities",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PSYU2234",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PSYU2234"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PSYX2234"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Social and Personality Psychology",
+                "academic_item_code": "PSYX2234",
+                "academic_item_url": "/2020/units/PSYX2234"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PSYU2234-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYU2234"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PSYU2234-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYU2234"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "PSYU2234 - Social and Personality Psychology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This is an introduction to theory, research and applications in the scientific study of social and personality psychology. The personality section of the unit provides an in-depth background to the prominent theories of personality and examines recent developments in personality research. The section on social psychology covers foundational scientific research in social psychology, focusing on developments in the three general domains of social thinking, social influence and social relations. The objectives of this unit involve acquiring a basic understanding of the principal theories, key empirical research, and basic issues in the fields of social and personality psychology. Overall, the following specific knowledge and skills are expected to be acquired from this unit:- an understanding of how the scientific approach to personality and social psychology differs from common sense or lay understanding;- an awareness of research methods used in personality and social psychology research; an ability to construct an overall critical evaluation of current scientific knowledge within personality or social psychology;- an understanding of the principal personality theories, research, and the controversies that arise in this field; and- an understanding of the key theories and research in the domains of social cognition, social influence and social relations.",
+    "search_title": "PSYU2234 - Social and Personality Psychology",
+    "code": "PSYU2234",
+    "title": "Social and Personality Psychology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This is an introduction to theory, research and applications in the scientific study of social and personality psychology. The personality section of the unit provides an in-depth background to the prominent theories of personality and examines recent developments in personality research. The section on social psychology covers foundational scientific research in social psychology, focusing on developments in the three general domains of social thinking, social influence and social relations. The objectives of this unit involve acquiring a basic understanding of the principal theories, key empirical research, and basic issues in the fields of social and personality psychology. Overall, the following specific knowledge and skills are expected to be acquired from this unit:- an understanding of how the scientific approach to personality and social psychology differs from common sense or lay understanding;- an awareness of research methods used in personality and social psychology research; an ability to construct an overall critical evaluation of current scientific knowledge within personality or social psychology;- an understanding of the principal personality theories, research, and the controversies that arise in this field; and- an understanding of the key theories and research in the domains of social cognition, social influence and social relations.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T09:31:43.873",
+  "code": "PSYU2234",
+  "title": "Social and Personality Psychology",
+  "implementationYear": "2021"
+}

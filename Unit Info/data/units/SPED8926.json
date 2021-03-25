@@ -1,0 +1,193 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse the impact of vision impairment across the age spectrum by applying broad and coherent knowledge of disorders of the eye and visual system.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply knowledge of human anatomy and body system development to contextualise the impact of disease on the human body.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply knowledge of the visual system including the eyes, the brain and human visual development to demonstrate an understanding of the human visual process.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Interpret clinical findings and vision behaviours to develop appropriate vision profiles that accurately report the visual capacity of an individual with vision impairment.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically reflect on literature and discussions that explore public perceptions, to develop a personal advocacy standpoint addressing issues encountered by people with vision impairment.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MDisabilityStud",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "SPED926",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Student online discussion",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "20",
+        "description": "Responses to the case studies of other students and general online online discussion performance",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz two",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Short answer based quiz",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz One",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Short answer based quiz",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online case presentation (1500 words)",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "A list of eye conditions will be presented. Students will construct a case study around the chosen condition, describing the typical development of the condition, clinical findings and the impact of the subsequent visual impairment",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "SPED8926-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPED8926"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "SPED8926 - Introduction to Vision Impairment",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides foundation knowledge in the cause and implication of disease and vision impairment across the age spectrum. The student will develop a broad view of the low vision needs of individuals and the role they can play in meeting these needs.",
+    "search_title": "SPED8926 - Introduction to Vision Impairment",
+    "code": "SPED8926",
+    "title": "Introduction to Vision Impairment",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides foundation knowledge in the cause and implication of disease and vision impairment across the age spectrum. The student will develop a broad view of the low vision needs of individuals and the role they can play in meeting these needs.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-25T15:14:24.636",
+  "code": "SPED8926",
+  "title": "Introduction to Vision Impairment",
+  "implementationYear": "2021"
+}

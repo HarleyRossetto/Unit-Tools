@@ -1,0 +1,189 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate a developing understanding of using curriculum to support assessment knowledge and appropriate teaching strategies and will be able to critically reflect on these.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate developing syllabus knowledge of the concepts, substance and structure of NSWBOS syllabus documents for both PDHPE and Creative Arts(CA) Key Learning Areas and ACARA draft curriculum documents.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Design, implement and reflect upon lessons and units of work which are engaging and motivating for students K-6.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate an understanding of selecting appropriate content as prescribed by the NSWBOS syllabus documents for both HPE and TA ACARA draft curriculum documents.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Online participation",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "TEP320, EDTE353",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "EDTE251 or EDTE2510",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "(EDUC258 or EDUC2580) and (EDUC260 or EDUC2600) and (EDUC267 or EDUC2670)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Reflective Blog",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "40",
+        "description": "Reflective Blog posts based on selected topics (1500-2000 wds)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "Examination. Duration 2 hours",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDTE3530-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE3530"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "EDTE3530 - Curriculum and Teaching in the Primary School 3",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is the third in the sequence of primary curriculum units. It introduces students to the syllabus structure, content and skills associated with two key learning areas in the primary school - Creative Arts/The Arts, and Personal Development, Health and Physical Education/Health and Physical Education - with a particular focus on the development of pedagogical strategies. Practical applications of the knowledge and skills taught in this unit are designed to support the students&#39; professional experience in schools.",
+    "search_title": "EDTE3530 - Curriculum and Teaching in the Primary School 3",
+    "code": "EDTE3530",
+    "title": "Curriculum and Teaching in the Primary School 3",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is the third in the sequence of primary curriculum units. It introduces students to the syllabus structure, content and skills associated with two key learning areas in the primary school - Creative Arts/The Arts, and Personal Development, Health and Physical Education/Health and Physical Education - with a particular focus on the development of pedagogical strategies. Practical applications of the knowledge and skills taught in this unit are designed to support the students&#39; professional experience in schools.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-15T15:58:43.306",
+  "code": "EDTE3530",
+  "title": "Curriculum and Teaching in the Primary School 3",
+  "implementationYear": "2021"
+}

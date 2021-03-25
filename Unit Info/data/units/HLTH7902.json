@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate advanced knowledge and understanding of key terms, definitions, frameworks, theories and approaches to knowledge translation",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate advanced knowledge of a systematic process for identifying potential barriers and facilitators to providing a solution to an identified evidence-to-practice gap in clinical practice",
+        "code": "ULO4"
+      },
+      {
+        "description": "Effectively communicate about the design of a knowledge translation intervention to address an evidence-to-practice gap in clinical practice, including a plan for evaluation",
+        "code": "ULO5"
+      },
+      {
+        "description": "Synthesise, critically appraise and summarise evidence to support the existence of an evidence-to-practice gap in clinical practice",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate the process of conducting a systematic review and developing clinical practice guidelines, with consideration of strength of evidence and implications for clinical practice",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Self-directed research of the literature about the student's chosen topic.",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "HLTH704",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Intervention mapping",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "10",
+        "description": "Complete the template provided (available on iLearn):",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Evidence-to-practice gap #1",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "There are two assessment tasks about your evidence-to-practice gap. The first assessment task is a presentation, the second task is a written assignment. For your presentation and written paper (10 pages maximum), identify and describe an evidence-to-practice gap that you would like to address. You will be using the evidence-to-practice gap that you outline in this assignment for subsequent assignments, so choose an area of clinical practice that you are prepared to explore in detail throughout the course. Structure your assignment as follows:",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Knowledge translation plan #1",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "There are two assessment tasks about your knowledge translation plan to close the evidence-to-practice gap you identified in Assessment tasks #1 and #2. The first assessment task about your knowledge translation plan is a presentation, the second task is a written assignment. For your presentation and written paper (20 pages maximum), using the information you have covered in this course, describe your knowledge translation plan to address the evidence-to-practice gap you outlined in Assignment #1 and #2.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Knowledge translation plan #2",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "35",
+        "description": "This is second of two assessment tasks about your knowledge translation plan, this being the written assignment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Evidence-to-practice gap #2",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "25",
+        "description": "This is second of two assessment tasks about your identified evidence-to-practice gap, this being the written assignment. See above (Evidence-to-practice gap #1) for a description of these two assessment tasks.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HLTH7902"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HLTH7902"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "HLTH7902 - Introduction to Knowledge Translation in Clinical Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Chiropractic "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will focus on the process of translating research into clinical practice. Students will be introduced to knowledge translation in clinical practice, including tools to assist the uptake of research into practice (e.g. systematic reviews and clinical practice guidelines), knowledge translation theories and frameworks, and knowledge translation interventions. Students will also be introduced to implementation research. Students will be given the opportunity to explore these concepts practically through research activities.",
+    "search_title": "HLTH7902 - Introduction to Knowledge Translation in Clinical Practice",
+    "code": "HLTH7902",
+    "title": "Introduction to Knowledge Translation in Clinical Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will focus on the process of translating research into clinical practice. Students will be introduced to knowledge translation in clinical practice, including tools to assist the uptake of research into practice (e.g. systematic reviews and clinical practice guidelines), knowledge translation theories and frameworks, and knowledge translation interventions. Students will also be introduced to implementation research. Students will be given the opportunity to explore these concepts practically through research activities.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:21:48.382",
+  "code": "HLTH7902",
+  "title": "Introduction to Knowledge Translation in Clinical Practice",
+  "implementationYear": "2021"
+}

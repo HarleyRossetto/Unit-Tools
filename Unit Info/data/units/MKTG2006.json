@@ -1,0 +1,203 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse and interpret effective marketing practices of a given technology.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically evaluate the capacity for technology to foster sustainable marketing practices.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically analyse the role of technology in enhancing marketing strategies.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to BMktgMedia and 50cp at 1000 level or above including ((MKTG101 or MKTG1001) and (MKTG1003 or MKTG203))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "MarTech Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "This is an individual report in which students have to research and write on how specific marketing technologies have been applied in recent years to enhance marketing strategies and its executions. 2,000 word",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study/Analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "This is a problem-based case study given to students, where they have to critique the application of technologies in marketing, with a special focus on the ethical and sustainable use of customer data in developing marketing strategies. This is an individual-based assignment. 2,000 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Discussion topics or tasks related to marketing technologies will be given to students during weekly online tutorials, who will then be asked to complete and submit them in-class. There will be 5 random collections throughout the unit, each of them worth 4%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MKTG2006-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG2006"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MKTG2006-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG2006"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MKTG2006 - Marketing Technologies",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Marketing "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The face of marketing is becoming increasingly more technology- and data-driven. With growing access to technology, an ocean of data, and ever-increasing number of channels, companies are demanding marketing talent that can help them navigate this complexity.<br />This unit develop students&#39; knowledge and capabilities to interrogate customer data to uncover marketing insights; to use automation to optimise the marketing mix; and the deployment of intelligent work flow design to facilitate greater agility in marketing executions.<br />Students will develop knowledge of software and technology platforms, skills in analytical thinking, problem solving and knowledge of sustainability in developing a marketing strategy.",
+    "search_title": "MKTG2006 - Marketing Technologies",
+    "code": "MKTG2006",
+    "title": "Marketing Technologies",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The face of marketing is becoming increasingly more technology- and data-driven. With growing access to technology, an ocean of data, and ever-increasing number of channels, companies are demanding marketing talent that can help them navigate this complexity.<br />This unit develop students&#39; knowledge and capabilities to interrogate customer data to uncover marketing insights; to use automation to optimise the marketing mix; and the deployment of intelligent work flow design to facilitate greater agility in marketing executions.<br />Students will develop knowledge of software and technology platforms, skills in analytical thinking, problem solving and knowledge of sustainability in developing a marketing strategy.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-18T09:59:33.529",
+  "code": "MKTG2006",
+  "title": "Marketing Technologies",
+  "implementationYear": "2021"
+}

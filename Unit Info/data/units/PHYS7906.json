@@ -1,0 +1,202 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "describe the principles and methods for advanced photonics topics such as laser structuring of materials and applications.",
+        "code": "ULO3"
+      },
+      {
+        "description": "discuss a range of research principles and methods in photonics.",
+        "code": "ULO2"
+      },
+      {
+        "description": "demonstrate a comprehensive knowledge of optical materials and their use in linear optics.",
+        "code": "ULO1"
+      },
+      {
+        "description": "apply advanced microscopy concepts in a laboratory environment, including detailed planning of experiments, performing the requisite analysis to provide tangible answers to posed research questions, and the preparation of reports to communicate these results.",
+        "code": "ULO5"
+      },
+      {
+        "description": "explain the origin of optical nonlinearities and be able manipulate and interpret the mathematical descriptions of nonlinear phenomena.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for workshops.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PHTN702",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Exam in the University Examination period, covering the entire content of the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignments",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "30",
+        "description": "Four problem-based assignments throughout the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Lab report",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "30",
+        "description": "Report of the planning, execution and analysis of a lab-based microscopy investigation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHYS7906"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHYS7906"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PHYS7906 - Advanced Photonics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Physics and Astronomy "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "We explore the origin of nonlinear optical effects, and how they are used in modern optics to convert and control light. We derive the hierarchy of nonlinear effects, such as simple frequency doubling and mixing and enhancement using periodic materials; the Kerr effect and its applications in ultrafast lasers; Raman scattering and Brillouin scattering and their relevance to all-optical switching; and high-harmonic generation for generating XUV light and attosecond pulses. Advanced topics may include using the nonlinear Schrodinger equation to investigate nonlinear effects in fibres, such as soliton formation, super continuum generation.<br />\n<br />\nWe establish how to use light-matter interactions to detect and study atoms and molecules. We determine the form of their excitation spectra, the factors that determine the shape and width of the spectral features, and how to measure them using infrared to ultraviolet excitation wavelengths. We will study more complex techniques that may include enhancements such as cavity ring down and Doppler-free methods; Raman spectroscopy and techniques such as CARS; and enhancement of Raman scattering using nanostructures and the quest for single molecule detection.",
+    "search_title": "PHYS7906 - Advanced Photonics",
+    "code": "PHYS7906",
+    "title": "Advanced Photonics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "We explore the origin of nonlinear optical effects, and how they are used in modern optics to convert and control light. We derive the hierarchy of nonlinear effects, such as simple frequency doubling and mixing and enhancement using periodic materials; the Kerr effect and its applications in ultrafast lasers; Raman scattering and Brillouin scattering and their relevance to all-optical switching; and high-harmonic generation for generating XUV light and attosecond pulses. Advanced topics may include using the nonlinear Schrodinger equation to investigate nonlinear effects in fibres, such as soliton formation, super continuum generation.<br />\n<br />\nWe establish how to use light-matter interactions to detect and study atoms and molecules. We determine the form of their excitation spectra, the factors that determine the shape and width of the spectral features, and how to measure them using infrared to ultraviolet excitation wavelengths. We will study more complex techniques that may include enhancements such as cavity ring down and Doppler-free methods; Raman spectroscopy and techniques such as CARS; and enhancement of Raman scattering using nanostructures and the quest for single molecule detection.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:58:13.205",
+  "code": "PHYS7906",
+  "title": "Advanced Photonics",
+  "implementationYear": "2021"
+}

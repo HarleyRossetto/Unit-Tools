@@ -1,0 +1,226 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Discuss and apply the process of product design.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Discuss and apply an Actuarial Control Cycle in a variety of practical commercial situations.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate an understanding of enterprise risk management and apply a risk assessment framework to identify and assess the risks in a range of situations.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse the main features and risks of financial products and contracts from the point of view of consumers and providers.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Relate the main features of actuarial control cycle within the general environment to medium and long-term commercial decisions.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Further article readings will form part of the learning resources to supplement lecture notes.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparation for lectures and various assessment items.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ACST402",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(ACST357 or ACST3057) and (ACST358 or ACST3058)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "70",
+        "description": "The final examination will be closed book, a three-hour written paper with ten minutes reading time, to be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "12",
+        "description": "An individual, written, case study report (word limit of up to 5000 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "8",
+        "description": "The assignment consists of a PowerPoint presentation (5 minutes) and a script of 600 words. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessed Coursework",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "10",
+        "description": "A range of tasks due throughout the session based on textbook chapters, iLearn discussion and class quizzes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACST4002-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACST4002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACST4002-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACST4002"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACST4002 - Actuarial Control Cycle 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Actuarial Studies and Business Analytics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit, in conjunction with ACST4003 (or ACST403) Actuarial Control Cycle 2, develops and applies the actuarial principles and practices underlying the design, assessment, management and control of financial systems in the areas of life insurance, general insurance, superannuation and other less traditional areas of actuarial practice. The two units together consider the process of actuarial and financial management including: product design; pricing; marketing; monitoring of experience; reserve setting; financing; solvency; determination and distribution of surplus; and its role in enterprise risk management. The overall control process is studied within the constraints imposed by the commercial environment and the actuarial professional code of conduct and standards. This includes a discussion of business ethics and issues of professionalism in actuarial practice. Students gaining a Credit average across ACST4002 (or ACST402) and ACST4003 (or ACST403) (minimum mark of 60 on both units) will satisfy the requirements for exemption from the Actuarial Control Cycle subject of the Actuary program of the Actuaries Institute.",
+    "search_title": "ACST4002 - Actuarial Control Cycle 1",
+    "code": "ACST4002",
+    "title": "Actuarial Control Cycle 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit, in conjunction with ACST4003 (or ACST403) Actuarial Control Cycle 2, develops and applies the actuarial principles and practices underlying the design, assessment, management and control of financial systems in the areas of life insurance, general insurance, superannuation and other less traditional areas of actuarial practice. The two units together consider the process of actuarial and financial management including: product design; pricing; marketing; monitoring of experience; reserve setting; financing; solvency; determination and distribution of surplus; and its role in enterprise risk management. The overall control process is studied within the constraints imposed by the commercial environment and the actuarial professional code of conduct and standards. This includes a discussion of business ethics and issues of professionalism in actuarial practice. Students gaining a Credit average across ACST4002 (or ACST402) and ACST4003 (or ACST403) (minimum mark of 60 on both units) will satisfy the requirements for exemption from the Actuarial Control Cycle subject of the Actuary program of the Actuaries Institute.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-05T09:53:54.507",
+  "code": "ACST4002",
+  "title": "Actuarial Control Cycle 1",
+  "implementationYear": "2021"
+}

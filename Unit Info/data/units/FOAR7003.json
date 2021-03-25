@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify existing digital tools and approaches and apply them to their research.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Make informed and logical judgements of the arguments of others to arrive at reasoned and meaningful arguments and positions, and formulate and apply new ideas to new contexts.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply a high level of oral, written and technological communication skills, with specialisation for the specific needs of a discipline, including the ability to explain a technical subject to a non-technical audience.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Investigate at an advanced level the theories, principles and concepts within a discipline area.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Recognise the environment of research transparency and research ethics.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class preparation including readings, online resources and online research.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "FOAR705",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to BPhil/MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Digital Skills Reflection",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "10",
+        "description": "Students will reflect on their experiences with digital research across the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Digital Research Communication",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "45",
+        "description": "Students will use digital platforms to communicate research.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Digital Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "45",
+        "description": "Students will create a short digital presentation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOAR7003"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOAR7003"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOAR7003"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Fully online/virtual<br />",
+    "subject_search_title": "FOAR7003 - Digital Literacies for Researchers",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Digital technologies are rapidly changing the face and shaping the future of research; the most innovative projects in the arts and humanities increasingly involve digital approaches. World-ready researchers must not only be able to navigate the digital sphere and recognise the potential offered by digital technology for their own research, but must also understand the ethics surrounding digital technologies and data management practices. In this unit, students will encounter the dynamic and exciting possibilities that digital technologies create for researchers in the arts. They will learn how to think critically and creatively about potential new directions for research, and how these might be applied to their own disciplines and research practices. Students will learn how to harness digital tools and technologies to enhance, optimise and automate their own research practices. They will also gain essential skills in learning how to think critically about the issues and ethics facing researchers regarding data management and digital research practices and communication. Students will emerge from this unit with an understanding of the exciting new possibilities emerging at the ever-evolving digital frontier, an awareness of the ethical questions involved in digital research, and the ability to apply digital tools and concepts to their own research practices.",
+    "search_title": "FOAR7003 - Digital Literacies for Researchers",
+    "code": "FOAR7003",
+    "title": "Digital Literacies for Researchers",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Digital technologies are rapidly changing the face and shaping the future of research; the most innovative projects in the arts and humanities increasingly involve digital approaches. World-ready researchers must not only be able to navigate the digital sphere and recognise the potential offered by digital technology for their own research, but must also understand the ethics surrounding digital technologies and data management practices. In this unit, students will encounter the dynamic and exciting possibilities that digital technologies create for researchers in the arts. They will learn how to think critically and creatively about potential new directions for research, and how these might be applied to their own disciplines and research practices. Students will learn how to harness digital tools and technologies to enhance, optimise and automate their own research practices. They will also gain essential skills in learning how to think critically about the issues and ethics facing researchers regarding data management and digital research practices and communication. Students will emerge from this unit with an understanding of the exciting new possibilities emerging at the ever-evolving digital frontier, an awareness of the ethical questions involved in digital research, and the ability to apply digital tools and concepts to their own research practices.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-04T11:58:43.408",
+  "code": "FOAR7003",
+  "title": "Digital Literacies for Researchers",
+  "implementationYear": "2021"
+}

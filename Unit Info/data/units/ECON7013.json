@@ -1,0 +1,271 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply advanced macroeconomic models to understand the behaviour of key macroeconomic variables.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify and interpret topical macroeconomic issues, and use advanced macroeconomic models to understand how policy should respond to the issues.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Co-operate with peers in groups to prepare and present the results of collaboration on current topical issues.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Source and interpret macroeconomic data and coherently use the key concepts in macroeconomics.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to read all assigned papers in preparation for the weekly seminars.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECON761, ECON861, ECON913, ECON713",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final online examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "A two-hour open book examination will be held during the University Examination Period, and will be on based on material covered in lectures from weeks 7 to 13 (inclusive).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Research and Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "15",
+        "description": "These are seminar presentations by the groups formed by the lecturer in week 1. Each group will be allocated a current report by a major agency, such as the Reserve Bank, to be analysed and presented as a seminar in weeks 9-12. Students are required to present a summary of the key points in the report. The group must meet regularly throughout the session to do the necessary research on the allocated report, and to prepare a presentation. The presentation can be designed to include possible discussion points for the class. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Mid-session test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "A mid-session test will be held in week 7, and will be based on material covered in lectures from weeks 1 to 6 (inclusive).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "The 1,750-word essay is due before the beginning of the seminar in Week 12. Students choose any one of the topics on contemporary issues provided by the lecturer, conduct a literature review, and write a reasoned essay about the issue and its implications for macroeconomics. A significant weight in the marking will be placed on the literature review and research methodology used.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A two-hour closed book examination will be held during the University Examination Period, and will be on based on material covered in lectures from weeks 1 to 13 (inclusive).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ECON7013",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ECON7013"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ECON8013"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Applied Macroeconomic Topics",
+                "academic_item_code": "ECON8013",
+                "academic_item_url": "/2020/units/ECON8013"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON7013"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON7013"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ECON7013 - Applied Topics in Macroeconomics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Economics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides the necessary tools to engage with current macroeconomic issues. It will apply rigorous economic analysis to real-world problems, developing an understanding about the relationships between key macroeconomic indicators e.g. inflation, output growth, unemployment, interest rates, wages and profits, stock market indices, exchange rates. The unit will help students to think creatively about the design and constraints of monetary, fiscal and macroprudential policy in normal times and during a crisis. In so doing students will develop the capacity to undertake independent research in macroeconomics.",
+    "search_title": "ECON7013 - Applied Topics in Macroeconomics",
+    "code": "ECON7013",
+    "title": "Applied Topics in Macroeconomics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides the necessary tools to engage with current macroeconomic issues. It will apply rigorous economic analysis to real-world problems, developing an understanding about the relationships between key macroeconomic indicators e.g. inflation, output growth, unemployment, interest rates, wages and profits, stock market indices, exchange rates. The unit will help students to think creatively about the design and constraints of monetary, fiscal and macroprudential policy in normal times and during a crisis. In so doing students will develop the capacity to undertake independent research in macroeconomics.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:24:12.935",
+  "code": "ECON7013",
+  "title": "Applied Topics in Macroeconomics",
+  "implementationYear": "2021"
+}

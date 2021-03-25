@@ -1,0 +1,298 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Pass/Fail",
+      "value": "pass-fail"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply principles of statutory interpretation and the doctrine of precedent to interpret primary legal sources (case law and legislation) for the purpose of deriving legal rules and principles.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply principles of academic honesty and rules for correct legal citation.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse legal problems in their broader social context",
+        "code": "ULO6"
+      },
+      {
+        "description": "Define, describe and relate sources of legal norms and foundational elements of the Australian legal system.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Locate relevant primary and secondary sources through legal research using online databases, library resources and internet sources.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings and reflection in preparation for lectures and tutorials.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to LLB",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LAW115",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Foundations Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "This timed online quiz requires students to demonstrate their understanding of foundational concepts necessary for further study in law attained derived from lectures and readings throughout the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Legal Research Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Consists of five (5) online multiple choice quizzes where students will demonstrate their ability to carry out legal research using online databases, library and internet sources.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Academic Integrity and Referencing Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Two online multiple choice quizzes in which students will demonstrate their ability to apply principles of academic integrity and rules for correct legal citation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Law and Policy Reform Wiki",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "10",
+        "description": "Consists of a group report (online wiki) in which students aim to develop recommendations for legal and policy reform to address a contemporary socio-legal problem.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Core Skills Assignment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "Consists of a short assignment (max 1,500 words, excluding footnotes) submitted online in which students will analyse and interpret primary legal sources (case law and legislation).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Presentations",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "5",
+        "description": "Consists of a group presentation (of findings reported in the Law and Policy Reform Wiki) and contribution to Q&amp;A sessions from other presentations.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LAWS1000-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS1000-unit_teaching_period-Intensive-subject",
+        "display_name": "Session 3-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS1000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS1000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS1000-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS1000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 3, Intensive attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "LAWS1000 - Foundations of Law",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will enable students to attain the key legal skills (legal research, reasoning, and writing; applying precedent; statutory interpretation; and legal problem solving) and to acquire the foundational legal knowledge (Australia legal institutions; legal theory; comparative legal systems; parliamentary process; role of the judiciary) necessary for further study in law. This unit will challenge students to apply their skills and knowledge to examine a contemporary socio-legal issue through a collaborative group project. Students will also engage in reflective practice.",
+    "search_title": "LAWS1000 - Foundations of Law",
+    "code": "LAWS1000",
+    "title": "Foundations of Law",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will enable students to attain the key legal skills (legal research, reasoning, and writing; applying precedent; statutory interpretation; and legal problem solving) and to acquire the foundational legal knowledge (Australia legal institutions; legal theory; comparative legal systems; parliamentary process; role of the judiciary) necessary for further study in law. This unit will challenge students to apply their skills and knowledge to examine a contemporary socio-legal issue through a collaborative group project. Students will also engage in reflective practice.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T18:33:03.917",
+  "code": "LAWS1000",
+  "title": "Foundations of Law",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,274 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Pass/Fail",
+      "value": "pass-fail"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse the scenarios during a translation or interpreting job and apply the AUSIT Code of Ethics in the activities of translation and interpreting practice.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate effective communication with clients and good client relationship management.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate competent management of translation and interpreting tasks in a teamwork environment.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Get in-depth knowledge on the translation and interpreting industry, incluing code of ethics/conducts for the translation and interpreting professionals, market composition, dealing with clients, industry associations and bodies, etc.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate a professional manner with or without supervision during a translation/interpreting job under practicum.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are encouraged to make adequte preparation, especially for interpreting placements, by searching online resources.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students are encouraged to read extensively on literatures and general topics to get in-depth knowledge of the profession as well as to accumulate knowledge-base for interpreting and translation tasks.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "TRAN874",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(TRAN821 or TRAN8021) and (TRAN877 or TRAN8077) or admission to MConflnt",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "End-semester portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "30",
+        "description": "Students are required to submit a portfolio by the end of Week 13 of the semester in which they enrol in the unit, enclosing all the activities they have done for the unit, including but not limited to: log sheets of translation projects, interpreting placements and court observations; journals of interpreting placements and observations, evidence of self-organised translation projects, client/self-evaluation reports of the translation tasks, and so on. Word count of the portfolio depending on the tasks each student takes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Seminar journals",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "The students are required to attend unit-organised seminars on various topics in relation to their professional practise, including but not limited to: code of ethics, legal interpreting, conference interpreting, etc. A journal is required to be submitted on iLearn for each seminar within one week after the seminar is delivered unless otherwise specified. For each seminar, the students are required to submit reflective journals with reference questions in relation to the topic of the seminar. Word count of the task: 300 per seminar journal.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Interpreting and translation field work",
+        "type": {
+          "label": "Field work task",
+          "value": "field_work_task"
+        },
+        "weight": "50",
+        "description": "Students are required to undertake practicum tasks by attending interpreting placements, completing translation tasks, observing professional work, etc., to complete the required practicum hours. Aside from the interpreting and translation tasks assigned by the unit, students are strongly encouraged to source practicum opportunities by themselves and complete the tasks after the final approval is obtained from the unit convenor. Students are required to keep log sheets of the practicum work they perform, along with reflective journals for interpreting placements and client/self-evaluation forms for translation tasks. Students are required to complete 75 practicum hours in total to complete the unit. Word count of the task: 250 per reflective journal on average. Number of journal entries depending on the tasks each student takes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8074"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8074"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8074"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8074"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8074"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8074"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "TRAN8074 - Professional Practice in Translating and Interpreting",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit prepares students for professional practice as translators and/or interpreters. Students will be required to complete the fieldwork components (Practicum) required to complete the program. In addition to the fieldwork, the unit will cover a range of knowledge and skills that are essential to working as a freelance practitioner or as part of an in-house team of translators and interpreters. These include a profound understanding of translator and interpreter ethics, business creation and administration, marketing, building good client relationships, and lifelong learning.",
+    "search_title": "TRAN8074 - Professional Practice in Translating and Interpreting",
+    "code": "TRAN8074",
+    "title": "Professional Practice in Translating and Interpreting",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit prepares students for professional practice as translators and/or interpreters. Students will be required to complete the fieldwork components (Practicum) required to complete the program. In addition to the fieldwork, the unit will cover a range of knowledge and skills that are essential to working as a freelance practitioner or as part of an in-house team of translators and interpreters. These include a profound understanding of translator and interpreter ethics, business creation and administration, marketing, building good client relationships, and lifelong learning.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T09:28:43.148",
+  "code": "TRAN8074",
+  "title": "Professional Practice in Translating and Interpreting",
+  "implementationYear": "2021"
+}

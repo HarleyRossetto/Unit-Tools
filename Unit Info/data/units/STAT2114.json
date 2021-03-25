@@ -1,0 +1,286 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify suitable experimental designs to solve a variety of problems.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify potential issues in survey designs, such as sampling bias and non-sampling errors.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Evaluate the ethical relevance and implications in the design of a questionnaire and in the formulation of its questions.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Apply commonly used survey designs, sampling methods and appropriate statistical technique(s) to estimate population parameters based on a sample from each design.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify appropriate statistical method(s) and use relevant software for the analysis of data from a variety of experimental designs. ",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply basic knowledge to design questionnaires and construct questions.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class Preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "STAT170 or STAT1170 or STAT150 or STAT1250 or STAT171 or STAT1371",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "STAT373, STAT814",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "STAT2170 or STAT2371 or BIOL2610 or PSYU2248",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "15",
+        "description": "An assignment is set for students to complete independently, applying the knowledge gained from lectures, SGTA exercises, and their readings, and using statistical software. They will be made available on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "55",
+        "description": "There will be a two-hour written examination (plus ten minutes reading time) during the official University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "55",
+        "description": "There will be a two-hour open-booked online examination (plus ten minutes reading time) during the official University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-Semester Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "A test will be made available on iLearn. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "15",
+        "description": "An assignment is set for students to complete independently, applying the knowledge gained from lectures, SGTA exercises, and their readings, with or without using statistical software. They will be made available on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "STAT2114",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: STAT2114"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: STAT6114"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Design of Surveys and Experiments",
+                "academic_item_code": "STAT6114",
+                "academic_item_url": "/2020/units/STAT6114"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT2114"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT2114"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "STAT2114 - Design of Surveys and Experiments",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Mathematics and Statistics "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces the fundamental principles of design of surveys and experiments. Survey design covers the following topics: quota sampling; question construction; common ambiguities and unintended biases; probability sampling; simple random sampling; stratified sampling; ratio and regression estimators; systematic sampling; and cluster sampling. Experimental design covers the following topics: the completely randomised design; randomised blocks; random effects models; and analysis of covariance.",
+    "search_title": "STAT2114 - Design of Surveys and Experiments",
+    "code": "STAT2114",
+    "title": "Design of Surveys and Experiments",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces the fundamental principles of design of surveys and experiments. Survey design covers the following topics: quota sampling; question construction; common ambiguities and unintended biases; probability sampling; simple random sampling; stratified sampling; ratio and regression estimators; systematic sampling; and cluster sampling. Experimental design covers the following topics: the completely randomised design; randomised blocks; random effects models; and analysis of covariance.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T16:05:42.418",
+  "code": "STAT2114",
+  "title": "Design of Surveys and Experiments",
+  "implementationYear": "2021"
+}

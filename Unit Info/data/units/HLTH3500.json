@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Summarise and analyse, individually and as a group, key developments in health policy with an emphasis on legal and ethical contexts",
+        "code": "ULO3"
+      },
+      {
+        "description": "Exemplify, individually and as a group, the key elements involved in planning, implementing and evaluating public health policies with due regard for ethical and legal aspects",
+        "code": "ULO5"
+      },
+      {
+        "description": "Deconstruct the evolving cross-sectional nature of public health law globally and the effect on public health and health promotion",
+        "code": "ULO6"
+      },
+      {
+        "description": "Define main terms in relation to key legal, ethical and policy aspects of public health",
+        "code": "ULO1"
+      },
+      {
+        "description": "Exemplify the impact and influence of legal, ethical and policy concerns on public health both nationally and internationally",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critique the social, cultural, economic and political factors that can influence public health initiatives and the legal and ethical decisions underpinning these decisions",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Allocated weekly readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Research for essay",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "HLTH350",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(130cp at 1000 level or above including HLTH200 or HLTH2000) or (130cp and admission to BHumanSc)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Group Presentation and Reflection",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "description": "Group presentation on the legal, ethical and policy issues of a health topic, including an individual reflection report on the group work, group processes, and the health topic.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "35",
+        "description": "An 1800 word essay on health topic",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "2 hour exam (plus 10 mins reading time)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HLTH3500"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HLTH3500"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "HLTH3500 - Legal, Ethical and Policy Directions in Human Sciences",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines how law, ethics and policy affect population health in Australia and globally. Lectures and tutorial discussion will equip students with the knowledge and ability to engage meaningfully in debate and discourse surrounding the role of ethical and legal considerations and the policy process in health provision. Topics include debate around vaccination programs, infectious disease control, and the impact of corporate conduct on public health.",
+    "search_title": "HLTH3500 - Legal, Ethical and Policy Directions in Human Sciences",
+    "code": "HLTH3500",
+    "title": "Legal, Ethical and Policy Directions in Human Sciences",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines how law, ethics and policy affect population health in Australia and globally. Lectures and tutorial discussion will equip students with the knowledge and ability to engage meaningfully in debate and discourse surrounding the role of ethical and legal considerations and the policy process in health provision. Topics include debate around vaccination programs, infectious disease control, and the impact of corporate conduct on public health.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:40:12.932",
+  "code": "HLTH3500",
+  "title": "Legal, Ethical and Policy Directions in Human Sciences",
+  "implementationYear": "2021"
+}

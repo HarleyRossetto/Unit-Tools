@@ -1,0 +1,198 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop and implement a comprehensive research plan <strong>(Capability 1: Scientist and Scholar).</strong>",
+        "code": "ULO4"
+      },
+      {
+        "description": "Develop and align research methodology to ensure the specific research question/s can be answered  <strong>(Capability 1: Scientist and Scholar).</strong>",
+        "code": "ULO3"
+      },
+      {
+        "description": "Formulate answerable specific research question/s which are designed to enhance healthcare <strong>(Capability 1: Scientist and Scholar).</strong>",
+        "code": "ULO2"
+      },
+      {
+        "description": "Communicate a research plan effectively and concisely using multimedia <strong>(Capability 2: Clinical Practitioner).</strong>",
+        "code": "ULO5"
+      },
+      {
+        "description": "Work collaboratively with peers and supervisors, giving and receiving feedback, generating improvement strategies and promoting a collaborative research environment <strong>(Capability 4: Professional).</strong>",
+        "code": "ULO8"
+      },
+      {
+        "description": "Demonstrate initiative and practice scientific and professional responsibilities, including an adherence to the ethical and regulatory requirements relevant to the research project <strong>(Capability 4: Professional).</strong>",
+        "code": "ULO7"
+      },
+      {
+        "description": "Discuss the significance of the research project and how it will contribute to the enhancement of health systems or healthcare broadly<strong> (Capability 3: Engaged Global Citizen).</strong>",
+        "code": "ULO6"
+      },
+      {
+        "description": "Conduct a comprehensive literature review relevant to the research topic <strong>(Capability 1: Scientist and Scholar).</strong>",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Self-directed research ",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MEDI8301",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "(MEDI924 or MEDI8204)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Logbook, Learning Plan and Supervisor's Report",
+        "type": {
+          "label": "Performance",
+          "value": "performance"
+        },
+        "weight": "30",
+        "description": "Submission of research activities logbook as well as reflection and learning plan for the next session. Supervisors will also  be required to evaluate the development of research scholarship, teamwork and professionalism.  Assessment criteria will be mapped to specific capability aspects.  Overall and capability aspects performance will be recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research plan ",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "35",
+        "description": "Outline Research plan with timelines.  Assessment criteria will be mapped to relevant capability aspects and graduate Entrustable  Professional Activities.  Overall and capability aspects performance and EPAs will be recorded in your Macquarie Assessment Portfolio. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Draft of Component of Research Manuscript",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "35",
+        "description": "Draft of Introduction and background section of research manuscript in format of the specified journal.  Assessment criteria will be mapped to relevant capability aspects and graduate Entrustable  Professional Activities.  Overall and capability aspect performance and EPAs will be recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Medicine and Health Sciences MDC-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Medicine and Health Sciences MDC"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI8300"
+        }
+      }
+    ],
+    "unit_offering_text": "Medicine and Health Sciences MDC, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MEDI8300 - Research Project A",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is the first of three research units which are integrated with clinical learning in Stage 2 of the Doctor of Medicine (Macquarie MD). It contributes to an 18-month research experience culminating in the completion and presentation of an individual research project in MEDI8400: Research Project and Presentation.  The unit builds on the research training embedded in Stage 1 of the Macquarie MD. The research projects offered broadly focus on making a scholarly contribution to learning health systems and may include projects related to health systems development and delivery, infrastructure and resource-use in healthcare, patient safety and quality, patient and clinician experience of service delivery, patient- and professional-reported determinants of health and wellbeing and medical education.  In this unit, you will work with peers involved in similar projects and your project supervisors to undertake relevant research training; conduct a literature review and finalise your research questions; develop a comprehensive research plan; commence implementation of the plan and develop skills in communicating research.",
+    "search_title": "MEDI8300 - Research Project A",
+    "code": "MEDI8300",
+    "title": "Research Project A",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is the first of three research units which are integrated with clinical learning in Stage 2 of the Doctor of Medicine (Macquarie MD). It contributes to an 18-month research experience culminating in the completion and presentation of an individual research project in MEDI8400: Research Project and Presentation.  The unit builds on the research training embedded in Stage 1 of the Macquarie MD. The research projects offered broadly focus on making a scholarly contribution to learning health systems and may include projects related to health systems development and delivery, infrastructure and resource-use in healthcare, patient safety and quality, patient and clinician experience of service delivery, patient- and professional-reported determinants of health and wellbeing and medical education.  In this unit, you will work with peers involved in similar projects and your project supervisors to undertake relevant research training; conduct a literature review and finalise your research questions; develop a comprehensive research plan; commence implementation of the plan and develop skills in communicating research.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:39:15.524",
+  "code": "MEDI8300",
+  "title": "Research Project A",
+  "implementationYear": "2021"
+}

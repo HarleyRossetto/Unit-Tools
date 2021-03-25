@@ -1,0 +1,175 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically appraise the strengths and limitations of a health promotion program",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply the principles of planning and evaluation to real world scenarios with a pragmatic approach.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify and articulate appropriate research designs and methods for designing and evaluating a health promotion program.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Describe the key principles of planning and evaluation of health promotion programs.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings that complement lecture materials",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(HSYP802 or HSYP8101) and (HSYP805 or HSYP8104)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Program proposal",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "60",
+        "description": "Proposal for a health promotion program divided into four components:\n1. Pitch presentation (10%)\n2. Written report (20%)\n3. Peer contribution (10%)\n4. Reflection (20%)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Critical appraisal",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Critical appraisal of a health promotion program",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "HSYP8007-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HSYP8007"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "HSYP8007-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HSYP8007"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "HSYP8007 - Program Planning and Evaluation in Health Promotion",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit you will learn to plan and evaluate health promotion programs and assess their implementation and impact. You will apply knowledge and learnings from the classroom to real world scenarios using a pragmatic lens. This unit will prepare you to work as a health promotion practitioner, in settings such as local health districts, non-government organisations, and community enterprises. Assessment tasks will involve a combination of individual and group work, similar to working on a real project. To be successful in this unit you will need to have a solid understanding of disease prevention and health promotion.",
+    "search_title": "HSYP8007 - Program Planning and Evaluation in Health Promotion",
+    "code": "HSYP8007",
+    "title": "Program Planning and Evaluation in Health Promotion",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit you will learn to plan and evaluate health promotion programs and assess their implementation and impact. You will apply knowledge and learnings from the classroom to real world scenarios using a pragmatic lens. This unit will prepare you to work as a health promotion practitioner, in settings such as local health districts, non-government organisations, and community enterprises. Assessment tasks will involve a combination of individual and group work, similar to working on a real project. To be successful in this unit you will need to have a solid understanding of disease prevention and health promotion.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T09:28:34.252",
+  "code": "HSYP8007",
+  "title": "Program Planning and Evaluation in Health Promotion",
+  "implementationYear": "2021"
+}

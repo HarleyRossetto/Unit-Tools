@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Consider the relative advantages and disadvantages of a diverse range of qualitative research methods used in management research in developing a research design",
+        "code": "ULO2"
+      },
+      {
+        "description": "Address any ethics issues that may arise as part of a research design that involves qualitative methods",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop a basic research proposal based qualitative methods that links the suitability of the proposed method to the nature of the research question, as well as the relative advantages and disadvantages of the proposed method",
+        "code": "ULO5"
+      },
+      {
+        "description": "Conduct qualitative research using a basic understanding of different coding strategies, and a range of typical qualitative methods",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain the role of research philosophy in selecting suitable research methods for a particular study",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "FOBE720, FOBE820",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Critique your preferred method",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "20",
+        "description": "Select three recent (within the last 5 years) empirical research papers from three different top academic journals that have used a particular research method that you are interested in exploring more deeply, and write a 1,500 word critique of the three papers through critically comparing them on your assessment of the following: 1) Suitability and justification of the chosen method in relation to the research question 2) Technical adequacy of the method application in terms of data collection and analysis",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Qualitative research design",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "40",
+        "description": "Prepare a 2,500 word research proposal that is based on a qualitative research design. The report should contain: 1) Your research problem and research question(s) 2) A justification of your choice of qualitative method(s) in relation to your research question(s) based in a literature review of relevant methodological literature 3) The relation of your choice of qualitative method(s) to your onto-epistemic research philosophy 4) An explanation of how you will conduct your analysis 5) A significant example of actual data collection and analysis, including a summary of your main findings 6) A discussion of limitations and next steps",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly reviews",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "40",
+        "description": "For each of the sessions from weeks 2-12, write a 500 word review that: 1) Summarises what you believe to be the most important learnings from the seminar and readings in each week, and 2) Critically discuss how the materials covered could relate to your own research project e.g. how might you use some of the points discussed to improve, critique, and/or justify your research project?",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MQBS8020",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MQBS8020"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MQBS7020"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Qualitative Research Approaches in Business and Economics",
+                "academic_item_code": "MQBS7020",
+                "academic_item_url": "/2020/units/MQBS7020"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MQBS8020-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MQBS8020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MQBS8020-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "20",
+        "study_level": {},
+        "academic_item": {
+          "value": "MQBS8020"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde*<br />Session 1, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MQBS8020 - Qualitative Research Approaches in Business and Economics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students with an introduction to theoretical and empirical research approaches informed by qualitative methods of inquiry within the business and economics discipline. It seeks to develop students&#39; understanding of the contexts in which qualitative research can be undertaken, and the ability to analyse, conduct, and evaluate qualitative forms of research.",
+    "search_title": "MQBS8020 - Qualitative Research Approaches in Business and Economics",
+    "code": "MQBS8020",
+    "title": "Qualitative Research Approaches in Business and Economics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides students with an introduction to theoretical and empirical research approaches informed by qualitative methods of inquiry within the business and economics discipline. It seeks to develop students&#39; understanding of the contexts in which qualitative research can be undertaken, and the ability to analyse, conduct, and evaluate qualitative forms of research.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T16:12:34.017",
+  "code": "MQBS8020",
+  "title": "Qualitative Research Approaches in Business and Economics",
+  "implementationYear": "2021"
+}

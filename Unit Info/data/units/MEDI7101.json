@@ -1,0 +1,206 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain epidemiological and statistical concepts commonly used in public health.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Characterise analytic epidemiology study designs and describe the measures associated with these studies.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Calculate and interpret the epidemiologic measures of occurrence; and association between exposure and disease and measures of public health impact",
+        "code": "ULO1"
+      },
+      {
+        "description": "Organise, summarise, analyse and interpret data relevant to public health.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Lecture preparation, summary and related reading",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Tutorial exercises",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MEDI702",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Open book exam which will cover epidemiological and statistical concepts covered in the course. \n",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical appraisal",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "You will choose an epidemiological article relevant to their area of research interest. You will use the knowledge of study designs and their strengths and limitations, to critique their chosen study using an appropriate critical appraisal framework.\n",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Introductory concepts",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Online quiz to examine understanding of introductions epidemiological terms and concepts.\n",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MEDI7101-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI7101"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MEDI7101-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI7101"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MEDI7101 - Epidemiology and Biostatistics for Research",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides an introduction to scientific inquiry and evaluation of evidence fundamental to research and practice with particular reference to public health. You will be introduced to epidemiology, biostatistics, and qualitative  methods, via modules designed with an integrated approach to learning in mind.  You will learn about study design, analysis, and interpretation. You will also gain an appreciation of the importance of evidence to the field of health research and apply techniques directly to your field of research interest.",
+    "search_title": "MEDI7101 - Epidemiology and Biostatistics for Research",
+    "code": "MEDI7101",
+    "title": "Epidemiology and Biostatistics for Research",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an introduction to scientific inquiry and evaluation of evidence fundamental to research and practice with particular reference to public health. You will be introduced to epidemiology, biostatistics, and qualitative  methods, via modules designed with an integrated approach to learning in mind.  You will learn about study design, analysis, and interpretation. You will also gain an appreciation of the importance of evidence to the field of health research and apply techniques directly to your field of research interest.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T09:42:12.933",
+  "code": "MEDI7101",
+  "title": "Epidemiology and Biostatistics for Research",
+  "implementationYear": "2021"
+}

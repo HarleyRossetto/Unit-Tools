@@ -1,0 +1,202 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate a good understanding of the differences between English and Chinese in the context of SI.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate skills in individual, peer and group evaluation.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate familiarity with a range of strategies to cope with challenges inherent to SI.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate the sub-skills required for simultaneous interpreting into Chinese.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply self-analysis of interpreting performance into Chinese.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are encouraged to read all kinds of materaisl to gain both linguistic knowledge and extra-linguistc knowledge.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students are encouraged to form study groups to carry out peer-lead learning to monitor each other's performance and give feedback to each other",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students are encouraged to use online resources, not only to prepare before each class and enhance after each class, but also use the online resources on a daily basis to acquire extra-linguistic knowledge. ",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "TRAN897, TRAN866",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "80cp in TRAN units at 8000 level",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Classroom participation and performance",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Students are encouraged to attend all the lectures and tutorials of the unit to acquire the basic skills and strategies of simultaneous interpreting. Students will also be undertaking training tasks on simultaneous interpreting and are encouraged to carry out self-evaluation and peer evaluation in the class. At least 2 hours of interpreting practise with random assessment and feedback each week. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-term examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "Mid-term examination in Week 7 with a video of 12-15 minutes (1,320~1,500 words) for simultaneous interpreting.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "The students will be sitting for final examination during the examination weeks with a video of 15-18 minutes (1,900~2,400 words) for simultaneous interpreting.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8097"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "TRAN8097 - Simultaneous Interpreting into LOTE 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is focused on simultaneous interpreting practice from English into LOTE for first semester Master of Conference Interpreting students. It teaches students how to use acquired skills to apply various strategies in dealing with different constraints in the on-line information process. Students are required to simultaneously interpret both improvised and well-prepared speeches on wide-ranging topics into LOTE, which are selected from various sources according to difficulty levels.",
+    "search_title": "TRAN8097 - Simultaneous Interpreting into LOTE 1",
+    "code": "TRAN8097",
+    "title": "Simultaneous Interpreting into LOTE 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is focused on simultaneous interpreting practice from English into LOTE for first semester Master of Conference Interpreting students. It teaches students how to use acquired skills to apply various strategies in dealing with different constraints in the on-line information process. Students are required to simultaneously interpret both improvised and well-prepared speeches on wide-ranging topics into LOTE, which are selected from various sources according to difficulty levels.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T16:33:31.233",
+  "code": "TRAN8097",
+  "title": "Simultaneous Interpreting into LOTE 1",
+  "implementationYear": "2021"
+}

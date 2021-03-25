@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Utilise fossils combined with analytical skills to solve advanced evolutionary problems",
+        "code": "ULO1"
+      },
+      {
+        "description": "Integrate skills to demonstrate capacity at producing primary scientific manuscripts and research proposals based on readings of the primary",
+        "code": "ULO5"
+      },
+      {
+        "description": "Gain insight and experience with post degree career options in palaeobiology and related disciplines",
+        "code": "ULO6"
+      },
+      {
+        "description": "Assess and plan for future careers through the recognition and development of transferable interdisciplinary skills",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply frontier imaging, lab and field techniques and industry standard software to analyse fossil material at an advanced level",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply advanced numerical methods that involve faunal turnover, extinction and conservation palaeobiology",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation pre class (specific readings) and during workshops. Estimate 10 hours per workshop",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "BIOL381",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "150cp including (BIOL2310 or BIOL2510 or BIOL2520 or BIOL263) and (30cp from BIOL or ENVS or GEOS units at 2000 level or above)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Major Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "Scientific essay selected from a prescribed set of palaeo discipline areas. Student must define research area, formulate research question(s) data mine, read papers, formulate and organise text, write formal scientific paper.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Grant Application",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "20",
+        "description": "Student formulates scientific rationale, aims, logistics, methods, outcomes and communication for an innovative research grant proposal that incorporates at least 2 separate discipline areas. The grant application is word limited.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Seminar",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "16",
+        "description": "Presentationswoth questions delivered in person or online outlining a separate palaeontological topic completely separate from the Essay topic - to show breadth of knowledge - can be related to career or post graduate aspirations",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Workshop Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "39",
+        "description": "T/F and written answer quiz questions based on activities completed in separate modules (mix of Lec/Lab/Tutorial)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3520"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3520"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "BIOL3520 - Palaeobiology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The fossil record is our best guide to large-scale evolutionary patterns and processes. This unit will include a mix of palaeobiology readings, written reviews, seminars, supplementary lectures and lab sessions to explore into the most interesting research, techniques, controversies, debates and discoveries in the discipline of palaeobiology. Key macroevolutionary themes will be explored including evolutionary trends, time scales, palaeoecology, phylogenetics, and the evolution of major marine and terrestrial groups. This unit is the Capstone for the Major in Palaeobiology.",
+    "search_title": "BIOL3520 - Palaeobiology",
+    "code": "BIOL3520",
+    "title": "Palaeobiology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The fossil record is our best guide to large-scale evolutionary patterns and processes. This unit will include a mix of palaeobiology readings, written reviews, seminars, supplementary lectures and lab sessions to explore into the most interesting research, techniques, controversies, debates and discoveries in the discipline of palaeobiology. Key macroevolutionary themes will be explored including evolutionary trends, time scales, palaeoecology, phylogenetics, and the evolution of major marine and terrestrial groups. This unit is the Capstone for the Major in Palaeobiology.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-03T09:14:04.52",
+  "code": "BIOL3520",
+  "title": "Palaeobiology",
+  "implementationYear": "2021"
+}

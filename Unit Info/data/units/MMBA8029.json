@@ -1,0 +1,244 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate and apply theories, models and concepts when making branding decisions.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Create brand strategies which address multiple stakeholders' aims, incorporating social, cultural and global perspectives.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically evaluate specific brand relevance strategies and solve branding problems relating to different lifecycle stages.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MBA and (MMBA8020 or MGSM820)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Case Study Report",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "The 2,000 word report will require students to apply theory to solve the given case, and answer a set of case questions. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Activity",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Students will be required to demonstrate their theoretical understanding of important aspects of branding",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Brand Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "The Brand Project requires students to develop a practically oriented brand relevance strategy. The submission will be 3,000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MMBA8029",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MMBA8029"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MKTG8229"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.04",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Building Brand Relevance",
+                "academic_item_code": "MKTG8229",
+                "academic_item_url": "/2020/units/MKTG8229"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMBA8029-unit_teaching_period-Special",
+        "display_name": "Term 3-Special",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8029"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8029-unit_teaching_period-Weekday-subject",
+        "display_name": "Term 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8029"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 3, Weekday attendance, North Ryde*<br />Term 3, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MMBA8029 - Building Brand Relevance",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Marketing "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Brands symbolise a unique and strong value proposition to customers and other stakeholders. Achieving brand relevance among existing and potential customers is a crucial strategic task for organisations and is an important element of targeting strategies. A strong brand is a promise to its consumers. But how is such a brand created? Brands need to be flawlessly integrated into products and services that change people’s lives, and stakeholders need to be able to meet, interact with, and experience brands through people and places and in whatever mode (online and offline).<br />This unit develops students&#39; knowledge to develop brand relevance strategies for brands in different stages of their life-cycle, from start-ups to mature multinational brands. The focus is on developing students’ knowledge and skills to manage brand reinforcement, brand rejuvenation and revitalisation, and brand energising. Students will gain knowledge as to how to plan, develop and manage brands in a range of business environments and industries. Students will also develop a critical appreciation of the issues in planning and evaluating brand strategies, and to apply appropriate theories, and models to make better branding decisions.",
+    "search_title": "MMBA8029 - Building Brand Relevance",
+    "code": "MMBA8029",
+    "title": "Building Brand Relevance",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Brands symbolise a unique and strong value proposition to customers and other stakeholders. Achieving brand relevance among existing and potential customers is a crucial strategic task for organisations and is an important element of targeting strategies. A strong brand is a promise to its consumers. But how is such a brand created? Brands need to be flawlessly integrated into products and services that change people’s lives, and stakeholders need to be able to meet, interact with, and experience brands through people and places and in whatever mode (online and offline).<br />This unit develops students&#39; knowledge to develop brand relevance strategies for brands in different stages of their life-cycle, from start-ups to mature multinational brands. The focus is on developing students’ knowledge and skills to manage brand reinforcement, brand rejuvenation and revitalisation, and brand energising. Students will gain knowledge as to how to plan, develop and manage brands in a range of business environments and industries. Students will also develop a critical appreciation of the issues in planning and evaluating brand strategies, and to apply appropriate theories, and models to make better branding decisions.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-25T11:08:13.997",
+  "code": "MMBA8029",
+  "title": "Building Brand Relevance",
+  "implementationYear": "2021"
+}

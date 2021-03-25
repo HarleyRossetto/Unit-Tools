@@ -1,0 +1,198 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe the meaning of key terms used in neuroanatomy and neuropsychology.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain the anatomical basis of the disorders commonly seen in clinical practice and uncommon disorders.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Understand the implications of brain damage for neuropsychological practice.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Conceptualise the relationship between different components of the same system (e.g., the pyramidal and extra-pyramidal components of the motor system).",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe the classification of the nervous system and the history of this classification model.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify brain structures (including cortical and subcortical structures and blood vessels) and explain what is known about their role in producing behaviour.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Practice presentation",
+        "activity": {
+          "label": "Rehearsals",
+          "value": "rehearsals"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSYN855",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MClinNeuro",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "35",
+        "description": "In this one hour exam students will be required to label photographs of brain structures and answer short answer questions. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Multiple choice in class test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "35",
+        "description": "Students will complete forty multiple choice questions within one hour",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Critique of a case study",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "As a group exercise of 4 students will present and critique a recently published single case in an interactive manner, for twenty minutes, followed by ten minutes for questions from the cohort. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PSYN8855-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYN8855"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "PSYN8855 - Neuroanatomy for Neuropsychologists",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit students explore the human brain, and examine the neuroanatomical and behavioural consequences of brain damage. The unit adopts the standard correlative neuroanatomy approach, discussing development of the nervous system and the anatomy of the mature nervous system (the brain stem and associated structures, diencephalon, and telencephalon; blood supply; white matter pathways; ventricles; and meninges). By the end of the unit students are expected to identify, describe the role of structures of the brain and understand the implications of damage to structures of the brain for neuropsychological practice.",
+    "search_title": "PSYN8855 - Neuroanatomy for Neuropsychologists",
+    "code": "PSYN8855",
+    "title": "Neuroanatomy for Neuropsychologists",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit students explore the human brain, and examine the neuroanatomical and behavioural consequences of brain damage. The unit adopts the standard correlative neuroanatomy approach, discussing development of the nervous system and the anatomy of the mature nervous system (the brain stem and associated structures, diencephalon, and telencephalon; blood supply; white matter pathways; ventricles; and meninges). By the end of the unit students are expected to identify, describe the role of structures of the brain and understand the implications of damage to structures of the brain for neuropsychological practice.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T09:45:34.576",
+  "code": "PSYN8855",
+  "title": "Neuroanatomy for Neuropsychologists",
+  "implementationYear": "2021"
+}

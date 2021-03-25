@@ -1,0 +1,318 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Pass/Fail",
+      "value": "pass-fail"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "identify that language and culture interact, and relate that interaction to real-word situations and problems.",
+        "code": "ULO1"
+      },
+      {
+        "description": "increase their ability to clearly express, detail, defend, and/or promote ideas in public situations, through their native language and/or target language",
+        "code": "ULO3"
+      },
+      {
+        "description": "show awareness of differences and similarities between language use in their native language or culture and the target language or culture, as well as thoughtful understandings of how to negotiate difficulties that arise during cross-cultural and/or cross-linguistic interactions",
+        "code": "ULO2"
+      },
+      {
+        "description": "participate in diverse communities and collaborate with others on tasks.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will produce reflections about their experience based on thoughtful reflection and logs of their activities during the project, and engage with the online iLearn community.",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": "Session 2-Special, Winter vacation-Special, Session 3-Special"
+      },
+      {
+        "description": "Students will produce reflections about their experience within their groups based on thoughtful reflection and logs of their activities while abroad, and engage with the online iLearn community.",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": "Winter vacation-Infrequent-On location at placement, Session 1-Infrequent-On location at placement, Session 2-Infrequent-On location at placement, Session 3-Infrequent-On location at placement"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "INTS103",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "40cp and permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Critical Reflection",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "40",
+        "description": "Students will produce a video wherein they discuss and reflect upon their experiences during the placement. The video should touch on an issue relating to what the student has learned, how they overcame challenges, how the experience related to their overall program of study, and the ways in which they will employ what they learned in the future study and/or community engagement. Additionally, students should discuss their preparation for the experience, and how this impacted their time at the host institution. The backup supplementary task for this assessment task is a travel diary discussing the experience.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Infrequent-On location at placement, Session 2-Infrequent-On location at placement, Session 3-Infrequent-On location at placement, Winter vacation-Infrequent-On location at placement",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Intensive Immersive Course ",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "60",
+        "description": "Students are required to satisfactorily complete the components of their approved program of study. The backup supplementary task for this assessment task must be an equivalent program or experience, arranged by the student with the host institution.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Winter vacation-Infrequent-On location at placement, Session 2-Infrequent-On location at placement, Session 1-Infrequent-On location at placement, Session 3-Infrequent-On location at placement",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online intensive immersive course",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "60",
+        "description": "Students are required to satisfactorily complete the components of their approved program of study. The backup supplementary task for this assessment task must be an equivalent program or experience, arranged by the student with the host institution.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 3-Special, Winter vacation-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical reflection",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "40",
+        "description": "Students will produce a video wherein they discuss and reflect upon their experiences during the placement. The video should touch on an issue relating to what the student has learned, how they overcame challenges, how the experience related to their overall program of study, and the ways in which they will employ what they learned in the future study and/or community engagement. Additionally, students should discuss their preparation for the experience, and how this impacted their time during the project. The backup supplementary task for this assessment task is a project diary discussing the experience.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 3-Special, Winter vacation-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS1030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Winter vacation-Infrequent-On location at placement",
+        "teaching_period": {
+          "value": "Winter vacation"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS1030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Infrequent-On location at placement",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS1030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 3-Infrequent-On location at placement",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS1030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-On location at placement",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS1030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS1030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 3-Special",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS1030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Winter vacation-Special",
+        "teaching_period": {
+          "value": "Winter vacation"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS1030"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, On location at placement<br />Session 2, Infrequent attendance, On location at placement<br />Session 2, Special circumstances<br />Session 3, Infrequent attendance, On location at placement<br />Session 3, Special circumstances<br />Winter vacation, Infrequent attendance, On location at placement<br />Winter vacation, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "INTS1030 - International Studies Beginners In-Country Cultural Studies",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is offered on a pass/fail basis and designed for students who wish to complement their academic program through a short-term residential program relevant to their target language in International Studies: Languages and Cultures. This unit facilitates study at a partner university where intensive learning will take place in the student’s target language and in regards to a topic relevant to their discipline. The program of study at the overseas institution will be approved and promoted by the Department of International Studies in collaboration with Macquarie International. The short period of intensive study is intended for students already studying a language at Macquarie, ideally those who are taking or have completed the introductory level(s). Participants will be selected for the program based on their application, suitability, and the relevance of the program to their degree.",
+    "search_title": "INTS1030 - International Studies Beginners In-Country Cultural Studies",
+    "code": "INTS1030",
+    "title": "International Studies Beginners In-Country Cultural Studies",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is offered on a pass/fail basis and designed for students who wish to complement their academic program through a short-term residential program relevant to their target language in International Studies: Languages and Cultures. This unit facilitates study at a partner university where intensive learning will take place in the student’s target language and in regards to a topic relevant to their discipline. The program of study at the overseas institution will be approved and promoted by the Department of International Studies in collaboration with Macquarie International. The short period of intensive study is intended for students already studying a language at Macquarie, ideally those who are taking or have completed the introductory level(s). Participants will be selected for the program based on their application, suitability, and the relevance of the program to their degree.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:18:44.577",
+  "code": "INTS1030",
+  "title": "International Studies Beginners In-Country Cultural Studies",
+  "implementationYear": "2021"
+}

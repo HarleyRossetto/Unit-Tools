@@ -1,0 +1,412 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "demonstrate foundational learning skills including active engagement in your learning process",
+        "code": "ULO6"
+      },
+      {
+        "description": "organise and summarise data graphically and numerically",
+        "code": "ULO1"
+      },
+      {
+        "description": "draw conclusions from the results of data analysis",
+        "code": "ULO4"
+      },
+      {
+        "description": "use Excel to manipulate and analyse data",
+        "code": "ULO3"
+      },
+      {
+        "description": "apply statistical techniques to problems arising from diverse fields of research including examples on sustainability",
+        "code": "ULO5"
+      },
+      {
+        "description": "use appropriate techniques to analyse data",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class Preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSY122, STAT122, STAT170, STAT171, STAT150, WSTA150",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Class Test 1",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Class Test 1 will be held in the first half of the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "Students must attend and participate in at least 10 of the weekly practical classes to pass this unit. This is a hurdle requirement. They must attend the class that they are registered into.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Formal invigilated examination testing the learning outcomes of the unit. Students are advised that it is Macquarie University policy not to set early examinations for individuals or groups of students. All students are expected to ensure that they are available until the end of the teaching semester, i.e. the final day of the official examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Hurdle Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "The Hurdle Quizzes are online quizzes that will be made available on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Test 2",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "Class Test 2 will be held in the second half of the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "SGTA Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "Students must attend and participate in at least 80% of the SGTA classes to pass this unit. This is a hurdle requirement. They must attend the class that they are registered into.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "STAT1250",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: STAT1250"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: FOSE1015"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Statistical Concepts for Science",
+                "academic_item_code": "FOSE1015",
+                "academic_item_url": "/2020/units/FOSE1015"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: FOSX1015"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Statistical Concepts for Science",
+                "academic_item_code": "FOSX1015",
+                "academic_item_url": "/2021/units/FOSX1015"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: STAT1371"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Statistical Data Analysis",
+                "academic_item_code": "STAT1371",
+                "academic_item_url": "/2020/units/STAT1371"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: WSTA1250"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Business Statistics",
+                "academic_item_code": "WSTA1250",
+                "academic_item_url": "/2020/units/WSTA1250"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: STAT1170"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Introductory Statistics",
+                "academic_item_code": "STAT1170",
+                "academic_item_url": "/2020/units/STAT1170"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "STAT1250-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT1250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "STAT1250-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT1250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "STAT1250-unit_teaching_period-Special",
+        "display_name": "Session 3-Special",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT1250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "STAT1250-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT1250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "STAT1250-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT1250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "STAT1250-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT1250"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />Session 3, Weekday attendance, North Ryde<br />Session 3, Special circumstances<br />",
+    "subject_search_title": "STAT1250 - Business Statistics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Mathematics and Statistics "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Data is the foundation of sound business decisions. In this unit you will learn the fundamentals of analysing, solving and communicating business problems using quantitative information. The unit will cover the statistical concepts that provide a foundation for the study of and professional practice in business and economics. The focus will be on tools and approaches that are used every day in business. Problems and examples will be drawn from current real-world experience.",
+    "search_title": "STAT1250 - Business Statistics",
+    "code": "STAT1250",
+    "title": "Business Statistics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Data is the foundation of sound business decisions. In this unit you will learn the fundamentals of analysing, solving and communicating business problems using quantitative information. The unit will cover the statistical concepts that provide a foundation for the study of and professional practice in business and economics. The focus will be on tools and approaches that are used every day in business. Problems and examples will be drawn from current real-world experience.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-28T09:56:23.091",
+  "code": "STAT1250",
+  "title": "Business Statistics",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,194 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate familiarity with and the ability to critically evaluate the scholarship on terrorism.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply independent research skills, critical analysis, and persuasive scholarly writing skills in the analysis of terrorism",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate strong empirical knowledge of the key developments and issues in terrorism.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to complete assigned readings prior to their tutorial each week. The estimated time for class preparation is three hours per week for Week 2 through Week 13. No class preparation is required in Week 1.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PICT843, PICX843",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MCrim or MPICT or MCPICT or GradDipPICT or GradDipCPICT or PGCertPICT or GradCertPICT or GradCertCPICT or MPICTMIntSecSt or MCPICTMIntSecSt or MIntSecStud or GradDipIntSecStud or MSecStrategicStud or MIntell or MCTerrorism or MCyberSec or GradDipSecStudCr or GradCertSecStudCr or MSecStrategicStudMCrim or MSecStrategicStudMIntell or MSecStrategicStudMCyberSec or MSecStrategicStudMCTerrorism or MIntellMCrim or MIntellMCyberSec or MIntellMCTerrorism or MCyberSecMCTerrorism or MCyberSecMCrim or MCTerrorismMCrim or Master of Cyber Security Analysis or (10cps at 6000 level or 10cps 8000 level)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Minor Essay ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "20",
+        "description": "The purpose of this assignment is to help students develop the necessary skills in critically reviewing academic work that they read. The minor essay is a review of an academic article from the designated list of articles.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Tests",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "The tests will test student understanding of the lectures and assigned reading material.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Major Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "60",
+        "description": "The major essay is a substantive piece of work that answers any of the tutorial questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Engagement",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "5",
+        "description": "OUA students are required to engage actively in the weekly online discussion forums. Engagement marks are awarded for participating in the online discussions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PICX8043-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICX8043"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "PICX8043 - International Terrorism",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to key issues and challenges of the new global terrorism which emerged after the end of the Cold War. The unit begins by exploring the seminal events of 9-11, the nature and challenge of the new global terrorism and the responses of the United States and other key states to it. The unit then examines the definition, causes and tactics of terrorist groups, as well as various terrorism typologies, which illustrate the diversity and complexity of terrorist groups and motivations. The unit also assesses counter-terrorism strategies as well as international counter-terrorism and policing cooperation. This unit utilizes perspectives and knowledge drawn from history, terrorism studies, foreign policy, counter-terrorism and counter-insurgency to examine, in a holistic manner, the phenomenon of contemporary terrorism and how to counter it. ",
+    "search_title": "PICX8043 - International Terrorism",
+    "code": "PICX8043",
+    "title": "International Terrorism",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to key issues and challenges of the new global terrorism which emerged after the end of the Cold War. The unit begins by exploring the seminal events of 9-11, the nature and challenge of the new global terrorism and the responses of the United States and other key states to it. The unit then examines the definition, causes and tactics of terrorist groups, as well as various terrorism typologies, which illustrate the diversity and complexity of terrorist groups and motivations. The unit also assesses counter-terrorism strategies as well as international counter-terrorism and policing cooperation. This unit utilizes perspectives and knowledge drawn from history, terrorism studies, foreign policy, counter-terrorism and counter-insurgency to examine, in a holistic manner, the phenomenon of contemporary terrorism and how to counter it. ",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-15T14:59:22.346",
+  "code": "PICX8043",
+  "title": "International Terrorism",
+  "implementationYear": "2021"
+}

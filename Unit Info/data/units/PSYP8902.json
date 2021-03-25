@@ -1,0 +1,174 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Review the varied aspects of psychological test validity and assessment procedures, in line with current research and theory.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Recognise the cultural and diverse ethical issues and obstacles that arise when conducting psychological assessments and reporting results.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Integrate and synthesise the learning and knowledge of administration, scoring and interpretation of the major psychological tests commonly used in psychological practice.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain the procedures involved in writing sound psychological assessment reports.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Practicing live skills assessment",
+        "activity": {
+          "label": "Rehearsals",
+          "value": "rehearsals"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MProfPsych",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PSYP902",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "WAIS Live Skills Assessment",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "40",
+        "description": "Live skills demonstration of WAIS administration and response recording. You will be assessed on your ability to administer, score and interpret the results of a WAIS subtest.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Interpretive Report Case Study  - 3000 words",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "60",
+        "description": "This assessment enables students to demonstrate minimum competency in psychology skills integral to writing interpretative reports.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYP8902"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Intensive attendance, North Ryde<br />",
+    "subject_search_title": "PSYP8902 - Psychological Assessment and Reports",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines the theory and practice of test used in professional psychology. The unit teaches key aspects of the administration, scoring and interpretation of a broad range of tests likely to be utilised in professional psychology practice, including: child and adult intelligence tests;  personality tests; and tests of emotional well-being, general psychological distress, and psycho-social functioning. Students are instructed in the writing of reports in which the results of test data have to be communicated. Issues involved in the testing of special populations, such as individuals with brain injury are considered and practical experience in administration, scoring and interpretation is provided through live skills assessment. Issues of cross-cultural assessment and culture fair testing are also considered, along with practical considerations relating to the use of tests in different practice settings, including private practice.",
+    "search_title": "PSYP8902 - Psychological Assessment and Reports",
+    "code": "PSYP8902",
+    "title": "Psychological Assessment and Reports",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines the theory and practice of test used in professional psychology. The unit teaches key aspects of the administration, scoring and interpretation of a broad range of tests likely to be utilised in professional psychology practice, including: child and adult intelligence tests;  personality tests; and tests of emotional well-being, general psychological distress, and psycho-social functioning. Students are instructed in the writing of reports in which the results of test data have to be communicated. Issues involved in the testing of special populations, such as individuals with brain injury are considered and practical experience in administration, scoring and interpretation is provided through live skills assessment. Issues of cross-cultural assessment and culture fair testing are also considered, along with practical considerations relating to the use of tests in different practice settings, including private practice.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:34:31.315",
+  "code": "PSYP8902",
+  "title": "Psychological Assessment and Reports",
+  "implementationYear": "2021"
+}

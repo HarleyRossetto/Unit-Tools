@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate knowledge of material covered in lectures, readings and tutorials.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Reflect on course material and how it impacts on their understanding of reading acquisition and classroom teaching.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Examine different theoretical perpectes and current research on how children learn to read.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically review and apply current practices in teaching reading comprehension.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explore ways of assessing, developing and implementing intervention programs for at-risk readers.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Develop classroom strategies that enhance literacy learning for all students especially those at-risk of failure; including the use of visual displays and cooperative learning.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply critical and creative thinking to organising and disseminating information.",
+        "code": "ULO7"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Read prescribed reading after lecture and tutorial. ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Read prescribed reading and learning materials to prepare for tutorial. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "EDUC341, EDUC371",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above including (EDUC2600 or EDUC260)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Major Task",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "40",
+        "description": "There are two parts and you must respond to both parts.\n\nPart A: Build a reading programme profile (20%)\n\nThe essay should be about 800 words ( i.e. between 720 and 880 words) long. You will construct the reading programme profile of a school based on publicly available information.\n\nPart B: Design a Reading-focused Programme (20%)\n\nIn this section, you will present a Reading-focused Programme with reference to the NSW English K – 10 Syllabus and your responses in Part A. If your programme does not align with your responses in Part A, you will receive 0% for this part.\n\n",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Examination",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The in-class quiz will be held during the Week 6 tutorial. The quiz will focus on your understanding of the content from Week 1 to Week 5 This paper-based quiz will include multiple-choice questions and short-answer questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDUC3710-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC3710"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDUC3710-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC3710"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDUC3710-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC3710"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "EDUC3710 - Reading Acquisition in the Primary Classroom",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit offers a systematic, research-based guide to teaching literacy in the first three years of school. Its aim is to ensure that teachers can work with at-risk or reluctant readers in the classroom as effectively as with children for whom reading seems to come naturally. Taking an analytic approach to reading, the unit helps teachers to move children through the key stages of early reading acquisition. It takes a balanced view of reading instruction, stressing the importance of phonological processes at the beginning of literacy instruction as well as semantic and syntactic ones.",
+    "search_title": "EDUC3710 - Reading Acquisition in the Primary Classroom",
+    "code": "EDUC3710",
+    "title": "Reading Acquisition in the Primary Classroom",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit offers a systematic, research-based guide to teaching literacy in the first three years of school. Its aim is to ensure that teachers can work with at-risk or reluctant readers in the classroom as effectively as with children for whom reading seems to come naturally. Taking an analytic approach to reading, the unit helps teachers to move children through the key stages of early reading acquisition. It takes a balanced view of reading instruction, stressing the importance of phonological processes at the beginning of literacy instruction as well as semantic and syntactic ones.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-28T10:11:23.154",
+  "code": "EDUC3710",
+  "title": "Reading Acquisition in the Primary Classroom",
+  "implementationYear": "2021"
+}

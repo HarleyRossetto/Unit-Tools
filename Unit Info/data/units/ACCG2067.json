@@ -1,0 +1,203 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify indicators of fraudulent activity and develop awareness of investigative procedures, including an appreciation of the role of evidence in the litigation process.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop awareness of issues and key principles of professional digital forensic practice, including chain of custody and best practice procedures.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Understand the theory, and principles of application, of data analytics skills and techniques to forensic accounting.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Recognise mechanisms to uncover or recover evidence from digital devices to support litigation and investigations.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Understand the role of forensic accounting and its relationship to the legal system, including the legal, ethical and professional obligations of forensic accountants.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to read textbook chapters and other assigned readings prior to lectures.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students are expected to revise lecture material and complete other activities as required prior to each tutorial class.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "50cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assessed Coursework",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "Students are required to complete regular assessed coursework activities consisting of seven homework submissions. Details on homework questions coverage will be provided in the Unit Weekly Guide available on iLearn. Homework submissions activities are designed to encourage students to actively engage with the Unit material and to provide students with timely feedback on their performance throughout the session. Homework submissions will be marked on the basis of original effort. The marking criteria to be applied to homework submissions is provided in the Unit Assessment Guide available on iLearn. Each homework submission is equally weighted and the best 5 of 7 homework submissions will count towards your homework submission marks. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Assignment",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "45",
+        "description": "Students are required to complete a group report assignment consisting of individual and group components. Details regarding the nature of the assignment and its requirements will be made available on iLearn early in the session. The properties on which the assessment task is will be assessed are as follows:\n\nApplication of knowledge and skills \nQuality of reasoning and appropriate application of data analytic techniques \nQuality of communication and presentation of assignment\n\nThe Unit Assessment Guide provides standards and a grading rubric for this assessment task.\n",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Class Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "The purpose of the diagnostic test is to provide students with feedback on their knowledge and application of the material using a formative assessment task early in the session. The test will be marked based on the appropriate application of knowledge and skills to short answer and case based questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACCG2067-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG2067"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG2067-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG2067"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG2067 - Foundations of Forensic and Data Analytics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to the practice and procedures of forensic accounting and the important role played by the forensic accountant in the legal and business environment. Students will be exposed to the theory and principles of application, of data analytics skills and techniques in relation to fraud detection, fraud and risk exposures, dispute resolution, cyber and financial crimes and legal obligations and processes. The unit aims to develop in students an appreciation of how the application of forensic and data analytics skills and strategies are essential to the role of the forensic accountant as an expert witness and professional advisor.",
+    "search_title": "ACCG2067 - Foundations of Forensic and Data Analytics",
+    "code": "ACCG2067",
+    "title": "Foundations of Forensic and Data Analytics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to the practice and procedures of forensic accounting and the important role played by the forensic accountant in the legal and business environment. Students will be exposed to the theory and principles of application, of data analytics skills and techniques in relation to fraud detection, fraud and risk exposures, dispute resolution, cyber and financial crimes and legal obligations and processes. The unit aims to develop in students an appreciation of how the application of forensic and data analytics skills and strategies are essential to the role of the forensic accountant as an expert witness and professional advisor.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-03-22T09:48:45.226",
+  "code": "ACCG2067",
+  "title": "Foundations of Forensic and Data Analytics",
+  "implementationYear": "2021"
+}

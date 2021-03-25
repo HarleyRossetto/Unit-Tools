@@ -1,0 +1,210 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse the relevant economic aspects of environmental problems and policy responses, including key stakeholders and important incentive effects and their determinants.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify and describe concepts associated with the economic analysis of environmental issues.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically evaluate different theoretical approaches in the assessment and comparison of policy alternatives with respect to environmental issues.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading the assigned literature",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECON359",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above including ((ECON110 or ECON111 or ECON1020) and 20cp at 2000 level or above)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": " Personal case study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "Students choose a real-world environmental case study to work on over the session. The case study is written up in the form of a wiki, and scaffolded feedback is provided at two points during the session with final grading based on the content at the end of week 13.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Individual blog",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "30",
+        "description": "Weekly sessions will involve small-group discussion and responses to the provided online material. The group outputs will be synthesised and discussed by the group as a whole. Individuals will keep a record of their own reflections on the sessions in a personal blog on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class discussion",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Twice during the session a discussion forum will be opened and starting topics provided. Students will be expected to contribute to the discussions and interact with peers in sharing perspectives and information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Short content quizzes will be held during each lectorial session covering the content presumed to have been read/watched prior to participating in the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON3059"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON3059"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ECON3059 - Environmental Economics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Economics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The application of economic principles to the management of environmental assets throws up fundamental practical and conceptual challenges. An understanding of the nature and causes of environmental problems, and ways to achieve efficient and sustainable use of environmental resources, is vital for the future welfare of the human race. This unit examines the theoretical foundation of optimal exploitation of assets such as energy, minerals, water, forests and fisheries, and the management of water, air and soil pollution. The implications of economic theory are contrasted and combined with contributions from ecological economics where appropriate, and the role of institutional function is emphasised throughout. Case studies are drawn from Australian and international experience.",
+    "search_title": "ECON3059 - Environmental Economics",
+    "code": "ECON3059",
+    "title": "Environmental Economics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The application of economic principles to the management of environmental assets throws up fundamental practical and conceptual challenges. An understanding of the nature and causes of environmental problems, and ways to achieve efficient and sustainable use of environmental resources, is vital for the future welfare of the human race. This unit examines the theoretical foundation of optimal exploitation of assets such as energy, minerals, water, forests and fisheries, and the management of water, air and soil pollution. The implications of economic theory are contrasted and combined with contributions from ecological economics where appropriate, and the role of institutional function is emphasised throughout. Case studies are drawn from Australian and international experience.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:11:36.02",
+  "code": "ECON3059",
+  "title": "Environmental Economics",
+  "implementationYear": "2021"
+}

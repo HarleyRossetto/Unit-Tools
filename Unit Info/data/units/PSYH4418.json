@@ -1,0 +1,190 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Understand the application and interpretation of several advanced statistical methods applicable to research in psychology.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Know how abstract concepts are operationalised in statistical terms in psychological research.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Gain an enhanced practical understanding of statistical software use in psychological research, with a focus on understanding the syntax required to carry out analyses and interpreting output.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Calculate sample size requirements: a) Prospectively, by estimating sample size needed for simple research designs b) Retrospectively, by calculating statistical power available at the end of a study for simple research designs.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Exercise preparation prior to tutorial",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSYH490 or PSHY4490 or PSYH495 or PSYH4495 or PSYH4491 or PSYH4492",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "PSY418",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Examination ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "Final examination held in scheduled class time, in accordance with relevant requirements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Plan (Research): Research Proposal Form",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "40",
+        "description": "The Research Proposal Form is designed to help you with the process of planning your empirical project. No word limit required.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PSYH4418-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYH4418"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PSYH4418-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYH4418"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "PSYH4418 - Design and Statistics IV",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed as preparation for honours projects and to help equip students for research careers. The unit focuses on practical issues of quantitative data analysis. Most topics are dealt with in the context of Stata. Topics include sample size and statistical power analysis, data management in Stata and more advanced methods specifically applicable to research in psychology.",
+    "search_title": "PSYH4418 - Design and Statistics IV",
+    "code": "PSYH4418",
+    "title": "Design and Statistics IV",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed as preparation for honours projects and to help equip students for research careers. The unit focuses on practical issues of quantitative data analysis. Most topics are dealt with in the context of Stata. Topics include sample size and statistical power analysis, data management in Stata and more advanced methods specifically applicable to research in psychology.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-08T10:14:42.795",
+  "code": "PSYH4418",
+  "title": "Design and Statistics IV",
+  "implementationYear": "2021"
+}

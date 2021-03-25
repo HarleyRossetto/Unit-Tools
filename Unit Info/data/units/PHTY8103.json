@@ -1,0 +1,107 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to DPT",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PHTY803",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8103"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "PHTY8103 - Interprofessional Healthcare",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Health Professions"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit includes an integrated clinical component and will provide students with foundation knowledge, skills and attributes necessary for working collaboratively in the provision of person-centred health care in a biopsychosocial framework. The respective roles, responsibilities and regulation of health professionals in the context of the changing health care environment will be examined. The importance of ethical decision making, communication, documentation and respect for cultural differences and the client&#39;s goals will be addressed. Over the semester students will have the opportunity to observe and assess clients as they navigate their health care in a range of settings.",
+    "search_title": "PHTY8103 - Interprofessional Healthcare",
+    "code": "PHTY8103",
+    "title": "Interprofessional Healthcare",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit includes an integrated clinical component and will provide students with foundation knowledge, skills and attributes necessary for working collaboratively in the provision of person-centred health care in a biopsychosocial framework. The respective roles, responsibilities and regulation of health professionals in the context of the changing health care environment will be examined. The importance of ethical decision making, communication, documentation and respect for cultural differences and the client&#39;s goals will be addressed. Over the semester students will have the opportunity to observe and assess clients as they navigate their health care in a range of settings.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:18:23.415",
+  "code": "PHTY8103",
+  "title": "Interprofessional Healthcare",
+  "implementationYear": "2021"
+}

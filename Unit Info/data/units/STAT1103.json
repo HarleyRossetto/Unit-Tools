@@ -1,0 +1,412 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Summarise data, both numerically and graphically, including using statistical software.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Effectively communicate research findings, both formally and informally.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Conduct statistical tests appropriately, including using statistical software, and draw appropriate conclusions.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe common research designs in psychological science and draw appropriate conclusions consistent with the research design.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically evaluate research, research designs, and statistical testing in psychological science.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Describe statistical techniques in psychological science, including both signicance testing and effect sizes, and apply these tests appropriately to research designs.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [],
+    "assessments": [
+      {
+        "assessment_title": "Tutorial Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "Students are expected to demonstrate their ability to engage with the unit by participating in tutorial classes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "Students are expected to demonstrate their ability to engage with the unit by participating in practical classes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Report part 2",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "25",
+        "description": "Students will submit the remainder of the psychology research report in APA format that they began in Part 1.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Formal examination testing the learning outcomes of the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Report part 1",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "15",
+        "description": "Students will submit the first part of a psychology research report in APA format.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Multiple online quizzes spread across the session containing short answer and/or multiple choice questions testing both conceptual understanding and practical application of skills.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "STAT1103",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.05",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: STAT1103"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [
+              {
+                "parent_record": {
+                  "value": "Relationship Groups: Container 1"
+                },
+                "title": "Container 1.8",
+                "parent_connector": {
+                  "label": "AND",
+                  "value": "AND"
+                },
+                "containers": [
+                  {
+                    "parent_record": {
+                      "value": "Relationship Groups: Container 1.8"
+                    },
+                    "title": "Container 1.8.9",
+                    "parent_connector": {
+                      "label": "OR",
+                      "value": "OR"
+                    },
+                    "containers": [],
+                    "relationships": [
+                      {
+                        "academic_item": {
+                          "value": "Unit: PSYX1104"
+                        },
+                        "academic_item_type": {
+                          "label": "Unit",
+                          "value": "subject"
+                        },
+                        "abbr_name": "",
+                        "academic_item_version_name": "2021.01R",
+                        "academic_item_credit_points": "10",
+                        "academic_item_name": "Introduction to Psychology I",
+                        "academic_item_code": "PSYX1104",
+                        "academic_item_url": "/2021/units/PSYX1104"
+                      },
+                      {
+                        "academic_item": {
+                          "value": "Unit: PSYU1104"
+                        },
+                        "academic_item_type": {
+                          "label": "Unit",
+                          "value": "subject"
+                        },
+                        "abbr_name": "",
+                        "academic_item_version_name": "2021.02",
+                        "academic_item_credit_points": "10",
+                        "academic_item_name": "Introduction to Psychology I",
+                        "academic_item_code": "PSYU1104",
+                        "academic_item_url": "/2021/units/PSYU1104"
+                      }
+                    ]
+                  },
+                  {
+                    "parent_record": {
+                      "value": "Relationship Groups: Container 1.8"
+                    },
+                    "title": "Container 1.8.10",
+                    "parent_connector": {
+                      "label": "OR",
+                      "value": "OR"
+                    },
+                    "containers": [],
+                    "relationships": [
+                      {
+                        "academic_item": {
+                          "value": "Unit: PSYU1105"
+                        },
+                        "academic_item_type": {
+                          "label": "Unit",
+                          "value": "subject"
+                        },
+                        "abbr_name": "",
+                        "academic_item_version_name": "2021.01R",
+                        "academic_item_credit_points": "10",
+                        "academic_item_name": "Introduction to Psychology II",
+                        "academic_item_code": "PSYU1105",
+                        "academic_item_url": "/2021/units/PSYU1105"
+                      },
+                      {
+                        "academic_item": {
+                          "value": "Unit: PSYX1105"
+                        },
+                        "academic_item_type": {
+                          "label": "Unit",
+                          "value": "subject"
+                        },
+                        "abbr_name": "",
+                        "academic_item_version_name": "2021.02",
+                        "academic_item_credit_points": "10",
+                        "academic_item_name": "Introduction to Psychology II",
+                        "academic_item_code": "PSYX1105",
+                        "academic_item_url": "/2021/units/PSYX1105"
+                      }
+                    ]
+                  }
+                ],
+                "relationships": []
+              }
+            ],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: STAX1103"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Introduction to Psychological Design and Statistics",
+                "academic_item_code": "STAX1103",
+                "academic_item_url": "/2021/units/STAX1103"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "STAT1103-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT1103"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "STAT1103-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT1103"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "STAT1103-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT1103"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "STAT1103-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT1103"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "STAT1103 - Introduction to Psychological Design and Statistics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Mathematics and Statistics "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students with an introduction to research design and statistical analysis. In this unit, students will learn about common research methods used in psychology and related disciplines, critically analyse these methods, and be able to conduct their own analyses. Both experimental and non-experimental research methods are covered, as well as a variety of statistical tests, including t-tests, correlation, and chi square analyses.",
+    "search_title": "STAT1103 - Introduction to Psychological Design and Statistics",
+    "code": "STAT1103",
+    "title": "Introduction to Psychological Design and Statistics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides students with an introduction to research design and statistical analysis. In this unit, students will learn about common research methods used in psychology and related disciplines, critically analyse these methods, and be able to conduct their own analyses. Both experimental and non-experimental research methods are covered, as well as a variety of statistical tests, including t-tests, correlation, and chi square analyses.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-28T09:55:54.348",
+  "code": "STAT1103",
+  "title": "Introduction to Psychological Design and Statistics",
+  "implementationYear": "2021"
+}

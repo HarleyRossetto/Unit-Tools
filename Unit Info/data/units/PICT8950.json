@@ -1,0 +1,278 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Understand the strengths and weaknesses of simulation &amp; role playing as an educational and professional tool.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Understand decision-making, bargaining situations and group dynamics in a political-strategic context.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Evaluate advanced simulation disciplinary knowledge and then apply this knowledge to complex and evolving real-world scenarios.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Effectively communicate disciplinary knowledge to professional audiences by creating high-quality briefing papers and presentations.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings week 1-7",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PICT851, PICX950, PICT950",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(Admission to MPICT or GradDipPICT or MPICTMIntSecSt or MIntSecStud or GradDipIntSecStud or MCPICT or MCPICTMISS or GradDipCPICT or GradCertCPICT) and (40cp in PICT units at 8000 level or above including (PICT8050 or PICT850) or (PICT8012 or PICT812))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Ministerial Brief",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "30",
+        "description": "Working as part of a team tasked with writing a ministerial brief/memo on a security and criminology-related scenario, write a &#39;Situation Assessment&#39;; and contribute to the executive summary and recommendations in that assessment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Main Simulation",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "30",
+        "description": "Each student team will be presented with a war gaming scenario. Each team will be required to provide policy recommendations to the control group (convenors) as the situation unfolds over a number of simulation moves or turns.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": " Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Two quizzes covering subject matter week 1-7.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": " Two small simulations.",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "20",
+        "description": "\nTwo small simulations to be conducted in the first half of the semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8950"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8950"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8950"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8950"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8950"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8950"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "PICT8950 - Strategic Simulation",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students with an opportunity to apply the knowledge they have gain throughout their program of study to a real world crisis. By participating in a dynamic simulation, students will be required to solve problems and find solutions to real world challenges. Students will be assigned to an executive team that includes students with different skill sets and knowledge. These executive teams may include strategists, intelligence analysts, criminologists, counter terrorism experts, and cyber security analysts. Depending on their specialization, students will take one of these roles. Their mission will be to formulate solutions by employing the academic, research and analytical skills they acquired throughout their program. The student will be required to make policy recommendations based on his assessment of the situation.",
+    "search_title": "PICT8950 - Strategic Simulation",
+    "code": "PICT8950",
+    "title": "Strategic Simulation",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides students with an opportunity to apply the knowledge they have gain throughout their program of study to a real world crisis. By participating in a dynamic simulation, students will be required to solve problems and find solutions to real world challenges. Students will be assigned to an executive team that includes students with different skill sets and knowledge. These executive teams may include strategists, intelligence analysts, criminologists, counter terrorism experts, and cyber security analysts. Depending on their specialization, students will take one of these roles. Their mission will be to formulate solutions by employing the academic, research and analytical skills they acquired throughout their program. The student will be required to make policy recommendations based on his assessment of the situation.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:23:59.799",
+  "code": "PICT8950",
+  "title": "Strategic Simulation",
+  "implementationYear": "2021"
+}

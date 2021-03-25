@@ -1,0 +1,259 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Synthesize and analyze information from a variety of sources concerning foundational concepts and arguments in cognitive science, phenomenology and philosophy.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Articulate clearly and coherently philosophical arguments in written and oral form to a variety of audiences.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain and critically evaluate evidence from a broad range of disciplines including cognitive science, psychology, phenomenology, analytic and continental philosophy and neuroscience.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply acquired knowledge and skills in the context of philosophical and cognitive science scholarship.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyze and critically evaluate philosophical arguments.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Sourcing appropriate research articles and other research materials.",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Weekly course reading",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparing questions and discussion points for class discussion",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PHIL363, PHI310, PHIX363, PHL363",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "An essay based on topics from the course",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Active participation in online discussion and activities. Students are expected to be well-prepared, and make a constructive contribution. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Online Quizzes",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Short media presentations",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "20",
+        "description": "Short format recorded presentations involving audio and/or visual material reflecting on questions posed by the weekly content",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PHIX3063",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PHIX3063"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PHIL3063"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Philosophy and Cognitive Science",
+                "academic_item_code": "PHIL3063",
+                "academic_item_url": "/2020/units/PHIL3063"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PHIX3063-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHIX3063"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "PHIX3063 - Consciousness and Self",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Philosophy "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores some of the major traditions in Philosophical and Scientific thinking about Consciousness and the Self. The unit introduces core questions concerning what consciousness is:  What can we know about consciousness through scientific enquiry? How can a physical system, such as the brain, be conscious? How do we situate consciousness in a social and cultural context? The unit also introduces philosophical and scientific thinking about the self and introduces questions including: Is there really such a thing as a Self? Is the self narratively constructed? What is the relationship between the self and others?",
+    "search_title": "PHIX3063 - Consciousness and Self",
+    "code": "PHIX3063",
+    "title": "Consciousness and Self",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores some of the major traditions in Philosophical and Scientific thinking about Consciousness and the Self. The unit introduces core questions concerning what consciousness is:  What can we know about consciousness through scientific enquiry? How can a physical system, such as the brain, be conscious? How do we situate consciousness in a social and cultural context? The unit also introduces philosophical and scientific thinking about the self and introduces questions including: Is there really such a thing as a Self? Is the self narratively constructed? What is the relationship between the self and others?",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-01T09:43:43.508",
+  "code": "PHIX3063",
+  "title": "Consciousness and Self",
+  "implementationYear": "2021"
+}

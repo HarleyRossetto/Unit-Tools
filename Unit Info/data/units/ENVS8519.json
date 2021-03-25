@@ -1,0 +1,202 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate information in key environmental health reports, journals, and internet resources, and contribute to the public discourse on a range of environmental health issues",
+        "code": "ULO2"
+      },
+      {
+        "description": "Prepare and present a detailed research investigation on a specific environmental health topic.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate critical, analytical and integrative thinking through class discussions, problem-solving activities and written tasks",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain the interdisciplinary nature of the skills and knowledge employed by environmental health professionals in the context of other units of study.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate a broad understanding and knowledge of the nature of environmental health issues at different geographic scales - local, regional, national and global.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading articles related to the weekly lecture series",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MEnv or MSc or GradDipEnv or GradCertEnv or MEnvPlan or MPlan or MPH or MSusDev or GradDipSusDev or GradCertSusDev or GradCertDevStudGlobalHlth or MWldMgt or MMarScMgt or MConsBiol or GradDipConsBiol or MDevStud or MScInnovationEnvSc",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "GSE819, ENVS819",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Task 1 - Research literature review",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "30",
+        "description": "The research literature review is the first of three related components that comprise the major assessment for ENVS8519 - which is to undertake an original investigation into a contemporary environmental health topic drawn from any of the ENVS8519 lecture topics.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Task 3 - Class presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "The oral presentation and background slide will provide a summary of your research project communicating key ideas and issues.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Task 2 - Research project report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "50",
+        "description": "The project report will present the results of your research and investigation into the topic.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENVS8519"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENVS8519"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ENVS8519 - Environmental Health",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Earth and Environmental Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores those aspects of human health determined by physical, chemical, biological and social components of the environment. The unit explores this relationship through a broad range of local, regional, national and international topics including the interrelationships between physical, biological and socio-economic environments; population and environmental health measures and methods; identifying the causes, impacts and mitigation of environmental hazards; the regulatory framework covering various aspects of local and national environmental health; and emerging issues in environmental health such as climate change and globalisation.",
+    "search_title": "ENVS8519 - Environmental Health",
+    "code": "ENVS8519",
+    "title": "Environmental Health",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores those aspects of human health determined by physical, chemical, biological and social components of the environment. The unit explores this relationship through a broad range of local, regional, national and international topics including the interrelationships between physical, biological and socio-economic environments; population and environmental health measures and methods; identifying the causes, impacts and mitigation of environmental hazards; the regulatory framework covering various aspects of local and national environmental health; and emerging issues in environmental health such as climate change and globalisation.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:36:25.222",
+  "code": "ENVS8519",
+  "title": "Environmental Health",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,302 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate skills in communication, workplace relations, policy and procedures, visioning and strategic planning within the workplace.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply principles of entrepreneurship, leadership and innovation to the workplace.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Relate to and display cross-cultural sensitivity in the workplace.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse and evaluate your practical experience and be able to critically appraise the experience gained.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Revision of FOSC8101 and FOSE8020 materials suitable for internship tasks.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Workshop preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "40cp at 8000 level including ((FOSC804 or FOSE8010) and (FOSC805 or FOSE8020))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "FOSC806",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "60",
+        "description": "The Internship report (minimum 6000 words) summarizes all the personal, technical and firm related experiences of the student, addressing the internee’s key achievements and outcomes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Self Reflection essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "15",
+        "description": "A substantive self reflection essay based on internship experience.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Reflection Journal",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "These weekly reflection exercises will be a series of short reports (minimum 500 Words) written by students to concisely report on reflections and learning of the week.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Work Diary",
+        "type": {
+          "label": "Log book",
+          "value": "log_book"
+        },
+        "weight": "5",
+        "description": "A log book of hours and dates worked during the period. Must be signed off by internship supervisor.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Full year 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Full year 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOSE8110"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOSE8110"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOSE8110"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Full year 1-Special",
+        "teaching_period": {
+          "value": "Full year 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOSE8110"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOSE8110"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Full year 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Full year 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOSE8110"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOSE8110"
+        }
+      }
+    ],
+    "unit_offering_text": "Full year 1, Weekday attendance, North Ryde<br />Full year 2, Weekday attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />Full year 1, Special circumstances<br />",
+    "subject_search_title": "FOSE8110 - Science Innovation Internship",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "40",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students the opportunity for an industry-based internship for observing real-word innovation in practice or a research internship for first-hand experience of world-leading research. The internship integrates practical experience and learning for postgraduate students within a business or organization. All students will be required to engage in at least one substantial piece of self-reflective evaluation, one major analytical project report and participate in face-to-face workshops. The placement will allow students to explore relevant issues internal to the organization such as its goals, target identification, project management, to take cutting-edge ideas in scientific disciplines from conception through development to realisation. Students will be considered for enrolment into this unit after the successful completion of the other core units.",
+    "search_title": "FOSE8110 - Science Innovation Internship",
+    "code": "FOSE8110",
+    "title": "Science Innovation Internship",
+    "content_type": "Unit",
+    "credit_points_header": "40 credit points"
+  },
+  "creditPoints": 40,
+  "description": "This unit provides students the opportunity for an industry-based internship for observing real-word innovation in practice or a research internship for first-hand experience of world-leading research. The internship integrates practical experience and learning for postgraduate students within a business or organization. All students will be required to engage in at least one substantial piece of self-reflective evaluation, one major analytical project report and participate in face-to-face workshops. The placement will allow students to explore relevant issues internal to the organization such as its goals, target identification, project management, to take cutting-edge ideas in scientific disciplines from conception through development to realisation. Students will be considered for enrolment into this unit after the successful completion of the other core units.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:05:22.579",
+  "code": "FOSE8110",
+  "title": "Science Innovation Internship",
+  "implementationYear": "2021"
+}

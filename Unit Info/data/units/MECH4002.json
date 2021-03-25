@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse refrigeration and air-conditioning cycles and apply critical knowledge to improve the design and optimization of HVAC systems performances. ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate comprehensive knowledge of energy sustainable design processes",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate specific skills in project management, teamwork and transformative capabilities relevant to enhance employability including the demonstration of professional dispositions such as ethical stance.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate clear analytical and critical thinking ability in the design of real-world HVAC systems by applying integrative knowledge in the field of fluid mechanics, thermodynamics and heat transfer. ",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Includes self-directed study",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "((MECH3001 or MECH301) and (MECH3002 or MECH302)) or admission to MEngMechEng",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MECH402",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignments",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "Two individual assignments will test the student’s understanding of the course material taught up to the point each assignment is distributed. The student is expected to solve problems which test both the concepts taught as well as the technical capabilities of the students in doing energy sustainable design. These assignments must be completed individually.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Final examination assessing all material delivered throughout the course",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "20",
+        "description": "Students will be divided to a group of 5. Each group will be given a topic and required to perform heating/cooling load calculation and design in group report format.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Midterm Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "A 1-hour test assessing material delivered between weeks 1 and 6. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MECH4002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MECH4002"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MECH4002 - Energy Sustainable Design",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "School of Engineering"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines energy sustainable design processes, energy efficiency, heating, ventilation and air-conditioning systems design. The unit also covers knowledge in psychrometric analysis, heating and cooling load calculations, air-conditioning equipment selection, duct design methods, concepts of refrigeration and its applications, refrigeration cycles, refrigeration compressors, condensers, evaporators, expansion devices, vapour compression system design and analysis. At the end of the unit, students are expected to demonstrate a thorough and detailed understanding of the design of highly efficient heating ventilation and airconditioning (HVAC) systems. ",
+    "search_title": "MECH4002 - Energy Sustainable Design",
+    "code": "MECH4002",
+    "title": "Energy Sustainable Design",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines energy sustainable design processes, energy efficiency, heating, ventilation and air-conditioning systems design. The unit also covers knowledge in psychrometric analysis, heating and cooling load calculations, air-conditioning equipment selection, duct design methods, concepts of refrigeration and its applications, refrigeration cycles, refrigeration compressors, condensers, evaporators, expansion devices, vapour compression system design and analysis. At the end of the unit, students are expected to demonstrate a thorough and detailed understanding of the design of highly efficient heating ventilation and airconditioning (HVAC) systems. ",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:22:59.206",
+  "code": "MECH4002",
+  "title": "Energy Sustainable Design",
+  "implementationYear": "2021"
+}

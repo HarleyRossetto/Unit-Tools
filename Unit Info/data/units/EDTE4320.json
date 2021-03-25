@@ -1,0 +1,205 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate ability to create a variety of learning resources and activities and adapt existing resources effectively to suit different learners' needs; this involves: (a) incorporating a range of media/technology effectively (b) design appropriate assessment tasks and report on student achievement.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate ability to develop effective lesson plans with thoughtful consideration of students' prior knowledge, needs and interests and ability and learning style.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate knowledge of the features of the Stage 1-6 Languages syllabuses in New South Wales schools; interpret and implement syllabus requirements.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Appreciate the role of the language teacher, communicating within the school and the school community.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Online readings, resources",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "((TEP401 or EDTE4010(S)) and (TEP431 or EDTE4310)) or (EDST3010 and EDTE4310)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "TEP432",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Advocacy resource",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "40",
+        "description": "An original, ICT-based Languages Promotion Resource",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical reflection",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Critical reflection on your professional experience in one or more schools or your online micro-teaching experience",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Demonstration of participation in Zoom seminars and online forums",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDTE4320-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE4320"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDTE4320-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE4320"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "EDTE4320 - Languages in the Secondary School II",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit includes work on assessment; meeting the needs of individual students; languages and the community; and curriculum renewal. Intending primary students focus upon the integration of languages across the key learning areas. Those intending to teach at secondary level focus upon ways of developing all language skills through study of the prescribed senior options.",
+    "search_title": "EDTE4320 - Languages in the Secondary School II",
+    "code": "EDTE4320",
+    "title": "Languages in the Secondary School II",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit includes work on assessment; meeting the needs of individual students; languages and the community; and curriculum renewal. Intending primary students focus upon the integration of languages across the key learning areas. Those intending to teach at secondary level focus upon ways of developing all language skills through study of the prescribed senior options.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T15:44:45.009",
+  "code": "EDTE4320",
+  "title": "Languages in the Secondary School II",
+  "implementationYear": "2021"
+}

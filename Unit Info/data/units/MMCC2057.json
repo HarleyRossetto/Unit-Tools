@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "analyse and apply appropriate vocal technique in and for singing, including vocal health and vocal care strategies.",
+        "code": "ULO3"
+      },
+      {
+        "description": "communicate through singing (individually and/or in a group).",
+        "code": "ULO4"
+      },
+      {
+        "description": "demonstrate academic writing and appropriate referencing.",
+        "code": "ULO6"
+      },
+      {
+        "description": "create, experience and/or evaluate the role of the singer.",
+        "code": "ULO5"
+      },
+      {
+        "description": "prepare, document and reflect on vocal development and practice.",
+        "code": "ULO2"
+      },
+      {
+        "description": "evaluate and discuss critically voice knowledge/science in relation to the voice and vocal development.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Individual research and practice ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Readings x 8 weeks",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MUS205",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Singing Exercises and Vocal Practice",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "10",
+        "description": "Students communicate by singing set exercises. Students are also required to submit a vocal practice outline clearly demonstrating the components of a vocal practice session. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Vocal Performance OR Presentation",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "40",
+        "description": "For this assessment task, students are required to research, prepare and effectively communicate using their voice. Students will either perform a song OR they will analyse a song performance in a formal presentation. The emphasis of this assessment is on the implementation of appropriate vocal technique for singing and embodied musicality. Students are required to submit a project outline that acknowledges their song, songwriter/s, all content and references. If presenting an analysis, students are required to also acknowledge the artist in the project outline. Students are required to perform or present from memory. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Vocal Learning and Reflection",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "50",
+        "description": "This assessment focuses on progressive vocal learning. In a written component, students individually reflect on their learning in relation to progressive unit content. Students also document, participate in a creative group process and perform a vocal ensemble song as part of their learning. For this assessment task, the ways that students contribute during the ensemble process is also monitored. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC2057-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC2057"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC2057-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC2057"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MMCC2057 - Vocal Studies: The Voice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to the voice as an instrument for effective, musical communication. Through studying elements of vocal anatomy and physiology, students learn technical and foundational aspects of the voice, voice function/production and appropriate technique for singing. Vocal health and vocal care strategies are also discussed. Students apply their learning to individual vocal programs, aspirations and abilities. The contemporary singing voice and its role in solo- and ensemble- specific situations within a range of music styles are explored. No prior knowledge of singing is required.",
+    "search_title": "MMCC2057 - Vocal Studies: The Voice",
+    "code": "MMCC2057",
+    "title": "Vocal Studies: The Voice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to the voice as an instrument for effective, musical communication. Through studying elements of vocal anatomy and physiology, students learn technical and foundational aspects of the voice, voice function/production and appropriate technique for singing. Vocal health and vocal care strategies are also discussed. Students apply their learning to individual vocal programs, aspirations and abilities. The contemporary singing voice and its role in solo- and ensemble- specific situations within a range of music styles are explored. No prior knowledge of singing is required.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T13:37:53.347",
+  "code": "MMCC2057",
+  "title": "Vocal Studies: The Voice",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,163 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Select and justify appropriate, evidence-based speech pathology assessment and intervention for school-aged children with language disorders.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Synthesise information generated from communication/discourse sampling with other sources of client information to inform evidence-based, client-centred speech pathology practice",
+        "code": "ULO5"
+      },
+      {
+        "description": "Employ theories and research evidence relevant for reading and writing to support speech pathology assessment and intervention",
+        "code": "ULO1"
+      },
+      {
+        "description": "Describe and analyse the relationship between spoken language and written language, with particular reference to school-aged children with language disorders",
+        "code": "ULO3"
+      },
+      {
+        "description": "Employ theories and research evidence relevant for language-in-use to support speech pathology assessment and intervention",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Before and after class learning activities including readings, small group work, development of materials shared with peers, engagement in online discussion.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "SPTH8836 and SPTH8837",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Case-based assessment: school-aged language",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "60",
+        "description": "In this assessment task, students will be provided with case information relating to school-aged children who have language disorders. They will also be provided with clinical scenarios, and asked to develop plans relating to speech pathology assessment and intervetion for these children. The assessment task will require them to integrate and synthesise case information, case data, theory, research evidence, and routine speech pathology practices in order to formulate plans.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case presentation and communication sample analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "In this assessment, students will collect audio and/or video samples of client communication. Students will document and present the motivations for sampling practices. Students will then analyse the samples collected using techniques studied in this unit and report on their findings. Students will reach comprehensive interpretations of the client’s communication disability, and use this to inform plans for speech pathology management.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPTH8853"
+        }
+      }
+    ],
+    "unit_offering_text": "2022<br />",
+    "subject_search_title": "SPTH8853 - Discourse, Literacy, and Speech Pathology Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit, students will explore advanced issues for discourse and literacy in speech pathology practice, with a particular emphasis on employing relevant theories and research findings to support speech pathology practice. Assessment and intervention for school-aged children with language disorders will be addressed in detail, as well as communication sampling and its role in designing client-centred and evidence-based speech pathology practice.",
+    "search_title": "SPTH8853 - Discourse, Literacy, and Speech Pathology Practice",
+    "code": "SPTH8853",
+    "title": "Discourse, Literacy, and Speech Pathology Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit, students will explore advanced issues for discourse and literacy in speech pathology practice, with a particular emphasis on employing relevant theories and research findings to support speech pathology practice. Assessment and intervention for school-aged children with language disorders will be addressed in detail, as well as communication sampling and its role in designing client-centred and evidence-based speech pathology practice.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-02T14:23:12.062",
+  "code": "SPTH8853",
+  "title": "Discourse, Literacy, and Speech Pathology Practice",
+  "implementationYear": "2021"
+}

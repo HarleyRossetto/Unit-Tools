@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse key business drivers and sensitivities within various private wealth management business models and explain key issues.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse the key attributes of alternative private wealth management techniques including appropriate applications and limitations.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explain relevant regulatory, market and client requirements, identifying strategies to manage a client's portfolio.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse and explain, as an individual and in groups, current issues facing the private wealth management industry, private wealth managers and their clients.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for Interactive Classes",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECFS906",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "AFCP801 or AFCP8001 or ECFS865",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Class Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "Groups will have 30 minutes to prepare and 10 minutes to present on an alternative investment strategy on the last day of class. Be prepared to answer questions on your analysis during the class presentation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Case Study ",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "An individual report of up to 2,000 words on a topical wealth management case study",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "A closed book exam of 2 hours duration with 10 minutes reading time. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 1-Special",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8094"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 1-Infrequent-City",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8094"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 1-Infrequent-Melbourne",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8094"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 1, Special circumstances<br />Term 1, Infrequent attendance, City<br />Term 1, Infrequent attendance, Melbourne<br />",
+    "subject_search_title": "AFCP8094 - Private Wealth Management",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "5",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit builds on concepts covered in core units and incorporates the provision of private wealth management advice to investors. Aspects relating to client engagement and retention from the viewpoint of a private wealth manager will be covered and this is also contrasted and applied to other forms of advice delivery such as superannuation funds, SMSF, mass customised advice and robo-advice. A particular focus is on development and delivery of advice for long term investing, e.g. saving to fund expenditure in retirement. Aspects of behavioural finance, fiduciary duties and responsibilities, and investment governance as it relates to the private wealth context will also be examined.",
+    "search_title": "AFCP8094 - Private Wealth Management",
+    "code": "AFCP8094",
+    "title": "Private Wealth Management",
+    "content_type": "Unit",
+    "credit_points_header": "5 credit points"
+  },
+  "creditPoints": 5,
+  "description": "This unit builds on concepts covered in core units and incorporates the provision of private wealth management advice to investors. Aspects relating to client engagement and retention from the viewpoint of a private wealth manager will be covered and this is also contrasted and applied to other forms of advice delivery such as superannuation funds, SMSF, mass customised advice and robo-advice. A particular focus is on development and delivery of advice for long term investing, e.g. saving to fund expenditure in retirement. Aspects of behavioural finance, fiduciary duties and responsibilities, and investment governance as it relates to the private wealth context will also be examined.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-12T09:21:44.089",
+  "code": "AFCP8094",
+  "title": "Private Wealth Management",
+  "implementationYear": "2021"
+}

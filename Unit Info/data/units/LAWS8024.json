@@ -1,0 +1,259 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain and critique the fundamental principles of intellectual property law and demonstrate a sophisticated knowledge of the specific rules in intellectual property law through the close examination of legislation and cases.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate highly developed skills in the design of new laws and the reform of existing laws through an examination of the policy debates and law reform discourse in key themes related to intellectual property law",
+        "code": "ULO3"
+      },
+      {
+        "description": "Display sophisticated skills of legal analysis through the application of intellectual property law to hypothetical fact ",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading to prepare for tutorials",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Reading to support lectures ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(Admission to JD and 80cp in LAW or LAWS units at 6000 level or above) or (admission to LLM or MIntTrdeComLaw or LLB(Hons))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LAWS523, LAWS824",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Assignment ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "The Research Assignment requires students to undertake detailed and comprehensive research on a particular issue of intellectual property law and present a sophisticated and analytical argument that address the set question. Students are expected to critically evaluate scholarly discourse, including international scholarship and law reform material, to construct well-informed arguments and recommendations.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Assignment ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "The Research Assignment requires students to undertake detailed and comprehensive research on a particular issue of intellectual property law and present a sophisticated and analytical argument that address the set question. Students are expected to critically evaluate scholarly discourse, including international scholarship and law reform material, to construct well-informed arguments and recommendations.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "LAWS8024",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: LAWS8024"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: LAWS5023"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Intellectual Property Law",
+                "academic_item_code": "LAWS5023",
+                "academic_item_url": "/2020/units/LAWS5023"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8024"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8024"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8024"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8024"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Intensive attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Special circumstances, Other<br />",
+    "subject_search_title": "LAWS8024 - Intellectual Property Law",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides an understanding of the principles and practice of intellectual property law, encompassing the law of copyright, designs, trade marks, patents and confidential information. The unit begins by considering the theoretical underpinnings of intellectual property law, and progresses to a detailed examination of the existing regulatory frameworks and an analysis of the present law reform discourse. The unit will provide students with a doctrinal understanding of the relevant legal principles, and equip students with the capacity to apply legal principles to complex factual circumstances.",
+    "search_title": "LAWS8024 - Intellectual Property Law",
+    "code": "LAWS8024",
+    "title": "Intellectual Property Law",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an understanding of the principles and practice of intellectual property law, encompassing the law of copyright, designs, trade marks, patents and confidential information. The unit begins by considering the theoretical underpinnings of intellectual property law, and progresses to a detailed examination of the existing regulatory frameworks and an analysis of the present law reform discourse. The unit will provide students with a doctrinal understanding of the relevant legal principles, and equip students with the capacity to apply legal principles to complex factual circumstances.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:29:47.95",
+  "code": "LAWS8024",
+  "title": "Intellectual Property Law",
+  "implementationYear": "2021"
+}

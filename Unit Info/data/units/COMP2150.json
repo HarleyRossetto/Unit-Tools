@@ -1,0 +1,254 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate game prototypes by playtesting, and use the results to refine the design.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Communicate design goals and reasoning through appropriate documentation.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Collaborate with fellow designers to imagine game experiences and design gameplay mechanics to achieve them.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Prototype novel level-design implementations within an existing game engine.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse and critique existing games according to the principles of game design.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply the process of iterative, player-centric game design to produce intermediate-level games.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings on topics related to lectures",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(COMP1150 or COMP111) or (MMCC1011 or MAS111)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "COMP260",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Game playtesting",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "25",
+        "description": "Playtest the tabletop game designed above to evaluate whether it meets the desire goals. Students are expected to demonstrate an understanding of the processes of gathering both qualitative and quantitative data on players&#39; behaviour and experience while playing the game, to provide information to improve its design.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Weekly participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "Participation in weekly design tasks",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Tabletop game design",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "25",
+        "description": "Design and implement a multiplayer card/board game with a resource economy and inter-player dynamics. Students are expected to demonstrate an understanding of the principles of balancing a resource economy and creating strategic play. Students will be required to submit full design documentation, justifying their design decisions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Level Design",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "25",
+        "description": "Design, implement and document a game level using a commercial game engine. Students are expected to demonstrate an understanding of the principles of challenge, reward, progress and spatial and temporal arrangement amongst other design considerations. As well as producing the level students will also be required to submit accompanying design documentation justifying their design decisions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "Weekly online quizzes covering the theory presented in lectures.UL",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Game Analysis",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "20",
+        "description": "Students will analyse a game based on the design principles taught in lectures and present their analysis to their tutorial class in a 10 min pre-recorded video presentation. Students are expected to be able to analyse a game according to the experience it conveys, and how that experience is rooted in the mechanics and dynamics of the game. Students will be assigned specific weeks in which to present. The presentation will focus on the topic of previous week&#39;s lecture",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "COMP2150-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP2150"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "COMP2150-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP2150"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "COMP2150 - Game Design",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers the theory and practice of designing games, using an iterative, player-centric approach. Students will be introduced to different aspects of game design and will develop their game design skills through hands-on creation and evaluation of their own games.",
+    "search_title": "COMP2150 - Game Design",
+    "code": "COMP2150",
+    "title": "Game Design",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit covers the theory and practice of designing games, using an iterative, player-centric approach. Students will be introduced to different aspects of game design and will develop their game design skills through hands-on creation and evaluation of their own games.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-07T09:53:49.08",
+  "code": "COMP2150",
+  "title": "Game Design",
+  "implementationYear": "2021"
+}

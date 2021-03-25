@@ -1,0 +1,251 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse collected experimental data and relate results to established physiological phenomena",
+        "code": "ULO5"
+      },
+      {
+        "description": "Relate your knowledge of physiology to applications in biotechnology and medicine",
+        "code": "ULO7"
+      },
+      {
+        "description": "Describe how organisms gain energy, grow, and develop",
+        "code": "ULO1"
+      },
+      {
+        "description": "Describe the co-ordination of physiological processes in organisms, including transport systems and responses to stimuli",
+        "code": "ULO2"
+      },
+      {
+        "description": "Compare and contrast physiological processes in microbes, plants, and animals, considering how these processes have evolved",
+        "code": "ULO3"
+      },
+      {
+        "description": "Undertake a team-based experiment chosen from a topic provided after presenting a plan, and summarise the findings on completion",
+        "code": "ULO4"
+      },
+      {
+        "description": "Address a major physiological process in the form of a scientific report based on reference to th",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Review prior to lectures",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(40cp at 1000 level or above) including (BIOL1310 or BIOL114) or (BIOL1110 or BIOL115)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BIOL229, BIOL208, BIOL210, BIOL606",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Written Assignment",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "10",
+        "description": "1000-word report explaining a physiological process, its control points, impact on overall cell function and response to the environment -  details to be advised.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-semester test",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "10",
+        "description": "Short-answer questions",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Short answer and higher order questions",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "Online quizzes &amp; problem solving covering lecture and practical material",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "BIOX2210",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: BIOX2210"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: BIOL6210"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Life Processes",
+                "academic_item_code": "BIOL6210",
+                "academic_item_url": "/2020/units/BIOL6210"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOX2210"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />",
+    "subject_search_title": "BIOX2210 - Life Processes",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will compare and contrast a range of physiological processes in microbes, plants and animals. It will highlight common features and their evolutionary origins, with particular reference to prokaryotic genes which have been conserved in multicellular organisms. Topics to be explored include metabolism (e.g. respiration, photosynthesis and transport), environmental responses (e.g. abiotic stress response, immune reactions, behaviour), morphogenesis (e.g. cell division, homeotic genes, embryogenesis and symmetry) and phenology (e.g. sexual maturation, fertilisation, life cycles). The unit will draw the common threads of evolution together in complex multicellular organisms, as well as contrasting those processes unique to each Kingdom, such as photosynthesis and locomotion.",
+    "search_title": "BIOX2210 - Life Processes",
+    "code": "BIOX2210",
+    "title": "Life Processes",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will compare and contrast a range of physiological processes in microbes, plants and animals. It will highlight common features and their evolutionary origins, with particular reference to prokaryotic genes which have been conserved in multicellular organisms. Topics to be explored include metabolism (e.g. respiration, photosynthesis and transport), environmental responses (e.g. abiotic stress response, immune reactions, behaviour), morphogenesis (e.g. cell division, homeotic genes, embryogenesis and symmetry) and phenology (e.g. sexual maturation, fertilisation, life cycles). The unit will draw the common threads of evolution together in complex multicellular organisms, as well as contrasting those processes unique to each Kingdom, such as photosynthesis and locomotion.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:44:36.218",
+  "code": "BIOX2210",
+  "title": "Life Processes",
+  "implementationYear": "2021"
+}

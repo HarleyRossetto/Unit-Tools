@@ -1,0 +1,266 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "investigate changes in technology use in the field of sound recording.",
+        "code": "ULO3"
+      },
+      {
+        "description": "implement essential production skills to accompany theoretical exploration.",
+        "code": "ULO4"
+      },
+      {
+        "description": "evaluate the history of recorded sound and technology.",
+        "code": "ULO1"
+      },
+      {
+        "description": "synthesize recording strategies to explore relationships between sound and society.",
+        "code": "ULO5"
+      },
+      {
+        "description": "analyse scholarship on recording and its relationship to society.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MECO838",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MCrInd or MMediaComm",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Production portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "25",
+        "description": "A final recorded portfolio containing completed recorded works based on production research. Submission via iLearn. Final stereo mixdowns are to be uploaded to iLearn. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Production Portfolio Progress",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "20",
+        "description": "This is a progress assessment, with the final portfolio. Students will produce a portfolio of 3 short recorded excerpts (around one minute in duration) that use aesthetic concepts from the works examined in their recording analysis (Assessment Task 1). For this assessment, students will need to submit a progress draft of one of the recorded excerpts. Alongside the recorded draft, students will submit a report, detailing how the draft responds to the analysed work and the technical process undertaken for completion. Submission via iLearn and NEXIS file server. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Exegesis",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "25",
+        "description": "Students will submit a report which describes their production research and clearly outlines how they have translated that research into practice to inform their approach to producing the recordings. This report should include critical analyses of the 3 case studies used as models, a description of the recording process undertaken (with technical details), and a reflection on the strengths and weaknesses of the final result. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reading summaries",
+        "type": {
+          "label": "Summary",
+          "value": "summary"
+        },
+        "weight": "35",
+        "description": "A series of readings are presented throughout the course, and students are to write critical summaries of a selection of these readings. These will be assessed starting in week 3 on an ongoing basis.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Personal recording environment setup",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "15",
+        "description": "Establish a simple but effective and practical home recording or portable solution based on the advice and information presented in the first three weeks. Document this process, and complete a series of guided recorded tasks.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Recording analysis",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "25",
+        "description": "Students will select 3 different recordings that display different musical and production aesthetics. Students will then analyse these recordings and write a report which describes aspects of musical and production style that create a coherent aesthetic and locate the works within genres or music scenes. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Production portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "30",
+        "description": "A final recorded portfolio containing the 3 completed recorded works based on production research. Submission via iLearn and NEXIS file server. Final stereo mixdowns are to be uploaded to iLearn. ProTools sessions are to be handed in via NEXIS. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC8038"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC8038"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MMCC8038 - The Art of Recording",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines recorded sound and its relation to society. Areas of investigation include changes in technology and cultural context, expectations of fidelity, remote and field recording issues and practice, production values, media and distribution, recording ethics and relevant legal issues.",
+    "search_title": "MMCC8038 - The Art of Recording",
+    "code": "MMCC8038",
+    "title": "The Art of Recording",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines recorded sound and its relation to society. Areas of investigation include changes in technology and cultural context, expectations of fidelity, remote and field recording issues and practice, production values, media and distribution, recording ethics and relevant legal issues.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:11:17.568",
+  "code": "MMCC8038",
+  "title": "The Art of Recording",
+  "implementationYear": "2021"
+}

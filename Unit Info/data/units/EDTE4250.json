@@ -1,0 +1,269 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate a detailed knowledge of the philosophy, structure, content and inquiry-based methodologies of the new NSW K-10 Geography syllabus",
+        "code": "ULO1"
+      },
+      {
+        "description": "Design and implement coherent lesson sequences drawing on their knowledge of the new NSW K-10 Geography syllabus",
+        "code": "ULO2"
+      },
+      {
+        "description": "Recognise the range of policies and policy documents that teachers in NSW may need to comply with in schools.",
+        "code": "ULO9"
+      },
+      {
+        "description": "Demonstrate the ability to reflect critically on and improve teaching practice.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Demonstrate the ability to develop a classroom management plan.",
+        "code": "ULO10"
+      },
+      {
+        "description": "Prepare for and contributes to discussions about geographical education.",
+        "code": "ULO8"
+      },
+      {
+        "description": "Demonstrate an ability to select, develop, use and evaluate a range of appropriate and engaging resources to support student learning",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate the capacity to identify and articulate clear and appropriate learning goals in lesson preparation, including a focus on literacy",
+        "code": "ULO3"
+      },
+      {
+        "description": "Employ a range of strategies to assess student achievement of learning outcomes and effectively link outcomes and assessment strategies.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate knowledge of students' varied approaches to learning and the need to cater for these by differentiating the curriculum.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp and (EDTE3880 or TEP388) or  (EDST3140 and  EDTE3010)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "TEP425",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Skills test",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "Students complete a geographical skills test during the class. The test is scheduled to take 40 minutes plus 5 minutes reading time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Lesson planning and delivery",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "30",
+        "description": "Students plan a skills lesson using an explicit instruction approach. Lesson is delivered to the class. Students will be assessed on their ability to apply the principles of direct instruction and to teach core geographical concepts and skills using an integrated/authentic approach.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessment for learning task",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "50",
+        "description": "Students use a backwards programming approach to design an assessment for learning task linking syllabus outcomes, activities, assessment and reporting/feedback. The task includes peer evaluation and structured rationale with reference to course readings. 1500 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDTE4250-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE4250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDTE4250-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE4250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDTE4250-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE4250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDTE4250-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE4250"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "EDTE4250 - Geography in the Secondary School I",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on the teaching of Geography in the secondary school. Syllabus documents are examined and their implications analysed. While the more &#39;traditional&#39; teaching and learning strategies are addressed, greater emphasis is placed on those strategies that are student centred and develop the students&#39; ability to use and apply Geography&#39;s inquiry-based methodology. By the end of the unit students should have developed the knowledge, understanding and pedagogical skills required to enrich the teaching of Geography, and be capable of developing and implementing units of work from the relevant syllabus documents.",
+    "search_title": "EDTE4250 - Geography in the Secondary School I",
+    "code": "EDTE4250",
+    "title": "Geography in the Secondary School I",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on the teaching of Geography in the secondary school. Syllabus documents are examined and their implications analysed. While the more &#39;traditional&#39; teaching and learning strategies are addressed, greater emphasis is placed on those strategies that are student centred and develop the students&#39; ability to use and apply Geography&#39;s inquiry-based methodology. By the end of the unit students should have developed the knowledge, understanding and pedagogical skills required to enrich the teaching of Geography, and be capable of developing and implementing units of work from the relevant syllabus documents.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T14:56:23.552",
+  "code": "EDTE4250",
+  "title": "Geography in the Secondary School I",
+  "implementationYear": "2021"
+}

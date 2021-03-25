@@ -1,0 +1,244 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply cyber hygiene principles to achieve personal security in the digital world.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Report on cyber criminality (in terms of activities, perpetrators and their motives) as well as its impact on society.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically evaluate the relation between cyber security and privacy in the context of a legal and regulatory framework.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify cybersecurity risks faced by business and relate the management of those risks to the enterprise governance.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate an understanding of technical concepts related to information security, computing, networking, and emerging technologies.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reviewing lecture material ahead of workshops ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Readings ahead of lectures",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "COMP107",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "In class assessment",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "This assessment task takes place in class (online or in class). It involves group work, debate and / or  presentations. The Assessments happen on a fortnightly basis with the week prior being the preparation week. In order to complete the presentation you must be present in the preparation week also.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final Take Home Essay.",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "A final essay is included as an assessment task for this unit to provide assurance that: i) the product belongs to the student and ii) the student has attained the knowledge and skills from the unit. The student will have a short period of 72 hours to complete the essay.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Individual report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "The assessment task is to write a report with scholarly references that will address a contemporary topic relating to Cyber Security.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "COMP1300",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: COMP1300"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: WCOM1300"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Introduction to Cyber Security",
+                "academic_item_code": "WCOM1300",
+                "academic_item_url": "/2020/units/WCOM1300"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "COMP1300-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP1300"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "COMP1300-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP1300"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "COMP1300 - Introduction to Cyber Security",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit tackles cyber security as a multidiscplinary issue. It introduces information security and important technology concepts as well as cyber hygiene principles to remain safe in the digital world. It discusses cybercriminality (perpetrators and activities on the dark web) and its impact on society and prompts to critically think about the relationship between cyber security and privacy, from a legal standpoint.  Finally, this unit provides insights into the cybersecurity risks faced by business and the role that risk management plays in addressing those risks in the context of corporate governance.",
+    "search_title": "COMP1300 - Introduction to Cyber Security",
+    "code": "COMP1300",
+    "title": "Introduction to Cyber Security",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit tackles cyber security as a multidiscplinary issue. It introduces information security and important technology concepts as well as cyber hygiene principles to remain safe in the digital world. It discusses cybercriminality (perpetrators and activities on the dark web) and its impact on society and prompts to critically think about the relationship between cyber security and privacy, from a legal standpoint.  Finally, this unit provides insights into the cybersecurity risks faced by business and the role that risk management plays in addressing those risks in the context of corporate governance.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T11:46:02.723",
+  "code": "COMP1300",
+  "title": "Introduction to Cyber Security",
+  "implementationYear": "2021"
+}

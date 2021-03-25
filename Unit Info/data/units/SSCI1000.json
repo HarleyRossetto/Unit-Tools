@@ -1,0 +1,247 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "demonstrate foundational knowledge of the relationship between theory and methodology in social scientific inquiry",
+        "code": "ULO1"
+      },
+      {
+        "description": "communicate understanding of social science theories and methods by effectively using academic and professional writing formats. ",
+        "code": "ULO4"
+      },
+      {
+        "description": "discuss the insights that social science theories and methodologies provide to understanding a major social issue",
+        "code": "ULO3"
+      },
+      {
+        "description": "evaluate the contributions that social science makes to practical knowledge of the world around us",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for unit sessions",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Reading the materials required for unit sessions",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "SSC100, SSCI100",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Annotated Bibliography",
+        "type": {
+          "label": "Annotated bibliography",
+          "value": "annotated_bibliography"
+        },
+        "weight": "30",
+        "description": "750 word written task",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Literature review",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "50",
+        "description": "1,500 word written task",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Active Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Participation in unit activities",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "SSCI1000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SSCI1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SSCI1000-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SSCI1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SSCI1000-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SSCI1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SSCI1000-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SSCI1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SSCI1000-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SSCI1000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Fully online/virtual<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "SSCI1000 - Introducing Social Science",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Major issues facing Australia and the world today - including poverty, food security, climate change, inequality, the platform economy, digital surveillance, cyber crime, automation, refugee resettlement, global health and more - invariably have a social dimension. How can we respond to these complex and important issues without understanding them? This unit searches for insights into contemporary issues by surveying the social sciences. This unit has three parts. The first part introduces social science as a field of inquiry, tracing pivotal historical developments and asking what it means to think socially. The second part explores a series of contemporary issues, highlighting the distinct contributions that the social sciences offer our understanding of recent transformations. And, by reflecting on our explorations of contemporary issues, the third part concludes the unit by drawing out the close relationship between theory, methods and analysis for social science practice today. From the three parts of this unit, you will gain an insight into social scientific inquiry and contemporary issues facing our society.",
+    "search_title": "SSCI1000 - Introducing Social Science",
+    "code": "SSCI1000",
+    "title": "Introducing Social Science",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Major issues facing Australia and the world today - including poverty, food security, climate change, inequality, the platform economy, digital surveillance, cyber crime, automation, refugee resettlement, global health and more - invariably have a social dimension. How can we respond to these complex and important issues without understanding them? This unit searches for insights into contemporary issues by surveying the social sciences. This unit has three parts. The first part introduces social science as a field of inquiry, tracing pivotal historical developments and asking what it means to think socially. The second part explores a series of contemporary issues, highlighting the distinct contributions that the social sciences offer our understanding of recent transformations. And, by reflecting on our explorations of contemporary issues, the third part concludes the unit by drawing out the close relationship between theory, methods and analysis for social science practice today. From the three parts of this unit, you will gain an insight into social scientific inquiry and contemporary issues facing our society.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T12:37:23.417",
+  "code": "SSCI1000",
+  "title": "Introducing Social Science",
+  "implementationYear": "2021"
+}

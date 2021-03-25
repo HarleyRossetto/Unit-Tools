@@ -1,0 +1,226 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Discover and formulate effective responses to risk management and ethical issues",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse governance structures for ensuring that an organisation meets its objectives.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply a risk management framework, having regard to the business context, including the identification of appropriate risk management solutions.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Core readings ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Video lectures",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Weekly recall quizzes (not assessed)",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Discussion forum exercises",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Weekly live event preparation exercises",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "GMBA834",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to GMBA or GradCertGlobalBusPrac",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Improving risk governance",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "Length: max 2,000 words (excl. references) &#43; 600-900 words (&#61; c. 5 min) video presentation <br />Format: Team report and video presentation <br />Task type: Group Task: In this assignment, you will be asked to analyse the governance and risk management maturity of an organisation and recommend improvements (report of 2,000 words max.), and influence others in an organisation for better risk governance (video of 600-900 words equates to 5 mins).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Risk analysis",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "35",
+        "description": "Length: 600-900 words - 5 min. presentation Format: Powerpoint and script. Task: In this presentation, you will communicate risk effectively after analysing and visualising risk and evaluating the financial risk on the firm’s liquidity and survival.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Discussion Forum Contribution: Debate and Dialogue",
+        "type": {
+          "label": "Debate",
+          "value": "debate"
+        },
+        "weight": "15",
+        "description": "Risk governance professional engagement. 1,500 words total. In this professional engagement task, you will debate, discuss, and deconstruct the concepts, ideas, and cases explored in the course on a weekly basis in the identified discussion forums (150-250 words/week).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "GMBA8034-unit_teaching_period-Online",
+        "display_name": "Coursera term 1-Online",
+        "teaching_period": {
+          "value": "Coursera term 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GMBA8034"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GMBA8034-unit_teaching_period-Online",
+        "display_name": "Coursera term 4-Online",
+        "teaching_period": {
+          "value": "Coursera term 4"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GMBA8034"
+        }
+      }
+    ],
+    "unit_offering_text": "Coursera term 4, Fully online/virtual<br />Coursera term 1, Fully online/virtual<br />",
+    "subject_search_title": "GMBA8034 - Engage the Board",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "5",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines economic analysis concepts and tools that enable students to set an organisation&#39;s decision-making within its wider economic context. Topics include supply, demand, and market equilibrium; scarcity; exchange and trade; choice theory; theory of the firm; game theory and strategy; market structure; information; role of government and government policies; aggregate economy; and international trade. We look at economic variables and how rises and falls in these variables affect people and businesses.",
+    "search_title": "GMBA8034 - Engage the Board",
+    "code": "GMBA8034",
+    "title": "Engage the Board",
+    "content_type": "Unit",
+    "credit_points_header": "5 credit points"
+  },
+  "creditPoints": 5,
+  "description": "This unit examines economic analysis concepts and tools that enable students to set an organisation&#39;s decision-making within its wider economic context. Topics include supply, demand, and market equilibrium; scarcity; exchange and trade; choice theory; theory of the firm; game theory and strategy; market structure; information; role of government and government policies; aggregate economy; and international trade. We look at economic variables and how rises and falls in these variables affect people and businesses.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T14:46:23.401",
+  "code": "GMBA8034",
+  "title": "Engage the Board",
+  "implementationYear": "2021"
+}

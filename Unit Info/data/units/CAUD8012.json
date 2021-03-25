@@ -1,0 +1,173 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse and apply theories and methods relevant for research in clinical audiology.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Develop and present a research proposal.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Collate and synthesise information presented in the research literature for academic and professional audiences.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop and justify research questions and methodologies relevant for research in clinical audiology.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "CAUD812",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(CAUD805 or CAUD8005) and (CAUD806 or CAUD8006) and (CAUD807 or CAUD8007)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Poster Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "description": "Oral poster presentation.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Proposal",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "3000 word research proposal",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical Literature Review",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "25",
+        "description": "1000 Word qualitative and quantitative literature review. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CAUD8012"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "CAUD8012 - Research Design Skills",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit aims to introduce students to clinical research. It will cover reviewing and critiquing research, developing a research question, identifying appropriate designs to address research aims and questions, data collection and analysis, and preparing a research proposal.",
+    "search_title": "CAUD8012 - Research Design Skills",
+    "code": "CAUD8012",
+    "title": "Research Design Skills",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit aims to introduce students to clinical research. It will cover reviewing and critiquing research, developing a research question, identifying appropriate designs to address research aims and questions, data collection and analysis, and preparing a research proposal.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:40:00.612",
+  "code": "CAUD8012",
+  "title": "Research Design Skills",
+  "implementationYear": "2021"
+}

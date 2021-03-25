@@ -1,0 +1,239 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically evaluate the contribution made to the research literature by applications of econometrics",
+        "code": "ULO4"
+      },
+      {
+        "description": "Effectively communicate the findings from econometric analysis.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Generate and interpret the results of econometric analysis using the software employed in the unit.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Estimate econometric models and test hypotheses using techniques that are appropriate for the problem at hand.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "The unit is taught by class sessions that combine lectures, tutorial work and class discussion. There is no single set text.Students are required to prepare for each class using online resources for material provided in the lecture.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECON735 or ECON7035",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECON715, ECON915",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment 3",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Assignment 3 assesses work covered in lectures up to the submission deadline. Students will be given an applied econometric problem to work on and will be required to submit a written report on their investigation of the problem that includes an evaluation of the contribution that the techniques used make to the research literature. Students will also be required to submit relevant computer files.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "35",
+        "description": "Assignment 2 assesses work covered in lectures up to the submission deadline. Students will be given an applied econometric problem to work on and will be required to submit a written report on their investigation of the problem. Students will also be required to submit relevant computer files.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "25",
+        "description": "Assignment 1 assesses work covered in lectures up to the submission deadline. Students will be given an applied econometric problem to work on and will be required to submit a written report on their investigation of the problem. Students will also be required to submit relevant computer files.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ECON7015",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ECON7015"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ECON8015"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Topics in Applied Econometrics",
+                "academic_item_code": "ECON8015",
+                "academic_item_url": "/2020/units/ECON8015"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON7015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON7015"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ECON7015 - Topics in Applied Econometrics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Economics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers the application of econometric methods to applied problems in economics. The topics covered will vary from year to year, and will extend students&#39; knowledge of econometric techniques beyond that gained in ECON7035. The emphasis of the unit is on the application of econometric techniques as part of an evidence-based approach to knowledge discovery and policy formulation, and theoretical knowledge of econometrics will be developed only to the extent necessary to achieve this. Students who successfully complete this unit will be able to interpret and critically evaluate econometric results that appear in the applied economic research literature and industry reports. They will also be able to design and execute econometric studies that contribute to the analysis of applied problems in economics.",
+    "search_title": "ECON7015 - Topics in Applied Econometrics",
+    "code": "ECON7015",
+    "title": "Topics in Applied Econometrics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit covers the application of econometric methods to applied problems in economics. The topics covered will vary from year to year, and will extend students&#39; knowledge of econometric techniques beyond that gained in ECON7035. The emphasis of the unit is on the application of econometric techniques as part of an evidence-based approach to knowledge discovery and policy formulation, and theoretical knowledge of econometrics will be developed only to the extent necessary to achieve this. Students who successfully complete this unit will be able to interpret and critically evaluate econometric results that appear in the applied economic research literature and industry reports. They will also be able to design and execute econometric studies that contribute to the analysis of applied problems in economics.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:37:49.987",
+  "code": "ECON7015",
+  "title": "Topics in Applied Econometrics",
+  "implementationYear": "2021"
+}

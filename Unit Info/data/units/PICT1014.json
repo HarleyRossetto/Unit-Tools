@@ -1,0 +1,231 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse and evaluate competing historical interpretations of important aspects of international security in the twentieth century.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify and restate the argument of a piece of writing, develop a convincing argument in their own writing, and effectively support that argument using appropriate sources.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate knowledge of how and why key ideas and institutions of international security changed across the twentieth century.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate knowledge of the origins, course, and consequences of major twentieth century wars and conflicts.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to complete reading and/or watching the assigned readings and films prior to their tutorial/online discussion each week. The estimated time for class preparation is three hours per week for Week 1 through Week 12. No class preparation is required in Week 13.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [],
+    "assessments": [
+      {
+        "assessment_title": "Essay 2",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "You will be provided with an essay question, and a set of readings relevant to that question. Your essay should be based on deep engagement with these readings, and any other unit materials you deem relevant. You are not expected to find any additional sources. This is not a research essay, but rather an essay designed to develop and test your analytical and writing skills. You will be assessed on your ability to articulate and develop a clear, coherent, and persuasive argument; your understanding of the provided readings; and the structure and style of your writing. Your essay should be 1,500 words in length (give or take 150 words), and should be submitted via the relevant Turnitin dropbox on the unit’s iLearn space.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "A Final Test will be conducted online via the unit’s iLearn space at the conclusion of the unit. It will test your knowledge and understanding of the unit materials from Week 5 through Week 12 of the unit. The test will consist of a mixture of multiple choice, true/false, and matching questions (e.g., match a thesis statement to its likely author). The test is open book, i.e., you may refer to the unit materials and your notes as you take the test. But you may not consult with any person (except the teaching staff, if necessary) about the test.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay 1",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "You will be provided with an essay question, and a set of readings relevant to that question. Your essay should be based on deep engagement with these readings, and any other unit materials you deem relevant. You are not expected to find any additional sources. This is not a research essay, but rather an essay designed to develop and test your analytical and writing skills. You will be assessed on your ability to articulate and develop a clear, coherent, and persuasive argument; your understanding of the provided readings; and the structure and style of your writing. Your essay should be 1,500 words in length (give or take 150 words), and should be submitted via the relevant Turnitin dropbox on the unit’s iLearn space.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Preliminary Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "A Preliminary Test will be conducted online via the unit’s iLearn space prior to the session’s census date. It will test your knowledge and understanding of the unit materials from Week 1 through Week 4 of the unit. The test will consist of a mixture of multiple choice, true/false, and matching questions (e.g., match a thesis statement to its likely author). The test is open book, i.e., you may refer to the unit materials and your notes as you take the test. But you may not consult with any person (except the teaching staff, if necessary) about the test.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Active Engagement",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students will be assessed on the quality and consistency of their contributions to activities conducted during their weekly tutorial or online discussion. These activities will be determined by the tutor, but may include group discussions, debates, role plays, and reflective exercises.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT1014"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT1014"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT1014"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PICT1014 - International Security in the 20th Century",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides an introduction to key events, processes, and concepts in the international history of war, peace, and security in the twentieth century. Students will investigate the causes, conduct, and consequences of particular international conflicts, such as the world wars and the Cold War. They will also examine the evolution of ideas and institutions that provided—and in many cases still provide—the political architecture for international and national security. In covering this material, the unit will encourage students to develop their analytical thinking and writing skills.",
+    "search_title": "PICT1014 - International Security in the 20th Century",
+    "code": "PICT1014",
+    "title": "International Security in the 20th Century",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an introduction to key events, processes, and concepts in the international history of war, peace, and security in the twentieth century. Students will investigate the causes, conduct, and consequences of particular international conflicts, such as the world wars and the Cold War. They will also examine the evolution of ideas and institutions that provided—and in many cases still provide—the political architecture for international and national security. In covering this material, the unit will encourage students to develop their analytical thinking and writing skills.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:56:48.186",
+  "code": "PICT1014",
+  "title": "International Security in the 20th Century",
+  "implementationYear": "2021"
+}

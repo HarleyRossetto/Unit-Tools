@@ -1,0 +1,190 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "create and communicate effectively through an original song.",
+        "code": "ULO4"
+      },
+      {
+        "description": "analyse forms of musical authorship and the song in publishing, performance and recording contexts.",
+        "code": "ULO3"
+      },
+      {
+        "description": "identify the context of song in popular and/or world musics.",
+        "code": "ULO1"
+      },
+      {
+        "description": "identify and evaluate musical and lyrical components of the song.",
+        "code": "ULO5"
+      },
+      {
+        "description": "analyse critically the components of song structure in a variety of contexts.",
+        "code": "ULO2"
+      },
+      {
+        "description": "demonstrate the use of various technologies as appropriate.",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for class/readings etc",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MMCS200",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Song Analyses",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "Students are required to comprehensively analyse two contrasting songs. The songs may be from popular music traditions and styles or from world musics. For this assessment, a song is considered to include lyrics, melody and musical accompaniment. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Original Song",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "60",
+        "description": "Each student is required to write, reflect on and document original songs written during the course of this unit. While students are expected to work on several songs during the session and document these in their process reflection, one original song is submitted for this assessment.Students are to include a written rationale for the song selected for submission. This task requires students to consider the development and documentation of song/s in relation to their musical goals. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC2000-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC2000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC2000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC2000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MMCC2000 - Musical Authorship and Songwriting",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The phenomenon of &#39;the song&#39; in contemporary music is undisputed. This unit will explore &#39;the song&#39; in various cultural and historical contexts, and consider the ways in which musical authorship can be achieved through a variety of traditional and technology driven approaches. Students will deconstruct some of the most popular and critically regarded contemporary songs and compositions in order to better understand and facilitate their own creative techniques. Song and compositional structures will be a unit focus and topics will include lyrical, melodic, rhythmic, chordal, harmonic and musical components. In doing so, it will contribute to, and provide links between, existing Music units in music production, voice, guitar, music business, and popular music. Recording as a compositional tool, loop stations and aspects of music production may enable students to work with various music technologies as relevant to their creative practice. In the context of music business, the authorship and ownership of original material through publishing, performance and recording will be discussed.",
+    "search_title": "MMCC2000 - Musical Authorship and Songwriting",
+    "code": "MMCC2000",
+    "title": "Musical Authorship and Songwriting",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The phenomenon of &#39;the song&#39; in contemporary music is undisputed. This unit will explore &#39;the song&#39; in various cultural and historical contexts, and consider the ways in which musical authorship can be achieved through a variety of traditional and technology driven approaches. Students will deconstruct some of the most popular and critically regarded contemporary songs and compositions in order to better understand and facilitate their own creative techniques. Song and compositional structures will be a unit focus and topics will include lyrical, melodic, rhythmic, chordal, harmonic and musical components. In doing so, it will contribute to, and provide links between, existing Music units in music production, voice, guitar, music business, and popular music. Recording as a compositional tool, loop stations and aspects of music production may enable students to work with various music technologies as relevant to their creative practice. In the context of music business, the authorship and ownership of original material through publishing, performance and recording will be discussed.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T13:58:33.463",
+  "code": "MMCC2000",
+  "title": "Musical Authorship and Songwriting",
+  "implementationYear": "2021"
+}

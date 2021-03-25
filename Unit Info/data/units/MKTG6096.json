@@ -1,0 +1,347 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply marketing concepts to analyse marketing activities of a product/service",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse and apply marketing concepts in dealing with practical marketing issues.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain the concepts and principles which underpin the discipline of marketing.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MCom or MBioBus or MIntBus or MMgmt",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MKTG696, MGNT609",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Participatory Task",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "In-class tasks completed during weekly workshops are to reinforce your learning and give you the opportunity to share your theoretical and practical knowledge of marketing concepts, principles and issues. There will be four random collections across the session. Each task is worth 5%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Marketing Plan",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "In groups, students will develop a marketing plan focusing on at least one fundamental marketing concept to identify a key market issue for their client. This assignment has various components: Group Presentation (10 minutes recorded, submitted online) due week 7; Individual Written Marketing Plan (2000 words) due week 12; Group Poster (size A1) due week 13.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Marketing Plan",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Students will analyse marketing activities of a product/service and produce a 2000 words (plus or minus 10%) individual report on their analysis.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participatory task",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "In the workshop, you will work in a group but submit your answers as individuals. These in-class tasks to be completed during weekly workshops are to reinforce your learning and give you the opportunity to share your theoretical and practical knowledge of marketing concepts, principles and issues. There will be minimum six random collections of these tasks, of which the five best ones will be chosen. Each task is worth 4%. No special consideration will be given for absenteeism.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "10 online quizzes of 10 questions each with a set time limit to be completed before classes, 1 mark each week.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical analysis",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "20",
+        "description": "Critical analysis of marketing concepts. This 2,000 word essay is designed to evaluate your ability to explain, compare or analyse marketing theories and concepts.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical Analysis of Marketing Concepts and Their Applications",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "The 1,500 word (plus or minus 10%) report is designed to evaluate your ability to explain, compare or analyse marketing theories and concepts.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MKTG6096",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MKTG6096"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MKTG6009"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Managing Customers",
+                "academic_item_code": "MKTG6009",
+                "academic_item_url": "/2021/units/MKTG6009"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MKTG6096-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG6096"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MKTG6096-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG6096"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MKTG6096-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG6096"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MKTG6096-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG6096"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MKTG6096 - Introduction to Marketing Management",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Marketing "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Marketing is the coordinated and integrated efforts of an organisation to satisfy relevant customer needs and achieve organisational goals. It involves a systematic process whereby opportunities are identified and marketing practices are implemented. New techniques, tools and technologies are constantly being adopted by marketers, leading to a new marketing environment that demands greater efficiency and effectiveness to market products, services and brands. This unit develops students’ knowledge of marketing concepts and frameworks. Students will develop skills to apply marketing concepts to address marketing issues. Students will also learn to apply marketing concepts to analyse marketing activities of a product/service.",
+    "search_title": "MKTG6096 - Introduction to Marketing Management",
+    "code": "MKTG6096",
+    "title": "Introduction to Marketing Management",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Marketing is the coordinated and integrated efforts of an organisation to satisfy relevant customer needs and achieve organisational goals. It involves a systematic process whereby opportunities are identified and marketing practices are implemented. New techniques, tools and technologies are constantly being adopted by marketers, leading to a new marketing environment that demands greater efficiency and effectiveness to market products, services and brands. This unit develops students’ knowledge of marketing concepts and frameworks. Students will develop skills to apply marketing concepts to address marketing issues. Students will also learn to apply marketing concepts to analyse marketing activities of a product/service.",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-08T08:28:13.692",
+  "code": "MKTG6096",
+  "title": "Introduction to Marketing Management",
+  "implementationYear": "2021"
+}

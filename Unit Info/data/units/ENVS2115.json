@@ -1,0 +1,250 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate knowledge of the fundamental physical mechanisms driving climate variability and climate change.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain the role of government, community and industry in determining climate change policy, including adaptation and mitigation options such as renewable energy.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Describe the links between fossil fuels, agriculture, population growth and climate change, and the present and future impacts on physical, biological and human systems.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate an informed, holistic world view of the climate change issue, including the ability to differentiate natural climate variability from global warming.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Assess the validity of information from a range of sources, including scientific communications and popular media.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings of 2 hours/week",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "60cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ENVE214, GEOS214, ENVS214, GEOS251",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "You will write a report on an aspect of climate change and energy usage.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly assessment of knowledge on lectures and/or practical/tutorial tasks",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Short quizzes or tests will be used on a weekly basis to maintain everyone’s engagement with the unit content. Some weeks this will be on lecture content, some weeks on practical/tutorial content, sometimes on both.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Final exam on material from lectures, assignment and practicals/tutorials.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "ReadinGame quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "We will be using a custom designed and built, online learning tool; “The ReadinGAME”. This game is designed to operate on a calendar week cycle, and involves you being able to ask a question related on the week’s material from the readings and lectures. You will then be able to answer questions posed by other students, and most importantly, you will not only be able to score points for correctly answering the questions, but you will also be able to comment and discuss the questions, and rate whether they are good/not so good questions etc. Importantly, in the process you will be learning and reinforcing the week’s material as well as having a lot of fun- it can be quite addictive.\nTo play, follow the link in iLearn, and simply ask a question relevant to the weeks material. You will then be able to play, by answering other questions and watching how your score accumulates. You will also be able to give feedback on other people’s questions and monitor your performance. There are multiple scoring paths, and different types of scores to achieve, depending on your interests.\nAt the end of the semester, there will be a quiz based on questions derived from the ReadinGAME.\n",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENVS2115"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENVS2115"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENVS2115"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENVS2115"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, Other<br />Session 2, Infrequent attendance, North Ryde<br />",
+    "subject_search_title": "ENVS2115 - Climate Change, Energy and our Future",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Earth and Environmental Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Climate change is one of the most serious challenges facing humanity now and into the future. This topical unit explores key aspects of climate change including the underlying science and the role of human activity, the impacts, and adaptation and mitigation solutions. The unit examines the climate system, current observations and future projections of climate change, and the significance of sectoral and regional climate risks to natural and human systems. The unit also provides an in-depth examination of the role of energy in the climate change issue, from fossil fuel use as a major driver of climate change, to renewable energy as a fundamental solution to this crisis. The unit will empower students to engage in informed discussion about this issue.",
+    "search_title": "ENVS2115 - Climate Change, Energy and our Future",
+    "code": "ENVS2115",
+    "title": "Climate Change, Energy and our Future",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Climate change is one of the most serious challenges facing humanity now and into the future. This topical unit explores key aspects of climate change including the underlying science and the role of human activity, the impacts, and adaptation and mitigation solutions. The unit examines the climate system, current observations and future projections of climate change, and the significance of sectoral and regional climate risks to natural and human systems. The unit also provides an in-depth examination of the role of energy in the climate change issue, from fossil fuel use as a major driver of climate change, to renewable energy as a fundamental solution to this crisis. The unit will empower students to engage in informed discussion about this issue.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:40:40.579",
+  "code": "ENVS2115",
+  "title": "Climate Change, Energy and our Future",
+  "implementationYear": "2021"
+}

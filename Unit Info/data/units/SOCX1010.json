@@ -1,0 +1,240 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "demonstrate the ability to summarise and apply important readings in sociology and the sociology of everyday life.",
+        "code": "ULO3"
+      },
+      {
+        "description": "demonstrate a broad understanding of how the ‘sociological imagination’ can be applied to our everyday lives.",
+        "code": "ULO2"
+      },
+      {
+        "description": "demonstrate awareness of the history and importance of the study of the sociology of everyday life.",
+        "code": "ULO1"
+      },
+      {
+        "description": "demonstrate an awareness of a range of research skills, such as ethnography and visual analysis, used to carry out research in the area of the sociology of everyday life.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "SGYX120, SOC180, SOCX180",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Students complete weekly quizzes which test lecture and reading material. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflection Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "20",
+        "description": "A reflective essay on an everyday space. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Contribution",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Students are expected to participate in the online weekly exercises and tasks as directed via the Ilearn discussion forum.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Take-home Exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "At the end of the course, students will have a take-home exam consisting of short answers to questions. The exam will cover content from the whole course. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "SOCX1010",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: SOCX1010"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: SOCI1010"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Sociology of Everyday Life",
+                "academic_item_code": "SOCI1010",
+                "academic_item_url": "/2020/units/SOCI1010"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "SOCX1010-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCX1010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "SOCX1010 - Introduction to Sociology: Understanding everyday life ",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit you are introduced to the analysis of everyday situations such as the home, the street, work, shopping, community, neighbourhoods, and various sites of leisure and entertainment. We also reveal and scrutinize the many tools and props that we use to negotiate these everyday activities (eg, clothes, mobile phones, automobiles, computers, furnishings etc) and explore the hidden social forces that shape our lives. All enrolment queries should be directed to Open Universities Australia (OUA): see <a href=\"http://www.open.edu.au\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">www.open.edu.au",
+    "search_title": "SOCX1010 - Introduction to Sociology: Understanding everyday life ",
+    "code": "SOCX1010",
+    "title": "Introduction to Sociology: Understanding everyday life ",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit you are introduced to the analysis of everyday situations such as the home, the street, work, shopping, community, neighbourhoods, and various sites of leisure and entertainment. We also reveal and scrutinize the many tools and props that we use to negotiate these everyday activities (eg, clothes, mobile phones, automobiles, computers, furnishings etc) and explore the hidden social forces that shape our lives. All enrolment queries should be directed to Open Universities Australia (OUA): see <a href=\"http://www.open.edu.au\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">www.open.edu.au",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-11T10:09:03.304",
+  "code": "SOCX1010",
+  "title": "Introduction to Sociology: Understanding everyday life ",
+  "implementationYear": "2021"
+}

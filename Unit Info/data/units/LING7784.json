@@ -1,0 +1,173 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate theoretical and methodological issues in child language research through oral presentation and academic writing.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Distinguish experimental methodologies appropriate for researching issues in children's knowledge of syntax and semantics.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate an advanced understanding of current issues in children's knowledge of syntax and semantics.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Compare theories of language acquisition and apply theoretical predictions to key issues and problems in child language.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes and permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LING734",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Oral Presentation of Journal Article",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "Presentation using Powerpoint reviews the theoretical background of an experimental study outlined in a journal article and critically reviews the methodology and findings (About 20 slides)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Short Review Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "20",
+        "description": "Short essay that reviews or provides a short critique of a theoretical issue that is relevant for the study of child language acquisition. (1500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay on an Issue in Child Syntax and Semantics",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "This final essay takes up the issues outlined in the Powerpoint presentation and develops them into a piece of academic writing. The essay gives a critical review of the theoretical background and experiment from a previous journal article and provides a proposal for a new experiment to investigate the relevant issues. (3000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "To be determined",
+        "teaching_period": {
+          "value": "To be determined"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LING7784"
+        }
+      }
+    ],
+    "unit_offering_text": "To be determined<br />",
+    "subject_search_title": "LING7784 - Syntax and Semantics in Child Language",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers theories of language acquisition, with a focus on Chomsky&#39;s theory of Universal Grammar. The unit begins with the classic debate over whether children are born with innate knowledge of language. The remainder of the unit examines classic studies in the acquisition of syntax and semantics across a variety of languages. In the acquisition of syntax, we cover early emergence of syntax, children&#39;s knowledge of hierarchical structure, structures derived by movement operations, and the interpretation of pronouns. The section on acquisition of semantics will discuss children&#39;s knowledge of quantification, negation, logical connectives and entailment relations. Discussion of appropriate experimental methodologies for examining children&#39;s linguistic knowledge runs throughout all topic areas, with students working towards the development of a research proposal.",
+    "search_title": "LING7784 - Syntax and Semantics in Child Language",
+    "code": "LING7784",
+    "title": "Syntax and Semantics in Child Language",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit covers theories of language acquisition, with a focus on Chomsky&#39;s theory of Universal Grammar. The unit begins with the classic debate over whether children are born with innate knowledge of language. The remainder of the unit examines classic studies in the acquisition of syntax and semantics across a variety of languages. In the acquisition of syntax, we cover early emergence of syntax, children&#39;s knowledge of hierarchical structure, structures derived by movement operations, and the interpretation of pronouns. The section on acquisition of semantics will discuss children&#39;s knowledge of quantification, negation, logical connectives and entailment relations. Discussion of appropriate experimental methodologies for examining children&#39;s linguistic knowledge runs throughout all topic areas, with students working towards the development of a research proposal.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:01:58.102",
+  "code": "LING7784",
+  "title": "Syntax and Semantics in Child Language",
+  "implementationYear": "2021"
+}

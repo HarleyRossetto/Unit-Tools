@@ -1,0 +1,238 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Reflect on and articulate discipline specific skills and literacy.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Integrate and apply discipline specific knowledge to contemporary and historical problems",
+        "code": "ULO2"
+      },
+      {
+        "description": "Communicate effectively in written, oral and interpersonal forms",
+        "code": "ULO4"
+      },
+      {
+        "description": "Synthesise and integrate knowledge from multiple topic areas",
+        "code": "ULO5"
+      },
+      {
+        "description": "Think critically and analytically",
+        "code": "ULO3"
+      },
+      {
+        "description": "Think historically about the present",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above OR (20cp in HIST or MHIS or POL or POIR or MHIX or POIX units at 2000 level)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "HST380, MHIS300, HIST373, MHIZ300, MHIX300",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Individual thesis",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Students will compose an extended written response to a debate/presentation topic. This will be a critical piece of writing, setting out an argument in depth and including three historical/historiographical examples to illustrate. This will then form the basis of a group debate presentation later in the semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Debate/Online Presention",
+        "type": {
+          "label": "Debate",
+          "value": "debate"
+        },
+        "weight": "30",
+        "description": "Students will deliver individual online presentations based on their individual debate theses. These are to be 6-8 minutes in length.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Written reflection",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "Students will write a short, 800 word, reflection on historical understanding, drawing on the key themes of the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students will be required to prepare for each class by completing the compulsory readings. They will engage in group discussion via the online discussion forum demonstrating effective, respectful engagement with their peers and the unit convenor and undertaking a number of short reflective written and oral collaborative exercises across the semester to track progress and engagement.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MHIX3000",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MHIX3000"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MHIS3000"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Making History",
+                "academic_item_code": "MHIS3000",
+                "academic_item_url": "/2020/units/MHIS3000"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MHIX3000-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIX3000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "MHIX3000 - Making History",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "What is history and how do historians practice their craft? What is the history of history and does it inform issues and debates in contemporary society? What skills does it teach us? Through the prism of historical literacy this unit explores the meanings, structures, methodologies and interpretive frames of historical thinking as well as the relationship between history and the public sphere. Drawing on knowledge and content from across the major students work individually and collectively on a set of big theoretical questions about history, historical practice and memory. The unit enables students to understand and articulate how their historical literacy is an important attribute of their employability.. All enrolment queries should be directed to Open Universities Australia (OUA): see <a href=\"http://www.open.edu.au\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">www.open.edu.au",
+    "search_title": "MHIX3000 - Making History",
+    "code": "MHIX3000",
+    "title": "Making History",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "What is history and how do historians practice their craft? What is the history of history and does it inform issues and debates in contemporary society? What skills does it teach us? Through the prism of historical literacy this unit explores the meanings, structures, methodologies and interpretive frames of historical thinking as well as the relationship between history and the public sphere. Drawing on knowledge and content from across the major students work individually and collectively on a set of big theoretical questions about history, historical practice and memory. The unit enables students to understand and articulate how their historical literacy is an important attribute of their employability.. All enrolment queries should be directed to Open Universities Australia (OUA): see <a href=\"http://www.open.edu.au\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">www.open.edu.au",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T14:00:34.103",
+  "code": "MHIX3000",
+  "title": "Making History",
+  "implementationYear": "2021"
+}

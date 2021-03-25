@@ -1,0 +1,287 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop multiple representations for a system and justify the best choice physically (eg. Fourier Series).",
+        "code": "ULO3"
+      },
+      {
+        "description": "Successfully communicate how the mathematical methods developed in the unit relate to real world systems.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Formulate and solve simple physical problems through the use of linear techniques.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Determine the rates of change of systems that vary over space and time and construct approximate representations for them (multi-variable Taylor series).",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class preparation time includes revising new content as soon as possible after lectures in order to identify, and fix, any issues before the next lecture, and thoroughly preparing for, and reflecting upon, SGTAs.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MATH1020 or MATH1025 or MATH133 or MATH136 or WMAT1020 or WMAT136",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MATH235",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignments",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "30",
+        "description": "Two assignments (weighted at 15% each), submitted online",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-semester test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Supervised in-class 1-hour test",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "This will be an invigilated exam, held during the final exam period. It will test the ability of students to synthesise the concepts taught in the course in order to analyse and solve mathematical problems with various applications.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-semester online test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Online test; electronic submission",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MATH2055",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MATH2055"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MATH2010"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.04",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Mathematical Modelling IIA",
+                "academic_item_code": "MATH2010",
+                "academic_item_url": "/2020/units/MATH2010"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MATH2055-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MATH2055"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MATH2055-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MATH2055"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MATH2055-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MATH2055"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MATH2055-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MATH2055"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MATH2055 - Engineering Mathematics II",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Mathematics and Statistics "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will equip students with the analytical techniques required to solve a broad range of ordinary differential equations and the classical linear partial differential equations of second order arising in Engineering as well as the fundamental results from vector and integral calculus. Students will be equipped with the basic concepts, methods, results and applications in engineering, physics and computer science of ordinary and partial differential equations and Fourier analysis. It will expose students to modern approaches to modelling, solving and interpreting physical problems arising in Engineering.",
+    "search_title": "MATH2055 - Engineering Mathematics II",
+    "code": "MATH2055",
+    "title": "Engineering Mathematics II",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will equip students with the analytical techniques required to solve a broad range of ordinary differential equations and the classical linear partial differential equations of second order arising in Engineering as well as the fundamental results from vector and integral calculus. Students will be equipped with the basic concepts, methods, results and applications in engineering, physics and computer science of ordinary and partial differential equations and Fourier analysis. It will expose students to modern approaches to modelling, solving and interpreting physical problems arising in Engineering.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-01T09:04:13.13",
+  "code": "MATH2055",
+  "title": "Engineering Mathematics II",
+  "implementationYear": "2021"
+}

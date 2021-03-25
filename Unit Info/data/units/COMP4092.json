@@ -1,0 +1,250 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate intellectual independence, and an in-depth understanding of a specialist topic within software engineering through verbal and written communication.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate an advanced knowledge of contextual factors, research direction, and foundational concepts in software engineering.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply core software engineering principles and practices to a research or industry challenge.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Plan a major software engineering research project, including the design of necessary processes, information management, records keeping, project management, and communications.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse a complex software engineering problem and propose solutions involving the development of new knowledge or the application of cutting edge techniques.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to conduct individual research about their selected research topics once the project begins. The research activity includes reviewing of relevant literature and scholarly work, project development, planning and design.",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(COMP430 or COMP4050) or (COMP434 or COMP4060)",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "(COMP332 or COMP3000) and (COMP333 or COMP3010) and (COMP335 or COMP3100)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Meetings with supervisors and clients",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "0",
+        "description": "Regular meetings with clients are essential for quality software engineering",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Engineering Management and Engagement",
+        "type": {
+          "label": "Field book",
+          "value": "field_book"
+        },
+        "weight": "10",
+        "description": "An opportunity to demonstrate (and if necessary, learn) the principles of good engineering management, record keeping, and professional engagement",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Preliminary Thesis Material",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "70",
+        "description": "A major piece of work towards the thesis that will be submitted at the end of the succeeding unit COMP4093, this document details the plan of work, relevant literature, methodological issues, and a timeline for COMP4093.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Plan Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "A face-to-face presentation of the proposed research, including background, reasoning and methodology.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP4092"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP4092"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP4092"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP4092"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "COMP4092 - Software Engineering Research Thesis A",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit students will conduct the first half of an individual research thesis project on a topic in the Software Engineering major under the direction of an academic supervisor. The focus of the work will be on developing the project proposal, conducting the literature review and project planning and design.",
+    "search_title": "COMP4092 - Software Engineering Research Thesis A",
+    "code": "COMP4092",
+    "title": "Software Engineering Research Thesis A",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit students will conduct the first half of an individual research thesis project on a topic in the Software Engineering major under the direction of an academic supervisor. The focus of the work will be on developing the project proposal, conducting the literature review and project planning and design.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T14:54:49.572",
+  "code": "COMP4092",
+  "title": "Software Engineering Research Thesis A",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,227 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically examine ideas, issues and principles connected with professional decision-making as a teacher in an early childhood setting",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate an understanding of the role of the reflective practitioner",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate the link between theory, the Early Years Learning Framework (DEEWR, 2009) and planning for children aged 2-5 years",
+        "code": "ULO1"
+      },
+      {
+        "description": "Systematically document and critically analyse the pedagogies and practices of teaching and learning, including ways to guide children's behaviour",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate the capacity to articulate a personal philosophy of professional practice as a teacher of young children",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MTeach (0-5) and 20cp at 8000 level and (ECED603 or ECHE6030)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECHX825, ECED825, ECEX825",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Professional Experience documentation",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "60",
+        "description": "Professional Experience Documentation: Students submit material from their Professional Experience folder (what they did whilst on PE Placement). These are reflective tasks that are completed on PE. Word Count 4000 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Newsletter",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "40",
+        "description": "This assessment will enable students to articulate appropriate teaching strategies to use with children 2-5 year and determine appropriate strategies to guide the behaviour of young children. Word count: 1000 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ECHE8250",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ECHE8250"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ECHX8250"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Early Childhood Professional Practice 2",
+                "academic_item_code": "ECHX8250",
+                "academic_item_url": "/2020/units/ECHX8250"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECHE8250-unit_teaching_period-Intensive-subject",
+        "display_name": "Session 1-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE8250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECHE8250-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE8250"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Intensive attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ECHE8250 - Early Childhood Professional Practice 2",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit students will build on the knowledge of early childhood theory and practice that gained from your experiences in ECHE6030. Students will extend understanding of critical reflection and personal professional philosophy as a developing teacher. Central to this unit is a 20 day professional experience placement to develop awareness of the professional role and responsibilities of an early childhood teacher working with children from two to five years. This unit therefore combines theory and practice to enable students to construct practical knowledge of teaching and learning through guided reflection.",
+    "search_title": "ECHE8250 - Early Childhood Professional Practice 2",
+    "code": "ECHE8250",
+    "title": "Early Childhood Professional Practice 2",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit students will build on the knowledge of early childhood theory and practice that gained from your experiences in ECHE6030. Students will extend understanding of critical reflection and personal professional philosophy as a developing teacher. Central to this unit is a 20 day professional experience placement to develop awareness of the professional role and responsibilities of an early childhood teacher working with children from two to five years. This unit therefore combines theory and practice to enable students to construct practical knowledge of teaching and learning through guided reflection.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T14:54:52.722",
+  "code": "ECHE8250",
+  "title": "Early Childhood Professional Practice 2",
+  "implementationYear": "2021"
+}

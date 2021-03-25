@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse the main properties of vector fields using the gradient, divergence and curl operators.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse the main properties of functions of a single complex variable, such as analyticity and singularity structure.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply the important theorems due to Green, Stokes and Gauss to physical applications.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Evaluate path, surface and volume integrals of vector fields.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Evaluate contour integrals of complex functions by applying Cauchy's theorem and the residue theorem.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class preparation time includes revising new content as soon as possible after lectures in order to identify, and fix, any issues before the next lecture, and thoroughly preparing for, and reflecting upon, SGTAs.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MATH2010 or MATH2055 or MATH235",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MATH236",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Mid-semester test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Online test",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-semester test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "45-minute invigilated in-class test",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "15",
+        "description": "The assignments reinforce and build on material from lectures, and involve calculations and explanations.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "15",
+        "description": "The assignments reinforce and build on material from lectures, and involve calculations and explanations.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Summative examination, held during the university examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MATH2020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MATH2020"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MATH2020 - Vector Calculus and Complex Analysis",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Mathematics and Statistics "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The topics covered in this unit lay the foundations for further study in modern areas of mathematics (such as partial differential equations, fluid mechanics, and mathematical biology). This unit builds on the first year single variable calculus units by extending calculus to several variables, and focuses primarily on integration techniques for complex functions and vector fields. Complex analysis is the study of complex-valued functions of complex variables. The main properties of complex functions of a single complex variable will be presented, including the important concepts of analyticity and singularity structure. This will be followed by a treatment of Cauchy&#39;s theorem and the residue theorem to evaluate contour integrals of complex functions around various curves in the complex plane. Vector calculus is the study of vector fields in two and three dimensions, and facilitates the modelling of a variety of physical phenomena, for example in fluid mechanics and electromagnetism. By introducing the gradient, divergence and curl operators, the main properties of vector fields can be analysed. A variety of integrals of vector fields over paths, surfaces and volumes will be performed, and the application of three important integral theorems of vector calculus due to Green, Stokes and Gauss to evaluate these integrals will be demonstrated.",
+    "search_title": "MATH2020 - Vector Calculus and Complex Analysis",
+    "code": "MATH2020",
+    "title": "Vector Calculus and Complex Analysis",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The topics covered in this unit lay the foundations for further study in modern areas of mathematics (such as partial differential equations, fluid mechanics, and mathematical biology). This unit builds on the first year single variable calculus units by extending calculus to several variables, and focuses primarily on integration techniques for complex functions and vector fields. Complex analysis is the study of complex-valued functions of complex variables. The main properties of complex functions of a single complex variable will be presented, including the important concepts of analyticity and singularity structure. This will be followed by a treatment of Cauchy&#39;s theorem and the residue theorem to evaluate contour integrals of complex functions around various curves in the complex plane. Vector calculus is the study of vector fields in two and three dimensions, and facilitates the modelling of a variety of physical phenomena, for example in fluid mechanics and electromagnetism. By introducing the gradient, divergence and curl operators, the main properties of vector fields can be analysed. A variety of integrals of vector fields over paths, surfaces and volumes will be performed, and the application of three important integral theorems of vector calculus due to Green, Stokes and Gauss to evaluate these integrals will be demonstrated.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-04T11:26:03.53",
+  "code": "MATH2020",
+  "title": "Vector Calculus and Complex Analysis",
+  "implementationYear": "2021"
+}

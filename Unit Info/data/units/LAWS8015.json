@@ -1,0 +1,298 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe the role, rights and responsibilities of some major international organisations under international law.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically analyse the relationship between international and national law, particularly Australian law.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply international law to complex situations and explain the operation of the rights and responsibilities of states in relation to other states; international institutions; private interests and domestic populations. ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe and assess the various means for dispute resolution at international law ",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate an advanced knowledge of the fundamental principles of public international law including the identification and analysis of key primary sources of international law including treaties and case law.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will read the materials in preparation for tutorials and assessments",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to GradCertLaw or JD or LLM or MIntTrdeComLaw",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LAWS601",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online/in class participation ",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Participatory task might include quizzes, in class debate and/or online discussion and problem solving exercises.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Legal Brief ",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "40",
+        "description": "Students are to submit a legal brief in relation to an international law topic",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "Students will complete a timed assessment online",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LAWS8015-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8015-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8015-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8015-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8015-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8015-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8015-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8015-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8015"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Infrequent attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Special circumstances, Other<br />Session 2, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "LAWS8015 - International Law",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Public international law regulates the legal issues that have global or transboundary dimensions. Through this unit students evaluate the effectiveness of international law in addressing real problems that confront the international community. The unit provides an introduction to public international law&#39;s key principles, rules, norms and practices. Coverage includes the role of the United Nations, the law of treaties, the rights and responsibilities of states vis-a-vis each other, their own nationals and those of other states, the limits of state jurisdiction, state and diplomatic immunity, international dispute settlement and the relationship between international law and Australia&#39;s legal system. ",
+    "search_title": "LAWS8015 - International Law",
+    "code": "LAWS8015",
+    "title": "International Law",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Public international law regulates the legal issues that have global or transboundary dimensions. Through this unit students evaluate the effectiveness of international law in addressing real problems that confront the international community. The unit provides an introduction to public international law&#39;s key principles, rules, norms and practices. Coverage includes the role of the United Nations, the law of treaties, the rights and responsibilities of states vis-a-vis each other, their own nationals and those of other states, the limits of state jurisdiction, state and diplomatic immunity, international dispute settlement and the relationship between international law and Australia&#39;s legal system. ",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:35:53.016",
+  "code": "LAWS8015",
+  "title": "International Law",
+  "implementationYear": "2021"
+}

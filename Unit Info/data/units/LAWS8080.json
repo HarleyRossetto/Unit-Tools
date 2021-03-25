@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate and improve the skill of statutory interpretation",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically analyse and apply administrative law in the context of government policy and constitutional law frameworks.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate and apply knowledge of the basic mechanisms and principles of administrative law (merits review, judicial review, Freedom of Information, natural justice, errors of law).",
+        "code": "ULO1"
+      },
+      {
+        "description": "Evaluate administrative law principles and doctrines, assessing deficiencies and strengths in Australian administrative law - both historical and current, and conduct comparative studies between jurisdictions and within the global sphere.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply the skills of legal problem solving to the analysis of administrative law problems.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students should read the set readings.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LAWS808",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "LAWS807 or LAWS8070",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Participation in-class (via Zoom)",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "This individual component is worth 15% of students grade. Students will be assessed on their informed participation in weekly or intensive discussions, role plays, debates and other in class or online activities.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation on-line",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "Students will post 3 times in total during the semester: Questions that have occurred as a result of listening to the weekly lectures, or from the material covered in tutorials; an answer to the question, based on research into the weekly readings/resources and a justification for the answer.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Students will prepare a research report on an aspect of the course. The essay question and assessment guidance will be released via iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Hypothetical Problems",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Students will advise a client based on the facts of the situation and the law learned in the course. The essay question and assessment guidance will be released via iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8080"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8080"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8080"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "LAWS8080 - Administrative Law",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit students examine the principles of administrative law, that is, the law governing government decision-making within the Commonwealth of Australia. It considers the fundamental principles that underpin good decision-making, such as accountability, integrity and procedural fairness, and explores the various avenues available to challenge the merits and the legality of government decisions. It also considers modern developments, such as the increasing involvement of the private sector in providing goods and services traditionally provided by the public sector, and the impact this is having in the field of administrative law.",
+    "search_title": "LAWS8080 - Administrative Law",
+    "code": "LAWS8080",
+    "title": "Administrative Law",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit students examine the principles of administrative law, that is, the law governing government decision-making within the Commonwealth of Australia. It considers the fundamental principles that underpin good decision-making, such as accountability, integrity and procedural fairness, and explores the various avenues available to challenge the merits and the legality of government decisions. It also considers modern developments, such as the increasing involvement of the private sector in providing goods and services traditionally provided by the public sector, and the impact this is having in the field of administrative law.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:37:19.302",
+  "code": "LAWS8080",
+  "title": "Administrative Law",
+  "implementationYear": "2021"
+}

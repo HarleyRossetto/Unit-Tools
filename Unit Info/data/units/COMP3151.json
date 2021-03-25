@@ -1,0 +1,121 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Rigorously playtest a game to ensure it reliably provides the intended experience to the target audience.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Communicate the design of a game through both oral presentation and written documentation.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Work in a team to take a videogame project from pre-production to final release.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Describe the options for deployment and monetisation of videogames.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply agile development process (prototyping and playtesting) to a large scale video game design and development project.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "COMP3150 or COMP352",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP3151"
+        }
+      }
+    ],
+    "unit_offering_text": "2022<br />",
+    "subject_search_title": "COMP3151 - Games Project B",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Students will work in groups to create a videogame using a commercial-level game engine. This will enable them to apply their previously acquired skills in videogame design and implementation to a substantial project. Teams will be expected to develop their own concept for the game. This will require creative design, the production of supporting documentation, quality control, and other associated skills and concepts. Teams will be expected to produce a compelling game proposal and meet regular agreed milestones as well as producing game documentation and giving a final presentation.",
+    "search_title": "COMP3151 - Games Project B",
+    "code": "COMP3151",
+    "title": "Games Project B",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Students will work in groups to create a videogame using a commercial-level game engine. This will enable them to apply their previously acquired skills in videogame design and implementation to a substantial project. Teams will be expected to develop their own concept for the game. This will require creative design, the production of supporting documentation, quality control, and other associated skills and concepts. Teams will be expected to produce a compelling game proposal and meet regular agreed milestones as well as producing game documentation and giving a final presentation.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-05T13:59:43.409",
+  "code": "COMP3151",
+  "title": "Games Project B",
+  "implementationYear": "2021"
+}

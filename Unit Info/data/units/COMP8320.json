@@ -1,0 +1,239 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Perform risk assessment (including privacy risk) on digital information and datasets.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply adapted security technologies and tools, in particular encryption to enhance security properties of data.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explain the concepts of information security and provable privacy.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse the trends for managing data security.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading before lectures and Reviewing lectures before workshop",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(COMP6300 or ITEC643) or admission to MInfoTechCyberSec or BCyberSecMInfoTechCyberSec",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Module Exam 1",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "A 50 minutes long online examination worth 20% that will be held in week 5 (online via iLearn). This will test understanding of material covered in weeks 1 to 4. For on campus offering this will be held during practical classes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Module Exam 3",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "A 50 minutes long online examination worth 20% that will be held in week 13 (online via iLearn). This will test understanding of material covered in weeks 9 to 12. For on campus offering this will be held during practical classes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Tasks",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Each week, a set of exercises will be available online. One or two questions from the exercises will be the weekly quiz task.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "15",
+        "description": "This assignment deals with concepts in provable privacy and risk assessments of datasets and is due on week 7. The assignment is to be submitted via iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "15",
+        "description": "This assignment deals with identifying privacy risks in datasets and securing access to data and is due on week 12. The assignment is to be submitted via iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Module Exam 2",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "A 50 minutes long online examination worth 20% that will be held in week 9 (online via iLearn). This will test understanding of material covered in weeks 5 to 8. For on campus offering this will be held during practical classes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP8320"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP8320"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "COMP8320 - Information and Data Security",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit deals with the concepts, techniques and tools which contribute to enable information and data security. Building on applied cryptography notions and introducing the concept of provable privacy, the unit addresses topics such as encryption, privacy preserving techniques in data mining, content security solutions or secure data management.",
+    "search_title": "COMP8320 - Information and Data Security",
+    "code": "COMP8320",
+    "title": "Information and Data Security",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit deals with the concepts, techniques and tools which contribute to enable information and data security. Building on applied cryptography notions and introducing the concept of provable privacy, the unit addresses topics such as encryption, privacy preserving techniques in data mining, content security solutions or secure data management.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:06:36.165",
+  "code": "COMP8320",
+  "title": "Information and Data Security",
+  "implementationYear": "2021"
+}

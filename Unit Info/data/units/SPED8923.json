@@ -1,0 +1,189 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Produce individualised Braille resources that demonstrate your knowledge of Unified English Braille (Grade 2), current alternative format guidelines, and accessible media and production methods.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply knowledge of the educational implications of low vision and blindness to the teaching of literacy and numeracy",
+        "code": "ULO4"
+      },
+      {
+        "description": "Display professional knowledge of educational planning and collaborative approaches in the area of literacy or numeracy development for students with vision impairment",
+        "code": "ULO1"
+      },
+      {
+        "description": "Draw on relevant literature and professional standards to design individualised braille literacy programs that link with the curriculum and expanded core curriculum for learners with vision impairment",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "SPED923",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MDisabilityStud and (SPED8926 or SPED926) and permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Personalised learning plan",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Develop a Personalised Learning Plan for literacy and numeracy development. (2000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Braille book kit production",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "25",
+        "description": "Creation of a braille book and supporting braille materials",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Unified English Braille Grade Two",
+        "type": {
+          "label": "Field work task",
+          "value": "field_work_task"
+        },
+        "weight": "0",
+        "description": "Provide evidence of attainment of UEB Grade Two (certificate level) competency",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Braille Literacy Teaching Program",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "35",
+        "description": "Development of a two-term individualised braille literacy teaching program. (2000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPED8923"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "SPED8923 - Literacy for Learners with Vision Impairment",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This Unit examines the implications of vision impairment for language, literacy and numeracy development. Unit content includes current principles and concepts underlying emergent literacy and numeracy development, multisensory approaches to literacy and numeracy development, braille literacy instruction, learning media assessment, and guidelines for the production of alternative formats and examinations.",
+    "search_title": "SPED8923 - Literacy for Learners with Vision Impairment",
+    "code": "SPED8923",
+    "title": "Literacy for Learners with Vision Impairment",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This Unit examines the implications of vision impairment for language, literacy and numeracy development. Unit content includes current principles and concepts underlying emergent literacy and numeracy development, multisensory approaches to literacy and numeracy development, braille literacy instruction, learning media assessment, and guidelines for the production of alternative formats and examinations.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T16:00:57.521",
+  "code": "SPED8923",
+  "title": "Literacy for Learners with Vision Impairment",
+  "implementationYear": "2021"
+}

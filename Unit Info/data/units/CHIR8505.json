@@ -1,0 +1,246 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Interpret a wide range of diagnostic images and evaluate how imaging findings will affect patient management",
+        "code": "ULO4"
+      },
+      {
+        "description": "Formulate patient-specific management plans under an evidence-based framework, including referral for further investigations or alternative management when appropriate.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Outline commonly presented mental health conditions and consider how the patient's mental health status can influence their clinical presentation, their therapeutic relationship with the chiropractor, and the clinical outcomes",
+        "code": "ULO3"
+      },
+      {
+        "description": "Integrate and assess presented data (including history, physical examination, and investigations where appropriate) using problem-solving techniques to successfully diagnose patients presenting for chiropractic care across the lifespan",
+        "code": "ULO1"
+      },
+      {
+        "description": "Use current research to critically evaluate present nutritional information, issues<br />and trends",
+        "code": "ULO6"
+      },
+      {
+        "description": "Discuss drug usage relevant to chiropractic practice, including pharacodynamics and pharmacokinetics, and explain the significance of toxicity, adverse reactions and contraindications",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "students prepare case studies before tutorials",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "students read background information for diagnosis and management cases, nutrition, pharmacology and mental health",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CHIR931",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(CHIR8502 or CHIR874) and (CHIR8102 or CHIR892) and (CHIR8402 or CHIR917) and (CHIR8504 or CHIR919)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Radiology Slide Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "15",
+        "description": "A slide examination related to radiographic and medical imaging, in which students answer questions on slide images in a written examination",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "A summative assessment of case study diagnosis and management. Students are provided with history and examination information and asked to present their diagnosis and a management plan.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Pharmacology Assessment Task",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "This assessment task is based on a patient profile which contains a list of medications taken by the patient. Based on the information provided students must answer a series of questions assessing their ability to apply their knowledge of pharmacology.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online case study quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Weekly online quizzes accessible through ilearn. The quizzes will assess theory and radiology related to weekly case studies, and nutrition and mental health questions based on lecture material from the previous week.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "The final exam covers pharmacology, nutrition and mental health theory.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIR8505"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIR8505"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "CHIR8505 - Diagnosis and Management 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Chiropractic "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The focus of this unit is to continue to develop students&#39; clinical reasoning skills, by exposing them to a range of clinical scenarios, which may be encountered in chiropractic practice. It aims to act as a &#39;virtual clinic&#39;, exposing students to a standardised range of clinical experiences. Students go over the case studies prior to the tutorials, and discuss them as a student-based group activity in the tutorials, in order to imitate the independence required in clinical practice. The clinical management of the patient includes nutritional, pharmacological and mental health interventions, and thus these studies are included in this unit. <br /><br />CHIR8505 articulates with CHIR8506 with the two units together covering the full spectrum of clinically relevant conditions for chiropractors.",
+    "search_title": "CHIR8505 - Diagnosis and Management 1",
+    "code": "CHIR8505",
+    "title": "Diagnosis and Management 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The focus of this unit is to continue to develop students&#39; clinical reasoning skills, by exposing them to a range of clinical scenarios, which may be encountered in chiropractic practice. It aims to act as a &#39;virtual clinic&#39;, exposing students to a standardised range of clinical experiences. Students go over the case studies prior to the tutorials, and discuss them as a student-based group activity in the tutorials, in order to imitate the independence required in clinical practice. The clinical management of the patient includes nutritional, pharmacological and mental health interventions, and thus these studies are included in this unit. <br /><br />CHIR8505 articulates with CHIR8506 with the two units together covering the full spectrum of clinically relevant conditions for chiropractors.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T11:40:53.138",
+  "code": "CHIR8505",
+  "title": "Diagnosis and Management 1",
+  "implementationYear": "2021"
+}

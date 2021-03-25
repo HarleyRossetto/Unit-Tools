@@ -1,0 +1,210 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate negotiation and conflict resolution processes and outcomes against a range of criteria informed by negotiation theory and concepts of value relevant to the context and driving forces present in the negotiation",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop and analyse strategies and tactics to undertake both one on one, multiparty and also team based negotiation processes",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically evaluate a range of conflict theories and apply frameworks and intervention processes to mitigate and/or reduce the negative effects of conflict at work",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly live event preparation exercises",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Discussion forum exercises",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Core readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Video lectures",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Weekly recall quizzes (not assessed)",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to GMBA or GradCertGlobalBusPrac",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "GMBA833",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Negotiation and Conflict Resolution Praxis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "Length: max 1,500 words (excl. references)\n\nFormat: Case analysis\n\nTask: The purpose of this assignment is to analyse a real-world negotiation through the lens of an academic theory or framework.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Role Play Co-creation, Practice, and Debrief",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "60",
+        "description": "Length: 2,500-3,000 words\n\nFormat: Negotiation role play\n\nTask: The purpose of this assignment is to provide student pairs with the opportunity to co-create case materials, to practice practical negotiation and conflict resolution skills in a simulated context and to debrief and analyse the simulation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "GMBA8033-unit_teaching_period-Online",
+        "display_name": "Coursera term 4-Online",
+        "teaching_period": {
+          "value": "Coursera term 4"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GMBA8033"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GMBA8033-unit_teaching_period-Online",
+        "display_name": "Coursera term 1-Online",
+        "teaching_period": {
+          "value": "Coursera term 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GMBA8033"
+        }
+      }
+    ],
+    "unit_offering_text": "Coursera term 4, Fully online/virtual<br />Coursera term 1, Fully online/virtual<br />",
+    "subject_search_title": "GMBA8033 - Negotiate and Resolve Conflict",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "5",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "A central component of the exercise of formal authority or informal influence in organisations is the existence of conflict, and the requirement for effective negotiation. This unit addresses the skills and capabilities required to effectively negotiate in situations of conflict in both formal and informal arenas. Areas covered include: nature and sources of conflict in formal and informal arenas, and strategies for their resolution; establishing and framing agendas; mobilising power and resources for overcoming opposition; and general negotiation tactics and skills.",
+    "search_title": "GMBA8033 - Negotiate and Resolve Conflict",
+    "code": "GMBA8033",
+    "title": "Negotiate and Resolve Conflict",
+    "content_type": "Unit",
+    "credit_points_header": "5 credit points"
+  },
+  "creditPoints": 5,
+  "description": "A central component of the exercise of formal authority or informal influence in organisations is the existence of conflict, and the requirement for effective negotiation. This unit addresses the skills and capabilities required to effectively negotiate in situations of conflict in both formal and informal arenas. Areas covered include: nature and sources of conflict in formal and informal arenas, and strategies for their resolution; establishing and framing agendas; mobilising power and resources for overcoming opposition; and general negotiation tactics and skills.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T14:44:13.72",
+  "code": "GMBA8033",
+  "title": "Negotiate and Resolve Conflict",
+  "implementationYear": "2021"
+}

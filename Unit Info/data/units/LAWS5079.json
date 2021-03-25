@@ -1,0 +1,275 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "5000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe and evaluate Australia's current refugee and border control policies, their compatibility with international law, and their impact on the refugee policies of other countries",
+        "code": "ULO2"
+      },
+      {
+        "description": "Engage in original and critical reflection on the social and political dimensions of the refugee debate",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically evaluate the strengths and shortcomings of the current international refugee protection regime",
+        "code": "ULO5"
+      },
+      {
+        "description": "Articulate the basic elements of the definition of a refugee in the UN Convention relating to the Status of Refugees",
+        "code": "ULO1"
+      },
+      {
+        "description": "Create policy and law reform proposals aimed at enhancing refugee protection in Australia and abroad",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class Preperation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LAWS579",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(80cp in LAW or LAWS units) or (130cp including LAWS1010 or LEX101)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research/Policy Paper",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "60",
+        "description": "Research/Policy Paper",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Online Quiz",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Class Participation",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "LAWS5079",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: LAWS5079"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: LAWS8037"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Refugees and Migration Law",
+                "academic_item_code": "LAWS8037",
+                "academic_item_url": "/2020/units/LAWS8037"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5079"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5079"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5079"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "30",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5079"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde*<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Special circumstances, Other<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "LAWS5079 - Refugees and Migration",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Refugee protection is one of the most controversial issues in Australian and international politics today. We will explore the historical and political climate in which international instruments and domestic policies were created, and the contemporary context in which they are implemented. This unit adopts an interdisciplinary approach to understand and critically engage with the legal frameworks governing the rights of refugees and other forced migrants. Students will develop a robust understanding of the international refugee law system, as well as its implementation and operation in Australia and abroad. This will involve an examination of the elements of the refugee definition in the Convention on the Status of Refugees and other relevant protections under international law, mechanisms in place for refugee status determination and appeals, and the jurisprudence that has developed internationally and in Australia relating to the rights of asylum seekers, refugees and other persons in need of protection.",
+    "search_title": "LAWS5079 - Refugees and Migration",
+    "code": "LAWS5079",
+    "title": "Refugees and Migration",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Refugee protection is one of the most controversial issues in Australian and international politics today. We will explore the historical and political climate in which international instruments and domestic policies were created, and the contemporary context in which they are implemented. This unit adopts an interdisciplinary approach to understand and critically engage with the legal frameworks governing the rights of refugees and other forced migrants. Students will develop a robust understanding of the international refugee law system, as well as its implementation and operation in Australia and abroad. This will involve an examination of the elements of the refugee definition in the Convention on the Status of Refugees and other relevant protections under international law, mechanisms in place for refugee status determination and appeals, and the jurisprudence that has developed internationally and in Australia relating to the rights of asylum seekers, refugees and other persons in need of protection.",
+  "level": "5000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-02T11:29:54.462",
+  "code": "LAWS5079",
+  "title": "Refugees and Migration",
+  "implementationYear": "2021"
+}

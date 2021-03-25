@@ -1,0 +1,221 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate critical thinking about the potential of information and communication technologies (ICT) to enhance the quality of learning and teaching to engage students with science.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate understanding of assessment strategies, including formal and informal, diagnostic, formative and summative approaches to assess student learning progress.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Develop oral communication skills, listening skills, and teamwork skills.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Plan lesson sequences using knowledge of student learning, content and effective teaching strategies",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate knowledge and understanding of the concepts, substance, and structure of the content/strategies for Stage 6 of the science syllabuses (Biology/Earth and Environmental Science/Chemistry/Physics).",
+        "code": "ULO1"
+      },
+      {
+        "description": "Interpret research findings both in science and science education and relate these where appropriate to current syllabus documents and to the lives of students.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Workshop preparation includes conducting research or compiling resources ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Online resources include completing set of readings/videos.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "((TEP401 or EDTE4010(S)) and (TEP433 or EDTE4330)) or (EDST3010 and EDTE4330)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "TEP434, EDTE434",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Design a test (Teaching and Assessment)",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "50",
+        "description": "This assignment has two components – Part (i) Design science activities and test items (40%) and Part (ii) presentation (10%). Students must complete both components satisfactorily. The purpose of this assignment is for students to become familiar with the Stage 6 (Years 12) Science Syllabus and assessment (Bio/Chem/EES/Phy) [no more than 20 pages (11-point letter size and single line space)]",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Lesson Plan ",
+        "type": {
+          "label": "Lesson plan",
+          "value": "lesson_plan"
+        },
+        "weight": "40",
+        "description": "The aim of this assignment is for students to consider media reports of recent breakthroughs in scientific research and their place within the Stage 6 syllabus. This assignment is an opportunity for students to develop the skill of interpreting research findings in science to relate them to people’s lives (max 1500 words, 20% for 1st teaching science subject and 20% for 2nd teaching science subject)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Ongoing assessment",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students&#39; completion of online activities and engagement during face ti face session (or zoom session) will be assessment. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDTE4340-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE4340"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDTE4340-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE4340"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "EDTE4340 - Science in the Secondary School II",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines curricula, resources and instructional strategies appropriate for the teaching of Biology, Chemistry, Physics, and Earth and Environmental Sciences for Senior Science in Years 11 and 12.",
+    "search_title": "EDTE4340 - Science in the Secondary School II",
+    "code": "EDTE4340",
+    "title": "Science in the Secondary School II",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines curricula, resources and instructional strategies appropriate for the teaching of Biology, Chemistry, Physics, and Earth and Environmental Sciences for Senior Science in Years 11 and 12.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T15:33:24.54",
+  "code": "EDTE4340",
+  "title": "Science in the Secondary School II",
+  "implementationYear": "2021"
+}

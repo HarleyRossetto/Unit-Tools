@@ -1,0 +1,231 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Collect, record and analyse experimental data, describing the numerical significance of experimental results and the source and significance of uncertainty in scientific investigations.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Explain the underlying molecular and quantum processes relating to kinetics, quantum mechanics (spectroscopy) and thermodynamics.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Discuss the use of models in theory and be able to critical analyse the strengths and weaknesses of the models used in the context of this unit.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Communicate conclusions based on experiments in the form of written reports.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Solve problems in kinetics, quantum mechanics (spectroscopy), thermodynamics and chemical transport, by identifying the essential parts of, and formulating a strategy for solving, them. You will be able to rationally estimate the solution to a problem, apply appropriate techniques to arrive at a solution, test the correctness of the solution, and interpret the results.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate intermediate chemistry-laboratory skills and an understanding of general laboratory safety procedures.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "CHEM1002",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assigments",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "Assignment are issued so that students will have the opportunity to use the information provided in the lectures and textbook to explore their extent of understanding of those topics. The two assignments will each consist of approximately ten short-answer quantitative and qualitative questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practicals",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "20",
+        "description": "Laboratory exercises are designed to provide a concrete example of the abstract topics covered in the course work, and to give you the opportunity to discover the principles and applications for yourself. Laboratory exercises also offer the opportunity to explore the uncertainty inherent in scientific investigations and the limitations of models and theories by allowing comparison with real systems. Practicals are composed of a laboratory session, in which an experiment is conducted and data acquired (or a workshop in which data are given) and a practical report in which the acquired data is presented, along with manipulations of that data to provide information on a chemical process.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In-Semester Tests",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Two in-semester tests will be held after the first two major sections. The intention of these tests is to allow students to consolidate their learning of those sections of the unit. The tests provide students with a measure of their understanding of those sections and will direct them to areas on which they need to spend more study. They will be administered through iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "The final examination will be 3 hours in length and will cover all sections of the unit (lectures, tutorials, assignments and laboratory exercises). Students will be allowed to take with them a single double-sided A4, handwritten study sheet.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "CHEM2401",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: CHEM2401"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": []
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "CHEM2401-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHEM2401"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CHEM2401-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHEM2401"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "CHEM2401 - Physical Chemistry I",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Molecular Sciences "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Physical chemistry permeates all of modern chemistry and many adjoining disciplines and fields. In this unit the fundamental chemical principles of quantum chemistry, chemical thermodynamics and chemical kinetics will be explored through their application to the environmental issues that are of foremost concern in the world today. The environment depends on complex interactions of chemical and physical processes. Using environmental chemistry examples and contexts, we explore the what, why and how fast of chemistry: structure, energy and rate. These topics are examined in terms of the origin, transport and fate of chemicals in the biosphere, atmosphere, hydrosphere and lithosphere.",
+    "search_title": "CHEM2401 - Physical Chemistry I",
+    "code": "CHEM2401",
+    "title": "Physical Chemistry I",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Physical chemistry permeates all of modern chemistry and many adjoining disciplines and fields. In this unit the fundamental chemical principles of quantum chemistry, chemical thermodynamics and chemical kinetics will be explored through their application to the environmental issues that are of foremost concern in the world today. The environment depends on complex interactions of chemical and physical processes. Using environmental chemistry examples and contexts, we explore the what, why and how fast of chemistry: structure, energy and rate. These topics are examined in terms of the origin, transport and fate of chemicals in the biosphere, atmosphere, hydrosphere and lithosphere.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-03T09:28:23.792",
+  "code": "CHEM2401",
+  "title": "Physical Chemistry I",
+  "implementationYear": "2021"
+}

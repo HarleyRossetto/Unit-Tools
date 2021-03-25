@@ -1,0 +1,246 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain the uses of debt market instruments in the current environment.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critically evaluate debt capital market transactions.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Assess a company’s debt capital market requirements and make reasoned recommendations.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse and explain, both as an individual and a group, local and international debt markets, issues and trends.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for Interactive Classes",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECFS886",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "ECFS867 or AFCP8004",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Online exam will be held at the end of term and will be administered via iLearn",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "Activities completed in class time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "25",
+        "description": "This task will examine key debt market concepts and practical examples. Students will submit up to 2,500 words addressing a range of questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "50 minute online quiz.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Closed book exam of 2 hours duration with 10 minutes reading time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 1-Infrequent-Melbourne",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8086"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 1-Infrequent-City",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8086"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 1-Special",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8086"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 1, Special circumstances<br />Term 1, Infrequent attendance, City<br />Term 1, Infrequent attendance, Melbourne<br />",
+    "subject_search_title": "AFCP8086 - Debt Capital Markets",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "5",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit applies the principles outlined in AFCP8001 and AFCP8004 to the process of debt capital raisings within Australian, US and Asian markets. The unit aims to provide the student with a perspective on the development of debt capital markets, a theoretical understanding of the issues and a sense of the practical aspects and mechanics of executing a debt capital market transaction. This unit covers all short and long term debt markets, securitisation and credit derivatives.",
+    "search_title": "AFCP8086 - Debt Capital Markets",
+    "code": "AFCP8086",
+    "title": "Debt Capital Markets",
+    "content_type": "Unit",
+    "credit_points_header": "5 credit points"
+  },
+  "creditPoints": 5,
+  "description": "This unit applies the principles outlined in AFCP8001 and AFCP8004 to the process of debt capital raisings within Australian, US and Asian markets. The unit aims to provide the student with a perspective on the development of debt capital markets, a theoretical understanding of the issues and a sense of the practical aspects and mechanics of executing a debt capital market transaction. This unit covers all short and long term debt markets, securitisation and credit derivatives.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-12T09:18:43.907",
+  "code": "AFCP8086",
+  "title": "Debt Capital Markets",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate knowledge of theories of child language acquisition and their predictions for the developmental path",
+        "code": "ULO1"
+      },
+      {
+        "description": "Develop skills using data from corpora of child language, and searching them for relevant information, including using CLAN, a software program that searches transcripts of children's spontaneous speech in a repository of child language data.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Test linguistic hypotheses, and make further predictions through analysis and interpretation of existing acquisition data, either from a corpus of child language data or from existing experiments.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate methodologies for assessing children's linguistic knowledge including standardised tests and experimental methodologies, and command the ethical issues surrounding working with children",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Tutorial and lecture preparations (including worksheets)",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Investigate corpus and existing experimental data to answer questions",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LING323, LING334",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "20cp in LING units at 2000 level or above including (LING220 or LING2220)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Analysing child language data",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "35",
+        "description": "In this assignment, you use child language data from the CHILDES corpora in order to test linguistic hypotheses about language development. You will organise the data, use graphs or charts to illustrate findings, and interpret the data.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Review Quiz 2",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "This quiz reviews lecture and tutorial content on early child language acquisition",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Review Quiz 1",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "This quiz reviews foundational issues and theories of child language acquisition",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "The final examination reviews lecture/tutorial content for the entire unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LING3384-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LING3384"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LING3384-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LING3384"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "LING3384 - Child Language Acquisition: Morphology and Syntax",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is an introduction to current theories of child language acquisition, including the generative approach and usage-based approaches. The focus of the unit is typically-developing children&#39;s acquisition of morphology and syntax, but we also discuss children with developmental language delay. Tutorials review online lecture content, test linguistic hypotheses by investigating transcript data from children&#39;s spontaneous speech, and discuss appropriate methodologies for evaluating knowledge of language in different populations of children. This unit introduces foundational theoretical knowledge regarding child language development that is important for anyone wishing to do the Master of Speech and Language Pathology and work with children.",
+    "search_title": "LING3384 - Child Language Acquisition: Morphology and Syntax",
+    "code": "LING3384",
+    "title": "Child Language Acquisition: Morphology and Syntax",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is an introduction to current theories of child language acquisition, including the generative approach and usage-based approaches. The focus of the unit is typically-developing children&#39;s acquisition of morphology and syntax, but we also discuss children with developmental language delay. Tutorials review online lecture content, test linguistic hypotheses by investigating transcript data from children&#39;s spontaneous speech, and discuss appropriate methodologies for evaluating knowledge of language in different populations of children. This unit introduces foundational theoretical knowledge regarding child language development that is important for anyone wishing to do the Master of Speech and Language Pathology and work with children.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-18T11:15:12.955",
+  "code": "LING3384",
+  "title": "Child Language Acquisition: Morphology and Syntax",
+  "implementationYear": "2021"
+}

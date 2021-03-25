@@ -1,0 +1,186 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "create independent and collaborative discipline-specific work.",
+        "code": "ULO2"
+      },
+      {
+        "description": "identify and analyse a broad range of musical theatre productions and genres.",
+        "code": "ULO1"
+      },
+      {
+        "description": "evaluate multidisciplinary skills and knowledge to produce, direct and/or realise a musical theatre performance.",
+        "code": "ULO3"
+      },
+      {
+        "description": "apply academic and reflective writing skills that demonstrate disciplinary knowledge.",
+        "code": "ULO5"
+      },
+      {
+        "description": "communicate musical theatre conventions and production.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading, independent research and practices - 2 hours each week for 12 weeks",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "DANC200 and MMCC2005",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Pre-requisite 130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Performance Project",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "50",
+        "description": "Students participate in a collaborative creative process that culminates in a multidisciplinary music theatre performance. Projects will focus on the creation of an individual component and then the subsequent integration of musical theatre components. Class presentations relating to the performance project will include tutorial discussions of works in progress. An individual reflection statement will be uploaded as the final part of this performance project. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Students will prepare an essay that addresses a specific question available in iLearn. Students will use academic sources and examples from their own research to support the identification and evaluation of the components of musical theatre production/s. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC3005-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3005"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC3005-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3005"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MMCC3005 - Musical Theatre ",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores the vast and complex world of musical theatre, a constantly evolving multidisciplinary genre in the music, performing arts and entertainment industries. The unit mixes theory and practice that investigate theatre and performance that integrates voice, music and movement. Students explore methods of musical theatre creation, appreciation and performance through industry case studies and the production of collaborative group projects in which students assume defined roles. No prior discipline-specific knowledge is required.",
+    "search_title": "MMCC3005 - Musical Theatre ",
+    "code": "MMCC3005",
+    "title": "Musical Theatre ",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores the vast and complex world of musical theatre, a constantly evolving multidisciplinary genre in the music, performing arts and entertainment industries. The unit mixes theory and practice that investigate theatre and performance that integrates voice, music and movement. Students explore methods of musical theatre creation, appreciation and performance through industry case studies and the production of collaborative group projects in which students assume defined roles. No prior discipline-specific knowledge is required.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:53:13.518",
+  "code": "MMCC3005",
+  "title": "Musical Theatre ",
+  "implementationYear": "2021"
+}

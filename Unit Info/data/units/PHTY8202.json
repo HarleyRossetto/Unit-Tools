@@ -1,0 +1,284 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Implement safe practices by identifying adverse events and near misses, and by minimising risk associated with physiotherapy practice, including recognition of situations that are outside the scope of expertise and/or competence, and by taking appropriate and timely action (<strong>Clinical Practitioner/Engaged Global Citizen</strong>)",
+        "code": "ULO5"
+      },
+      {
+        "description": "Use clear, accurate, sensitive and effective communication, including verbal and non-verbal forms, to support the development of trust and rapport with clients, carers and other professionals. <strong>(Professional/Clinical Practitioner)</strong>",
+        "code": "ULO2"
+      },
+      {
+        "description": "Accurately evaluate and communicate your own knowledge and performance including strengths and areas for improvement, using relevant professional benchmarks. (<strong>Professional/Clinical Practitioner</strong>)",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate professional behaviour and appropriate communication in accordance with ethical, legal and professional standards of care when interacting with clients, clinical educators, other health professionals and the host organisation. (<strong>Professional/Clinical Practitioner</strong>)",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply knowledge and skills to plan and implement an efficient, effective, culturally responsive and client centred physiotherapy assessment. <strong>(Engaged Global Citizen/Clinical Practitioner)</strong>",
+        "code": "ULO3"
+      },
+      {
+        "description": "Plan and implement an appropriate intervention based on analysis and interpretation of assessment findings, using evidence-based practice, and client centred principles to inform decision making. (<strong>Clinical Practitioner/Scientist &amp; Scholar</strong>)",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "(PHTY805 or PHTY8105) and (PHTY806 or PHTY8106) and (PHTY807 or PHTY8107) and (MEDI912 or MEDI8102 or PHTY804 or PHTY8104)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PHTY810",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "PHTY811 or PHTY8203",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Clinical Placement Logbook. ",
+        "type": {
+          "label": "Log book",
+          "value": "log_book"
+        },
+        "weight": "0",
+        "description": "You will submit a Clinical Placement Logbook along with a Logbook Summary at the completion of this clinical placement.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "End Unit Student Self Assessment",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "0",
+        "description": "You will assess your own performance and behaviour in the clinical setting at the completion of the unit, using the Assessment of Physiotherapy Practice (APP). Your self assessment will be compared with the Clinical Educators assessment at the completion of the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid Unit Assessment",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "0",
+        "description": "The primary Clinical Educator will provide feedback on your performance and behaviour in the clinical setting at the midpoint of the unit, using a national standardised tool, the Assessment of Physiotherapy Practice (APP).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "End Unit Assessment",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "70",
+        "description": "At the completion of the unit the primary Clinical Educator will assess your performance and behaviour in the clinical setting using the Assessment of Physiotherapy Practice (APP) which will be used to evaluate achievement of unit learning outcomes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid Unit Student Self Assessment",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "0",
+        "description": "You will assess your own performance and behaviour in the clinical setting at the midpoint of the unit, using the Assessment of Physiotherapy Practice (APP). Your self assessment will be compared with the Clinical Educators assessment at the midpoint of the placement.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Viva Examination",
+        "type": {
+          "label": "Viva/oral examination",
+          "value": "viva_oral_exam"
+        },
+        "weight": "30",
+        "description": "You will provide a handover of a patient you have been involved with during your placement and describe and justify evidence based assessment and treatment choices using sound clinical reasoning.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-On location at placement",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8202"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-On location at placement",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8202"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-On location at placement",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8202"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special-On location at placement",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8202"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, On location at placement<br />Session 2, Special circumstances, On location at placement<br />Session 2, Weekday attendance, On location at placement<br />Session 1, Special circumstances, On location at placement<br />",
+    "subject_search_title": "PHTY8202 - Clinical Physiotherapy Placement III",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Health Professions"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This is the third five-week full time clinical placement where you will be a member of a healthcare team working with individuals or groups with a variety of health conditions. Your placement will concentrate on acute care, primary care, or rehabilitation in a metropolitan, regional or rural setting, not repeating the area covered in PHTY8200 and PHTY8201. You will deliver person-centred health care under supervision. Building upon your knowledge and understanding of common health conditions, assessment, analysis and intervention skills which you acquired across year 1, you will integrate and develop clinical reasoning and diagnostic skills to formulate and deliver evidence-based physiotherapy intervention. You will strengthen your understanding of healthcare systems and the impact of biopsychosocial factors on health and wellbeing, whilst enhancing your skills in the provision of socially and culturally respectful healthcare. You will be expected to demonstrate standards of professionalism, ethical behaviour and safety consistent with expectations of the physiotherapy profession. You will be required to demonstrate significant progress toward the development of the Macquarie DPT Graduate Capabilities: Scientist and Scholar, Clinical Practitioner, Engaged Global Citizen and Professional, and the Physiotherapy practice thresholds in Australia and Aotearoa New Zealand.",
+    "search_title": "PHTY8202 - Clinical Physiotherapy Placement III",
+    "code": "PHTY8202",
+    "title": "Clinical Physiotherapy Placement III",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This is the third five-week full time clinical placement where you will be a member of a healthcare team working with individuals or groups with a variety of health conditions. Your placement will concentrate on acute care, primary care, or rehabilitation in a metropolitan, regional or rural setting, not repeating the area covered in PHTY8200 and PHTY8201. You will deliver person-centred health care under supervision. Building upon your knowledge and understanding of common health conditions, assessment, analysis and intervention skills which you acquired across year 1, you will integrate and develop clinical reasoning and diagnostic skills to formulate and deliver evidence-based physiotherapy intervention. You will strengthen your understanding of healthcare systems and the impact of biopsychosocial factors on health and wellbeing, whilst enhancing your skills in the provision of socially and culturally respectful healthcare. You will be expected to demonstrate standards of professionalism, ethical behaviour and safety consistent with expectations of the physiotherapy profession. You will be required to demonstrate significant progress toward the development of the Macquarie DPT Graduate Capabilities: Scientist and Scholar, Clinical Practitioner, Engaged Global Citizen and Professional, and the Physiotherapy practice thresholds in Australia and Aotearoa New Zealand.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-18T11:52:13.201",
+  "code": "PHTY8202",
+  "title": "Clinical Physiotherapy Placement III",
+  "implementationYear": "2021"
+}

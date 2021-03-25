@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Promote students' positive healthy decision making and the engagement of all students in an active lifestyle.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Plan and assess learning experiences focusing on historical content, skills, values and attitudes in an integrated manner including understanding of strategies for differentiating teaching to meet the diverse learning needs of students.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explain the multiple historical and cultural perspectives and viewpoints - focussing on childhood, environments, societies and histories in global contexts and in Australia.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Examine learning of â€˜shared heritage' with students, families and community - identifying strategies for extending learning beyond the classroom.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify the five essential skills that students develop from PDHPE.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Participate in programs that develop the pre-service teacher's skills in human movement and sports skills, gymnastics, aquatics and interpersonal skills.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Articulate theoretical and ecological understandings of citizenship, social justice and democracy across contextual layers and diverse groups.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Plan and assess health focused experiences in the areas of personal development, health and physical activity.",
+        "code": "ULO8"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECH230, ECH332, ECH330, ECHE330",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(ECH130 or ECHE1300) and (ECHE340 or ECHE3400)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "K-6 HSIE Lesson Plan",
+        "type": {
+          "label": "Lesson plan",
+          "value": "lesson_plan"
+        },
+        "weight": "35",
+        "description": "Develop one Geography OR History lesson based on outcomes from the NSW K-10 Geography syllabus or the NSW K -10 History syllabus. This lesson will also display elements of the NSW Quality Teaching Framework (QTF) and a justification statement about the elements you are meeting.(Pages: 4)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Designing a school excursion",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "30",
+        "description": "Propose an excursion opportunity for primary school aged children that addresses at least two HSIE and two PDHPE syllabus outcomes. (Pages:6-8 based on specific requirements)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "K-6 PDHPE Assessment Design",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "35",
+        "description": "Design an assessment task that addresses at least TWO K-6 PDHPE outcomes. Within the design process you must justify how you are influencing health or physical literacy and how you would prepare students based on evidence-based pedagogy. (Pages: 4)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECHE3300-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE3300"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECHE3300-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE3300"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Special circumstances, Other<br />",
+    "subject_search_title": "ECHE3300 - PDHPE/HSIE",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will introduce students to the NESA website and the resources available to support teachers in planning, scoping and implementing curriculum effectively. Assessment systems, including NAPLAN will be examined and students will practice analysing assessment data effectively. In particular, students will be reviewing the Key Learning Areas of: Mathematics; Personal Development, Health and Physical Education (PDHPE); Human Society and its Environment (HSIE). This unit will develop students&#39; understandings of effective teaching and assessment, including literacy and numeracy learning, across curriculum areas in the K-6 context.",
+    "search_title": "ECHE3300 - PDHPE/HSIE",
+    "code": "ECHE3300",
+    "title": "PDHPE/HSIE",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will introduce students to the NESA website and the resources available to support teachers in planning, scoping and implementing curriculum effectively. Assessment systems, including NAPLAN will be examined and students will practice analysing assessment data effectively. In particular, students will be reviewing the Key Learning Areas of: Mathematics; Personal Development, Health and Physical Education (PDHPE); Human Society and its Environment (HSIE). This unit will develop students&#39; understandings of effective teaching and assessment, including literacy and numeracy learning, across curriculum areas in the K-6 context.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T11:43:13.709",
+  "code": "ECHE3300",
+  "title": "PDHPE/HSIE",
+  "implementationYear": "2021"
+}

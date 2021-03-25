@@ -1,0 +1,182 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate knowledge of psychopathology and classification systems through selection and application of diagnostic tools.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Develop a structured interviewing protocol.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Formulate hypotheses about organisational problems relating to employee mental health.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate a working knowledge of theories and models of workplace stress.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate an appreciation of legal, professional, sexual and cultural issues in the workplace.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Design psychological interventions using the appropriate theories and models.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings for on campus tutorial",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Online discussion board",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSYO904, PSY904",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MOrgPsych",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Interview Schedule",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "50",
+        "description": "Development of an interview protocol for case formulation of a workplace well-being problem 2000 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Treatment plan",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "50",
+        "description": "Produce a 10 session treatment plan for the client displayed in the vignette – up to 2000 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYO8904"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Intensive attendance, North Ryde<br />",
+    "subject_search_title": "PSYO8904 - Counselling and Mental Health in Organisations",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Organisations are increasingly becoming involved in the mental health and wellbeing of employees. It is likely that this is a consequence of two central factors: (1) community pressure for organisations to take greater responsibility for employee mental health (as is the case for physical health), and (2) ensuring performance in a competitive commercial climate. Thus, organisational psychologist may find the requirement to blend their knowledge of organisational behaviour with knowledge of mental health as it relates to the workplace. This unit aims to provide Masters students in Organisational psychology with a basic understanding of counselling techniques, suicide-risk assessment, common psychopathology and intervention strategies and their relevance to practice within organisations.",
+    "search_title": "PSYO8904 - Counselling and Mental Health in Organisations",
+    "code": "PSYO8904",
+    "title": "Counselling and Mental Health in Organisations",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Organisations are increasingly becoming involved in the mental health and wellbeing of employees. It is likely that this is a consequence of two central factors: (1) community pressure for organisations to take greater responsibility for employee mental health (as is the case for physical health), and (2) ensuring performance in a competitive commercial climate. Thus, organisational psychologist may find the requirement to blend their knowledge of organisational behaviour with knowledge of mental health as it relates to the workplace. This unit aims to provide Masters students in Organisational psychology with a basic understanding of counselling techniques, suicide-risk assessment, common psychopathology and intervention strategies and their relevance to practice within organisations.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:07:26.17",
+  "code": "PSYO8904",
+  "title": "Counselling and Mental Health in Organisations",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,227 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate specialised application of interpersonal skills that enable effective oral and written communication with organisational clients throughout a change/development process",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply competence in diagnosing, planning, implementing, and evaluating an organisational change/development intervention",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe and apply theories and models of change management and organisational development.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate an advanced understanding of the application of skills required when designing, administering, and reporting surveys in an organisational setting, including ethical issues.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify and compare evidence-based individual, group, and organisational-wide approaches to organisational change/development interventions",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MOrgPsych",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PSYO915, PSYC965",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Using surveys in organisational settings",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "40",
+        "description": "Students are required to respond to a series of 5 short answer questions of approximately 500 words each, in relation to a hypothetical organisational change scenario",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Culture change case Study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "60",
+        "description": "In this case study analysis of 2500 words, students are required to link culture and culture change theories with organisational development interventions in a real business situation. It highlights the practical and theoretical issues involved in identifying cultural challenges and designing and implementing a culture change intervention.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PSYO8915",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PSYO8915"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PSYB8965"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Organisational Change and Development",
+                "academic_item_code": "PSYB8965",
+                "academic_item_url": "/2020/units/PSYB8965"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYO8915"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYO8915"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Intensive attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PSYO8915 - Organisational Change and Development",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to enable students to acquire the knowledge necessary to identify the need for organisational change, establish the principles of organisational change from an organisational psychological perspective, and evaluate the outcomes of organisational change, particularly in terms of the psychological demands on workers. Students will be introduced to survey design and development to meet a range of purposes and will learn about the practical aspects of survey administration.",
+    "search_title": "PSYO8915 - Organisational Change and Development",
+    "code": "PSYO8915",
+    "title": "Organisational Change and Development",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to enable students to acquire the knowledge necessary to identify the need for organisational change, establish the principles of organisational change from an organisational psychological perspective, and evaluate the outcomes of organisational change, particularly in terms of the psychological demands on workers. Students will be introduced to survey design and development to meet a range of purposes and will learn about the practical aspects of survey administration.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T20:00:03.936",
+  "code": "PSYO8915",
+  "title": "Organisational Change and Development",
+  "implementationYear": "2021"
+}

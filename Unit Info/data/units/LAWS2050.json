@@ -1,0 +1,230 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Conduct interdisciplinary research in criminology in the course of developing problem-solving skills, and identify the role played by these disciplines in influencing legal processes and policy-making forums",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse and apply modern theories of criminal justice (restorative justice, responsive regulation and reintegrative shaming)",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critique current policy initiatives in relation to crime through the application of established theoretical frameworks",
+        "code": "ULO4"
+      },
+      {
+        "description": "Describe and critique how legal institutions and governance frameworks endeavour to regulate the conduct of individuals and corporations in relation to activities that impact on community welfare and the public interest",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Set weekly readings and online content",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "60cp including LAWS1010 or LEX101 or LEX102 or PICT101 or PICT103 or PICT1030 or LAW109 or LAWS1300",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LAWS250",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Students will be required to submit a research paper on an assigned topic which consolidates their learning in the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Regular quizzes based on the unit content",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Take Home Exam",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "40",
+        "description": "Open book take-home exam of short questions covering topics discussed in the unit",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "30",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS2050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS2050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS2050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS2050"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Infrequent attendance, North Ryde*<br />Session 2, Special circumstances<br />Session 2, Special circumstances, Other<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "LAWS2050 - Crime, Policy and Governance",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores dynamic public policy development in relation to crime. It examines how governance frameworks (including legal and regulatory institutions) endeavour to regulate conduct by individuals and corporations, and how these frameworks aim to promote public interests and community welfare. Students will analyse the impact of various stakeholders in the criminal justice system on policy formulation, including in relation to corporate, environmental and moral crimes. They will be challenged to critically analyse real-world reform initiatives and to appreciate how criminological expertise and modern concepts in governance theory (such as reintegrative shaming, responsive regulation and restorative justice) are articulated in legal and policy-making forums.",
+    "search_title": "LAWS2050 - Crime, Policy and Governance",
+    "code": "LAWS2050",
+    "title": "Crime, Policy and Governance",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores dynamic public policy development in relation to crime. It examines how governance frameworks (including legal and regulatory institutions) endeavour to regulate conduct by individuals and corporations, and how these frameworks aim to promote public interests and community welfare. Students will analyse the impact of various stakeholders in the criminal justice system on policy formulation, including in relation to corporate, environmental and moral crimes. They will be challenged to critically analyse real-world reform initiatives and to appreciate how criminological expertise and modern concepts in governance theory (such as reintegrative shaming, responsive regulation and restorative justice) are articulated in legal and policy-making forums.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T16:29:23.944",
+  "code": "LAWS2050",
+  "title": "Crime, Policy and Governance",
+  "implementationYear": "2021"
+}

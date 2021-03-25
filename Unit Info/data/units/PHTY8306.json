@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Work effectively, independently and cooperatively with peers, academics and/or clinicians  in a collaborative research environment to successfully complete a research project.<strong> (Professional)</strong>",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply both independent and collaborative strategies to advance your research knowledge and skills relevant to your research project. <strong>(Scientist and Scholar)</strong>",
+        "code": "ULO4"
+      },
+      {
+        "description": "Effectively reflect and discuss research processes and communicate research findings in a professional manner. <strong>(Professional)</strong>",
+        "code": "ULO3"
+      },
+      {
+        "description": "Implement appropriate research methodology, skills and data analysis strategies to answer a research question relevant to physiotherapy practice and/or healthcare.<strong> (Scientist and Scholar)</strong>",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Undertaking all aspects of the research project.",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Research project and assessment support and resources.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PHTY819 or PHTY8303",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PHTY901, PHTY904",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Manuscript",
+        "type": {
+          "label": "Thesis",
+          "value": "thesis"
+        },
+        "weight": "40",
+        "description": "You will present your completed research project in the form of a manuscript as if for submission to a journal.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research participation blog",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "10",
+        "description": "You will provide evidence of effective participation in research project processes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research skill development and reflection",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "20",
+        "description": "Provide evidence of advanced skill development and reflect on your performance in an online forum with peers and academic staff.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Oral Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "You will deliver an oral presentation of your research findings.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PHTY8306-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8306"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PHTY8306-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8306"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "PHTY8306 - Research Project and Seminar",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Health Professions"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "20",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will extend your research skills to successfully undertake and complete a research project, demonstrating the capacity to generate new knowledge and apply existing knowledge to answer a question relevant to physiotherapy. Working closely with a research supervisor you will integrate your professional, clinical and research skills to collect, evaluate and analyse data, and then interpret and disseminate the results.",
+    "search_title": "PHTY8306 - Research Project and Seminar",
+    "code": "PHTY8306",
+    "title": "Research Project and Seminar",
+    "content_type": "Unit",
+    "credit_points_header": "20 credit points"
+  },
+  "creditPoints": 20,
+  "description": "This unit will extend your research skills to successfully undertake and complete a research project, demonstrating the capacity to generate new knowledge and apply existing knowledge to answer a question relevant to physiotherapy. Working closely with a research supervisor you will integrate your professional, clinical and research skills to collect, evaluate and analyse data, and then interpret and disseminate the results.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T09:52:43.282",
+  "code": "PHTY8306",
+  "title": "Research Project and Seminar",
+  "implementationYear": "2021"
+}

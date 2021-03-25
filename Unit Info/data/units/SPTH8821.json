@@ -1,0 +1,186 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Review and prioritise research tasks and regularly evaluate project time management to ensure timely completion of each section.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Select, evaluate, and critically review relevant literature, observing copyright and academic honesty regulations.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Carry out a research plan that is consistent with all relevant ethical, legislative, and legal requirements for speech pathology research.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Integrate knowledge of research methodologies with a research question/hypothesis that is clinically relevant.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop and maintain a supportive and collaborative network of relationships with other student researchers, research supervisors, and advisors.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students undertake a small research project.",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "SPH821",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "80cp of SPHL or SPTH units at 8000 level and WAM of 65 andPermission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Literature review",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "20",
+        "description": "Students will submit a literature review for their research project in a format that is suitable for use in the final thesis. 4000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research proposal presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "Students will present their research project outline, including ethics application to peers and supervisors. 30 minutes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research thesis",
+        "type": {
+          "label": "Thesis",
+          "value": "thesis"
+        },
+        "weight": "50",
+        "description": "Students will submit the final report of their research project in thesis format. 10,000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Full year 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Full year 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPTH8821"
+        }
+      }
+    ],
+    "unit_offering_text": "Full year 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "SPTH8821 - Speech Pathology Project",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "20",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This full-year unit requires students to conduct a small piece of original research under supervision, with a written report of around 10,000 words to be submitted. The topic will be negotiated with lecturers within the department and supervision of projects will be arranged with appropriate specialists in the subject area. Students enrolled in this unit may audit SPTH8810 lectures that are relevant to their project development.",
+    "search_title": "SPTH8821 - Speech Pathology Project",
+    "code": "SPTH8821",
+    "title": "Speech Pathology Project",
+    "content_type": "Unit",
+    "credit_points_header": "20 credit points"
+  },
+  "creditPoints": 20,
+  "description": "This full-year unit requires students to conduct a small piece of original research under supervision, with a written report of around 10,000 words to be submitted. The topic will be negotiated with lecturers within the department and supervision of projects will be arranged with appropriate specialists in the subject area. Students enrolled in this unit may audit SPTH8810 lectures that are relevant to their project development.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:46:17.712",
+  "code": "SPTH8821",
+  "title": "Speech Pathology Project",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate, make informed decisions regarding, and report on the methods, data, and results from speech perception experiments.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Communicate on phenomena and theories of speech perception in a range of populations",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse, interpret and report on clinical auditory data to engage with theoretical issues relating to clinical assessment techniques.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate an understanding of the anatomy and physiology of the ear to the cortex as they relate to hearing",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "The assigned readings, together with the lectures, provide the critical background for successful completion of the assignments and exam.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "50cp at 2000 level or above including LING2217 or LING217",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "SPH307, SPH312",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Hearing Science Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "The aim of the final exam is to assess the learning outcomes related to hearing science. Duration: 2 hours _&#61;(&#43; 10 minutes reading time)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Discrimination and Categorization Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Discrimination and Categorization of speech sounds are benchmark abilities and paradigms in the study of speech perception. This practicum will introduce you to the experimental procedures involved in measuring speech sound discrimination and categorization. You will also learn how to process and interpret raw datasets and use findings to answer research questions. These abilities are assessed in an online quiz. Submission of this assignment is compulsory.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Experiment Proposal",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Speech perception research, like all science, is an incremental process. This assessment invites you to formulate a follow-up experiment on a speech perception study published in an international scientific journal in recent years (to be specified each offering). You will be asked to write a concise experiment proposal, in which you 1) critically evaluate the original paper; 2) formulate a question and hypothesis; 3) outline appropriate methods and predicted results; 4) discuss implications of predicted outcomes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "DPOAE Practicum and Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "In this practicum, you will develop an understanding of the clinical use of distortion product otoacoustic emissions (DPOAEs), the clinical equipment used to measure them and the procedure undertaken for this. You will also develop an appreciation for physiological and nonphysiological factors that could result in an absent evoked emission. Submission of this assignment is compulsory. Word count: 2500 words (excluding title page and references)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "SPHL3312-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPHL3312"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SPHL3312-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPHL3312"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "SPHL3312 - Speech Perception and Hearing Science",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is a detailed examination of speech perception and hearing, and provides training in the scientific methods required to expand knowledge in both domains. This unit is based around interactive lectures that present the theoretical content, and practical workshops that support students in completing research projects and proposals. Essential topics in speech perception include the (categorical) perception of segments and the perception and processing of prosody. These are introduced from the perspective of monolingual adults, and further explored in a range of other populations, including bilinguals and listeners with hearing loss. The discussion of hearing covers the structure of the outer, middle and inner ear, the auditory nerve, the auditory brainstem and the auditory cortex, as well as the mechanisms of hearing and the physiology of the auditory system. A final focus of this unit is the psychoacoustics of hearing and speech perception.",
+    "search_title": "SPHL3312 - Speech Perception and Hearing Science",
+    "code": "SPHL3312",
+    "title": "Speech Perception and Hearing Science",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is a detailed examination of speech perception and hearing, and provides training in the scientific methods required to expand knowledge in both domains. This unit is based around interactive lectures that present the theoretical content, and practical workshops that support students in completing research projects and proposals. Essential topics in speech perception include the (categorical) perception of segments and the perception and processing of prosody. These are introduced from the perspective of monolingual adults, and further explored in a range of other populations, including bilinguals and listeners with hearing loss. The discussion of hearing covers the structure of the outer, middle and inner ear, the auditory nerve, the auditory brainstem and the auditory cortex, as well as the mechanisms of hearing and the physiology of the auditory system. A final focus of this unit is the psychoacoustics of hearing and speech perception.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T09:29:24.126",
+  "code": "SPHL3312",
+  "title": "Speech Perception and Hearing Science",
+  "implementationYear": "2021"
+}

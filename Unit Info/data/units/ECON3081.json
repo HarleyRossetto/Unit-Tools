@@ -1,0 +1,285 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically analyse economic issues and make policy recommendations based on economic theories and sound statistical or econometric evidence.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Create economic knowledge-based solutions that can be applied to problems faced by key economic decision makers.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Work in a team to develop a major group economic research report for an Industry Partner.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Effectively communicate solutions to economic problems to specialist and non-specialist audiences, in written reports and oral presentations.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading the assigned literature",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECON381",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "10cp from ECON units at 3000 level",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above including ((ECON203 or ECON2003) and (ECON204 or ECON2004))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Team Research Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "60",
+        "description": "The team research project consists of three parts.<br />1. Presentation 1 - Week 8 (10%). During the week 8 lecture, each team will be asked to present a summary of the progress made on their research project to the class.This presentation is designed to provide opportunities for constructive feedback from peers and academic staff that can be used to inform the remainder of their research projects. <br />2. Presentation 2 and Industry Partner Presentations - Weeks 11, 12 and 13 (10%). During lectures in weeks 11,12 and 13, each team will be asked to present their final research findings to the industry partner along with their peers, academic staff and a selection of faculty PACE/program coordinators. <br />3.Team research paper - Week 13 (40%). Each team is required to submit to Turnitin a 5,000-word economic research paper based on the topics presented by the industry partner at the beginning of the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Research Project Pitch",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "10",
+        "description": "At the beginning of the session, students will be placed into teams of 5. Each team is then expected to complete a research project pitch, which aims to help students develop a clear sense of direction early on in their project and to support teams in organising, planning and monitoring their progress as they move forward during the session. Each research project pitch will contain information pertaining to both the individual research goals of the student and the overall research goals of each team. Completed research project pitches must be uploaded to Turnitin by week 5.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Research report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "A major research exercise, culminating in a group report, based on topics supplied at the beginning of the session by an Industry Partner. Teams will submit a 5,000 word research paper as well as presenting their final research findings during the final weeks of the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Research progress reports",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "10",
+        "description": "Students will submit 10 weekly progress reports, each worth 1%. Each report will respond to questions relevant to the stage that they are up to with their research report.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A two-hour closed book examination will be held during the University Examination Period. Part 1 will involve questions on the material covered in lectures. Part 2 will involve questions based on the Group Project.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Students will be given a set of essay questions, focusing on issues of economic sustainability in the context of the session&#39;s industry partner. The essay will be due in week 9.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECON3081-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON3081"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECON3081-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON3081"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECON3081-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON3081"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECON3081-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON3081"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ECON3081 - Current Issues in Economics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Economics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "Students in this unit have the opportunity to complete a major research project that deals with current issues in economics, under the supervision of an academic research adviser. Real world research problems are provided by an industry partner. The unit provides an opportunity for students to gain a sound understanding of how to conduct a fully-fledged research project. Students will contextualise their graduate capabilities in their final group research report.",
+    "search_title": "ECON3081 - Current Issues in Economics",
+    "code": "ECON3081",
+    "title": "Current Issues in Economics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Students in this unit have the opportunity to complete a major research project that deals with current issues in economics, under the supervision of an academic research adviser. Real world research problems are provided by an industry partner. The unit provides an opportunity for students to gain a sound understanding of how to conduct a fully-fledged research project. Students will contextualise their graduate capabilities in their final group research report.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-11T13:02:23.505",
+  "code": "ECON3081",
+  "title": "Current Issues in Economics",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,226 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse and resolve hypothetical problems, identifying legal and factual issues involving the law relating to equity and trusts.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Formulate and present oral and written arguments about equity and trusts, drawing upon relevant precedent and policy considerations.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically analyse the legal doctrine and policy that underpins equity and trusts.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly Readings for tutorials and assessments",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LAWS216 or LAWS2200",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LAW317, LAWS217",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Annotated Bibliography",
+        "type": {
+          "label": "Annotated bibliography",
+          "value": "annotated_bibliography"
+        },
+        "weight": "30",
+        "description": "Students will be required to locate and record citations on a relevant topic area and offer a descriptive and evaluative paragraph on the annotation to inform on the relevance, accuracy and quality of the sources cited.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Students will complete 2 quizzes during semester, one in first half of semester, one in second half.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Take Home Final Assessment ",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "50",
+        "description": "The final test may cover any or all topics and materials covered in the unit.The final assessment will be a time-limited task in the form of one problem question and one essay question.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS2500"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS2500"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS2500"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "30",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS2500"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde*<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Special circumstances, Other<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "LAWS2500 - Equity and Trusts",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit builds on student&#39;s knowledge of Property Law focusing on equitable notions of property, with a particular emphasis on the law of trusts. The unit examines the historical development of equity and its relationship to common law, the assignment and other dispositions of property in equity, the obligation of confidence in equity with respect to information, and fiduciary obligations. This unit will provide students with a theoretical grounding in the relevant principles as well as equip them with the capacity to apply these principles in practice.",
+    "search_title": "LAWS2500 - Equity and Trusts",
+    "code": "LAWS2500",
+    "title": "Equity and Trusts",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit builds on student&#39;s knowledge of Property Law focusing on equitable notions of property, with a particular emphasis on the law of trusts. The unit examines the historical development of equity and its relationship to common law, the assignment and other dispositions of property in equity, the obligation of confidence in equity with respect to information, and fiduciary obligations. This unit will provide students with a theoretical grounding in the relevant principles as well as equip them with the capacity to apply these principles in practice.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:14:21.736",
+  "code": "LAWS2500",
+  "title": "Equity and Trusts",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify, describe and evaluate a few aspects of Russian-speaking cultures and societies.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop elementary level skills in reading, writing, listening and speaking in the Russian language.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply relevant language conventions to create meaningful intercultural encounters.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate an awareness of some language and language use in both Russian and English.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify, evaluate and deploy the grammatical structures of Russian at elementary level.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to spend time on daily review of grammar and vocabulary. Students should be familiar with and feel comfortable with each week’s content before starting a new week. Class preparation time also includes time to study, revise seminar content and prepare for the quizzes and tests.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Not to count for credit for students who completed HSC Russian",
+        "type": {
+          "label": "Info",
+          "value": "info"
+        }
+      },
+      {
+        "description": "RSN100, RSN103, RSN104, RSN150",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Written test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The purpose of the test is to check students’ knowledge of all aspects of grammar and vocabulary that they learn throughout the session. This will be a part of regular seminar time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Oral test",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "35",
+        "description": "For the oral test, students have to prepare a short talk on a topic of their choice. Students will be assessed on their presentation, as well as their ability to answer follow-up questions. This will be a part of regular seminar time and preparation time. Online students will do this via Zoom.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "10",
+        "description": "Students have to employ their knowledge and engagement with material explained during session. This will be a part of regular session time and preparation time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final online test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "35",
+        "description": "Students have to answer question to demonstrate their knowledge and engagement with material explained during the session. This will be a part of regular seminar time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "RUSS1010-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "RUSS1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "RUSS1010-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "RUSS1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "RUSS1010-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "RUSS1010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "RUSS1010 - I Russian Studies 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This is an introductory Russian unit specifically designed for speakers of English who have no prior knowledge of Russian, or Russian background speakers who do not have literacy skills. The unit covers the main concepts of Russian grammar and vocabulary. It develops different functional skills of language usage: speaking, reading, writing and translating from and into Russian. ",
+    "search_title": "RUSS1010 - I Russian Studies 1",
+    "code": "RUSS1010",
+    "title": "I Russian Studies 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This is an introductory Russian unit specifically designed for speakers of English who have no prior knowledge of Russian, or Russian background speakers who do not have literacy skills. The unit covers the main concepts of Russian grammar and vocabulary. It develops different functional skills of language usage: speaking, reading, writing and translating from and into Russian. ",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-25T15:43:43.479",
+  "code": "RUSS1010",
+  "title": "I Russian Studies 1",
+  "implementationYear": "2021"
+}

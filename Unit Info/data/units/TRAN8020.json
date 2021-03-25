@@ -1,0 +1,338 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply translation skills and knowledge to translate texts in a range of domains and genres.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply knowledge of professional ethics to translation tasks.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Evaluate, edit and revise target texts.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Undertake domain and genre specific research for the purpose of translation.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Work efficiently in a team through peer evaluation.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Explain translation choices informed by translation theory and self-reflection.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate critical analysis of source and target texts.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to prepare the relevant domain knowledge and take-home practice tasks",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Reading provided resources in ilearn and researching online resources",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Peer-led and self-directed translation practice",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(TRAN8077 or TRAN877) or TRAN816",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "TRAN820",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "End of Semester Examinations English into LOTE ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "Students are provided with three examination options to choose from:",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde, Session 2-Weekday-Korea, Session 1-Weekday-Korea",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "TRAN8020 Assignments",
+        "type": {
+          "label": "Translation",
+          "value": "translation"
+        },
+        "weight": "30",
+        "description": "Assignments include three types of tasks: English into LOTE, LOTE into English, and Revision. About 3000 words in total. (about 750 words each assignment)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Timed Exam ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "Students are provided with three examination options to choose from:",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Translation Project and Self reflective Annotations",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "10",
+        "description": "Students self manage translation texts and their translations 3000 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "TRAN8020-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-Korea",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8020-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8020-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8020-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-Korea",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8020-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8020-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8020-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8020-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8020"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Special circumstances<br />Session 1, Weekday attendance, Korea<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Weekday attendance, Korea<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Fully online/virtual<br />",
+    "subject_search_title": "TRAN8020 - Applied Translation Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students with practical opportunities to further develop their translation competence. Students will practice translating a range of domain-specific texts common in professional practice. The unit takes a problem-based approach encouraging students to identify and discuss problems encountered in the course of translation related to textual, stylistic, register, and language usage issues. Students will learn about, apply and evaluate strategies to solve the more challenging translation problems.",
+    "search_title": "TRAN8020 - Applied Translation Practice",
+    "code": "TRAN8020",
+    "title": "Applied Translation Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides students with practical opportunities to further develop their translation competence. Students will practice translating a range of domain-specific texts common in professional practice. The unit takes a problem-based approach encouraging students to identify and discuss problems encountered in the course of translation related to textual, stylistic, register, and language usage issues. Students will learn about, apply and evaluate strategies to solve the more challenging translation problems.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-18T11:29:52.803",
+  "code": "TRAN8020",
+  "title": "Applied Translation Practice",
+  "implementationYear": "2021"
+}

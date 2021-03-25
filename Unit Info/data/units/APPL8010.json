@@ -1,0 +1,271 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "explain the relations between specific acts of communication and the contexts in which they occur",
+        "code": "ULO6"
+      },
+      {
+        "description": "apply knowledge and understanding of the notions of genre, discourse, and multimodality to a consideration of communicative practices in a specific social context",
+        "code": "ULO1"
+      },
+      {
+        "description": "analyse the semiotic systems involved in specific acts of communication",
+        "code": "ULO5"
+      },
+      {
+        "description": "analyse patterns of meaning across different semiotic systems (e.g. language, image, layout) in specific communicative contexts",
+        "code": "ULO3"
+      },
+      {
+        "description": "analyse texts by applying knowledge of commonly occurring genres in educational and other contexts",
+        "code": "ULO2"
+      },
+      {
+        "description": "apply knowledge of social semiotic theory to identify systematic relationships between social context and discourse",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Completing online coursenotes",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Read the set readings and additional readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LING936, APPL901",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MAppLing or MAppLingTESOL or MTransInterMAppLingTESOL or MAccComm",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online discussions",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "5",
+        "description": "Participation in scheduled online discussions",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Multimodal Analysis and Commentary",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "50",
+        "description": "Analysis a multimodal text and write a commentary, 2,500 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "45",
+        "description": "Essay on multimodality, genre and discourse with discussion of specific context",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "APPL8010",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: APPL8010"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: APPL7020"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Designing and Conducting Language-related Research",
+                "academic_item_code": "APPL7020",
+                "academic_item_url": "/2020/units/APPL7020"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "APPL8010 - Genre, Discourse and Multimodality",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is concerned with the study of human communication from a social-semiotic perspective. It includes the study of the philosophical and practical differences between different schools of genre in applied linguistics; context-related patterns of communication in language and other semiotic systems (such as gesture, image, and layout); and the ways in which such patterns occur across semiotic systems and are systematically related. Multimodal communication in sites of practice such as educational, media, and professional contexts is explored and analysed from a coherent theoretical perspective.",
+    "search_title": "APPL8010 - Genre, Discourse and Multimodality",
+    "code": "APPL8010",
+    "title": "Genre, Discourse and Multimodality",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is concerned with the study of human communication from a social-semiotic perspective. It includes the study of the philosophical and practical differences between different schools of genre in applied linguistics; context-related patterns of communication in language and other semiotic systems (such as gesture, image, and layout); and the ways in which such patterns occur across semiotic systems and are systematically related. Multimodal communication in sites of practice such as educational, media, and professional contexts is explored and analysed from a coherent theoretical perspective.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T16:21:53.896",
+  "code": "APPL8010",
+  "title": "Genre, Discourse and Multimodality",
+  "implementationYear": "2021"
+}

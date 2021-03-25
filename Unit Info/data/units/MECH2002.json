@@ -1,0 +1,246 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply appropriate technology to investigate more complex fluid flow problems.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Exhibit proficiency in mathematical analysis, and the application of physics, associated with fluid mechanics.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Explain the fundamentals of static and dynamic fluid systems.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse simple static and dynamic fluid problems applied to real world problems.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "General reading and preparation of class related topics",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(MECH1001 or ENGG1050 or ENGG150 or CIVL1001 or PHYS140) and (MATH1025 or MATH1020 or MATH136 or MATH133)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MECH202",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Simulation Assignment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "10",
+        "description": "An assignment that requires the student to perform simulations for an engineering fluid mechanics problem with relevant software and analyse the results. A portion of this assessment work will be conducted during learning activities.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Diagnostic Test",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "5",
+        "description": "An opportunity for students to assess if they have the necessary knowledge to successfully complete this unit. A portion of this assessment work will be conducted during learning activities.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Final Examination assessing all material delivered throughout the unit. A portion of the preparation for this assessment task will be conducted during learning activities.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid Session Test",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "15",
+        "description": "Test assessing material delivered prior to this assessment. A portion of this assessment work will be conducted during learning activities.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Fluid Dynamic Laboratory Reports",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "12",
+        "description": "Laboratory reports written for three unique experiments demonstrating three different fluid dynamic principles. A portion of this assessment work will be conducted during learning activities. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Fluid Static Laboratory Reports",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "8",
+        "description": "Laboratory reports written for two unique experiments demonstrating two different fluid static principles. A portion of this assessment work will be conducted during learning activities.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MECH2002-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MECH2002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MECH2002-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MECH2002"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MECH2002 - Fluid Mechanics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "School of Engineering"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will examine the basic concepts of fluid mechanics. It will examine the roles of static fluid systems, dynamic fluid systems, and techniques to analyse these systems. This will include the concepts of pressure and head; hydrostatics; buoyancy; fundamental laws of fluid motion; accounting for losses, experimental and numerical techniques.",
+    "search_title": "MECH2002 - Fluid Mechanics",
+    "code": "MECH2002",
+    "title": "Fluid Mechanics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will examine the basic concepts of fluid mechanics. It will examine the roles of static fluid systems, dynamic fluid systems, and techniques to analyse these systems. This will include the concepts of pressure and head; hydrostatics; buoyancy; fundamental laws of fluid motion; accounting for losses, experimental and numerical techniques.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-07T11:33:02.894",
+  "code": "MECH2002",
+  "title": "Fluid Mechanics",
+  "implementationYear": "2021"
+}

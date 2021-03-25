@@ -1,0 +1,310 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate research findings to a scientific audience in written form by constructing a coherent, well structured document.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Plan and implement a research project to address this hypothesis using principles of experimental design and appropriate data collection methods for measuring and assessing biological processes.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop a testable biological hypothesis by reviewing and synthesizing previous research in the scientific literature.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate effective time and project management skills by working independently to collect scientific data and by documenting these efforts using a project notebook.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students undertake an independent research project under academic supervision.",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "BIOL860",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(20cp from (BIOL8610 or BIOL861) or BIOL873 or (BIOL8740 or BIOL874) or (BIOL8750 or BIOL875) or (BIOL8770 or BIOL877) or (BIOL8870 or BIOL887)) and permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Scientific Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Complete the Full Scientific Report in the form of a Scientific Paper",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Introduction and Methods",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Write the Introduction to the final report describing what is currently known in the area of your project and how your work will contribute to further understanding in this area, and outline the Methods used  (this forms part of the major report)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project proposal",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "20",
+        "description": "Write a short proposal explaining the work that you will undertake ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Supervisor Report",
+        "type": {
+          "label": "Performance",
+          "value": "performance"
+        },
+        "weight": "20",
+        "description": "Supervisors will provide a report on student performance, progress, abilities acquired and attendance throughout placement.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "BIOL8600-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8600"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL8600-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8600"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL8600-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8600"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL8600-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8600"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL8600-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8600"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL8600-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8600"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL8600-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8600"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL8600-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8600"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Special circumstances<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Infrequent attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Special circumstances, Other<br />Session 2, Weekday attendance, North Ryde<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "BIOL8600 - Biology Research Experience",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit enables the student to acquire biological research experience by undertaking a small independent research project under academic supervision. The research topic may be flexible, but in most cases it will be aligned with the objectives of an academic staff member involved in research. This unit can be combined with BIOL8710 Conservation in Practice for a more extended experience. Students are strongly encouraged to organise their project and supervisor well before commencing this unit.",
+    "search_title": "BIOL8600 - Biology Research Experience",
+    "code": "BIOL8600",
+    "title": "Biology Research Experience",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit enables the student to acquire biological research experience by undertaking a small independent research project under academic supervision. The research topic may be flexible, but in most cases it will be aligned with the objectives of an academic staff member involved in research. This unit can be combined with BIOL8710 Conservation in Practice for a more extended experience. Students are strongly encouraged to organise their project and supervisor well before commencing this unit.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-03T09:16:33.211",
+  "code": "BIOL8600",
+  "title": "Biology Research Experience",
+  "implementationYear": "2021"
+}

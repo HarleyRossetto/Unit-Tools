@@ -1,0 +1,258 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Understand the significance of the social construction of literacy in syllabus materials and for classroom practice with diverse student populations.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Employ the principles and practices of literacy and numeracy in planning for and teaching in diverse classrooms.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Evaluate the significance of cultural and linguistic factors for numeracy, mathematics, language development and literacy.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Analyse the numeracy and literacy demands of subject areas and syllabuses materials and the implications for effective classroom practice.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Undertake independent research to interpret data relating to student backgrounds and learning needs and design research and theory informed culturally inclusive and sustaining experiences and resources.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Critique prior cultural assumptions and beliefs about teaching literacy and numeracy and demonstrate a reflexive approach to improving knowledge and practice of teaching.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Critique (or reflect on) one's professional practice and that of their peers.",
+        "code": "ULO9"
+      },
+      {
+        "description": "Develop knowledge of a range of text types typical of secondary subject areas, their schematic structure and grammatical features and wider understandings of teaching reading and writing in subject areas and more broadly.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explore, implement and evaluate a range of evidence based teaching techniques in the professional experience placement.",
+        "code": "ULO8"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "iLearn discussion forum; iLearn Blog; iLearn Quiz",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Online readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "EDST8237",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "10cp from EDST8220 - EDST8234",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Portfolio of learning strategies and resources ",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "50",
+        "description": "Portfolio of learning strategies and resources for teaching numeracy and literacy in diverse classrooms. Including analysis of subject area text for bias, suitability for linguistically diverse classrooms and annotated to show relevant theory and research. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Independent research project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "45",
+        "description": "Designing and conducting a proposed small-scale practitioner research project relating to literacy/numeracy and EALD learners 1500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "ASSET Survey",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "5",
+        "description": "The 5 part ASSET will provide the Department of Educational Studies with a detailed understanding of our students and their experiences; including, who they are, their attitudes and beliefs about education, and how prepared they feel to work as teachers. In addition, as part of the registration of the Department of Educational Studies teacher preparation programs with the NSW Education Standards Authority, we are specifically required to collect impact data on programs. The proposed annual survey will serve the purpose of providing part of these mandatory data. Further, it will provide the Department of Educational Studies with valuable information to revise and improve the programs offered to students. Finally, you may elect to make your de-identified data available to researchers in the Department if you choose.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "PE evaluation report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "0",
+        "description": "PE evaluation report",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDST8238-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8238"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDST8238-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8238"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDST8238-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8238"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "EDST8238 - Professional Practice 2: Literacy and Numeracy for Diverse Learners",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This Professional Experience unit will help prepare students for classroom teaching by developing understanding of literacy and numeracy demands generally and in specific secondary subject area(s). Effective classroom teaching in any subject area is culturally sensitive and inclusive. Students learn more effectively when their teachers know them and how they learn. Learning experiences in the unit will focus on knowledge of the principles and strategies of literacy and numeracy and how these can be implemented in teaching subject areas to support and engage diverse learners. Independent practitioner research will be undertaken during the Professional Experience component of the unit affording the opportunity to evaluate and better understand the impact of cultural and learning backgrounds on student learning.",
+    "search_title": "EDST8238 - Professional Practice 2: Literacy and Numeracy for Diverse Learners",
+    "code": "EDST8238",
+    "title": "Professional Practice 2: Literacy and Numeracy for Diverse Learners",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This Professional Experience unit will help prepare students for classroom teaching by developing understanding of literacy and numeracy demands generally and in specific secondary subject area(s). Effective classroom teaching in any subject area is culturally sensitive and inclusive. Students learn more effectively when their teachers know them and how they learn. Learning experiences in the unit will focus on knowledge of the principles and strategies of literacy and numeracy and how these can be implemented in teaching subject areas to support and engage diverse learners. Independent practitioner research will be undertaken during the Professional Experience component of the unit affording the opportunity to evaluate and better understand the impact of cultural and learning backgrounds on student learning.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-03T08:45:55.265",
+  "code": "EDST8238",
+  "title": "Professional Practice 2: Literacy and Numeracy for Diverse Learners",
+  "implementationYear": "2021"
+}

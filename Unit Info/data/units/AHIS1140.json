@@ -1,0 +1,199 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Recognise and memorise foundational Hebrew vocabulary",
+        "code": "ULO3"
+      },
+      {
+        "description": "Integrate knowledge of grammar and vocabulary in reading and/or writing simple Hebrew texts",
+        "code": "ULO5"
+      },
+      {
+        "description": "Recognize and recall linguistic technical terms",
+        "code": "ULO6"
+      },
+      {
+        "description": "Learn Hebrew vocabularly and grammatical structures at elementary level",
+        "code": "ULO2"
+      },
+      {
+        "description": "Recognise and recall ancient Hebrew script and phonetic structure",
+        "code": "ULO1"
+      },
+      {
+        "description": "Assess the grammar required for the translation of simple Hebrew texts",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class Preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "AHIS258, AHIX158, AHIS158",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "2 hour Final Exam",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-term Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "A 2-hour Mid-term Test (total hours includes time spent studying for the exam)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Translation exercises",
+        "type": {
+          "label": "Translation",
+          "value": "translation"
+        },
+        "weight": "35",
+        "description": "Translation exercises",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "AHIS1140-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS1140"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AHIS1140-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS1140"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "AHIS1140 - Ancient Hebrew A",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students of ancient history to study of the Ancient Hebrew language. It provides a systematic introduction to the script, grammar (especially morphology and basic syntax,and vocabulary. The unit also aims to help students develop the skills necessary for reading original Ancient Hebrew texts,and explores the significance of Ancient Hebrew for the study of relevant ancient cultures.",
+    "search_title": "AHIS1140 - Ancient Hebrew A",
+    "code": "AHIS1140",
+    "title": "Ancient Hebrew A",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students of ancient history to study of the Ancient Hebrew language. It provides a systematic introduction to the script, grammar (especially morphology and basic syntax,and vocabulary. The unit also aims to help students develop the skills necessary for reading original Ancient Hebrew texts,and explores the significance of Ancient Hebrew for the study of relevant ancient cultures.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T09:39:23.462",
+  "code": "AHIS1140",
+  "title": "Ancient Hebrew A",
+  "implementationYear": "2021"
+}

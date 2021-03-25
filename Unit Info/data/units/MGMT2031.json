@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate the impact of responsible management on business sustainable development and approaches.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explain and apply key terms, concepts, frameworks and theories relevant to sustainability in international business.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Assess environmental, social and economic pillars in international business to identify problems and opportunities for change and advancements.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Reflect on teamwork knowledge, skills and experience to appraise personal teamwork skills and contribution to the effectiveness of the team.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Formulate business solutions that address environmental issue(s) and drive sustainable outcomes for society.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "50cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BUS305",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "A two-hour closed book examination, worth 30%, will be held during the University Examination Period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Major Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "70",
+        "description": "This assessment consists of three components worth 70% in total. The first component is an individual poster, worth 30%. The second is a group report of up to 2,500 words, worth 20%. The final component is an individual piece of reflective writing of up to 1,500 words, worth 20%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final Online Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "A two-hour online examination, administered via iLearn and worth 30%, will be held during the University Examination Period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT2031-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT2031"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT2031-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT2031"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT2031-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT2031"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT2031-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT2031"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MGMT2031 - Sustainability in International Business",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines the relationships among the three pillars of sustainability: Environmental (Planet), Social (People), and Economic (Profit) in international business. The environmental pillar acknowledges the impact businesses and environmental stakeholders have on major environmental issues, such as climate change, food resources, water pollution, air pollution, energy and waste. The social pillar acknowledges the need for equity within and between generations, and within and between individuals, social groups and organisations. The economic pillar acknowledges the interactions of humans with the natural environment in using resources to create goods and services which add value to our lives. By the end of the unit, students will have a strong appreciation of the impacts of how individuals and organisations can potentially contribute to society and the environment. It encourages a fair-trading system that equitably distributes benefits and costs and further encourages students’ innovation and creativity in business planning that leads to a sustainable future.",
+    "search_title": "MGMT2031 - Sustainability in International Business",
+    "code": "MGMT2031",
+    "title": "Sustainability in International Business",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines the relationships among the three pillars of sustainability: Environmental (Planet), Social (People), and Economic (Profit) in international business. The environmental pillar acknowledges the impact businesses and environmental stakeholders have on major environmental issues, such as climate change, food resources, water pollution, air pollution, energy and waste. The social pillar acknowledges the need for equity within and between generations, and within and between individuals, social groups and organisations. The economic pillar acknowledges the interactions of humans with the natural environment in using resources to create goods and services which add value to our lives. By the end of the unit, students will have a strong appreciation of the impacts of how individuals and organisations can potentially contribute to society and the environment. It encourages a fair-trading system that equitably distributes benefits and costs and further encourages students’ innovation and creativity in business planning that leads to a sustainable future.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-08T15:54:44.944",
+  "code": "MGMT2031",
+  "title": "Sustainability in International Business",
+  "implementationYear": "2021"
+}

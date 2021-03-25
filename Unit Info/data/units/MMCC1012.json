@@ -1,0 +1,191 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "evaluate and apply notation systems to creative practice in music.",
+        "code": "ULO4"
+      },
+      {
+        "description": "identify and interpret melodic, harmonic and rhythmic structures in music through aural and notated forms.",
+        "code": "ULO2"
+      },
+      {
+        "description": "analyse and evaluate music theory.",
+        "code": "ULO1"
+      },
+      {
+        "description": "apply music theory through both notated and performed media.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for class/readings etc",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MUS325",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "In-class quizzes",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "A series of short in-class quizzes. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "Students will prepare a short case study that analyses a musical work of their choice. A detailed task description will be included in the unit guide. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Notation Task",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "40",
+        "description": "Drawing on unit content and their own creative practice, students will propose and notate a musical work of their choice. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC1012-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC1012"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC1012-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC1012"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MMCC1012 - Music Literacies",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "A range of musical literacies is essential for creative, performative and communicative approaches to music. This unit enables students to explore different forms of musical communication as well as diverse musical structures and practices. Students engage in composed and improvised exercises, music notation including staff and chord symbols, and melodic, harmonic and rhythmic structures. The unit provides students with foundations for practical and critical awareness of musical structures, and includes conventional and contemporary approaches to musical practice.",
+    "search_title": "MMCC1012 - Music Literacies",
+    "code": "MMCC1012",
+    "title": "Music Literacies",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "A range of musical literacies is essential for creative, performative and communicative approaches to music. This unit enables students to explore different forms of musical communication as well as diverse musical structures and practices. Students engage in composed and improvised exercises, music notation including staff and chord symbols, and melodic, harmonic and rhythmic structures. The unit provides students with foundations for practical and critical awareness of musical structures, and includes conventional and contemporary approaches to musical practice.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T13:37:43.219",
+  "code": "MMCC1012",
+  "title": "Music Literacies",
+  "implementationYear": "2021"
+}

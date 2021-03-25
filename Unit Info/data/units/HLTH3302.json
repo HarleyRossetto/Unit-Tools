@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Name the range of pathologies that can occur in each of the following systems: Cardiovascular, Respiratory, Lymphatic, Haematopoietic, Endocrine, Immune, Digestive, Urinary and Reproductive",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply knowledge of anatomy, physiology, biochemistry and basic pathology, to develop the likely mode of progression of the diseases studied in this unit",
+        "code": "ULO8"
+      },
+      {
+        "description": "Explain the multifactorial nature in the development of disease states",
+        "code": "ULO7"
+      },
+      {
+        "description": "Explain the pathophysiological processes which can alter an individual's health status",
+        "code": "ULO6"
+      },
+      {
+        "description": "Differentiate between diseases on the basis of aetiology, pathogenesis, epidemiology and clinical manifestations",
+        "code": "ULO5"
+      },
+      {
+        "description": "Name and define the common symptoms and signs that are associated with diseases of the body systems named above",
+        "code": "ULO2"
+      },
+      {
+        "description": "Describe the aetiology, epidemiology, pathogenesis and clinical manifestations for each disease studied",
+        "code": "ULO3"
+      },
+      {
+        "description": "For each disease studied, explain the relationship between its aetiology, pathogenesis and clinical manifestations",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparing answers to tutorial questions 2hrs per week weeks 2-13",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Weekly reading from textbook and lecture materials.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above including HLTH2301 or HLTH215",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "HLTH316",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "End of semester final written examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "This will cover the content of the entire semester. Questions will include multiple choice and short answer questions",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-semester examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "This will cover the content of the first half of the semester. Questions will be in short answer format.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "iLearn online quizzes ",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The quizzes will be spread throughout the semester. Each quiz will be of 10 minutes duration, and cover material that has been delivered in lectures and/or tutorials.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "HLTH3302-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HLTH3302"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "HLTH3302-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HLTH3302"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "HLTH3302 - Principles in Health and Disease 2",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Chiropractic "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students with further opportunity to explore the relationship between health and disease, from both the biological and psychological perspective. The common pathologies of each body system are studied, and their causes, mechanisms and effects are explored. The links between these disease mechanisms and their clinical manifestations is highlighted. By the completion of the unit, students will have a good knowledge of the major diseases of the body, and how they manifest in the patient. By studying a large number of human disease states, students will deepen their understanding of the complex relationship between ourselves and our environment.",
+    "search_title": "HLTH3302 - Principles in Health and Disease 2",
+    "code": "HLTH3302",
+    "title": "Principles in Health and Disease 2",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides students with further opportunity to explore the relationship between health and disease, from both the biological and psychological perspective. The common pathologies of each body system are studied, and their causes, mechanisms and effects are explored. The links between these disease mechanisms and their clinical manifestations is highlighted. By the completion of the unit, students will have a good knowledge of the major diseases of the body, and how they manifest in the patient. By studying a large number of human disease states, students will deepen their understanding of the complex relationship between ourselves and our environment.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T13:05:13.776",
+  "code": "HLTH3302",
+  "title": "Principles in Health and Disease 2",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,273 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Control these procedures with regard to patient position, practitioner position, primary contact, secondary contact, lock-up/set-up, speed, amplitude and line of drive",
+        "code": "ULO2"
+      },
+      {
+        "description": "Perform spinal adjustments and mobilisations with the appropriate psychomotor skills at a clinically safe and competent level.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Construct and apply an appropriate consultation, examination and management of acute musculoskeletal peripheral joint injuries commonly encountered by practitioners in the field.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply a thorough knowledge of the clinical anatomy, biomechanics, and patho-mechanics for all joints of the body in order to: a) Understand the biomechanical effects of an adjustment or mobilisation and the indications for their use; b) Perform postural analysis in relation to dysfunction; c) Perform the relevant orthopaedic testing, motion palpation, static palpation, indications and contraindication testing for each technique and methods of modification to suit special populations/conditions",
+        "code": "ULO3"
+      },
+      {
+        "description": "Select appropriate ancillary care in a clinical context.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "CHIR8102 or CHIR892",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CHIR903",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Video Technique Assignment 2",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "5",
+        "description": "Using video capture, students will critically reflect on their ability to perform chiropractic techniques.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Diversified & sports medicine clinical performance test",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "20",
+        "description": "Students will demonstrate their ability to apply chiropractic techniques",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Video Technique Assignment 3",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "5",
+        "description": "Using video capture, students will critically reflect on their ability to perform chiropractic techniques.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final theory examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "A written assessment consisting of multiple choice, short answer and long answer questions. This assessment will assess students development of theoretical knowledge in this unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Gonstead Spot Test",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "10",
+        "description": "Students will demonstrate their ability to apply chiropractic techniques",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Gonstead practical assessment",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "20",
+        "description": "Students will demonstrate their ability to apply chiropractic techniques",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Video Technique Assignment 4",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "5",
+        "description": "Using video capture, students will critically reflect on their ability to perform chiropractic techniques.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Video Technique Assignment 1",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "5",
+        "description": "Using video capture, students will critically reflect on their ability to perform chiropractic techniques.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "CHIR8103-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIR8103"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CHIR8103-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIR8103"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "CHIR8103 - Clinical Chiropractic 3",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Chiropractic "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit has three aims:",
+    "search_title": "CHIR8103 - Clinical Chiropractic 3",
+    "code": "CHIR8103",
+    "title": "Clinical Chiropractic 3",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit has three aims:",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T11:30:14.689",
+  "code": "CHIR8103",
+  "title": "Clinical Chiropractic 3",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,186 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply professional practice principles concerning the psychotherapeutic relationship and interventions with children and families.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply knowledge to evaluate attachment theory, evidence based research, and its contribution to interventions and family psychotherapy when working with children.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply decision-making strategies to resolve ethical questions to problems using the APS Code of Ethics, Guidelines and Mandatory reporting legislation, across a variety of contexts, including the demonstration of knowledge of ethical and legal issues and obstacles for engaging and counselling children and youth.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Implement communication skills effectively in writing and through verbal communication.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Integrate and analyse principles of increasing parenting capacity through the evaluation of parenting management approaches and strategies.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MProfPsych",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PSYP906",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Taped interview of interaction with a child",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "40",
+        "description": "Students are required to record a 25 minute interview with a child with parental approval. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay on disordered attachment",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "60",
+        "description": "In 3500 words, describe how attachment theory manifests in childhood and later in adult life. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYP8906"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYP8906"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Intensive attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PSYP8906 - Working with Children and Families",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The focus of this unit is on the emotional, social, cognitive and behavioural development of children, the range of problems that children present with and the impact of these problems on children and their families. The Unit teaches students different therapeutic approaches to family problems, including strengths based practice and creative therapeutic approaches for working with children.  Skills for the assessment and intervention in a range of childhood problems, including intellectual disability, autism spectrum disorders and attention deficit hyperactivity disorder, are developed.  Skills training in parent management interventions and skills in working with families to improve parenting capacity is provided. Issues relating to the &#34;over-diagnosis&#34; of and overuse of medication in children and adolescents and the transition from childhood to adolescence and early adulthood are also considered.",
+    "search_title": "PSYP8906 - Working with Children and Families",
+    "code": "PSYP8906",
+    "title": "Working with Children and Families",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The focus of this unit is on the emotional, social, cognitive and behavioural development of children, the range of problems that children present with and the impact of these problems on children and their families. The Unit teaches students different therapeutic approaches to family problems, including strengths based practice and creative therapeutic approaches for working with children.  Skills for the assessment and intervention in a range of childhood problems, including intellectual disability, autism spectrum disorders and attention deficit hyperactivity disorder, are developed.  Skills training in parent management interventions and skills in working with families to improve parenting capacity is provided. Issues relating to the &#34;over-diagnosis&#34; of and overuse of medication in children and adolescents and the transition from childhood to adolescence and early adulthood are also considered.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:26:21.622",
+  "code": "PSYP8906",
+  "title": "Working with Children and Families",
+  "implementationYear": "2021"
+}

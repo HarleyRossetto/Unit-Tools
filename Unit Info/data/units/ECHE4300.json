@@ -1,0 +1,238 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop further understanding of the major theoretical and research directions and current resources in science education.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Integrate information and communication technologies (ICT) and critical evaluation of resources within effective teaching and learning strategies to expand opportunities for professional learning and scientific thinking.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Design lesson sequences and units of work that: enhance the growth of children's scientific thinking, reflect current issues in research and integrate other curriculum areas.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate research based knowledge of teaching and learning approaches to differentiating curriculum to meet the diverse needs of learners in the science classroom.",
+        "code": "ULO4"
+      },
+      {
+        "description": "<div>Demonstrate knowledge of scientific concepts, processes and resources related to the made environment in the contexts of physical phenomena, information and products.</div>\n<div> </div>",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate effective science teaching and learning strategies for meeting the needs of indigenous students.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Undertaking activities prior to attending Zoom tutorials",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Special"
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Undertaking activities prior to attending 'on campus' tutorials",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Infrequent-North Ryde"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECH430",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "130cp including ECH335 or ECHE234 or ECHE2340",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Science workshop activities and portfolio",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "50",
+        "description": "Students will participate in, and present hands-on activities related to developing learners&#39; conceptual understandings in science and technology and submit a portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Rationale for a Unit of Work +  Personal Learning Reflection with evdience",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Write a well-structured academic piece of writing outlining a rationale for a Unit of Work using sustainability as a context for learning K-6 Science and Technology concepts. Include a personal learning reflection of your own learning as a knowledge sharer and creator via iLearn forum interactions. (2000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Infrequent-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Unit of Work with Digital Resources plus a Teacher Guide",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "60",
+        "description": "Using feedback from Assignment #1, design and produce a complete Unit of Work to engage and inform primary school students with online and offline activities related to concepts in the K-6 Science and Technology syllabus around a sustainability issue. Provide up to a one-page rationale for a teacher justifying why the sustainability context has been used as a context for students to learn Science and Technology concepts. (2500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Infrequent-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Learning sequence ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Plan a learning sequence to develop science and design technology skills, knowledge, and understandings of science concepts for primary school students.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE4300"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE4300"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ECHE4300 - Teaching and Learning Science and Technology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit builds on the knowledge gained in previous units, further developing student&#39;s knowledge of the principles and practices of teaching and learning science and technology. Students explore a range of strategies for assessing children&#39;s scientific understandings, and use knowledge of curricula, resources and teaching strategies to design and implement lesson sequences to enhance the growth of children&#39;s scientific thinking. Students examine information and communication technology as a tool for learning and explore issues related to the use of technology in the classroom. The integration of science and technology into other learning areas and differentiating curriculums to meet the diverse needs of learners are also addressed.",
+    "search_title": "ECHE4300 - Teaching and Learning Science and Technology",
+    "code": "ECHE4300",
+    "title": "Teaching and Learning Science and Technology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit builds on the knowledge gained in previous units, further developing student&#39;s knowledge of the principles and practices of teaching and learning science and technology. Students explore a range of strategies for assessing children&#39;s scientific understandings, and use knowledge of curricula, resources and teaching strategies to design and implement lesson sequences to enhance the growth of children&#39;s scientific thinking. Students examine information and communication technology as a tool for learning and explore issues related to the use of technology in the classroom. The integration of science and technology into other learning areas and differentiating curriculums to meet the diverse needs of learners are also addressed.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:32:03.818",
+  "code": "ECHE4300",
+  "title": "Teaching and Learning Science and Technology",
+  "implementationYear": "2021"
+}

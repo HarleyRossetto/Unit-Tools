@@ -1,0 +1,232 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "<em>Reflect upon the realities of global urban living that they regularly confront, and evaluate the tools of analysis that may best enable them to critically evaluate these processes.</em>",
+        "code": "ULO6"
+      },
+      {
+        "description": "<em>Evaluate the impact of global forces on 21st century society and culture through a structured research project </em><em>or other written work</em>",
+        "code": "ULO3"
+      },
+      {
+        "description": "<em>Analyse, synthesise and reflect upon the quality of empirical evidence from different scholarly sources</em>",
+        "code": "ULO5"
+      },
+      {
+        "description": "<em>Critically evaluate and justify both individual and group performance through active participation and continuous learning</em>",
+        "code": "ULO4"
+      },
+      {
+        "description": "<em>Observe and reflect upon global forces through a sociological lens  </em>",
+        "code": "ULO2"
+      },
+      {
+        "description": "<em>Explore topics in global and urban sociology they could pursue in graduate study or research</em>",
+        "code": "ULO8"
+      },
+      {
+        "description": "<em>Demonstrate a theoretical and practical understanding of sociological research into global forces, particularly affecting urban space, place and culture</em>",
+        "code": "ULO1"
+      },
+      {
+        "description": "<em>Demonstrate a level of research, reflection and writing appropriate for a third-year sociology student</em>",
+        "code": "ULO7"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will be required to read a series of set texts on a weekly basis that relate to the topic for that week. In addition, students will be given advance notice of weekly practical exercises (run as part of the online activities), for which they can prepare.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Three quizzes will be conducted in class (for internal students) or online (for external students) based on the readings set for the course",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Major assignment",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "For the major assignment, students may choose one of the following:",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Active Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": " ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "SOCX3015",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: SOCX3015"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: SOCI3015"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Growing up in the Modern Age: Global Childhoods",
+                "academic_item_code": "SOCI3015",
+                "academic_item_url": "/2020/units/SOCI3015"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "SOCX3015-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCX3015"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "SOCX3015 - The Urban Century: Movement, Cities and Space",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores how sociologists understand the collective challenges of a global world. Research into global issues includes international migration, global cities, the rise of information &amp; surveillance capitalism, global value chains and transnational financial flows, global interconnections of everyday actors and elites and the global consequences of climate change. Students explore the role of local communities and cultures in reshaping and regulating global forces and power structures underpinning globalism, nationalism and cosmopolitanism. We will examine the changing roles of civil society and local community in creating alternatives to the twin powers of states and markets, from successes and failures to future opportunities and emerging risks. By exploring the relationships between space, place and people through contemporary case studies (for example, global cities and social infrastructures, the sociology of risk and crisis, resilience and disasters; global migration, border politics and citizenship rights) students will build on and extend previous learning in theory and methods, with the option of a fieldwork project focused on a case study.",
+    "search_title": "SOCX3015 - The Urban Century: Movement, Cities and Space",
+    "code": "SOCX3015",
+    "title": "The Urban Century: Movement, Cities and Space",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores how sociologists understand the collective challenges of a global world. Research into global issues includes international migration, global cities, the rise of information &amp; surveillance capitalism, global value chains and transnational financial flows, global interconnections of everyday actors and elites and the global consequences of climate change. Students explore the role of local communities and cultures in reshaping and regulating global forces and power structures underpinning globalism, nationalism and cosmopolitanism. We will examine the changing roles of civil society and local community in creating alternatives to the twin powers of states and markets, from successes and failures to future opportunities and emerging risks. By exploring the relationships between space, place and people through contemporary case studies (for example, global cities and social infrastructures, the sociology of risk and crisis, resilience and disasters; global migration, border politics and citizenship rights) students will build on and extend previous learning in theory and methods, with the option of a fieldwork project focused on a case study.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T15:44:03.606",
+  "code": "SOCX3015",
+  "title": "The Urban Century: Movement, Cities and Space",
+  "implementationYear": "2021"
+}

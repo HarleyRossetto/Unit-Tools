@@ -1,0 +1,274 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and describe philosophical perspectives to the task of leading, motivating and communicating effectively in an organisation.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply critical analysis and reflection to management practice, both as an individual and a team.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Employ a range of philosophical perspectives to respond to a variety of cultures and viewpoints.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class readings and research.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MGSM880",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MBA or GradDipMgt or MSocEntre",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "A multiple choice test consisting of 20 statements",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 3-Special, Term 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Individual Theoretical Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "45",
+        "description": "A 2500-word essay which requires students critically to examine content in the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 3-Special, Term 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "This 2000-word essay requires students to critically examine content in the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 1-Weekday-City, Term 3-Intensive-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Individual Case Study",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "45",
+        "description": "An individual project to be written in the form of an essay, applying philosophical perspectives to management practice . (2500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 3-Special, Term 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In class test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "A multiple-choice test will assess the student’s ability to apply concepts.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 1-Weekday-City, Term 3-Intensive-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Individual Presentation & Group Report",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "This assessment has two parts. Part one involves students being allocated to study groups. Each group will then be allocated a philosopher to study and discuss in class. Each group will have up to 45 minutes to lead a class discussion/presentation. Each group member will speak for a minimum of 5 minutes. At least 15 minutes should be devoted to a question and answer session. Each group member is expected to participate in the Q &amp; A. Whilst this presentation task is done in a group environment, each student will be graded on their individual contributions. This part of the task contributes half of the total available marks. Part two requires each group to submit a written summary of up to 2,500 words of their research and presentation after taking into consideration issues and/or criticisms raised in the class discussion.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 1-Weekday-City, Term 3-Intensive-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMBA8080-unit_teaching_period-Special",
+        "display_name": "Term 1-Special",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8080"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8080-unit_teaching_period-Weekday-subject",
+        "display_name": "Term 1-Weekday-City",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "40",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8080"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8080-unit_teaching_period-Special",
+        "display_name": "Term 3-Special",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8080"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8080-unit_teaching_period-Intensive-subject",
+        "display_name": "Term 3-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8080"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 1, Weekday attendance, City*<br />Term 3, Intensive attendance, North Ryde*<br />Term 3, Special circumstances<br />Term 1, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MMBA8080 - Foundations of Management Thought",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit surveys the evolution of Western thought from major philosophical perspectives (from Plato to Sartre) and their relevance for management. What is important about a philosophical perspective is not what it explains, but what it assumes. Three assumptions ground the unit: a) managing is essentially a philosophical activity because human existence is interpreted through diverse perspectives; b) management training needs to be combined with management education. To train is to drill and subordinate individuals to routines, standards and practices. To educate is to liberate a person’s intellectual, moral and aesthetic powers. c) managers and leaders need to have the critical skills to debate, reflect, and engage in dialogue across different functional disciplines, stakeholders and cultures in organisational contexts.",
+    "search_title": "MMBA8080 - Foundations of Management Thought",
+    "code": "MMBA8080",
+    "title": "Foundations of Management Thought",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit surveys the evolution of Western thought from major philosophical perspectives (from Plato to Sartre) and their relevance for management. What is important about a philosophical perspective is not what it explains, but what it assumes. Three assumptions ground the unit: a) managing is essentially a philosophical activity because human existence is interpreted through diverse perspectives; b) management training needs to be combined with management education. To train is to drill and subordinate individuals to routines, standards and practices. To educate is to liberate a person’s intellectual, moral and aesthetic powers. c) managers and leaders need to have the critical skills to debate, reflect, and engage in dialogue across different functional disciplines, stakeholders and cultures in organisational contexts.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-25T11:13:42.533",
+  "code": "MMBA8080",
+  "title": "Foundations of Management Thought",
+  "implementationYear": "2021"
+}

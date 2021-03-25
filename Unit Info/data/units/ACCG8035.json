@@ -1,0 +1,311 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and describe why ethical behaviour is fundamental to the practice of accounting around the world and critically apply moral theories and ethical frameworks to resolve real-world ethical issues confronting accountants",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply research skills to investigate and propose well-reasoned and justified solutions to problems facing international companies in organizing, managing, planning, controlling and evaluating, their global operations",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explain how the cultural, economic, political and historical factors are the reasons for the differences and similarities in accounting practices and regulation across nations and evaluate how these factors influence the move towards international harmonization",
+        "code": "ULO1"
+      },
+      {
+        "description": "Utilise relevant statistical techniques to collect data, analyse and present the results of the data analysis",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students need to complete the weekly assigned homework questions and read textbook chapters and additional readings while preparing for the seminar class.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "The Report topics are designed to extend the themes and subjects of the lecture material, by means of additional information and examples discovered by the students. This represents an interactive method of learning that draws on lecturer leadership, student research and class discussion.",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ACCG611 or ACCG6011 or MGNT603 or ACCG6003 or ACCG8121 or ACCG8126 or admission to MAdvProfAcc",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ACCG835, ACCG735",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Students will work in groups on different research topics assigned to them. Research topics are designed to effectively enhance research skills and help students learn to synthesise, analyse and interpret information using appropriate disciplinary content and methodology. Students will produce a 2,500-word group report (worth 10%) and make a 25 minute presentation (worth 10%) outlining their report’s findings and recommendations.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "The final exam is of three hours and ten minutes duration. The closed-book final exam is designed to test you against the learning objectives of the unit. The exam will be held in the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "A two-hour online examination (open book) will be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Two short tests (worth 10% each) will be conducted during class time. The first test will be held early in the session and serves an early diagnostic assessment of student performance in topics covered over the first few weeks. The second test will be held mid-session and serves to help students measure their performance in topics covered during the second quarter of the session. Each test will comprise of short essay questions and will gauge student’s ability to critically evaluate the issues covered in the relevant topics, case studies and associated readings.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Research topics will be assigned and are designed to effectively enhance research skills and help students learn to synthesise, analyse and interpret information using appropriate disciplinary content and methodology.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ACCG8035",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ACCG8035"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ACCG7035"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "International Accounting",
+                "academic_item_code": "ACCG7035",
+                "academic_item_url": "/2020/units/ACCG7035"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8035"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8035"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8035"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8035"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG8035 - International Accounting",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on topics concerned with issues in both financial and management accounting in international contexts. Particular attention is given to the impact of national culture and to how an understanding of cultural differences provides insights into cross-national differences in financial reporting practices and management behaviour. Current issues in accounting standard-setting in an international context, including the debate on international accounting convergence, and problems facing international companies in organising, managing, planning, controlling and evaluating their global operations are examined. A solid understanding of cultural influences on international accounting practices is a requirement for any advanced study of accounting theory. This unit provides students with essential internationally contextualised accounting experiences that develop the concepts and skills necessary for advanced research in accounting and corporate governance.",
+    "search_title": "ACCG8035 - International Accounting",
+    "code": "ACCG8035",
+    "title": "International Accounting",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on topics concerned with issues in both financial and management accounting in international contexts. Particular attention is given to the impact of national culture and to how an understanding of cultural differences provides insights into cross-national differences in financial reporting practices and management behaviour. Current issues in accounting standard-setting in an international context, including the debate on international accounting convergence, and problems facing international companies in organising, managing, planning, controlling and evaluating their global operations are examined. A solid understanding of cultural influences on international accounting practices is a requirement for any advanced study of accounting theory. This unit provides students with essential internationally contextualised accounting experiences that develop the concepts and skills necessary for advanced research in accounting and corporate governance.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:40:53.089",
+  "code": "ACCG8035",
+  "title": "International Accounting",
+  "implementationYear": "2021"
+}

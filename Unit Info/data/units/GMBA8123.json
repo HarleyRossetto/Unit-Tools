@@ -1,0 +1,189 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Present effectively in an informal and formal manner the project plans.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Evaluate and analyse the client brief.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Develop a literature review that synthesises and critically assesses the client's problem",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply innovative problem solving and self-directed project planning skills to produce a project charter.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "GMBA8124",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "GMBA8121 and GMBA8122",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Client Evaluation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Length: 15 min. presentation <br />Format: Team Proposal (10%); Individual Performance (10%) <br />Task: In this assignment, your immersion project team will present the initial project proposal to the client and hold a live Q and A. Each team member will present for 3 mins. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Teamwork critical reflection",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "30",
+        "description": "Length: 1,500-2,000 words (individual); 1,500-2,000 (team) <br />Format: Individual Reflection (15%); Team Reflection (15%) <br />Task: In this assignment, you will complete: An individual reflection (15%) on one (1) team dimension (teamwork, conflict, client relationships) and one (1) personal / professional dimension of student’s choice (e.g. stakeholder management, conflict or time management, feedback and self-regulation, etc.); peer review by team members. A team critical reflection summary (15%) (comparison, discussion, observation of mis/alignment and) following a team discussion of individual reflections.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "50",
+        "description": "Length: 20 min. presentation <br />Format: Team Presentation (25%); Individual Performance (25%) <br />Task: In this assignment, your immersion project team will creatively present the final project. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Coursera term 3-Online",
+        "teaching_period": {
+          "value": "Coursera term 3"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GMBA8123"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Coursera term 6-Online",
+        "teaching_period": {
+          "value": "Coursera term 6"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GMBA8123"
+        }
+      }
+    ],
+    "unit_offering_text": "Coursera term 3, Fully online/virtual<br />Coursera term 6, Fully online/virtual<br />",
+    "subject_search_title": "GMBA8123 - Applied Immersion 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "5",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "A future-focused capability for all managers is the ability to identify the problem and develop creative solutions. Without creativity, your business runs the risk of falling behind competitors, becoming less agile and could be vulnerable to market pressures. The final two units in the Problem Solving Capstone apply the knowledge learnt throughout the course into an industry-supplied challenge. In Applied Immersion 1, each group will be assigned a real-life problem to solve. This first sprint asks each group to &#39;sit in the problem&#39; by firstly to identifying the problem through conducting a scoping exercise. This includes a reverse brief to the client, a literature review, and some exploratory research. Each group is required to develop a project charter including key milestones. Faculty and industry coaches will work with groups as they embark on this six-week problem identification process.",
+    "search_title": "GMBA8123 - Applied Immersion 1",
+    "code": "GMBA8123",
+    "title": "Applied Immersion 1",
+    "content_type": "Unit",
+    "credit_points_header": "5 credit points"
+  },
+  "creditPoints": 5,
+  "description": "A future-focused capability for all managers is the ability to identify the problem and develop creative solutions. Without creativity, your business runs the risk of falling behind competitors, becoming less agile and could be vulnerable to market pressures. The final two units in the Problem Solving Capstone apply the knowledge learnt throughout the course into an industry-supplied challenge. In Applied Immersion 1, each group will be assigned a real-life problem to solve. This first sprint asks each group to &#39;sit in the problem&#39; by firstly to identifying the problem through conducting a scoping exercise. This includes a reverse brief to the client, a literature review, and some exploratory research. Each group is required to develop a project charter including key milestones. Faculty and industry coaches will work with groups as they embark on this six-week problem identification process.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:37:22.616",
+  "code": "GMBA8123",
+  "title": "Applied Immersion 1",
+  "implementationYear": "2021"
+}

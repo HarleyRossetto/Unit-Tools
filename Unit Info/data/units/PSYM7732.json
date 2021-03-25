@@ -1,0 +1,278 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate skills for designing research on child abuse and neglect to be used to guide intervention and prevention programs, and to formulate policy.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Explain the variations in child abuse and neglect across different cultural, ethnic and socioeconomic contexts.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Critically evaluate the research methods used in empirical research",
+        "code": "ULO2"
+      },
+      {
+        "description": "Describe the major concepts, theoretical perspectives, empirical findings, and historical trends in child abuse and neglect.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Competently use technological resources to obtain information on child abuse and neglect.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply knowledge of child abuse and neglect research findings in various contexts (e.g. family, school).",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSY432, PSYC732, PSY468, PSYM768",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Students will submit an essay of 2000 words on contemporary child protection issues.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "Final examination held in scheduled class time, in accordance with relevant requirements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Field or media report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Students submit a field or media report of 500 words about a child protection service in NSW or a child protection case presented in the media.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "In class examination of short answer questions to be completed in 2 hours",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PSYM7732",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PSYM7732"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PSYH4432"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Advanced Issues in Developmental Psychology: Child Abuse and Neglect",
+                "academic_item_code": "PSYH4432",
+                "academic_item_url": "/2020/units/PSYH4432"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: PSYH4468"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Advanced Issues in Development Psychology: Development Problems across the Lifespan",
+                "academic_item_code": "PSYH4468",
+                "academic_item_url": "/2020/units/PSYH4468"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYM7732"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYM7732"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PSYM7732 - Contemporary Issues in Developmental Psychology: Child Abuse and Neglect",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces the topic of child abuse and neglect. The prevalence of physical, sexual, and emotional abuse and neglect is canvassed and the empirical literature relevant to all forms of abuse and neglect is reviewed. Theoretical models for conceptualising and understanding child abuse and neglect are presented. There is considerable emphasis not only on the outcomes of child abuse and neglect but also on the psychological processes that mediate these outcomes. The adequacy of prevention and intervention programs will be appraised and the operation of some of these programs in New South Wales will be considered.",
+    "search_title": "PSYM7732 - Contemporary Issues in Developmental Psychology: Child Abuse and Neglect",
+    "code": "PSYM7732",
+    "title": "Contemporary Issues in Developmental Psychology: Child Abuse and Neglect",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces the topic of child abuse and neglect. The prevalence of physical, sexual, and emotional abuse and neglect is canvassed and the empirical literature relevant to all forms of abuse and neglect is reviewed. Theoretical models for conceptualising and understanding child abuse and neglect are presented. There is considerable emphasis not only on the outcomes of child abuse and neglect but also on the psychological processes that mediate these outcomes. The adequacy of prevention and intervention programs will be appraised and the operation of some of these programs in New South Wales will be considered.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:41:43.119",
+  "code": "PSYM7732",
+  "title": "Contemporary Issues in Developmental Psychology: Child Abuse and Neglect",
+  "implementationYear": "2021"
+}

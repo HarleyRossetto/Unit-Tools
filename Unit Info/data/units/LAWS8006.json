@@ -1,0 +1,309 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain how ethical principles inform and underpin the law of professional responsibility that regulates the practice of law in Australia.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically analyse the different theoretical approaches to legal ethics and apply this analysis to the resolution of ethical problems.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply the law of professional responsibility relevant to lawyers in Australia",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate advanced communication skills required for ethical practice, especially listening skills, interviewing skills, cross cultural communication skills and negotiation skills.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply mature and considered approaches to written communication including plain English principles and legal citation methods",
+        "code": "ULO6"
+      },
+      {
+        "description": "Recognise the duties and obligations that are part of the legal practitioner’s relationship with his or her client, the court, other practitioners and members of the public.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings related to law and theory of applied legal ethics",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LAWS806",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "LAWS8001 or LAWS600 or admission to JD in 2014",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "Admission to GradCertLaw or GradDipLaw or JD",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Legal Ethics Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "An online quiz",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Client Interview Assessment",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "30",
+        "description": "An assessment task built around a simulated client interview and reflective paper",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Legal Ethics paper",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "A research paper on an applied ethics topic",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "A series of in class and online activities",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "A series of in class and online activities",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LAWS8006-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8006"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8006-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8006"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8006-unit_teaching_period-Special-subject",
+        "display_name": "Session 3-Special-Other",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8006"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8006-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8006"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8006-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 3-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8006"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8006-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8006"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8006-unit_teaching_period-Intensive-subject",
+        "display_name": "Session 3-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8006"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 3, Infrequent attendance, North Ryde<br />Session 3, Intensive attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />Session 1, Special circumstances, Other<br />Session 3, Special circumstances, Other<br />",
+    "subject_search_title": "LAWS8006 - Applied Legal Ethics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit students will be encouraged to develop an ethical approach to the study and practice of law. Ethical problems may present in diverse ways, including problems of confidentiality, access to justice or conflict of duty and interest. The lawyer&#39;s role in the resolution of these problems is examined in the context of the common law, statute, professional rules of conduct and diverse theoretical approaches to legal ethics. The lawyer&#39;s relationships with their client, the court and other legal practitioners as well as with the general public are strengthened through development of skills such as listening, interviewing and negotiation. The unit also emphasizes continued improvements in academic writing skills, concentrating on structure, legal language and issues of academic honesty.",
+    "search_title": "LAWS8006 - Applied Legal Ethics",
+    "code": "LAWS8006",
+    "title": "Applied Legal Ethics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit students will be encouraged to develop an ethical approach to the study and practice of law. Ethical problems may present in diverse ways, including problems of confidentiality, access to justice or conflict of duty and interest. The lawyer&#39;s role in the resolution of these problems is examined in the context of the common law, statute, professional rules of conduct and diverse theoretical approaches to legal ethics. The lawyer&#39;s relationships with their client, the court and other legal practitioners as well as with the general public are strengthened through development of skills such as listening, interviewing and negotiation. The unit also emphasizes continued improvements in academic writing skills, concentrating on structure, legal language and issues of academic honesty.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T15:15:14.834",
+  "code": "LAWS8006",
+  "title": "Applied Legal Ethics",
+  "implementationYear": "2021"
+}

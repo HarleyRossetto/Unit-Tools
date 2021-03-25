@@ -1,0 +1,219 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Engage in the multi-faceted task of early childhood curriculum design with an emphasis on mathematics, science and technology.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Examine the role of play in children's mathematics, science and technology in early learning settings.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Locate and synthesise a wide range of contemporary research literature relating to mathematics, science and technology in early learning.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate a fundamental understanding of the major theoretical developments in early childhood mathematics, science and technology education.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Evaluate a number of mathematics, science and technology resources.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Weekly discussion posts and online engagement ",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECHX600 or ECEX600 or ECHX6000 and Admission to MTeach(0-5)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECED827, ECEX827, ECHX827",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Literature review and experience plans",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "50",
+        "description": "3000 words \nReview of literature relating to mathematics and science learning in early childhood and application to ideas for teaching young children. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Literature and resource review ",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "50",
+        "description": "3000 words\nLiterature review of contemporary research informing a review of technological resources that can support mathematical and scientific thinking and learning in young children.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ECHX8270",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ECHX8270"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ECHE8270"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Learning Through Mathematics, Science and Technology in Early Childhood Settings",
+                "academic_item_code": "ECHE8270",
+                "academic_item_url": "/2020/units/ECHE8270"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHX8270"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "ECHX8270 - Learning Through Mathematics, Science and Technology in Early Childhood Settings",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores theories of learning in mathematics, science and technology for young children (birth to five years). Students will examine the specialist role of play and conceptual development in a range of early childhood settings. Current issues in research and practice will be investigated through independent study. Students acquire autonomy and expert knowledge of pedagogy and content for mathematics, science and technology as they design and evaluate learning experiences for young children.\n\nAll enrolment queries should be directed to Open Universities Australia (OUA): see <a target=\"_blank\" href=\"http://www.open.edu.au\" rel=\"noopener noreferrer nofollow\">www.open.edu.au</a>",
+    "search_title": "ECHX8270 - Learning Through Mathematics, Science and Technology in Early Childhood Settings",
+    "code": "ECHX8270",
+    "title": "Learning Through Mathematics, Science and Technology in Early Childhood Settings",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores theories of learning in mathematics, science and technology for young children (birth to five years). Students will examine the specialist role of play and conceptual development in a range of early childhood settings. Current issues in research and practice will be investigated through independent study. Students acquire autonomy and expert knowledge of pedagogy and content for mathematics, science and technology as they design and evaluate learning experiences for young children.\n\nAll enrolment queries should be directed to Open Universities Australia (OUA): see <a target=\"_blank\" href=\"http://www.open.edu.au\" rel=\"noopener noreferrer nofollow\">www.open.edu.au</a>",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:53:12.226",
+  "code": "ECHX8270",
+  "title": "Learning Through Mathematics, Science and Technology in Early Childhood Settings",
+  "implementationYear": "2021"
+}

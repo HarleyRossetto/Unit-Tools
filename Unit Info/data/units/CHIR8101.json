@@ -1,0 +1,262 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate control of adjustment/mobilisation procedures with regard to patient body type, patient position, practitioner position, primary contact, secondary contact, lock-up/set-up, speed, amplitude and line of drive.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Perform spinal adjustments and/or mobilisations with the appropriate associated skills; i.e. Demonstrate advanced tactile/palpation skills and hand/body/eye co-ordination of movements approaching practitioner level.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate an understanding of normal spinal joint biomechanics and pathomechanics. ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Perform advanced static and motion palpation of spinal and peripheral joint systems.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply research skills at the level of open inquiry within structured guidelines as part of a research skills development (RSD) progression.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Assess and treat a variety of basic musculo-skeletal complaints at the proficiency of &quot;clinician&quot;.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading support material for lectures.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Reviewing chiropractic practical techniques and procedures in preparation for tutorials. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MChiroprac and (CHIR3106 or CHIR316) or (CHIR6110 or CHIR602) and (CHIR6111 or CHIR603) and (CHIR6302 or CHIR604) and (CHIR6303 or CHIR605) and (CHIR6410 or CHIR606) and (CHIR6510 or CHIR608)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CHIR891",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Feedback on Chiropractic Application 1 (FoCA 1)",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "10",
+        "description": "Feedback on Chiropractic Application (FoCA): You will preform a chiropractic practical exam within normal tutorial time. Immediately afterward (i.e. during the same class), you will be given feedback on your performance. The layout of the exam will help prepare you for the OSCE.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "iLearn Quiz 1",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "Online quiz covering material from weeks 1 to 6",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "iLearn Quiz 2",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "Online quiz covering material from weeks 7 to 11",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Feedback on Chiropractic Application 2 (FoCA 2)",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "10",
+        "description": "Feedback on Chiropractic Application (FoCA): You will preform a chiropractic practical exam within normal tutorial time. Immediately afterward (i.e. during the same class), you will be given feedback on your performance. The layout of the exam will help prepare you for the OSCE.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "End of semester written examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "The end of semester written exam is a closed book examination of all the material covered in the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Objective Structured Clinical Exam (OSCE)",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "30",
+        "description": "Objective Structural Clinical Exam (OSCE): You will perform a practical exam over a number of stations during the end of semester practical examination period",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "CHIR8101-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIR8101"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CHIR8101-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIR8101"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "CHIR8101 - Clinical Chiropractic 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Chiropractic "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides a thorough coverage of chiropractic technique including spinal and peripheral joint manipulative procedures, as well as physical assessment procedures such as static and motion palpation. The unit covers one technique in detail; Diversified, as well as peripheral joint mobilisation and manipulation. By the completion of this unit students will be well grounded in a range of spinal manipulative techniques. Major themes relating to evidence-based practice (EBP) continue to be developed.",
+    "search_title": "CHIR8101 - Clinical Chiropractic 1",
+    "code": "CHIR8101",
+    "title": "Clinical Chiropractic 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides a thorough coverage of chiropractic technique including spinal and peripheral joint manipulative procedures, as well as physical assessment procedures such as static and motion palpation. The unit covers one technique in detail; Diversified, as well as peripheral joint mobilisation and manipulation. By the completion of this unit students will be well grounded in a range of spinal manipulative techniques. Major themes relating to evidence-based practice (EBP) continue to be developed.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T11:30:42.792",
+  "code": "CHIR8101",
+  "title": "Clinical Chiropractic 1",
+  "implementationYear": "2021"
+}

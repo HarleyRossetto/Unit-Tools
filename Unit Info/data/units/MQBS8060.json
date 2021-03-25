@@ -1,0 +1,216 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically evaluate and synthesise the primary literature and current debate in a specialised area of interest.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify research opportunities and formulate a research question that has the potential to produce new knowledge/insights within a chosen field.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Communicate research concepts and findings effectively, clearly and coherently to an academic audience.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply good academic research practice and methods to address identified research question, including the ability to source and appropriately acknowledge sources and references.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to read and synthesise journal articles and other research papers in order to produce an academic paper addressing the research topic.",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Literature review - initial",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "20",
+        "description": "A literature review is undertaken. This assessment task requires students to submit a preliminary version of their literature review for comment/feedback.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Project Proposal",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "20",
+        "description": "The Research Project Proposal constitutes a written proposal that: 1) Clearly identifies and describes the research problem/opportunity, including its motivation and intended contribution to knowledge. 2) Demonstrates that the project is feasible. This may include a schedule of completion, the identification of any resources, data, software or other material which are required to complete the project in the required time frame and any issues which may impact on the timely completion of the project.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Literature Review - completed",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "60",
+        "description": "A literature review is undertaken. Students will submit their completed literature review, which is expected to be approximately 8,000-10,000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MQBS8060",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MQBS8060"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MMBA8150"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Report 1",
+                "academic_item_code": "MMBA8150",
+                "academic_item_url": "/2021/units/MMBA8150"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "To be determined",
+        "teaching_period": {
+          "value": "To be determined"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MQBS8060"
+        }
+      }
+    ],
+    "unit_offering_text": "To be determined<br />",
+    "subject_search_title": "MQBS8060 - Individual Research Project A",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will allow students to undertake a research project in a specified discipline. An academic member of staff will be appointed to approve and supervise the research project, which will provide the student with an opportunity to develop skills in motivating the project, undertaking a literature review, and completing the research project/dissertation. A research project is expected to be approximately 8,000-10,000 words for the unit. Along with systematic development of a topic of research, students gain experience in the execution, analysis and presentation of a research project.",
+    "search_title": "MQBS8060 - Individual Research Project A",
+    "code": "MQBS8060",
+    "title": "Individual Research Project A",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will allow students to undertake a research project in a specified discipline. An academic member of staff will be appointed to approve and supervise the research project, which will provide the student with an opportunity to develop skills in motivating the project, undertaking a literature review, and completing the research project/dissertation. A research project is expected to be approximately 8,000-10,000 words for the unit. Along with systematic development of a topic of research, students gain experience in the execution, analysis and presentation of a research project.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-11T14:27:23.588",
+  "code": "MQBS8060",
+  "title": "Individual Research Project A",
+  "implementationYear": "2021"
+}

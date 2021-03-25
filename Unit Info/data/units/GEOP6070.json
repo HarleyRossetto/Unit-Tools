@@ -1,0 +1,230 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate an advanced understanding of the concepts, definitions and measures underpinning processes of urban change.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically evaluate the role of urban planning in addressing contemporary urban problems. ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify the demographic, housing and urban regeneration processes driving urban change in Australia and internationally.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse population and housing data at the urban scale.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are required to prepare for the week tutorials (this might include readings, media summaries or data analysis)",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "GEOP219, GEOP606",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MPlan or MEnv or MSusDev or GradDipEnv or GradCertEnv",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Students are required to prepare a research report (1,500 words) on the housing experiences and expectation of university students.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Three short class quizzes will be conducted throughout the unit. Each test will focus on a specific element of the unit (Population, Housing, Regeneration)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Tutorial paper",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Students are required to produce a population profile of a sub-national region (1000 words). Drawing on ABS Census data, the report should explore the current demographic situation of the area as well as some of the major changes that have occurred in population over the past decade. Reports should critically evaluate the data available.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Students are required to write an essay (2,500 words) exploring the role of urban regeneration projects in shaping Australian cities. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP6070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP6070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP6070"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "GEOP6070 - Urban Dynamics: Population, Housing and Regeneration",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores some of the key drivers of urbanisation across Australia and the globe. The focus here is threefold. First, population dynamics are examined. The unit explores the role of population change (fertility, mortality, migration and ageing) in influencing the growth and structure of our cities. Second, the role of housing as a central element of urban change and urban planning policy is explored. Students will examine issues of housing affordability, social and community housing options, and the role of home ownership and private rental in Australian cities. The unit analyses new forms of housing delivery, such as urban renewal and regeneration, which provide opportunities to address the housing crisis facing many of our cities. Finally, the unit investigates processes of urban regeneration across Australian cities. The unit explores the drivers behind large regeneration projects, as well as the policies and development processes which deliver them on the ground. Central to the unit is the exploration of possible policy responses (including urban planning and broader social and economic policy) for addressing many of the challenges facing our cities. Students will develop an understanding of how population and housing processes shape cities.",
+    "search_title": "GEOP6070 - Urban Dynamics: Population, Housing and Regeneration",
+    "code": "GEOP6070",
+    "title": "Urban Dynamics: Population, Housing and Regeneration",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores some of the key drivers of urbanisation across Australia and the globe. The focus here is threefold. First, population dynamics are examined. The unit explores the role of population change (fertility, mortality, migration and ageing) in influencing the growth and structure of our cities. Second, the role of housing as a central element of urban change and urban planning policy is explored. Students will examine issues of housing affordability, social and community housing options, and the role of home ownership and private rental in Australian cities. The unit analyses new forms of housing delivery, such as urban renewal and regeneration, which provide opportunities to address the housing crisis facing many of our cities. Finally, the unit investigates processes of urban regeneration across Australian cities. The unit explores the drivers behind large regeneration projects, as well as the policies and development processes which deliver them on the ground. Central to the unit is the exploration of possible policy responses (including urban planning and broader social and economic policy) for addressing many of the challenges facing our cities. Students will develop an understanding of how population and housing processes shape cities.",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:51:10.228",
+  "code": "GEOP6070",
+  "title": "Urban Dynamics: Population, Housing and Regeneration",
+  "implementationYear": "2021"
+}

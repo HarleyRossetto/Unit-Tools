@@ -1,0 +1,339 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Pathway",
+        "value": "pathway"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse data requirements and design and develop conceptual database models.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Implement system models into databases, design and create simple databases for business information systems and write programs to produce interactive queries.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain the role and nature of ethics and sustainability in the IT environment related to databases.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Use data analysis and data modelling techniques and tools for introductory level database design and specification.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Communicate disciplinary knowledge using appropriate academic discourses.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "ISYS114, COMP114, COMP124, COMP154, ISYS154, WISY114",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Database Modelling Task ",
+        "type": {
+          "label": "Design Implementation",
+          "value": "design_impl"
+        },
+        "weight": "35",
+        "description": "Students will be given a problem description on the principles of database modelling as a case study and they are required to go through database design levels. This assessment consists of two components, a practical task component and a quiz component.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Database Topics Assessment",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "25",
+        "description": "Students are required to write a report and create a short video that answer a few questions provided. Additionally, students are required to sit a quiz to demonstrate their understanding of database advanced topics. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Database Implementation Assessment",
+        "type": {
+          "label": "Design Implementation",
+          "value": "design_impl"
+        },
+        "weight": "30",
+        "description": "Students will be given a problem description on the principles of database implementation and running queries as a case study. They are required to use Structured Query Language (SQL) to create tables and run some queries. This assessment consists of two components, a practical task component and a quiz component.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In-class Exercises",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "10",
+        "description": "Students are required to complete practical tasks in class. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "WCOM1350",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: WCOM1350"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: COMP1350"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Introduction to Database Design and Management",
+                "academic_item_code": "COMP1350",
+                "academic_item_url": "/2020/units/COMP1350"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 1-Special",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WCOM1350"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 5-Special",
+        "teaching_period": {
+          "value": "MUIC term 5"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WCOM1350"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WCOM1350"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 4-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 4"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WCOM1350"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 2-Special",
+        "teaching_period": {
+          "value": "MUIC term 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WCOM1350"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 4-Special",
+        "teaching_period": {
+          "value": "MUIC term 4"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WCOM1350"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WCOM1350"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 5-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 5"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WCOM1350"
+        }
+      }
+    ],
+    "unit_offering_text": "MUIC term 1, Weekday attendance, North Ryde<br />MUIC term 2, Weekday attendance, North Ryde<br />MUIC term 4, Weekday attendance, North Ryde<br />MUIC term 4, Special circumstances<br />MUIC term 5, Weekday attendance, North Ryde<br />MUIC term 5, Special circumstances<br />MUIC term 1, Special circumstances<br />MUIC term 2, Special circumstances<br />",
+    "subject_search_title": "WCOM1350 - Introduction to Database Design and Management",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie University International College"
+    },
+    "school": {
+      "value": "Macquarie University International College"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to the principles and concepts of data storage, modelling and management with an emphasis on the role of data and information in organisations. The unit will cover conceptual modelling techniques, converting conceptual data models into relational data models and verifying their structural characteristics with normalisation techniques, and implementing and utilising a relational database using a database-management system. Fundamental data modelling tools, techniques such as ER Modelling and query languages such as Structured Query Language (SQL) will be used. Concepts relating to data warehousing, governance, administration, security and privacy, ethical and green approaches to the collection, backup, use and storage of data and the construction of systems are also discussed. Overall, this unit concentrates on building a firm foundation in information representation, organisation and storage with particular emphasis on the application of database systems.",
+    "search_title": "WCOM1350 - Introduction to Database Design and Management",
+    "code": "WCOM1350",
+    "title": "Introduction to Database Design and Management",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to the principles and concepts of data storage, modelling and management with an emphasis on the role of data and information in organisations. The unit will cover conceptual modelling techniques, converting conceptual data models into relational data models and verifying their structural characteristics with normalisation techniques, and implementing and utilising a relational database using a database-management system. Fundamental data modelling tools, techniques such as ER Modelling and query languages such as Structured Query Language (SQL) will be used. Concepts relating to data warehousing, governance, administration, security and privacy, ethical and green approaches to the collection, backup, use and storage of data and the construction of systems are also discussed. Overall, this unit concentrates on building a firm foundation in information representation, organisation and storage with particular emphasis on the application of database systems.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:52:55.791",
+  "code": "WCOM1350",
+  "title": "Introduction to Database Design and Management",
+  "implementationYear": "2021"
+}

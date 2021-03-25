@@ -1,0 +1,253 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Reflect and report on the knowledge gained throughout the project both in terms of technical skills and broader graduate capabilities, including dealing with complexity, ambiguity and resilience challenges.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify and apply theoretical frameworks, tools and techniques acquired throughout the core units relevant to a project in order to support strategic options and recommendations.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply problem solving skills, both as an individual and as part of a team, to communicate solutions.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop and present a project solution and report which is persuasive and grounded in academic literature and proven research methodologies.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class prep, readings, research, group meetings, client meetings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(MGNT805 or MGMT8005) and (MGNT809 or MGMT8009) and (MGMT8011 or MGNT811)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MGNT810",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "MGNT812 or MGMT8012",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Consulting Report & Teamwork Assessment",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "This task has two parts. Part A entails developing a group consulting written report (20%) of up to 5,000 words. Part B is an individual task.  You will keep a journal that records and responds to the challenges of being in a team (20%). ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Professional Self Reflection",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "10",
+        "description": "Students will partake in a series of tasks that involve writing about and considering their own journeys to date. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Professional Self Reflection",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "10",
+        "description": "Students will utilise their initial reflection piece to produce a closing analysis of their management journey. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Consulting Presentation",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "40",
+        "description": "This task has two parts. Part A entails delivery of the group’s findings.  This involves a Presentation and Q &amp; A session (20%). Part B is an individual task.  You will submit a video of up to 5 minutes that showcases your presentation skills and preparation for the client presentation (20%).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "60",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 3-Special",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "60",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 1-Special",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8010"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 1, Weekday attendance, North Ryde*<br />Term 3, Weekday attendance, North Ryde*<br />Term 3, Special circumstances<br />Term 1, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MGMT8010 - Professional Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "20",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This double unit (equivalent to two units) helps students integrate, synthesise and practically apply the knowledge and skills gained over the course of their studies. Students will research and apply established theories to develop a proposed solution to a selected business issue, in the context of a real-world organisation.",
+    "search_title": "MGMT8010 - Professional Practice",
+    "code": "MGMT8010",
+    "title": "Professional Practice",
+    "content_type": "Unit",
+    "credit_points_header": "20 credit points"
+  },
+  "creditPoints": 20,
+  "description": "This double unit (equivalent to two units) helps students integrate, synthesise and practically apply the knowledge and skills gained over the course of their studies. Students will research and apply established theories to develop a proposed solution to a selected business issue, in the context of a real-world organisation.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:38:48.635",
+  "code": "MGMT8010",
+  "title": "Professional Practice",
+  "implementationYear": "2021"
+}

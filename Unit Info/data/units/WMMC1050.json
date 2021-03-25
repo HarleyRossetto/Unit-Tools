@@ -1,0 +1,320 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Pathway",
+        "value": "pathway"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and critique how narratives contribute to a sense of culture and identity.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse and reflect upon the histories, techniques, and structures of narrative across a range of platforms.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Conduct independent research of a range of text-based and audio-visual media.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Communicate and present information in modes suited to a range of audiences.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Completing the before and after class activities",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Completing the set readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MAS105, WMEC105",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Multimodal Project",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "35",
+        "description": "Students are required to create a story and share it as a multimodal project by using texts, images, graphics, audio and video in Adobe Spark/Canva.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research project",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "35",
+        "description": "Students are required to write an essay to analyse framing and narrative on selected issues in the media.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Video Project",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "30",
+        "description": "Students are required to create a video and a storyboard by using the technologies covered in the unit and based on the research project they completed.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "WMMC1050",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: WMMC1050"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MMCC1050"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Multimodal Storytelling",
+                "academic_item_code": "MMCC1050",
+                "academic_item_url": "/2020/units/MMCC1050"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "WMMC1050-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMMC1050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WMMC1050-unit_teaching_period-Special",
+        "display_name": "MUIC term 3-Special",
+        "teaching_period": {
+          "value": "MUIC term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMMC1050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WMMC1050-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 6-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 6"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMMC1050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WMMC1050-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMMC1050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WMMC1050-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 4-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 4"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMMC1050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WMMC1050-unit_teaching_period-Special",
+        "display_name": "MUIC term 4-Special",
+        "teaching_period": {
+          "value": "MUIC term 4"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMMC1050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WMMC1050-unit_teaching_period-Special",
+        "display_name": "MUIC term 1-Special",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMMC1050"
+        }
+      }
+    ],
+    "unit_offering_text": "MUIC term 1, Weekday attendance, North Ryde<br />MUIC term 3, Weekday attendance, North Ryde<br />MUIC term 3, Special circumstances<br />MUIC term 4, Weekday attendance, North Ryde<br />MUIC term 4, Special circumstances<br />MUIC term 6, Weekday attendance, North Ryde<br />MUIC term 1, Special circumstances<br />",
+    "subject_search_title": "WMMC1050 - Multimodal Storytelling",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie University International College"
+    },
+    "school": {
+      "value": "Macquarie University International College"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on ways to think about and study stories. Students study storytelling in multimodal contexts such as journalism, films, video clips, images, songs, short fiction, comics, audio, podcasts, testimony, broadcast, artworks, and online content. The unit equips students with the analytical skills to think critically about what shapes storytelling in the contemporary media landscape. The narratives in diverse media inform who we are and our place in the world. They provide us with information; but more importantly they give form to our lives in enabling and sometimes dangerous ways. Students learn the histories, techniques and structures of narrative. The unit guides students to consider the ways in which certain stories define and locate their potential audience; and how stories construct, reveal and hide meaning to persuade their audiences. The unit is an important introduction to how to construct a narrative in multimodal forms, and will be useful for any career option.",
+    "search_title": "WMMC1050 - Multimodal Storytelling",
+    "code": "WMMC1050",
+    "title": "Multimodal Storytelling",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on ways to think about and study stories. Students study storytelling in multimodal contexts such as journalism, films, video clips, images, songs, short fiction, comics, audio, podcasts, testimony, broadcast, artworks, and online content. The unit equips students with the analytical skills to think critically about what shapes storytelling in the contemporary media landscape. The narratives in diverse media inform who we are and our place in the world. They provide us with information; but more importantly they give form to our lives in enabling and sometimes dangerous ways. Students learn the histories, techniques and structures of narrative. The unit guides students to consider the ways in which certain stories define and locate their potential audience; and how stories construct, reveal and hide meaning to persuade their audiences. The unit is an important introduction to how to construct a narrative in multimodal forms, and will be useful for any career option.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-16T15:18:23.12",
+  "code": "WMMC1050",
+  "title": "Multimodal Storytelling",
+  "implementationYear": "2021"
+}

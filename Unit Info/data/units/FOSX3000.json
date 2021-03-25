@@ -1,0 +1,264 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Work effectively, responsibly and safely, as an individual and as part of a team, applying knowledge of ethical principles and professional conduct.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Explain the role and relevance of science in society, using examples from your and other scientific disciplines.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Plan your next steps after graduation, through an appraisal of personal achievements and the current and projected work environment.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Select and apply practical and/or theoretical techniques or tools from your discipline to conduct an investigation. ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Design and plan a professional cross-disciplinary investigation, using scientific thinking and creative strategies to devise and promote innovation.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain, with an employment and interview focus, how your study and achievements transfer to other contexts, orally and in writing.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Modules to cover required skills and knowledge for workshop activities",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Putting unit materials into personal context",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to BSc and 80cp at 2000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Reflection on your skills, knowledge and capabilities",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "10",
+        "description": "Reflective writing relating studies and experiences to future plans (may include CV/cover letter; application for research degree etc.)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project plan",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "50",
+        "description": "Plan for a cross-disciplinary project. Components of peer and self assessment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Project presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "description": "Present and pitch a team project via video. Includes formative exercise and peer assessment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Pitch an idea",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "15",
+        "description": "Generate a project idea and pitch it as a team via video to a non-expert audience.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "FOSX3000",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: FOSX3000"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: FOSE3000"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Making Science Work for You and Society: Capstone",
+                "academic_item_code": "FOSE3000",
+                "academic_item_url": "/2021/units/FOSE3000"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "FOSX3000-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOSX3000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "FOSX3000-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOSX3000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 2, Fully online/virtual<br />",
+    "subject_search_title": "FOSX3000 - Making Science Work for You and Society: Capstone",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "How do the skills and knowledge you have acquired fit you for the next step beyond your degree? What is the role of scientific thinking in the workplace and in solving society’s problems? A major component of this unit is a cross-disciplinary project, in which you will collaborate with students from other majors in the Bachelor of Science. You will identify and practice employability and workplace skills, connecting your university experiences to career aspirations. By actively reflecting on prior learning and experiences, you will build and articulate a positive self-understanding, exploring opportunities and clarifying goals for the next stage of your career.",
+    "search_title": "FOSX3000 - Making Science Work for You and Society: Capstone",
+    "code": "FOSX3000",
+    "title": "Making Science Work for You and Society: Capstone",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "How do the skills and knowledge you have acquired fit you for the next step beyond your degree? What is the role of scientific thinking in the workplace and in solving society’s problems? A major component of this unit is a cross-disciplinary project, in which you will collaborate with students from other majors in the Bachelor of Science. You will identify and practice employability and workplace skills, connecting your university experiences to career aspirations. By actively reflecting on prior learning and experiences, you will build and articulate a positive self-understanding, exploring opportunities and clarifying goals for the next stage of your career.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T10:47:35.254",
+  "code": "FOSX3000",
+  "title": "Making Science Work for You and Society: Capstone",
+  "implementationYear": "2021"
+}

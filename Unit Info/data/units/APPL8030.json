@@ -1,0 +1,230 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and differentiate and explain cultural, psychological and social dimensions of interaction",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explain and critically evaluate the application of theories of intercultural competence to intercultural education",
+        "code": "ULO6"
+      },
+      {
+        "description": "Identify, interpret and explain culture-specific aspects of vocabulary, interaction norms and genres",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply theories relevant to language and society links and language and culture links",
+        "code": "ULO2"
+      },
+      {
+        "description": "Examine your everyday lives and identify and explain culturally motivated behaviours",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify, explain and describe regional and social variation within a language",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Videos and activities will be provided online to be completed before and after the lecture. ",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "3-4 core readings will be provided each week in electronic form. Students are encouraged to read beyond the set resources. ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LING903, TRAN903",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MAppLing or MAppLingTESOL or MAuslEngInt or PGDipAuslEngInt or MTransInter or MTransInterMIntRel or MTransInterMAppLingTESOL or MIntPubDip or MDevStud or MAccComm or MEd or MAdvTransInterStud",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Discussion board  ",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "10",
+        "description": "Each week, there will be a discussion task related to the reading and lecture content. These will take a range of forms and one will be formally assessed. <strong>These will be spread across weeks 2-12 of the unit</strong>. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": " Links between language and culture.",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "60",
+        "description": "Research project on a  topic relevant to the links between language and culture.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz ( 2) ",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Each quiz will contain 15 multiple choice questions relating to the content of each half of the unit.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8030"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "APPL8030 - Languages and Cultures in Contact",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Based in the field of Anthropological Linguistics, this unit investigates language, society and culture. The content and activities of this unit aim to develop an awareness and understanding of the theories and practical implications associated with linguistic diversity, exploring topic areas which include migration, transnationalism, and identity.  The focus  is on how worldview influences the language choices of a group and how group values, beliefs and practices generate, maintain, and transform norms of interaction within a culture.",
+    "search_title": "APPL8030 - Languages and Cultures in Contact",
+    "code": "APPL8030",
+    "title": "Languages and Cultures in Contact",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Based in the field of Anthropological Linguistics, this unit investigates language, society and culture. The content and activities of this unit aim to develop an awareness and understanding of the theories and practical implications associated with linguistic diversity, exploring topic areas which include migration, transnationalism, and identity.  The focus  is on how worldview influences the language choices of a group and how group values, beliefs and practices generate, maintain, and transform norms of interaction within a culture.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:47:59.719",
+  "code": "APPL8030",
+  "title": "Languages and Cultures in Contact",
+  "implementationYear": "2021"
+}

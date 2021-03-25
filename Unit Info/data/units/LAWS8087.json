@@ -1,0 +1,295 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "demonstrate, both orally and in writing, an understanding of the foundations and evolution of the international human rights law system — within the broader international law framework — and the resulting strengths and weaknesses of the system.",
+        "code": "ULO1"
+      },
+      {
+        "description": "evaluate and compare, both orally and in writing, the mechanisms available for monitoring and enforcing human rights standards in different international and regional systems.",
+        "code": "ULO2"
+      },
+      {
+        "description": "demonstrate capacity for autonomous research by developing an individual research proposal and project that critically analyses a current issue or development from an international human rights law perspective.",
+        "code": "ULO4"
+      },
+      {
+        "description": "engage constructively with various critiques and theories of human rights — for example, whether rights are universal or particular — and be able to critically discuss, both orally and in writing, the significance of those approaches in the development, interpretation and operation of international human rights law.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Tutorial readings and questions are set for the intensive",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Lecture readings are set for each of the thirteen weeks",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LAWS519, LAW887",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(Admission to JD and 80cp in LAWS or LAW units at 6000 level or above) or (Admission to LLM)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Take Home Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "Students are required to complete a final take home test comprising short answer and essay questions. The questions and essay topics may be drawn from any part of the course, including the tutorial material. This is a timed assessment and no late submissions will be accepted. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Students are required to submit a research essay — based on their research essay proposal — that critically analyses a current issue or development arising under the International Covenant on Civil and Political Rights or the International Covenant on Economic, Social and Cultural Rights from an international human rights law perspective.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Multiple Choice Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "Students are required to complete an online multiple choice quiz, covering material addressed in the early part of the course. The quiz is designed to encourage students to start reading early and to provide early feedback on students’ understanding of the readings. This is a timed assessment and no late submissions are accepted.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Essay Proposal",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "15",
+        "description": "Students are required to develop and submit a research proposal for their research essay relating to a current issue or development arising under the International Covenant on Civil and Political Rights or the International Covenant on Economic, Social and Cultural Rights. The proposal must clearly set out the proposed research question and approach to the question. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "LAWS8087",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: LAWS8087"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: LAWS5019"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "International Human Rights Law",
+                "academic_item_code": "LAWS5019",
+                "academic_item_url": "/2020/units/LAWS5019"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LAWS8087-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8087"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8087-unit_teaching_period-Intensive-subject",
+        "display_name": "Session 1-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8087"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8087-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8087"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8087-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8087"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Intensive attendance, North Ryde<br />Session 1, Infrequent attendance, North Ryde<br />Session 1, Special circumstances<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "LAWS8087 - International Human Rights Law",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit addresses the fundamental and dynamic issue of the protection of human rights in international law. The unit traces the historical development of human rights law at national, regional and global levels. It considers theoretical frameworks for analysing the rights of individuals and groups and the duties of states to protect those rights. It considers the strengths and limitations of the institutions and mechanisms in place to protect and promote rights in practice. The unit includes consideration of the cross-cultural dimensions and other tensions inherent in this area, with a focus on contemporary challenges for international human rights law. Building on the foundations provided in the unit readings and discussion, students have the opportunity to explore a rights issue of particular personal interest. ",
+    "search_title": "LAWS8087 - International Human Rights Law",
+    "code": "LAWS8087",
+    "title": "International Human Rights Law",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit addresses the fundamental and dynamic issue of the protection of human rights in international law. The unit traces the historical development of human rights law at national, regional and global levels. It considers theoretical frameworks for analysing the rights of individuals and groups and the duties of states to protect those rights. It considers the strengths and limitations of the institutions and mechanisms in place to protect and promote rights in practice. The unit includes consideration of the cross-cultural dimensions and other tensions inherent in this area, with a focus on contemporary challenges for international human rights law. Building on the foundations provided in the unit readings and discussion, students have the opportunity to explore a rights issue of particular personal interest. ",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:47:52.885",
+  "code": "LAWS8087",
+  "title": "International Human Rights Law",
+  "implementationYear": "2021"
+}

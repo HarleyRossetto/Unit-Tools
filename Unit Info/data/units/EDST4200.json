@@ -1,0 +1,121 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply data literacy skills to make inferences from qualitative and quantitative data sets.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Examine techniques for analysing and interpreting qualitative and quantitative data.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify professional challenges presented in the data and reflect upon the implications for their own teaching practice. Examine the purposes and types of feedback to students and reportage to parents and other stakeholders.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify various sources of educational data.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically evaluate qualitative and quantitative data collection instruments.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "160cp and (EDST3000 or EDST300 or EDST3010 or EDST301 or EDST3020 or EDST302)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDST4200-unit_teaching_period",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST4200"
+        }
+      }
+    ],
+    "unit_offering_text": "2022<br />",
+    "subject_search_title": "EDST4200 - Using and Interpreting Educational Data",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on the use of various forms of educational data to support learning. Students will examine the sources of data and develop an understanding of the types of data that can be used for different purposes. They will learn to analyse, interpret, apply and critically evaluate data from classroom assessments, state and national tests and large-scale standardised assessment programs. They will also develop reflexive skills as they draw upon a range of data to inform their practice.",
+    "search_title": "EDST4200 - Using and Interpreting Educational Data",
+    "code": "EDST4200",
+    "title": "Using and Interpreting Educational Data",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on the use of various forms of educational data to support learning. Students will examine the sources of data and develop an understanding of the types of data that can be used for different purposes. They will learn to analyse, interpret, apply and critically evaluate data from classroom assessments, state and national tests and large-scale standardised assessment programs. They will also develop reflexive skills as they draw upon a range of data to inform their practice.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-06T15:58:42.505",
+  "code": "EDST4200",
+  "title": "Using and Interpreting Educational Data",
+  "implementationYear": "2021"
+}

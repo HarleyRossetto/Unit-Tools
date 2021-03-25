@@ -1,0 +1,235 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Recall and apply linguistic metalanguage",
+        "code": "ULO5"
+      },
+      {
+        "description": "Recognize, memorize and recall Egyptian script, phonetic structures and foundational Egyptian vocabulary",
+        "code": "ULO1"
+      },
+      {
+        "description": "Integrate knowledge of grammar and vocabulary in translating, reading and/or writing simple Egyptian texts",
+        "code": "ULO6"
+      },
+      {
+        "description": "Apply relevant grammatical and lexical reference tools",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify and recall Egyptian grammatical structures at elementary level",
+        "code": "ULO2"
+      },
+      {
+        "description": "Reflect and comment on the significance of hieroglyphic Egyptian for the study of relevant ancient cultures",
+        "code": "ULO7"
+      },
+      {
+        "description": "Assess the grammar required for the translation of simple Egyptian texts",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students engage with the weekly content and the various resources at their disposal through iLearn and the required reference tools to revise, consolidate, expand, explore and practice their transliterating, translating and reading of short texts written in hieroglyphic Egyptian. They complete exercises and thereby actively develop linguistic metalanguage and develop analytical thinking about sentence structure and text.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "AHIS278, AHST260, AHIS178",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignments",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "25",
+        "description": "Students complete a series of mixed questions to transliterate and translate hieroglyphic Egyptian as well as explain grammatical structures. They will demonstrate the appropriate use of the relevant reference tools. The assignments align with the weekly content and the students will experience a development in their proficiency in reading and understanding hieroglyphic Egyptian.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Vocabulary Tests",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "Students demonstrate their capability of reading hieroglyphs and their recall of vocabulary and phrases of hieroglyphic Egyptian.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Revision Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Students transliterate, translate and demonstrate their understanding of the hieroglyphic script and elementary level sentence structures. This Test provides the opportunity for thorough revision and consolidation of the weekly content up to the time of the test. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "35",
+        "description": "Students are tested on the knowledge of the hieroglyphic script, vocabulary, syntax and grammar they have built, practiced and consolidated in the course of the unit. They demonstrate their ability to transliterate and translate text and understand cultural context.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "AHIS1150-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS1150"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AHIS1150-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS1150"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AHIS1150-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS1150"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "AHIS1150 - Hieroglyphic Egyptian A",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to Middle Egyptian, the classical language of Ancient Egypt. This was the language of the Middle Kingdom and the early New Kingdom but it remained in use in religious and literary texts as long as the Egyptian civilisation survived. The understanding of Middle Egyptian is essential to earlier and later stages of this language.",
+    "search_title": "AHIS1150 - Hieroglyphic Egyptian A",
+    "code": "AHIS1150",
+    "title": "Hieroglyphic Egyptian A",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to Middle Egyptian, the classical language of Ancient Egypt. This was the language of the Middle Kingdom and the early New Kingdom but it remained in use in religious and literary texts as long as the Egyptian civilisation survived. The understanding of Middle Egyptian is essential to earlier and later stages of this language.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T09:55:44.496",
+  "code": "AHIS1150",
+  "title": "Hieroglyphic Egyptian A",
+  "implementationYear": "2021"
+}

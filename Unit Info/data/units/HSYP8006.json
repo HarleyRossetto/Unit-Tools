@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe the key characteristics and individual and social determinants of marginalisation in a population health context",
+        "code": "ULO1"
+      },
+      {
+        "description": "Develop culturally aware techniques for engagement with and advocacy for marginalised populations in public health practice and/or research to create inclusive systems",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically appraise health policy related to marginalised populations with particular consideration of pragmatic approaches to development and delivery of policy",
+        "code": "ULO4"
+      },
+      {
+        "description": "Evaluate interventions designed to improve health outcomes in marginalised populations",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly reading and preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Special"
+      },
+      {
+        "description": "Weekly reading and preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Weekday-North Ryde"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MPH",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "HSYP819",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "1500 word essay about the features, causes and impacts of marginalisation ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "Students should write an essay which explores the features, causes and impacts of marginalisation. The essay should consider the ways marginalisation is established and maintained within cultures and societies as well as the ways it can be reduced. The essay should also examine the complexities and nuances of marginalisation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "1500 word essay about the relationship between healthcare policy, practice and access and marginalisation.",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "Students should write an essay which includes an introduction, discussion and conclusion that explores the relationship between healthcare policy, practice and access and marginalisation. The essay should consider the ways marginalisation impacts on the ways people access and use healthcare as well as the ways governments and other organisations in Australia and globally have sought to address disparities in services, outcomes and expenditure. Students should explore the efficacy of these responses.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Demonstrate appropriate techniques for engagement with marginalised populations in public health practice and/or research",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "25",
+        "description": "Students should select a marginalised population group and describe why and how they are marginalised as well as the impacts of marginalisation on that population group. The case study report should examine techniques for engaging with that marginalised population in healthcare policy, practice and/or research and provide evidence of efficacy from peer reviewed and other reliable literature. Students should consider innovative ways to adapt techniques and consider process and impact measures from the perspective of the population group as well as other key stakeholders.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Healthcare policy",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "description": "Students should prepare 8-10 PowerPoint slides and associated 5 minute speech which critically appraises an aspect of health policy in Australia or elsewhere in the world. Students will present their slides and speech in week 13 to the class in a whole day workshop. Students cannot exceed the time limit or number of slides. They should submit their speech and slides via Turnitin.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HSYP8006"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HSYP8006"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "HSYP8006 - Inclusive Health",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Public Health is intrinsically related to social justice and alleviating the outcomes associated with negative health determinants, including marginalisation. In line with this philosophy, you will explore the nature of marginalisation and its impacts on the health of individuals and populations. We will investigate the role of policy in improving health and in some cases, creating further disadvantage in at risk populations. We will also investigate the unique nature of undertaking research with marginalised populations, particularly the necessity to involve relevant stakeholders in all stages of the research endeavour and service delivery so as to promote social justice and equity for marginalised populations and create inclusive health systems that meet diverse needs.",
+    "search_title": "HSYP8006 - Inclusive Health",
+    "code": "HSYP8006",
+    "title": "Inclusive Health",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Public Health is intrinsically related to social justice and alleviating the outcomes associated with negative health determinants, including marginalisation. In line with this philosophy, you will explore the nature of marginalisation and its impacts on the health of individuals and populations. We will investigate the role of policy in improving health and in some cases, creating further disadvantage in at risk populations. We will also investigate the unique nature of undertaking research with marginalised populations, particularly the necessity to involve relevant stakeholders in all stages of the research endeavour and service delivery so as to promote social justice and equity for marginalised populations and create inclusive health systems that meet diverse needs.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:32:39.27",
+  "code": "HSYP8006",
+  "title": "Inclusive Health",
+  "implementationYear": "2021"
+}

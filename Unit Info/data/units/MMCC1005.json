@@ -1,0 +1,195 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "identify key debates, themes and concepts in the broad field of Film Studies",
+        "code": "ULO1"
+      },
+      {
+        "description": "demonstrate an expansive historical knowledge of film theory.",
+        "code": "ULO2"
+      },
+      {
+        "description": "distinguish between theoretical positions on film practices and texts.",
+        "code": "ULO3"
+      },
+      {
+        "description": "analyse films according to themes, genres, form and cultural contexts.",
+        "code": "ULO4"
+      },
+      {
+        "description": "identify and use appropriate articles in academic journals.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Unit preparation, including watching and taking notes on weekly film and completing readings.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MAS205 and MMCC2050",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "This is an essay responding to a question about one or more of the film screenings assigned for the unit. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz 1 and 2",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "There are 2 online quizzes comprised of multiple choice and/or short answer questions relating to the key readings, films, and lecture content from the unit. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Film Log",
+        "type": {
+          "label": "Log book",
+          "value": "log_book"
+        },
+        "weight": "35",
+        "description": "The film log takes the form of five entries. Students are required to write entries on five films and related readings. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC1005-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC1005"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC1005-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC1005"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MMCC1005 - Introduction to the Cinema",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is an introduction to 1) some of the main theoretical issues and debates that have defined film studies as an area of cultural interest; and 2) some of the key historical moments in filmmaking and the moving image (from the 1920s through to more recent times). The unit will consider topics such as the codes, conventions, and aesthetics of film narrative; film genres; film styles; film canons; modes of storytelling; the relation between fiction film and documentary film (and their hybrids); and contemporary moving image culture.",
+    "search_title": "MMCC1005 - Introduction to the Cinema",
+    "code": "MMCC1005",
+    "title": "Introduction to the Cinema",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is an introduction to 1) some of the main theoretical issues and debates that have defined film studies as an area of cultural interest; and 2) some of the key historical moments in filmmaking and the moving image (from the 1920s through to more recent times). The unit will consider topics such as the codes, conventions, and aesthetics of film narrative; film genres; film styles; film canons; modes of storytelling; the relation between fiction film and documentary film (and their hybrids); and contemporary moving image culture.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T11:56:14.473",
+  "code": "MMCC1005",
+  "title": "Introduction to the Cinema",
+  "implementationYear": "2021"
+}

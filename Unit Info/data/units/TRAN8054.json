@@ -1,0 +1,107 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "TRAN854",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MAuslEngInt or PGDipAuslEngInt or GradDipAuslEngInt",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8054"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Intensive attendance, North Ryde<br />",
+    "subject_search_title": "TRAN8054 - Sign Language Linguistics for Auslan Interpreters",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to the linguistics of signed languages, with particular reference to Auslan as it relates to interpreting. The unit includes language structure (phonology, morphology, syntax, semantics, and discourse) based on the Auslan corpus, in a top-down approach, starting with the semiotic elements available to all languages. The use of space, depicting signs and constructed action are a major applied focus at the on-campus sessions. Students also apply their linguistic knowledge to the computerised annotation and analysis of an Auslan text.",
+    "search_title": "TRAN8054 - Sign Language Linguistics for Auslan Interpreters",
+    "code": "TRAN8054",
+    "title": "Sign Language Linguistics for Auslan Interpreters",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to the linguistics of signed languages, with particular reference to Auslan as it relates to interpreting. The unit includes language structure (phonology, morphology, syntax, semantics, and discourse) based on the Auslan corpus, in a top-down approach, starting with the semiotic elements available to all languages. The use of space, depicting signs and constructed action are a major applied focus at the on-campus sessions. Students also apply their linguistic knowledge to the computerised annotation and analysis of an Auslan text.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:39:18.435",
+  "code": "TRAN8054",
+  "title": "Sign Language Linguistics for Auslan Interpreters",
+  "implementationYear": "2021"
+}

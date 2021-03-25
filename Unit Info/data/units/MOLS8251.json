@@ -1,0 +1,206 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply a combination of techniques to an analytical chemistry project to acquire results that facilitate appropriate actions",
+        "code": "ULO5"
+      },
+      {
+        "description": "Display competency in the use of important analytical techniques commonly used in industrial and academic research",
+        "code": "ULO1"
+      },
+      {
+        "description": "Build teamwork with other members of the unit by working together in a laboratory environment",
+        "code": "ULO6"
+      },
+      {
+        "description": "Process and analyse chemical experimental data to draw scientifically sound conclusions, particularly the significance and validity of analytical results involving real-life samples",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse and critique experimental data and present them in oral format",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse and interpret experimental data and present them in a structured report utilising appropriate scientific referencing",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Developing a new detection method for solving a real-life analytical problem ",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CBMS825",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "CHEM6231",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "5",
+        "description": "Numerical calculations and short answers.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-Year 3-hour Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Closed book examination.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Laboratory Work",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "40",
+        "description": "For each experiment, students are required to complete some Pre-laboratory work including Materials Safety Data Sheets and the general understanding of aim and procedure of the experiment.  Following the completion of a laboratory session, students will then decide on either completing a written report or performing an oral assessment on the laboratory work.  Students must complete a total of 3 written reports and 2 oral assessments.\n",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "5",
+        "description": "Numerical calculations and short answers.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MOLS8251"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MOLS8251 - Chemical Analysis",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Molecular Sciences "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit discusses the chemical principles and practice of both qualitative and quantitative determination of sample identifying and determining the composition. Topics include many analytical techniques commonly employed in both industrial and academic research laboratories. The unit emphasises hands-on experience in analysing real-life samples. A proportion of the unit develops skills in the use of modern library resources and electronic information retrieval. Using these skills, students will complete a short research project addressing a real-life analytical chemistry problem.",
+    "search_title": "MOLS8251 - Chemical Analysis",
+    "code": "MOLS8251",
+    "title": "Chemical Analysis",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit discusses the chemical principles and practice of both qualitative and quantitative determination of sample identifying and determining the composition. Topics include many analytical techniques commonly employed in both industrial and academic research laboratories. The unit emphasises hands-on experience in analysing real-life samples. A proportion of the unit develops skills in the use of modern library resources and electronic information retrieval. Using these skills, students will complete a short research project addressing a real-life analytical chemistry problem.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:29:45.529",
+  "code": "MOLS8251",
+  "title": "Chemical Analysis",
+  "implementationYear": "2021"
+}

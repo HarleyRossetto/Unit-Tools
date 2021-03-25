@@ -1,0 +1,148 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MAppFin(Beijing) and (AFCL801 or AFCL8001) and (ECFL866 or AFCL8003) and (ECFL867 or AFCL8004) and (ECFL868 or AFCL8005)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "AFCP802, AFCL802",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [
+      {
+        "academic_item_code": "AFCL8002",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: AFCL8002"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: AFCP8002"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Professional Practice",
+                "academic_item_code": "AFCP8002",
+                "academic_item_url": "/2020/units/AFCP8002"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "AFC April-Weekday-Beijing",
+        "teaching_period": {
+          "value": "AFC April"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCL8002"
+        }
+      }
+    ],
+    "unit_offering_text": "AFC April, Weekday attendance, Beijing<br />",
+    "subject_search_title": "AFCL8002 - Professional Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Students will integrate and apply their knowledge and skills to issues and cases that simulate professional practice in finance. Students will reflect on their roles as practitioners in the finance industry and further develop their professional identity. Critical analysis skills will be utilised to evaluate, synthesise and provide reasoned responses to issues arising in financial practice.Students will undertake research in applied finance and will be challenged to critically reflect on current issues via the preparation and presentation of a major research report. Personal communication, negotiation and collaborative skills will be further developed. This unit will be undertaken towards the end of the program of study.",
+    "search_title": "AFCL8002 - Professional Practice",
+    "code": "AFCL8002",
+    "title": "Professional Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Students will integrate and apply their knowledge and skills to issues and cases that simulate professional practice in finance. Students will reflect on their roles as practitioners in the finance industry and further develop their professional identity. Critical analysis skills will be utilised to evaluate, synthesise and provide reasoned responses to issues arising in financial practice.Students will undertake research in applied finance and will be challenged to critically reflect on current issues via the preparation and presentation of a major research report. Personal communication, negotiation and collaborative skills will be further developed. This unit will be undertaken towards the end of the program of study.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:43:33.911",
+  "code": "AFCL8002",
+  "title": "Professional Practice",
+  "implementationYear": "2021"
+}

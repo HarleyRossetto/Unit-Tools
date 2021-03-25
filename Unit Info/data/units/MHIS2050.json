@@ -1,0 +1,263 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe and understand key events in the military history of Australia",
+        "code": "ULO4"
+      },
+      {
+        "description": "Read and analyse different kinds of historical evidence, including visual and textual sources",
+        "code": "ULO1"
+      },
+      {
+        "description": "Understand and discuss the ways in which Australian historians have written and argued about the role of war and the military in Australian national life",
+        "code": "ULO6"
+      },
+      {
+        "description": "Communicate effectively in oral forms, and in a range of written forms",
+        "code": "ULO3"
+      },
+      {
+        "description": "Find, analyse and apply historical information",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically analyse contemporary debates about the place of the military and armed conflict in Australian national life",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings and research conducted prior to attending class or engaging in online forums",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MHIX205, MHIS205",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "40cp at 1000 level or above OR (10cp in HIST or MHIS or POL or POIR or MHIX or POIX units)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "This is a project developed across the semester based on primary and secondary historical research. It examines various aspects of the history of Australians at war.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "This tasks consists of ten online quizzes with each quiz worth 2% of the final grade. The quiz will be delivered and graded through the learning management system and will be based on the videos and readings for the relevant week. This is a timed assessment and no late submissions will be accepted.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Short Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "In this essay you will choose from 3-4 questions that will be workshopped in class. You will draw on a range of provided sources as well as conduct your own research. The essay will explore historical debates about various aspects of Australians at war.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MHIS2050",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MHIS2050"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MHIX2050"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "ANZAC: Australians at War",
+                "academic_item_code": "MHIX2050",
+                "academic_item_url": "/2020/units/MHIX2050"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MHIS2050-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS2050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MHIS2050-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS2050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MHIS2050-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS2050"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MHIS2050 - ANZAC: A History of Australians at War",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The ANZAC Legend has long been at the core of Australian mythology. As well as tracing the history of the major conflicts that have engaged Australians from before white colonisation to the War on Terror, this course explores how the experience of war has shaped national identity. Themes will include: the idea of ANZAC and the militarisation of Australian History; the &#39;Australian way of war&#39;; gender, race and ethnicity; relationships with allies and enemies; the homefront; loss, disability and rehabilitation; and other legacies of war and commemoration. A range of sources -- from literature to film, from private diaries to official records -- will be used to examine these themes. Documentary-style videos are used in place of lectures, allowing students class time to work on projects that explore the experiences of Australians at war.",
+    "search_title": "MHIS2050 - ANZAC: A History of Australians at War",
+    "code": "MHIS2050",
+    "title": "ANZAC: A History of Australians at War",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The ANZAC Legend has long been at the core of Australian mythology. As well as tracing the history of the major conflicts that have engaged Australians from before white colonisation to the War on Terror, this course explores how the experience of war has shaped national identity. Themes will include: the idea of ANZAC and the militarisation of Australian History; the &#39;Australian way of war&#39;; gender, race and ethnicity; relationships with allies and enemies; the homefront; loss, disability and rehabilitation; and other legacies of war and commemoration. A range of sources -- from literature to film, from private diaries to official records -- will be used to examine these themes. Documentary-style videos are used in place of lectures, allowing students class time to work on projects that explore the experiences of Australians at war.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T14:20:53.199",
+  "code": "MHIS2050",
+  "title": "ANZAC: A History of Australians at War",
+  "implementationYear": "2021"
+}

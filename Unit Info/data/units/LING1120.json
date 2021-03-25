@@ -1,0 +1,235 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate in academic writing the ways composers of either written or spoken texts use language choices and other text design strategies to target their chosen audience as well as meet their own needs in the communicative process.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Analyse short texts in terms of their grammatical patterns.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Discuss the role of language as it is used in a variety of social contexts.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate an understanding of what is meant by a functional approach to English grammar, and in particular the functional approach taken by systemic functional grammarians.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Use basic terminology (in terms of both traditional and systemic functional grammar) used by grammarians to describe grammatical phenomena.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "online practice quizzes",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "The tutorial booklet has a number of activities that students need to complete prior to atttending their tutorial.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LING120",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Clause ID & Thamtic analysis",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "30",
+        "description": "This is a an assessment that tests students&#39; understanding of clause identfication and Theme / Rheme analysis.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Major Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "This 1200 word essay will require you to compare two texts using both experiential and interpersonal meanings as your analytical tools.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Grammar Exercise",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "35",
+        "description": "This grammar exercise is based on Lectures 4-14 and will cover experiential and interpersonal meanings. Students are strongly advised to participate in the online practice grammar quizzes in order to prepare for this assessment as our research indicates there is a direct correlation between practice quiz participation and the assessment grade.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Short Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "10",
+        "description": "In this short essay students analyse the context of a provided text (500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LING1120-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LING1120"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LING1120-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LING1120"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LING1120-unit_teaching_period-Weekend-subject",
+        "display_name": "Session 1-Weekend-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekend attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LING1120"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Weekend attendance, North Ryde<br />",
+    "subject_search_title": "LING1120 - Exploring English",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The English language is used in many different ways: to inform, to question, to report, to regulate, to express emotions, to advertise products, to create images, to construct works of literature. Drawing on a view of language as a &#39;social semiotic&#39;, this unit moves from some basic and traditional concepts in English grammar to looking at the grammatical choices users of English make in a variety of contexts, with lectures covering both theory and practice. The theoretical lectures provide an introduction to some basic concepts of, and tools for, a functional approach to grammar description and analysis of its application to context. The practical lectures and online activities invite students to explore the relationship between the grammar of and the contextual meanings in texts - both spoken and written - drawn from many different social contexts.",
+    "search_title": "LING1120 - Exploring English",
+    "code": "LING1120",
+    "title": "Exploring English",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The English language is used in many different ways: to inform, to question, to report, to regulate, to express emotions, to advertise products, to create images, to construct works of literature. Drawing on a view of language as a &#39;social semiotic&#39;, this unit moves from some basic and traditional concepts in English grammar to looking at the grammatical choices users of English make in a variety of contexts, with lectures covering both theory and practice. The theoretical lectures provide an introduction to some basic concepts of, and tools for, a functional approach to grammar description and analysis of its application to context. The practical lectures and online activities invite students to explore the relationship between the grammar of and the contextual meanings in texts - both spoken and written - drawn from many different social contexts.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T10:48:33.887",
+  "code": "LING1120",
+  "title": "Exploring English",
+  "implementationYear": "2021"
+}

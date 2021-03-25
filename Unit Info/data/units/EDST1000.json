@@ -1,0 +1,255 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply initial academic research skills through searching relevant databases and other non-academic sources to read for purpose and investigate contemporary issues in Australian educational practice.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Work collaboratively and ethically with others.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Develop insights into the ways in which contemporary educational practice has been shaped, and continues to be shaped, by socio-cultural and historical factors.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Describe the structures and concepts that underpin contemporary policy and practice in Australian educational institutions.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparation for exam",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Prep for classes",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "EDST100",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "The Making of ‘YOU'",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Students analyse their own schooling experience (or one advertised by a generic school website) from a sociological perspective, including school motto, rules, rewards and punishments, uniforms, subject choices, values or lessons etc. They consider the types of students and ways of being that were encouraged and discouraged and the effects this may have on different types of students’ inclusion and engagement. Students analyse how their social and development characteristics impacted and were impacted by school teaching and learning approaches. They use readings from the first five modules to reflect on the strategies’ effectiveness (1500 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Exam: Traditional Truths",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "Other EDST1000 assignment types have followed liberal, critical and post-modern patterns of assessment. To ensure all sociologies of education (including all views of knowledge) and all assessment types are represented (including conservative types privileged in much Australian schooling and casting knowledge as containing ‘facts’ and ‘truths’), we include this exam. It will include for example multiple choice questions on basic ‘facts’ and ‘truths’ of EDST1000 content.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Engagement: Lead & Follow",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "There are two components (1a and 1b) in the first assessment task designed to both encourage and assess the quality of ongoing student engagement: tutorial leadership (15%/ 15 marks) and ongoing participation in tutorial discussions (15%/ 15 marks). Both components are assessed by the tutor in either face-to-face class time utilising a purpose-designed rubric with scope for student peer assessment providing further input.\n\n1a) Students, in groups of no more than three, will plan and facilitate an interactive class discussion to address one or more of the key questions posed for the week&#39;s module and elaborated on in the previous week’s lectures.\n\n1b) An individual grade will also be awarded for contributions to face-to-face or online tutorial group discussions throughout the semester that demonstrate an ongoing engagement with key issues raised and readings.\n",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST1000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Infrequent attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "EDST1000 - Exploring Australian Education: Social and Historical Contexts",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "As a foundational unit, this unit invites students to explore the practice of education in Australia today through the lens of what and how children and young people are learning and experiencing in contemporary early childhood, primary and secondary school settings. Concepts and perspectives drawn from sociology and history, and also from philosophy, cultural studies, politics and economics, will support your reflections on your own schooling, your direct observations on contemporary practices in education, and in discerning the implications they hold for your future development as a teacher. The concept of &#34;the curriculum&#34; and its many dimensions are explored as an important unifying theme throughout the unit as we investigate how teachers and school leaders seek to be responsive to students, colleagues, parents and communities in the context of the society schools serve. A wide range of contemporary issues are considered relating to families, gender, equity, indigeneity, media, technology and community. Key moments in the history of Australian education are also identified.",
+    "search_title": "EDST1000 - Exploring Australian Education: Social and Historical Contexts",
+    "code": "EDST1000",
+    "title": "Exploring Australian Education: Social and Historical Contexts",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "As a foundational unit, this unit invites students to explore the practice of education in Australia today through the lens of what and how children and young people are learning and experiencing in contemporary early childhood, primary and secondary school settings. Concepts and perspectives drawn from sociology and history, and also from philosophy, cultural studies, politics and economics, will support your reflections on your own schooling, your direct observations on contemporary practices in education, and in discerning the implications they hold for your future development as a teacher. The concept of &#34;the curriculum&#34; and its many dimensions are explored as an important unifying theme throughout the unit as we investigate how teachers and school leaders seek to be responsive to students, colleagues, parents and communities in the context of the society schools serve. A wide range of contemporary issues are considered relating to families, gender, equity, indigeneity, media, technology and community. Key moments in the history of Australian education are also identified.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:10:26.457",
+  "code": "EDST1000",
+  "title": "Exploring Australian Education: Social and Historical Contexts",
+  "implementationYear": "2021"
+}

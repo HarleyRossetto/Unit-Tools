@@ -1,0 +1,237 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Discuss the clinical application of the basic audiological testing in an adult population.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply problem-solving strategies to make clinical decisions and to integrate and interpret audiological information.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain the theoretical framework of psychoacoustics underlying hearing threshold, hearing loss and related audiometric concepts.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Perform basic audiometric assessments of adults and older children, including otoscopy, pure tone audiometry, speech discrimination testing, clinical masking, and acoustic immittance.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "9",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MClinAudiology",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CAUD802",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(CAUD803 or CAUD8003) and (CAUD804 or CAUD8004) and (CAUD819 or CAUD8001)",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Clinical-based exercise 1",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "20",
+        "description": "This essay aims to assess your understanding of the principles underlying audiological assessment. The details of the essay will be provided to you at the beginning of the semester. It will be assessed according to the assessment criteria outlined. The essay should be no more than 2000 words (excluding references and citations).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Clinical-based exercise 2",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "20",
+        "description": "This essay aims to assess your understanding of the principles underlying audiological assessment. The details of the essay will be provided to you at the beginning of the semester. It will be assessed according to the assessment criteria outlined. The essay should be no more than 2000 words (excluding references and citations).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "5",
+        "description": "Participation in this unit will attract 5% of the units&#39; total marks. Participation will be marked based upon completion of activities on this units iLearn page. Activities include forum posts, and quizzes, with a mark of 5% constituring completion of &gt;&#61; 75% of activities, 2.5% constituting completion of between 50-74% of activities and 0% for &lt;50% of activities.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "The aim of the quiz is to assess your understanding of various aspects of psychoacoustics such as loudness, pitch, hearing and principles underlying masking. The quiz will be 1 h in duration.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "The aim of the exam is to integrate the theory learned in this unit with clinical cases. This exam will be 3 hours in duration.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "CAUD8002-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CAUD8002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CAUD8002-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CAUD8002"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "CAUD8002 - Adult Hearing Assessment",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will provide an understanding of the theoretical framework of psychoacoustics underlying hearing threshold, hearing loss and related audiometric concepts; equip students with skills required to perform standard audiometric assessments of adults and older children, including otoscopy, pure tone audiometry, speech discrimination testing, clinical masking, and acoustic immittance; and facilitate the development of problem-solving and clinical integration skills for interpretation of audiological information, appropriate clinical decision making and referral.",
+    "search_title": "CAUD8002 - Adult Hearing Assessment",
+    "code": "CAUD8002",
+    "title": "Adult Hearing Assessment",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will provide an understanding of the theoretical framework of psychoacoustics underlying hearing threshold, hearing loss and related audiometric concepts; equip students with skills required to perform standard audiometric assessments of adults and older children, including otoscopy, pure tone audiometry, speech discrimination testing, clinical masking, and acoustic immittance; and facilitate the development of problem-solving and clinical integration skills for interpretation of audiological information, appropriate clinical decision making and referral.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T10:38:53.648",
+  "code": "CAUD8002",
+  "title": "Adult Hearing Assessment",
+  "implementationYear": "2021"
+}

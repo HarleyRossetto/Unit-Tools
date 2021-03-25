@@ -1,0 +1,181 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically evaluate personal teaching practices.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Effectively communicate and develop rapport with students.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Arrange content into an effective learning and teaching sequence.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Support children and families from diverse backgrounds in the classroom including Aboriginal and Torres Strait Islander children and families.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify the factors that influence curriculum decision making processes.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Identify and discriminate between different modes of assessment to use in the classroom setting.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "130cp including (ECHP323 or ECHP223 or ECHP2230)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECHP324, ECHP327",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Arriving in Australia and going to school",
+        "type": {
+          "label": "Lesson plan",
+          "value": "lesson_plan"
+        },
+        "weight": "50",
+        "description": "The purpose of this assessment is to provide teacher education students with an understanding of the complexities of teaching in classrooms with diverse children and families. \n- Write a report that shows how you could assist children, staff and families to develop their understanding of diversity in the classroom.\n- Develop a sequence of 4 lessons with clear links to the curriculum documents.\n- Develop a parent/carer information letter about the activities in the classroom.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Part A: Teaching Performance Assessment Preparation. & Part B: Professional Experience Evaluation document",
+        "type": {
+          "label": "Work-integrated task",
+          "value": "work_integrated_task"
+        },
+        "weight": "50",
+        "description": "Part A: This assessment will introduce teacher education students to the possibilities of documenting children’s learning in the classroom setting and allows them to reflect on the curriculum, pedagogy and their practice. They will develop a situational analysis as an overview of the educational setting.\nPart B: Professional Experience Evaluation document: This document is graded as satisfactory or unsatisfactory and determines the outcome of the placement and therefore the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECHP3270-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHP3270"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECHP3270-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHP3270"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ECHP3270 - Professional Experience 4",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "This unit builds on previous experiences and extends on teaching skills by providing students with further experiences in K-6 classrooms. It enables pre-service teachers to extend their understanding of approaches to curriculum planning and the documentation of children&#39;s learning in the school environment. The unit focuses on essential skills for curriculum decision-making and addressing diversity and cyberbullying issues within the classroom setting.",
+    "search_title": "ECHP3270 - Professional Experience 4",
+    "code": "ECHP3270",
+    "title": "Professional Experience 4",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit builds on previous experiences and extends on teaching skills by providing students with further experiences in K-6 classrooms. It enables pre-service teachers to extend their understanding of approaches to curriculum planning and the documentation of children&#39;s learning in the school environment. The unit focuses on essential skills for curriculum decision-making and addressing diversity and cyberbullying issues within the classroom setting.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-01T13:13:43.418",
+  "code": "ECHP3270",
+  "title": "Professional Experience 4",
+  "implementationYear": "2021"
+}

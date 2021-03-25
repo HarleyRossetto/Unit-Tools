@@ -1,0 +1,210 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe the general organisation of the nervous system and how communication occurs within the nervous system.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Outline the mechanism of action of specifc drug classes that affect the functioning of the nervous system.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Discuss how the nervous system produces movement, processes sensory information, regulates homeostatic function and consolidates learning and memory.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify the brain structures critical for movement, sensation, homeostatic function, and learning and memory.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify how common pathological conditions affect neural control of movement, sensation, homeostatic function and/or learning and memory.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Ongoing weekly study to consolidate learning and prepare for each scheduled class.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 1-Weekday-North Ryde"
+      },
+      {
+        "description": "Ongoing weekly study to consolidate learning and prepare for each scheduled class.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 1-Special"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "40cp at 1000 level or above including HLTH108 or ANAT1001",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MEDI204",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "On-campus formal exam assessing content delivered across the session taken during the University examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Anatomy Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "In-class spot test assessing material covered in and related to anatomy practical sessions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In-Class Quiz",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "Short in-class quiz held during each tutorial class and conducted under exam conditions that assess specified lecture and/or practicals, building on learning that has taken place during each tutorial. Top six test results count towards final mark.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MEDI2300-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI2300"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MEDI2300-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI2300"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MEDI2300 - Nervous System",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will provide you with an introductory understanding of the nervous system. This unit integrates both anatomy and physiology allowing you to learn about how the nervous system is organised and communicates information with a particular focus on the production of movement, processing of sensory information, regulation of homeostatic function and the basics of learning and memory. You will also be introduced to drug classes that positively and negatively affect the functioning of the nervous system and the clinical consequences that arise from pathological changes to the nervous system. Key learning activities will include lectures, tutorial and practical sessions.",
+    "search_title": "MEDI2300 - Nervous System",
+    "code": "MEDI2300",
+    "title": "Nervous System",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will provide you with an introductory understanding of the nervous system. This unit integrates both anatomy and physiology allowing you to learn about how the nervous system is organised and communicates information with a particular focus on the production of movement, processing of sensory information, regulation of homeostatic function and the basics of learning and memory. You will also be introduced to drug classes that positively and negatively affect the functioning of the nervous system and the clinical consequences that arise from pathological changes to the nervous system. Key learning activities will include lectures, tutorial and practical sessions.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-12T09:02:43.76",
+  "code": "MEDI2300",
+  "title": "Nervous System",
+  "implementationYear": "2021"
+}

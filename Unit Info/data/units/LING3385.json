@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe and evaluate the effect of a range of individual and contextual factors on language learning.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Relate research findings to effective language teaching approaches and techniques.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critically evaluate different theories regarding second language learning and teaching.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse sociolinguistic issues that impact on English language teaching and learning across the four macro skills: reading, writing, speaking and listening. ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify the assumptions that underpin second language teaching and learning in a linguistically-diverse world.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to read set readings for each week. At the same time, they are expected to review the input in the seminar-workshop, so they can effectively apply what they have learned in class in their assessment tasks.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "50cp at 2000 level or above including 10cp from LING units at 2000 level",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LING325",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Critique on  Blog Posts",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "Students are expected to review a number of sociolinguistic blog posts related to English language teaching and learning and engage with the chosen blog posts by writing a critical response.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "PowerPoint Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "15",
+        "description": "Students have to present their (changing) views regarding one issue in second language learning and teaching in class in either Week 11 or 12. The presentation should reflect the theories and concepts learned in class which have underpinned the shift (or not) in their beliefs.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quizzes on key concepts",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "35",
+        "description": "Students will sit up to four quizzes scheduled throughout the semester. These quizzes are intended to help students focus on important key concepts in second language teaching and learning.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "A sociolinguistic review on English language teaching & learning",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "30",
+        "description": "Students are expected to do a literature review on a specific sociolinguistic topic related to English language teaching and learning. Through the literature review, they are expected to show evidence of nuanced understanding of contemporary empirical research in the area.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LING3385-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LING3385"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LING3385-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LING3385"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "LING3385 - Second Language Teaching and Learning",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is intended as a general introduction to the sociolinguistics of second language teaching and learning. It focuses on contemporary social and pedagogical issues of second language teaching and learning in a linguistically-diverse world. In this unit, you will explore sociolinguistic themes on teaching and learning English as a second language. Learning activities will include expert lectures, online activities and interactive tutorials. Through this unit, you will gain insights on second language teaching as a professional practice.",
+    "search_title": "LING3385 - Second Language Teaching and Learning",
+    "code": "LING3385",
+    "title": "Second Language Teaching and Learning",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is intended as a general introduction to the sociolinguistics of second language teaching and learning. It focuses on contemporary social and pedagogical issues of second language teaching and learning in a linguistically-diverse world. In this unit, you will explore sociolinguistic themes on teaching and learning English as a second language. Learning activities will include expert lectures, online activities and interactive tutorials. Through this unit, you will gain insights on second language teaching as a professional practice.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T10:17:13.563",
+  "code": "LING3385",
+  "title": "Second Language Teaching and Learning",
+  "implementationYear": "2021"
+}

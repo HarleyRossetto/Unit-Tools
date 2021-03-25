@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically assess various digital and social marketing and their role in creating and measuring value.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Explore the types of customer data that are collected, both by traditional and digital methods.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Examine the tools used and determine what works best to solve which problem.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Use customer data to both understand the current situation and develop and drive strategy.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse the concept of customer value and its importance to an organisation.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly recall quizzes (not assessed)",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Core readings ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Video lectures",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Discussion forum exercises",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Weekly live event preparation exercises",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to GMBA or GradCertGlobalBusPrac",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "GMBA824",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Developing a customer journey",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "Length: 1,500 words (excl. references) for the activity analysis, plus a copy of your persona and your customer journey map. Format: PDF document including the information above in one file. Task: The purpose of this assignment is for you to examine how consumers use digital and traditional channels together as part of the purchase process. There are three parts to this assignment: You will need to select a product or service to analyse, determine a key target segment and develop a representative persona, and create a customer journey map based on that persona.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Refining a customer journey",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "60",
+        "description": "Length: 2,500 words (excl. references) for the analysis, plus a copy of your updated persona and your updated customer journey map. Format: PDF document including the information above in one file. Task: The purpose of this assignment is to help you develop a deeper understanding of how consumers use digital and traditional channels together as part of the purchase process. There are three parts to this assignment: Taking the persona and customer journey map you developed in the first assignment, you will need to conduct primary research in order to refine those outputs, analyse the results, and update your persona and customer journey map with the new information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "GMBA8024-unit_teaching_period-Online",
+        "display_name": "Coursera term 5-Online",
+        "teaching_period": {
+          "value": "Coursera term 5"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GMBA8024"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GMBA8024-unit_teaching_period-Online",
+        "display_name": "Coursera term 2-Online",
+        "teaching_period": {
+          "value": "Coursera term 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GMBA8024"
+        }
+      }
+    ],
+    "unit_offering_text": "Coursera term 2, Fully online/virtual<br />Coursera term 5, Fully online/virtual<br />",
+    "subject_search_title": "GMBA8024 - Know Your Customers",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Marketing "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "5",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit helps students understand the customer and the value they add to an organisation as well as how an organisation can benefit a customer. It introduces theories and techniques of marketing analytics in the context of various marketing decision-making environments. Students will explore the nature and role of digital and social marketing for generating customer value. The unit will introduce students to customer analytics and methods of segmentation to determine a customer&#39;s lifetime value to an organisation. Topics are reinforced by the use of actual marketplace data and analytics to measure and estimate the effects of an organisation&#39;s marketing effort.",
+    "search_title": "GMBA8024 - Know Your Customers",
+    "code": "GMBA8024",
+    "title": "Know Your Customers",
+    "content_type": "Unit",
+    "credit_points_header": "5 credit points"
+  },
+  "creditPoints": 5,
+  "description": "This unit helps students understand the customer and the value they add to an organisation as well as how an organisation can benefit a customer. It introduces theories and techniques of marketing analytics in the context of various marketing decision-making environments. Students will explore the nature and role of digital and social marketing for generating customer value. The unit will introduce students to customer analytics and methods of segmentation to determine a customer&#39;s lifetime value to an organisation. Topics are reinforced by the use of actual marketplace data and analytics to measure and estimate the effects of an organisation&#39;s marketing effort.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T14:38:22.586",
+  "code": "GMBA8024",
+  "title": "Know Your Customers",
+  "implementationYear": "2021"
+}

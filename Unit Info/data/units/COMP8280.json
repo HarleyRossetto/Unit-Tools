@@ -1,0 +1,313 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse the protocol architecture of mobile data and cellular networks.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Exemplify a wide range of problems and research issues in the field of mobile networking.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate an understanding of the concepts, techniques, algorithms, and protocols employed in mobile data and cellular networks and be able to communicate these ideas to wider audience",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate in-depth knowledge and understanding of mobile technologies and apply them to solve practical real world problems in a professionally responsible manner.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Evaluate critically a wide range of current trends and technologies in the field of mobile networking",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate an understanding of the fundamental principles required to design mobile networks.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Engage in independent professional work with a high level of autonomy and accountability.",
+        "code": "ULO7"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "ITEC851",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "ITEC647 or COMP6250",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Quiz 2",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Quiz 2 is a short test (close book) that will be based on your previously covered lecture material for weeks 5-9. The quiz questions will be handed over to you at the beginning of your Lecture class. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "10",
+        "description": "The purpose of  the problem solving assignment is to help the students to get accustomed to dealing with real world problem situations/issues.It is designed to help students analyse a particular problem and find its best solution. Some questions may require an in depth research  and will be a process to  come up with an acceptable and reasonable answer",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "An examination allows us to individually and securely assess student&#39;s mastery of the coursework material.  The examination will be closed book and three (3) hours in length.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz 1: Online",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Quiz 1 is a short test (close book) that will be based on your previously covered lecture material for weeks 1-4. The quiz questions will be handed over to you at the beginning of your Lecture class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "20",
+        "description": "Students will leverage their knowledge of mobile networks to research and critically analyse relevant literature in the discipline and present conclusions. The assessment also allows students to further develop their team working and professional communication skills. The project report (5 pages with citations)  is due in week <strong>11</strong>. The Presentations are scheduled in weeks <strong>11</strong> and <strong>12</strong>.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Quiz 1",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Quiz 1 is a short test (close book) that will be based on your previously covered lecture material for weeks 1-4. The quiz questions will be handed over to you at the beginning of your Lecture class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "10",
+        "description": "The purpose of  the problem solving assignment is to help the students to get accustomed to dealing with real world problem situations/issues.It is designed to help students analyse a particular problem and find its best solution. Some questions may require an in depth research  and will be a process to  come up with an acceptable and reasonable answer",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz 2: Online",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Quiz 2 is a short test (close book) that will be based on your previously covered lecture material for Weeks 5-9. The quiz questions will be held online in the tutorial class. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "The purpose of  the problem solving assignment is to help the students to get accustomed to dealing with real world problem situations/issues.It is designed to help students analyse a particular problem and find its best solution. Some questions may require an in depth research  and will be a process to  come up with an acceptable and reasonable answer",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 3",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "30",
+        "description": "Students will leverage their knowledge of mobile networks to research and critically analyse relevant literature in the discipline and present conclusions. The assessment also allows students to further develop their team working and professional communication skills. The project report (10 pages with citations)  is due in week <strong>11</strong>. The Presentations are scheduled in weeks <strong>11</strong> and <strong>12</strong>.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP8280"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP8280"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "COMP8280 - Mobile Data Networks",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will aim to provide a sound understanding of the architecture and operating principles of mobile and wireless networks. The unit will cover two fronts: introduce students to the diverse literature on mobile data networks, and expose them to the fundamental issues in design and analysis of different mobile network architectures. A healthy mix of technological and research issues will be covered pertaining to a wide range of topics in mobile networking including wireless LANs, mobile network layer design, location management and mobility tracking, mobile transport layer design issues, and ad hoc networks.",
+    "search_title": "COMP8280 - Mobile Data Networks",
+    "code": "COMP8280",
+    "title": "Mobile Data Networks",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will aim to provide a sound understanding of the architecture and operating principles of mobile and wireless networks. The unit will cover two fronts: introduce students to the diverse literature on mobile data networks, and expose them to the fundamental issues in design and analysis of different mobile network architectures. A healthy mix of technological and research issues will be covered pertaining to a wide range of topics in mobile networking including wireless LANs, mobile network layer design, location management and mobility tracking, mobile transport layer design issues, and ad hoc networks.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-02T11:30:34.103",
+  "code": "COMP8280",
+  "title": "Mobile Data Networks",
+  "implementationYear": "2021"
+}

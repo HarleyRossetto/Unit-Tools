@@ -1,0 +1,250 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate competency in the selection and use of important analytical techniques commonly used in industrial and academic research.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate an understanding of the concepts of molecular analysis and measurement in the molecular sciences.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Communicate analytical chemical knowledge by appropriately documenting the essential details of procedures undertaken, key observations, results and conclusions.",
+        "code": "ULO5"
+      },
+      {
+        "description": "<div>\n<div>Communicate effectively within the conventions of the analytical molecular sciences discipline.</div>\n</div>",
+        "code": "ULO3"
+      },
+      {
+        "description": "Process and analyse chemical experimental data to draw scientifically sound conclusions, particularly the significance and validity of analytical results involving real-life samples.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "CBMS308",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "CHEM2201 or CBMS200 or CBMS208",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Closed book examination.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "10",
+        "description": "Qualitative and quantitative questions requiring processing and critically analysis.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "10",
+        "description": "Qualitative and quantitative questions requiring processing and critically analysis.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Laboratory",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "30",
+        "description": "For each experiment, students are required to complete some Pre-laboratory work including Materials Safety Data Sheets and the general understanding of aim and procedure of the experiment. Following the completion of a laboratory session, students will then complete a written report.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "CHEM3202",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: CHEM3202"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: CHEM3201"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.05",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Advanced Analysis",
+                "academic_item_code": "CHEM3201",
+                "academic_item_url": "/2020/units/CHEM3201"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "CHEM3202-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHEM3202"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CHEM3202-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHEM3202"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "CHEM3202 - Advanced Analysis and Measurement",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Molecular Sciences "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers advanced aspects of chemical analysis, building on the foundations laid in Analysis and Measurement. Modern chemical principles and practice of identifying substances and of determining their composition are discussed. Topics include many analytical techniques commonly employed in both industrial and academic research laboratories. The unit emphasises hands-on experience in analysing real life samples, using a wide range of techniques from a chemical, structural and physical perspective.",
+    "search_title": "CHEM3202 - Advanced Analysis and Measurement",
+    "code": "CHEM3202",
+    "title": "Advanced Analysis and Measurement",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit covers advanced aspects of chemical analysis, building on the foundations laid in Analysis and Measurement. Modern chemical principles and practice of identifying substances and of determining their composition are discussed. Topics include many analytical techniques commonly employed in both industrial and academic research laboratories. The unit emphasises hands-on experience in analysing real life samples, using a wide range of techniques from a chemical, structural and physical perspective.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T11:21:22.645",
+  "code": "CHEM3202",
+  "title": "Advanced Analysis and Measurement",
+  "implementationYear": "2021"
+}

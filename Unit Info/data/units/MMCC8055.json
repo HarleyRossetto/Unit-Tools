@@ -1,0 +1,206 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "communicate and collaborate with others in creative contexts and incorporate peer feedback.",
+        "code": "ULO4"
+      },
+      {
+        "description": "locate performance practitioners and approaches within a field of practice.",
+        "code": "ULO2"
+      },
+      {
+        "description": "evaluate the work of peers and provide constructive feedback.",
+        "code": "ULO5"
+      },
+      {
+        "description": "analyse and evaluate approaches to performance in contemporary contexts.",
+        "code": "ULO1"
+      },
+      {
+        "description": "plan and conceive projects for performance within production deadlines and resource constraints.",
+        "code": "ULO3"
+      },
+      {
+        "description": "produce creative work within resource and time constraints.",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation and Unit Readings 3 hours x 10 weeks",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MECO850",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MCrInd or MMediaComm",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Project Proposal",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "The students will present as a group a proposal outlining their performance project in the form of an oral presentation (via zoom workshop), plus an individual written component. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Participation Exercises",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "A series of in-class (zoom workshop) tasks that, through performance exercises and practical work, explore creative process; approaches to authorship; including self-devised, site-specific and collaborative performance methods. This includes descriptive and reflective writing exercises. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project Realisation",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "50",
+        "description": "The Project Realisation consists of the realization and presentation of a practical performance work, in the form of a video or live online presentation. The individual reflection will incorporate creative and scholarly research, and will critically and reflectively contextualize the creative work. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC8055-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC8055"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC8055-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC8055"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MMCC8055 - Performance Practices",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides a critical and practical understanding of contemporary performance processes and practices. Through performance workshops and practical work, the unit explores creative process; approaches to authorship; self-devised, experimental, site-specific and collaborative performance methods. Through performance experimentation and analysis, students learn to adapt performance strategies for a range of performance contexts.",
+    "search_title": "MMCC8055 - Performance Practices",
+    "code": "MMCC8055",
+    "title": "Performance Practices",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides a critical and practical understanding of contemporary performance processes and practices. Through performance workshops and practical work, the unit explores creative process; approaches to authorship; self-devised, experimental, site-specific and collaborative performance methods. Through performance experimentation and analysis, students learn to adapt performance strategies for a range of performance contexts.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:41:53.644",
+  "code": "MMCC8055",
+  "title": "Performance Practices",
+  "implementationYear": "2021"
+}

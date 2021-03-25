@@ -1,0 +1,243 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "evaluate theoretical approaches to equality and discrimination",
+        "code": "ULO1"
+      },
+      {
+        "description": "analyse the applicable dispute resolution processes",
+        "code": "ULO3"
+      },
+      {
+        "description": "apply the legislative proscription of discrimination to varying attributes and contexts",
+        "code": "ULO2"
+      },
+      {
+        "description": "identify potential reforms to the existing anti-discrimination regulatory framework",
+        "code": "ULO5"
+      },
+      {
+        "description": "present well-developed arguments in response to a range of discrimination issues",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(Admission to JD and 80cp in LAWS or LAW units at 6000 level or above) or (admission to LLM)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LAWS511, LAWS826",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Essay ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "This task requires students to engage in in-depth research and reading from a wide range of sources, from which they are required to develop well-supported arguments in essay form on the topic.  In writing the essay, students should demonstrate their ability to critically analyse the core issues raised by the topic, as well as an understanding of the context, relevant case law, and the broader public policy issues involved.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Take Home Final Assessment ",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "problem based exam ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participatory tasks",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "A series of participatory tasks scheduled throughout the semester to monitor student progress and participation in the unit.  These may include reflective tasks, reporting back from a group discussion, participating in role plays, discussions and other exercises, commenting on readings, and contributions to discussions.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Plan for Essay ",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "15",
+        "description": "This task required students to submit a research plan that outlines the topic of their proposed  essay.  The plan requires students to give a brief overview of the topic area, and pose a clear question that the research seeks to answer. \n\n",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "LAWS8026",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: LAWS8026"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: LAWS5011"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Discrimination and the Law",
+                "academic_item_code": "LAWS5011",
+                "academic_item_url": "/2020/units/LAWS5011"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8026"
+        }
+      }
+    ],
+    "unit_offering_text": "2022<br />",
+    "subject_search_title": "LAWS8026 - Anti-Discrimination Law",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines how the concepts of equality and non-discrimination have been given effect to in Australia through the statutory framework of federal, state and territory anti-discrimination laws. It analyses the theoretical and practical application of this regulatory framework, and its shortcomings. The unit critiques how the legal form of &#39;discrimination&#39; is constructed, and whether the complaints based model for the enforcement of Australian anti-discrimination laws is an effective compliance regime. It also considers how we judge the contribution law can make to eliminating discrimination and addressing inequality, and what additional regulatory responses may be required.",
+    "search_title": "LAWS8026 - Anti-Discrimination Law",
+    "code": "LAWS8026",
+    "title": "Anti-Discrimination Law",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines how the concepts of equality and non-discrimination have been given effect to in Australia through the statutory framework of federal, state and territory anti-discrimination laws. It analyses the theoretical and practical application of this regulatory framework, and its shortcomings. The unit critiques how the legal form of &#39;discrimination&#39; is constructed, and whether the complaints based model for the enforcement of Australian anti-discrimination laws is an effective compliance regime. It also considers how we judge the contribution law can make to eliminating discrimination and addressing inequality, and what additional regulatory responses may be required.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:30:12.561",
+  "code": "LAWS8026",
+  "title": "Anti-Discrimination Law",
+  "implementationYear": "2021"
+}

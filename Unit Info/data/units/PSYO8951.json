@@ -1,0 +1,257 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Pass/Fail",
+      "value": "pass-fail"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate effectively across a wide range of client groups, colleagues and other professionals, using a variety of formats to function empathically within and across cultures and life stages.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply depth and breadth of knowledge and scholarly understanding required of organisational psychologists in determining client needs and designing and implementing evidence-based interventions.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate higher level critical thinking skills in their ability both to generate and evaluate new, professionally-oriented knowledge.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate the entry level capabilities required of practicing organisational psychologists, along with the professional and personal skills for assessing continuous development needs.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply knowledge of the legislative frameworks relevant to organisational psychologists and undertake practice according to professional standards and the Psychology Board of Australia's code of ethics.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MOrgPsych",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PSYO951",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "End of placement review (EPR)",
+        "type": {
+          "label": "Work-integrated task",
+          "value": "work_integrated_task"
+        },
+        "weight": "35",
+        "description": "This is an end of placement assessment of competency, conducted in the placement setting with the supervisor using a survey of expected behaviours and outcomes from the supervision agreement. Feedback is on developing competency to a pass level on   standard performance domains , with a pass defined as a score of 3 out of 5 on each criterion. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-placement review (MPR)",
+        "type": {
+          "label": "Work-integrated task",
+          "value": "work_integrated_task"
+        },
+        "weight": "35",
+        "description": "This is a mid- placement assessment of competency, conducted in the placement setting with the supervisor using a survey of expected behaviours and outcomes from the Supervision Agreement. Feedback is on developing competency on each of between four and seven domains.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Supervision and Professional Service Provision",
+        "type": {
+          "label": "Work-integrated task",
+          "value": "work_integrated_task"
+        },
+        "weight": "30",
+        "description": "Students participate in project Management under close supervision. Students will be assessed on formative project skills, professional conduct, self-reflection, ethics and communication skills including report writing and response to supervision.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special-On location at placement",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYO8951"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Full year 1-Special-On location at placement",
+        "teaching_period": {
+          "value": "Full year 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYO8951"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-On location at placement",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYO8951"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-On location at placement",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYO8951"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Full year 1-Weekday-On location at placement",
+        "teaching_period": {
+          "value": "Full year 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYO8951"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-On location at placement",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYO8951"
+        }
+      }
+    ],
+    "unit_offering_text": "Full year 1, Weekday attendance, On location at placement<br />Session 1, Weekday attendance, On location at placement<br />Session 2, Special circumstances, On location at placement<br />Session 2, Weekday attendance, On location at placement<br />Session 1, Special circumstances, On location at placement<br />Full year 1, Special circumstances, On location at placement<br />",
+    "subject_search_title": "PSYO8951 - Supervised Practical Placement I",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to applied practice in organisational psychology. Students will develop the skills necessary to engage with individual clients, select psychometric tests, and formulate client reports under the guidance of a supervisor. This practical placement unit is approximately 250 hours workload. Students are required to complete at least a thousand hours across all placements in the program to meet accreditation requirements. The diversity of tasks and roles within organisational psychology means that even students who have repeatedly demonstrated competency may still have gaps in professional knowledge and skill that may limit their competency in some specific contexts.",
+    "search_title": "PSYO8951 - Supervised Practical Placement I",
+    "code": "PSYO8951",
+    "title": "Supervised Practical Placement I",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to applied practice in organisational psychology. Students will develop the skills necessary to engage with individual clients, select psychometric tests, and formulate client reports under the guidance of a supervisor. This practical placement unit is approximately 250 hours workload. Students are required to complete at least a thousand hours across all placements in the program to meet accreditation requirements. The diversity of tasks and roles within organisational psychology means that even students who have repeatedly demonstrated competency may still have gaps in professional knowledge and skill that may limit their competency in some specific contexts.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T16:11:48.797",
+  "code": "PSYO8951",
+  "title": "Supervised Practical Placement I",
+  "implementationYear": "2021"
+}

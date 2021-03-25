@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Use the Critical Path Method (CPM) and Project Evaluation and Review Technique (PERT) for optimal project scheduling.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Formulate an inventory policy which will control the stock of goods at a minimum total cost in inventory models. ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Use Excel Solver to find solutions to linear programming, transportation and assignment problems and interpret the output.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply mathematical modelling principles to real and simulated business scenarios.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Evaluate probabilities of various queue lengths, average queue length and the average time spent waiting in a queue.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class Preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "STAT279",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "FOSE1015 or STAT170(P) or STAT1170 or STAT171 or STAT1371 or STAT150 or STAT1250",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "10",
+        "description": "Reinforce and apply skills learned in lectures and SGTAs. Apply linear programming principles to business scenarios.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "10",
+        "description": "Reinforce and apply skills learned in lectures and SGTAs. Apply mathematical models to simulated business scenarios.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "iLearn Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "iLearn quizzes may be attempted multiple times. Reinforce and apply skills learned in lectures",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "Formal invigilated examination testing the learning outcomes of the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "STAT2579-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT2579"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "STAT2579-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT2579"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "STAT2579 - Operations Research I",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Mathematics and Statistics "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit surveys the field of operations research, which is the practical application of a scientific method to the operational, organisational and economic problems of business and industry. An elementary knowledge of algebra is assumed. Students are expected to use Microsoft Excel to find solutions to formulated problems. Topics are model construction; linear programming; transportation and assignment problems; network analysis (critical path and PERT); inventory analysis and waiting lines.",
+    "search_title": "STAT2579 - Operations Research I",
+    "code": "STAT2579",
+    "title": "Operations Research I",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit surveys the field of operations research, which is the practical application of a scientific method to the operational, organisational and economic problems of business and industry. An elementary knowledge of algebra is assumed. Students are expected to use Microsoft Excel to find solutions to formulated problems. Topics are model construction; linear programming; transportation and assignment problems; network analysis (critical path and PERT); inventory analysis and waiting lines.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-03T11:15:24.42",
+  "code": "STAT2579",
+  "title": "Operations Research I",
+  "implementationYear": "2021"
+}

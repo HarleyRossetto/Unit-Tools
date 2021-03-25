@@ -1,0 +1,198 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Use plan reading and evaluation skills to solve development problems.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply critical thinking and practical experience in the field of planning and development.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply a basic understanding of planning law and relevant planning instruments to development assessment.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply skills in the theory and practice of development assessment process in NSW.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for Class activities",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ENVG212, GEOS212, GEOP212",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "GEOP1040",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Development project evaluation",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "A written evaluation (1500 words) of a real world project.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Planning Panels",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "A written report (1700 words) that documents the process of assessment and determining a development at a local planning panel.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In-class Assessment",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "In-class activities that monitor student engagement and understanding such as online quizzes and reflective activities.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "GEOP2080-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP2080"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GEOP2080-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP2080"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "GEOP2080 - Planning and Development",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines the relationship between planning and development, with particular reference to NSW. This is a practice-based unit and provides an introduction to the legal basis for development approvals, various development consent pathways, an analysis of development assessment, and plans that provide the framework for assessment, such as  State environmental planning policies, local environmental plans, development control plans. Students will learn to interpret plans and development proposals and understand how controls affect built outcomes.",
+    "search_title": "GEOP2080 - Planning and Development",
+    "code": "GEOP2080",
+    "title": "Planning and Development",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines the relationship between planning and development, with particular reference to NSW. This is a practice-based unit and provides an introduction to the legal basis for development approvals, various development consent pathways, an analysis of development assessment, and plans that provide the framework for assessment, such as  State environmental planning policies, local environmental plans, development control plans. Students will learn to interpret plans and development proposals and understand how controls affect built outcomes.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-27T10:02:13.567",
+  "code": "GEOP2080",
+  "title": "Planning and Development",
+  "implementationYear": "2021"
+}

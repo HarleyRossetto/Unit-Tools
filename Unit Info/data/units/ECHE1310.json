@@ -1,0 +1,203 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop knowledge, skills and understandings in each of the four art form areas by engaging in practical experiences in making, performing and appreciating their own creative works.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Take responsibility for personal and professional development as critically reflective and skilled Creative Arts educators.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Recognise the importance and influence of the learning environment on children's play, their aesthetic development and exploration of art materials.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Recognise that art forms are products of culture both handed down to, and created by, children.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Recognise that the child's experiences of art making cultures begin with the family and broadens to encompass school and community cultures.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate theoretical understanding of the role and value of the arts in early childhood.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate an understanding of the development of children's creativity, artistic awareness and skills in music, visual arts, drama and dance.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Scholarly publications to support assessment preparation",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ABEC121, ECH131",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assessment Task 2: Critical response",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Attend an arts events for children and write a critical response about the its appropriateness for children and the way children engage in the arts. 1500 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessment Task 1: Provocation",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "60",
+        "description": "A series of short written responses on a question that focuses on each art form and how it relates to the arts in children&#39;s lives. 3x 500 words (1500 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECHE1310-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE1310"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECHE1310-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE1310"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECHE1310-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE1310"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ECHE1310 - The Arts in Children's Lives",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces the arts and their role in the lives of children from birth to twelve years. It explores children&#39;s aesthetic and expressive development in drama, dance, music and visual arts, and their use of the arts as symbol systems for making and communicating meaning. Students will gain practical and theoretical understanding, of making, presenting and appreciating in the creative arts. The role of community arts organisations and spaces such as museums, galleries, performing arts in providing opportunities for children to gain experience in appreciation of the art forms is explored.",
+    "search_title": "ECHE1310 - The Arts in Children's Lives",
+    "code": "ECHE1310",
+    "title": "The Arts in Children's Lives",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces the arts and their role in the lives of children from birth to twelve years. It explores children&#39;s aesthetic and expressive development in drama, dance, music and visual arts, and their use of the arts as symbol systems for making and communicating meaning. Students will gain practical and theoretical understanding, of making, presenting and appreciating in the creative arts. The role of community arts organisations and spaces such as museums, galleries, performing arts in providing opportunities for children to gain experience in appreciation of the art forms is explored.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-11T09:33:03.385",
+  "code": "ECHE1310",
+  "title": "The Arts in Children's Lives",
+  "implementationYear": "2021"
+}

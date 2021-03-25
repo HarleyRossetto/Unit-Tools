@@ -1,0 +1,219 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate an understanding of how to critically reflect on relevant issues and terminology for pedagogy in teaching and learning.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Demonstrate an understanding of some applications of educational psychology in classroom contexts.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate an understanding of the basic theoretical concepts in the field of educational psychology.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate an understanding of basic academic literacy skills in implementing a sustained and written argument.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate an understanding of factors within the learner and the environment that plays a role in human development.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate an understanding of a range of appropriate and engaging resources and materials to support students' learning.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate an understanding of educational ideas and issues through research and critical analysis.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings and preparations",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "EDUC107, EDUC105",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Final Examination",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Major assignment",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Major Essay on a theory of education (1000 wds)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "Low stakes quiz",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Online Multiple Choice Quiz",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDUC1050-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC1050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDUC1050-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC1050"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "EDUC1050 - Education: The Psychological Context",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is intended as an introduction to the field of educational psychology. The field of inquiry combines major theories from the disciplines of Psychology and Education, and applies these to the context of teaching and learning. The central focus is on human development. Development and learning are influenced by a large range of factors, such as the cognitive, personal, social (including language), emotional, and physical developments. In addition, social and cultural influences and the education setting play a role in learning.",
+    "search_title": "EDUC1050 - Education: The Psychological Context",
+    "code": "EDUC1050",
+    "title": "Education: The Psychological Context",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is intended as an introduction to the field of educational psychology. The field of inquiry combines major theories from the disciplines of Psychology and Education, and applies these to the context of teaching and learning. The central focus is on human development. Development and learning are influenced by a large range of factors, such as the cognitive, personal, social (including language), emotional, and physical developments. In addition, social and cultural influences and the education setting play a role in learning.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-28T09:59:53.666",
+  "code": "EDUC1050",
+  "title": "Education: The Psychological Context",
+  "implementationYear": "2021"
+}

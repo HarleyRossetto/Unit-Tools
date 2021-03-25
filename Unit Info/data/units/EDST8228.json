@@ -1,0 +1,215 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate knowledge using effective communication skills using a range of modes and mediums and for a range of purposes and audiences.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate the ability to interpret research findings both in science and science education and relate these where appropriate to adolescents' understandings in science, their lives and to current syllabus documents.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically analyse and demonstrate understanding of a range of modern teaching and learning strategies related to the content of Stages 4 and 5 of the science syllabus.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Plan and implement critically reflective units of work in science that provide achievable challenges for students from diverse backgrounds and abilities.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Articulate knowledge of the relevant science syllabus documents from both the NESA (NSW Education Standards Authority) and Australia Curriculum (AC).",
+        "code": "ULO1"
+      },
+      {
+        "description": "Explore and critique educational ideas and practice using research methods appropriate to practitioner inquiry.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Pre-reading and completing tasks via iLearn",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "EDST8237",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Professional Portfolio",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Teaching and learning unit and resources. Research and practice-informed unit of work demonstrating understanding of a science concept/beliefs (including unit of work, Limit: 2000 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Professional dialogue and participation including online dialogue.",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Professional dialogue and participation including online dialogue.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Teaching resource",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Reflective inquiry-based activity design (including ICT based activity design, Limit: 2000word)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8228"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8228"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8228"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "EDST8228 - Teaching Science in the Secondary School 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to modern approaches to the teaching and learning of Science in secondary schools. Curricula, resources and instructional strategies appropriate to teaching Science are analysed and evaluated with a particular focus on years 7-10 Science. The units emphasises researched-informed approaches to the theory and practice of science and includes opportunities for individual research, collegial learning and connection with the teaching profession.",
+    "search_title": "EDST8228 - Teaching Science in the Secondary School 1",
+    "code": "EDST8228",
+    "title": "Teaching Science in the Secondary School 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to modern approaches to the teaching and learning of Science in secondary schools. Curricula, resources and instructional strategies appropriate to teaching Science are analysed and evaluated with a particular focus on years 7-10 Science. The units emphasises researched-informed approaches to the theory and practice of science and includes opportunities for individual research, collegial learning and connection with the teaching profession.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:56:47.846",
+  "code": "EDST8228",
+  "title": "Teaching Science in the Secondary School 1",
+  "implementationYear": "2021"
+}

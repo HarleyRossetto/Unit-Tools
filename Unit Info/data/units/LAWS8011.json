@@ -1,0 +1,226 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe and synthesise the contextual and doctrinal features of directors’ duties.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Evaluate the effectiveness of corporate legislation and its impact on the corporation and corporate stakeholders ",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically analyse and articulate (orally and in writing) the substantive corporate law rules in legislation and case law ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply relevant corporate and commercial law principles to resolve complex legal problems.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Describe and critically analyse the complex interactions between corporate law, history and social context ",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Revision and problem solving tasks",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "weekly readings according to a schedule to be released on iLearn",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to JD and (LAWS8030 or LAWS803)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LAWS811",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Quiz testing students&#39; understanding of company law",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Take-Home Exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "60",
+        "description": "A time limited take home exam testing student&#39;s understanding of company law",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online and in class participatory tasks",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "A series of online and face to face activities including legal problem solving, discussion forums and debates that draw on students&#39; understanding of the lectures and required readings",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8011"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8011"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8011"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Infrequent attendance, North Ryde<br />",
+    "subject_search_title": "LAWS8011 - Company Law",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit studies the nature, formation and management of the modern corporation. It examines the consequences of the adoption of corporate form including the separation of legal personality between the company and its shareholders and the impact of limited liability. The extensive common law and statutory regulatory regime applicable to directors and other company officers in the management of the company is surveyed as is the important role of shareholders&#39; rights in governing this entity. The examination of the corporation is undertaken in the context of globalisation where the proliferation of corporate governance codes is increasing.",
+    "search_title": "LAWS8011 - Company Law",
+    "code": "LAWS8011",
+    "title": "Company Law",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit studies the nature, formation and management of the modern corporation. It examines the consequences of the adoption of corporate form including the separation of legal personality between the company and its shareholders and the impact of limited liability. The extensive common law and statutory regulatory regime applicable to directors and other company officers in the management of the company is surveyed as is the important role of shareholders&#39; rights in governing this entity. The examination of the corporation is undertaken in the context of globalisation where the proliferation of corporate governance codes is increasing.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:48:33.176",
+  "code": "LAWS8011",
+  "title": "Company Law",
+  "implementationYear": "2021"
+}

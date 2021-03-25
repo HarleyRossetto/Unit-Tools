@@ -1,0 +1,262 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and apply cross-cultural theoretical frameworks and concepts used in the global business environment.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse and explain how cultural diversity impacts business management and operations in the global market.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Effectively communicate the influence of culture-based perspectives on multinational enterprises as an individual and as part of a group.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critically analyse, and develop problem solving skills, in the context of experiential learning activities and case studies.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "BBA340",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "50cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "A two-hour final examination and worth 30% will be held during the University Examination Period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Online Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "A two-hour online examination, administered via iLearn and worth 30% will be held during the University Examination Period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case study/analysis ",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "This assessment consists of two components worth 40% in total. The first component is a group presentation up to 40 minutes worth 20%. The second is an individual case analysis report of up to 1,500 words worth 20%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Media Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "An individual report of up to 2,200 words worth 30%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT2030-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT2030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT2030-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT2030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT2030-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT2030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT2030-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT2030"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MGMT2030 - Cross Cultural Management",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines new and emerging developments and challenges that international managers are currently facing and are likely to face in the coming years while managing across borders, where people from diverse cultures interact, both within and between firms. Given that changes in the global business environment continue unabated, particular attention is paid to managing the increasingly diverse workforce in the context of multinational corporations that conduct business in Asia and beyond. The unit provides a setting for understanding the implications of this diversity on the management of cross-cultural dynamics in a multi-cultural business environment. Major topics include the significance of culture in international management, different approaches to ethics, communicating and negotiating across cultures, strategic planning for a global business, managing international teams, evaluating and rewarding employees worldwide, and motivating and leading across cultures.",
+    "search_title": "MGMT2030 - Cross Cultural Management",
+    "code": "MGMT2030",
+    "title": "Cross Cultural Management",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines new and emerging developments and challenges that international managers are currently facing and are likely to face in the coming years while managing across borders, where people from diverse cultures interact, both within and between firms. Given that changes in the global business environment continue unabated, particular attention is paid to managing the increasingly diverse workforce in the context of multinational corporations that conduct business in Asia and beyond. The unit provides a setting for understanding the implications of this diversity on the management of cross-cultural dynamics in a multi-cultural business environment. Major topics include the significance of culture in international management, different approaches to ethics, communicating and negotiating across cultures, strategic planning for a global business, managing international teams, evaluating and rewarding employees worldwide, and motivating and leading across cultures.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T15:04:24.91",
+  "code": "MGMT2030",
+  "title": "Cross Cultural Management",
+  "implementationYear": "2021"
+}

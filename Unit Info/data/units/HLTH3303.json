@@ -1,0 +1,210 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain the multifactorial nature of the development of disease states.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Differentiate between diseases on the basis of aetiology, pathogenesis, epidemiology, and clinical manifestations.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply knowledge of anatomy, physiology, biochemistry, and basic pathology to develop the likely mode of progression of the diseases studied in this unit.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Name the pathologies that can occur in the nervous, musculoskeletal, and integumentary systems as well as those of the eye and ear.",
+        "code": "ULO1"
+      },
+      {
+        "description": "For each disorder, describe its aetiology, epidemiology, pathologenesis, pathophysiological mechanisms, clinical manifestations, and explain the relationship between each.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings from text and lecture material",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparation for tutorials",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "HLTH317",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above including HLTH2301 or HLTH215",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "The quizzes will be spread throughout the semester. Each quiz will be of 10 minutes duration and cover material that has been delivered in lectures and/or tutorials.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-semester Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "35",
+        "description": "This examination will cover the content delivered in the first part of the semester. Questions will be in short answer format.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "This examination will cover the content delivered  throughout the entire semester. Question format will be multiple choice and short answer.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HLTH3303"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HLTH3303"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "HLTH3303 - Principles in Health and Disease 3",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Chiropractic "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This is the last of three units, in which students have the opportunity to explore the relationship between health and disease, from both the biological and psychosocial perspective. The pathologies studied in this unit are those of the musculoskeletal, nervous and integumentary systems, as well as those relating to the eye and the ear. Their causes, mechanisms and effects are explored. The links between these disease mechanisms and their clinical manifestations is highlighted. By the completion of this unit, students will have completed their study of the major diseases of the body, and how they manifest in the patient. This will ultimately deepen their understanding of the complex relationship between ourselves and our environment.",
+    "search_title": "HLTH3303 - Principles in Health and Disease 3",
+    "code": "HLTH3303",
+    "title": "Principles in Health and Disease 3",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This is the last of three units, in which students have the opportunity to explore the relationship between health and disease, from both the biological and psychosocial perspective. The pathologies studied in this unit are those of the musculoskeletal, nervous and integumentary systems, as well as those relating to the eye and the ear. Their causes, mechanisms and effects are explored. The links between these disease mechanisms and their clinical manifestations is highlighted. By the completion of this unit, students will have completed their study of the major diseases of the body, and how they manifest in the patient. This will ultimately deepen their understanding of the complex relationship between ourselves and our environment.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:03:57.746",
+  "code": "HLTH3303",
+  "title": "Principles in Health and Disease 3",
+  "implementationYear": "2021"
+}

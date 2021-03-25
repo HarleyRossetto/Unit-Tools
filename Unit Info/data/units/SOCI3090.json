@@ -1,0 +1,271 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "apply key sociological concepts to the study of contemporary societies.",
+        "code": "ULO2"
+      },
+      {
+        "description": "analyse a contemporary social issue using sociological theories",
+        "code": "ULO3"
+      },
+      {
+        "description": "demonstrate an understanding of a range of sociological perspectives on social life from the 19th century to the present.",
+        "code": "ULO1"
+      },
+      {
+        "description": "effectively communicate complex ideas in written form.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "In preparation for the weekly classes, students have to critically engage with set materials.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Online"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above including (10cp in SOC or SOCI units at 2000 level or above)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "SOC375, SOCX325, SOC325",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "weekly online discussion",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "On the basis of the provided course contents students are expected to actively engage in weekly online discussion with each other.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Online, Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "The aim of this assessment task is for you to show your ability to apply the perspectives and concepts we have discussed to a *real-life* issue. a) pick a sociological concept or approach from one of the weeks and define it clearly. b) pick and briefly describe a social issue you would like to interpret and analyse. c) interpret and analyse (b) with (a) Your example can be sourced from a novel, an article, a video clip, film, etc. The most important point is relevance and a clear connection between the example and the sociological perspective you have chosen.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "The aim of this assessment task is threefold: (1) to gauge your comprehension of the perspectives and concepts covered thus far; (2) to get you to think about connecting theoretical material to contemporary social issues; (3) to prepare you for your final assessment task.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "seminar participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "On the basis of the provided course contents students are expected to actively engage in class discussions with each other including group work.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "SOCI3090",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: SOCI3090"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: SOCX3090"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Understanding Contemporary Societies",
+                "academic_item_code": "SOCX3090",
+                "academic_item_url": "/2020/units/SOCX3090"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "SOCI3090-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI3090"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SOCI3090-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI3090"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SOCI3090-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI3090"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "SOCI3090 - Contemporary Trends, Patterns and Puzzles ",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Change, some people say, is the only constant in life. This unit provides essential skills and knowledge that enable you to understand trends, patterns and puzzles in contemporary societies. You will explore a variety of topics such as work, identity, relationship, politics, diversity and the private sphere. The unit has a strong focus on practical applications and prepares students to make sense of major social developments, which shape our lives and the world we live in.",
+    "search_title": "SOCI3090 - Contemporary Trends, Patterns and Puzzles ",
+    "code": "SOCI3090",
+    "title": "Contemporary Trends, Patterns and Puzzles ",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Change, some people say, is the only constant in life. This unit provides essential skills and knowledge that enable you to understand trends, patterns and puzzles in contemporary societies. You will explore a variety of topics such as work, identity, relationship, politics, diversity and the private sphere. The unit has a strong focus on practical applications and prepares students to make sense of major social developments, which shape our lives and the world we live in.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-09T10:27:04.713",
+  "code": "SOCI3090",
+  "title": "Contemporary Trends, Patterns and Puzzles ",
+  "implementationYear": "2021"
+}

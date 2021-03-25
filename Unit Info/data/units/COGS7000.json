@@ -1,0 +1,128 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically evaluate the conceptual and/or methodological foundations of cognitive science.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Synthesise and analyse information about complex problems and issues in cognitive science research practice including experimental design and statistical methods.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Exhibit analytical research skills and show intellectual independence.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate effective scientific communication in written and oral form for a variety of audiences.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate a high level of ethical conduct in research activities.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "COGS700",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "COGS7000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COGS7000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "COGS7000 - Foundations of Cognitive Science",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Cognitive Science "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit addresses the conceptual foundations of cognitive science. By covering key questions and issues in the philosophy of science, it addresses the underlying assumptions and implications of science. The unit also covers selected topics in cognitive science from a historical and theoretical perspective. The unit gives the students an overview of the major issues and allows them then to reinforce their knowledge with further discussion and reading. The unit is student-led, involving regular critical evaluation of core material, presentations and analyses of mainstream views, and ongoing discussion. This helps to reinforce the students&#39; learning and allows them to decide on the most pertinent issues to their particular discipline and research area with support and direction from the coordinators.",
+    "search_title": "COGS7000 - Foundations of Cognitive Science",
+    "code": "COGS7000",
+    "title": "Foundations of Cognitive Science",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit addresses the conceptual foundations of cognitive science. By covering key questions and issues in the philosophy of science, it addresses the underlying assumptions and implications of science. The unit also covers selected topics in cognitive science from a historical and theoretical perspective. The unit gives the students an overview of the major issues and allows them then to reinforce their knowledge with further discussion and reading. The unit is student-led, involving regular critical evaluation of core material, presentations and analyses of mainstream views, and ongoing discussion. This helps to reinforce the students&#39; learning and allows them to decide on the most pertinent issues to their particular discipline and research area with support and direction from the coordinators.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T14:00:52.351",
+  "code": "COGS7000",
+  "title": "Foundations of Cognitive Science",
+  "implementationYear": "2021"
+}

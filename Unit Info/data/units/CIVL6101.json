@@ -1,0 +1,220 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain physical, chemical and biological unit operations in treatment processes.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Use parameters to characterize the constituents of drinking water and municipal wastewater.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Integrate principles of sustainability into the design of water treatment systems (E, A);.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Select and apply appropriate options to design processes for treating drinking water and municipal wastewater based on engineering concepts.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Communicate outcomes of analysing and designing different water and wastewater treatment processes in professionally varied ways.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for lectures and workshops",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MEngEnvSafetyEng",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Mid-session quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Mid-session quiz",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Final examination",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project report",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "40",
+        "description": "Water and wastewater projects",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "CIVL6101",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: CIVL6101"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: CIVL2101"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Water and Wastewater Engineering",
+                "academic_item_code": "CIVL2101",
+                "academic_item_url": "/2020/units/CIVL2101"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CIVL6101"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "CIVL6101 - Water and Wastewater Engineering",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "School of Engineering"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The objective of this unit is to introduce students to principles and processes involved in contaminants removal from drinking water and wastewater. Theory and conceptual design of systems for treating drinking water and municipal wastewater are discussed. Specific topics in water engineering include introduction to water resources, pollution in different types of water bodies, different water treatment processes, design and implementation, and drinking water regulations. Specific topics in wastewater engineering include introduction to wastewater treatment and process analysis, wastewater characteristics, wastewater flowrates and constituent loadings, physical, chemical, biological unit processes, disinfection, and wastewater treatment process selection, design and implementation. As a part of this unit, students will complete various design tasks in team projects for developing engineering solutions in designing water and wastewater treatment facilities.",
+    "search_title": "CIVL6101 - Water and Wastewater Engineering",
+    "code": "CIVL6101",
+    "title": "Water and Wastewater Engineering",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The objective of this unit is to introduce students to principles and processes involved in contaminants removal from drinking water and wastewater. Theory and conceptual design of systems for treating drinking water and municipal wastewater are discussed. Specific topics in water engineering include introduction to water resources, pollution in different types of water bodies, different water treatment processes, design and implementation, and drinking water regulations. Specific topics in wastewater engineering include introduction to wastewater treatment and process analysis, wastewater characteristics, wastewater flowrates and constituent loadings, physical, chemical, biological unit processes, disinfection, and wastewater treatment process selection, design and implementation. As a part of this unit, students will complete various design tasks in team projects for developing engineering solutions in designing water and wastewater treatment facilities.",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:00:12.53",
+  "code": "CIVL6101",
+  "title": "Water and Wastewater Engineering",
+  "implementationYear": "2021"
+}

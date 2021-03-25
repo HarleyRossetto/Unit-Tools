@@ -1,0 +1,263 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify stressors - to recognise major sources of employee stress in a workplace situation.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Communicate about organisational psychology - to write reports for different audiences on conceptual and practical aspects of psychological factors that relate to the modern workplace.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Apply appropriate assessment principles and models of human performance to employee selection, goal setting, and employee performance interventions.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Conduct simple job analyses entailing the systematic collection and analysis of job-related information.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Research discoveries in organisational psychology - to locate, understand and apply theories and findings about psychological and behavioural issues in the workplace.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Engage others in a survey process - to follow an ethical procedure of providing informed consent to recruit employed people to complete a carefully-designed survey.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above including ((PSYC104 or PSYU1104 or PSYX104 or PSYX1104 or PSYU1101 or PSYX1101) and (PSYC105 or PSYU1105 or PSYX105 or PSYX1105 or PSYU1102 or PSYX1102)) ",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PSY338",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Scientific report introduction",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Students write up to 800 words about the survey study being conducted as part of this unit, following the style and structure of the introduction section to a scientific report.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Survey recruitment exercise",
+        "type": {
+          "label": "Field work task",
+          "value": "field_work_task"
+        },
+        "weight": "4",
+        "description": "This exercise is designed to give students experience in using surveys to advance psychology knowledge in a way that also has practical workplace applications. The task is to invite four working adults to participate in an online survey on a topic relevant to organisational psychology, and to enter the details correctly in the form",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research summary",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Students will write an 800 word report about findings from the survey study being conducted as part of this unit, focusing on their relevance to business. The writing style must be that of a business news article.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "Final examination held within the University’s formal exam period, in accordance with relevant requirements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly online quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "6",
+        "description": "Weekly online multiple-choice quiz, testing unit content.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PSYX3338",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PSYX3338"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PSYU3338"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Organisational Psychology",
+                "academic_item_code": "PSYU3338",
+                "academic_item_url": "/2020/units/PSYU3338"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PSYX3338-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYX3338"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "PSYX3338 - Organisational Psychology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to psychological perspectives of the world of work, including both individual and organisational aspects. We cover topics such as personnel selection, job attitudes, stress, personality, and human factors at work. Students discover some of the ways organisational psychologists have used the science of psychology to learn more about the human condition and to assist in the effective management of businesses. This unit provides a valuable background for the application of scientific principles and findings to workplace policies and practices that involve people. Through tutorial exercises and discussions, the unit ensures that students gain an appreciation of job analysis, recruitment and selection techniques, occupational stress management, and other psychological issues in the workplace.",
+    "search_title": "PSYX3338 - Organisational Psychology",
+    "code": "PSYX3338",
+    "title": "Organisational Psychology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to psychological perspectives of the world of work, including both individual and organisational aspects. We cover topics such as personnel selection, job attitudes, stress, personality, and human factors at work. Students discover some of the ways organisational psychologists have used the science of psychology to learn more about the human condition and to assist in the effective management of businesses. This unit provides a valuable background for the application of scientific principles and findings to workplace policies and practices that involve people. Through tutorial exercises and discussions, the unit ensures that students gain an appreciation of job analysis, recruitment and selection techniques, occupational stress management, and other psychological issues in the workplace.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T09:17:32.594",
+  "code": "PSYX3338",
+  "title": "Organisational Psychology",
+  "implementationYear": "2021"
+}

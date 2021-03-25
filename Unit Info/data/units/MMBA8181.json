@@ -1,0 +1,153 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate and reflect on how the insights of the global trends could be leveraged for professional development.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop and implement a business model and strategic change program to respond to the macro drivers of change.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Describe and evaluate macro drivers of change impacting business and industry.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "MGSM981",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MBA or GradDipMgt",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Industry analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "60",
+        "description": "Evaluation of macro drivers and business dynamics",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Business model development and implementation",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMBA8181-unit_teaching_period",
+        "display_name": "To be determined",
+        "teaching_period": {
+          "value": "To be determined"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8181"
+        }
+      }
+    ],
+    "unit_offering_text": "To be determined<br />",
+    "subject_search_title": "MMBA8181 - Special Topics in Management II",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Industry 4.0, artificial intelligence, big data and global pandemics are just some of the forces that are disrupting our economies, markets, and organisations. As managers and leaders, we need to constantly adapt, learn and pivot to successfully respond to these developments. This unit provides a unique opportunity to engage in topical issues in management together with industry leaders in an innovative format. Breaking down the walls between university and industry, students will participate in several events and development opportunities. The topic will be informed by current global and domestic business environment and on the availability of speakers and staff.",
+    "search_title": "MMBA8181 - Special Topics in Management II",
+    "code": "MMBA8181",
+    "title": "Special Topics in Management II",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Industry 4.0, artificial intelligence, big data and global pandemics are just some of the forces that are disrupting our economies, markets, and organisations. As managers and leaders, we need to constantly adapt, learn and pivot to successfully respond to these developments. This unit provides a unique opportunity to engage in topical issues in management together with industry leaders in an innovative format. Breaking down the walls between university and industry, students will participate in several events and development opportunities. The topic will be informed by current global and domestic business environment and on the availability of speakers and staff.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-02T10:11:23.425",
+  "code": "MMBA8181",
+  "title": "Special Topics in Management II",
+  "implementationYear": "2021"
+}

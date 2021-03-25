@@ -1,0 +1,242 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply advanced physiotherapy practice in a manner that is socially and culturally appropriate for specific patients and clinical settings, including identifying barriers to treatment. <strong>(Engaged Global Citizen)</strong>",
+        "code": "ULO5"
+      },
+      {
+        "description": "Explain the impact of new developments in physiotherapy scope of practice on the role of the physiotherapist in health care. <strong>(Scientist &amp; Scholar)</strong>",
+        "code": "ULO1"
+      },
+      {
+        "description": "Communicate information clearly and effectively to consumers and health care professionals using a variety of forms of media, including digital technologies. <strong>(Clinical Practitioner)</strong>",
+        "code": "ULO3"
+      },
+      {
+        "description": "Competently explain and/or perform advanced contemporary practices, such as imaging, pharmacology, novel pain treatments and emergency triage, as appropriate to the advancing scope of physiotherapy practice. <strong>(Clinical Practitioner)</strong>",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply advanced knowledge and skill to the assessment and management of people with complex presentations. <strong>(Clinical Practitioner)</strong>",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Online learning modules will be provided to build knowledge in advanced clinical areas. These modules will consist of consolidation activities as well as novel information",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "You are expected to consolidate knowledge and skills by engaging in independent research on key topics. ",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparatory work, such as pre-reading, online videos or participation in discussion boards will be required prior to some workshops",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Weekday-North Ryde"
+      },
+      {
+        "description": "Preparatory work, such as pre-reading, online videos or participation in discussion boards will be required prior to some workshops",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Special-North Ryde"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(PHTY812 or PHTY8204) and (PHTY813 or PHTY8205) and (PHTY814 or PHTY8206) and (PHTY815 or PHTY8207)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PHTY817",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "ePortfolio Stage 1",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "20",
+        "description": "You will present a planned outline of the final ePortfolio submission as well as a component of work for early feedback.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Consumer Health Literacy presentation",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "30",
+        "description": "You will present information on a selected complex health issue using either a visual or audio medium with the intent to improve consumer health literacy. You will be required to use language and/or images that are appropriate for the consumer.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Media article",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "30",
+        "description": "You will present a magazine article, blog post or editorial that discusses an issue related to the extended or advanced scope of physiotherapy practice.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "ePortfolio Stage 2",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "50",
+        "description": "You will present an ePortfolio containing a variety of works based on content covered across the semester to portray your advanced practice knowledge and skill.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8301"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8301"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "PHTY8301 - Advanced Physiotherapy Practice A",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Health Professions"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will further develop your advanced knowledge, clinical reasoning skills and practice to prepare for advanced and extended scope roles for physiotherapists. Cutting-edge and contemporary advances in clinical practice will be explored to enhance your ability to work with individuals from highly diverse cultural and social backgrounds, and with highly complex presentations. You will also further advance your communication skills to enhance your practice in the contemporary healthcare environment, as well as to a wider population with diverse levels of health literacy. ",
+    "search_title": "PHTY8301 - Advanced Physiotherapy Practice A",
+    "code": "PHTY8301",
+    "title": "Advanced Physiotherapy Practice A",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will further develop your advanced knowledge, clinical reasoning skills and practice to prepare for advanced and extended scope roles for physiotherapists. Cutting-edge and contemporary advances in clinical practice will be explored to enhance your ability to work with individuals from highly diverse cultural and social backgrounds, and with highly complex presentations. You will also further advance your communication skills to enhance your practice in the contemporary healthcare environment, as well as to a wider population with diverse levels of health literacy. ",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:30:43.423",
+  "code": "PHTY8301",
+  "title": "Advanced Physiotherapy Practice A",
+  "implementationYear": "2021"
+}

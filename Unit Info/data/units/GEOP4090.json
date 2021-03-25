@@ -1,0 +1,238 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate and present complex issues clearly and succinctly.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Evaluate the role of planning for healthy built environments.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply practical skills expected of a planner in the workplace.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Prepare strategic planning documents that show an understanding of the relationship between planning and design.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify and discuss the planner's role in communicating issues to different audiences.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain and discuss the interplay between planning and design and the planner's various roles in this process.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Developing presentations and visuals for class",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to BPlan and (130cp at 1000 level or above) including ENVG370 or GEOP370 or GEOP3080",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ENVG463, GEOS463, GEOP463",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Preparing a submission",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "30",
+        "description": "You are to prepare a submission as a planner (1,000 words) on a draft policy/plan in relation to a current exhibition and call for submissions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Plan preparation",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "You are to prepare a structure plan for a small area within Sydney. Your assessment submission will include a short report (1,500 words) explaining the context and basis for the plan and an A3 plan illustrating your proposal.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Preparing a submission",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "20",
+        "description": "You are to prepare a submission as a planner (1,000 words) on a draft policy/plan",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Planning for health",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "This assessment is in two parts: 1. Group written report (2000 words): You are to undertake research into, and prepare a critical evaluation of, planning for healthy built environments. The report would address the academic literature on the topic as well as discuss practical examples of where it has been implemented. 2. Individual Presentation: You are to undertake a recreational walk. This will involve you undertaking some observational research with you as a participant. Your experience and findings should be completed in the form of an individual presentation to the class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Planning for health",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "A report (1,500 words) based on research and critical evaluation of planning for healthy built environments. The report will address the academic literature on the topic as well as projects where it has been implemented.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "GEOP4090-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP4090"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GEOP4090-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP4090"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "GEOP4090 - Planning and Design",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "How does planning influence the design of cities, neighbourhoods, streetscapes and sites? This unit explores the relationship between planning and design. It builds upon the student&#39;s skills developed across the many subject areas of the planning program, including real world creative problem solving, collaboration, plan preparation and evaluation, inquiry based skills, and workplace readiness. The unit examines the tools available to planners to guide the built outcomes of places and provides an overview of the elements of urban design. Through exposure to subject matter experts, site visits and workshop exercises students will further develop the knowledge skills required of planners.",
+    "search_title": "GEOP4090 - Planning and Design",
+    "code": "GEOP4090",
+    "title": "Planning and Design",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "How does planning influence the design of cities, neighbourhoods, streetscapes and sites? This unit explores the relationship between planning and design. It builds upon the student&#39;s skills developed across the many subject areas of the planning program, including real world creative problem solving, collaboration, plan preparation and evaluation, inquiry based skills, and workplace readiness. The unit examines the tools available to planners to guide the built outcomes of places and provides an overview of the elements of urban design. Through exposure to subject matter experts, site visits and workshop exercises students will further develop the knowledge skills required of planners.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-19T15:20:34.176",
+  "code": "GEOP4090",
+  "title": "Planning and Design",
+  "implementationYear": "2021"
+}

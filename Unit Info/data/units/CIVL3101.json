@@ -1,0 +1,117 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse and design open channels including estimating water surface profiles, and hydraulic structures such as weirs and culverts.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse and estimate floods for engineering design and forecasting.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Carry out hydrological investigations of natural and urban catchments.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate an in-depth understanding of the basic principles of hydraulics and hydrology used in civil engineering.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above including MECH2002 or MECH202",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "CIVL3101-unit_teaching_period",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CIVL3101"
+        }
+      }
+    ],
+    "unit_offering_text": "2022<br />",
+    "subject_search_title": "CIVL3101 - Hydraulics and Hydrology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "School of Engineering"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The objective of this unit is to provide students with the scientific foundations and basic principles of hydraulic and hydrological methods in engineering applications. This unit requires the fundamental knowledge gained through successful completion of Fluid Mechanics in the second year. Specific topics in open channel hydraulics include uniform flow, gradually varied flow, changes in channel cross section, hydraulic structures, and rapidly varied flow. Specific topics in hydrology include fundamentals of hydrology and water resources, Hydrologic cycle, hyetograph and hydrograph analysis, rainfall-runoff relationships and flood routing, hydrologic statistics, and flood frequency analysis.",
+    "search_title": "CIVL3101 - Hydraulics and Hydrology",
+    "code": "CIVL3101",
+    "title": "Hydraulics and Hydrology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The objective of this unit is to provide students with the scientific foundations and basic principles of hydraulic and hydrological methods in engineering applications. This unit requires the fundamental knowledge gained through successful completion of Fluid Mechanics in the second year. Specific topics in open channel hydraulics include uniform flow, gradually varied flow, changes in channel cross section, hydraulic structures, and rapidly varied flow. Specific topics in hydrology include fundamentals of hydrology and water resources, Hydrologic cycle, hyetograph and hydrograph analysis, rainfall-runoff relationships and flood routing, hydrologic statistics, and flood frequency analysis.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-06T12:57:12.518",
+  "code": "CIVL3101",
+  "title": "Hydraulics and Hydrology",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,148 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MAppFin(Beijing) and ECFL866 or AFCL8003",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "AFCP854, AFCL854",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [
+      {
+        "academic_item_code": "AFCL8054",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: AFCL8054"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: AFCP8054"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "5",
+                "academic_item_name": "Investment and Credit Analysis",
+                "academic_item_code": "AFCP8054",
+                "academic_item_url": "/2020/units/AFCP8054"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "AFC September-Weekday-Beijing",
+        "teaching_period": {
+          "value": "AFC September"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCL8054"
+        }
+      }
+    ],
+    "unit_offering_text": "AFC September, Weekday attendance, Beijing<br />",
+    "subject_search_title": "AFCL8054 - Investment and Credit Analysis",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "5",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers the use of advanced financial analysis and modelling techniques in corporate finance applications, and is designed for students interested in analyst roles in equity and credit analysis, banking or consulting environments. Building on concepts introduced in ECFL866, this unit complements other corporate finance electives. The unit will allow students to explore the linkage between a company&#39;s strategy and industry competitive structure, and financial performance. We will analyse financial performance by demonstrating financial analysis techniques, and assess the impact of accounting issues in analysing a company&#39;s financial results. The unit will explore how financial modelling can be used to assist in addressing these issues.",
+    "search_title": "AFCL8054 - Investment and Credit Analysis",
+    "code": "AFCL8054",
+    "title": "Investment and Credit Analysis",
+    "content_type": "Unit",
+    "credit_points_header": "5 credit points"
+  },
+  "creditPoints": 5,
+  "description": "This unit covers the use of advanced financial analysis and modelling techniques in corporate finance applications, and is designed for students interested in analyst roles in equity and credit analysis, banking or consulting environments. Building on concepts introduced in ECFL866, this unit complements other corporate finance electives. The unit will allow students to explore the linkage between a company&#39;s strategy and industry competitive structure, and financial performance. We will analyse financial performance by demonstrating financial analysis techniques, and assess the impact of accounting issues in analysing a company&#39;s financial results. The unit will explore how financial modelling can be used to assist in addressing these issues.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:50:06.004",
+  "code": "AFCL8054",
+  "title": "Investment and Credit Analysis",
+  "implementationYear": "2021"
+}

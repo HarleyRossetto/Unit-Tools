@@ -1,0 +1,185 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Understand the ways in which Indigenous peoples continue to teach Indigenous knowledges.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Understand the impact of colonisation on the diverse cultures and knowledges of Indigenous peoples globally.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Confidently use online communication forums and engage in informed interactive learning.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Understand the concept of ‘global solidarity’ and the continuity of Indigenous activism.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Critically examine the Declaration of Human Rights and demonstrate an understanding of its impact on Indigenous peoples throughout the world.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate a strong theoretical basis of the historical injustices Indigenous peoples throughout the world have faced and the impact this has had on their education.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrated high level of written communication skills including structuring and supporting an academic argument.",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "INED804",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MIndigenousEd",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Major Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "This task requires students to choose one question from a list provided. The essay will ask students to critically engage with Indigenous research frameworks outlined in the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participatory Tasks",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "Engagement with readings and other materials / activities offered on iLearn",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "The Quiz is based on unit content and will be available online",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "INED8040-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INED8040"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "INED8040 - Global Indigenous Education",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Indigenous Studies "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "While exploring education from the perspectives of Indigenous people in Australia and in other parts of the world you will gain a better understanding how education has been used as a tool for the colonial project. This unit focuses on education and Indigenous people from Australia, Aotearoa (NZ), Canada and the United States. These particular countries cover hundreds of distinctive Indigenous communities who exist across contemporary national boundaries and geo-political divisions. Although these communities are linguistically and culturally diverse, they nevertheless share common colonial histories of dispossession and ongoing political, economic and social marginalisation and subjugation.",
+    "search_title": "INED8040 - Global Indigenous Education",
+    "code": "INED8040",
+    "title": "Global Indigenous Education",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "While exploring education from the perspectives of Indigenous people in Australia and in other parts of the world you will gain a better understanding how education has been used as a tool for the colonial project. This unit focuses on education and Indigenous people from Australia, Aotearoa (NZ), Canada and the United States. These particular countries cover hundreds of distinctive Indigenous communities who exist across contemporary national boundaries and geo-political divisions. Although these communities are linguistically and culturally diverse, they nevertheless share common colonial histories of dispossession and ongoing political, economic and social marginalisation and subjugation.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T10:36:14.084",
+  "code": "INED8040",
+  "title": "Global Indigenous Education",
+  "implementationYear": "2021"
+}

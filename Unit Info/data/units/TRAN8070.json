@@ -1,0 +1,250 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate an understanding of the nature and role of theory.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Reflect on the relevance of translation and interpreting theories.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply theoretical knowledge to translation and interpreting tasks.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Communicate theoretical concepts orally and in writing to a variety of audiences.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate familiarity with a range of theories relevant to translation and interpreting.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings are provided for students to prepare for the seminars. These are comprised of a section of the textbook plus an additional reading",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "TRAN870",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MTransInter or MTransInterMIntRel or MTransInterMAppLingTESOL or MAdvTransInterStud or MTransInter(Adv) or GradDipTransInter or GradCertCommInter or MConfInt or MAccComm",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Action research project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "Students are required to identify a problem in their interpreting, devise and implement a strategy based on theories studied, monitor and report on progress. Students are required to submit the assignment in a multimedia video format (6-8 minutes).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Problem-solving task",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "50",
+        "description": "Students are required to apply 1 or more theories to a practical translation task in an essay format. The word length for the essay assessment is approximately 2,000 words. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "TRAN8070-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8070-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8070-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8070-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8070-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8070-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8070"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "TRAN8070 - Introduction to Translation and Interpreting",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to various aspects of translation and interpreting theories and their application to translation and interpreting practice. Theories relevant to translation practice are discussed, focusing on linguistic theories, functionalist theories, and discourse-based approaches. The overview of interpreting theory covers equivalence, comprehension, issues relating to language proficiency, and interpreting processes in diverse modes. The various approaches adopted in the unit aim to broaden students&#39; perspectives on translation and interpreting and inform their studies.",
+    "search_title": "TRAN8070 - Introduction to Translation and Interpreting",
+    "code": "TRAN8070",
+    "title": "Introduction to Translation and Interpreting",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to various aspects of translation and interpreting theories and their application to translation and interpreting practice. Theories relevant to translation practice are discussed, focusing on linguistic theories, functionalist theories, and discourse-based approaches. The overview of interpreting theory covers equivalence, comprehension, issues relating to language proficiency, and interpreting processes in diverse modes. The various approaches adopted in the unit aim to broaden students&#39; perspectives on translation and interpreting and inform their studies.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-18T11:40:14.817",
+  "code": "TRAN8070",
+  "title": "Introduction to Translation and Interpreting",
+  "implementationYear": "2021"
+}

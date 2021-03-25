@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "analyse and evaluate the medium of video gaming in context of broader cultural and technological processes.",
+        "code": "ULO2"
+      },
+      {
+        "description": "evaluate specific video games through game design methodologies.",
+        "code": "ULO3"
+      },
+      {
+        "description": "contextualise video games within a history of play practices.",
+        "code": "ULO1"
+      },
+      {
+        "description": "synthesise a range of academic approaches to video gaming to produce various works.",
+        "code": "ULO4"
+      },
+      {
+        "description": "identify and appraise key ideas and methodologies underpinning the video game studies discipline.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings/Prep - 2 hrs per week, 12 weeks",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above including MAS240 or MMCC2140",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MECO329",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Each week students will need to write and submit multiple choice questions based on the readings for each week and the lecture. Questions must engage with an important aspect from the reading/lecture. Four alternative answers must be given, with only one of them being correct.\n\nRefer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Conceptual Engagement",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Students will produce a conceptual engagement task that explores and analyses the cultural, political and technological contexts of a specific video game or gaming community.\n\nStudents can either produce a traditional essay style analysis that makes a clear theoretical argument about their game of choice. Or they can produce a game design document that details a game of their own creation that engages with theory by enacting it within the game design. Both options must be theoretically rigorous and use unit readings and academic material from the student’s own research.\n\nRefer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Active Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Active participation is based on a set of small tasks including student-led discussions and group activities that take place in the weekly tutorials.\n\nRefer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Students must undertake two multiple choice online quizzes. The questions for these quizzes will be selected from the weekly questions students submit as part of their Online Participation task. The quizzes are open book and must be taken individually. The due dates and access links are available via iLearn. Late attempts will only be allowed if a Special Consideration application has been approved. \n\nRefer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC3029-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3029"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC3029-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3029"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MMCC3029 - Critical Games Studies",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will provide students with the key concepts and methodologies in the study of video gaming. Building upon new media theory and game studies&#39; approaches students will critically engage with the cultural, political, artistic, and technological dimensions of this increasingly important media form. This course explores the crucial theoretical issues in gaming, from rules and interactive narrative, to gender and power. Students will learn to analyse video games through a range of conceptual approaches that recognize the specificities of this form while acknowledging games as part of the broader media-scape. The unit is designed to offer those interested in designing, writing, analyzing, writing about, or even just playing video games, a deeper understanding of the role and context of video game play in contemporary culture. It will provide students with the conceptual frameworks needed to theorize the past, present, and future of this complex and crucial medium.",
+    "search_title": "MMCC3029 - Critical Games Studies",
+    "code": "MMCC3029",
+    "title": "Critical Games Studies",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will provide students with the key concepts and methodologies in the study of video gaming. Building upon new media theory and game studies&#39; approaches students will critically engage with the cultural, political, artistic, and technological dimensions of this increasingly important media form. This course explores the crucial theoretical issues in gaming, from rules and interactive narrative, to gender and power. Students will learn to analyse video games through a range of conceptual approaches that recognize the specificities of this form while acknowledging games as part of the broader media-scape. The unit is designed to offer those interested in designing, writing, analyzing, writing about, or even just playing video games, a deeper understanding of the role and context of video game play in contemporary culture. It will provide students with the conceptual frameworks needed to theorize the past, present, and future of this complex and crucial medium.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:18:44.199",
+  "code": "MMCC3029",
+  "title": "Critical Games Studies",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,246 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate leadership and management skills to achieve team deliverables.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Ensure project continuation through the synthesis of project documentation and handover documents.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate effective communication skill of technical and non-technical knowledge through a range of mediums such as technical documents and elevator pitch.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain and discuss the social and technical impact of engineering and demonstrate continual professional development.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Provide analysis and simulation to optimise the system based on enumerated parameters.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate systems thinking and holistic thinking with an emphasis on trade-off analysis in all decision-making process.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Online topic material",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Project work",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ENGG300",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "((ENGG2000 or ENGG200) and (ENGG450 or ENGG2050)) or admission to MEngElecEng or MEngEnvSafetyEng or MEngMechEng or MEngNetTeleEng",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "A4. Sociotechnical Perspective Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "10",
+        "description": "A sociotechnical Perspective Essayessay on a chosen engineering topic. More information on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "A3. Portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "5",
+        "description": "Continue professional development. A core part of the SPINE unit where students are to continually improve on their Portfolio development.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "A5. Vertically Integrated Project",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "60",
+        "description": "Working collectively as a team of engineers (different disciplines and years), students are to design, conceive, document, implement and communicate a detailed plan to a multi-disciplinary real-world inspired engineering problem. The work will have multiple subcomponents and milestone and will required teams to peer evaluate. More information on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "A2. Reflective writing",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "10",
+        "description": "Reflective writing on transferable skills learnt. There will be two required submission at two-time points in the semester. Refer to iLearn for more information. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "A1 Online materials",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "A range of topics delivered via podcasts, video recordings and other reading materials. Periodic online assessment around these topics. Material content will include but not limited to project management, team management, project organisation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGG3000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGG3000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ENGG3000 - Engineering Project Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "School of Engineering"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The 6th SPINE unit aimed to develop professional, transferable and employability skills.The Unit consists of a series of online modules and integrated project-based learning activities. Students will be able to demonstrate structured problem-solving skills and learnt technical knowledge from preceding units. Students will be expected to apply systems thinking in a real-world inspired engineering project. The students will be expected to apply appropriate management and leadership skills to ensure project success is achieved. Students will demonstrate proficiency in technical communication for their engineering design and solution.",
+    "search_title": "ENGG3000 - Engineering Project Practice",
+    "code": "ENGG3000",
+    "title": "Engineering Project Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The 6th SPINE unit aimed to develop professional, transferable and employability skills.The Unit consists of a series of online modules and integrated project-based learning activities. Students will be able to demonstrate structured problem-solving skills and learnt technical knowledge from preceding units. Students will be expected to apply systems thinking in a real-world inspired engineering project. The students will be expected to apply appropriate management and leadership skills to ensure project success is achieved. Students will demonstrate proficiency in technical communication for their engineering design and solution.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:05:34.824",
+  "code": "ENGG3000",
+  "title": "Engineering Project Practice",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,263 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate thoughtfully in classroom discussions, and in a range of written forms",
+        "code": "ULO4"
+      },
+      {
+        "description": "Locate, read, and analyse different kinds of historical evidence (primary sources), including visual and textual sources",
+        "code": "ULO1"
+      },
+      {
+        "description": "Be able to identify and analyse key developments in the history of popular culture since 1945",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify key arguments in secondary source materials and apply them in your own historical arguments",
+        "code": "ULO3"
+      },
+      {
+        "description": "Devise and answer research questions drawing on primary and secondary evidence",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse selected examples of popular culture produced since 1945 in their historical contexts, and describe the ways these examples, relate to, and reflect, broader, social, cultural, and political trends",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will need to complete primary and secondary source readings each week before class",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "HIST265, HIST365, MHIX365, MHIS365",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above OR (20cp in HIST or MHIS or POL or POIR or MHIX or POIX units at 2000 level)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Weekly Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "A set of two short answer quiz questions that will be embedded in the online lecture and should be completed before the weekly tutorial/online discussions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Project Proposal",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "20",
+        "description": "This task will assess student’s ability to develop a research question and approach, as well as your ability to locate and analyse primary and secondary sources. Students will respond to a series of questions to prepare the proposal.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "This assessment task evaluates student’s ability to construct an argument in response to a self-devised research question, based on primary and secondary sources. This task is the culmination of the assessment tasks in this unit; previous assessments provide scaffolding for this final task.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MHIS3065",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MHIS3065"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MHIX3065"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "From the Beats to the Bachelorette: Popular Culture Since the 1950s",
+                "academic_item_code": "MHIX3065",
+                "academic_item_url": "/2020/units/MHIX3065"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MHIS3065-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS3065"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MHIS3065-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS3065"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MHIS3065-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS3065"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Fully online/virtual<br />",
+    "subject_search_title": "MHIS3065 - From the Beats to the Bachelorette: A History of Popular Culture since 1945",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "What can we learn about the past when we examine it through the lens of popular culture? This unit traces a history of popular culture in the United States of America and Australia from the 1950s to the present, exploring the ways that popular culture can magnify and reflect changing ideas about race, class, gender, and ideology. We will examine the impact of new technologies, moral panics over popular culture, and whether popular culture constituted a form of cultural citizenship. Film, television, music and other media are used in this unit to evoke seminal moments in the history of popular culture and students are encouraged to explore these non-discursive forms as primary sources. Students are also encouraged to consider the reception of popular culture by audiences and to think about their own experience of popular culture historically. This unit will be of particular interest to students in media, education, and cultural studies, as well as history.",
+    "search_title": "MHIS3065 - From the Beats to the Bachelorette: A History of Popular Culture since 1945",
+    "code": "MHIS3065",
+    "title": "From the Beats to the Bachelorette: A History of Popular Culture since 1945",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "What can we learn about the past when we examine it through the lens of popular culture? This unit traces a history of popular culture in the United States of America and Australia from the 1950s to the present, exploring the ways that popular culture can magnify and reflect changing ideas about race, class, gender, and ideology. We will examine the impact of new technologies, moral panics over popular culture, and whether popular culture constituted a form of cultural citizenship. Film, television, music and other media are used in this unit to evoke seminal moments in the history of popular culture and students are encouraged to explore these non-discursive forms as primary sources. Students are also encouraged to consider the reception of popular culture by audiences and to think about their own experience of popular culture historically. This unit will be of particular interest to students in media, education, and cultural studies, as well as history.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T14:15:24.288",
+  "code": "MHIS3065",
+  "title": "From the Beats to the Bachelorette: A History of Popular Culture since 1945",
+  "implementationYear": "2021"
+}

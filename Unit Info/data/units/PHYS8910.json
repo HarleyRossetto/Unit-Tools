@@ -1,0 +1,195 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain how to use the toolbox of interactions in an experimental architecture to perform a quantum simulation.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Model quantum simulations using Hamiltonian based and gate based approaches.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Numerically model the physics of entangled many body systems via tensor network algorithms and quantum simulation software.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply essential skills for solving problems in quantum many body physics.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Effectively communicate ideas in quantum engineering.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Self-led learning",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Report on computational project.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Problem based assignments",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "40",
+        "description": "A set of problems based on lecture content",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Final examination covering all course content",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHYS8910"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHYS8910"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PHYS8910 - Engineering Quantum Matter",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Physics and Astronomy "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit teaches fundamentals and emerging topics in engineered quantum materials. As originally envisioned by Feynman, quantum simulation is a process where one set of controllable quantum systems can be made to simulate a complex quantum system that is too hard to model classically. In this unit we will explain how quantum simulators work to mimic natural and unnatural, or synthetic, materials. Theoretical skills taught will be standard techniques from condensed matter, as well as tools used in quantum information. You will learn how a quantum system can be programmed to simulate another either via an analogue simulation using an engineered Hamiltonian, or via a digital gate-based quantum simulation. We will cover the physics of experimental quantum simulation architectures including trapped ions and neutral atoms, and colour centres in diamond. Applications of synthetic quantum matter for quantum error correction and sensing will be covered. To better understand the physics of many body quantum systems you will learn numerical techniques including quantum simulation code and approximation methods known as tensor networks in order to simulate ground states and dynamics of many body quantum systems.",
+    "search_title": "PHYS8910 - Engineering Quantum Matter",
+    "code": "PHYS8910",
+    "title": "Engineering Quantum Matter",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit teaches fundamentals and emerging topics in engineered quantum materials. As originally envisioned by Feynman, quantum simulation is a process where one set of controllable quantum systems can be made to simulate a complex quantum system that is too hard to model classically. In this unit we will explain how quantum simulators work to mimic natural and unnatural, or synthetic, materials. Theoretical skills taught will be standard techniques from condensed matter, as well as tools used in quantum information. You will learn how a quantum system can be programmed to simulate another either via an analogue simulation using an engineered Hamiltonian, or via a digital gate-based quantum simulation. We will cover the physics of experimental quantum simulation architectures including trapped ions and neutral atoms, and colour centres in diamond. Applications of synthetic quantum matter for quantum error correction and sensing will be covered. To better understand the physics of many body quantum systems you will learn numerical techniques including quantum simulation code and approximation methods known as tensor networks in order to simulate ground states and dynamics of many body quantum systems.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:13:57.012",
+  "code": "PHYS8910",
+  "title": "Engineering Quantum Matter",
+  "implementationYear": "2021"
+}

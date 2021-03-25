@@ -1,0 +1,250 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Deploy various methods of digital marketing to design a digital marketing strategic plan.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Define and apply digital marketing strategies, concepts, and insights to build and optimise firms digital marketing presence.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically analyse and evaluate firms digital marketing strategies and provide managerial recommendations.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": "Session 2-Weekday-North Ryde"
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": "Session 2-Special"
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Weekday-North Ryde"
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Special"
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": "Session 2-Weekday-North Ryde"
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": "Session 2-Special"
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": "Session 2-Weekday-North Ryde"
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": "Session 2-Special"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MKTG804",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MMktg",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Digital Marketing Strategy Plan",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "40",
+        "description": "Designing a digital marketing strategic plan for an imaginary firm (in a given industry i.e. Food industry, Fashion industry, Entertainment industry, Hospitality industry, Financial Service industry, Healthcare industry).\n\nIndividually: each student will need to propose their creative ideas and strategies on developing a digital marketing strategic plan, and submit it in week 7 (20%). \n\nAs a group: Presenting the group’s final digital strategy plan to the class and a panel of digital experts (20%).\nEach group (3 students) should integrate the best ideas, and strategies proposed by each member in their Individual Plan, applying the lecturer’s feedback, to develop and present the group’s final digital marketing strategic plan, and pitch it to the class and a panel of digital experts. \nThe top performing group(s) will be selected based on the panel’s votes.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Participatory task",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Participatory activities include online discussions on iLearn, in-class activities/ class and group discussions, quizzes, and Harvard Business case studies. You will work individually and in a group.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Digital Marketing Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "The digital marketing report is an individual assessment. It focuses on conducting a critical analysis of a real-world brand’s digital marketing presence, and its strategies (e.g. channel selection, audience engagement, content development, implementation and monitoring, …), providing managerial recommendations for improving the brand’s digital marketing footprint. \n\nStudents are required to support their analysis, arguments, and recommendations with appropriate referencing to academic literature. At least six (6) high-quality marketing journal articles should be incorporated.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG8004"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG8004"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MKTG8004 - Digital Marketing Strategy",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Marketing "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Digital marketing is increasingly a key activity that supports and supplements traditional marketing activities across all sectors. A successful digital marketing strategy offers value to both firms and consumers. Through effective digital marketing, firms will be able to expand their area of activities and more effectively achieve their business goals; consumers will achieve greater value through increasing convenience, easier access to information, customer support, as well as having access to more diverse product choices. The focus of this unit is on developing students’ knowledge of digital marketing strategies, concepts, and insights to build and optimise firms&#39; digital marketing presence. In this unit, students will develop the ability to deploy various methods of digital marketing and design a digital marketing strategic plan. Moreover, the unit will help develop students’ ability to critically analyse and evaluate firms&#39; digital marketing strategies and provide managerial solutions.",
+    "search_title": "MKTG8004 - Digital Marketing Strategy",
+    "code": "MKTG8004",
+    "title": "Digital Marketing Strategy",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Digital marketing is increasingly a key activity that supports and supplements traditional marketing activities across all sectors. A successful digital marketing strategy offers value to both firms and consumers. Through effective digital marketing, firms will be able to expand their area of activities and more effectively achieve their business goals; consumers will achieve greater value through increasing convenience, easier access to information, customer support, as well as having access to more diverse product choices. The focus of this unit is on developing students’ knowledge of digital marketing strategies, concepts, and insights to build and optimise firms&#39; digital marketing presence. In this unit, students will develop the ability to deploy various methods of digital marketing and design a digital marketing strategic plan. Moreover, the unit will help develop students’ ability to critically analyse and evaluate firms&#39; digital marketing strategies and provide managerial solutions.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:27:50.917",
+  "code": "MKTG8004",
+  "title": "Digital Marketing Strategy",
+  "implementationYear": "2021"
+}

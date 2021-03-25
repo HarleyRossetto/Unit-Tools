@@ -1,0 +1,257 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop strategies for and engage in reflexive practice in order to make effective and impactful decisions that ensure quality student outcomes and nurture resilience in teaching practice.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Understand and reflect critically on the nature of English as a discipline within the context of the secondary curriculum.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Reflect critically on some of the key professional issues in their own current practices and identify the implications these have for their own future teaching.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Develop a developed working knowledge of the English Syllabus and apply progressively refined strategies to plan effective classroom learning experiences that respond to the diversity of student learners and utilise a range of mediums, pedagogies and language modes including multi-modal texts.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Design effective, syllabus aligned assessment strategies (diagnostic, formative and summative) incorporating a variety of language modes and content and that incorporate skills of evaluation and reflection.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate competence, creativity and judgement in the use of ICT through the preparation and inclusion of technology-based teaching resources and learning experiences.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Communicate knowledge of both content and pedagogy effectively and with scholarship and making discerning use of resources and supporting evidence.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Online tasks, reflections and participation in professional forums",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Reading and reflexive responses to required and recommended readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "130cp and (EDTE3880 or TEP388) or  (EDTE3140 and  EDTE3010)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "TEP423",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Professional dialogue on English teaching ",
+        "type": {
+          "label": "Viva/oral examination",
+          "value": "viva_oral_exam"
+        },
+        "weight": "25",
+        "description": "10 minutes. Engage in a a professional conversation in which you demonstrate and discuss your professional digital portfolio and justify your perspectives on English teaching.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Programming and Assessment",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "2000 words. Critique, revise and modify a Stage 4/5 unit of work including assessment task to meet the syllabus requirements and the needs of a case study class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "English teaching digital portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "25",
+        "description": "2000 words. Two multi-modal reflections in response to self-devised questions that emerge from the topics and pedagogy covered in the workshops and readings in TEP423. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDTE4230-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE4230"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDTE4230-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE4230"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDTE4230-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE4230"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDTE4230-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE4230"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "EDTE4230 - English in the Secondary School I",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on the contemporary role of the teaching of English in a secondary school context. Emphasis is given to the practical skills and knowledge required for teaching in a NSW English school department. NESA, NSW Education Standards Authority, syllabus documents for Stages 4 and 5 are examined in relation to outcomes, programming, assessment strategies and resources. The nature of student-centred learning in the English classroom is explored through a variety of approaches. Key issues considered include: analysing and teaching a range of types of texts including mutlimodal, the writing process, popular culture, adolescent reading, and the pedagogical integration of technology. Students reflect on approaches to teaching English and develop awareness of the social and political factors that impact English curriculum and teaching.",
+    "search_title": "EDTE4230 - English in the Secondary School I",
+    "code": "EDTE4230",
+    "title": "English in the Secondary School I",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on the contemporary role of the teaching of English in a secondary school context. Emphasis is given to the practical skills and knowledge required for teaching in a NSW English school department. NESA, NSW Education Standards Authority, syllabus documents for Stages 4 and 5 are examined in relation to outcomes, programming, assessment strategies and resources. The nature of student-centred learning in the English classroom is explored through a variety of approaches. Key issues considered include: analysing and teaching a range of types of texts including mutlimodal, the writing process, popular culture, adolescent reading, and the pedagogical integration of technology. Students reflect on approaches to teaching English and develop awareness of the social and political factors that impact English curriculum and teaching.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-02T11:32:58.133",
+  "code": "EDTE4230",
+  "title": "English in the Secondary School I",
+  "implementationYear": "2021"
+}

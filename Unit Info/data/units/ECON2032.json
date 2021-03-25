@@ -1,0 +1,246 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Diagnose and resolve problems relating to the violation of standard assumptions in econometric models, and make conclusions and recommendations regarding your solutions.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Estimate econometric models and test parametric hypotheses using techniques that are appropriate for the problem at hand.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify and describe econometric concepts and theories.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critique the appropriateness of alternative econometric techniques in practical applications to appropriate problems.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading the assigned literature",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECON241 or ECON2041 or STAT272 or STAT2372",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECON232",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Tutorial exercises (online)",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "10",
+        "description": "Problem sets to be completed in online tutorials.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Modelling task",
+          "value": "modelling_task"
+        },
+        "weight": "15",
+        "description": "Students will be given an applied econometric problem to work on and will be required to submit a written report on their investigation of the problem. Students will also be required to submit relevant computer files.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "A two-hour exam will be held during the end of session formal exam period, and will consist of descriptive short and long answer questions, along with relevant calculations.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "The quiz assesses the work covered in lectures up to the submission deadline, and consists of a set of questions to be answered on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Tutorial exercises",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "10",
+        "description": "Problem sets to be completed in class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination online",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "A two hour open book examination, consisting of multipile choice, numerical, and short answer questions, will be held during the University Examination Period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON2032"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON2032"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ECON2032 - Econometric Principles",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Economics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides an introduction to modern econometric techniques. Its principal objectives are to extend knowledge beyond the classical regression model and to develop literacy in methods that are commonly used to analyse data in economics, finance and business. The topics covered may include: heteroscedasticity, stochastic regressors, limited dependent variables, time-series regression and panel data analysis. This unit will be of value to any students who are interested in how useful information may be inferred from economic data in a statistically valid way.",
+    "search_title": "ECON2032 - Econometric Principles",
+    "code": "ECON2032",
+    "title": "Econometric Principles",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an introduction to modern econometric techniques. Its principal objectives are to extend knowledge beyond the classical regression model and to develop literacy in methods that are commonly used to analyse data in economics, finance and business. The topics covered may include: heteroscedasticity, stochastic regressors, limited dependent variables, time-series regression and panel data analysis. This unit will be of value to any students who are interested in how useful information may be inferred from economic data in a statistically valid way.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:31:54.867",
+  "code": "ECON2032",
+  "title": "Econometric Principles",
+  "implementationYear": "2021"
+}

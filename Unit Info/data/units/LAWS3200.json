@@ -1,0 +1,258 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain and apply the principles and stages of civil and criminal procedure",
+        "code": "ULO1"
+      },
+      {
+        "description": "Communicate an integrated body of procedural law knowledge both orally and in writing",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply statutory interpretation to problems of civil and criminal procedural law",
+        "code": "ULO3"
+      },
+      {
+        "description": "Display elementary legal advocacy skills",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse civil and criminal procedural law in its historical, social and legal context",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will be expected to undertake the weekly assigned readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students are expected to prepare for tutorials by attempting all questions in advance.  Additional preparation will be required for the weeks each student is on-call",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LAW550, LAWS398",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "130cp including LAW203 or LAWS2400",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Class Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Students must contribute in class through on-call presentations and contributions across the semester",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Procedural fairness in criminal procedure",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "25",
+        "description": "Students are required to consider procedural fairness in the context of New South Wales criminal courts. This may involve court observation. Findings are to be critically assessed drawing on literature provided in readings and independent research.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "There will be a number of low-value quizzes across semester on both civil and criminal procedure topics.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Timed Civil Procedure Hypothetical Case Task ",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "25",
+        "description": "Problem-based scenario requiring students to undertake a variety of civil procedure writing tasks which would be performed by lawyers in practice.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LAWS3200-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "30",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS3200"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS3200-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS3200"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS3200-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS3200"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS3200-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS3200"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde*<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />Session 1, Special circumstances, Other<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "LAWS3200 - Civil and Criminal Procedure",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines the principles of civil and criminal procedure in New South Wales. The unit canvasses general principles of civil procedure, such as pre-trial procedures, the nature of adversarial disputation, ethics of practice and a critical evaluation of the administration of justice, as well as select topics in criminal procedure, such as classification of offences, bail and sentencing.",
+    "search_title": "LAWS3200 - Civil and Criminal Procedure",
+    "code": "LAWS3200",
+    "title": "Civil and Criminal Procedure",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines the principles of civil and criminal procedure in New South Wales. The unit canvasses general principles of civil procedure, such as pre-trial procedures, the nature of adversarial disputation, ethics of practice and a critical evaluation of the administration of justice, as well as select topics in criminal procedure, such as classification of offences, bail and sentencing.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T16:06:54.42",
+  "code": "LAWS3200",
+  "title": "Civil and Criminal Procedure",
+  "implementationYear": "2021"
+}

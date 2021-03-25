@@ -1,0 +1,173 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically reflect on the application of perspectives on new teacher development to policy and program improvement in your own jurisdiction and/or workplace",
+        "code": "ULO3"
+      },
+      {
+        "description": "Construct a plan for the improvement of an aspect of practice in supporting new teacher development that is justified with reference to the research literature and relevant to the context of your school/workplace/organisation and/or jurisdiction",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify and describe the nature and scope of the policies, strategies, programs and practices in supporting new teacher development in education contexts",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply knowledge about a range of policies, strategies, programs and/or practices in schools and other education workplaces supporting new teacher development",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "EDCN831",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MEd or GradCertEdS or MEdLead or MHEd or GradCertHEd or MEChild or GradCertEChild or MTeach(0-5) or GradCertClinEdSim or MIndigenousEd or GradDipIndigenousEd or GradDipChildLit or MChildLit",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Reflective Journal",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "40",
+        "description": "An entry is completed for each unit module for Modules 2-7. Each entry summarises outcomes of readings and seminar discussions in response to a stimulus question. (3000 words in total; approximately 500 words per entry.)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Seminars",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Participation in and contributions to seven online or face-to-face seminars, around 250 words per online seminar",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Major Assignment",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Provides opportunities for in-depth study and application in an area of professional or personal interest related  to the unit learning outcomes and negotiated with the unit convenor.  (3000 words maximum, excluding any appendices.)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8310"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "EDST8310 - Leading the Learning of New Teachers",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit develops theoretical understandings and leadership skills in education contexts supporting the development of new teachers. It draws on national and international literature in areas such as pre-service professional experience, induction, certification, retention and mentoring to develop a sound theoretical framework for critical reflection on current practice in schools and other education workplaces. Assessment tasks are designed to enhance the workplace capacity of participants.",
+    "search_title": "EDST8310 - Leading the Learning of New Teachers",
+    "code": "EDST8310",
+    "title": "Leading the Learning of New Teachers",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit develops theoretical understandings and leadership skills in education contexts supporting the development of new teachers. It draws on national and international literature in areas such as pre-service professional experience, induction, certification, retention and mentoring to develop a sound theoretical framework for critical reflection on current practice in schools and other education workplaces. Assessment tasks are designed to enhance the workplace capacity of participants.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-29T16:13:14.571",
+  "code": "EDST8310",
+  "title": "Leading the Learning of New Teachers",
+  "implementationYear": "2021"
+}

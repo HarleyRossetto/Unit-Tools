@@ -1,0 +1,278 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Record and analyse scientific data, as well as judge its reliability and significance and interpret and communicate conclusions, including using the basic elements of scientific report preparation.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Discuss the central role and impact of the chemical and biomolecular sciences concepts covered in this unit in our lives and its modern applications.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Explain the chemical and physical properties of solids, liquids and gases, metals and solutions.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Utilise chemistry and biomolecular sciences concepts covered in this unit to process and interpret relevant chemical data.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Undertake laboratory investigations requiring basic laboratory skills related to the reactions of matter and the energetics and rates of reaction, and their detection and analysis, and demonstrate an awareness of general laboratory safety procedures.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Predict reactions of matter including precipitation, acid base chemistry, oxidation/reduction processes, and the energetics and rates of chemical change.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Asynchronous lecture recordings",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": "Session 1-Infrequent-North Ryde"
+      },
+      {
+        "description": "Tutorial and lecture class preparation and review",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CBMS102, CBMS602, CBMS108",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "CHEM1001 or CBMS107 or CBMS103 or HSC Chemistry Band 5 and above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Mid Semester test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Mid Semester Test",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 1-Infrequent-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "There will be 10 on-line quizzes during semester. You will find that these quizzes assist you in revising the course material as the course progresses.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Laboratory work",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "20",
+        "description": "The pre-practical exercises, performance in the practical, the practical report, and the post-practical exercises will be used to calculate the final practical mark. The assessment tasks start off simple and build on skills and knowledge developed throughout the course.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical and Tutorial participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "You must participate in minimum of 8 tutorial classes and 4 of 5 practical classes. This is a hurdle requirement.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Special Circumstances Midsemester Exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "It is designed to address specific understanding of all the topics presented within the unit and to show that the knowledge obtained can be applied to new problems.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "It is designed to address specific understanding of all the topics presented within the unit and to show that the knowledge obtained can be applied to new problems.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "CHEM1002-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHEM1002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CHEM1002-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHEM1002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CHEM1002-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHEM1002"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "CHEM1002 - Foundations of Chemical and Biomolecular Sciences 2",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Molecular Sciences "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Molecular sciences is the basis for the development of new medicines, new materials, new ways of monitoring and improving our environment, and many other fields. This unit will focus on the properties and reactivity of matter and is an ideal unit for any student that wants to understand the atomic and molecular world within and around them. It will introduce chemical and physical properties of solids, liquids and gases, metals and solutions. It will examine specific reactions including precipitation, acid base chemistry and oxidation/reduction processes and will explore the energetics and rates of chemical change. It will also describe methods of detection and analysis of matter. Specific biological, environmental and new materials related to real world examples will be provided, with topics such as global warming, energy production and renewable fuels. This unit will provide an understanding and appreciation of the role of chemical and biomolecular sciences in our lives, now and in the future, including in helping to achieve a sustainable environment, understanding health and disease, and advancing new molecular technologies. Practical sessions and tutorials will reinforce learning throughout this unit.",
+    "search_title": "CHEM1002 - Foundations of Chemical and Biomolecular Sciences 2",
+    "code": "CHEM1002",
+    "title": "Foundations of Chemical and Biomolecular Sciences 2",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Molecular sciences is the basis for the development of new medicines, new materials, new ways of monitoring and improving our environment, and many other fields. This unit will focus on the properties and reactivity of matter and is an ideal unit for any student that wants to understand the atomic and molecular world within and around them. It will introduce chemical and physical properties of solids, liquids and gases, metals and solutions. It will examine specific reactions including precipitation, acid base chemistry and oxidation/reduction processes and will explore the energetics and rates of chemical change. It will also describe methods of detection and analysis of matter. Specific biological, environmental and new materials related to real world examples will be provided, with topics such as global warming, energy production and renewable fuels. This unit will provide an understanding and appreciation of the role of chemical and biomolecular sciences in our lives, now and in the future, including in helping to achieve a sustainable environment, understanding health and disease, and advancing new molecular technologies. Practical sessions and tutorials will reinforce learning throughout this unit.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-03T15:11:14.066",
+  "code": "CHEM1002",
+  "title": "Foundations of Chemical and Biomolecular Sciences 2",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,198 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Pass/Fail",
+      "value": "pass-fail"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop a research proposal based on critical analysis of relevant literature.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply ethical principles to research and the different research paradigms in organisational psychology.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Prepare a research ethics application.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Distinguish between descriptive and experimental research.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate an understanding of the principles of academic writing and data analysis.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Use oral and written communication to effectively communicate with peers.",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Practice presentations",
+        "activity": {
+          "label": "Rehearsals",
+          "value": "rehearsals"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSYO944",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MOrgPsych",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Thesis proposal presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Students have three minutes to formally present the most important aspects of the background, design, and contribution of their research projects.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Ethics Application ",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "30",
+        "description": "Students will be required to complete and submit for approval, the Research Ethics Application Form",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Industry Research Proposal",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "50",
+        "description": "This 2000 word proposal involves the development of a research plan for an industry audience. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYO8944"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Intensive attendance, North Ryde<br />",
+    "subject_search_title": "PSYO8944 - Research Proposal",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "20",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to investigate and discuss conceptual, methodological, and procedural issues, enable the finalisation of project measures and procedures, complete a business research proposal, and complete and submit an application for ethics approval to conduct empirical research",
+    "search_title": "PSYO8944 - Research Proposal",
+    "code": "PSYO8944",
+    "title": "Research Proposal",
+    "content_type": "Unit",
+    "credit_points_header": "20 credit points"
+  },
+  "creditPoints": 20,
+  "description": "This unit is designed to investigate and discuss conceptual, methodological, and procedural issues, enable the finalisation of project measures and procedures, complete a business research proposal, and complete and submit an application for ethics approval to conduct empirical research",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:32:56.459",
+  "code": "PSYO8944",
+  "title": "Research Proposal",
+  "implementationYear": "2021"
+}

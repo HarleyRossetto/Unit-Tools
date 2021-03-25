@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrates a capacity to use software for student profiling and reporting, lesson preparation and general administrative tasks.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Develop further understanding of the major theoretical and research directions and current issues in mathematics education.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Develop and awareness of the range of application and adaptive technologies available to support students with special needs.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Demonstrates knowledge of mathematical concepts and processes in the areas of number and algebra, statistics and probability, measurement and geometry and working mathematically.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Design lesson sequences that enhance the growth of children's mathematical thinking, reflect current issues in research and integrate other areas of curriculum.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrates effective mathematics teaching and learning strategies for meeting the needs of Indigenous students.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrates research based knowledge of teaching and learning approaches to differentiating curriculum to meet the diverse needs of learners in the mathematics classroom.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Online resources for external students ",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": "Session 1-Infrequent-North Ryde"
+      },
+      {
+        "description": "Weekly readings ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp including ECH335 or ECHE2340 or ECHE234",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECH413, ECH431",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Report and learning plans",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "2000 words\nStudents identify key issues from research and develop a summary to support teaching ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mathematics and diverse learners",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "2000 words. \nEssay on meeting diverse learning needs in mathematics",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation ",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "2 Pages\nWorking with a group of fellow students to develop a presentation that relates to diverse learning and mathematics ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECHE4310-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE4310"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECHE4310-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE4310"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECHE4310-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE4310"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "ECHE4310 - Teaching and Learning Mathematics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit builds on the knowledge gained in previous units, further developing student&#39;s knowledge of the principles and practices of teaching and learning mathematics. Students explore a range of strategies for assessing children&#39;s mathematical understandings, and design and implement lesson sequences to enhance the growth of children&#39;s mathematical thinking. The integration of technology with mathematics and with other Key Learning Areas, including differentiating curriculum to meet the diverse needs of learners, is also addressed.",
+    "search_title": "ECHE4310 - Teaching and Learning Mathematics",
+    "code": "ECHE4310",
+    "title": "Teaching and Learning Mathematics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit builds on the knowledge gained in previous units, further developing student&#39;s knowledge of the principles and practices of teaching and learning mathematics. Students explore a range of strategies for assessing children&#39;s mathematical understandings, and design and implement lesson sequences to enhance the growth of children&#39;s mathematical thinking. The integration of technology with mathematics and with other Key Learning Areas, including differentiating curriculum to meet the diverse needs of learners, is also addressed.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T14:48:04.528",
+  "code": "ECHE4310",
+  "title": "Teaching and Learning Mathematics",
+  "implementationYear": "2021"
+}

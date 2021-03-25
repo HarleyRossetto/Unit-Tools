@@ -1,0 +1,221 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate independent research and synthesis of acquired knowledge and skills.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Participate in and contribute effectively to independent and/or team-based research.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Model best research practice and demonstrate commitment to an ethical, reflective approach in a professional context.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply existing skills and knowledge to solving real-world problems.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "MRES701",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to BPhil/MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Project management plan",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "20",
+        "description": "Preparation of a structured project plan for the internship",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Employability journal",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Weekly completion of a reading followed by a short reflective blog post to the iLearn forum.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project presentation",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "20",
+        "description": "A short video presentation summarising the internship activity undertaken.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflective report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "50",
+        "description": "Preparation of a comprehensive portfolio drawing on both information gained during the semester and personal reflections on the student’s experience as a research intern.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project presentation",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "20",
+        "description": "A short in-class presentation summarising the internship activity undertaken.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOAR7004"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOAR7004"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Fully online/virtual<br />",
+    "subject_search_title": "FOAR7004 - Arts Internship for Researchers",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "This unit will give BPhil students the opportunity to complete a research project as part of a team in an academic or industry setting. The project will be aligned with the host’s strategic research priorities, and both managed and delivered by the student in consultation with their host supervisor. Students will also receive practical information about research careers in academic and non-academic settings and will reflect on what it means to be a researcher in the 21st century. Students must complete 100 hours as an intern in addition to written assessments and an in-class presentation.",
+    "search_title": "FOAR7004 - Arts Internship for Researchers",
+    "code": "FOAR7004",
+    "title": "Arts Internship for Researchers",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will give BPhil students the opportunity to complete a research project as part of a team in an academic or industry setting. The project will be aligned with the host’s strategic research priorities, and both managed and delivered by the student in consultation with their host supervisor. Students will also receive practical information about research careers in academic and non-academic settings and will reflect on what it means to be a researcher in the 21st century. Students must complete 100 hours as an intern in addition to written assessments and an in-class presentation.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-02T11:29:23.792",
+  "code": "FOAR7004",
+  "title": "Arts Internship for Researchers",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify, evaluate and deploy the grammatical structures of Russian at elementary level.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop comprehensive elementary level skills in reading, writing, listening and speaking in the Russian language.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify, describe and evaluate some aspects of Russian-speaking cultures and societies.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate an awareness of some language and language use, in both Russian and in English.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply relevant language conventions to create meaningful intercultural encounters.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to spend time on daily review of grammar and vocabulary, and language practice. Students should be familiar with and feel comfortable with each week’s content before starting a new week. Seminar preparation time also includes time to study, revise tutorial content and prepare for the quizzes and tests.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "RSN150 or RUSS1010",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "RSN100, RSN104, RSN155",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Oral test",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "For the oral test, students have to prepare a three-minute talk on a topic of their choice.  Students will be assessed on their presentation, as well as their ability to answer follow-up questions. This will be a part of regular seminar time. Online students will do this task via Zoom.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Written test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "The purpose of the test is to check students’ knowledge of all aspects of grammar and vocabulary that they learned throughout the semester. Online version available to external students.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "45",
+        "description": "The purpose of the written test is to check students’ knowledge of all aspects of grammar and vocabulary that they learn throughout the semester. Online version available to external students.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students have to demonstrate their knowledge and engagement with material explained during the semester. External students will engage with this task online.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "RUSS1020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "RUSS1020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "RUSS1020"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "RUSS1020 - I Russian Studies 2",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This introductory Russian unit is designed for students with basic knowledge of Russian, equivalent to one semester of studying the language at university level. The objective of the unit is to expand students&#39; vocabulary and to teach new Russian grammatical structures that will help them to communicate in everyday situations in Russian-speaking contexts. Students will develop their listening and speaking skills, as well as reading and writing skills, through varied activities and tasks.",
+    "search_title": "RUSS1020 - I Russian Studies 2",
+    "code": "RUSS1020",
+    "title": "I Russian Studies 2",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This introductory Russian unit is designed for students with basic knowledge of Russian, equivalent to one semester of studying the language at university level. The objective of the unit is to expand students&#39; vocabulary and to teach new Russian grammatical structures that will help them to communicate in everyday situations in Russian-speaking contexts. Students will develop their listening and speaking skills, as well as reading and writing skills, through varied activities and tasks.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:13:32.632",
+  "code": "RUSS1020",
+  "title": "I Russian Studies 2",
+  "implementationYear": "2021"
+}

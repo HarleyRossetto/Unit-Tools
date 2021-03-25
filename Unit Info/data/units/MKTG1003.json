@@ -1,0 +1,235 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply consumer behaviour theory to develop creative solutions to consumption decisions acknowledging ethical implications for society.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically analyse and apply consumer behaviour theory to real-world consumption experiences.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify and articulate a range of external and internal influences on consumer behaviour.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MKTG203",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Practice-based tasks",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "20",
+        "description": "There will be a series of five practice-based tasks assigned throughout the semester. These will consist of 2 x 150 word length posts to the weekly discussion forum for the allocated weeks.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "50",
+        "description": "This 2,000 word case based assessment, targets the development of students’ understanding of core consumer behaviour theories and concepts as they apply to real world consumption behaviour. It focuses on enhancing critical thinking skills and encourages students to understand the complex nature of consumer behaviour.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "There will be one written case based task of 1200 words. This assessment targets the development of students understanding of core consumer behaviour as it applies to real world consumption behaviour. It focuses on enhancing critical thinking skills and encourages students to understand the complex nature of consumer behaviour.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MKTG1003-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG1003"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MKTG1003-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG1003"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MKTG1003-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG1003"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MKTG1003-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG1003"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MKTG1003 - Consumer Behaviour",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Marketing "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "An important aspect of marketing is to understand the heart and mind of consumers. Understanding why consumers think, feel and act the way that they do assists businesses in making strategic, sustainable and ethical marketing decisions. This unit develops students’ knowledge about how to understand, interpret and influence consumers’ behaviour. Students gain theoretical knowledge of the internal, psychological processes and external, environmental factors influencing consumer behaviour. Students learn about consumer needs and values, how consumers perceive products and brands, ways to measure attitudes and effect attitude change, how and why consumers decide to buy (or not buy), and the importance of culture and reference group influences. By the end of this unit, students have a much deeper and richer appreciation of how consumption not only affects our lives but also how our actions influence the way that we feel about ourselves and about one another.",
+    "search_title": "MKTG1003 - Consumer Behaviour",
+    "code": "MKTG1003",
+    "title": "Consumer Behaviour",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "An important aspect of marketing is to understand the heart and mind of consumers. Understanding why consumers think, feel and act the way that they do assists businesses in making strategic, sustainable and ethical marketing decisions. This unit develops students’ knowledge about how to understand, interpret and influence consumers’ behaviour. Students gain theoretical knowledge of the internal, psychological processes and external, environmental factors influencing consumer behaviour. Students learn about consumer needs and values, how consumers perceive products and brands, ways to measure attitudes and effect attitude change, how and why consumers decide to buy (or not buy), and the importance of culture and reference group influences. By the end of this unit, students have a much deeper and richer appreciation of how consumption not only affects our lives but also how our actions influence the way that we feel about ourselves and about one another.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T13:59:53.454",
+  "code": "MKTG1003",
+  "title": "Consumer Behaviour",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply financial analysis skills to develop financial projections for a project or business.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Construct and demonstrate proficiency in using spreadsheet based integrated financial models to solve a range of finance based problems.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Prepare and explain the interrelationships between the three major financial statements.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically assess a company’s historical financial performance using financial ratios and other analysis tools.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings and research guided by tasks included in online module",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to GradCertFin or GradDipAppFin or MAppFin or MAppFin(Adv)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "AFCP813, AFCP613",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Two online quizzes will be conducted during the term. The first online quiz relates to material in Topics 1-4 and the second online quiz relates to material in Topics 5-9.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Short Exercises",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "20",
+        "description": "Four short exercises will be assessed during the term. The short exercises relate respectively to material in Topics 1, 2, 3 and 6.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "Online, open book 3 hour Exam on all Topics.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "Analysis of an individual case study topic and presentation of conclusions : 2500 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 2-Online",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP6019"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 4-Online",
+        "teaching_period": {
+          "value": "Term 4"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP6019"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 2, Fully online/virtual<br />Term 4, Fully online/virtual<br />",
+    "subject_search_title": "AFCP6019 - Financial Statement Analysis and Modelling",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit equips students with financial analysis skills to support advanced study in corporate finance and investment analysis. Emphasis is placed on being able to interpret financial statements in the context of a company&#39;s operational performance and strategy, to assess historical financial performance and to prepare a spreadsheet based financial model capable of forecasting integrated financial statements for a company. After this unit, students should understand the language of financial statements, and be able to use an Annual Report to develop an understanding of a company&#39;s historical performance and prospects. Specific topics include the Income Statement, Balance Sheet, Cash Flow Statement and financial statement analysis using Dupont methodology. Financial modelling applications will also be developed, so students will be able to prepare forecasts for the three financial statements, as well as being able to integrate the three statements.",
+    "search_title": "AFCP6019 - Financial Statement Analysis and Modelling",
+    "code": "AFCP6019",
+    "title": "Financial Statement Analysis and Modelling",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit equips students with financial analysis skills to support advanced study in corporate finance and investment analysis. Emphasis is placed on being able to interpret financial statements in the context of a company&#39;s operational performance and strategy, to assess historical financial performance and to prepare a spreadsheet based financial model capable of forecasting integrated financial statements for a company. After this unit, students should understand the language of financial statements, and be able to use an Annual Report to develop an understanding of a company&#39;s historical performance and prospects. Specific topics include the Income Statement, Balance Sheet, Cash Flow Statement and financial statement analysis using Dupont methodology. Financial modelling applications will also be developed, so students will be able to prepare forecasts for the three financial statements, as well as being able to integrate the three statements.",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:46:38.49",
+  "code": "AFCP6019",
+  "title": "Financial Statement Analysis and Modelling",
+  "implementationYear": "2021"
+}

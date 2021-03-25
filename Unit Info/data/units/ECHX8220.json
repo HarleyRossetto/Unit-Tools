@@ -1,0 +1,239 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Refine your professional knowledge and understanding in early childhood pedagogy and policy by applying high order analytical skills",
+        "code": "ULO1"
+      },
+      {
+        "description": "Investigate complex information, concepts, and theories in order to establish a personal position regarding emerging trends in the early childhood arena",
+        "code": "ULO4"
+      },
+      {
+        "description": "Examine current issues in policy and pedagogy in early childhood education in an integrated way to identify alternative perspectives",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically review relevant literature when appraising complex policy and pedagogical issues as an educational leader in early childhood settings",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Independent reading and activities",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECHX8260 or ECHX826",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECED822, ECEX822, ECED843, ECHX822",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment 1B: Reading Journal",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "A written critical reflection on required readings identified for each week.  1000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1C: Reading Journal",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "A written critical reflection on required readings identified for each week.  1000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "An essay and/or presentation regarding emerging trends in the Early Childhood arena. There are TWO options: a major essay (2000 words) OR a minor essay (1000 words) plus a presentation with slides (10-15 mins).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1A: Reading Journal",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "A written critical reflection on required readings identified for each week. 1000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ECHX8220",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ECHX8220"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ECHE8220"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Issues in Early Childhood Policy and Pedagogy",
+                "academic_item_code": "ECHE8220",
+                "academic_item_url": "/2020/units/ECHE8220"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHX8220"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "ECHX8220 - Issues in Early Childhood Policy and Pedagogy",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores current issues and debates affecting pedagogy, practice, politics and policy in early childhood education. Students will explore a range of responses to state, national and international influences on the provision of nurturant educational services in the early childhood years. We will consider diverse approaches to teaching practice as well as policy development in the delivery of various services used by young children and their families. This will include the investigation of approaches to reconceptualising early childhood pedagogy as well as the achievements of major government initiatives directed at early childhood education and care settings and the wellbeing of young children and their families.\n\nAll enrolment queries should be directed to Open Universities Australia (OUA): see <a target=\"_blank\" href=\"http://www.open.edu.au\" rel=\"noopener noreferrer nofollow\">www.open.edu.au</a>",
+    "search_title": "ECHX8220 - Issues in Early Childhood Policy and Pedagogy",
+    "code": "ECHX8220",
+    "title": "Issues in Early Childhood Policy and Pedagogy",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores current issues and debates affecting pedagogy, practice, politics and policy in early childhood education. Students will explore a range of responses to state, national and international influences on the provision of nurturant educational services in the early childhood years. We will consider diverse approaches to teaching practice as well as policy development in the delivery of various services used by young children and their families. This will include the investigation of approaches to reconceptualising early childhood pedagogy as well as the achievements of major government initiatives directed at early childhood education and care settings and the wellbeing of young children and their families.\n\nAll enrolment queries should be directed to Open Universities Australia (OUA): see <a target=\"_blank\" href=\"http://www.open.edu.au\" rel=\"noopener noreferrer nofollow\">www.open.edu.au</a>",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:58:11.336",
+  "code": "ECHX8220",
+  "title": "Issues in Early Childhood Policy and Pedagogy",
+  "implementationYear": "2021"
+}

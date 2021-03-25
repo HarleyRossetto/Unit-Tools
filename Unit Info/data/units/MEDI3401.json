@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify further developmental needs and implement appropriate lifelong learning strategies to meet them.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Plan, negotiate and produce a learning contract related to your career aspirations.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply knowledge and employ effective presentation techniques to develop and present a career-focused professional portfolio.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Critique, review and reflect on the process of the placement, the health or community issue and the student learning experience.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Weekday-North Ryde"
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Special"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "140cp at 1000 level or above including ((MEDI103 or MEDI1400) and (MEDI206 or MEDI2400))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MEDI308",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Graduation Portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "50",
+        "description": "Graduation portfolio that demonstrates attainment of graduate capabilities through submission of reflective statements and development and presentation of a showcase portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Learning Contract",
+        "type": {
+          "label": "Learning plan",
+          "value": "learning_plan"
+        },
+        "weight": "20",
+        "description": "A learning contract detailing planned professional development activities to be completed prior to and across the PACE activity.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "PACE placement evaluation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "Supervisor feedback on professionalism and engagement with placement activities during the placement, as signed off by the placement supervisor.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Placement & Reflective Report",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "30",
+        "description": "A reflective report on the PACE activities and how it relates to the professional development activities and the graduate capability statements. Evidence of completion of professional development activities to be performed during the placement will also be required, as well as maintaining a reflective placement blog throughout the PACE activity.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI3401"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI3401"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MEDI3401 - Professional Learning in the Clinical Sciences",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "This unit is the capstone unit within the Bachelor of Clinical Science. It aims to prepare MQ students to become lifelong learners in a connected world and take responsibility for their own learning and professional development needs. It adopts an enactivist approach where students learn to identify learning opportunities as they arise in work or life situations and take appropriate actions. In line with this approach, the unit provides work-integrated learning experience in a health-related context with placements undertaken in a range of settings. You will be supported in performing professional activities as relevant to your placements and reflecting on your performance for improvement. You will also have opportunities to build skills necessary to apply for jobs, form professional networks and develop a foundation for continuing professional development.",
+    "search_title": "MEDI3401 - Professional Learning in the Clinical Sciences",
+    "code": "MEDI3401",
+    "title": "Professional Learning in the Clinical Sciences",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is the capstone unit within the Bachelor of Clinical Science. It aims to prepare MQ students to become lifelong learners in a connected world and take responsibility for their own learning and professional development needs. It adopts an enactivist approach where students learn to identify learning opportunities as they arise in work or life situations and take appropriate actions. In line with this approach, the unit provides work-integrated learning experience in a health-related context with placements undertaken in a range of settings. You will be supported in performing professional activities as relevant to your placements and reflecting on your performance for improvement. You will also have opportunities to build skills necessary to apply for jobs, form professional networks and develop a foundation for continuing professional development.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:56:31.793",
+  "code": "MEDI3401",
+  "title": "Professional Learning in the Clinical Sciences",
+  "implementationYear": "2021"
+}

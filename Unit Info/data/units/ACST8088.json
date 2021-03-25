@@ -1,0 +1,206 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe the use of interest models in term of structure modelling and pricing of zero-coupon bonds.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe the different approaches to modelling credit risk.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Understand the use of stochastic calculus in modelling security prices and valuation of option pricing approaches",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply ruin theory to insurance problems.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Explain various concepts in stochastic calculus in the risk-neutral valuation approach.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate an understanding of the Black-Scholes option pricing model via both the partial differential equation approach and the risk-neutral pricing approach.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for lectures and various assessment items.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(STAT810 or STAT8310 or STAT806) and (ACST881 or ACST8081)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ACST817, ACST888",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "The final examination will be closed book, a three-hour written paper with ten minutes reading time, to be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "20",
+        "description": "This is an individual assignment which focuses on problem solving using Excel spreadsheet.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The test will be approximately 90 minutes, to be held during class time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACST8088-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACST8088"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACST8088-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACST8088"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ACST8088 - Quantitative Asset and Liability Modelling 2",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Actuarial Studies and Business Analytics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The topics covered in this unit include: an introduction to stochastic processes; martingales; an introduction to stochastic calculus; Ito&#39;s lemma; forwards, futures, swaps and options; arbitrage-free pricing via replicating portfolio and risk neutral probability measures; the Girsanov theorem; the Black-Scholes option pricing model for European options; the &#39;Greeks&#39; and dynamic hedging; term structure of interest rates; relations among short rates, forward rates and default-free zero-coupon bonds; interest rate models; firm-value and intensity-based credit risk models; ruin theory; valuation of basic guarantees. Students gaining a credit average in both ACST8087 and ACST8088 (minimum mark of 60 on both units) will satisfy the requirements for exemption from the professional subject CM2 of the Actuaries Institute.",
+    "search_title": "ACST8088 - Quantitative Asset and Liability Modelling 2",
+    "code": "ACST8088",
+    "title": "Quantitative Asset and Liability Modelling 2",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The topics covered in this unit include: an introduction to stochastic processes; martingales; an introduction to stochastic calculus; Ito&#39;s lemma; forwards, futures, swaps and options; arbitrage-free pricing via replicating portfolio and risk neutral probability measures; the Girsanov theorem; the Black-Scholes option pricing model for European options; the &#39;Greeks&#39; and dynamic hedging; term structure of interest rates; relations among short rates, forward rates and default-free zero-coupon bonds; interest rate models; firm-value and intensity-based credit risk models; ruin theory; valuation of basic guarantees. Students gaining a credit average in both ACST8087 and ACST8088 (minimum mark of 60 on both units) will satisfy the requirements for exemption from the professional subject CM2 of the Actuaries Institute.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T08:57:43.092",
+  "code": "ACST8088",
+  "title": "Quantitative Asset and Liability Modelling 2",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,224 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse how illness and health (and normality) are constructed within particular social, cultural, political, and environmental contexts.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify the processes through which biology, culture, politics, and ecology interact to shape illness and health, health systems, and patterns.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse how inequality, social hierarchy, and structural violence generate unequal and often unique health determinants in the global and transnational context.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Research, analyse, and represent the illness experience of a person or community, emphasizing the integrative factors (culture, politics, social structure, etc.) influencing the condition.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate command of anthropological knowledge and theory as it relates to medical anthropology and the broader study of illness and healing practices in their social and cultural contexts.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify and apply the theories and concepts of medical anthropology to critically evaluate one’s own culture and determinants of illness and health.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Set weekly readings will be available through Macquarie University Library.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ANT202, ANTH202, ANTH274, ANTX202",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Tutorial participation in non-synchronous time via online discussion Forum.",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "Written participation in online discussion forum.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Long Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Choice between<br />a) 2000-word book-review essay (choice of books will be nominated by the unit convener) <br />or<br />b) Implications of unit content for healing practice.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Short Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Short essay of 1500-words gauging comprehension of the first six weeks of the unit content.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ANTX2002",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ANTX2002"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ANTH2002"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Illness and Healing",
+                "academic_item_code": "ANTH2002",
+                "academic_item_url": "/2020/units/ANTH2002"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ANTX2002-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTX2002"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "ANTX2002 - Illness and Healing",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit offers an introduction to medical anthropology and cross-cultural beliefs relating to illness and healing. We will examine health and illness from a multilevel perspective that explores the evolution of human disease, the role of culture in shaping epidemiology, varying cultural notions of disease causality, the individual experience of illness, and the socio-political factors that condition our experience and management of negatively-valued states of health. Throughout, the unit emphasizes that good health - and conversely ill health - is never simply a &#34;fact&#34; about the body. Disease and illness have social and biological origins, which means our understanding of this central fact of human life must incorporate not only biological factors, but also the broader cultural frameworks that transform mere disease into the culturally-specific experience of illness. All enrolment queries should be directed to Open Universities Australia (OUA): see <a href=\"http://www.open.edu.au\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">www.open.edu.au",
+    "search_title": "ANTX2002 - Illness and Healing",
+    "code": "ANTX2002",
+    "title": "Illness and Healing",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit offers an introduction to medical anthropology and cross-cultural beliefs relating to illness and healing. We will examine health and illness from a multilevel perspective that explores the evolution of human disease, the role of culture in shaping epidemiology, varying cultural notions of disease causality, the individual experience of illness, and the socio-political factors that condition our experience and management of negatively-valued states of health. Throughout, the unit emphasizes that good health - and conversely ill health - is never simply a &#34;fact&#34; about the body. Disease and illness have social and biological origins, which means our understanding of this central fact of human life must incorporate not only biological factors, but also the broader cultural frameworks that transform mere disease into the culturally-specific experience of illness. All enrolment queries should be directed to Open Universities Australia (OUA): see <a href=\"http://www.open.edu.au\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">www.open.edu.au",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T11:48:25.292",
+  "code": "ANTX2002",
+  "title": "Illness and Healing",
+  "implementationYear": "2021"
+}

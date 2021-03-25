@@ -1,0 +1,271 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and describe the challenging nature of change, its objectives, and the causes of high failure rates.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply concepts for leading individuals and groups through cycles of change.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply techniques for leading the cycle of change.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Employ frameworks for understanding and influencing others with different views to themselves and reflect on the meaning and purpose of change and its leadership.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings and online video activities",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MGNT866, MGSM866",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(MGSM870 or MMBA8070) or admission to GradCertMgtPostMBA",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Action Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "60",
+        "description": "The action study project will apply mapping change tools to a project selected in consultation with the student, conduct a ‘real-life’ intervention informed by the change map, and evaluate the mapping activity and the intervention. The project will include five sections: · Introduction · Change Map · Change Management Plan · Change Evaluation · Conclusion This will be up to 20 pages.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Reflection",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "15",
+        "description": "The Group Reflection will have two parts: (1) Learning Diaries and (2) Case Study Projects. Students will be placed into groups. They will discuss, compare and contrast their individual learning diaries and case study projects. Students will submit one document of up to 20 pages in length.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Reflective learning diary",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "25",
+        "description": "The diary will consist of reflections on weekly lectures and learnings, group activities and team development, and selected readings. The diary will assess leading change capabilities in the areas of intellectual intelligence (‘thinking things through’), emotional intelligence (‘awareness and handling of the emotions of yourself and others’), and action intelligence (‘a confidence and ability to act and reflect upon action in situations of complexity, uncertainty and conflict’). It will be up to 15 pages.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflective Learning Diary",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "25",
+        "description": "The diary will consist of reflections on lectures and learnings, group activities and team development, and selected readings. The diary will assess leading change capabilities in the areas of intellectual intelligence (‘thinking things through’), emotional intelligence (‘awareness and handling of the emotions of yourself and others’), and action intelligence (‘a confidence and ability to act and reflect upon action in situations of complexity, uncertainty and conflict’). It will be up to 15 pages.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MMBA8066",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.06",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MMBA8066"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MGMT8066"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Change Management",
+                "academic_item_code": "MGMT8066",
+                "academic_item_url": "/2020/units/MGMT8066"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMBA8066-unit_teaching_period-Intensive-subject",
+        "display_name": "Term 1-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8066"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8066-unit_teaching_period-Online",
+        "display_name": "Term 3-Online",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8066"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8066-unit_teaching_period-Special",
+        "display_name": "Term 1-Special",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8066"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 1, Intensive attendance, North Ryde*<br />Term 1, Special circumstances<br />Term 3, Fully online/virtual*<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MMBA8066 - Leading Change",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The unit provides an intellectual understanding of the dynamics and management of change, and techniques for mapping out and addressing the challenges these create. It fosters an awareness of and ability to handle the emotions that change arouses in yourselves and others. Finally, it stimulates an ability to act intelligently in practice, to work in a group, and to understand and influence change in uncertain, complex, demanding and often confronting situations.",
+    "search_title": "MMBA8066 - Leading Change",
+    "code": "MMBA8066",
+    "title": "Leading Change",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The unit provides an intellectual understanding of the dynamics and management of change, and techniques for mapping out and addressing the challenges these create. It fosters an awareness of and ability to handle the emotions that change arouses in yourselves and others. Finally, it stimulates an ability to act intelligently in practice, to work in a group, and to understand and influence change in uncertain, complex, demanding and often confronting situations.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-25T11:35:53.12",
+  "code": "MMBA8066",
+  "title": "Leading Change",
+  "implementationYear": "2021"
+}

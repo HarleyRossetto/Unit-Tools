@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "communicate through singing and collaborate as appropriate with creative professionals.",
+        "code": "ULO5"
+      },
+      {
+        "description": "identify and/or maintain vocal integrity.",
+        "code": "ULO4"
+      },
+      {
+        "description": "apply and analyse the use of technology to the contemporary singing voice.",
+        "code": "ULO3"
+      },
+      {
+        "description": "maintain vocal health and vocal care strategies.",
+        "code": "ULO6"
+      },
+      {
+        "description": "identify and define the contemporary singer/artist.",
+        "code": "ULO1"
+      },
+      {
+        "description": "analyse, demonstrate and integrate individual artistry through contemporary singing utilising appropriate vocal technique, expressive techniques, reflexivity and/or analysis.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings - 1 hour x 10 weeks",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Individual practice - 2 hours x 14 weeks",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MUS304",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Vocal performance OR presentation",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "55",
+        "description": "Students analyse, document and perform/present on the singer as a creative, musical artist. As part of this assessment, students are required to submit a project outline and reflection that consolidate unit content, individual research and associated analyses. The outline will be used to provide spoken content when students individually perform OR present. All projects must be performed or presented from memory, that is, no lyrics or scripts are to be used. This project includes the use of technology as appropriate in ways that consider and communicate effective vocal sustainability. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Creative vocal exercises",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "15",
+        "description": "Students sing a selection of vocal exercises (including set exercises, individual exercises based on research and creative exercises). Students are required to submit a fully referenced outline of their exercises and document the relevance of each exercise in relation to vocal and/or creative musical development,. Singing exercises will be assessed in tutorial times (where possible). Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Vocal recording processes",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "30",
+        "description": "During the mid-session break, students will undertake a vocal recording project including preparation, recording, and mixing. Students will then analyse the recording post-session, taking into account preparation, the recording process and the recorded product. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC3043-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3043"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC3043-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3043"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MMCC3043 - Vocal Studies: The Singer",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit enables students to explore various contemporary singing practices including vocal recording and performance. With the aim of exploring individuality in singing, the unit explores a variety of creative vocal skills. Vocal processing and technological applications on the singing voice are also explored. The unit provides students with experiences of singing for recording, constructing a singer&#39;s profile and structuring/analysing individual performance showcases. Students will be allocated an individual recording/mixing session. Students engage in critical thinking and listening exercises related to the singer as artist.",
+    "search_title": "MMCC3043 - Vocal Studies: The Singer",
+    "code": "MMCC3043",
+    "title": "Vocal Studies: The Singer",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit enables students to explore various contemporary singing practices including vocal recording and performance. With the aim of exploring individuality in singing, the unit explores a variety of creative vocal skills. Vocal processing and technological applications on the singing voice are also explored. The unit provides students with experiences of singing for recording, constructing a singer&#39;s profile and structuring/analysing individual performance showcases. Students will be allocated an individual recording/mixing session. Students engage in critical thinking and listening exercises related to the singer as artist.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:13:53.356",
+  "code": "MMCC3043",
+  "title": "Vocal Studies: The Singer",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,286 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Distinguish between management and financial accounting and assess business operations using various product costing, budgeting and decision-making techniques",
+        "code": "ULO1"
+      },
+      {
+        "description": "Discuss and analyse management accounting issues and information.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Use Microsoft Excel for fundamental managerial accounting planning, control and evaluation tasks.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply appropriate management accounting concepts and techniques to formulate informed solutions to business problems.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to read all of the prescribed readings prior to the lecture. ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Class preparation includes revision questions assigned from the textbook.  ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ACCG200",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "50cp at 1000 level or above including ACCG100 or ACCG1000 or ACCG106",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final examination ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "A three-hour closed book final examination for this unit will be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "A two hours online exam for this unit will be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In-class Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Two in-class tests (10% each) will be conducted during the session. Students must sit for the test in their registered tutorial. Each test will be a closed book exam, answered under examination conditions. Further details on the in-class test will be made available via the unit website.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Assignment",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students are expected to make a genuine attempt at completing the weekly assigned tutorial questions. During the session, five weekly assignments (2% each) will be randomly collected and assessed by the tutor. Further details on the weekly assignment will be made available via the unit website.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online In-class Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Two online tests (10%) will be conducted during the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Excel Assignment ",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "10",
+        "description": "The excel assignment will allow students to demonstrate competences in the use of excel spreadsheets and their use in management accounting. Further details on the excel assignment will be made available via the unit website.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG2000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG2000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG2000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG2000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG2000 - Management Accounting",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is the first of the two units in cost and management accounting that are required for accreditation with CPA Australia, the Chartered Accountants Australia and New Zealand (CAANZ) and the Institute of Public Accountants (IPA). The unit explains how cost information is generated and used in organisations for decision making purposes. There are three main parts to the unit: 1) using costs for decision making; 2) costing techniques (job/process costing and cost allocations); and 3) budget setting and evaluating performance against the budget. By the end of the unit, students are able to distinguish between the various product costing techniques available, solve problems by identifying and selecting appropriate courses of action, and demonstrate an understanding of budgeting techniques and the behavioural issues associated with budgeting practices.",
+    "search_title": "ACCG2000 - Management Accounting",
+    "code": "ACCG2000",
+    "title": "Management Accounting",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is the first of the two units in cost and management accounting that are required for accreditation with CPA Australia, the Chartered Accountants Australia and New Zealand (CAANZ) and the Institute of Public Accountants (IPA). The unit explains how cost information is generated and used in organisations for decision making purposes. There are three main parts to the unit: 1) using costs for decision making; 2) costing techniques (job/process costing and cost allocations); and 3) budget setting and evaluating performance against the budget. By the end of the unit, students are able to distinguish between the various product costing techniques available, solve problems by identifying and selecting appropriate courses of action, and demonstrate an understanding of budgeting techniques and the behavioural issues associated with budgeting practices.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:39:46.89",
+  "code": "ACCG2000",
+  "title": "Management Accounting",
+  "implementationYear": "2021"
+}

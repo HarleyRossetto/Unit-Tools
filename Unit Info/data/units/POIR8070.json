@@ -1,0 +1,262 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and articulate views on a contemporary political issue in verbal and written format",
+        "code": "ULO1"
+      },
+      {
+        "description": "understand and apply diplomatic skills in a practical scenario",
+        "code": "ULO4"
+      },
+      {
+        "description": "demonstrate insight into some concepts, ideas and practice in world politics",
+        "code": "ULO2"
+      },
+      {
+        "description": "explain relationships between elements of domestic and international politics including institutions, historical influences and current context",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "research, preparation, reading, participation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 1-Intensive-North Ryde"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "POIR980",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(POIR8410 or IRPG841) and (admission to MIntRel or MIntCommMIntRel or MIntBusMIntRel or MTransInterMIntRel or MPPPMIntRel)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "35",
+        "description": "An end of semester invigilated examination will test students analytical and expressive abilities and learning in the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Intensive-North Ryde, Session 1-exam_att-Other",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Scenario Paper",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "25",
+        "description": "In Special Circumstances (if internal teaching is prevented). A 1200 word paper on the scenario. The paper should take the form of a diplomatic position on the issue simulated in the scenario. A description of the scenario, along with requirements will be outlined on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Special-Other",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Test in lieu of examination - only in Special Circumstances",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "35",
+        "description": "An online assessment task that tests analytical and expressive abilities and learning in the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Special-Other",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "3000 word research essay. Questions will be provided.",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Students are to research and write a 3000 word (of text - references and any footnotes are extra) essay on one of the topics addressed in the unit. Essay questions will be provided.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation in Scenario 1",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "25",
+        "description": "Students will be assigned an actor who they will represent in a scenario. Through research in the preceding weeks, students will identify the position/s their actor is likely to take. Skills in argumentation and communication, as well as background knowledge, will be tested in the role playing forum.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Intensive-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Scenario paper",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "25",
+        "description": "External students write a 1200 word paper on the scenario. The paper should take the form of a diplomatic position on the issue simulated in the scenario. A description of the scenario, along with requirements will be outlined on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-exam_att-Other",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "POIR8070-unit_teaching_period-exam_att-subject",
+        "display_name": "Session 1-exam_att-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Attendance for exam only"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "POIR8070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "POIR8070-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "POIR8070"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "POIR8070-unit_teaching_period-Intensive-subject",
+        "display_name": "Session 1-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "POIR8070"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Attendance for exam only, Other<br />Session 1, Intensive attendance, North Ryde<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "POIR8070 - International Relations Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit draws on knowledge from across the International Relations program, requiring candidates to apply their earlier learning to urgent and/or controversial themes in international relations - i.e. international political problems. Assessment components include a participatory exercise (a simulation that involves role playing), an essay, and an end of semester exam. This holistic and balanced range of tasks enables students to acquire (i) some specialist and general theoretical knowledge; (ii) to develop and apply negotiation, communication and practical problem solving abilities; iii) enhance research and writing skills.",
+    "search_title": "POIR8070 - International Relations Practice",
+    "code": "POIR8070",
+    "title": "International Relations Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit draws on knowledge from across the International Relations program, requiring candidates to apply their earlier learning to urgent and/or controversial themes in international relations - i.e. international political problems. Assessment components include a participatory exercise (a simulation that involves role playing), an essay, and an end of semester exam. This holistic and balanced range of tasks enables students to acquire (i) some specialist and general theoretical knowledge; (ii) to develop and apply negotiation, communication and practical problem solving abilities; iii) enhance research and writing skills.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T10:50:04.325",
+  "code": "POIR8070",
+  "title": "International Relations Practice",
+  "implementationYear": "2021"
+}

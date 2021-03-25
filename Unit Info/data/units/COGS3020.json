@@ -1,0 +1,207 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate advanced knowledge of key computational models in neuroscience.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Compare different computational models using statistical model comparison techniques.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Fit computational models to experimental data to find best fitting parameters.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Simulate and analyse models of individual neurons and brain circuits.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "2 hours x weekly lectures",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp including ((COGS1000 or COGS100) or (BIOL2230 or BIOL257) or (MEDI2300 or MEDI204)) and (COGS2020 or (STAT2170 or STAT270))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Mid-term exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "1-hour mid-term exam",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly problem sets",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "30",
+        "description": "10 problem sets",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly online quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "10 short online multiple choice quizzes designed to provide routine assessment and feedback. Graded on credit/no-credit basis. The 2 lowest quizzes (missed or marked non-credit) may be dropped without penalty.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "2-hour exam conducted during the examination period. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "COGS3020-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COGS3020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "COGS3020-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COGS3020"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "COGS3020 - Computational Neuroscience",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Cognitive Science "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Computational modelling is increasingly important for understanding brain function at the single neuron, circuit, and network levels. This unit provides students with a rigorous introduction to the exciting field of computational neuroscience including topics such as the mathematical description of neurons, simple neural networks, statistical inference, reinforcement learning, and decision making. Students will learn the Python programming language and use it to explore some of the most influential models in computational neuroscience to deepen their understanding of the relationship between the brain, behaviour, and neural computation.",
+    "search_title": "COGS3020 - Computational Neuroscience",
+    "code": "COGS3020",
+    "title": "Computational Neuroscience",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Computational modelling is increasingly important for understanding brain function at the single neuron, circuit, and network levels. This unit provides students with a rigorous introduction to the exciting field of computational neuroscience including topics such as the mathematical description of neurons, simple neural networks, statistical inference, reinforcement learning, and decision making. Students will learn the Python programming language and use it to explore some of the most influential models in computational neuroscience to deepen their understanding of the relationship between the brain, behaviour, and neural computation.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-18T11:05:04.441",
+  "code": "COGS3020",
+  "title": "Computational Neuroscience",
+  "implementationYear": "2021"
+}

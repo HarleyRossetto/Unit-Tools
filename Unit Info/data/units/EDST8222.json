@@ -1,0 +1,223 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Design effective, syllabus aligned assessment strategies incorporating a variety of language modes and content and engage in critical evaluation and reflection.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop strategies for and engage in research, reflexive practice and professional dialogue in order to ensure quality student outcomes, evidence-based practice and nurture resilience in teaching practice.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate highly developed skill, creativity and judgement in the use of ICT through the preparation and inclusion of technology-based teaching resources and learning experiences.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Communicate knowledge of content and pedagogy with scholarship and making extensive, judicious use of supporting evidence and demonstrating complex knowledge of the relevant discipline content, educational theory and practice.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Develop and apply research-informed knowledge and understanding of the central concepts, modes of enquiry and pedagogies of subject English through designing and sequencing learning experiences that meet the requirements of the NSW English curriculum.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Develop, apply and evaluate progressively refined strategies to plan effective classroom learning experiences that respond to the diversity of student learners and utilise a range of mediums, pedagogies and language modes including multi-modal texts.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Written reflections, iLearn quizzes and iLearn chats in response to unit readings.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Asynchronous individual/group learning tasks for formative feedback and participation in professional dialogue via iLearn discussion forums.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "EDST8237",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Programming and Assessment",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "40",
+        "description": "2000 words. Critique, revise and modify a Stage 4/5 unit of work including assessment task to meet the syllabus requirements and the needs of a case study class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Professional Dialogue",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "Involvement in professional dialogue via five iLearn Discussion Forums.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation of Professional Digital Portfolio",
+        "type": {
+          "label": "Viva/oral examination",
+          "value": "viva_oral_exam"
+        },
+        "weight": "45",
+        "description": "Engage in a professional conversation in which you demonstrate and discuss your professional digital portfolio and justify personal and research-informed perspectives on nominated aspects of English teaching (15 minutes using Zoom video conference).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8222"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8222"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8222"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "EDST8222 - Teaching English in the Secondary School 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit emphasises the contemporary role of the teacher of English in a secondary school context. It draws attention to the central role of language in shaping understandings of self and the world. Emphasis is placed on the responsive classroom skills and knowledge required for effective teaching in classrooms with diverse student needs and on the theoretical perspectives and research that underpin syllabus documents. A range of research-informed pedagogical approaches are explored, evaluated and implemented. Course content includes: the history of English teaching, the contextual factors impacting on language use, adolescent literature, the significance of creativity, the pedagogical integration of technology and the processes leading to responding to and composing texts for a range of audiences and purposes and in a range of mediums including visual and multi-modal forms. Skills in independent learning and research will be fostered and students given opportunities to explore areas of interest and to interrogate contested aspects of the teaching of English.",
+    "search_title": "EDST8222 - Teaching English in the Secondary School 1",
+    "code": "EDST8222",
+    "title": "Teaching English in the Secondary School 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit emphasises the contemporary role of the teacher of English in a secondary school context. It draws attention to the central role of language in shaping understandings of self and the world. Emphasis is placed on the responsive classroom skills and knowledge required for effective teaching in classrooms with diverse student needs and on the theoretical perspectives and research that underpin syllabus documents. A range of research-informed pedagogical approaches are explored, evaluated and implemented. Course content includes: the history of English teaching, the contextual factors impacting on language use, adolescent literature, the significance of creativity, the pedagogical integration of technology and the processes leading to responding to and composing texts for a range of audiences and purposes and in a range of mediums including visual and multi-modal forms. Skills in independent learning and research will be fostered and students given opportunities to explore areas of interest and to interrogate contested aspects of the teaching of English.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:47:50.533",
+  "code": "EDST8222",
+  "title": "Teaching English in the Secondary School 1",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,207 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Understand the fundamentals of blockchain and demonstrate knowledge of theoretical crypto-currency concepts and their applications.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Compare and contrast how these new instruments and technologies are disrupting traditional ways of doing business in the financial industry.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critically evaluate the use of cryptocurrencies from a social and economic perspective with regard to regulatory frameworks that govern adoption and use.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply different financial instruments and technology infrastructures including digital currencies and blockchain that facilitate the operation of financial markets.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for classes and assessments. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "AFIN8014",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "The assignment will cover quantitative and/or qualitative analysis and students will be required to produce a report regarding their find(s). The report should not exceed 1,500 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "20",
+        "description": "Students will conduct a quantitative analysis / financial modelling project and present their solutions and outcomes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "A two hour open book online exam will be held during University Examination Period. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "A closed book two hour exam will be held in the University Examination Period. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFIN8016"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFIN8016"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "AFIN8016 - Payments, Cryptocurrencies and Blockchain",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The development of Cryptocurrencies, using the fundamentals of cryptography and blockchain, is predicted to have significant impact on banks, financial institutions, governments, economies and business in general. The decentralization of payment networks and the establishment of an ecosystem of various stakeholders results in various benefits and challenges that will influence their adoption and diffusion in the marketplace. This unit examines cryptocurrencies and blockchain and their emergence and role in financial markets. This unit discuss the technical underpinnings of blockchain and key concepts such as decentralization and consensus algorithms. Students will learn how these new financial instruments and technologies are disrupting traditional ways of doing business.",
+    "search_title": "AFIN8016 - Payments, Cryptocurrencies and Blockchain",
+    "code": "AFIN8016",
+    "title": "Payments, Cryptocurrencies and Blockchain",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The development of Cryptocurrencies, using the fundamentals of cryptography and blockchain, is predicted to have significant impact on banks, financial institutions, governments, economies and business in general. The decentralization of payment networks and the establishment of an ecosystem of various stakeholders results in various benefits and challenges that will influence their adoption and diffusion in the marketplace. This unit examines cryptocurrencies and blockchain and their emergence and role in financial markets. This unit discuss the technical underpinnings of blockchain and key concepts such as decentralization and consensus algorithms. Students will learn how these new financial instruments and technologies are disrupting traditional ways of doing business.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:11:53.139",
+  "code": "AFIN8016",
+  "title": "Payments, Cryptocurrencies and Blockchain",
+  "implementationYear": "2021"
+}

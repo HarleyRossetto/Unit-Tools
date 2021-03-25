@@ -1,0 +1,259 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe and apply basic theory of probability, random variables, probability distributions to represent and solve problems involving uncertainty and randomness.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Use linear systems theory to analyse systems with deterministic and random signals as inputs and outputs.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate skills in self learning and monitoring so as to be able to learn new areas and assist in problem solving in various areas of probability and random signal processing.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Use time and frequency techniques to analyse random signals and power, including spectral power density and autocorrelation functions.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Use probability, random variable techniques as well as basic statistical techniques such as estimation and hypothesis testing to analyse fundamental signal processing techniques in communications systems.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Non-directed learning time",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "((ELEC2040 or ELEC240 or MATH235 or MATH2055) and completion of 130cp) or Admission to MEngNetTeleEng",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "STAT394, ELEC620",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Practical quiz - online",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "5 short quizzes held during practical sessions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination - online quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "22",
+        "description": "For the online offering, an online quiz will be used as part of the final assessment of the unit instead of a formal 3 hour written examination. This online quiz counts for 25% of the unit assessment. The other part of the final assessment in the unit in the online offering is a take-home test, worth 25% of the unit assessment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignments",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "35",
+        "description": "Four assignments throughout the session",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class participation - online",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "6",
+        "description": "Students will be asked to do participation exercises as part of lectures via ilearn instructions on a variety of problems activities to improve understanding. Scanned sheets of work will be submitted through ilearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination - take home",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "22",
+        "description": "For the online offering, a take home examination is part of the final assessment in the unit, in place of a formal 3 hour written examination.  The other part of the final assessment in the unit for the online offering is an online quiz.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "TELE3001",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: TELE3001"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: STAT3494"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Probability, Random Processes and Statistics for Engineers",
+                "academic_item_code": "STAT3494",
+                "academic_item_url": "/2020/units/STAT3494"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "TELE3001-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TELE3001"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "TELE3001 - Random Signals for Communications",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "School of Engineering"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit of study is on the mathematical treatment of randomness and probability. More specifically, it covers basic probability theory, random variables, random vectors, probability functions, probability models, the elements of statistical inference and hypothesis testing, random processes and random signals.  It uses digital communication systems as the primary example and covers noise processes and  the analysis of linear systems with random signals as inputs and outputs from time domain and frequency domain perspectives using examples such as pulse detection and matched filters.",
+    "search_title": "TELE3001 - Random Signals for Communications",
+    "code": "TELE3001",
+    "title": "Random Signals for Communications",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit of study is on the mathematical treatment of randomness and probability. More specifically, it covers basic probability theory, random variables, random vectors, probability functions, probability models, the elements of statistical inference and hypothesis testing, random processes and random signals.  It uses digital communication systems as the primary example and covers noise processes and  the analysis of linear systems with random signals as inputs and outputs from time domain and frequency domain perspectives using examples such as pulse detection and matched filters.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-11T09:08:35.109",
+  "code": "TELE3001",
+  "title": "Random Signals for Communications",
+  "implementationYear": "2021"
+}

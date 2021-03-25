@@ -1,0 +1,344 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Effectively integrate the body of knowledge and skill sets that underpin professional practice.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Synthesise knowledge and skills from a range of disciplines, as well as specialized knowledge and skills in strategic management, and apply it to a live case problem.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply professional communication and interpersonal skills in effectively presenting and collaborating with others in developing solutions to complex issues.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Research and critically analyse complex issues and propose well-justified solutions, decisions and recommendations that deliver on a sustainable competitive advantage to an organisation.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MBA and (MGSM820 or MMBA8020) and (MGSM835 or MMBA8035) and (MGSM850 or MMBA8050 or MMBA8055) and (MMBA8006 or MMBA8075)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment 1:  Live case project 1 – Client report",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "Students will generate strategic insights for a chosen live case by applying relevant course materials and produce a 2,000-word report.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Assignment 2A:  Live case project 2 – Client presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "Students will be required to deliver a maximum of 20 minutes group presentation to provide strategic insights and recommendations on an assigned live case.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Assignment 2B:  Live case project 2 – Individual report",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "20",
+        "description": "In this assignment, students will build on the strategic recommendations from the group presentation (Assignment 2A) and provide an implementation strategy through a 2,000-word report.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessment 3:  Participation and team evaluation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Students will be assessed on their contributions on the iLearn Discussion Boards, contribution to discussion in class, and a self-reflection essay on team dynamics.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MMBA8250",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MMBA8250"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MMBA8060"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.07",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Strategic Management",
+                "academic_item_code": "MMBA8060",
+                "academic_item_url": "/2020/units/MMBA8060"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMBA8250-unit_teaching_period-Weekday-subject",
+        "display_name": "Term 4-Weekday-City",
+        "teaching_period": {
+          "value": "Term 4"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8250-unit_teaching_period-Online",
+        "display_name": "Term 1-Online",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8250-unit_teaching_period-Special",
+        "display_name": "Term 2-Special",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8250-unit_teaching_period-Special",
+        "display_name": "Term 1-Special",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8250-unit_teaching_period-Weekday-subject",
+        "display_name": "Term 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "40",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8250-unit_teaching_period-Special",
+        "display_name": "Term 4-Special",
+        "teaching_period": {
+          "value": "Term 4"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8250-unit_teaching_period-Intensive-subject",
+        "display_name": "Term 2-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8250-unit_teaching_period-Special",
+        "display_name": "Term 3-Special",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8250"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 1, Fully online/virtual*<br />Term 2, Intensive attendance, North Ryde*<br />Term 3, Special circumstances<br />Term 3, Weekday attendance, North Ryde*<br />Term 4, Special circumstances<br />Term 4, Weekday attendance, City*<br />Term 2, Special circumstances<br />Term 1, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MMBA8250 - MBA Capstone Project",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This Capstone unit is the final unit of the MBA and is designed to challenge and transform you into a strategic thinker, manager, leader, or entrepreneur. This unit involves live case projects which will require you to develop and pitch strategic solutions that deliver a sustainable competitive advantage for a client organisation. You will receive mentoring from faculty staff as you embark on identifying and designing an innovate and viable strategic solution to the live case problem. The integrated nature of this unit will test your management/leadership skills, your ability to synthesise knowledge and skills from a range of disciplines, as well as specialised knowledge and skills in strategic management, and have a real impact on the client organisation.",
+    "search_title": "MMBA8250 - MBA Capstone Project",
+    "code": "MMBA8250",
+    "title": "MBA Capstone Project",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This Capstone unit is the final unit of the MBA and is designed to challenge and transform you into a strategic thinker, manager, leader, or entrepreneur. This unit involves live case projects which will require you to develop and pitch strategic solutions that deliver a sustainable competitive advantage for a client organisation. You will receive mentoring from faculty staff as you embark on identifying and designing an innovate and viable strategic solution to the live case problem. The integrated nature of this unit will test your management/leadership skills, your ability to synthesise knowledge and skills from a range of disciplines, as well as specialised knowledge and skills in strategic management, and have a real impact on the client organisation.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-25T10:27:13.414",
+  "code": "MMBA8250",
+  "title": "MBA Capstone Project",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,187 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "analyse television critically according to genres, form and cultural contexts.",
+        "code": "ULO4"
+      },
+      {
+        "description": "evaluate and distinguish between different modes of streaming television.",
+        "code": "ULO3"
+      },
+      {
+        "description": "research independently in the discipline, including identifying and using appropriate articles in academic journals.",
+        "code": "ULO5"
+      },
+      {
+        "description": "identify key debates, themes and concepts in the broad field of television studies.",
+        "code": "ULO1"
+      },
+      {
+        "description": "demonstrate a knowledge of television history and theory.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "External offering only; asynchronous which replaces tutorials (as in previous external offerings)",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 1-Special-North Ryde"
+      },
+      {
+        "description": "Preparation/research/readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 1-Weekday-North Ryde"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Pre-requisite 40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Television Log and Analysis",
+        "type": {
+          "label": "Log book",
+          "value": "log_book"
+        },
+        "weight": "40",
+        "description": "Students will log their television watching and analyse the components of each show. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "60",
+        "description": "Students are required to research and comprehensively reference a written essay.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC2077-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC2077"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC2077-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC2077"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MMCC2077 - Streaming TV",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Did you know that the consumption of streaming video is responsible for the majority of global internet usage today? In recent times, the remarkable prominence of streaming media has changed the way we engage with online spaces, and how we understand and experience other media such as radio and film. This unit focuses in particular on the rise of streaming television, analysing the production and consumption of moving image content on the web and on purpose-built streaming platforms like Netflix. By considering questions of genre, industrial practice, policy and platform specificity, we will explore the various dimensions of television as we now know it, and will examine some of the unique changes that the medium has undergone in our lifetime.",
+    "search_title": "MMCC2077 - Streaming TV",
+    "code": "MMCC2077",
+    "title": "Streaming TV",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Did you know that the consumption of streaming video is responsible for the majority of global internet usage today? In recent times, the remarkable prominence of streaming media has changed the way we engage with online spaces, and how we understand and experience other media such as radio and film. This unit focuses in particular on the rise of streaming television, analysing the production and consumption of moving image content on the web and on purpose-built streaming platforms like Netflix. By considering questions of genre, industrial practice, policy and platform specificity, we will explore the various dimensions of television as we now know it, and will examine some of the unique changes that the medium has undergone in our lifetime.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T11:29:43.353",
+  "code": "MMCC2077",
+  "title": "Streaming TV",
+  "implementationYear": "2021"
+}

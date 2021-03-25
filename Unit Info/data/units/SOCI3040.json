@@ -1,0 +1,267 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse the characteristics of care in intimate interpersonal relationships, as well as in contexts in which professional relationships require the provision of care to strangers.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Recognise the contribution of a range of sociological, economic and demographic and other perspectives to developments in care and human services.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Learn how to work as part of a social research or policy development team.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Apply a number of research perspectives to the study of human services.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Exhibit a critical understanding of the different meanings attached to the concept of care and of changing patterns in the need for care across the life course.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Understand the key issues involved in undertaking social analyses of policies and programs for the development of human services.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Work with a range of policy documents concerned with the planning, provision, regulation, and funding of human services.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will be required to read a series of set texts on a weekly basis that relate to the topic for that week. In addition, students will be given advance notice of the program development task for the online tutorials, which will require some advance preparation and research. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 1-Special, Session 1-Online"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "SOC372, SOCX322, SOC322",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Program Design Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "35",
+        "description": "Students will work in small groups or individually to design a human services program. This work will culminate in a presentation of the program at the end of the semester. This will be a guided activity involving completion of  specific tasks. These tasks are designed to assist in the cumulative development of a human services program. For Internal students, this will be undertaken through synchronous online tutorials, involving small groups working in virtual breakout rooms. For OUA and External students the assessment will be undertaken using a series of guided online activities discussed in the weekly discussion forums.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Program Design Paper",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "20",
+        "description": "In addition to the Program Design presentation, students must individually submit a paper describing one aspect of the program that has been designed as part of the Program Design activity.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical Analysis Essays",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "45",
+        "description": "As the online tutorials / discussion forums will be devoted to the program design, the two reflection papers will assess student engagement with the core concepts and themes presented in the lectures and readings. Students will therefore be required to submit two reflection papers that must utilise a range of the readings set for the course supplemented by other academic scholarship relevant to the topic. Students will be advised of the essay topics at the commencement of semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "SOCI3040",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: SOCI3040"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: SOCX3040"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Human Services in the 21st Century: Care, Gender and Institutions",
+                "academic_item_code": "SOCX3040",
+                "academic_item_url": "/2020/units/SOCX3040"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "SOCI3040-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI3040"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SOCI3040-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI3040"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SOCI3040-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI3040"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "SOCI3040 - Human Services in the 21st Century: Care, Gender and Institutions",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores the concept of care and its application in a range of different human service fields including mental health, childcare, child protection, disability services and aged care. We explore the links between informal supports, typically, although not exclusively, provided by women within families and households; and formal supports as provided by professional, trained and untrained staff, through organisations and other, often newly emergent, systems of support. Drawing together the fields of social theory and applied research, this unit provides an opportunity to examine responses to changing concepts of human need for interpersonal support. You will be able to learn from policy makers and practitioners working in this field, and analyse current research on care and human services in Australia and other comparable countries.",
+    "search_title": "SOCI3040 - Human Services in the 21st Century: Care, Gender and Institutions",
+    "code": "SOCI3040",
+    "title": "Human Services in the 21st Century: Care, Gender and Institutions",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores the concept of care and its application in a range of different human service fields including mental health, childcare, child protection, disability services and aged care. We explore the links between informal supports, typically, although not exclusively, provided by women within families and households; and formal supports as provided by professional, trained and untrained staff, through organisations and other, often newly emergent, systems of support. Drawing together the fields of social theory and applied research, this unit provides an opportunity to examine responses to changing concepts of human need for interpersonal support. You will be able to learn from policy makers and practitioners working in this field, and analyse current research on care and human services in Australia and other comparable countries.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-25T15:33:13.773",
+  "code": "SOCI3040",
+  "title": "Human Services in the 21st Century: Care, Gender and Institutions",
+  "implementationYear": "2021"
+}

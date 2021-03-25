@@ -1,0 +1,330 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop comprehensive advanced level skills in reading, writing, listening and speaking in the Croatian language.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify, describe and evaluate a broad range of aspects of Croatian-speaking cultures and societies.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate a sophisticated awareness of language and language use, in both Croatian and in English.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify, evaluate and deploy a broad range of grammatical structures of Croatian at advanced level.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Create meaningful intercultural encounters by applying relevant language conventions.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Online resources include reading and exploring additional unit material provided on the e-learning space that might be required or recommended for completing class activities or assessment tasks. ",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Class preparation includes reading weekly content, listening to the audio recordings, working on/studying vocabulary, doing the exercises in the course materials (textbook and/or workbook), posting questions in the course online forum, study and research time for written assignments and tests. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CRO355",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "CROA3010 or CRO350",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Oral Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Students are required to prepare a 7-10-minute speech on a familiar topic in advance and present it to the class. In the second part of the presentation, students will need to answer several simple questions asked by the tutor or peers. Students will complete this task online via synchronous and/or asynchronous activities",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Croatian in Use",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "This assessment will be delivered in two separate assignments each worth 10 marks. Students will need to answer a set of questions based on the lecture content covered in class and/or online.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final online test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "It assesses the content of the whole unit and consists of both closed (e.g. multiple-choice, matching) and open type questions (e.g. filling the gaps, short answer). It also includes reading comprehension and writing section. Students will complete their final test online",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Oral Presentation",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "In-class presentation is to be delivered in the last weeks of the term. It can be done in person (on-campus) or online. Students are required to prepare a 7-10-minute speech on a familiar topic in advance and present it to the class. In the second part of the presentation, students will need to answer several simple questions asked by the tutor or peers.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 2-Online",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "This assessment task will be delivered in four separate online quizzes. Quizzes consist of both closed (e.g. multiple-choice, matching) and open type questions (e.g. filling the gaps, short answer) and are based on the unit content covered in class and/or online.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Written Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "The written test is paper-based, but conducted online for external students. It assesses the content of the whole unit and consists of both closed (e.g. multiple-choice, matching) and open type questions (e.g. filling the gaps, short answer). It also includes reading comprehension and writing section. Only paper dictionaries permitted.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 2-Online",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "CROA3020",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: CROA3020"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: CROA1320"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "A Croatian Studies 6",
+                "academic_item_code": "CROA1320",
+                "academic_item_url": "/2020/units/CROA1320"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: CROA2220"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "C Croatian Studies 6",
+                "academic_item_code": "CROA2220",
+                "academic_item_url": "/2020/units/CROA2220"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CROA3020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CROA3020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CROA3020"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "CROA3020 - I Croatian Studies 6",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "<div>\n<div>This unit aims to enable students to become independent users of the Croatian language. It seeks to develop students&#39; skills in reading, writing, comprehension and speaking in Croatian and provides students with an opportunity to study Croatian culture extensively. The unit aims to bring students&#39; language skills from B2 moving toward C1 level in the Common European Framework of Reference for Languages (CEFRL).</div>\n</div>\n<div> </div>",
+    "search_title": "CROA3020 - I Croatian Studies 6",
+    "code": "CROA3020",
+    "title": "I Croatian Studies 6",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "<div>\n<div>This unit aims to enable students to become independent users of the Croatian language. It seeks to develop students&#39; skills in reading, writing, comprehension and speaking in Croatian and provides students with an opportunity to study Croatian culture extensively. The unit aims to bring students&#39; language skills from B2 moving toward C1 level in the Common European Framework of Reference for Languages (CEFRL).</div>\n</div>\n<div> </div>",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:23:44.681",
+  "code": "CROA3020",
+  "title": "I Croatian Studies 6",
+  "implementationYear": "2021"
+}

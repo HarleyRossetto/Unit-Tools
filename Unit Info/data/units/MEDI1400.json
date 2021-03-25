@@ -1,0 +1,254 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Recognise the importance of core skills in healthcare and research",
+        "code": "ULO6"
+      },
+      {
+        "description": "Identify core concepts of communication.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse the role of leadership and followership in teamwork.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply the fundamental skills required for personal reflection and life-long learning.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Define the key attributes of effective teams.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Select and integrate evidence from reliable academic sources",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Online resources available via iLearn website that support student learning.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Ongoing weekly study to consolidate learning and prepare for each scheduled class.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Recommended readings that support student learning.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to BClinSc",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MEDI103",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Reflective writing ",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "10",
+        "description": "A short reflective writing task, focussed on the initial few weeks of course content.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Written video analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "25",
+        "description": "A short written analysis of a video recorded interaction.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Discussion forum and online task participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "<div>Participation in this unit will attract 10% of the units’ total marks. Participation will be marked based upon completion of activities on this units iLearn page. Examples of activities are forum posts and quizzes.</div>",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Project",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "A group project comprising a video presentation and an annotated bibliography of sources used in the presentation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Portfolio assessment",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "25",
+        "description": "A reflective writing task demonstrating progress against an aspect of the capability statements in the portfolio",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MEDI1400-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI1400"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MEDI1400-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI1400"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MEDI1400 - Foundations of Learning,  Communication and Teamwork",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is the first of a series of key units within the Bachelor of Clinical Science that focus on the core knowledge and skills underpinning a career in health care as a researcher, manager, or practitioner. Starting with core concepts in professional conduct and university learning, you will explore professionalism through a variety of topics, including: reflection, evidence, communication, and teamwork. Learning activities will include interactive tutorials, online activities, and expert lectures allowing you to develop your understanding of professional practice and build your capacity to become a reflective learner in the health context.",
+    "search_title": "MEDI1400 - Foundations of Learning,  Communication and Teamwork",
+    "code": "MEDI1400",
+    "title": "Foundations of Learning,  Communication and Teamwork",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is the first of a series of key units within the Bachelor of Clinical Science that focus on the core knowledge and skills underpinning a career in health care as a researcher, manager, or practitioner. Starting with core concepts in professional conduct and university learning, you will explore professionalism through a variety of topics, including: reflection, evidence, communication, and teamwork. Learning activities will include interactive tutorials, online activities, and expert lectures allowing you to develop your understanding of professional practice and build your capacity to become a reflective learner in the health context.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T10:05:03.74",
+  "code": "MEDI1400",
+  "title": "Foundations of Learning,  Communication and Teamwork",
+  "implementationYear": "2021"
+}

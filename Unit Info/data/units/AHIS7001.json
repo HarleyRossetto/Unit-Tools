@@ -1,0 +1,206 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain the principles and processes by which archaeological primary data are attained, analysed, interpreted and presented.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify, critically evaluate and interpret various sources of evidence used by archaeologists, and their degree of reliability both in the field and in artefact-based studies.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse the temporal, ethical, cultural and legal frameworks for archaeological research and professional practice.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Critique modern archaeological scholarship on the basis of theoretical principles.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply appropriate theoretical and scientific concepts and methods to archaeological questions and problems.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Produce synthetic, theoretically-informed discussions of archaeology based on critical understanding and analysis of ancient and modern sources.",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to BPhil/MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Proposal",
+        "type": {
+          "label": "Annotated bibliography",
+          "value": "annotated_bibliography"
+        },
+        "weight": "20",
+        "description": "Students are to submit an annotated bibliography of the most important and relevant modern works on their chosen area of research together with a research plan (of no more than 300 words) outlining the proposed research project. The annotations and research plan should not be more than 1500 words. For the annotated bibliography students should provide a few sentences describing and/or analyzing the contents of each bibliographical item. It is recommended that students aim to find ca. 10-15 bibliographical items. Please note that the citation of the bibliographical item itself is included in the word count. The choice of items for your bibliography and the nature of your research plan should be discussed with the Convenor.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Literature Review",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "40",
+        "description": "Produce a 3000 words report, plus any relevant figures and tables, focusing on the main theoretical principles, researchers, and previous publications related to your research topic. Please note that bibliographical references are included in the word count.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Theoretical Discussion",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Write a 3000 words report, plus any relevant figures and tables, applying the main theoretical principles discussed in your Literature Review to your research topic. Please note that bibliographical references are included in the word count.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS7001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS7001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS7001"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Fully online/virtual<br />",
+    "subject_search_title": "AHIS7001 - Advanced Studies in Ancient History and Archaeology: Material Worlds",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "<div>Knowledge of the theoretical context and content of research design, excavation methodology and interpretation of evidence is considered a fundamental basis for practitioners of the modern disciplines of Archaeology and History. This unit aims to provide students with a range of analytical, interpretative and professional skills by introducing theoretical approaches to the spectrum of archaeological praxes. Taking as its basis the history of archaeological thought, the unit will expand to address recent discussions and approaches in particular sub-fields, including the theoretical implications of morals, ethics and the exponential growth of scientific technologies. Taking as its mandate inclusivity and diversity, the unit will draw on case studies across cultural and temporal frames. Through independent research, students will be encouraged to explore areas of particular interest to discover the fundamental role that archaeological theory has played – and continues to play – in shaping the interpretations, identities and politics of the past, present and future.</div>",
+    "search_title": "AHIS7001 - Advanced Studies in Ancient History and Archaeology: Material Worlds",
+    "code": "AHIS7001",
+    "title": "Advanced Studies in Ancient History and Archaeology: Material Worlds",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "<div>Knowledge of the theoretical context and content of research design, excavation methodology and interpretation of evidence is considered a fundamental basis for practitioners of the modern disciplines of Archaeology and History. This unit aims to provide students with a range of analytical, interpretative and professional skills by introducing theoretical approaches to the spectrum of archaeological praxes. Taking as its basis the history of archaeological thought, the unit will expand to address recent discussions and approaches in particular sub-fields, including the theoretical implications of morals, ethics and the exponential growth of scientific technologies. Taking as its mandate inclusivity and diversity, the unit will draw on case studies across cultural and temporal frames. Through independent research, students will be encouraged to explore areas of particular interest to discover the fundamental role that archaeological theory has played – and continues to play – in shaping the interpretations, identities and politics of the past, present and future.</div>",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-02T11:30:46.291",
+  "code": "AHIS7001",
+  "title": "Advanced Studies in Ancient History and Archaeology: Material Worlds",
+  "implementationYear": "2021"
+}

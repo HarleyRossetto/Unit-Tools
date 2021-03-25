@@ -1,0 +1,202 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Formally analyse algorithms.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Investigate topics in advanced algorithms and synthesise the output for presentation in oral and written form.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Explain key ideas in the field of algorithmics and the workings of key algorithms, and compare and evaluate algorithmic solutions for computational problems.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Develop algorithmic solutions for computational problems by constructing new algorithms and combining existing algorithms.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Implement key algorithms.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings and problem solving.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "COMP781",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Weekly tasks",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "36",
+        "description": "Each week students will be asked to complete some exercises to test their understanding of the material.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Projects",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "54",
+        "description": "Students will be asked to complete 4 projects. These will consist of a combination of programming, program analysis and report writing.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "An oral presentation supported by appropriate presentation materials.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "COMP7000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP7000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "COMP7000-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP7000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "COMP7000 - Advanced Algorithms",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Algorithms are the essence of computer science. In this unit we build on the undergraduate understanding of algorithms and look at interesting and useful algorithms, both fundamental and cutting edge. The particular material covered will depend on the cohort but may include topics such as approximation algorithms, exponential-time exact and parameterized algorithms, linear and constraint programming and fundamental graph algorithms such as max-flow algorithms, matching algorithms an so on. The unit will also employ appropriate tools from complexity theory to analyse the performance of the algorithms studied.",
+    "search_title": "COMP7000 - Advanced Algorithms",
+    "code": "COMP7000",
+    "title": "Advanced Algorithms",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Algorithms are the essence of computer science. In this unit we build on the undergraduate understanding of algorithms and look at interesting and useful algorithms, both fundamental and cutting edge. The particular material covered will depend on the cohort but may include topics such as approximation algorithms, exponential-time exact and parameterized algorithms, linear and constraint programming and fundamental graph algorithms such as max-flow algorithms, matching algorithms an so on. The unit will also employ appropriate tools from complexity theory to analyse the performance of the algorithms studied.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-07T10:06:03.62",
+  "code": "COMP7000",
+  "title": "Advanced Algorithms",
+  "implementationYear": "2021"
+}

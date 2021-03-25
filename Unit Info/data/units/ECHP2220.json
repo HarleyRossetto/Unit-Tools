@@ -1,0 +1,205 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Extend generic skills such as problem-solving, critical analysis, self-awareness, task management, literacy and communication skills.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Explore the Early Years Learning Framework and implement effectively in planning and programming on professional experience placements.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Begin to recognise behavioural characteristics of children and develop strategies for guiding children's behaviour.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Explore and practice a range of teaching techniques in the professional experience placement.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Successfully observe, plan and document the children's learning whilst on PE.",
+        "code": "ULO8"
+      },
+      {
+        "description": "Develop an awareness of contemporary theories for observing, planning and implementing learning experiences.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Recognise the importance of environments and how they influence children's learning.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Engage in active, careful and critical reflective practice.",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "ABEP230, ECHP222",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(((ECH120 or ECHE120 or ECHE1200 or ACOM1001 or ACSH100) and (ECHP1220 or ECHP122)) and (admission to BEd(ECE)(0-12) or BTeach(ECE)))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assessment 2b",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "60",
+        "description": "Professional Experience Book Work",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessment 1",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "40",
+        "description": "Getting ready for professional experience",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessment 2a",
+        "type": {
+          "label": "Field work task",
+          "value": "field_work_task"
+        },
+        "weight": "0",
+        "description": "Professional Experience Evaluation Report",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECHP2220-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHP2220"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECHP2220-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHP2220"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ECHP2220 - Professional Experience 2",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Students are provided with ways of making learning visible, whilst exploring a variety of theories on how children learn. They are assisted to develop observations and begin to think about implications for planning. Students are also taught skills in basic planning and ways to record thoughtful, reflective observations that connect to planning. A range of strategies that provide guidance on ways to support young children&#39;s learning is central to the unit. This includes examining teaching strategies that support ways of working with children from birth to five years. Students engage in active, careful and critical reflection as part of their commitment to teaching whilst considering the Early Years Learning Framework. Students practice these skills as they complete 20 days of teaching experience in prior to school early childhood settings.",
+    "search_title": "ECHP2220 - Professional Experience 2",
+    "code": "ECHP2220",
+    "title": "Professional Experience 2",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Students are provided with ways of making learning visible, whilst exploring a variety of theories on how children learn. They are assisted to develop observations and begin to think about implications for planning. Students are also taught skills in basic planning and ways to record thoughtful, reflective observations that connect to planning. A range of strategies that provide guidance on ways to support young children&#39;s learning is central to the unit. This includes examining teaching strategies that support ways of working with children from birth to five years. Students engage in active, careful and critical reflection as part of their commitment to teaching whilst considering the Early Years Learning Framework. Students practice these skills as they complete 20 days of teaching experience in prior to school early childhood settings.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T09:12:23.682",
+  "code": "ECHP2220",
+  "title": "Professional Experience 2",
+  "implementationYear": "2021"
+}

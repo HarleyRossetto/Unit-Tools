@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse the quality of healthcare services, including consideration of accessibility, appropriateness, timeliness, efficiency, effectiveness, and safety. <strong>(Engaged Global Citizen)</strong>",
+        "code": "ULO1"
+      },
+      {
+        "description": "Describe the role of governance within a complex system, and the role of policy and procedure in assuring and enhancing healthcare quality across diverse settings. <strong>(Engaged Global Citizen)</strong>",
+        "code": "ULO3"
+      },
+      {
+        "description": "Communicate effectively with others to optimise the quality of services aimed at enhancing health and wellbeing across contemporary physiotherapy settings, such as those associated with work and recreation. <strong>(Professional)</strong>",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply a systems thinking approach and appropriate methodology to analyse, evaluate and generate potential innovative solutions to complex health care problems across diverse settings. <strong>(Engaged Global Citizen)</strong>  ",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "You will be required to interact with online resources including online videos, lessons and other curated materials.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "You will be required to prepare for class by engaging in preparatory work, such as readings, online videos and discussion forums",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(PHTY808 or PHTY8200) and (PHTY809 or PHTY8201) and (PHTY810 or PHTY8202) and (PHTY811 or PHTY8203)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PHTY815",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Quality Improvement Plan",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "50",
+        "description": "You will present a detailed written plan for a quality improvement project associated with your experiences on your workplace or sports placement",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Oral presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "You will provide a brief oral presentation of a quality improvement project plan associated with your experiences on your workplace or sports placement.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Placement log book",
+        "type": {
+          "label": "Log book",
+          "value": "log_book"
+        },
+        "weight": "0",
+        "description": "You will submit a logbook briefly describing your experiences and hours accrued during placements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quality Evaluation Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "You will be required to analyse a clinical scenario related to physiotherapy practice against two domains of healthcare quality, presenting and justifying your conclusions. The report will include an annotated bibliography.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PHTY8207-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8207"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PHTY8207-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8207"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "PHTY8207 - Healthcare Complexity and Physiotherapy",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Health Professions"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The unit will focus on addressing patient-centred care in the context of complex health systems whilst considering the translation of evidence into clinical practice. You will explore the interaction of systems, people and services in the development and delivery of high quality and safe healthcare, and develop knowledge of the governance of healthcare and the skills to evaluate and enhance healthcare. This will extend your research skills to identify issues relevant to, and pose potential solutions for, contemporary physiotherapy practice. An integrated clinical component is incorporated within the unit allowing you an opportunity to apply your knowledge and skills to real world scenarios.",
+    "search_title": "PHTY8207 - Healthcare Complexity and Physiotherapy",
+    "code": "PHTY8207",
+    "title": "Healthcare Complexity and Physiotherapy",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The unit will focus on addressing patient-centred care in the context of complex health systems whilst considering the translation of evidence into clinical practice. You will explore the interaction of systems, people and services in the development and delivery of high quality and safe healthcare, and develop knowledge of the governance of healthcare and the skills to evaluate and enhance healthcare. This will extend your research skills to identify issues relevant to, and pose potential solutions for, contemporary physiotherapy practice. An integrated clinical component is incorporated within the unit allowing you an opportunity to apply your knowledge and skills to real world scenarios.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T09:53:33.943",
+  "code": "PHTY8207",
+  "title": "Healthcare Complexity and Physiotherapy",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,239 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate the implications for learning of student characteristics including physical, social-emotional and cognitive development.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse and apply understanding of the research and theories in educational psychology and child development to educational practices.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply understanding of research and theory to evaluate educational practices, develop solutions. and communicate this knowledge to peers and the education community in a scholarly and professional manner.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critically reflect on understanding and knowledge from the fields of educational psychology and child development to investigate a problem of practical or theoretical significance to students and teaching and learning contexts.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "EDCN811",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MTeach(Prim) or MTeach(Sec) or MEd or MEdLead or MEChild or GradCertEdStud or GradCertEd",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Project 1",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "50",
+        "description": "A research synopsis including a literature review addressing a chosen research question and project justification.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Project 2",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "50",
+        "description": "A report of research to a professional audience",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "EDST8300",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: EDST8300"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: EDST8110"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Educational Psychology and Practice",
+                "academic_item_code": "EDST8110",
+                "academic_item_url": "/2020/units/EDST8110"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDST8300-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8300"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDST8300-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8300"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDST8300-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8300"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "EDST8300 - Learner Development: Advances in Research and Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores recent developments in educational psychology and child development and examines links to teaching and learning primarily in school contexts. It begins with an overview and analysis of the broad fields of educational psychology and developmental psychology and recent topical debates are introduced. Topical focus areas include the development of motivation and engagement in students, student interactions with peers and teachers and the pedagogical debates surrounding the application of knowledge emerging from research. Students will conduct an independent study of a problem of practical or theoretical significance by deeply engaging with relevant research and theory from a psychological and developmental viewpoint. Students are encouraged to develop a research-based understanding that may be further developed in future research or study or in their practical workplace context.",
+    "search_title": "EDST8300 - Learner Development: Advances in Research and Practice",
+    "code": "EDST8300",
+    "title": "Learner Development: Advances in Research and Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores recent developments in educational psychology and child development and examines links to teaching and learning primarily in school contexts. It begins with an overview and analysis of the broad fields of educational psychology and developmental psychology and recent topical debates are introduced. Topical focus areas include the development of motivation and engagement in students, student interactions with peers and teachers and the pedagogical debates surrounding the application of knowledge emerging from research. Students will conduct an independent study of a problem of practical or theoretical significance by deeply engaging with relevant research and theory from a psychological and developmental viewpoint. Students are encouraged to develop a research-based understanding that may be further developed in future research or study or in their practical workplace context.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T11:28:03.533",
+  "code": "EDST8300",
+  "title": "Learner Development: Advances in Research and Practice",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,228 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate advanced understandings of key issues related to inclusive and special education in contemporary education contexts, including critical analysis of barriers to equity in education for students with disability.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate understanding of key factors involved in establishing an inclusive classroom culture and environment from the perspective of transforming schools in order to improve educational and community outcomes.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Develop a clear understanding of ethical, legislative and policy responsibilities of teachers as related to educational provision for learners across the full range of human diversities.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop and apply research-informed knowledge of a range of approaches to designing curriculum, pedagogy, assessment and environments that cater for all students in diverse classrooms, including engaging with universal design for learning and quality differentiated practices, and evaluating processes for identifying specific learning needs.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify and critically evaluate complex and conflicting theoretical perspectives and demonstrate a developed understanding of social constructions of disability and the pervasive nature of ableism and disablism in educational contexts.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply research-informed knowledge and understanding of approaches to responding to complex behaviour.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate research-informed knowledge of the importance of collaboration, including consideration of family perspectives and school-family-community relations.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings in preparation for tutorials",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MTeach (Birth to five)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Professional Resource",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "25",
+        "description": "Professional resource outlining practical strategies in the field of inclusive education (1500 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research-informed annotated bibliography of an issue of significance in inclusive education ",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "25",
+        "description": "2000 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Analysis and critique using contemporary research in the field of inclusive education",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "3000 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "EDSX8301",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: EDSX8301"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ECHX8300"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.01R",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Early Intervention: Theory and Practice",
+                "academic_item_code": "ECHX8300",
+                "academic_item_url": "/2021/units/ECHX8300"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDSX8301-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDSX8301"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "EDSX8301 - Inclusive and Special Education ",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit teacher education students will be supported to critically engage with, reflect on, and apply to practice fundamental considerations for ensuring high quality and equitable educational opportunities for all learners. Teacher education students will be provided with opportunities to develop advanced understandings of key issues related to inclusive and special education in contemporary education contexts. Acknowledging and valuing the full range of human diversity, teacher education students will develop and apply advanced knowledge and skills to providing high quality education to all learners. There is a focus on complex and sometimes conflicting theoretical perspectives. The pervasive influence of social constructions of disability and issues of ableism and disablism will be addressed. Relevant legislation, policy, and practice will be examined. Teacher education students will critically analyse barriers to equity in education for students with disability. A range of research-informed pedagogical approaches will be explored and evaluated. Family perspectives; understanding diverse learners; collaboration; establishing an inclusive classroom environment; and designing inclusive curriculum and teaching practices including engaging with universal design for learning and quality differentiated practices will be considered.",
+    "search_title": "EDSX8301 - Inclusive and Special Education ",
+    "code": "EDSX8301",
+    "title": "Inclusive and Special Education ",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit teacher education students will be supported to critically engage with, reflect on, and apply to practice fundamental considerations for ensuring high quality and equitable educational opportunities for all learners. Teacher education students will be provided with opportunities to develop advanced understandings of key issues related to inclusive and special education in contemporary education contexts. Acknowledging and valuing the full range of human diversity, teacher education students will develop and apply advanced knowledge and skills to providing high quality education to all learners. There is a focus on complex and sometimes conflicting theoretical perspectives. The pervasive influence of social constructions of disability and issues of ableism and disablism will be addressed. Relevant legislation, policy, and practice will be examined. Teacher education students will critically analyse barriers to equity in education for students with disability. A range of research-informed pedagogical approaches will be explored and evaluated. Family perspectives; understanding diverse learners; collaboration; establishing an inclusive classroom environment; and designing inclusive curriculum and teaching practices including engaging with universal design for learning and quality differentiated practices will be considered.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-23T17:14:43.136",
+  "code": "EDSX8301",
+  "title": "Inclusive and Special Education ",
+  "implementationYear": "2021"
+}

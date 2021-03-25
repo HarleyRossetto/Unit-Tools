@@ -1,0 +1,230 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate and articulate the outcome of dissection activities and an in-depth knowledge of regional anatomy to the public and professional and scientific community.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate a detailed knowledge of human gross anatomy, an understanding of anatomical variation and apply this knowledge in a clinical context in predicting clinical presentations.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Conduct a dissection of a selected body region demonstrating knowledge and competency in dissection techniques.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate an understanding of body donation programs in Australia and their ethical underpinnings and apply the principles of medical bioethics, work health and safety and professionalism to the dissection process.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Individual research related to the current dissection task - 2hr per week for 12 weeks",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "HLTH702",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Anatomical dissection VIVA End-session",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "40",
+        "description": "This assessment will consist of a 30min VIVA. The student is required to present, detailing all the anatomy, their entire dissection to two examiners. The dissection will be marked according to a rubric and the marks from both examiners will be averaged. Students will be marked on their dissection, as well as the quality of their presentation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Commemoration Ceremony",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "Students are required to attend a Body Donation Commemorative Ceremony.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Anatomical dissection VIVA Mid-session",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "20",
+        "description": "This assessment will consist of a 15min VIVA. The student is required to present, detailing all the anatomy, their first region of dissection to two examiners. The dissection will be marked according to a rubric and the marks from both examiners will be averaged. Students will be marked on their dissection, as well as the quality of their presentation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Anatomy presentations",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "15",
+        "description": "Over the semester students will give 3 presentations (5% each). They will present on the region of anatomy which they will next dissect. In this presentation, students will be required to detail all anatomical structures they expect to find in this region, and highlight common anatomical variations they may encounter. Students will be assessed on depth of knowledge, presentation and communication skills.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflection report",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "5",
+        "description": "This report will be approximately 500 words. It requires the student to reflect on body donation practices, commemorative services, the history of anatomy and how these, and knowledge of these aspects of anatomy impact learning environments that are centred around human tissue. Students will be assessed on their academic writing skills and ability to articulate complex themes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "This review will focus on an anatomical variance that the student found during their dissection. The student will be required to do a review of literature on this variance. The report will outline detail of the variance and how it differs to the most commonly identified version of this structure. The report should also explore how this may affect the patients function differently, or if affected may affect clinical presentations differently. Students will be provided with a marking rubric.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANAT7911"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "ANAT7911 - Anatomical Dissection",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Chiropractic "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit students will carry out a dissection of a selected body region. All gross anatomical structures will be exposed while variations and pathologies will be recorded. Dissection will enable students to learn dissecting techniques, gain an in-depth knowledge of gross anatomy and develop an appreciation for body donation and the ethical treatment of human tissue. The dissected body region will be described in a written report and presented to the examiners in a viva voce type of exam.",
+    "search_title": "ANAT7911 - Anatomical Dissection",
+    "code": "ANAT7911",
+    "title": "Anatomical Dissection",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit students will carry out a dissection of a selected body region. All gross anatomical structures will be exposed while variations and pathologies will be recorded. Dissection will enable students to learn dissecting techniques, gain an in-depth knowledge of gross anatomy and develop an appreciation for body donation and the ethical treatment of human tissue. The dissected body region will be described in a written report and presented to the examiners in a viva voce type of exam.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:39:55.318",
+  "code": "ANAT7911",
+  "title": "Anatomical Dissection",
+  "implementationYear": "2021"
+}

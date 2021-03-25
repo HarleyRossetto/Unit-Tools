@@ -1,0 +1,226 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Work effectively and professionally with a research supervisor, and other research collaborators as required, to plan a research project, including clear and pragmatic methodology that is appropriate to achieve the research aims. <strong>(Scientist and Scholar)</strong>",
+        "code": "ULO3"
+      },
+      {
+        "description": "Effectively communicate a comprehensive understanding of a research topic, methodology and your own current research skills. <strong>(Clinical Practitioner)</strong>",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critically appraise the quality and contribution of current research evidence relevant to your research topic, to justify a research question relevant to contemporary physiotherapy and/or healthcare.<strong> (Scientist and Scholar)</strong>",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify areas for and apply both independent and collaborative strategies to advance your research knowledge and skills relevant to your research project. <strong>(Scientist and Scholar)</strong>",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply ethical principles within the national research regulatory framework to your own research practices.   <strong>(Professional)</strong>",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Project-specific research skill development including preparation and/or commencement of your research project.",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Online resources will be provided to support the development of research skills and build a community of research practice.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PHTY819",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(PHTY812 or PHTY8204) and (PHTY813 or PHTY8205) and (PHTY814 or PHTY8206) and (PHTY815 or PHTY8207)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Learning plan - part A",
+        "type": {
+          "label": "Learning plan",
+          "value": "learning_plan"
+        },
+        "weight": "10",
+        "description": "You will set a learning plan to ensure you have the appropriate research and/or communication skills to successfully complete your research project.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project Plan",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "40",
+        "description": "You will prepare and write a research project plan, including a critical review of relevant literature.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Learning plan - part B",
+        "type": {
+          "label": "Learning plan",
+          "value": "learning_plan"
+        },
+        "weight": "30",
+        "description": "You will provide evidence of achievement towards your learning plan.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Oral Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "You will deliver an oral presentation of your research project plan.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8303"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8303"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PHTY8303 - Advanced Research Training",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Health Professions"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will extend your research skills to develop a deep and contemporary understanding of methodological, regulatory and professional aspects of physiotherapy research. You will work closely with a research supervisor to integrate your professional, clinical and research skills to plan a research project. This will include justifying the research aims through thorough background research of the topic area, and clearly articulating the methodological process required to meet the research aims. ",
+    "search_title": "PHTY8303 - Advanced Research Training",
+    "code": "PHTY8303",
+    "title": "Advanced Research Training",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will extend your research skills to develop a deep and contemporary understanding of methodological, regulatory and professional aspects of physiotherapy research. You will work closely with a research supervisor to integrate your professional, clinical and research skills to plan a research project. This will include justifying the research aims through thorough background research of the topic area, and clearly articulating the methodological process required to meet the research aims. ",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:29:30.322",
+  "code": "PHTY8303",
+  "title": "Advanced Research Training",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,246 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically appraise issues related to corporate and global level strategy.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Undertake, produce and deliver a comprehensive strategic review of an organisation and its strategic issues in collaboration with others as a member of a student group.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse an industry's issues and the environment in which they are generated to recommend strategic solutions.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Assess and communicate the importance of organisational issues in corporate strategy in a contemporary setting.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class preparation, Readings, Research, Online resources",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "BBA360",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(Admission to BBA or BBABA or BBABA-Psych or BBABCom-ProfAccg or BBABPsych(Hons) or BBALLB) and 140cp at 1000 level or above including ((BUS201 or MGMT1005) and (BBA350 or MGMT3050) and (BUSL250 or BUSL251 or ACCG2051))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Reflection",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "Students will reflect on target knowledge learnt throughout their business degree and their own unique experiences within the Group Project in one reflection to be submitted online. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "70",
+        "description": "The group project contains three distinct parts. 1. Each group of students is required to contribute to a 5000 word organisational strategic business analysis report. The report will analyse the business issue agreed upon with the PACE partner organisation. It is worth 35% and is marked as a group. 2. Each student will also make two presentations worth 35% total. a. The initial presentation will be of 6.5 – 7 minutes and will occur before the submission of the report. It will be marked individually and is worth 20%. b. The second presentation will require each student to synthesise their report as part of a group. The presentation will be no longer than 20 minutes per group. Each student is expected to contribute equally and be assessed individually. The presentation is worth 15% with artefacts.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Group Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "80",
+        "description": "The group project contains three distinct parts.  1. Each group of students is required to contribute to a 5000 word organisational strategic business analysis report. The report will analyse the business issue agreed upon with the PACE partner organisation. It is worth 40% and is marked as a group.  2. Each student will also make two  online presentations.  a. The initial presentation will be of 6.5 – 7 minutes and will occur before the submission of the report. It will be marked individually and is worth 20%.  b. The second presentation will require each student to synthesise their report as part of a group. The online presentation will be no longer than 20 minutes per group. Each student is expected to contribute equally and be assessed individually. The presentation is worth 20% with artefacts.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Reflections",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "30",
+        "description": "Students will reflect on target knowledge learnt throughout their business degree and their own unique experiences within the Group Project in two 45 minute in-class reflections.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT3060-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3060"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT3060-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3060"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT3060-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3060"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT3060-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3060"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MGMT3060 - Business Project",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "This unit provides a platform for students to exercise the knowledge and skills that they have gained in previous units within the BBA. The major component of the unit is a business-based team project, where students will actively engage with an organisation including but not limited to: not-for-profit organisations, government agencies, companies, and industry partners. Group work engages students in the challenges of interpersonal communication, task allocation, coordination and control. Students will gain an insight into organisations and be able to contextualise their graduate capabilities into the final business project.",
+    "search_title": "MGMT3060 - Business Project",
+    "code": "MGMT3060",
+    "title": "Business Project",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides a platform for students to exercise the knowledge and skills that they have gained in previous units within the BBA. The major component of the unit is a business-based team project, where students will actively engage with an organisation including but not limited to: not-for-profit organisations, government agencies, companies, and industry partners. Group work engages students in the challenges of interpersonal communication, task allocation, coordination and control. Students will gain an insight into organisations and be able to contextualise their graduate capabilities into the final business project.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-12T10:12:43.914",
+  "code": "MGMT3060",
+  "title": "Business Project",
+  "implementationYear": "2021"
+}

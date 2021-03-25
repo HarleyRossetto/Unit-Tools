@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Synthesise and analyse information from a wide variety of sources on medical research.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Acquire advanced knowledge of current research in medical science.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Evaluate and appraise a research protocol based on quality, feasibility and significance.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Identify pertinent areas of research and formulate a suitable methodology to test out a<br />research question.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Develop oral and written communication skills, related to grant applications, and selfdirected<br />learning.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify and discuss complex problems and issues in medical research with intellectual<br />independence.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Online material will be provided on iLearn to support learning.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "BIOL700, CBMS700, COMP700, ENVG700, FOAR700, FOBE710, FOHS700, GEOS700, MATH700, PHIL702, PHIL704, PHIL706, PHYS700, STAT700, MEDI712",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Shart-Tank Grant Pitch",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Create a video where you pitch a research question in your field to an audience of research peers. Questions time will be on a live forum.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Seminar Attendance and critique",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "Logbook and critique on scientific seminars.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Grant Application",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Submit a mock grant application.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Peer Review and Rebuttal",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "25",
+        "description": "Peer review a colleagues grant application.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI7012"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI7012"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MEDI7012 - Pitching Your Research For Funding",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Building on MEDI7011, you will continue to acquire an advanced conceptual knowledge of breakthrough discoveries relevant to a range of topics within the field of medical research. You will develop your skills in pitching your research for funding through mentoring by senior research-active staff, post-doctoral researchers and FMHS PhD candidates, also gaining discipline-specific knowledge that will be relevant to your future research career. You will: 1. Attend seminars and lectures focused on ongoing research projects from the Faculty of Medicine and Health Sciences and from invited speakers from leading national and international research institutes. 2. Participate in self-directed and group tasks in which you will learn to research, read and critically review seminal research findings that have shaped contemporary thinking, and to disseminate your findings in written and oral form.",
+    "search_title": "MEDI7012 - Pitching Your Research For Funding",
+    "code": "MEDI7012",
+    "title": "Pitching Your Research For Funding",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Building on MEDI7011, you will continue to acquire an advanced conceptual knowledge of breakthrough discoveries relevant to a range of topics within the field of medical research. You will develop your skills in pitching your research for funding through mentoring by senior research-active staff, post-doctoral researchers and FMHS PhD candidates, also gaining discipline-specific knowledge that will be relevant to your future research career. You will: 1. Attend seminars and lectures focused on ongoing research projects from the Faculty of Medicine and Health Sciences and from invited speakers from leading national and international research institutes. 2. Participate in self-directed and group tasks in which you will learn to research, read and critically review seminal research findings that have shaped contemporary thinking, and to disseminate your findings in written and oral form.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:01:12.756",
+  "code": "MEDI7012",
+  "title": "Pitching Your Research For Funding",
+  "implementationYear": "2021"
+}

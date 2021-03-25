@@ -1,0 +1,334 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate the complexity of interpreter roles (interactive communication management).",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate essential interpreting techniques: note-taking, reformulation, anticipation, and approximation.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate an understanding of extra-linguistic and cultural aspects of discourse.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Extend and consolidate foundation for self-directed learning to enhance professional skills.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Extend domain-specific background knowledge.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate reflective and critical practice to become life-long learners.",
+        "code": "ULO8"
+      },
+      {
+        "description": "Demonstrate the abilities to transfer messages accurately from A language to B language and from B language to A language in different modes.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse discourse for the purpose of interpreting.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Research online",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Weekly practice among peers",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Reading various materials",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Class preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "TRAN822",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "TRAN8021 or TRAN821",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Live Dialogue Interpreting Assessment",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "40",
+        "description": "Live dialogue interpreting in a simulated setting",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Learning Portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "30",
+        "description": "The Interpreting Learning Portfolio includes tasks that students have done, task-based glossaries and reflective journals.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-term exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "Mid-term Examination - sight translation and consecutive interpreting for one hour",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "TRAN8022-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8022"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8022-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8022"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8022-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8022"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8022-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8022"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8022-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-Korea",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8022"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8022-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8022"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8022-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8022"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8022-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-Korea",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8022"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances<br />Session 1, Weekday attendance, Korea<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Weekday attendance, Korea<br />Session 2, Weekday attendance, North Ryde<br />Session 1, Fully online/virtual<br />Session 2, Fully online/virtual<br />",
+    "subject_search_title": "TRAN8022 - Intermediate Interpreting Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to further develop students&#39; interpreting skills so that they demonstrate advanced strategies in core interpreting techniques. Students are strongly encouraged to define appropriate strategies in both language directions through self/peer practice, while continuously developing generic interpreting skills such as active listening, note taking, and memory retention. Students are also expected to develop strong critical analysis and reflective capabilities in relation to self/peers interpreting practice. In addition, two new interpreting modes will be introduced to students, including telephone interpreting and chuchotage. The unit covers specific topic areas that can be directly applied to professional practices.",
+    "search_title": "TRAN8022 - Intermediate Interpreting Practice",
+    "code": "TRAN8022",
+    "title": "Intermediate Interpreting Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to further develop students&#39; interpreting skills so that they demonstrate advanced strategies in core interpreting techniques. Students are strongly encouraged to define appropriate strategies in both language directions through self/peer practice, while continuously developing generic interpreting skills such as active listening, note taking, and memory retention. Students are also expected to develop strong critical analysis and reflective capabilities in relation to self/peers interpreting practice. In addition, two new interpreting modes will be introduced to students, including telephone interpreting and chuchotage. The unit covers specific topic areas that can be directly applied to professional practices.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T09:14:34.459",
+  "code": "TRAN8022",
+  "title": "Intermediate Interpreting Practice",
+  "implementationYear": "2021"
+}

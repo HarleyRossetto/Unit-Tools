@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply relevant T&amp;I theory to self-analysis of interpreting performance.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Discuss ethical approaches to a range of interpreting dilemmas in context.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critique individual and peer interactive interpreting performance.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate interpreting skills and strategies between English and Auslan interlocutors in dialogic interactions.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate interpreting skills and strategies between English and Auslan interlocutors in multi-party interactions.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain the tenets of 'professional practice' for interpreters.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "topic-linked readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "weekly class notes and discussion board",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Pre-block assessment preparation and reflections on work practice",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "TRAN869",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "TRAN863 or TRAN8063",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Practice postings",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "20",
+        "description": "Four online postings related to unit theory and personal interpreting practice",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "20",
+        "description": "Critique of ethical dilemma analysed with 2 different theoretical constructs",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Dialogic interpreting & analysis",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "30",
+        "description": "Simulated dialogic interpreting setting (with deaf client-actor). Dialogic interpreting performance assessed at block 1. Combining teacher analysis of performance and student report of own performance.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Multi-party interpreting & analysis",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "30",
+        "description": "Simulated multi-party interpreting setting (with deaf and hearing clients-actors). Interpreting performance assessed at block 2. Combining teacher analysis of performance and student report of own performance.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "TRAN8069-unit_teaching_period-Intensive-subject",
+        "display_name": "2022-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8069"
+        }
+      }
+    ],
+    "unit_offering_text": "2022, Intensive attendance, North Ryde<br />",
+    "subject_search_title": "TRAN8069 - Auslan Interpreting Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on the practice of being an interpreter, both the linguistic aspects of interpreting between English and Auslan, and the professional and ethical decision-making involved. Students practice effective communication management in predominantly dialogic/interactive settings. Students will be expected to apply theoretical knowledge gleaned from TRAN8063 to the critical analysis of their interpreting skills and to interpreting decisions made by other interpreters. The unit will explore various case studies in line with discussions of theoretical perspectives on ethical behaviour.",
+    "search_title": "TRAN8069 - Auslan Interpreting Practice",
+    "code": "TRAN8069",
+    "title": "Auslan Interpreting Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on the practice of being an interpreter, both the linguistic aspects of interpreting between English and Auslan, and the professional and ethical decision-making involved. Students practice effective communication management in predominantly dialogic/interactive settings. Students will be expected to apply theoretical knowledge gleaned from TRAN8063 to the critical analysis of their interpreting skills and to interpreting decisions made by other interpreters. The unit will explore various case studies in line with discussions of theoretical perspectives on ethical behaviour.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-18T11:39:24.311",
+  "code": "TRAN8069",
+  "title": "Auslan Interpreting Practice",
+  "implementationYear": "2021"
+}

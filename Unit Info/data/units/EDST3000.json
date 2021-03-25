@@ -1,0 +1,198 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate knowledge and understanding of the syllabus content and requirements of the NSW Syllabus: History and Geography.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Implement teaching strategies that develop students' knowledge about diverse cultures and communities, including Aboriginal and Torres Strait Islander histories, cultures and languages.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Integrate ICT with a focus on using interactive boards creatively across History and Geography.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Reflect on the conceptual difficulties of teaching students about Aboriginal and Torres Strait Islander histories, cultures and languages.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "A wide range of readings and research are linked to the lectures and tutorials. Students are expected to complete these before and after the timetabled activities.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "160cp at 1000 level or above including (EDST2000 or EDST200) and (EDST3110 or EDST311) and EDST2999",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "EDST300",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Affective pedagogies",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "What are affective pedagogies? Draw upon the wide range of literature to explain how affective pedagogies provide an alternative methodology to cognitive and social constructivist approaches to teaching. Provide an example of how affective pedagogies can be applied in the primary school. Length. 2000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Professional Experience Report",
+        "type": {
+          "label": "Field work task",
+          "value": "field_work_task"
+        },
+        "weight": "0",
+        "description": "Report on student performance against AITSL Teaching Standards completed by Supervising Teacher at the placement school. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Teaching the concept of Country",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Draw on Indigenous concepts of Country to show how the concept can be embedded in the K-6 curriculum. Why is Country important to Indigenous people? Can students learn from Country in the classroom? Outline some of the theoretical and practical problems of institutionalised education.<br />Length 2000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDST3000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST3000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDST3000-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST3000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "EDST3000 - Practice of Teaching: Cultures in History and Geography",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "This unit develops teacher education students&#39; pedagogical content knowledge and skills of the NSW HSIE Key Learning Area including the History and Geography syllabuses, with a focus on Pre-stage 1 to Stage 3. It requires students to analyse how they will teach about cultures in K-6 classrooms, including Aboriginal and Torres Strait Islander histories and cultures, and Australia&#39;s engagement with Asia without perpetuating the current stereotypes and generalisations. Students also apply their understanding of how children learn in a professional experience context. EDST300 incorporates a 15 day professional experience placement in a primary school.",
+    "search_title": "EDST3000 - Practice of Teaching: Cultures in History and Geography",
+    "code": "EDST3000",
+    "title": "Practice of Teaching: Cultures in History and Geography",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit develops teacher education students&#39; pedagogical content knowledge and skills of the NSW HSIE Key Learning Area including the History and Geography syllabuses, with a focus on Pre-stage 1 to Stage 3. It requires students to analyse how they will teach about cultures in K-6 classrooms, including Aboriginal and Torres Strait Islander histories and cultures, and Australia&#39;s engagement with Asia without perpetuating the current stereotypes and generalisations. Students also apply their understanding of how children learn in a professional experience context. EDST300 incorporates a 15 day professional experience placement in a primary school.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-28T09:34:24.147",
+  "code": "EDST3000",
+  "title": "Practice of Teaching: Cultures in History and Geography",
+  "implementationYear": "2021"
+}

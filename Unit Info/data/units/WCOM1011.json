@@ -1,0 +1,318 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Pathway",
+        "value": "pathway"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and analyse different disciplinary approaches to video game analysis.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply game design skills and methodologies to the production of basic video games.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate disciplinary knowledge of video games studies theories and practices.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Communicate clearly and effectively, a range of ideas, in a variety of media forms.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "INFO111, MAS111, COMP111, WMEC111",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Active Engagement",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "35",
+        "description": "Active engagement in the theory and practical classes will be assessed through a game master challenge, game play score card and practical exercises.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Unity Game Task",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "35",
+        "description": "Students are required to design a section of a basic video game using the Unity Game Engine. They are also required to write a short analysis describing the engine features that they have used and how these have contributed towards their design.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Game Analysis Report",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "30",
+        "description": "Students are expected to write a report to analyse the design of a selected game using the ideas taught in class. This report is designed to demonstrate students’ knowledge of the concepts taught and their ability to apply them to analyse a game.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "WCOM1011",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: WCOM1011"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: COMP1150"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Introduction to Video Games",
+                "academic_item_code": "COMP1150",
+                "academic_item_url": "/2020/units/COMP1150"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: MMCC1011"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Introduction to Video Games",
+                "academic_item_code": "MMCC1011",
+                "academic_item_url": "/2020/units/MMCC1011"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "WCOM1011-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WCOM1011"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WCOM1011-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 4-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 4"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WCOM1011"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WCOM1011-unit_teaching_period-Special",
+        "display_name": "MUIC term 3-Special",
+        "teaching_period": {
+          "value": "MUIC term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WCOM1011"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WCOM1011-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 6-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 6"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WCOM1011"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WCOM1011-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WCOM1011"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WCOM1011-unit_teaching_period-Special",
+        "display_name": "MUIC term 4-Special",
+        "teaching_period": {
+          "value": "MUIC term 4"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WCOM1011"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WCOM1011-unit_teaching_period-Special",
+        "display_name": "MUIC term 1-Special",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WCOM1011"
+        }
+      }
+    ],
+    "unit_offering_text": "MUIC term 1, Weekday attendance, North Ryde<br />MUIC term 3, Weekday attendance, North Ryde<br />MUIC term 3, Special circumstances<br />MUIC term 4, Weekday attendance, North Ryde<br />MUIC term 4, Special circumstances<br />MUIC term 6, Weekday attendance, North Ryde<br />MUIC term 1, Special circumstances<br />",
+    "subject_search_title": "WCOM1011 - Introduction to Video Games",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie University International College"
+    },
+    "school": {
+      "value": "Macquarie University International College"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Video games provide a real example of the promise of interactive entertainment held out by modern technologies. Video games not only offer a rapidly growing form of entertainment but are also used for educational and business purposes. This unit provides an introduction to the design and study of computer and console games. Topics covered include: the history of games; the cultural and aesthetic study of games; and the game development process. Through learning about these topics, students will acquire the tools necessary to design a project using a game development package.",
+    "search_title": "WCOM1011 - Introduction to Video Games",
+    "code": "WCOM1011",
+    "title": "Introduction to Video Games",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Video games provide a real example of the promise of interactive entertainment held out by modern technologies. Video games not only offer a rapidly growing form of entertainment but are also used for educational and business purposes. This unit provides an introduction to the design and study of computer and console games. Topics covered include: the history of games; the cultural and aesthetic study of games; and the game development process. Through learning about these topics, students will acquire the tools necessary to design a project using a game development package.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-16T12:47:13.37",
+  "code": "WCOM1011",
+  "title": "Introduction to Video Games",
+  "implementationYear": "2021"
+}

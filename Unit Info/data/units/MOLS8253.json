@@ -1,0 +1,279 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse the requirements of international standards ISO 17025, ISO 15189, ISO 9000 and the OECD Principles of Good Laboratory Practice.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Prepare and maintain quality documentation.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop a quality management system",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critically analyse/evaluate an existing quality management system for the purpose of quality improvement.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Enhance customer service and the experience of interested parties through the use of quality improvement techniques and processes.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate an understanding, at an advanced level, of the technical management concepts including test methods, method selection, verification of methods, validation of methods, uncertainty of measurement, calibration and traceability.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for class",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CBMS861, CBMS761",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to GradDipBiotech or GradCertLabAQMgt or GradDipLabAQMgt or MBiotech or MBioBus or MLabAQMgt or MRadiopharmSc or MSc or MScInnovationChemBiomolecularSc",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Mid Session Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "The quiz will consist of 15 multiple choice questions. Each question of the quiz consists of a laboratory scenario, based on real life situations. For each scenario/question you will be required to identify the relevant clause(s) or sub-clause(s) in ISO/IEC 17025 which you believe most specifically address the scenario. The quiz will be completed on-line on the iLearn site.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2: Management systems",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "This assignment has three tasks relating to: control charts, customer complaints, calibration and metrological traceability of equipment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 3: Laboratory procedure",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "15",
+        "description": "This assignment involves selecting one scenario from a list and writing a laboratory procedure to ensure proper performance of the selected method in accordance with the international standard provided.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 4: Critical analysis and application of international standards",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "This assignment involves a compulsory task that is a critical analysis of select quality principles developed by a leading quality thinker and a choice of two tasks from a list of tasks relating to implementing a quality system in the workplace.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1: Quality principles, objectives, actions and impartiality",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "10",
+        "description": "There will be three written tasks relating to: quality principles, objectives, action plans and the importance and nature of impartiality.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MOLS8253",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MOLS8253"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MOLS7253"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Laboratory Quality Systems",
+                "academic_item_code": "MOLS7253",
+                "academic_item_url": "/2020/units/MOLS7253"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MOLS8253"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MOLS8253"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MOLS8253 - Laboratory Quality Systems",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Molecular Sciences "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers topics and concepts central to the successful implementation of quality within analytical testing laboratories. Topics include coverage of various quality management system standards such as ISO 17025, ISO 15189, ISO 9000 and GLP, the reasons for implementing such standards and their requirements with respect to laboratory practices, as well as the accreditation process through agencies such as the National Association of Testing Authorities (NATA).",
+    "search_title": "MOLS8253 - Laboratory Quality Systems",
+    "code": "MOLS8253",
+    "title": "Laboratory Quality Systems",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit covers topics and concepts central to the successful implementation of quality within analytical testing laboratories. Topics include coverage of various quality management system standards such as ISO 17025, ISO 15189, ISO 9000 and GLP, the reasons for implementing such standards and their requirements with respect to laboratory practices, as well as the accreditation process through agencies such as the National Association of Testing Authorities (NATA).",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T16:33:35.514",
+  "code": "MOLS8253",
+  "title": "Laboratory Quality Systems",
+  "implementationYear": "2021"
+}

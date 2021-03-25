@@ -1,0 +1,295 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Define how biological information is encoded in the structure of the genetic molecule, DNA",
+        "code": "ULO1"
+      },
+      {
+        "description": "Describe how large macromolecules, such as nucleic acids and proteins are constructed from simpler building blocks",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse scientific data and use the basic elements of scientific writing to write reports",
+        "code": "ULO6"
+      },
+      {
+        "description": "Describe how genetic information is transmitted through the generations, and the evolutionary process",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain how eukaryotic cells are constructed, in terms of the structure and functions of organelles",
+        "code": "ULO3"
+      },
+      {
+        "description": "Discuss modern applications of genetics and genomics",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "BIOL115",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Practical quizes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Pre-prac quizzes to test preparedness and comprehension.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Database project",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "10",
+        "description": "The PeerWise database will be available to students throughout the Session. Students must write and submit at least five questions based upon lecture content, and answer at least five.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Paper dissection",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "25",
+        "description": "A library of at least 10 public research papers will be made available to students. Students must select one paper (or choose a paper in which they are interested, with the approval of the convenors) and analyse the structure, underlying research, and implications of the paper, following the set of questions provided. The results must be written up in the form of a report of no more than three pages.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-semester test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "The mid-semester test will consist of multiple choice questions covering all lecture material up to and including Lecture 10. The test will be conducted online under timed conditions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Assesses all material covered in practicals as well as the material in all lectures.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "BIOL1110",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: BIOL1110"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: BIOX1110"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Genes to Organisms ",
+                "academic_item_code": "BIOX1110",
+                "academic_item_url": "/2020/units/BIOX1110"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL1110"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL1110"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL1110"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL1110"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Special circumstances, Other<br />",
+    "subject_search_title": "BIOL1110 - Genes to Organisms",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit deals with the nuts and bolts of life on earth. Throughout the unit there is a single unifying theme - that all of the processes that give rise to life are derived from DNA. We show students that DNA controls life by acting as a blueprint for the construction of proteins, and that those proteins build cells which act as the basic structural and functional units of all life. To demonstrate these processes to students, we start by talking about the structure and function of DNA to show how it can act as a simple code for the construction of proteins. Students are then shown how proteins are constructed from the DNA code, and how those proteins can be used to build and maintain cells. Having established these basic principles, the unit then goes on to explain how cells construct multicellular organisms during development, and how the proper functioning of those organisms is maintained by regulating cellular activity. We also demonstrate that the DNA code is essentially immortal because it can be copied from generation to generation, from cell to cell.",
+    "search_title": "BIOL1110 - Genes to Organisms",
+    "code": "BIOL1110",
+    "title": "Genes to Organisms",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit deals with the nuts and bolts of life on earth. Throughout the unit there is a single unifying theme - that all of the processes that give rise to life are derived from DNA. We show students that DNA controls life by acting as a blueprint for the construction of proteins, and that those proteins build cells which act as the basic structural and functional units of all life. To demonstrate these processes to students, we start by talking about the structure and function of DNA to show how it can act as a simple code for the construction of proteins. Students are then shown how proteins are constructed from the DNA code, and how those proteins can be used to build and maintain cells. Having established these basic principles, the unit then goes on to explain how cells construct multicellular organisms during development, and how the proper functioning of those organisms is maintained by regulating cellular activity. We also demonstrate that the DNA code is essentially immortal because it can be copied from generation to generation, from cell to cell.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:58:44.321",
+  "code": "BIOL1110",
+  "title": "Genes to Organisms",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,198 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply broad environmental/sustainability knowledge to respond effectively to a client's project brief with a clearly defined and manageable project proposal.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Produce a professional quality environmental/sustainability consultancy written report relevant to the client's situation and specifications.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate an ability to work cooperatively and professionally in a team to plan and manage an environmental/sustainability reporting project.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Prepare and present a professional quality oral and visual presentation and respond effectively to questions.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Note-taking and record keeping in a log book",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(80cp at 8000 level and admission to MEnv or MSusDev or MEnvEd or MEnvMgt or MEnvStud or MEnvPlan or MPlan or MSocEntre) or (40cp at 8000 level and admission to MSc)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "GSE844, ENVS844",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Project Report",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "60",
+        "description": "Produce a professional quality written environmental/sustainability consultancy report relevant to the client&#39;s situation and specifications",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Project Proposal and Context",
+        "type": {
+          "label": "Work-integrated task",
+          "value": "work_integrated_task"
+        },
+        "weight": "25",
+        "description": "Respond to client brief with a scoped project proposal, work plan and notional budget with context outlined",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Presentation of Report ",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "15",
+        "description": "A summary of the report is presented orally with visual means; questions are answered",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENVS8544"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENVS8544"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ENVS8544 - Sustainability Consultancy Work Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Earth and Environmental Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students the opportunity to bring together what they have learned in other units through working in small teams to undertake environmental and sustainability consultancy projects for real clients. The real-life problems requested by clients are chosen to represent typical situations likely to confront graduates from our programs. The final report of each group will be expected to be of a high quality and equivalent to a consultant&#39;s report to a client. Students will learn to define and scope a project, understand the context, prepare a project proposal for a client, work with colleagues to complete the project, prepare a written report for the client, and present the group&#39;s findings in person to the client. The unit is of value to students in environmental management, environmental planning, sustainable and sustainable development.",
+    "search_title": "ENVS8544 - Sustainability Consultancy Work Practice",
+    "code": "ENVS8544",
+    "title": "Sustainability Consultancy Work Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides students the opportunity to bring together what they have learned in other units through working in small teams to undertake environmental and sustainability consultancy projects for real clients. The real-life problems requested by clients are chosen to represent typical situations likely to confront graduates from our programs. The final report of each group will be expected to be of a high quality and equivalent to a consultant&#39;s report to a client. Students will learn to define and scope a project, understand the context, prepare a project proposal for a client, work with colleagues to complete the project, prepare a written report for the client, and present the group&#39;s findings in person to the client. The unit is of value to students in environmental management, environmental planning, sustainable and sustainable development.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:37:40.083",
+  "code": "ENVS8544",
+  "title": "Sustainability Consultancy Work Practice",
+  "implementationYear": "2021"
+}

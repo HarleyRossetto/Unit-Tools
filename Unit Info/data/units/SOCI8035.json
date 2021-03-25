@@ -1,0 +1,283 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Obtain first-hand experience in using qualitative research techniques to examine policy issues and problems.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Be able to combine qualitative and quantitative data as sources of evidence for policy.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Develop a critical appreciation of the politics of research utilization in different policy contexts.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Understand and practically apply qualitative strategies of inquiry, research methods and data analysis techniques.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop a critical appreciation of the ethical dimensions of research practice.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Obtain skills in critically evaluating the robustness of different forms of data.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Understand the nature of qualitative research procedures, what makes them distinctive and how they can be used to inform policy development.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will be required to read a series of set texts and listen to a pre-recorded lecture on a weekly basis, that relate to the topic for that week. In addition, students will be given advance notice of weekly practical exercises (run during seminars).",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Special, Session 2-Online"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "SOC831",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MPSP or MPASR or GradCertPASR or GradDipPASR or MPLAN.",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Policy Research Report\t",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "40",
+        "description": "Students will analyse a pre-existing corpus of qualitative data to write a report on a policy topic, in the form of a discussion paper/policy briefing. In addition, students will be required to identify and integrate relevant quantitative data to provide context information for the report. The report will require students to undertake qualitative data analysis and develop recommendations based on this analysis.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Policy Research Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "An important skill in social research is the ability to present research in an engaging manner. This assessment task provides an opportunity to develop these presentation skills for social research. Students will give a 10-15 minute presentation (online students will do a virtual presentation) on their policy research, focusing on the themes identified from the analysis and recommendations. These presentations will be undertaken as virtual presentations during weeks 12 and 13.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Throughout the semester students will undertake tasks to develop their qualitative research skills. These will be undertaken outside class and discussed during the weekly online seminars. These include exercises relating to research design, ethics, practicing qualitative methods and data analysis.  For External and OUA students, discussion of these activities will be the topics for  the weekly discussion forums.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Design/Consultation Exercise",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "30",
+        "description": "Students will be required to develop a consultation strategy utilising qualitative research methods. The consultation strategy will outline the policy area or topic upon which consultation will occur; provide an overview of the consultation participants (the sample); outline the overall consultation strategy (research design); describe how information will be obtained from research participants (fieldwork and methods); and describe how the data obtained will be used to provide evidence to inform the policy topic (data analysis).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "SOCI8035",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: SOCI8035"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: SOCX8035"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Qualitative Methods for Policy",
+                "academic_item_code": "SOCX8035",
+                "academic_item_url": "/2020/units/SOCX8035"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI8035"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI8035"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI8035"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "SOCI8035 - Qualitative Methods for Policy",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Social research is critical for evidence based policy making. This unit canvasses the use of qualitative research to inform public and social policy. Students will develop skills in conducting qualitative research and how it contributes to policy processes. This includes designing and conducting qualitative research and working with existing qualitative data to develop policy. The course will be structured around four modules. The first examines qualitative research designs for policy. The second introduces students to qualitative research methods and analysis, including qualitative analysis of policy documents. The third applies this knowledge to policy processes, including finding and using existing qualitative data sets; qualitative research as consultation; and the uses and misuses of citizen perspectives in policy processes. The unit concludes by considering how qualitative and quantitative data can be combined as policy evidence. Throughout, the unit will include expert speakers from the non-profit, government and academic sectors to provide insider perspectives on the use of qualitative data for policy making and to discuss the politics of research utilization. By undertaking this course, students will develop advanced skills in undertaking qualitative research and be able to apply these skills in a range of policy settings.",
+    "search_title": "SOCI8035 - Qualitative Methods for Policy",
+    "code": "SOCI8035",
+    "title": "Qualitative Methods for Policy",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Social research is critical for evidence based policy making. This unit canvasses the use of qualitative research to inform public and social policy. Students will develop skills in conducting qualitative research and how it contributes to policy processes. This includes designing and conducting qualitative research and working with existing qualitative data to develop policy. The course will be structured around four modules. The first examines qualitative research designs for policy. The second introduces students to qualitative research methods and analysis, including qualitative analysis of policy documents. The third applies this knowledge to policy processes, including finding and using existing qualitative data sets; qualitative research as consultation; and the uses and misuses of citizen perspectives in policy processes. The unit concludes by considering how qualitative and quantitative data can be combined as policy evidence. Throughout, the unit will include expert speakers from the non-profit, government and academic sectors to provide insider perspectives on the use of qualitative data for policy making and to discuss the politics of research utilization. By undertaking this course, students will develop advanced skills in undertaking qualitative research and be able to apply these skills in a range of policy settings.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:49:56.675",
+  "code": "SOCI8035",
+  "title": "Qualitative Methods for Policy",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,252 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply key theories, concepts and models to develop solutions to problems in asset valuation, risk management, and portfolio theory.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain and assess the key theories, concepts and models used in asset valuation, risk management, and portfolio theory.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explain and demonstrate how time value of money concepts and discounted cash flow techniques are used in the analysis of financial decisions of individuals and firms.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain and assess the key theories and concepts used in the analysis of a firm's financing decision.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Explain the role of financial institutions and markets in the economy and evaluate their effectiveness in allocating resources over time and transferring risk.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings and research guided by tasks included in online module.",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to GradCertFin (OUA)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Participation in online discussion forums.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "20",
+        "description": "Assignment on a unit topic set by the unit convenor.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "A number of short online topic quizzes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "A 3-hour online exam on all topics covered during the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "AFCX6016",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: AFCX6016"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: AFCP6016"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Finance Principles",
+                "academic_item_code": "AFCP6016",
+                "academic_item_url": "/2020/units/AFCP6016"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 1-Online",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCX6016"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 3-Online",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCX6016"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 3, Fully online/virtual<br />Term 1, Fully online/virtual<br />",
+    "subject_search_title": "AFCX6016 - Finance Principles",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students with the key building blocks of finance within a single unifying conceptual framework. Students will be introduced to three of the key ideas in finance: the analysis of trade-offs over time, asset valuation and risk management. These concepts will then be applied to the following sub-fields of finance: corporate finance, investments, and financial markets and institutions.",
+    "search_title": "AFCX6016 - Finance Principles",
+    "code": "AFCX6016",
+    "title": "Finance Principles",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides students with the key building blocks of finance within a single unifying conceptual framework. Students will be introduced to three of the key ideas in finance: the analysis of trade-offs over time, asset valuation and risk management. These concepts will then be applied to the following sub-fields of finance: corporate finance, investments, and financial markets and institutions.",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:36:06.007",
+  "code": "AFCX6016",
+  "title": "Finance Principles",
+  "implementationYear": "2021"
+}

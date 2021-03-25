@@ -1,0 +1,210 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Master the science and art of asking questions.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically evaluate qualitative and quantitative research tools and processes.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Balance pragmatic concerns with rigour when deciding which qualitative and or quantitative methods to use relative to the problem.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly live event preparation exercises",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Video lectures",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Weekly recall quizzes (not assessed)",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Discussion forum exercises",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Core readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "GMBA8121",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "Admission to GMBA and 100cp at 8000 level",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Survey",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "60",
+        "description": "Length: Team: URL and 2 - 4 pages (max); Individual: 1,500 words (max.) (excluding references and appendices) Format: Team: Online survey design (30%); Individual: Critical reflection (30%) <br />Task type: Team and individual. <br />Task: In this assignment, your client project team will design, test, and iterate an online survey based on the insights gained from Assignment 1 and your literature review, using an online survey tool of your choice. Each team member will complete a 1,500 word critical reflection.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Discussion Guide",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "40",
+        "description": " Length: Discussion guide including 1,000 word ‘testing and iteration’ report &#43; 1,500 word critical reflection (max.) (excluding references) <br />Format: Team: Discussion guide (20%); Individual: Critical reflection (20%) <br />Task: In this assignment, (i) develop, test, and iterate a discussion guide in your client project team; and (ii) individually perform a critical reflection on the development, design, testing, and iteration process, including key learnings and insights.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Coursera term 2-Online",
+        "teaching_period": {
+          "value": "Coursera term 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GMBA8122"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Coursera term 5-Online",
+        "teaching_period": {
+          "value": "Coursera term 5"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GMBA8122"
+        }
+      }
+    ],
+    "unit_offering_text": "Coursera term 2, Fully online/virtual<br />Coursera term 5, Fully online/virtual<br />",
+    "subject_search_title": "GMBA8122 - Be Curious",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "5",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Being curious means constantly asking questions. Asking the right questions is a fundamental skill for problem solving. This unit integrates the knowledge developed throughout the course by applying a methodological rigour to how we assess data. There is no shortage of data - the immediacy of data availability through social and media platforms means unprecedented access to data. The increasing sophistication of automation and machine learning offers consumers a curated view which may not necessarily be accurate. How do we know what is real? Is the information credible? This unit develops problem solving skills by invoking the curious mindset. Students will demonstrate their mastery of triangulation by considering the validity and reliability of data and learn the importance of asking the right questions.",
+    "search_title": "GMBA8122 - Be Curious",
+    "code": "GMBA8122",
+    "title": "Be Curious",
+    "content_type": "Unit",
+    "credit_points_header": "5 credit points"
+  },
+  "creditPoints": 5,
+  "description": "Being curious means constantly asking questions. Asking the right questions is a fundamental skill for problem solving. This unit integrates the knowledge developed throughout the course by applying a methodological rigour to how we assess data. There is no shortage of data - the immediacy of data availability through social and media platforms means unprecedented access to data. The increasing sophistication of automation and machine learning offers consumers a curated view which may not necessarily be accurate. How do we know what is real? Is the information credible? This unit develops problem solving skills by invoking the curious mindset. Students will demonstrate their mastery of triangulation by considering the validity and reliability of data and learn the importance of asking the right questions.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:17:35.494",
+  "code": "GMBA8122",
+  "title": "Be Curious",
+  "implementationYear": "2021"
+}

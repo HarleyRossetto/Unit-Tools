@@ -1,0 +1,237 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically evaluate application integration technologies such as APIs, database integration, application servers, Web Services, REST and business process management systems and be able to recommend the most suitable technology for the situation.",
+        "code": "ULO3"
+      },
+      {
+        "description": " ",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate confidence in a range of skills including leadership, communication, critical analysis, problem-solving and creative-thinking skills.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply an understanding of process modelling to analyse an existing 'As Is' process and be able to compare and contrast with proposed improved 'To Be' processes for process improvement and optimisation.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "ITEC832",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "COMP6760 or ITEC601",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A closed book exam covering all lecture, reference and workshop material.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Modelling task",
+          "value": "modelling_task"
+        },
+        "weight": "15",
+        "description": "You are given an actual procurement process. This is to be modelled as the ‘As Is’ Process using IBM Blue Works Live SaaS software. Metrics such as process cost and time are to be derived. Based on the objectives of business process reengineering, an automated, improved ‘To Be’ process is to be proposed. The new process is to be assessment according to the modelling metrics as well as an ROI justification.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 3",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "10",
+        "description": "Students form groups of 4, and choose a contemporary SaaS implementation case study from a given list of published recent studies. The team is to identify the possible opportunities for improvement to the existing As Is Process. Then, model the given new To Be Process as described in the case study and demonstrate how it delivers significant business benefits and identify the metrics to manage and quantify the benefits. The team is to submit a structured report comprised of each member&#39;s contribution and then each member is to give a class presentation on their findings.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Online examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "An open book online examination undertaken in a 6 hour window of time with scripts submitted through iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "15",
+        "description": "You are given a well researched case study about the introduction of electronic medical records in the US. The case highlights the technological, management and organisational challenges of this immense application integration undertaking. Students are required to answer questions about the case study and provide As Is and To Be process models for one of the system’s components.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group and individual presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "Firstly, each group will be allocated a minor project and be expected to present their findings regarding an ongoing class case study of a contemporary B2B integration initiative. Secondly, each student is to present on their component of the Assignment 3 Group Report. It is up to each team to structure their activities to meet the overall duel requirements of the two presentations.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "COMP8760-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP8760"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "COMP8760-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP8760"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "COMP8760 - Enterprise Application Integration",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on integration technologies from internal application integration to external business-to-business integration. Integration activities start with a process model and process redesign targets. We use the market leading IBM BlueWorks Live software to define our processes. Application integration techniques such as data orientated, application interfaces, message orientated middleware and application servers are covered. The role of Web APIs and RESTful architecture is considered, as well cloud based infrastructure, platforms and SaaS.  We then consider B2B integration with EDI and Web Services, and the role of portals. We explore the objectives of business process management and supply chain planning and consider a recent innovative government integration initiative as a student presented case study.",
+    "search_title": "COMP8760 - Enterprise Application Integration",
+    "code": "COMP8760",
+    "title": "Enterprise Application Integration",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on integration technologies from internal application integration to external business-to-business integration. Integration activities start with a process model and process redesign targets. We use the market leading IBM BlueWorks Live software to define our processes. Application integration techniques such as data orientated, application interfaces, message orientated middleware and application servers are covered. The role of Web APIs and RESTful architecture is considered, as well cloud based infrastructure, platforms and SaaS.  We then consider B2B integration with EDI and Web Services, and the role of portals. We explore the objectives of business process management and supply chain planning and consider a recent innovative government integration initiative as a student presented case study.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-03T09:42:14.897",
+  "code": "COMP8760",
+  "title": "Enterprise Application Integration",
+  "implementationYear": "2021"
+}

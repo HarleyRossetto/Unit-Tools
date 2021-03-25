@@ -1,0 +1,291 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate concepts and models used by various financial market participants and apply relevant concepts and models to meet participants needs and actual business situations.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Develop solutions for financing issues using appropriate models and financial data sources.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Assess financial products and instruments and construct sound and justifiable solutions that meet the requirements of financial market participants.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for Zoom sessions, activities and Workshops",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Small group online activities",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to Master of Applied Finance or Graduate Diploma of Applied Finance",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECFS867",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Financing proposal ",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "Assessment of financing transactions. Group and Individual tasks for each of up to 3,000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final assessment",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "40",
+        "description": "A time-constrained task based on scenarios. Open book.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class activities",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Tasks set with online classes including quizzes, online or recorded presentations, learning portfolio, analytical tasks and participation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "AFCP8101",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: AFCP8101"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: AFCP8004"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.04",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Financial Instruments",
+                "academic_item_code": "AFCP8004",
+                "academic_item_url": "/2020/units/AFCP8004"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "AFCP8101-unit_teaching_period-Infrequent-subject",
+        "display_name": "Term 2-Infrequent-Melbourne",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8101"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AFCP8101-unit_teaching_period-Infrequent-subject",
+        "display_name": "Term 2-Infrequent-City",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8101"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AFCP8101-unit_teaching_period-Infrequent-subject",
+        "display_name": "Term 4-Infrequent-Melbourne",
+        "teaching_period": {
+          "value": "Term 4"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8101"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AFCP8101-unit_teaching_period-Infrequent-subject",
+        "display_name": "Term 4-Infrequent-City",
+        "teaching_period": {
+          "value": "Term 4"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8101"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AFCP8101-unit_teaching_period-Special",
+        "display_name": "Term 2-Special",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8101"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 2, Infrequent attendance, City<br />Term 2, Infrequent attendance, Melbourne<br />Term 4, Infrequent attendance, City<br />Term 4, Infrequent attendance, Melbourne<br />Term 2, Special circumstances<br />",
+    "subject_search_title": "AFCP8101 - Financial System, Participants and Instruments",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit assesses the structure, instruments and participants in the Financial System. It covers the theory and practical application of financial instruments including debt, equity, hybrids and derivatives. It also articulates the roles and objectives of participants in the system, social contracts and regulation.",
+    "search_title": "AFCP8101 - Financial System, Participants and Instruments",
+    "code": "AFCP8101",
+    "title": "Financial System, Participants and Instruments",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit assesses the structure, instruments and participants in the Financial System. It covers the theory and practical application of financial instruments including debt, equity, hybrids and derivatives. It also articulates the roles and objectives of participants in the system, social contracts and regulation.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-07T15:37:34.329",
+  "code": "AFCP8101",
+  "title": "Financial System, Participants and Instruments",
+  "implementationYear": "2021"
+}

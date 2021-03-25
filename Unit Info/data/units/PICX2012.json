@@ -1,0 +1,206 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate understanding of the enduring intersection of politics and warfare, and explain the role of strategy in connecting the two.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate knowledge of the considerations that inform the planning and conduct of military operations (including logistics, doctrine, tactics, and law) and apply that abstract knowledge to real-world cases.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify and critically analyse different forms of modern warfare.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Discuss the influence of new technologies and the role of information on the character of modern warfare.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Examine the human impact of modern warfare on both combatants and civilians.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate the ability to write clear and concise analyses for a policy audience.",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to complete assigned readings and watch lecture recordings prior to their tutorial each week. The estimated time for class preparation is three hours per week for Week 2 through Week 13. No class preparation is required in Week 1.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "50cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PICT212, PICX212",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Test\t",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "An online test will be administered to assess knowledge and understanding of all the unit materials, including lectures, case studies, and readings.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Operations Analysis",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "The operations analysis is a written paper examining all facets of a particular military operation. It requires a scholarly consideration of the background to the operation, the planning and conduct of the operation, and the implications of the operation for how observers understand war in the twenty-first century.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Active engagement",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "\nActive engagement by students will increase the unit&#39;s value as an exercise in critical thinking, analysis, and communication. Internal students will demonstrate active engagement in tutorials; external students will demonstrate it by contributing to online activities.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Policy Memo",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "25",
+        "description": "The policy memo is a written brief addressed to a high-level policy-maker who is considering, but not committed to, the use of force in a particular situation to advance the government’s interests. The memo will identify and analyze the political and strategic factors that should inform the policy-maker’s decision, and recommend a particular course of action.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PICX2012-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICX2012"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "PICX2012 - Modern Warfare",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to the dynamics of modern warfare. War is a complex thing and force continues to be employed extensively by a range of state and non-state actors with major implications for national, international, and human security. The unit provides students with the theoretical tools required to make sense of the different forms and levels of modern warfare as well as the operational concepts and approaches which underpin its conduct. The unit critically considers a range of pressing issues and debates relating to the practice of warfare, with a particular emphasis on the impact of new technologies, the role of information, and ethical considerations. Through detailed analysis of contemporary military operations, students will learn to assess the utility of force by examining its political effects and consequences. All enrolment queries should be directed to Open Universities Australia (OUA): see <a href=\"http://www.open.edu.au\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">www.open.edu.au",
+    "search_title": "PICX2012 - Modern Warfare",
+    "code": "PICX2012",
+    "title": "Modern Warfare",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to the dynamics of modern warfare. War is a complex thing and force continues to be employed extensively by a range of state and non-state actors with major implications for national, international, and human security. The unit provides students with the theoretical tools required to make sense of the different forms and levels of modern warfare as well as the operational concepts and approaches which underpin its conduct. The unit critically considers a range of pressing issues and debates relating to the practice of warfare, with a particular emphasis on the impact of new technologies, the role of information, and ethical considerations. Through detailed analysis of contemporary military operations, students will learn to assess the utility of force by examining its political effects and consequences. All enrolment queries should be directed to Open Universities Australia (OUA): see <a href=\"http://www.open.edu.au\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">www.open.edu.au",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-25T16:22:04.194",
+  "code": "PICX2012",
+  "title": "Modern Warfare",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,209 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate developed skills and a knowledge of pedagogies to: plan engaging activities or lesson sequences compatible with the appropriate syllabus, based on students' interests, needs and abilities; interpret the key competencies required to enhance student learning within the context of the English classroom; and select and utilise resources across a wide range of types including the integration of ICT resources; develop evidence-based practices in their teaching.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify and apply some key strategies and elements of responding to, composing, and critically studying a wide range of texts.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Understand and reflect critically on the nature of English as a discipline within the context of the Secondary curriculum.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate effective strategies, skills and classroom practices to enhance student learning.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Reflect critically on some of the key professional issues in their own current practices and identify the implications these have for their own future teaching and the profession more broadly employing reference to readings and Syllabus documents.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Demonstrate a developed working knowledge of the Stage 4 and 5 and the Stage 6 English syllabus documents and apply this to the development of specific teaching and learning contexts.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate competency in their own utilisation of ICT skills through their preparation of teaching resources which are technology based.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Asynchronous individual/group learning tasks for formative feedback and participation in professional dialogue via iLearn discussion forums. ",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "  Written reflections, iLearn quizzes and iLearn chats in response to unit readings. ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "((TEP401 or EDTE4010(S)) and (TEP423 or EDTE4230)) or (EDST3010 and EDTE4230)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "TEP424",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Stage 6 unit of work",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "50",
+        "description": "2500 words. Evaluation and modification of Stage 6 unit of work, assessment and resources to suit case study class including justification of content, pedagogical and resource choices.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Journal Article: Stage 6 English",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "50",
+        "description": "3000 words. Research informed article on an aspect of English teaching suitable for publication in a professional journal",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDTE4240-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE4240"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDTE4240-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE4240"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "EDTE4240 - English in the Secondary School II",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit has a particular emphasis on the development of strategies for responding to, and composing, a range of traditional and emerging text types, enhancing creativity and independent learning skills, and planning for assessment across a variety of language modes. The key elements embedded in the New South Wales syllabus documents (including Stage 6 documents) are examined within a teaching and learning context. Workshops also cover current professional issues such as classroom management, the teaching and learning of visual and multimodal literacy, curriculum development, creative pedagogy, the integration of technology into the English classroom, and the diverse needs of students in a changing world. Students develop awareness of the curriculum and policy debates relevant to English teaching and engage in professional reading and writing in preparation for their transition to the English profession.",
+    "search_title": "EDTE4240 - English in the Secondary School II",
+    "code": "EDTE4240",
+    "title": "English in the Secondary School II",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit has a particular emphasis on the development of strategies for responding to, and composing, a range of traditional and emerging text types, enhancing creativity and independent learning skills, and planning for assessment across a variety of language modes. The key elements embedded in the New South Wales syllabus documents (including Stage 6 documents) are examined within a teaching and learning context. Workshops also cover current professional issues such as classroom management, the teaching and learning of visual and multimodal literacy, curriculum development, creative pedagogy, the integration of technology into the English classroom, and the diverse needs of students in a changing world. Students develop awareness of the curriculum and policy debates relevant to English teaching and engage in professional reading and writing in preparation for their transition to the English profession.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T15:23:13.728",
+  "code": "EDTE4240",
+  "title": "English in the Secondary School II",
+  "implementationYear": "2021"
+}

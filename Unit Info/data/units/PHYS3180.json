@@ -1,0 +1,209 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "carry out advanced labs, analysing, interpreting and reporting results in accordance with professional standards.",
+        "code": "ULO5"
+      },
+      {
+        "description": "use mathematical descriptions based in real- and momentum-space to solve problems in scattering theory.",
+        "code": "ULO3"
+      },
+      {
+        "description": "describe how the periodicity of a crystal affects measurable quantities such as heat capacity or conductivity, demonstrating insight into the concept of crystal momentum and its implications for band structures and scattering experiments.",
+        "code": "ULO2"
+      },
+      {
+        "description": "demonstrate an understanding of fundamental thermodynamic principles and their connection to the microscopic dynamics of matter, particularly for gases and crystalline solids.",
+        "code": "ULO1"
+      },
+      {
+        "description": "discuss the connection between electronic band structure and certain material properties, with specific examples of low-dimensional electronic systems.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Consolidation of lecture material using a range of resources, and preparation for lab sessions. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(PHYS201 or PHYS2010) and (PHYS202 or PHYS2020) and (MATH235 or MATH2010)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PHYS301 or PHYS3010",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "PHYS308",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Examination in the university exam period, covering the entire content from the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignments",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "30",
+        "description": "Problem sets, released every two weeks.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Lab reports",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "30",
+        "description": "Documentation of experiments, including formal reports and digital labbook record.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PHYS3180-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHYS3180"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PHYS3180-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHYS3180"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "PHYS3180 - Condensed Matter and Statistical Physics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Physics and Astronomy "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces basic thermodynamic principles and connects them with the physical laws and the statistical nature of the microscopic world governing the behaviour of the matter around us. We start out with the concept of temperature and investigate the emergence of the Boltzmann factor in the canonical ensemble. We then proceed with the kinetic theory of gases and discuss transport properties and thermal diffusion. The first and second law of thermodynamics form the foundation for understanding the basic working principles of thermodynamic engines. We next introduce three key pillars of statistical physics: the equipartition theorem, partition functions and the influence of distinguishability on the counting statistics of particles. This sets us up for a discussion of basic solid-state phenomena as they were known in early 20th century, including Debye theory of the heat capacity of solids, the basics of Drude transport theory and Sommerfeld’s electron model.",
+    "search_title": "PHYS3180 - Condensed Matter and Statistical Physics",
+    "code": "PHYS3180",
+    "title": "Condensed Matter and Statistical Physics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces basic thermodynamic principles and connects them with the physical laws and the statistical nature of the microscopic world governing the behaviour of the matter around us. We start out with the concept of temperature and investigate the emergence of the Boltzmann factor in the canonical ensemble. We then proceed with the kinetic theory of gases and discuss transport properties and thermal diffusion. The first and second law of thermodynamics form the foundation for understanding the basic working principles of thermodynamic engines. We next introduce three key pillars of statistical physics: the equipartition theorem, partition functions and the influence of distinguishability on the counting statistics of particles. This sets us up for a discussion of basic solid-state phenomena as they were known in early 20th century, including Debye theory of the heat capacity of solids, the basics of Drude transport theory and Sommerfeld’s electron model.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-07T11:44:53.307",
+  "code": "PHYS3180",
+  "title": "Condensed Matter and Statistical Physics",
+  "implementationYear": "2021"
+}

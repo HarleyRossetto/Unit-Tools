@@ -1,0 +1,207 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate how trade-offs between cyber security, cost/resources and business opportunities/competitive advantage intersect with risk tolerance, good corporate governance, and business ethics. ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply governance principles and ethical frameworks to develop solutions to a variety of governance and ethical challenges relating to cyber security in a range of business contexts. ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain the governance principles and ethical frameworks relevant to cyber security in a business context. ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate well-reasoned judgement when critically analysing cyber security governance and ethical challenges. ",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will prepare for class by reviewing teaching material, lecture notes and preparing answers to questions, approaches to simulations, etc. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ACCG250 or ACCG2050 or PICT201 or PICT2001",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Class Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students are expected to actively participate in class discussions and activities. The quality of participation will be assessed by staff using the criteria outlined in the assessment guide.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical assessment of new technologies ",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Students will apply governance and ethical frameworks to critically assess a proposal to introduce disruptive technologies into a business. The report should cover both information security and ethical aspects of the new technology",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Students will write a report to the Senior Executive team on how contextual elements of a business, including human resources and organisational culture can contribute to an information security program. Students will be given a collection of internal corporate documents which they will have to analyse to determine the long-term security objectives. The students will prepare a written report which they upload to iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Debate",
+        "type": {
+          "label": "Debate",
+          "value": "debate"
+        },
+        "weight": "10",
+        "description": "Students will debate a current cyber security business problem / challenge. Students will prepare a 6-10 minute video of their ethical, financial and legal arguments for- or against- the matter and upload their video to iLearn. Each student will then be randomly allocated to another (opposing) student’s video and have 24-hours to prepare a 3-5 minute rebuttal video which they will also upload to iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACCG3060-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG3060"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG3060-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG3060"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG3060 - Cyber Security Governance and Ethics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Every person in an organisation is responsible for safe guarding customer data in this era of increasing cyber threats. This unit is designed for students to gain an understanding of the regulatory environment, governance (including cyber governance) and ethical issues relating to cyber security. The objective of the unit is for students to understand the governance and ethical issues in the constantly evolving cyber security environment created by new digital technologies.",
+    "search_title": "ACCG3060 - Cyber Security Governance and Ethics",
+    "code": "ACCG3060",
+    "title": "Cyber Security Governance and Ethics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Every person in an organisation is responsible for safe guarding customer data in this era of increasing cyber threats. This unit is designed for students to gain an understanding of the regulatory environment, governance (including cyber governance) and ethical issues relating to cyber security. The objective of the unit is for students to understand the governance and ethical issues in the constantly evolving cyber security environment created by new digital technologies.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-05T09:51:04.65",
+  "code": "ACCG3060",
+  "title": "Cyber Security Governance and Ethics",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,209 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate an understanding of hearing screening principles and applications with paediatric and adult groups",
+        "code": "ULO4"
+      },
+      {
+        "description": "Select and independently interpret results of developmentally appropriate behavioural and electrophysiological test techniques, whilst evaluating the consistency of results across the test battery and recommends further action for resolution of inconsistencies",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate an advanced understanding of the psychosocial impact of hearing loss on the individual and their family, family-centred practice, informed choice and effective counselling techniques for working with children and their families",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate an understanding of genetics, embryology and development of the peripheral auditory system to explain the pathology and clinical course of common syndromes/ diseases/injuries involving the peripheral auditory system",
+        "code": "ULO3"
+      },
+      {
+        "description": "Integrate knowledge of child development and approaches to paediatric assessment across the age range to determine the most appropriate assessment techniques for individual children",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "(CAUD802 or CAUD8002) and (CAUD803 or CAUD8003) and (CAUD819 or CAUD8001)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CAUD807",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Final exam consists of essay-style questions including at least one case-based scenario.”",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Congenital causes of hearing loss",
+        "type": {
+          "label": "Summary",
+          "value": "summary"
+        },
+        "weight": "15",
+        "description": "1500 word summary assessment of common congenital causes of hearing loss and their progression",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "On-line quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "On-line multiple choice and short answer quiz testing foundational and applied knowledge. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "2500 word hearing screening essay",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CAUD8007"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CAUD8007"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "CAUD8007 - Paediatric Hearing Assessment",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit aims to build skills in the audiological assessment and clinical management of infants and children. Through lectures and clinical practicums, skills in the audiological assessment of infants and preschoolers are gained. Normal child development, including speech and language development, is explored. Causes of hearing loss in children, the effects of hearing loss, and treatment options are considered. Throughout the unit, students are encouraged to consider information that is presented from a family systems&#39; perspective.",
+    "search_title": "CAUD8007 - Paediatric Hearing Assessment",
+    "code": "CAUD8007",
+    "title": "Paediatric Hearing Assessment",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit aims to build skills in the audiological assessment and clinical management of infants and children. Through lectures and clinical practicums, skills in the audiological assessment of infants and preschoolers are gained. Normal child development, including speech and language development, is explored. Causes of hearing loss in children, the effects of hearing loss, and treatment options are considered. Throughout the unit, students are encouraged to consider information that is presented from a family systems&#39; perspective.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:56:17.22",
+  "code": "CAUD8007",
+  "title": "Paediatric Hearing Assessment",
+  "implementationYear": "2021"
+}

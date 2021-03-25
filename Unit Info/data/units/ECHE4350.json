@@ -1,0 +1,271 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Examine the role of communication within organisations and develop effective.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Reflect on planning for continuing professional learning for themselves and their team as lifelong learners.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Engage families and other community stakeholders in decision making and planning that promotes children's rights.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Understand a range of skills and strategies necessary for leading change within early childhood settings.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate their understanding and application of professional standards in relation to quality assurance and ethical practice.",
+        "code": "ULO8"
+      },
+      {
+        "description": "Understand the role of strategic planning and the leader's role in planning and evaluating the organisation's operations.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate awareness of the theoretical underpinnings that guide the work of contemporary leaders in diverse early childhood settings including schools and early childhood settings.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate effective communication skills and strategies as early childhood leaders.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "unit readings (and additional optional reading) related to weekly lecture and tutorial content ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECH316, ECH425, ECH435",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "ECH315 or ECHE3150",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Educational Leadership Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "In this essay you will be required to demonstrate your understanding of the concept of educational (or pedagogical) leadership. You will have a choice of questions which will allow you to focus on either early childhood or school settings. (2000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Optional Exam or Leadership Profile",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "35",
+        "description": "This assessment task is a choice between an optional exam or a leadership case study. The exam is based on a case study example and requires both short and extended answers to a series of questions. The leadership profile involves interviewing an educational leader and writing a profile of that person with a focus on their experience of educational leadership. \n(Exam 1.5 hours short and extended answer questions)\n(Leadership Profile 1200 words) ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Business Communication",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "35",
+        "description": "This assessment task requires you to develop a mock piece of work based on a professional style of communication that teachers are required to use (e.g. a website design, grant or funding submission) (1500 words) ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ECHE4350",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ECHE4350"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: EDST3160"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Working as Early Childhood Centre Directors",
+                "academic_item_code": "EDST3160",
+                "academic_item_url": "/2020/units/EDST3160"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECHE4350-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE4350"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECHE4350-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE4350"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECHE4350-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE4350"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ECHE4350 - Management and Leadership II: Building Learning Environments",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines early childhood settings through organisational evaluation and planning. A number of important concepts and debates raised in earlier units are considered in greater depth. The main focus of this unit is an examination and evaluation of theory and practice as it relates to the leadership responsibilities of early childhood educators in early childhood services and school contexts. This unit provides an orientation to high order management and leadership skills including strategic planning, negotiation and change management, advocacy, quality assurance and ethical practice, as well as marketing and business planning. Understanding the crucial role of effective communication as managers and leaders is central to this unit.",
+    "search_title": "ECHE4350 - Management and Leadership II: Building Learning Environments",
+    "code": "ECHE4350",
+    "title": "Management and Leadership II: Building Learning Environments",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines early childhood settings through organisational evaluation and planning. A number of important concepts and debates raised in earlier units are considered in greater depth. The main focus of this unit is an examination and evaluation of theory and practice as it relates to the leadership responsibilities of early childhood educators in early childhood services and school contexts. This unit provides an orientation to high order management and leadership skills including strategic planning, negotiation and change management, advocacy, quality assurance and ethical practice, as well as marketing and business planning. Understanding the crucial role of effective communication as managers and leaders is central to this unit.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T14:48:54.855",
+  "code": "ECHE4350",
+  "title": "Management and Leadership II: Building Learning Environments",
+  "implementationYear": "2021"
+}

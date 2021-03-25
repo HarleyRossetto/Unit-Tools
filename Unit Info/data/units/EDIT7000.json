@@ -1,0 +1,210 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse the advantages and disadvantages of print and online modes for publishing research",
+        "code": "ULO1"
+      },
+      {
+        "description": "Make use of a repertoire of different editorial styles for journals within relevant discipline areas, based on research into conventions across disciplines.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply sophisticated understanding of the different demands of presenting research as a set of papers and as an extended dissertation",
+        "code": "ULO5"
+      },
+      {
+        "description": "Critically evaluate the writing of other researchers at the micro-level of language choice as well as the structure and articulation of content.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Construct academic content for communicating complex ideas in longer and shorter formats, making use of multidisciplinary research into technical terminology.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Investigating approaches to editorial issues (e.g. referencing, abstract-writing) across different disciplines.",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Looking at range of readings supplied for each weekly topic",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "EDIT700",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Editing quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Identification of editorial errors and use of appropriate references to justify changes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Article editing ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Analysis of editing process for turning a print article into an electronic one  (2500 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Analysis of disciplinary differences",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "Selection of articles in different disciplines as a basis of analysis of referencing styles and technical jargon (1500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Editing abstracts across disciplines",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "20",
+        "description": "Identification of the different elements and structure of abstracts in different disciplines, and accurate application of principles. (1000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDIT7000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "EDIT7000 - Editing for Researchers",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to help MRES candidates become effective editors of their own research, and able to project their work in different vehicles of publication. It examines critical aspects of publishing research as (i) a full dissertation, or (ii) a series of papers/journal articles. It compares issues in editing research for publication in print and online as well as broadcasting, to demonstrate the demands of each medium. The scope of the abstract for journal articles, conference papers and prefacing the dissertation is discussed, and the repurposing of content and stylistic adaption needed to publish research as extended non-fiction. Students are introduced to the standard style guides in the humanities, social sciences and sciences, and are given opportunity to discuss more specialised ones within their disciplinary/Faculty groups, with assignments on implementing their different recommendations. The unit provides supplementary (non-assessable) language support online for international students.",
+    "search_title": "EDIT7000 - Editing for Researchers",
+    "code": "EDIT7000",
+    "title": "Editing for Researchers",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to help MRES candidates become effective editors of their own research, and able to project their work in different vehicles of publication. It examines critical aspects of publishing research as (i) a full dissertation, or (ii) a series of papers/journal articles. It compares issues in editing research for publication in print and online as well as broadcasting, to demonstrate the demands of each medium. The scope of the abstract for journal articles, conference papers and prefacing the dissertation is discussed, and the repurposing of content and stylistic adaption needed to publish research as extended non-fiction. Students are introduced to the standard style guides in the humanities, social sciences and sciences, and are given opportunity to discuss more specialised ones within their disciplinary/Faculty groups, with assignments on implementing their different recommendations. The unit provides supplementary (non-assessable) language support online for international students.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T20:12:43.474",
+  "code": "EDIT7000",
+  "title": "Editing for Researchers",
+  "implementationYear": "2021"
+}

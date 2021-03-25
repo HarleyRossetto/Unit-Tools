@@ -1,0 +1,157 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Independently design, develop and critically evaluate a professional learning program that addresses the specific technology requirements of an individual with vision impairment",
+        "code": "ULO2"
+      },
+      {
+        "description": "Effectively communicate information about vision-specific technology to individuals with vision impairment, their parents/carers, educators or other professionals",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate your knowledge and skills in reflective practice in the field of technology through the development of a evaluation tool for self-reflection and critical feedback from other professionals",
+        "code": "ULO4"
+      },
+      {
+        "description": "Draw on recent and relevant sources to identify inclusive assistive devices, software/apps and literacy formats for persons with vision impairment",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "SPED925",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(Admission to MDistStudies and SPED926 or SPED8926) or (Admission to MAccComm)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Critical Evaluation",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Critical evaluation of the training module, (2500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Design of a training module",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "50",
+        "description": "Design a training module that outlines the implementation of one access technology. (2500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPED8925"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "SPED8925 - Foundations of Technology in Vision Impairment",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This Unit explores the diversity of technology, formats, software and apps that assist individuals with vision impairment to access and communicate information in early childhood, education, vocational and community settings. Students will be introduced to assessment and instructional approaches, options for visual and non-visual access to information, assistive technology financing and usage.",
+    "search_title": "SPED8925 - Foundations of Technology in Vision Impairment",
+    "code": "SPED8925",
+    "title": "Foundations of Technology in Vision Impairment",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This Unit explores the diversity of technology, formats, software and apps that assist individuals with vision impairment to access and communicate information in early childhood, education, vocational and community settings. Students will be introduced to assessment and instructional approaches, options for visual and non-visual access to information, assistive technology financing and usage.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:04:14.17",
+  "code": "SPED8925",
+  "title": "Foundations of Technology in Vision Impairment",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,322 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identity and describe the role of accounting in organisational governance and stewardship, and in discharging accountability to stakeholders. ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Explain the regulatory accounting environment and its impact for the accounting profession. ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse financial statements and integrate knowledge and skills to solve business problems. ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Prepare financial statements, and provide advice on routine accounting issues from appropriate regulatory and/or governance perspectives. ",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply skills in processing accounting information and explain classifications and/or treatments to essential accounting processes. ",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to read the relevant texts before weekly lectures and prepare for lectures and tutorials. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students are expected to read the relevant texts before weekly lectures and prepare for lectures and tutorials. ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ACCG100 or ACCG106 or ACCG1000",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ACCG101",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Class test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "17",
+        "description": "The class test is designed to give feedback to students’ understanding of key topics and concepts covered, and to identify any particular learning challenges or areas of difficulty prior to the final examination. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde, Session 3-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "55",
+        "description": "A two-hour closed book examination will be held during the University Examination Period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde, Session 3-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Class Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "The online test is designed to give feedback to students’ understanding of key topics and concepts covered, and to identify any particular learning challenges or areas of difficulty prior to final examination.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Special, Session 2-Special, Session 3-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "55",
+        "description": "A two-hour online examination (open book) will be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special, Session 3-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessed coursework ",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "8",
+        "description": "During the session, students’ weekly assigned work will be assessed. Students are expected to make a genuine attempt at completing the weekly assigned tutorial questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde, Session 3-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "20",
+        "description": "Individual component (20%). The individual component will require students to apply theories, frameworks and concepts to workplace scenarios through the completion of a business report.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACCG1001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG1001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG1001-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG1001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG1001-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG1001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG1001-unit_teaching_period-Special",
+        "display_name": "Session 3-Special",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG1001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG1001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG1001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG1001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG1001"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 3, Weekday attendance, North Ryde<br />Session 3, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG1001 - Accounting and Governance",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on the role of accounting in governance and accountability. The link between accounting and governance is discussed through the concepts of measurement, valuation, conceptual framework, reporting and communication of financial and non-financial information. The unit also acquaints students with how to apply computerised accounting software to record financial transactions and adjust accounting entries, and to prepare bank reconciliation and financial statements. On the completion of this unit, students are expected to understand the role of accounting in discharging accountability, provide accounting treatment for assets, liabilities and equity, analyse and interpret financial statements, and understand the regulatory accounting environment. Critical, analytical and integrative thinking, problem solving, communication and teamwork skills are developed through treatments of accounting transactions and events, and the completion of a business report and group project. ",
+    "search_title": "ACCG1001 - Accounting and Governance",
+    "code": "ACCG1001",
+    "title": "Accounting and Governance",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on the role of accounting in governance and accountability. The link between accounting and governance is discussed through the concepts of measurement, valuation, conceptual framework, reporting and communication of financial and non-financial information. The unit also acquaints students with how to apply computerised accounting software to record financial transactions and adjust accounting entries, and to prepare bank reconciliation and financial statements. On the completion of this unit, students are expected to understand the role of accounting in discharging accountability, provide accounting treatment for assets, liabilities and equity, analyse and interpret financial statements, and understand the regulatory accounting environment. Critical, analytical and integrative thinking, problem solving, communication and teamwork skills are developed through treatments of accounting transactions and events, and the completion of a business report and group project. ",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-05T09:50:23.537",
+  "code": "ACCG1001",
+  "title": "Accounting and Governance",
+  "implementationYear": "2021"
+}

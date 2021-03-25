@@ -1,0 +1,270 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate effective communication skills.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Apply critical thinking and research skills.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate knowledge of a range key concepts in psychology.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate effective and appropriate use of information technology.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically analyse key relevant concepts in psychology.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Show an awareness of the range of ethical issues in psychology.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSYC105, PSYX105",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "5",
+        "description": "Participation in research studies (or an alternate research activity). Marks are awarded based on the number of hours of participation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "A psychology essay, critically reviewing a key concept or finding in psychological research.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "45",
+        "description": "Final examination held within the University’s formal exam period, in accordance with relevant requirements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Two online quizzes testing understanding of unit content.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PSYX1102",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PSYX1102"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PSYX1105"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Introduction to Psychology II",
+                "academic_item_code": "PSYX1105",
+                "academic_item_url": "/2020/units/PSYX1105"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: PSYU1105"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Introduction to Psychology II",
+                "academic_item_code": "PSYU1105",
+                "academic_item_url": "/2020/units/PSYU1105"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: PSYU1102"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Introduction to Psychology II",
+                "academic_item_code": "PSYU1102",
+                "academic_item_url": "/2021/units/PSYU1102"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "500",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYX1102"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual*<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "PSYX1102 - Introduction to Psychology II",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces some of the most interesting topics in psychology and psychologists as &#34;scientist-practitioners&#34;. In this unit we will study the areas of health psychology, social psychology, developmental psychology, organisational psychology, perception, and cognition. A demonstration will be provided of how both basic and applied research is utilised in day-to-day life",
+    "search_title": "PSYX1102 - Introduction to Psychology II",
+    "code": "PSYX1102",
+    "title": "Introduction to Psychology II",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces some of the most interesting topics in psychology and psychologists as &#34;scientist-practitioners&#34;. In this unit we will study the areas of health psychology, social psychology, developmental psychology, organisational psychology, perception, and cognition. A demonstration will be provided of how both basic and applied research is utilised in day-to-day life",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-04T14:34:22.273",
+  "code": "PSYX1102",
+  "title": "Introduction to Psychology II",
+  "implementationYear": "2021"
+}

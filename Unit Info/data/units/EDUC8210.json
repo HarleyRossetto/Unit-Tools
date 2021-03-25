@@ -1,0 +1,232 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and critically evaluate complex and conflicting theoretical perspectives and demonstrate understanding of social constructions of disability including the implications for education practice of the pervasive nature of ableism.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Articulate understanding of ethical, legislative and policy responsibilities of teachers as related to educational provision for diverse learners.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Interpret research-informed knowledge of the effective approaches to collaboration in educational practice",
+        "code": "ULO6"
+      },
+      {
+        "description": "Apply advanced understandings and critical analysis of key issues related to inclusive and special education in contemporary education contexts",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply research-informed knowledge to addressing common misunderstandings regarding students and their learning abilities and opportunities",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify and critically reflect on barriers to equity in education for students with disability",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for active class participation (including critical reflection, reviewing relevant materials engagement with the unit website and online resources etc).",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Completing weekly unit readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MSpecEd or GradDipSpecEd or MInc&SpecEd or GradDipInc&SpecEd or GradCertInc&SpecEd or GradCertLearnDiffSuppTeach or GradCertPosBehSuppTeach",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Analyse, synthesise and apply research in developing strategies to address an issue of significance in bringing about Disability Equity Education within diverse classrooms.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "30",
+        "description": "Weekly critical reflection task.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "This task requires students to undertake a case study involving critical analysis of relevant materials through the application of a Disability Equity Education lens",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "EDUC8210",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: EDUC8210"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: SPED8210"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Applied Behaviour Analysis for Special Educators",
+                "academic_item_code": "SPED8210",
+                "academic_item_url": "/2021/units/SPED8210"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC8210"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "EDUC8210 - Disability Equity Education",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on learning about Disability Equity Education and applying theoretical learning to practice.  A key focus will be on identifying barriers to education for many students, including a range of social, cultural, political, economic, and environmental barriers. There will be opportunities to critically examine and develop a range of strategies for addressing these barriers in order to ensure meaningful engagement with the curriculum for all students. Ableism and the social and affirmation models of disability will be explored. Topics will include consideration of neurodiversity, intersectionality, wellbeing, and the perspectives of people with lived experience of the oppression that constitutes disability.  Principles of social justice and equity, which underpin inclusive practices, will be examined in relation to international agreements, national legislation, policy and procedures, as well as contemporary research and practice.  The unit will also address effective collaboration with paraprofessionals to facilitate genuine participation and learning. The socio-cultural and historical context will also be considered in order to meaningfully engage with effective instruction. ",
+    "search_title": "EDUC8210 - Disability Equity Education",
+    "code": "EDUC8210",
+    "title": "Disability Equity Education",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on learning about Disability Equity Education and applying theoretical learning to practice.  A key focus will be on identifying barriers to education for many students, including a range of social, cultural, political, economic, and environmental barriers. There will be opportunities to critically examine and develop a range of strategies for addressing these barriers in order to ensure meaningful engagement with the curriculum for all students. Ableism and the social and affirmation models of disability will be explored. Topics will include consideration of neurodiversity, intersectionality, wellbeing, and the perspectives of people with lived experience of the oppression that constitutes disability.  Principles of social justice and equity, which underpin inclusive practices, will be examined in relation to international agreements, national legislation, policy and procedures, as well as contemporary research and practice.  The unit will also address effective collaboration with paraprofessionals to facilitate genuine participation and learning. The socio-cultural and historical context will also be considered in order to meaningfully engage with effective instruction. ",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T13:21:12.694",
+  "code": "EDUC8210",
+  "title": "Disability Equity Education",
+  "implementationYear": "2021"
+}

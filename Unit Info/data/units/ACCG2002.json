@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify key aspects of the commercial legal environment and the Australian corporate legislative framework and distinguish the legal characteristics of differing business organisations.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Recognise features of corporate functionality and management issues, including the role and obligations of directors and insolvency regulation.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse sources of funding and financing needs.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply investment and financing concepts to business decisions and critically evaluate financial viability including an exploration of financial models, forecasting capital expenditures, working capital needs and financing events.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparing for class and completing readings as required",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "FOBE202",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "50cp at 1000 level or above including BBA102 or MGMT1002",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment - Finance",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "40",
+        "description": "This task requires students to prepare a business plan in relation to specific instructions. The business plan should not exceed 2,500 words excluding financial tables.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz - Finance",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The online quiz will be administered via iLearn during the second half of the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz – Law",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The online quiz will be administered via iLearn during the first half of the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment - Law",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "20",
+        "description": "In this assessment students will be required to critically reflect on the key issues and principles of corporate functionality and management issues, including the role and obligations of directors and insolvency regulation. The submission should not exceed 1,000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG2002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG2002"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ACCG2002 - Finance and Regulation for New Ventures",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will introduce students to core financial and legal aspects of selecting, forming, structuring and running a business. Students will develop an understanding of relevant legal concepts and principles underpinning the regulation of business including corporate management responsibilities. By exposure to key aspects of financial planning, budgeting and capital raising students will be able to make commercially sound choices in relation to starting a business and comparing business structures. At the conclusion of the unit students will have gained a valuable perspective on commencing and running business operations and will have developed an understanding of the planning and financing of a business venture.",
+    "search_title": "ACCG2002 - Finance and Regulation for New Ventures",
+    "code": "ACCG2002",
+    "title": "Finance and Regulation for New Ventures",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will introduce students to core financial and legal aspects of selecting, forming, structuring and running a business. Students will develop an understanding of relevant legal concepts and principles underpinning the regulation of business including corporate management responsibilities. By exposure to key aspects of financial planning, budgeting and capital raising students will be able to make commercially sound choices in relation to starting a business and comparing business structures. At the conclusion of the unit students will have gained a valuable perspective on commencing and running business operations and will have developed an understanding of the planning and financing of a business venture.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T20:01:45.477",
+  "code": "ACCG2002",
+  "title": "Finance and Regulation for New Ventures",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,210 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse the issues and obstacles for delivering effective group interventions, particularly with Indigenous Australians, diverse, and vulnerable populations.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Evaluate behaviour consistent with the legal requirements, regulatory frameworks, guidelines and code of conduct relevant to psychologists.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply communication skills effectively in writing and through verbal communication.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Review and evaluate the current research and theory in the field of clinical group work, and create group interventions and treatments to test hypotheses generated from a client's presenting issues, particularly with Indigenous Australians.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Design, implement and evaluate psychological group intervention programs within the context of a multi-disciplinary team.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Group presentation practice",
+        "activity": {
+          "label": "Rehearsals",
+          "value": "rehearsals"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MProfPsych",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PSYP908",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Live Skills demonstration",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "50",
+        "description": "Students will submit a student led discussion of 25 minutes in groups of 4-5 students, recorded via zoom and submitted online. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group intervention report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "50",
+        "description": "In 2500 words, students will evaluate an appropriate intervention for group therapy.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Live Skills demonstration",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "50",
+        "description": "In groups, students present, for 25 minutes, a scenario for running a group. Students are assessed on their individual contribution to the presentation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Intensive-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYP8908"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYP8908"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Intensive attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PSYP8908 - Working with Groups",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides theory and skills training in group processes and group leadership.  As with other Units, this Unit is run in an experiential fashion to teach student to analyse group processes of both external and in-class groups.  The unit teaches strategies to lead and facilitate group therapy in a variety of contexts and with a variety of clinical client populations (e.g. anxiety, depression, agoraphobia, psychosis).  The application group modes for skills training, such as problem solving skills, social skills training and stress management, is taught. Knowledge of and development of skills for self-care practice are presented.  Practical considerations inherent in the application of group-treatment approaches, such as the integration of individuals differing with respect to age, sex, diagnosis and religion, are also addressed.",
+    "search_title": "PSYP8908 - Working with Groups",
+    "code": "PSYP8908",
+    "title": "Working with Groups",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides theory and skills training in group processes and group leadership.  As with other Units, this Unit is run in an experiential fashion to teach student to analyse group processes of both external and in-class groups.  The unit teaches strategies to lead and facilitate group therapy in a variety of contexts and with a variety of clinical client populations (e.g. anxiety, depression, agoraphobia, psychosis).  The application group modes for skills training, such as problem solving skills, social skills training and stress management, is taught. Knowledge of and development of skills for self-care practice are presented.  Practical considerations inherent in the application of group-treatment approaches, such as the integration of individuals differing with respect to age, sex, diagnosis and religion, are also addressed.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:12:30.042",
+  "code": "PSYP8908",
+  "title": "Working with Groups",
+  "implementationYear": "2021"
+}

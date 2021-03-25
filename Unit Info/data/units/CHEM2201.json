@@ -1,0 +1,238 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate effectively within the conventions of the molecular sciences discipline.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Explain the principles of a range of techniques used for the analysis and measurement employed in the molecular sciences.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply quantitative analysis methods and statistical techniques for the collection and analysis of data relevant to the molecular sciences.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop intermediary chemistry laboratory skills and understand and implement laboratory safety procedures. <br /><br />",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate an understanding of the concepts of molecular analysis and measurement in the molecular sciences.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Interpret and draw sound conclusions from analytical chemical data.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will need to prepare the lecture classes (x26), laboratory class (x5) and workshop classes (x6)",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(CHEM1001 or CBMS107 or CBMS103) and (CHEM1002 or CBMS108 or CBMS101 or CBMS102)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CBMS207, CBMS208, CBMS200",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "There will be two online quizzes to help you understand the concepts presented in the lectures.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Laboratory Work",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "25",
+        "description": "There will be 5 lab practicals with each lab assessment contributing 5%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Workshops",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "10",
+        "description": "There will be 6 workshops but only 4 workshops will be assessed. The assessment will be based on in class tasks and problem sets, with bonus marks available for optional take home exercises submitted after the classes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final 3 hour examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "45",
+        "description": "The final examination will be 3 hours in length with 10 minutes reading time, consisting of multiple choice and short answer questions. The final examination will cover all sections of the unit (lectures, lab practicals, workshops and assignments) and is designed to address specific understanding of all the concepts presented within the course.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-semester Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Mid Semester Test will be run in the Workshop and the topics within this test cover the basic data evaluation and the kinetics.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHEM2201"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHEM2201"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "CHEM2201 - Analysis and Measurement",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Molecular Sciences "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Analysis and measurement of the molecular composition and structure of matter is widely conducted in research and industry. Understanding the principles of molecular analysis and measurement is an essential part of any scientist&#39;s education. Molecular analysis involves separating molecules, measuring the molecular reaction rate (kinetics), determining identity, concentration and properties of analytes. This unit introduces the basic principles and approaches to undertake measurements of samples from across the chemical, biomolecular, microbiology and medical disciplines. Student will develop knowledge through lectures, tutorials, workshops and practicals, and gain hands-on experience with instrumentation used to make measurements and conduct analyses. The unit is a core component for students majoring in chemical and biomolecular sciences.",
+    "search_title": "CHEM2201 - Analysis and Measurement",
+    "code": "CHEM2201",
+    "title": "Analysis and Measurement",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Analysis and measurement of the molecular composition and structure of matter is widely conducted in research and industry. Understanding the principles of molecular analysis and measurement is an essential part of any scientist&#39;s education. Molecular analysis involves separating molecules, measuring the molecular reaction rate (kinetics), determining identity, concentration and properties of analytes. This unit introduces the basic principles and approaches to undertake measurements of samples from across the chemical, biomolecular, microbiology and medical disciplines. Student will develop knowledge through lectures, tutorials, workshops and practicals, and gain hands-on experience with instrumentation used to make measurements and conduct analyses. The unit is a core component for students majoring in chemical and biomolecular sciences.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:40:23.569",
+  "code": "CHEM2201",
+  "title": "Analysis and Measurement",
+  "implementationYear": "2021"
+}

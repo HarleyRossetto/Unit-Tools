@@ -1,0 +1,401 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Outline technology trends developing internationally in contemporary molecular science research",
+        "code": "ULO2"
+      },
+      {
+        "description": "Articulate in written and oral form cutting-edge achievements across the molecular sciences, and the manner by which key discoveries are made.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Communicate components of advanced molecular science knowledge as presented at local research seminars from across the discipline",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "BIOL700, CBMS700, COMP700, ENVG700, ENVS700, FOAR700, FOBE710, FOHS700, GEOS700, MATH700, MEDI711, MEDI712, PHYS700, STAT700",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Technology essay (draft) and viva",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "You will undertake supervised readings in a high-profile technology currently having breakthrough impact in molecular science.   \n\nFollowing selection of a specific sub-topic of interest, you will prepare an individual essay (~2500 words) outlining the molecular basis of this new technology, its development, and some recent applications.  You should include illustrative diagrams, which must be your own original artwork and referenced appropriately.\n\nYou will be assisted with a workshop on Report Writing,  and tutorials with your theme leader.  \n\nThe draft version of your essay will form the basis for a viva (~20 min) with your academic theme leader.  The grade awarded will reflect your demonstrated understanding of the molecular basis underlying the specific technology, and your awareness of the scientific impact and potential.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Annotated bibliography",
+        "type": {
+          "label": "Annotated bibliography",
+          "value": "annotated_bibliography"
+        },
+        "weight": "15",
+        "description": "You will collate an annotated list (20 - 30 papers) of literature read and analysed to prepare your Technology Essay.  Your bibliography should indicate each citation in an appropriate journal style, accompanied by 2-3 sentences summarising the impactful data/findings it reports. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Technology essay (final)",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "20",
+        "description": "This task initiates collaborative writing, as commonly utilised for research reporting .  You will re-submit (on time, to a designated length) an improved version of your Technology essay, incorporating feedback from your viva and your draft submission  \n\nThe grade awarded will reflect the degree to which you made improvements in response to feedback provided from your draft document. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Seminar attendance portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "10",
+        "description": "Weekly research seminars in the Molecular Sciences Department allow visiting scientists to convey research findings to a peer audience.  \n\nYou must record attendances at 10 research seminars across semester, each of 1 hr duration.\n\nYour portfolio may include research seminars held elsewhere in the University, or at institutions across the Sydney region. \n",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Seminar reflection",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "description": "Deliver a short presentation highlighting and critiquing one research seminar selected from your semester portfolio.  Your talk will be followed by questions from your academic moderators and fellow students. \n\nBy exploring background literature beyond the seminar speakers publications, you will give insight to concepts and findings presented by the speaker. You must also reflect on how this piece of research generally impacts across the molecular sciences.\n",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MOLS7900",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MOLS7900"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: BIOL7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Biology",
+                "academic_item_code": "BIOL7900",
+                "academic_item_url": "/2020/units/BIOL7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: COMP7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Computing 1",
+                "academic_item_code": "COMP7900",
+                "academic_item_url": "/2020/units/COMP7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: FOHS7000"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Human Sciences",
+                "academic_item_code": "FOHS7000",
+                "academic_item_url": "/2020/units/FOHS7000"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: STAT7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Statistics",
+                "academic_item_code": "STAT7900",
+                "academic_item_url": "/2020/units/STAT7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: ENVS7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Environmental Sciences",
+                "academic_item_code": "ENVS7900",
+                "academic_item_url": "/2020/units/ENVS7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: GEOS7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers: Advances in Earth and Environmental Sciences",
+                "academic_item_code": "GEOS7900",
+                "academic_item_url": "/2020/units/GEOS7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: MEDI7001"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Medical Research Foundations - Ethics, Integrity and Practice",
+                "academic_item_code": "MEDI7001",
+                "academic_item_url": "/2020/units/MEDI7001"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: FOAR7000"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Paradigms",
+                "academic_item_code": "FOAR7000",
+                "academic_item_url": "/2020/units/FOAR7000"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: MATH7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Mathematics",
+                "academic_item_code": "MATH7900",
+                "academic_item_url": "/2020/units/MATH7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: MQBS7010"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Business and Economics",
+                "academic_item_code": "MQBS7010",
+                "academic_item_url": "/2020/units/MQBS7010"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: PHYS7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Physics and Astronomy 1",
+                "academic_item_code": "PHYS7900",
+                "academic_item_url": "/2020/units/PHYS7900"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MOLS7900-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MOLS7900"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MOLS7900 - Research Frontiers in Chemistry and Biomolecular Sciences",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Molecular Sciences "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to engage students with those topics currently dominating the chemical and biomolecular sciences. It will expose students to current research questions across the range of the broad discipline. Activities are based on seminar attendance, as well as directed reading of research papers and the discussion and critiquing of research topics in written and seminar forms. Students will be guided to a range of readings that engage new directions of scientific thought and break-through methodologies, such as recent Nobel Prize-winning outcomes. This unit will allow students to reflect on current trends and to communicate changes underway.",
+    "search_title": "MOLS7900 - Research Frontiers in Chemistry and Biomolecular Sciences",
+    "code": "MOLS7900",
+    "title": "Research Frontiers in Chemistry and Biomolecular Sciences",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to engage students with those topics currently dominating the chemical and biomolecular sciences. It will expose students to current research questions across the range of the broad discipline. Activities are based on seminar attendance, as well as directed reading of research papers and the discussion and critiquing of research topics in written and seminar forms. Students will be guided to a range of readings that engage new directions of scientific thought and break-through methodologies, such as recent Nobel Prize-winning outcomes. This unit will allow students to reflect on current trends and to communicate changes underway.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T13:38:15.096",
+  "code": "MOLS7900",
+  "title": "Research Frontiers in Chemistry and Biomolecular Sciences",
+  "implementationYear": "2021"
+}

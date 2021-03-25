@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate skills in reviewing, analysing, and synthesizing historians' use of archival evidence and argumentation.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate written and verbal communication skills to present a clear and coherent exposition of historical knowledge.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify and reflect critically upon the knowledge and skills developed in the student’s own study of history.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate initiative and judgment in historical scholarship.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate coherent and advanced knowledge of some of history’s principles, methods, and concepts.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading and Thinking about set materials; research into additional archives for assessment. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MHIS700",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to BPhil/MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Reflective Journal",
+        "type": {
+          "label": "Log book",
+          "value": "log_book"
+        },
+        "weight": "20",
+        "description": "This unit has a online blog--open to and visible to all students enrolled in the unit--on which students will maintain an individual journal. Students need to make five (5) posts over the course of the semester. Each post needs to be 200-300 words in length. A post needs to be made after the seminar has met and should reflect on the week&#39;s theme, the connections between the theme and the readings, and should include any insights gained from class discussions and any questions or problems that still remain.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Synthetic Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Students will write a critically reflective 3,000-3,500-word essay that engages with at least six (6) weekly topics. Students should devise their own essay question relating to the unit theme of archive and the problems of archival research, and have complete free rein in doing so.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Analytical essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Students must complete a 1,500-2,000-word preliminary analysis of one piece of self-located historical evidence. Students are free to choose any type of evidence (eg. a document, an object, a piece of art, etc).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MHIS7001-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS7001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MHIS7001-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS7001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MHIS7001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS7001"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MHIS7001 - Archives: Sources and Silences",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Archival research is understood to be the foundation of the practice of professional historical inquiry. These various historical artefacts are considered our window onto past lives, experiences and processes. As any historian will admit, however, archives are always partial, incomplete and imperfect. So too, the processes by which certain kinds of knowledge is retained and other kinds of knowledge discarded, dismissed or concealed reveals the inherently politicized character of archival collection. This unit will critically and historically consider the relationship between the historian, archives and the past. How and when did modern “archives” emerge? What was their purpose? What are the implications for historical authority if we admit that the foundation of our disciplinary practice is always incomplete and partial? What new archives have emerged in late modernity? Is the internet one huge and unruly archive?",
+    "search_title": "MHIS7001 - Archives: Sources and Silences",
+    "code": "MHIS7001",
+    "title": "Archives: Sources and Silences",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Archival research is understood to be the foundation of the practice of professional historical inquiry. These various historical artefacts are considered our window onto past lives, experiences and processes. As any historian will admit, however, archives are always partial, incomplete and imperfect. So too, the processes by which certain kinds of knowledge is retained and other kinds of knowledge discarded, dismissed or concealed reveals the inherently politicized character of archival collection. This unit will critically and historically consider the relationship between the historian, archives and the past. How and when did modern “archives” emerge? What was their purpose? What are the implications for historical authority if we admit that the foundation of our disciplinary practice is always incomplete and partial? What new archives have emerged in late modernity? Is the internet one huge and unruly archive?",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T14:04:14.158",
+  "code": "MHIS7001",
+  "title": "Archives: Sources and Silences",
+  "implementationYear": "2021"
+}

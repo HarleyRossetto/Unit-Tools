@@ -1,0 +1,215 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply research-based strategies for building depth of understanding in Commerce, Economics and Business Studies.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Design engaging assessment for learning sequences that align curriculum, instruction, assessment and reporting.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Critically reflect and use feedback from assessment data, observation, peer evaluation and lecturer evaluation to enhance learning outcomes.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate in-depth, broad and coherent knowledge of students’ varied backgrounds and abilities and cater for these needs by differentiating the instruction.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Plan for, implement and critically reflect on effective units of work in Commerce, Economics and Business Studies.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Select, organise and evaluate teaching resources and content in order to achieve learning outcomes.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Completion of readings and online activities",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "EDST8237",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assessment for learning task ",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "45",
+        "description": "Students are required to (1) design an assessment for learning task (2) develop engaging, purposeful and age appropriate activities together with supporting resources for each task (3) effectively align criteria, instruction, assessment, feedback, reporting and record keeping (4) provide a structures rationale for thir approach (500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Curriculum overview ",
+        "type": {
+          "label": "Summary",
+          "value": "summary"
+        },
+        "weight": "35",
+        "description": "Students are required to (1) produce an overview of an allocated Commerce topic (2) develop a set of engaging and appropriate resources/activities (3) prepare a logically structured and engaging 15 minute lesson (4) justify the resources selected and pedagogical approach using a structured rationale (500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online task participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "A grade will be awarded based on the quality of work completed in online tasks. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8230"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8230"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8230"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "EDST8230 - Teaching Economics and Business Studies in the Secondary School 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is concerned with the teaching of Economics, Commerce and Business Studies in the secondary school. Throughout the unit, students will develop and integrate an in-depth, broad and coherent knowledge of recent syllabus developments and various approaches to teaching. At the conclusion of the unit students are expected to demonstrate considerable expertise in the development and teaching of content and skills selected from the relevant syllabus documents.",
+    "search_title": "EDST8230 - Teaching Economics and Business Studies in the Secondary School 1",
+    "code": "EDST8230",
+    "title": "Teaching Economics and Business Studies in the Secondary School 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is concerned with the teaching of Economics, Commerce and Business Studies in the secondary school. Throughout the unit, students will develop and integrate an in-depth, broad and coherent knowledge of recent syllabus developments and various approaches to teaching. At the conclusion of the unit students are expected to demonstrate considerable expertise in the development and teaching of content and skills selected from the relevant syllabus documents.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:00:31.78",
+  "code": "EDST8230",
+  "title": "Teaching Economics and Business Studies in the Secondary School 1",
+  "implementationYear": "2021"
+}

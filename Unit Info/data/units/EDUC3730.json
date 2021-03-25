@@ -1,0 +1,230 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate understanding of the cultural and social context of language learning in the Australian context.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate knowledge of strategies to support all learners in literacy success.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate understanding of Second language acquisition.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate understanding of issues of equity in literacy across the curriculum.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate understanding of reading and writing difficulties in EALD students.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate knowledge of key terms used in literacy in a multicultural society.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Occasional preparatory activities required to enhance learning experience and support completion of assessment tasks",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "EDUC343, EDUC373",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Literacy needs analysis",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "45",
+        "description": "Critical analysis of specific literacy needs for a specific content area, design of pedagogical strategies. 2000 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "45",
+        "description": "An examination of key concepts and principles addressed in the unit (1.5 hour exam)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation: ",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Demonstration of participation in flipped learning tutorial activities, online forums",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC3730"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC3730"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC3730"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "EDUC3730 - Literacy in a Multicultural Society",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The aim of this unit is to extend knowledge of current theories, research and practice relevant to the teaching of literacy in global multicultural contexts. The emphasis is on learners of all ages from diverse social and cultural backgrounds, including those who are experiencing reading and writing difficulties. It is therefore relevant to the teaching of students using English as an additional language.",
+    "search_title": "EDUC3730 - Literacy in a Multicultural Society",
+    "code": "EDUC3730",
+    "title": "Literacy in a Multicultural Society",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The aim of this unit is to extend knowledge of current theories, research and practice relevant to the teaching of literacy in global multicultural contexts. The emphasis is on learners of all ages from diverse social and cultural backgrounds, including those who are experiencing reading and writing difficulties. It is therefore relevant to the teaching of students using English as an additional language.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:25:16.152",
+  "code": "EDUC3730",
+  "title": "Literacy in a Multicultural Society",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,210 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Continue to develop skills in designing, implementing and evaluating lesson sequences using knowledge of the NSW Curriculum Framework, NESA syllabuses and other curriculum requirements of the Education Act.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop an ethical stance on environmental education and assume responsibility for influencing the direction of early childhood practice in order to ensure sustainability for the future.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate research-based knowledge of the models of pedagogy for teaching and assessing mathematics and science and technology.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Continue to develop an understanding of the major theoretical developments in early childhood mathematics, science and technology education.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Develop skills in integrating information and communication technologies (ICT) within effective teaching and learning strategies to expand opportunities for students in mathematics and science learning.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Demonstrate knowledge of mathematical concepts and processes in the area of patterns and algebra, and space and geometry.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate knowledge of scientific concepts and processes related to the natural environment and physical and material worlds.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Review weekly lecture content ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students are required to complete weekly readings.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Identify and evaluate appropriate apps and/or online science learning resource/s (digital resources) to support science learning.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECH335, ECH234",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "ECH232 or ECHE2320",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Science and Technology unit: 5 sequential learning experiences ",
+        "type": {
+          "label": "Lesson plan",
+          "value": "lesson_plan"
+        },
+        "weight": "50",
+        "description": "This assessment evaluates pre-service teachers’ capabilities to critically review, select, plan for and utilise app/s and/or science-related online resources to support students as they develop, represent and communicate/share their understandings within a science-focused unit. (2500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "– Mathematics across the curriculum: Using literacy as a tool in mathematics (1800 words)",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "50",
+        "description": "For this assessment task you are required to select a high-quality children’s story book that has the potential to enhance children’s mathematical learning and development in a Stage 2 or Stage 3 setting.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECHE2340-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE2340"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECHE2340-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE2340"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Infrequent attendance, North Ryde<br />",
+    "subject_search_title": "ECHE2340 - Teaching and Learning Mathematics, Science and Technology 2",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit has a particular focus on the Statistics and Probability, Measurement and Geometry and Number strategies for K-6 students. The unit also addresses the strands of made environments and natural environments and focuses on the sub strands physical world, material world, built environments, products, information and material world. Here the importance of environmental education and sustainability for the future is also addressed, as well as effective technology integration. The unit builds on knowledge gained in ECH2320 and continues to develop students&#39; understanding of the processes of learning, teaching and assessing mathematics, science and technology. This unit is the second in a series of core units across these KLAs.",
+    "search_title": "ECHE2340 - Teaching and Learning Mathematics, Science and Technology 2",
+    "code": "ECHE2340",
+    "title": "Teaching and Learning Mathematics, Science and Technology 2",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit has a particular focus on the Statistics and Probability, Measurement and Geometry and Number strategies for K-6 students. The unit also addresses the strands of made environments and natural environments and focuses on the sub strands physical world, material world, built environments, products, information and material world. Here the importance of environmental education and sustainability for the future is also addressed, as well as effective technology integration. The unit builds on knowledge gained in ECH2320 and continues to develop students&#39; understanding of the processes of learning, teaching and assessing mathematics, science and technology. This unit is the second in a series of core units across these KLAs.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-16T15:54:13.832",
+  "code": "ECHE2340",
+  "title": "Teaching and Learning Mathematics, Science and Technology 2",
+  "implementationYear": "2021"
+}

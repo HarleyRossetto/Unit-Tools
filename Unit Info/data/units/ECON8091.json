@@ -1,0 +1,273 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Recognise and relate the relevance of economic theory to the wider business environment and describe the link between these theories to the practical application of individual businesses.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Evaluate the role of the government and the central bank and the instruments available to them to manage the economy.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply a range of techniques including calculations and manipulation of diagrammatic representations to solve problems related to economic concepts and models.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply key microeconomic and macroeconomic theory and suggest solutions to real business problems.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Critically appraise key economic concepts, models and theories of microeconomics and macroeconomics.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "The Unit relies heavily on independent learning where students read the relevant chapter, revise the lecture notes, prepare answers to the pre-set tutorial questions and extend themselves by doing additional reading, questions, and exercises.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MActPrac",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECON649, ECON860, ECON861, ECON912, ECON913, ECON991",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "The final exam for this unit will be held during the University Examination Period. The closed book exam will be 3 hours plus 10 minutes reading time. All topics studied during the session are examinable. More detail about the structure of the exam will be provided towards the end of the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "This assignment will be a selection of problems requiring the application of the theory and knowledge of the examples considered in the lectures and readings throughout the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid session test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The mid session test covers the models and techniques covered in the first 6 to 7 weeks of the session. It also prepares students for the format and difficulty of the final exam.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ECON8091",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ECON8091"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ECON6049"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Economic Analysis",
+                "academic_item_code": "ECON6049",
+                "academic_item_url": "/2020/units/ECON6049"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: ECON8012"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Applied Microeconomic Topics",
+                "academic_item_code": "ECON8012",
+                "academic_item_url": "/2020/units/ECON8012"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: ECON8013"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Applied Macroeconomic Topics",
+                "academic_item_code": "ECON8013",
+                "academic_item_url": "/2020/units/ECON8013"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECON8091-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON8091"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECON8091-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON8091"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ECON8091 - Economics for Actuaries",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Economics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The aim of this unit is to provide a postgraduate-level foundation in modern economic analysis, with applications to decision making in business, for postgraduate actuarial students. The unit provides students with the knowledge and tools to use microeconomic and macroeconomic theory and concepts in analysing business decision making and an understanding of the broader social, economic and regulatory environment in which businesses operate. Students gaining a Credit or higher in this unit will satisfy the requirements for exemption from professional subject CB2 of the Actuaries Institute.",
+    "search_title": "ECON8091 - Economics for Actuaries",
+    "code": "ECON8091",
+    "title": "Economics for Actuaries",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The aim of this unit is to provide a postgraduate-level foundation in modern economic analysis, with applications to decision making in business, for postgraduate actuarial students. The unit provides students with the knowledge and tools to use microeconomic and macroeconomic theory and concepts in analysing business decision making and an understanding of the broader social, economic and regulatory environment in which businesses operate. Students gaining a Credit or higher in this unit will satisfy the requirements for exemption from professional subject CB2 of the Actuaries Institute.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-07T09:00:34.905",
+  "code": "ECON8091",
+  "title": "Economics for Actuaries",
+  "implementationYear": "2021"
+}

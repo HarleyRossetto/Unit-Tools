@@ -1,0 +1,247 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Collaborate and communicate with others in a professional setting.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate a detailed knowledge of IPv4 routing technology and implement and troubleshoot IPv4 routed network.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Develop an understanding of networking fundamentals.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Conduct professional work ethically with a high level of integrity, autonomy, and accountability.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Understand, build, configure and troubleshoot switched Ethernet LANs and Virtual LANs.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain IP addressing schemes and troubleshoot IPv4 address problems.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading and class preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "COMP6250 or ITEC647",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Weekly Practical",
+        "type": {
+          "label": "Design Implementation",
+          "value": "design_impl"
+        },
+        "weight": "10",
+        "description": "Practical marks are obtained by attendance of practical sessions and making a suitable attempt at the practical work during the session.  The practical work in this unit makes up <strong>10%</strong> of the mark. To receive marks student must attend the practical section and demonstrate completion of the section to the practical supervisor. Earning the marks will require not only successful completion of the exercises, but presentation of appropriate documentation, as outlined in the question sheets. Student should complete the practical session in the week it is allocated.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Lab examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "&#39;Closed book&#39; Practical exam to be held at the end of the teaching period during the examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Module Exams",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "10",
+        "description": "The module examinations ask students to answer conceptual questions about the course material as well as solve simple networking problems.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "20",
+        "description": "Students will be presented with a situation showing details of how an organization’s network is currently working inefficiently. Students will research and determine the best configuration to help improve this network’s performance. They will need to explain and support the decisions and be able to explain how the changes that are suggested will be of benefit to the organization including describing how the changes will be managed and implemented",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "10",
+        "description": "The purpose of the problem-solving assignment is to help the students to get accustomed to dealing with real world networking problem situations/issues. It is designed to help students analyse problems and find best solutions to these problems. Some questions may require an in-depth research and will be a process to come up with an acceptable and reasonable answer<br /><br />",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "Two hour, &#39;closed book&#39; exam to be held at the end of teaching period during the examination period",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "COMP6260-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP6260"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "COMP6260-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP6260"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "COMP6260 - Cisco Networking I",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to impart practical skills in designing, configuring, installing, and troubleshooting computer internetworks using equipment such as routers and switches. This unit allows students to develop knowledge and expertise in key areas such as IP fundamentals, LAN Switching, IP addressing, and routing. It allows students to expand their skill set by providing exposure to Cisco equipment thereby enabling them to better understand the design and implementation of various networking technologies and protocols. Using various assessment tasks, this unit also aims to enhance students&#39; skills in critical thinking and problem solving.",
+    "search_title": "COMP6260 - Cisco Networking I",
+    "code": "COMP6260",
+    "title": "Cisco Networking I",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to impart practical skills in designing, configuring, installing, and troubleshooting computer internetworks using equipment such as routers and switches. This unit allows students to develop knowledge and expertise in key areas such as IP fundamentals, LAN Switching, IP addressing, and routing. It allows students to expand their skill set by providing exposure to Cisco equipment thereby enabling them to better understand the design and implementation of various networking technologies and protocols. Using various assessment tasks, this unit also aims to enhance students&#39; skills in critical thinking and problem solving.",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-25T13:06:54.177",
+  "code": "COMP6260",
+  "title": "Cisco Networking I",
+  "implementationYear": "2021"
+}

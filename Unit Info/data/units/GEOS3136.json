@@ -1,0 +1,233 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate matters relevant to marine science effectively to colleagues and the public as well as grasp and synthesise information from oral presentations and the literature",
+        "code": "ULO3"
+      },
+      {
+        "description": "Assess and plan for future careers through the recognition and development of transferable skills and reflection on professional ethics",
+        "code": "ULO5"
+      },
+      {
+        "description": "Work effectively within a marine science environment, demonstrating an understanding of the importance of interdisciplinary linkages and how marine processes are of relevance to the wider community",
+        "code": "ULO4"
+      },
+      {
+        "description": "Develop and manage a research project to investigate a specific marine science issue.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply theoretical, practical and analytical skills to a real world research project in marine science",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Research and reading",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Reflection",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "20cp from BIOL373 or GEOS309 or ENVE301 or ENVS301 or BIOL3440 or GEOS3130 or ENVS3101",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "120cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "GEOS335",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Data report and Presentation",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "45",
+        "description": "Students will summarise their research findings into a written report and will give a group oral presentation on their research project",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Online professional profile",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "15",
+        "description": "Students will build a professional online presence in stages throughout the unit",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflective journal",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "10",
+        "description": "Students will complete a reflection on their experience of planning and executing a research project and how that experience has informed their future plans",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project proposal and scientific notebooks",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "30",
+        "description": "Students will write a group project proposal prior to commencing activities, and will keep an individual scientific notebook to document their research project",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOS3136"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOS3136"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "GEOS3136 - Applied Marine Science",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Earth and Environmental Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "In this interdisciplinary PACE and capstone unit students consolidate their learning across the biological, earth and environmental science subjects and prepare themselves for appropriate transition to the next stage of their careers. This involves active reflection on prior learning, building and articulating a positive self-understanding, exploring opportunities, clarifying goals, acquiring adequate employability and workplace skills, and building linkages with professional communities and industries. A series of activities including guest speakers will facilitate students&#39; reflection on their studies and desires for their own career paths. The course also covers key topics such as communicating science, the publication and review process, research ethics, and career pathways.",
+    "search_title": "GEOS3136 - Applied Marine Science",
+    "code": "GEOS3136",
+    "title": "Applied Marine Science",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this interdisciplinary PACE and capstone unit students consolidate their learning across the biological, earth and environmental science subjects and prepare themselves for appropriate transition to the next stage of their careers. This involves active reflection on prior learning, building and articulating a positive self-understanding, exploring opportunities, clarifying goals, acquiring adequate employability and workplace skills, and building linkages with professional communities and industries. A series of activities including guest speakers will facilitate students&#39; reflection on their studies and desires for their own career paths. The course also covers key topics such as communicating science, the publication and review process, research ethics, and career pathways.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:37:06.028",
+  "code": "GEOS3136",
+  "title": "Applied Marine Science",
+  "implementationYear": "2021"
+}

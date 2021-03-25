@@ -1,0 +1,246 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply ethical, legal, regulatory and funding requirements to the delivery of physiotherapy and healthcare services <strong>(Professional)</strong>",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply the concepts of leadership and advocacy to enhance the delivery of physiotherapy and health related services, particularly to address health inequalities prevalent in diverse populations including Aboriginal and Torres Strait Islanders <strong>(Engaged Global Citizen)</strong>",
+        "code": "ULO2"
+      },
+      {
+        "description": "Utilise leadership strategies and common business structures and principles relevant to the delivery of physiotherapy services to create solutions to contemporary healthcare issues <strong>(Engaged Global Citizen)</strong>",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply principles of teamwork, leadership, marketing and advocacy to develop solutions to a range of problems within healthcare <strong>(Professional)</strong>",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "You will be required to prepare for lectures and workshops by engaging in preparatory work, such as readings, online videos and discussion forums.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "You will engage in interactive discussion forums and other multimedia resources to consolidate learning and connect with academic staff and peers",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": "Session 2-Special"
+      },
+      {
+        "description": "You will be expected to consolidate knowledge and skills acquired in the scheduled learning activities by engaging in independent research on key topics.",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "PHTY8207 or PHTY815",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Advocacy video and reflection ",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "40",
+        "description": "You will work in small groups to create an advocacy video in conjunction with PHTY8308, accompanied by a short campaign presentation. You will submit an individual written reflection on your advocacy campaign, discussing the process involved in developing this campaign and changes you might make to enhance its impact.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Advocacy video and plan",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "30",
+        "description": "You will create a brief advocacy video aimed at enhancing the delivery of physiotherapy or other health related services, as well as a brief written plan outlining the aim of the video and the context in which this advocacy is situated.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Leadership portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "30",
+        "description": "You will outline areas you would like to focus on in order to expand your leadership skills and collect evidence within a blog of your leadership journey.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Business Plan ",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "40",
+        "description": "You will create a brief business plan for a physiotherapy or healthcare service. As part of the plan you will develop marketing, business management and financial strategies.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Leadership portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "20",
+        "description": "You will outline one area you would like to focus on in order to expand your leadership skills and collect evidence within a blog of your leadership journey.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8307"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8307"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PHTY8307 - Leadership, Advocacy and Business for Health Professionals",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Health Professions"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will further enhance your leadership skills by exploring aspects of business and advocacy with a focus on delivering innovative, high quality health care and addressing healthcare inequities. You will examine different business structures and discuss the impact of legal, regulatory and funding issues on healthcare delivery. You will also explore how current political, social and professional issues may give rise to inequities in healthcare systems and develop strategies to advocate potential changes. You will have the opportunity to present innovative and creative business solutions to healthcare problems.",
+    "search_title": "PHTY8307 - Leadership, Advocacy and Business for Health Professionals",
+    "code": "PHTY8307",
+    "title": "Leadership, Advocacy and Business for Health Professionals",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will further enhance your leadership skills by exploring aspects of business and advocacy with a focus on delivering innovative, high quality health care and addressing healthcare inequities. You will examine different business structures and discuss the impact of legal, regulatory and funding issues on healthcare delivery. You will also explore how current political, social and professional issues may give rise to inequities in healthcare systems and develop strategies to advocate potential changes. You will have the opportunity to present innovative and creative business solutions to healthcare problems.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:13:03.355",
+  "code": "PHTY8307",
+  "title": "Leadership, Advocacy and Business for Health Professionals",
+  "implementationYear": "2021"
+}

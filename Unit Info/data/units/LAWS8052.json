@@ -1,0 +1,250 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain and critique linkages between international environmental law and international trade law through an enquiring, critical and creative approach to the existing debates and tensions surrounding the trade-environment nexus.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critique key institutions and actors through which international environmental law and international trade law interact.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Assess where the relationship between international environmental law and international trade law can be expected to develop in the future, especially having regard to the objectives of sustainable development and making recommendations for policy development and institutional reform.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Explain and critically assess how law, politics and the self-interest of nation-states play a critical role in the inter-relationship of trade, environment and sustainable development.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate the relationship between trade-related economic growth and the environmental impacts in the pursuit for sustainable development, especially as related to the interests of developing countries.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "prescribed readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LAW852",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(Admission to JD and 80cp in LAWS or LAW units at 6000 level or above) or (admission to LLM or MIntTrdeComLaw) ",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Assignment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "Students will provide a written response to a set question designed to stimulate inquiry into conceptual linkages underpinning the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Synopsis",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "10",
+        "description": "Students will outline their research topic, including literature review.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Paper",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Research paper on topic identified in the Synopsis.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students will be required to contribute to in class and/or online discussions, debates and other class activities",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LAWS8052-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8052"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8052-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8052"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8052-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8052"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8052-unit_teaching_period-Intensive-subject",
+        "display_name": "Session 1-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8052"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Intensive attendance, North Ryde<br />Session 1, Special circumstances<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "LAWS8052 - Trade and Environment Law",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines the ways in which trade and environment issues are addressed in a variety of international legal instruments, ranging from, the United Nations through to global and regional free trade agreements. It provides an overview of international institutions, policies and instruments such as the UN, GATT, the WTO, NAFTA, the World Bank and the IMF as they relate to environmental issues. It also, where appropriate, compares the achievements of one legal instrument with those of others in the area of trade and the environment. It particularly focuses on the interests and concerns of developing countries on this pressing issue.",
+    "search_title": "LAWS8052 - Trade and Environment Law",
+    "code": "LAWS8052",
+    "title": "Trade and Environment Law",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines the ways in which trade and environment issues are addressed in a variety of international legal instruments, ranging from, the United Nations through to global and regional free trade agreements. It provides an overview of international institutions, policies and instruments such as the UN, GATT, the WTO, NAFTA, the World Bank and the IMF as they relate to environmental issues. It also, where appropriate, compares the achievements of one legal instrument with those of others in the area of trade and the environment. It particularly focuses on the interests and concerns of developing countries on this pressing issue.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T15:09:03.942",
+  "code": "LAWS8052",
+  "title": "Trade and Environment Law",
+  "implementationYear": "2021"
+}

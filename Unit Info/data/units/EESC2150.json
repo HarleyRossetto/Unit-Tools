@@ -1,0 +1,232 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "integrate scientific data from multiple sources to solve real-world problems and effectively communicate scientific information to experts and non-experts.",
+        "code": "ULO3"
+      },
+      {
+        "description": "identify and analyse common sedimentary, metamorphic and igneous rocks to deduce how they formed.",
+        "code": "ULO2"
+      },
+      {
+        "description": "observe, understand and record geological information in the field to map rocks and structures and interpret geological history including mass extinctions.",
+        "code": "ULO1"
+      },
+      {
+        "description": "develop team work, problem solving and project management skills to assess geological settings in Earth's past.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Assigned readings ~1.5 hours weekly = 17 hours",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "EESC1150 (or GEOS112 or GEOS1110 or GEOS125 or GEOS1120 or GEOS126 or GEOS1130)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Weekly Quizzes ",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Short weekly quizzes that test knowledge of lecture and workshop material and may be online or in class. See iLearn for a detailed list of quizzes in this unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Final examination that requires the application of skills and knowledge developed in this unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Literature Review ",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "20",
+        "description": "A summary, interpretation or an evaluation of research findings in a field of study. See iLearn for details of the literature review.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Field Report",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "25",
+        "description": "A report comprising multiple components that may include preparation for going in the field, field-based tasks and analysis of data collected in the field. See iLearn for details.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "EESC2150",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: EESC2150"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: GEOS2130"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.01R",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Marine Sediments: Records of Past Earth",
+                "academic_item_code": "GEOS2130",
+                "academic_item_url": "/2021/units/GEOS2130"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EESC2150"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "EESC2150 - Mass extinctions and the hidden history of Earth",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Earth and Environmental Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "252 million years ago life on our planet was nearly exterminated: 96% of marine life and over 70% of terrestrial life went extinct. The causes for this mass extinction are still debated. In this unit we explore the geological history of this event. You will visit the site of the extinction boundary on a field trip and develop geological skills to understand the paleoenvironment and Earth processes that were changing at this time. You will interrogate continental reconstructions to uncover why there were glaciers near Sydney in the Permian and delve into the mantle to understand volcanoes, large igneous provinces and their devastating hazards. You will discuss how and why the magnetic field was changing at this time and investigate sediments and geochemistry to understand the link between Earth&#39;s interior and the surface. Through this analysis, we will try to understand one of the biggest questions in Earth Science: what caused the Permo-Triassic mass extinction? You will develop your skills in field work and geological mapping, rock and mineral identification in hand samples and under the microscope, viewing and probing global datasets and continent reconstructions, analysing geochemical data, and synthesising data to address scientific questions. This is a topical elective for those interested in how geoscience informs current and future environmental crises.",
+    "search_title": "EESC2150 - Mass extinctions and the hidden history of Earth",
+    "code": "EESC2150",
+    "title": "Mass extinctions and the hidden history of Earth",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "252 million years ago life on our planet was nearly exterminated: 96% of marine life and over 70% of terrestrial life went extinct. The causes for this mass extinction are still debated. In this unit we explore the geological history of this event. You will visit the site of the extinction boundary on a field trip and develop geological skills to understand the paleoenvironment and Earth processes that were changing at this time. You will interrogate continental reconstructions to uncover why there were glaciers near Sydney in the Permian and delve into the mantle to understand volcanoes, large igneous provinces and their devastating hazards. You will discuss how and why the magnetic field was changing at this time and investigate sediments and geochemistry to understand the link between Earth&#39;s interior and the surface. Through this analysis, we will try to understand one of the biggest questions in Earth Science: what caused the Permo-Triassic mass extinction? You will develop your skills in field work and geological mapping, rock and mineral identification in hand samples and under the microscope, viewing and probing global datasets and continent reconstructions, analysing geochemical data, and synthesising data to address scientific questions. This is a topical elective for those interested in how geoscience informs current and future environmental crises.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-04T13:21:23.057",
+  "code": "EESC2150",
+  "title": "Mass extinctions and the hidden history of Earth",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply advanced skills in research literacy to locate, interpret and transmit knowledge and ideas",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate knowledge of current research in anatomy and chiropractic",
+        "code": "ULO1"
+      },
+      {
+        "description": "Synthesise and analyse complex information regarding anatomical and chiropractic research from a wide variety of sources",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify, reflect on, and discuss, knowledge gaps in anatomical and chiropractic research with intellectual independence",
+        "code": "ULO5"
+      },
+      {
+        "description": "Critically analyse research quality and present peer reviewed literature in formats suitable to a variety of audiences (specialist and non­specialist)",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "HLTH700",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Public plain language piece",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "10",
+        "description": "Students will submit a 750-word plain language science piece summarising a recent journal publication (published in the last 12 months) in the field of chiropractic/anatomy research that would be of interest to the general public. The article will be written in the style for publication in The Conversation (https://theconversation.com/au).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online ethics tutorial",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "5",
+        "description": "All students must complete the Canadian Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans (TCPS 2) tutorial and submit proof of completion (emailed copy of certificate from the tutorial).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "35",
+        "description": "You will prepare a written literature review (2,500 words) discussing a significant area of research within chiropractic or anatomy. To prepare for this essay, you will first need to attend (or view) a workshop addressing report writing and/or referencing skills. You will be advised if this will be a training session offered through the library or the University’s HDR Unit. You may view a webinar, provided the material is extensive and relevant to scientific report writing.\n\nYour grade will be determined by: (i) the extent and relevance of literature covered; (ii) the degree of insight and critical appraisal of the literature discussed; and (iii) the formatting quality of your written work.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Journal club presentation and 2-page summary",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "description": "Students will present a critical summary of a journal article of their choice. A 2-page written summary will be due on the same day as the presentation. Students will be expected to provide an overview of the paper, a critical evaluation of the paper’s content (using an appropriate critical appraisal framework), and a summary of the main messages. The student will also be expected to facilitate a short discussion with the class about the content of the paper.\n\nThe chosen journal article must be a ‘landmark research paper’. That is, it should be an established publication that has made a significant impact in the field of chiropractic/anatomy research, as evidenced by high levels of citation, either by providing a novel methodological advance or a significant conceptual breakthrough in healthcare.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Seminar participation and report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "25",
+        "description": "Attend eight research seminars/workshops (each minimum 50 minutes duration) throughout the Semester. Students can tailor a training program to suit their research training needs; students should speak with their supervisor/s about options for this. Research seminars/workshops may include department research seminars, the Spinal Pain Research Group meetings, relevant training workshops (e.g. Endnote training), research seminars by other Macquarie departments etc. \n\nProvide a written report (2,000 words) documenting seminars/courses attended and skills and knowledge gained from your participation. This report must include a detailed critique for two of the attended research seminars.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "To be determined",
+        "teaching_period": {
+          "value": "To be determined"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HLTH7900"
+        }
+      }
+    ],
+    "unit_offering_text": "To be determined<br />",
+    "subject_search_title": "HLTH7900 - Research Frontiers in Anatomy and Chiropractic",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Chiropractic "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit students will acquire an advanced conceptual knowledge of a range of topics within anatomical and clinical sciences research. Students will attend seminars focused on ongoing research projects from within the University and will attend appropriate library training workshops. Students will participate in peer led discussions and activities, advancing their literature critique capabilities and research communication skills.",
+    "search_title": "HLTH7900 - Research Frontiers in Anatomy and Chiropractic",
+    "code": "HLTH7900",
+    "title": "Research Frontiers in Anatomy and Chiropractic",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit students will acquire an advanced conceptual knowledge of a range of topics within anatomical and clinical sciences research. Students will attend seminars focused on ongoing research projects from within the University and will attend appropriate library training workshops. Students will participate in peer led discussions and activities, advancing their literature critique capabilities and research communication skills.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:09:12.697",
+  "code": "HLTH7900",
+  "title": "Research Frontiers in Anatomy and Chiropractic",
+  "implementationYear": "2021"
+}

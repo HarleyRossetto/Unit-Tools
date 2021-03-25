@@ -1,0 +1,386 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "develop and apply skills and concepts involved in ethical reasoning and argumentation to past, current and future controversies in biotechnological and other sciences",
+        "code": "ULO3"
+      },
+      {
+        "description": "analyse and critically evaluate relevant case studies and scientific contexts, as well as theories and arguments in the relevant literature.",
+        "code": "ULO2"
+      },
+      {
+        "description": "construct sound arguments in support of your own ethical positions, judgements and values.",
+        "code": "ULO4"
+      },
+      {
+        "description": "demonstrate a sound understanding of the major ethical issues posed by specific biotechnological advances.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Express orally and in written communication with improved clarity of thought, expression, and argumentation.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students access online resources on the unit iLearn.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students prepare for online and tutorial discussions by reviewing weekly lecture notes.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students complete weekly assigned readings.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CBMS807, ELS860, PHIL260, PHL260",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "On-campus examination during University Examinations period.",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "25",
+        "description": "Students attend a 1.5hr examination on campus during the University Examinations period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Active Participation and Engagement",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "Students actively participate in 70% of online discussion boards demonstrating familiarity with readings and contributing actively to discussions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-exam_att-Exam centre within Australia ",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "On-campus or invigilated examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "25",
+        "description": "Students either attend an on-campus examination or an invigilated examination at an approved Australian examinations centre.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-exam_att-Exam centre within Australia ",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "10 online quizzes",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Active participation and engagement",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "Students actively participate in 70% of on-campus tutorials, demonstrating familiarity with readings and contributing actively to discussions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Intro and film reflection",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students introduce themselves online and post a brief reflection on the film in Lecture 1",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Students complete a 1500 word argumentative essay.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Active participation and engagement",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "Students actively participate in 70% of zoom tutorials OR online discussion boards (as agreed with Convenor) demonstrating familiarity with readings and contributing actively to discussions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "25",
+        "description": "Students complete a 1.5hr timed online examination during the Examinations period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PHIL2060",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PHIL2060"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MOLS8002"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Bioethics and Biotechnology",
+                "academic_item_code": "MOLS8002",
+                "academic_item_url": "/2020/units/MOLS8002"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: PHIX2060"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Bioethics, Genes and Biotechnology",
+                "academic_item_code": "PHIX2060",
+                "academic_item_url": "/2021/units/PHIX2060"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PHIL2060-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHIL2060"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PHIL2060-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHIL2060"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PHIL2060-unit_teaching_period-exam_att-subject",
+        "display_name": "Session 2-exam_att-Exam centre within Australia ",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Attendance for exam only"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHIL2060"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Attendance for exam only, Exam centre within Australia <br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "PHIL2060 - Bioethics, Genes and Biotechnology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Philosophy "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to a selection of the most pressing ethical questions and concerns raised by current and recent developments in the so-called &#39;biotech revolution&#39;, especially in the sphere of genetic technology. The first section of the unit provides an introduction to ethical reasoning, to issues of social justice and to the relationship between social values, scientific enquiry and research ethics in the context of biotechnology. The second section focuses on the ethics of gene technology in the spheres of human medicine and reproduction, including: genetic screening/testing; gene editig and therapies; genetic enhancement; and human reproductive cloning. In the third section we explore the impact of biotechnologies on other aspects of human, non-human animal and environmental welfare including: genetic engineering of plants and animals (GMOs); biofortification of food; bio-prospecting; and commercial exploitation of human genetic material. The unit is an ethics unit, not a science unit, and prior scientific knowledge is not required.",
+    "search_title": "PHIL2060 - Bioethics, Genes and Biotechnology",
+    "code": "PHIL2060",
+    "title": "Bioethics, Genes and Biotechnology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to a selection of the most pressing ethical questions and concerns raised by current and recent developments in the so-called &#39;biotech revolution&#39;, especially in the sphere of genetic technology. The first section of the unit provides an introduction to ethical reasoning, to issues of social justice and to the relationship between social values, scientific enquiry and research ethics in the context of biotechnology. The second section focuses on the ethics of gene technology in the spheres of human medicine and reproduction, including: genetic screening/testing; gene editig and therapies; genetic enhancement; and human reproductive cloning. In the third section we explore the impact of biotechnologies on other aspects of human, non-human animal and environmental welfare including: genetic engineering of plants and animals (GMOs); biofortification of food; bio-prospecting; and commercial exploitation of human genetic material. The unit is an ethics unit, not a science unit, and prior scientific knowledge is not required.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T11:12:24.36",
+  "code": "PHIL2060",
+  "title": "Bioethics, Genes and Biotechnology",
+  "implementationYear": "2021"
+}

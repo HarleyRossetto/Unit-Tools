@@ -1,0 +1,266 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse and explain the nature and scope of the strategic management process and how strategy is dependent on leadership, stakeholders and group processes.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically evaluate an organisation and its strategy in terms of congruence, resources and strategic fit.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply key strategic management tools and models to synthesise complex problems in strategic management.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class prep, readings, research, group meetings.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MGNT602, MGNT812, INOV802, BUS845",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(Admission to MCom or MMgmt or MEngMgt or MPH) and 40cp at 8000 level",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Case Study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "60",
+        "description": "This assessment has three components:",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "A two-hour online examination (open book) will be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MGMT8012",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.07",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MGMT8012"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MGMT8045"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Strategic Management",
+                "academic_item_code": "MGMT8045",
+                "academic_item_url": "/2021/units/MGMT8045"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: MGMT7045"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Strategic Management",
+                "academic_item_code": "MGMT7045",
+                "academic_item_url": "/2021/units/MGMT7045"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT8012-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "120",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8012"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT8012-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "60",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8012"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT8012-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8012"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT8012-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8012"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde*<br />Session 2, Weekday attendance, North Ryde*<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MGMT8012 - Managing Strategically",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The purpose of this unit is to help students develop their own point of view on the formulation and implementation of strategy. Students will study how to think and act like strategic managers and leaders within an organisation. The unit is concerned with the many managerial plans and actions involved in organisations’ quest to gain and sustain competitive advantage, how they might stay “in fit” with ever-changing environments, and how they manage strategic change. The unit draws from a range of different disciplines, bringing together much of the concepts/ideas/subjects that form the basis of a business degree.",
+    "search_title": "MGMT8012 - Managing Strategically",
+    "code": "MGMT8012",
+    "title": "Managing Strategically",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The purpose of this unit is to help students develop their own point of view on the formulation and implementation of strategy. Students will study how to think and act like strategic managers and leaders within an organisation. The unit is concerned with the many managerial plans and actions involved in organisations’ quest to gain and sustain competitive advantage, how they might stay “in fit” with ever-changing environments, and how they manage strategic change. The unit draws from a range of different disciplines, bringing together much of the concepts/ideas/subjects that form the basis of a business degree.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-05T09:59:13.59",
+  "code": "MGMT8012",
+  "title": "Managing Strategically",
+  "implementationYear": "2021"
+}

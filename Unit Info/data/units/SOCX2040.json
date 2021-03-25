@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate an understanding of key concepts in economic sociology and political economy",
+        "code": "ULO1"
+      },
+      {
+        "description": "Recognise and contribute to sociological and economic arguments used in public and civic debates",
+        "code": "ULO5"
+      },
+      {
+        "description": "Write coherently, logically and succinctly, while following appropriate academic and stylistic conventions.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify important historical developments in the interplay of civil society, the economy and politics",
+        "code": "ULO2"
+      },
+      {
+        "description": "Communicate ideas through effective listening and speaking, constructive debates with peers and personal reflection.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "SOCI226",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Social Justice Project Part 1: A Research Brief (Individual Report)",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "25",
+        "description": "Each member of the project team submits a written report based on your case study.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Participate in class discussions to explain key concepts, analyse relevant issues and communicate insights.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Analytical Writing",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "25",
+        "description": "Write a sociological analysis of a concrete economic issue or topic using specific course material.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Social Justice Project Part 2: Group presentation and portfolio",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "Project teams will present their case studies and submit a portfolio of their findings.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "SOCX2040",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: SOCX2040"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: SOCI2040"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "I Shop, Therefore I Am: Global Consumer Society",
+                "academic_item_code": "SOCI2040",
+                "academic_item_url": "/2020/units/SOCI2040"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "SOCX2040-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCX2040"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "SOCX2040 - Economic Life, Inequality and Society",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "We engage in economic activities on a daily basis. We work to earn money, buy groceries, pay rent or mortgages, save for a holiday. In often invisible ways, these everyday activities of production and consumption are underpinned by social structures, cultures and ideologies. You will learn about the workings of the economy, labour markets and finance, and how economic activity is embedded in social relationships. You will be able to understand and address important issues of our time, such as the increasing gap between the rich and the poor, and unequal access to power and resources based on intersecting questions of gender, race and class.",
+    "search_title": "SOCX2040 - Economic Life, Inequality and Society",
+    "code": "SOCX2040",
+    "title": "Economic Life, Inequality and Society",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "We engage in economic activities on a daily basis. We work to earn money, buy groceries, pay rent or mortgages, save for a holiday. In often invisible ways, these everyday activities of production and consumption are underpinned by social structures, cultures and ideologies. You will learn about the workings of the economy, labour markets and finance, and how economic activity is embedded in social relationships. You will be able to understand and address important issues of our time, such as the increasing gap between the rich and the poor, and unequal access to power and resources based on intersecting questions of gender, race and class.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-12T09:11:43.934",
+  "code": "SOCX2040",
+  "title": "Economic Life, Inequality and Society",
+  "implementationYear": "2021"
+}

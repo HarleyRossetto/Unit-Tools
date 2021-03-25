@@ -1,0 +1,198 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply knowledge in research methods to analyse, interpret and assess research findings",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically appraise research literature on a specific clinically relevant topic and identify areas requiring further research",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate knowledge of research methods by either designing a research protocol, or implementing a research project, to answer a specific research question in a clinically relevant area",
+        "code": "ULO3"
+      },
+      {
+        "description": "Effectively communicate the design of a research protocol, or results of a research project, to your peers and academics using verbal and written methods",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Research proposal/project development - Collaborative group work",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CHIR8201 or CHIR921",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CHIR922",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Multiple choice questions that evaluate student learning of lecture material. The assessment will be held in the scheduled lecture time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "In the tutorial class time, students will give an individual oral research presentation about their group research protocol, or about the results of their group research project.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Project/Protocol Written",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "The student research protocol, or research project, will be written up in the format of a journal article (approximately 2,000 words), ready for submission for publication in a peer reviewed journal.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIR8202"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIR8202"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "CHIR8202 - Postgraduate Advanced Research II",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Chiropractic "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit, together with CHIR8201, develops a student&#39;s ability to critique, evaluate and synthesise biomedical research. These skills are crucial for life-long learning and are essential in evidence-informed clinical practice. In this unit, students will work in groups to develop and execute a medium term, capstone research project to answer a specific research question/s.",
+    "search_title": "CHIR8202 - Postgraduate Advanced Research II",
+    "code": "CHIR8202",
+    "title": "Postgraduate Advanced Research II",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit, together with CHIR8201, develops a student&#39;s ability to critique, evaluate and synthesise biomedical research. These skills are crucial for life-long learning and are essential in evidence-informed clinical practice. In this unit, students will work in groups to develop and execute a medium term, capstone research project to answer a specific research question/s.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:47:43.38",
+  "code": "CHIR8202",
+  "title": "Postgraduate Advanced Research II",
+  "implementationYear": "2021"
+}

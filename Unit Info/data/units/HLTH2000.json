@@ -1,0 +1,250 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically analyse the political, biological, socio-economic and environmental contexts of the leading causes of mortality and morbidity",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify the major determinants of health",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe global trends relating to globalisation and environmental conditions and their impact on the changing health status of different areas around the world",
+        "code": "ULO5"
+      },
+      {
+        "description": "Define and describe the key terms, agencies and sources of information for current major health issues, nationally and globally",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify the leading causes of death and disability, nationally and globally",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically analyse academic writings on health issues available through peer-reviewed publications",
+        "code": "ULO6"
+      },
+      {
+        "description": "Describe a major health issue in terms of its size, nature, determinants and opportunities for prevention",
+        "code": "ULO7"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Allocated readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Research related to written report",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "HLTH200",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Quiz 2",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Online quiz based on content covered from late in the semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "45",
+        "description": "Final examination to assess what has been taught throughout the semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz 1",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Online quiz based on content covered early in the semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Written Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "35",
+        "description": "The report is a written task on a health topic.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HLTH2000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HLTH2000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HLTH2000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "HLTH2000 - Contemporary Health Issues",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides an introduction to the multidisciplinary field of health studies. You will learn about the social and environmental determinants of health that result in inequalities both between and within countries. Specific topics you will cover include the leading causes of mortality and morbidity; impacts of globalisation on health; and how population health is increasingly affected by the natural and man-made environment.",
+    "search_title": "HLTH2000 - Contemporary Health Issues",
+    "code": "HLTH2000",
+    "title": "Contemporary Health Issues",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an introduction to the multidisciplinary field of health studies. You will learn about the social and environmental determinants of health that result in inequalities both between and within countries. Specific topics you will cover include the leading causes of mortality and morbidity; impacts of globalisation on health; and how population health is increasingly affected by the natural and man-made environment.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:05:18.817",
+  "code": "HLTH2000",
+  "title": "Contemporary Health Issues",
+  "implementationYear": "2021"
+}

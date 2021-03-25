@@ -1,0 +1,202 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "communicate (in written, and oral-visual forms) the theoretical and practical strategies in public relations and social media campaign design.",
+        "code": "ULO3"
+      },
+      {
+        "description": "apply communication and social media theory to practical case studies in the field.",
+        "code": "ULO2"
+      },
+      {
+        "description": "demonstrate high level English language, writing, oral and visual skills that provide evidence of a capacity to tailor materials to target audiences.",
+        "code": "ULO5"
+      },
+      {
+        "description": "analyse and research the disciplinary knowledge on public relations and social media.",
+        "code": "ULO1"
+      },
+      {
+        "description": "participate actively, professionally and ethically in team activities during and outside of class to achieve strategy outcomes.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings, including notes on readings and preparation to bring to tutorials",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above and permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MAS396",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Internal Communications Project",
+        "type": {
+          "label": "Work-integrated task",
+          "value": "work_integrated_task"
+        },
+        "weight": "40",
+        "description": "For this assignment you will submit two posts designed to be shared on your client&#39;s intranet, internal social media feed or internal newsletter as part of an ongoing internal communications strategy designed to keep employees, volunteers or members up-to-date with what is happening around your broader client project. You are encouraged to utilize a range of forms such as written text, images, infographics, and short videos. You will also submit a brief rationale explaining the internal communications strategy. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "PR Strategy - Part 2 Strategy Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Your consultancy will develop a comprehensive PR strategy report (communications plan) for your client. You will be marked on your sections of the report. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "PR Strategy - Part 1 Strategy Pitch",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "Your consultancy will present your PR strategy to your client. You will be marked on your part in the online delivery, including your spoken delivery, slides and script. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC3090-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3090"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC3090-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3090"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MMCC3090 - Public Relations and Social Media: Constructing Campaigns",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "The objective of this unit is to develop practical public relations and social media skills, including:  strategy writing, budgeting and professional presentations. The focus will be on employee, volunteer, and member strategies for engaging with key publics outside of the organisation. Students will work in small teams to establish their own PR agency, which will pitch for the business of commercial and not-for-profit organisations.",
+    "search_title": "MMCC3090 - Public Relations and Social Media: Constructing Campaigns",
+    "code": "MMCC3090",
+    "title": "Public Relations and Social Media: Constructing Campaigns",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The objective of this unit is to develop practical public relations and social media skills, including:  strategy writing, budgeting and professional presentations. The focus will be on employee, volunteer, and member strategies for engaging with key publics outside of the organisation. Students will work in small teams to establish their own PR agency, which will pitch for the business of commercial and not-for-profit organisations.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:09:23.295",
+  "code": "MMCC3090",
+  "title": "Public Relations and Social Media: Constructing Campaigns",
+  "implementationYear": "2021"
+}

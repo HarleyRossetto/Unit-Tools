@@ -1,0 +1,311 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse and interpret complex experimental data and critically evaluate these data in the context of physiological phenomena",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply broad and coherent knowledge of physiology to applications in the fields of biotechnology and medicine",
+        "code": "ULO6"
+      },
+      {
+        "description": "Apply detailed knowledge to explain the processes by which organisms gain energy, grow, and develop",
+        "code": "ULO1"
+      },
+      {
+        "description": "Describe the co-ordination of physiological processes in organisms, including transport systems and responses to stimuli",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate critical thinking and writing skills to appraise scientific literature on a major physiological theme",
+        "code": "ULO4"
+      },
+      {
+        "description": "Compare and contrast physiological processes, and their evolution, in microbes, plants, and animals",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Approximately 4 hours per week spent on outside readings, engagement with online forum, and other forms of preparation including preparation for practical classes.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MBiotech or MConsBiol or GradDipConsBiol or GradCertConsBiol or MSc or MScInnovationBioConsMgmt",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BIOL208, BIOL210, BIOL229, BIOL606",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Written assessment",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "A deep critical appraisal of two recent publications on one of a set of topics chosen by the student",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-semester test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "A test of material presented by mid-semester, largely based around terminology and images",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "An analytical set of short-answer assembled in graded order of difficulty designed to test understanding rather than factual recall.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Students complete a set of prac-specific questions embedded in each practical with answers registered in iLearn",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Students complete a set of lecture-specific questions embedded in each lecture with answers registered in iLearn",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "BIOL6210",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: BIOL6210"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: BIOL2210"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Life Processes",
+                "academic_item_code": "BIOL2210",
+                "academic_item_url": "/2020/units/BIOL2210"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL6210"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL6210"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL6210"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL6210"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />Session 2, Special circumstances, Other<br />",
+    "subject_search_title": "BIOL6210 - Life Processes",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "All living things share a series of basic cell processes that are vital to life as we know it: these include membrane integrity, transport and energy transduction, enabling microorganisms, fungi, plants and animals to grow, develop and reproduce. However, these processes have evolved from their prokaryotic origins in eukaryotes, now varying qualitatively across taxa. For example, at the cell level, signal amplification, hormonal regulation, sensory responses, photosynthesis, locomotion and immune responses are examples of adaptations that are genetically distinct in either plants or animals. Within the life cycle of a single organism, expression of these gene combinations determines the way that organisms develop and acclimate to their immediate environment. This unit will explore the full range of adaptations across Kingdoms and how specific gene combinations are expressed to enable life to flourish. Such events will be viewed primarily through the prism of physiology but with reference to morphology, gene expression and metabolism.",
+    "search_title": "BIOL6210 - Life Processes",
+    "code": "BIOL6210",
+    "title": "Life Processes",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "All living things share a series of basic cell processes that are vital to life as we know it: these include membrane integrity, transport and energy transduction, enabling microorganisms, fungi, plants and animals to grow, develop and reproduce. However, these processes have evolved from their prokaryotic origins in eukaryotes, now varying qualitatively across taxa. For example, at the cell level, signal amplification, hormonal regulation, sensory responses, photosynthesis, locomotion and immune responses are examples of adaptations that are genetically distinct in either plants or animals. Within the life cycle of a single organism, expression of these gene combinations determines the way that organisms develop and acclimate to their immediate environment. This unit will explore the full range of adaptations across Kingdoms and how specific gene combinations are expressed to enable life to flourish. Such events will be viewed primarily through the prism of physiology but with reference to morphology, gene expression and metabolism.",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:24:53.947",
+  "code": "BIOL6210",
+  "title": "Life Processes",
+  "implementationYear": "2021"
+}

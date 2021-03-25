@@ -1,0 +1,258 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate in-depth knowledge of a key, specific area in security studies based on a critical assessment of established academic scholarship.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply research and time management skills in designing and delivering scholarly research projects in security studies.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop academic writing skills that result in cogent written research submissions in the area of security studies.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students must engage in research in order to collect and evaluate the data and information required for the writing of the project",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MCrim or MPICT or MCPICT or PGDipPICT or GradDipPICT or GradDipCPICT or MPICTMIntSecSt or MCPICTMIntSecSt or MIntSecStud or GradDipIntSecStud or MSecStrategicStudMCrim or MSecStrategicStudMIntell or MSecStrategicStudMCyberSec or MSecStrategicStudMCTerrorism or MIntellMCrim or MIntellMCyberSec or MIntellMCTerrorism or MCyberSecMCTerrorism or MCyberSecMCrim or MCTerrorismMCrim or MSecStrategicStud or MIntell or MCTerrorism or MCyberSec or GradDipSecStudCr or GradCertSecStudCr and 30cp and permission by special approval or Master of Cyber Security Analysis or admission to BSecStudMCTerrorism or BSecStudMCrim or BSecStudMCyberSecAnalysis or BSecStudMIntell or BSecStudMSecStrategicStud",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ISS809, ISS810, ISS811, PICT811, PICT909, PICT910, PICT911, PICT847",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Essay ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "60",
+        "description": "The final submission must be a complete, integrated, and synthesized piece of work. It should take account of feedback that has been provided on the earlier drafts. Submissions should be organised in a logical and structured way, including (where appropriate) sections and subsections with headings.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Proposal ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "The purpose of the research proposal is to provide an outline of the proposed research project and to demonstrate that the research question(s) can be examined in-depth within the allocated time period and word limit. The proposal should be between 750 -1,000 words in length.\n",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Essay Plan",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "15",
+        "description": "The research essay plan should be a maximum 2 page dot-point outline of the research project. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8047"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8047"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8047"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8047"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8047"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8047"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Infrequent attendance, North Ryde<br />Session 2, Fully online/virtual<br />Session 2, Infrequent attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "PICT8047 - Supervised Project in Security Studies",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit gives students the opportunity to engage in the composition of a self-directed research project, under the supervision of a subject area expert. This unit will necessitate students to thoroughly engage with the existing research on their topic, using it as a stepping-stone in developing their own research skills. Students will be mentored and trained on how to devise a research questions, translate this question into a set of research tasks, synthesise an appropriate methodological framework, conduct a literature review, collect data, and write up the result of their research as a coherent long research essay. This research relies on utilizing academic secondary sources and does not require original empirical work. Students intending to take this unit must contact any of the departmental administrators in the Department of Security Studies and Criminology to discuss eligibility criteria and supervision arrangements at least four weeks before the start of semester.",
+    "search_title": "PICT8047 - Supervised Project in Security Studies",
+    "code": "PICT8047",
+    "title": "Supervised Project in Security Studies",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit gives students the opportunity to engage in the composition of a self-directed research project, under the supervision of a subject area expert. This unit will necessitate students to thoroughly engage with the existing research on their topic, using it as a stepping-stone in developing their own research skills. Students will be mentored and trained on how to devise a research questions, translate this question into a set of research tasks, synthesise an appropriate methodological framework, conduct a literature review, collect data, and write up the result of their research as a coherent long research essay. This research relies on utilizing academic secondary sources and does not require original empirical work. Students intending to take this unit must contact any of the departmental administrators in the Department of Security Studies and Criminology to discuss eligibility criteria and supervision arrangements at least four weeks before the start of semester.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T16:48:11.226",
+  "code": "PICT8047",
+  "title": "Supervised Project in Security Studies",
+  "implementationYear": "2021"
+}

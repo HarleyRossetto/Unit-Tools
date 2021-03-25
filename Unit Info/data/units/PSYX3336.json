@@ -1,0 +1,223 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically evaluate and synthesise relevant personality literature in a written essay.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate insight into central issues in contemporary personality research within a global context",
+        "code": "ULO1"
+      },
+      {
+        "description": "Learn of the variety of approaches to the study of personality, and their relevance to understanding psychopathology, everyday life, and research.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop and communicate a personal viewpoint on an array of personality psychology issues through writing and peer discussion",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSY336",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "20cp at 2000 level including (PSYX234 or PSX2234) or (PSY234 or PSYU2234)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Plan",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "10",
+        "description": "Students submit a 500 word plan structuring and developing their argument for their essay.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Take home examination",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "Take home examination",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Students submit a 1500 word essay critically evaluating and developing an argument on a topical issue in personality.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PSYX3336",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PSYX3336"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PSYU3336"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Personality and its Disorders",
+                "academic_item_code": "PSYU3336",
+                "academic_item_url": "/2020/units/PSYU3336"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYX3336"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "PSYX3336 - Personality and its Disorders",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit considers theories and contemporary personality research within a global, cultural context. The course focuses upon the relation between personality and culture, self and identity, and issues surrounding psychopathology and personality disorders. The unit examines the current debates and controversies in personality research by considering the implications of cross-cultural evidence. The course also applies a cross-cultural perspective to examining approaches to personality pathology, including understanding dissociative identity disorder, the culture of narcissism, psychopathy, and the Dark Triad/Tetrad. The adaption of personality within cyber-space is also considered. There is a strong emphasis on developing critical thinking skills and appreciating global diversity for understanding personality.",
+    "search_title": "PSYX3336 - Personality and its Disorders",
+    "code": "PSYX3336",
+    "title": "Personality and its Disorders",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit considers theories and contemporary personality research within a global, cultural context. The course focuses upon the relation between personality and culture, self and identity, and issues surrounding psychopathology and personality disorders. The unit examines the current debates and controversies in personality research by considering the implications of cross-cultural evidence. The course also applies a cross-cultural perspective to examining approaches to personality pathology, including understanding dissociative identity disorder, the culture of narcissism, psychopathy, and the Dark Triad/Tetrad. The adaption of personality within cyber-space is also considered. There is a strong emphasis on developing critical thinking skills and appreciating global diversity for understanding personality.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:01:45.775",
+  "code": "PSYX3336",
+  "title": "Personality and its Disorders",
+  "implementationYear": "2021"
+}

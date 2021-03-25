@@ -1,0 +1,302 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate the significance of information to organisational success by explaining the business benefits of a reliable IS infrastructure, and how to successfully leverage information with an appropriate level of security. ",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain how enterprise-wide systems support information and how business decisions are made by the users of that information. ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Research and evaluate the issues relating to information ethics and privacy, including the implications for social media use. ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critically evaluate the correlation between business and technology, including how business strategies and processes determine technology decisions.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "This class is run on a flipped classroom model.  Students should complete the readings prior to class.  ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde, Session 2-Special"
+      },
+      {
+        "description": "The online offering requires students to work through the weekly materials.  ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ACCG822",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(10cp from ACCG or ACST or AFIN or BUS or ECON or MGMT or MKTG units at 6000 level or above) or (admission to GradCertForAccg or GradDipForAccg or MBusAnalytics or MForAccgFinCri or MCybergovMgnt)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Weekly Assessment",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "A variety of activities will be assigned each week from weeks 3 to 12, completed in class. Students are expected to complete readings and research as required prior to the class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "The assessment task is to write a 2,500 report with scholarly references that will address a contemporary topic relating to information systems.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Assessment",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "A variety of activities will be assigned each week from weeks 2 to 6, to be completed online. Students are expected to complete readings and research as required prior to the next online class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A final examination of two-hours will be held in the university examination period for the face-to-face offering. This exam is closed book.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A final examination of two-hours will be held during the session break for the online offering. This exam is closed book.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Take Home Essay",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A set of questions will be released that could be your final take home essay. Students will need to prepare for each question, and will need to submit a maximum one page summary for the chosen take home essay question advised by the lecturer.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Fortnightly Assessment",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "A variety of activities will be assigned fortnightly from weeks 3 to 12, to be completed online. Students are expected to complete readings and research as required prior to the next online class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACCG8022-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8022"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG8022-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8022"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG8022-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8022"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG8022-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8022"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG8022 - Information Systems in Business",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit enables students to gain an understanding of the implications and impacts of information and communication technology (ICT) in business. The aim of the unit is for students to understand the concept of the digital economy, the impact business pressures play on the organisation, and their responses and adaptations to these pressures, and the role ICT plays both inside and outside the organisation in the context of globalisation and future trends. The focus is on understanding the creation of business value by enabling business processes using information and communications technologies. Students will analyse contemporary case studies and examples to critically evaluate and recommend specific ICT solutions for each topic. Students develop report writing skills by researching a current topic, such as cybersecurity or digital ethics, analyse the issues and provide recommendations to management.  <br />The unit is offered in two delivery modes. Students can choose between a face-to-face, on campus offering, over the full session, or an external offering comprising six modules, each of one week&#39;s duration, with a workshop on campus prior to the start of session.  ",
+    "search_title": "ACCG8022 - Information Systems in Business",
+    "code": "ACCG8022",
+    "title": "Information Systems in Business",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit enables students to gain an understanding of the implications and impacts of information and communication technology (ICT) in business. The aim of the unit is for students to understand the concept of the digital economy, the impact business pressures play on the organisation, and their responses and adaptations to these pressures, and the role ICT plays both inside and outside the organisation in the context of globalisation and future trends. The focus is on understanding the creation of business value by enabling business processes using information and communications technologies. Students will analyse contemporary case studies and examples to critically evaluate and recommend specific ICT solutions for each topic. Students develop report writing skills by researching a current topic, such as cybersecurity or digital ethics, analyse the issues and provide recommendations to management.  <br />The unit is offered in two delivery modes. Students can choose between a face-to-face, on campus offering, over the full session, or an external offering comprising six modules, each of one week&#39;s duration, with a workshop on campus prior to the start of session.  ",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-14T13:21:44.15",
+  "code": "ACCG8022",
+  "title": "Information Systems in Business",
+  "implementationYear": "2021"
+}

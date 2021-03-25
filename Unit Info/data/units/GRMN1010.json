@@ -1,0 +1,266 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate an awareness of some language and language use in both German and English.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify, describe and evaluate a few aspects of German-speaking cultures and societies.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify, evaluate and deploy the grammatical structures of German at elementary level.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop elementary level skills in reading, writing, listening and speaking in the German language.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply relevant language conventions to create meaningful intercultural encounters.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "On-campus and external students revise the weekly content through the use of various self-study resources, practice and apply newly acquired structures and vocabulary, and engage with the relevant material provided on iLearn.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "GMN104",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Not to count for credit for students who completed HSC German Extension or Continuers Band 4 and above",
+        "type": {
+          "label": "Info",
+          "value": "info"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Students complete a timed online test of mixed type questions, including one essay style question.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "On-campus and external students demonstrate active engagement with the weekly content through participating in the designated activities online and, where applicable, in class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Tests",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Students complete various short tests of mixed question types. These tests are scheduled during class time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignments",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "25",
+        "description": "Students engage with a variety of low-stakes writing tasks in the target language.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Language Study Orientation",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "Students conduct the required reading and answer the questions related to the readings.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Oral test",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "10",
+        "description": "Students are assessed in pairs and engage in a conversation in the target language. This assessment is scheduled during class time for on-campus students and via online video-conferencing applications for external students.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "GRMN1010-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GRMN1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GRMN1010-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GRMN1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GRMN1010-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GRMN1010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "GRMN1010 - I German Studies 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This introductory German unit is intended for students with little or no previous knowledge of German. It seeks to develop students&#39; skills in reading, writing, comprehension and speaking. The book used in this unit follows a communicative approach, with additional material offered online. The unit includes material on general cultural aspects of life in Germany. It corresponds to the first level (A1) on the six-level scale of competence laid down in the Common European Framework of Reference for Languages (CEFR).",
+    "search_title": "GRMN1010 - I German Studies 1",
+    "code": "GRMN1010",
+    "title": "I German Studies 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This introductory German unit is intended for students with little or no previous knowledge of German. It seeks to develop students&#39; skills in reading, writing, comprehension and speaking. The book used in this unit follows a communicative approach, with additional material offered online. The unit includes material on general cultural aspects of life in Germany. It corresponds to the first level (A1) on the six-level scale of competence laid down in the Common European Framework of Reference for Languages (CEFR).",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-21T16:03:13.391",
+  "code": "GRMN1010",
+  "title": "I German Studies 1",
+  "implementationYear": "2021"
+}

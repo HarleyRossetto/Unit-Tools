@@ -1,0 +1,217 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Understand ESL provision at all school levels.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Appreciate the role of ESL teacher in anti-racism issues.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate deep knowledge and understanding of English syntax.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Create differentiated literacy resources.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify ESL need in students.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "online readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "flipped learning activities; interactive forums",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "TEP401 or EDTE4010 or EDTE403 or EDTE4030",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "TEP442",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "20cp in LING units including 10cp from LING units at 2000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "ESL lesson plan",
+        "type": {
+          "label": "Lesson plan",
+          "value": "lesson_plan"
+        },
+        "weight": "40",
+        "description": "ESL lesson plan; 1500 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "In class test of classroom knowledge; 1 hour",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Unit of work",
+        "type": {
+          "label": "Learning plan",
+          "value": "learning_plan"
+        },
+        "weight": "35",
+        "description": "Modification for ESL learners, including assessment; 2000 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDTE4420-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE4420"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDTE4420-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDTE4420"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "EDTE4420 - English as a Second Language in Schools I",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed for students who plan to teach English as a second language (ESL) in schools. It provides students with an introduction to provision, knowledge and strategies for teaching ESL in primary or secondary schools. It is available only as a minor teaching subject for secondary level and must be combined with a teaching major. Please consult the TEP guides for appropriate discipline study for this area.",
+    "search_title": "EDTE4420 - English as a Second Language in Schools I",
+    "code": "EDTE4420",
+    "title": "English as a Second Language in Schools I",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed for students who plan to teach English as a second language (ESL) in schools. It provides students with an introduction to provision, knowledge and strategies for teaching ESL in primary or secondary schools. It is available only as a minor teaching subject for secondary level and must be combined with a teaching major. Please consult the TEP guides for appropriate discipline study for this area.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T14:21:34.343",
+  "code": "EDTE4420",
+  "title": "English as a Second Language in Schools I",
+  "implementationYear": "2021"
+}

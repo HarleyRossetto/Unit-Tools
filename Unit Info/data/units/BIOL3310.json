@@ -1,0 +1,286 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Effectively communicate biological research findings and concepts to diverse audiences including scientists and the general public",
+        "code": "ULO6"
+      },
+      {
+        "description": "Competently use microscopy and imaging techniques to classify invertebrates into major taxonomic groups on the basis of morphological traits",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify morphological, behavioural, and physiological adaptations that allow invertebrates to survive in distinct habitats",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically evaluate scientific hypotheses by statistically analysing data, and accurately interpreting results of those analyses",
+        "code": "ULO5"
+      },
+      {
+        "description": "Assess how adaptations of invertebrates influence species and community interactions, and ecosystem function",
+        "code": "ULO3"
+      },
+      {
+        "description": "Create hypotheses and design experiments to test those hypothesis by analysing appropriate data",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Unit readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above including (BIOL2510 or BIOL262) or BIOL208 or (BIOL2310 or BIOL228) or (BIOL2210 or BIOL229)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BIOL316",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Microscopy and Imaging",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "20",
+        "description": "Students will develop skills in imaging and measuring features in specimens from images acquired using light and scanning electron microscopes; build an image portfolio with appropriate descriptions of the features they image. Further details will be provided on iLearn and in the practical classes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Lecture Participation",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "After each lecture an associated short quiz will be available on iLearn. Students must respond to all questions on their device (laptop, tablet or phone). Each quiz will remain open <strong>only</strong> for one week following each lecture. Participation for all students requires lectures to be listened to and quizzes answered within one week after the lecture.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "A test on knowledge of course content (lectures, pracs and readings) up to and including week 13.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-Session Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "A multiple choice answer test on knowledge of course content (both lectures and pracs) for the first half of semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Scientific Journal Article",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Students will complete a scientific research report, written in their own words. You will develop a hypothesis, design an experiment, analyse data, prepare figures and write a manuscript. The report will follow the format of a Current Biology paper - details of which will be provided in class and online in iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Early assessment quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "This is an early assessment quiz to help you know how you are doing early on in the unit. It will cover material in the first 3 weeks of semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3310"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3310"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3310"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3310"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />Session 2, Special circumstances, Other<br />",
+    "subject_search_title": "BIOL3310 - Invertebrate Biology and Behaviour",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores the fascinating world of invertebrate animals. The unit starts by briefly outlining the diversity and key features of the major groups of invertebrate animals (excluding unicellular organisms), and using phylogenetic analysis to explore evolutionary relationships. Once this is established, we move away from a development and taxonomic focus to discuss major topics including: mating systems, communication, host-parasite relationships, predator-prey interactions, sociality, biological control, climate change, and conservation. These major topics draw on examples from research papers on various groups of invertebrates. This unit is suitable for students who are interested in whole animal biology or biological education, or for students who are interested in further research.",
+    "search_title": "BIOL3310 - Invertebrate Biology and Behaviour",
+    "code": "BIOL3310",
+    "title": "Invertebrate Biology and Behaviour",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores the fascinating world of invertebrate animals. The unit starts by briefly outlining the diversity and key features of the major groups of invertebrate animals (excluding unicellular organisms), and using phylogenetic analysis to explore evolutionary relationships. Once this is established, we move away from a development and taxonomic focus to discuss major topics including: mating systems, communication, host-parasite relationships, predator-prey interactions, sociality, biological control, climate change, and conservation. These major topics draw on examples from research papers on various groups of invertebrates. This unit is suitable for students who are interested in whole animal biology or biological education, or for students who are interested in further research.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-29T14:37:53.248",
+  "code": "BIOL3310",
+  "title": "Invertebrate Biology and Behaviour",
+  "implementationYear": "2021"
+}

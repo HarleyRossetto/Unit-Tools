@@ -1,0 +1,248 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Build personal and communication skills through participation in seminar discussion.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Build scholarly arguments in response to historical questions, drawing upon primary and secondary sources",
+        "code": "ULO4"
+      },
+      {
+        "description": "Treat information in an ethical manner. ",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify core issues and problems in building historical knowledge.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading of texts for in-class and online seminar discussion",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MHIS102",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Essay ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "The research essay forms the major assessment task of the course and requires a high degree of thought, effort and preparation. The research essay questions related to each of the weekly course topics. Students are required to analyse and discuss at least eight scholarly books or journal articles relevant to the essay question. Web sites may be cited in addition to the minimum eight scholarly texts.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "Students will be assessed on their participation in weekly topic discussions, analysing primary and secondary source issues and developing their communication skills.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay Plan",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "20",
+        "description": "Students are required to write a develop a plan for their major research essay based on an analysis of key themes and issues covered in relevant historiography.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MHIS1002",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MHIS1002"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MHIX1002"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Revolutions, Nationalism and Exploitation 1788-2001",
+                "academic_item_code": "MHIX1002",
+                "academic_item_url": "/2020/units/MHIX1002"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MHIS1002-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS1002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MHIS1002-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS1002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MHIS1002-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS1002"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MHIS1002 - Revolutions, Nationalism and Exploitation in the Modern World 1789-2001",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Introduces students to foundational skills and concepts in the study of modern history from the late eighteenth century. Students will traverse the world from 1789 to 2001 looking closely at the role of revolution and the emergence of the nation-state, as well as the cost to humans and the natural world of economic growth and colonisation. Beginning with the French Revolution, the unit investigates conflict and change in the quest for equality and citizenship, telling the story of democratic aspirations in the modern world, including competing visions of modernity. It considers those excluded along with the new forms of solidarity and enmity created against the backdrop of rapid industrialisation, capitalism and environmental change. Students will build a foundational chronology of the modern world and develop skills such as critical and analytical thinking, effective communication and empathy.",
+    "search_title": "MHIS1002 - Revolutions, Nationalism and Exploitation in the Modern World 1789-2001",
+    "code": "MHIS1002",
+    "title": "Revolutions, Nationalism and Exploitation in the Modern World 1789-2001",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Introduces students to foundational skills and concepts in the study of modern history from the late eighteenth century. Students will traverse the world from 1789 to 2001 looking closely at the role of revolution and the emergence of the nation-state, as well as the cost to humans and the natural world of economic growth and colonisation. Beginning with the French Revolution, the unit investigates conflict and change in the quest for equality and citizenship, telling the story of democratic aspirations in the modern world, including competing visions of modernity. It considers those excluded along with the new forms of solidarity and enmity created against the backdrop of rapid industrialisation, capitalism and environmental change. Students will build a foundational chronology of the modern world and develop skills such as critical and analytical thinking, effective communication and empathy.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-09T10:22:44.98",
+  "code": "MHIS1002",
+  "title": "Revolutions, Nationalism and Exploitation in the Modern World 1789-2001",
+  "implementationYear": "2021"
+}

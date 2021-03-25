@@ -1,0 +1,206 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically appraise available information including published work related to health sciences",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explain the role of research and scientific enquiry in health sciences, explain the importance of evidence based health care",
+        "code": "ULO1"
+      },
+      {
+        "description": "Explain ethics, confidentiality, conflict of interest and related issues in the context of research and clinical practice",
+        "code": "ULO4"
+      },
+      {
+        "description": "Compare relative merits of different levels of ‘evidence’",
+        "code": "ULO2"
+      },
+      {
+        "description": "Interpret basic epidemiological and statistical terms such as confidence intervals, effectiveness, efficacy, error, incidence, mean, median, mode, prevalence, probability, reproducibility, risk, sample size, sampling, standard deviation, sensitivity, significance, specificity and validity",
+        "code": "ULO6"
+      },
+      {
+        "description": "Use spread sheets and a software such as Minitab for basic statistical analyses of data",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Four to five hours per week self-instructional learning, readings from the text and exercises on lecture topics",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "HLTH211, HLTH306",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to BChiroSc and CHIR1101 or CHIR113 or ANAT1001 or HLTH108 or BIOL1210 or BIOL108",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Assignment would include data analysis and interpretation as well as critical appraisal of published articles.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical work",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "20",
+        "description": "Exercises based on Practical sessions. These will be short answer questions based on that week&#39;s practical content, to be completed in conjunction with practical tasks.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "This will be a 2 hour written examination with questions (MCQ, true/false, filling in the blank and short answers) related to all lecture and practical material.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HLTH2110"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HLTH2110"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "HLTH2110 - Clinical Epidemiology and Biostatistics for Health Sciences",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Chiropractic "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "An introductory unit on the principles of evidence based health practice. This unit covers a range of issues in research including: subjectivity and objectivity, different research strategies, evaluation and interpretation of data and ethical issues. Concepts of efficacy, effectiveness, clinical and statistical significance and critical appraisal of published work are introduced.",
+    "search_title": "HLTH2110 - Clinical Epidemiology and Biostatistics for Health Sciences",
+    "code": "HLTH2110",
+    "title": "Clinical Epidemiology and Biostatistics for Health Sciences",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "An introductory unit on the principles of evidence based health practice. This unit covers a range of issues in research including: subjectivity and objectivity, different research strategies, evaluation and interpretation of data and ethical issues. Concepts of efficacy, effectiveness, clinical and statistical significance and critical appraisal of published work are introduced.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:56:45.789",
+  "code": "HLTH2110",
+  "title": "Clinical Epidemiology and Biostatistics for Health Sciences",
+  "implementationYear": "2021"
+}

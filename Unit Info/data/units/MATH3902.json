@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "<ul>\n<li>Explain the principles and basic concepts of Nonlinear Dynamical Systems, both of discrete systems and continuous ones through Differential Equations. In particular, gain an appreciation of the characteristics of ‘chaotic’ behaviour.</li>\n</ul>",
+        "code": "ULO1"
+      },
+      {
+        "description": "<ul>\n<li>Construct logical, clearly presented and justified mathematical arguments incorporating deductive reasoning especially in the context of the Dynamical Systems, and to produce appropriate computer graphics to aptly illustrate the phenomena involved.</li>\n</ul>",
+        "code": "ULO4"
+      },
+      {
+        "description": "<ul>\n<li>Demonstrate an understanding of the breadth of the theory of Nonlinear Systems, and how the distinction between periodic and non-periodic orbits is related to the very numbers used to model or describe the state of a system.</li>\n</ul>",
+        "code": "ULO3"
+      },
+      {
+        "description": "<ul>\n<li>Competently use modern computing software to model a range of phenomena in science and engineering, displaying the complexity that can occur with nonlinear systems.</li>\n</ul>",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class preparation time includes revising new content as soon as possible after lectures in order to identify, and fix, any issues before the next lecture, and thoroughly preparing for new material.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(MATH2010 or MATH235) and (MATH2020 or MATH2110 or MATH232 or MATH236)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MATH332",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment 3",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "10",
+        "description": "The assignment will test the ability of the students to develop and analyse mathematical problems using concepts and techniques learnt in lectures. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "15",
+        "description": "The assignment will test the ability of the students to develop and analyse mathematical problems using concepts and techniques learnt in lectures. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "15",
+        "description": "The assignment will test the ability of the students to develop and analyse mathematical problems using concepts and techniques learnt in lectures. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "This will be an invigilated exam, held during the final exam period. It will test the ability of students to utilise concepts and techniques learnt in lectures. The final examination is a hurdle requirement. To satisfy the hurdle requirement students must score at least 50% on the final examimnation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MATH3902-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MATH3902"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MATH3902-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MATH3902"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances<br />Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MATH3902 - Nonlinear Dynamics and Chaos",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Mathematics and Statistics "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The remarkable fact that determinism does not guarantee regular or predictable behaviour is having a major impact on many fields of science and engineering, as well as mathematics. The discovery of chaos, or of chaotic motions, in simple dynamical systems changed our understanding of the foundations of physics and has found many practical applications. Dynamical systems involve the study of maps and systems of differential equations. In this unit, the diversity of nonlinear phenomena is explored through the study of second-order differential equations and second-order systems, in which nonlinearity is usually ignored in simpler treatments.",
+    "search_title": "MATH3902 - Nonlinear Dynamics and Chaos",
+    "code": "MATH3902",
+    "title": "Nonlinear Dynamics and Chaos",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The remarkable fact that determinism does not guarantee regular or predictable behaviour is having a major impact on many fields of science and engineering, as well as mathematics. The discovery of chaos, or of chaotic motions, in simple dynamical systems changed our understanding of the foundations of physics and has found many practical applications. Dynamical systems involve the study of maps and systems of differential equations. In this unit, the diversity of nonlinear phenomena is explored through the study of second-order differential equations and second-order systems, in which nonlinearity is usually ignored in simpler treatments.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-28T09:46:13.233",
+  "code": "MATH3902",
+  "title": "Nonlinear Dynamics and Chaos",
+  "implementationYear": "2021"
+}

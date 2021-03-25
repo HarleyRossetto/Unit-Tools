@@ -1,0 +1,193 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate how the intelligence function fits within the dynamic Australian national security context.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Critique contemporary literature relating to the concepts of intelligence policy and performance Evaluation.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Model intelligence collection and analysis skills, particularly the ability to select and evaluate sources appropriately to produce an effective intelligence assessment.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Model academic research skills, particularly the ability to select sources appropriately to integrate knowledge from diverse sources, to critically evaluate its significance and relevance, synthesise material and present finding logically, rationally and lucidly.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate higher order communication skills including the ability to formulate sustained, persuasive and original written and oral arguments.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MPICT or MCPICT or GradDipPICT or GradDipCPICT or PGCertPICT or GradCertPICT or GradCertCPICT or MPICTMIntSecSt or MCPICTMIntSecSt or MIntSecStud or GradDipIntSecStud or GradCertIntell or MIntell or MSecStrategicStudMIntell or MIntellMCrim or MIntellMCyberSec or MIntellMCTerrorism or admission to BSecStudMIntell",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PICT814, PICX814",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Preliminary Analysis and Collection Plan",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "20",
+        "description": "A Preliminary analysis of an element of the Australian intelligence community (broadly defined) based on a scan of readily available material culminating in a detailed collection plan with RFIs.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "An intelligence briefing/policy brief",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "25",
+        "description": "A 10-minute presentation assessing and evaluating an element of the Australian intelligence community (broadly defined)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Collection report",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "25",
+        "description": "An open-source intelligence collection on an element of the Australian intelligence community (broadly defined) culminating in a structured written report.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "3 X Quiz covering the prescribed literature in the course.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICX8014"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "PICX8014 - The Intelligence Community in Australia",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to fundamental skills and concepts in intelligence studies – counterintelligence, and performance evaluation – while providing students with the opportunity to critically reflect on the structure and function of the Australian intelligence community (loosely defined).  Students will apply open-source intelligence (OSINT) collection and analysis techniques to elements of the Australian intelligence community and proceed to evaluate the effect and effectiveness of Australia’s intelligence apparatus. All enrolment queries should be directed to Open Universities Australia (OUA): see www.open.edu.au",
+    "search_title": "PICX8014 - The Intelligence Community in Australia",
+    "code": "PICX8014",
+    "title": "The Intelligence Community in Australia",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to fundamental skills and concepts in intelligence studies – counterintelligence, and performance evaluation – while providing students with the opportunity to critically reflect on the structure and function of the Australian intelligence community (loosely defined).  Students will apply open-source intelligence (OSINT) collection and analysis techniques to elements of the Australian intelligence community and proceed to evaluate the effect and effectiveness of Australia’s intelligence apparatus. All enrolment queries should be directed to Open Universities Australia (OUA): see www.open.edu.au",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:44:28.072",
+  "code": "PICX8014",
+  "title": "The Intelligence Community in Australia",
+  "implementationYear": "2021"
+}

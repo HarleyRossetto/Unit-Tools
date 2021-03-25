@@ -1,0 +1,206 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "synthesize creative industries literature and collaborate with other students in order to evaluate, contrast and defend personal judgements concerning artistic creativity within an industrial context.",
+        "code": "ULO2"
+      },
+      {
+        "description": "interpret and evaluate various funding opportunities in order to produce a funding application that is designed to nurture and facilitate ground breaking artistic creativity.",
+        "code": "ULO6"
+      },
+      {
+        "description": "identify the major themes, issues and debates relating to the creative and cultural industries.",
+        "code": "ULO3"
+      },
+      {
+        "description": "demonstrate advanced knowledge of the structure and dynamics of the creative industries.",
+        "code": "ULO1"
+      },
+      {
+        "description": "apply concepts to specific creative industries case studies.",
+        "code": "ULO4"
+      },
+      {
+        "description": "evaluate the history of creative industries policy and locate arguments within a broad historical context.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation and Unit Readings - 3 hours x 10 weeks ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MECO847",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MCrInd or MMediaComm",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Elevator Pitch",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "description": "Students will present a 3 minute oral presentation or an elevator pitch in video format on a topic provided by the unit convenor. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Idea to Realisation",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "45",
+        "description": "Students will submit a fully planned and costed proposal for a creative project of their choice. Examples of possible projects include: a performance, a tour, a recording, a production, an exhibition etc. The completed proposal will consist of 5 sections: 1. project overview 2. project description 3. detailed budget (including income and expenses) 4. short biographies of artist/s involved 5. a timeline (detailed and realistic) Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Students will produce an essay on a topic provided by the unit convenor. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC8047-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC8047"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC8047-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC8047"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MMCC8047 - The Creative Industries",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit concerns artistic creativity within an industrial context. Students will gain critical insights into the structure and function of the global creative industries sector and develop an understanding of the emerging creative and cultural industries arising within a new media ecosystem. This unit will explore the interrelationship between these and will present insights into the future of the Australian arts and entertainment industries in an increasingly globalised context. The unit examines individual artist-led enterprise models, the individual within collaborative groups, the management of creative groups within the creative industries, as well as government policy directed toward the development of the creative industries in local and international contexts.",
+    "search_title": "MMCC8047 - The Creative Industries",
+    "code": "MMCC8047",
+    "title": "The Creative Industries",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit concerns artistic creativity within an industrial context. Students will gain critical insights into the structure and function of the global creative industries sector and develop an understanding of the emerging creative and cultural industries arising within a new media ecosystem. This unit will explore the interrelationship between these and will present insights into the future of the Australian arts and entertainment industries in an increasingly globalised context. The unit examines individual artist-led enterprise models, the individual within collaborative groups, the management of creative groups within the creative industries, as well as government policy directed toward the development of the creative industries in local and international contexts.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:42:54.214",
+  "code": "MMCC8047",
+  "title": "The Creative Industries",
+  "implementationYear": "2021"
+}

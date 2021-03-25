@@ -1,0 +1,238 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Conduct English-Chinese translation within given time",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyze English texts with given contexts",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply inter-cultural communication skills",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify and discuss fundamental translation theories",
+        "code": "ULO1"
+      },
+      {
+        "description": "Develop ability in independent and reflective learning through assessing and responding to ideas",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate skills of using dictionaries and other tools in translation",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to spend time on translation practice, reflection of their translation practice and going through relevant materials provided in iLearn.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CHN252",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "80cp at 1000 level or above and permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Translation Tasks",
+        "type": {
+          "label": "Translation",
+          "value": "translation"
+        },
+        "weight": "40",
+        "description": "Translation tasks throughout the semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "15",
+        "description": "Students are expected to present on their translation strategies adopted for their translation",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflective Journal on Translation Practice",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "15",
+        "description": "Students are expected to take notes when translating and reflect on their translation practice. A reflective journal need to be submitted.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Active In-Class Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students are expected to prepare for and participate in discussions actively. The workload of this task is included in learning activities.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Students will do a translation test by the end of the semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "CHIN2052-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIN2052"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CHIN2052-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIN2052"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "CHIN2052 - English-Chinese Translation I",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces fundamental translation theories and skills and encourages their use in English-Chinese translation practice. Students who enjoy both Chinese and English language proficiency will learn how to analyze and comprehend English texts in various contexts as well as how to deliver the equivalent message in idiomatic Chinese. Students will develop language and cultural competence as well as analytical and problem-solving capabilities in translation. ",
+    "search_title": "CHIN2052 - English-Chinese Translation I",
+    "code": "CHIN2052",
+    "title": "English-Chinese Translation I",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces fundamental translation theories and skills and encourages their use in English-Chinese translation practice. Students who enjoy both Chinese and English language proficiency will learn how to analyze and comprehend English texts in various contexts as well as how to deliver the equivalent message in idiomatic Chinese. Students will develop language and cultural competence as well as analytical and problem-solving capabilities in translation. ",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T12:36:03.346",
+  "code": "CHIN2052",
+  "title": "English-Chinese Translation I",
+  "implementationYear": "2021"
+}

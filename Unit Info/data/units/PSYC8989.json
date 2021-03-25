@@ -1,0 +1,226 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Report on the process of consultation and collaboration with other professionals regarding clinical planning and referrals around complex case presentations.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Explain how to monitor outcomes and modifications based on evolving case formulation, in particular as required for complex comorbidities, personality disorders and psychotic processes.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Gather relevant information in the selection, tailoring and implementation of appropriate evidence-based interventions on the basis of an initial case formulation for complex presentations and/or with comorbidities.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Report and demonstrate the principles and methods of empirically supported interventions across the lifespan for a range of complex clinical disorders",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate advanced critical thinking and psychological knowledge to solve problems related to the treatment of complex comorbidities in the area of clinical psychology.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Viva practice with a partner",
+        "activity": {
+          "label": "Rehearsals",
+          "value": "rehearsals"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSYC989",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MClinPsych and (PSYC985 or PSYC8985) and (PSYC986 or PSYC8986) and (PSYC987 or PSYC8987)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Final examination held in scheduled class time, in accordance with relevant requirements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final in class examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "One hour short answer examination",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Face-to face viva and reflective report",
+        "type": {
+          "label": "Viva/oral examination",
+          "value": "viva_oral_exam"
+        },
+        "weight": "40",
+        "description": "Students will be required to conduct part of a treatment session in 20 minutes that demonstrates principles and methods of an empirically supported intervention for a case provided. Following the viva, a 600 word report will summarise key reflections upon the performance and will be submitted the following day.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Clinical case report ",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Clinical case report of 1500 words covering case formulation and treatment plans from a vignette provided.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYC8989"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYC8989"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "PSYC8989 - Clinical Psychology Therapy 2",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers evidence-based practice in the understanding and management of psychological disorders at an advanced level. The focus will be on advanced therapy skills in the selection, tailoring and implementation of appropriate evidence-based case-formulated interventions for more severe and complex mental health populations. Material will cover the monitoring of outcomes and modifications required based on evolving case formulation for complex comorbidities, as well as a range of chronic mental health disorders across the lifespan. Related content on consultation and collaboration with other professionals regarding clinical planning and referrals around complex presentations will also be covered.",
+    "search_title": "PSYC8989 - Clinical Psychology Therapy 2",
+    "code": "PSYC8989",
+    "title": "Clinical Psychology Therapy 2",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit covers evidence-based practice in the understanding and management of psychological disorders at an advanced level. The focus will be on advanced therapy skills in the selection, tailoring and implementation of appropriate evidence-based case-formulated interventions for more severe and complex mental health populations. Material will cover the monitoring of outcomes and modifications required based on evolving case formulation for complex comorbidities, as well as a range of chronic mental health disorders across the lifespan. Related content on consultation and collaboration with other professionals regarding clinical planning and referrals around complex presentations will also be covered.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:39:09.016",
+  "code": "PSYC8989",
+  "title": "Clinical Psychology Therapy 2",
+  "implementationYear": "2021"
+}

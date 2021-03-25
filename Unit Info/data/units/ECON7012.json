@@ -1,0 +1,271 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate a knowledge of microeconomic theories and their applications to both academic and non-academic audiences, to an academic standard of written work.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply analytical skills in the synthesis and interpretation of applied research in microeconomics.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate how a knowledge and understanding of theories and applications of microeconomics are utilised by academic scholars.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Use critical thinking and problem solving ability to apply microeconomic theory to real life economic problems.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to read all assigned papers before attending class. Each of the 12 papers would typically involve two hours preparatory reading time. ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECON760, ECON860, ECON912, ECON712",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Class tests online",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "50",
+        "description": "There will be two 120 minute online class tests, in weeks 5 and 10. The first test will cover the papers studied in weeks 1-4; the second test will cover the papers studied in weeks 6-9. Each class test is worth 25% of the final grade in this unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class tests",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "50",
+        "description": "There will be two 90 minute class tests, in weeks 5 and 10. The first test will cover the papers studied in weeks 1-4; the second test will cover the papers studied in weeks 6-9. Each class test is worth 25% of the final grade in this unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "After each paper has been presented by the lecturer in weeks 1-4 and 6-9, the class will be divided into groups to discuss questions dealing with key aspects of the paper. This is an extremely important part of the learning process in this unit. Students will have opportunities to demonstrate participation in both small and large group discussions. To be eligible to receive full marks for this assessment, students must demonstrate active participation in at least six of the eight weeks, and also participate in the assessment of student presentations in weeks 12 and 13.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Report",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "The report will summarise and critique an applied research paper from an academic journal that has been approved as suitable by the Unit Convenor. The report will be no more than 2,500 words and will be submitted electronically via Turnitin. Students should have selected and had the research paper approved by the end of Week 7.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "In weeks 1-4 and 6-9, there will be a two-hour Zoom meeting each week to discuss questions dealing with key aspects of the papers covered in the respective week&#39;s lecture. This is an extremely important part of the learning process in this unit. Students will have opportunities to demonstrate participation in both small and large group discussions. To be eligible to receive full marks for this assessment, students must demonstrate active participation in at least six of the eight weeks, and also participate in the assessment of student presentations in weeks 12 and 13.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ECON7012",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ECON7012"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ECON8012"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Applied Microeconomic Topics",
+                "academic_item_code": "ECON8012",
+                "academic_item_url": "/2020/units/ECON8012"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECON7012-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON7012"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECON7012-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON7012"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ECON7012 - Applied Topics in Microeconomics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Economics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides an introduction to modern applied microeconomics. The unit reviews some of the most important and interesting models of microeconomic theory and considers their application to the real world. This is achieved by careful analysis of a selection of recent scholarly publications using modern techniques employed by applied researchers. The primary objective of the unit is to connect a number of the foundation theories taught in microeconomics with sound empirical approaches. After completion of the unit, students will have the ability to both perform and evaluate applications of economic theory to a range of business, policy and regulatory situations.",
+    "search_title": "ECON7012 - Applied Topics in Microeconomics",
+    "code": "ECON7012",
+    "title": "Applied Topics in Microeconomics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an introduction to modern applied microeconomics. The unit reviews some of the most important and interesting models of microeconomic theory and considers their application to the real world. This is achieved by careful analysis of a selection of recent scholarly publications using modern techniques employed by applied researchers. The primary objective of the unit is to connect a number of the foundation theories taught in microeconomics with sound empirical approaches. After completion of the unit, students will have the ability to both perform and evaluate applications of economic theory to a range of business, policy and regulatory situations.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-15T11:53:53.196",
+  "code": "ECON7012",
+  "title": "Applied Topics in Microeconomics",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,199 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe and demonstrate the key tasks, principles, skills and spirit of motivational interviewing",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply various theoretical models of health behaviour change to specific health issues",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically evaluate strategies to support health behaviour change initiatives",
+        "code": "ULO2"
+      },
+      {
+        "description": "Outline the common barriers and facilitators of lifestyle change and disease prevention",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Special"
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Weekday-North Ryde"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "((PSYC104 or PSYU1104) and (PSYC105 or PSYU1105)) or Admission to BClinSc",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Personal Health Initiative",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "20",
+        "description": "Part A - Design and plan a personal health initiative Part B - Critically reflect on the personal health initiative",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Open book exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "End of session open book exam",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Health Consultation Simulation",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "40",
+        "description": "You will produce a video recorded consultation with a client about changing their behaviour.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY2000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY2000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "PHTY2000 - Behaviour Change for Health and Exercise",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces you to the key psychological theories underlying contemporary approaches to health behaviour change, in individuals and at the population level. In this unit you will develop skills in the design and evaluation of evidence-based health behaviour change interventions. Additionally, this unit will teach the foundational principles of motivational interviewing, an empirically-supported communication style that assists health professionals in conversing with individuals about lifestyle behaviour change. Learning activities will include interactive lectures, simulations, and observations. Through this unit you will gain essential research and communication skills to support your career in promoting health and behaviour change.",
+    "search_title": "PHTY2000 - Behaviour Change for Health and Exercise",
+    "code": "PHTY2000",
+    "title": "Behaviour Change for Health and Exercise",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces you to the key psychological theories underlying contemporary approaches to health behaviour change, in individuals and at the population level. In this unit you will develop skills in the design and evaluation of evidence-based health behaviour change interventions. Additionally, this unit will teach the foundational principles of motivational interviewing, an empirically-supported communication style that assists health professionals in conversing with individuals about lifestyle behaviour change. Learning activities will include interactive lectures, simulations, and observations. Through this unit you will gain essential research and communication skills to support your career in promoting health and behaviour change.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-04T09:27:24.369",
+  "code": "PHTY2000",
+  "title": "Behaviour Change for Health and Exercise",
+  "implementationYear": "2021"
+}

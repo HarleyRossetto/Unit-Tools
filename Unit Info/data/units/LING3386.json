@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically evaluate literature, theories and methodologies used in bilingual studies",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify and explain the different cognitive accounts of bilingual language processing",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain the impact learning/speaking two or multiple languages can have across one's life span",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify, discuss and critique complex issues surrounding bilingual individuals, states, and education.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Assigned readings per week",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LING324",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "50cp at 2000 level or above including 10cp of LING units at 2000 level",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Term Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "35",
+        "description": "Students need to choose a topic in Bilingualism/Multilingualism and write an essay about it (2000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "An outline for the term essay",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "5",
+        "description": "Students need to come up with a general idea and organisation of the essay they need to submit (200 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "35",
+        "description": "Students will be tested on topics covered by the unit",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical review of literature",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "25",
+        "description": "Students will read a research article and write a review based on a set of questions (1000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LING3386"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LING3386"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "LING3386 - Multilingualism",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on many issues concerning bilingualism and multilingualism including: patterns of acquiring and losing bilingualism; bilingual language processing in both adults and children; linguistic/cognitive consequences of bilingualism/multilingualism; bilingualism/multilingualism in Australia, and Australian language policies and planning. The focus is on discussion of current controversies - for example, the critical age theory; input theories and &#39;competency&#39;; and the cognitive advantage of bilingualism - based on readings and participants&#39; experiences. It also includes workshopping of bilingual data. This unit is useful for students familiar with bilingual or multilingual situations, or who have experience or plans to be involved in teaching, learning or using a second language, or working in a multicultural workplace.",
+    "search_title": "LING3386 - Multilingualism",
+    "code": "LING3386",
+    "title": "Multilingualism",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on many issues concerning bilingualism and multilingualism including: patterns of acquiring and losing bilingualism; bilingual language processing in both adults and children; linguistic/cognitive consequences of bilingualism/multilingualism; bilingualism/multilingualism in Australia, and Australian language policies and planning. The focus is on discussion of current controversies - for example, the critical age theory; input theories and &#39;competency&#39;; and the cognitive advantage of bilingualism - based on readings and participants&#39; experiences. It also includes workshopping of bilingual data. This unit is useful for students familiar with bilingual or multilingual situations, or who have experience or plans to be involved in teaching, learning or using a second language, or working in a multicultural workplace.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:33:12.862",
+  "code": "LING3386",
+  "title": "Multilingualism",
+  "implementationYear": "2021"
+}

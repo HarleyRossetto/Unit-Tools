@@ -1,0 +1,239 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Complete different database programming tasks to specification using SQL",
+        "code": "ULO4"
+      },
+      {
+        "description": "Design and develop small, functional database applications using modern database design methods.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop skills in using a industrial-strength database tools and interactive development environments for building databases.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate understanding of the basic concepts that underlie modern database management systems.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": " Readings to keep up with class activities.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ITEC624, ISYS224",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Design Implementation",
+          "value": "design_impl"
+        },
+        "weight": "10",
+        "description": "Assignment 2 will assess students&#39; ability to implement a relational database as well as querying that database.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Modelling task",
+          "value": "modelling_task"
+        },
+        "weight": "10",
+        "description": "Assignment 1 will focus on conceptual modelling and logical design of databases.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": " Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "There will be many quizzes over the semester to encourage engagement with and understanding of the material by the students.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 3",
+        "type": {
+          "label": "Programming Task",
+          "value": "programming_task"
+        },
+        "weight": "10",
+        "description": "Assignment 3 will assess students&#39; ability to enhance databases through procedural programming.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "The Final examination will assess students&#39; understanding of the fundamental concepts behind database management systems, and their skills in database programming and development. Students will be able to take the exam remotely.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "COMP6350-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP6350"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "COMP6350-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP6350"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "COMP6350-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP6350"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Fully online/virtual<br />",
+    "subject_search_title": "COMP6350 - Database Systems",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides an in-depth study of modern database technology and its dominant role in developing and maintaining enterprise information systems. The aim is to teach students how to program database applications. The emphasis is placed on business applications, using Structured Query Language (SQL) as an interactive and a programmatic language, on principles of the relational-database model, and on fundamental components of a client-server database-management system. Practical work involves the use of a commercial database-management system together with programming tools.",
+    "search_title": "COMP6350 - Database Systems",
+    "code": "COMP6350",
+    "title": "Database Systems",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an in-depth study of modern database technology and its dominant role in developing and maintaining enterprise information systems. The aim is to teach students how to program database applications. The emphasis is placed on business applications, using Structured Query Language (SQL) as an interactive and a programmatic language, on principles of the relational-database model, and on fundamental components of a client-server database-management system. Practical work involves the use of a commercial database-management system together with programming tools.",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-03-04T08:09:41.019",
+  "code": "COMP6350",
+  "title": "Database Systems",
+  "implementationYear": "2021"
+}

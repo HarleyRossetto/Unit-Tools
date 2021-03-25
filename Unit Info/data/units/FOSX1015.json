@@ -1,0 +1,388 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Organise and summarise data graphically and numerically",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse and solve problems about distributions and sampling distributions.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate foundational employability and self-directed learning skills, including recording academic achievements to link university study to future careers.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Evaluate and apply statistical strategies to answer a research question.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate the appropriateness of statistical methodologies when analysing a variety of problems arising from other fields of research.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Draw conclusions from the results of a statistical analysis.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Offline completion of practical activities - No on-campus classes",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Employability material",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Employability-related tasks (e.g., ePortfolio, calendar for time management, preparation for employability activities) ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Offline completion of SGTA activities - No on-campus classes",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Work in the iLearn online space",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Review the discipline specific content delivered in or needed for classes",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSY122, STAT122, STAT170, STAT150, STAT171, WSTA150",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Module 2 Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "This quiz will test the ability of students to analyse and solve statistical problems leveraging the properties of distributions and sampling distributions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Foundation activities",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "Activities related to foundational employability and self-directed learning skills",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Module 5 Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "This quiz will test the ability of students to answer research questions about the appropriateness of models for a categorical random variable, and the independence of two categorical random variables.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Module 3 Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "This quiz will test the ability of students to answer research questions about population means.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Module 4 Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "This quiz will test the ability of students to answer research questions about the linear relationship between two numerical random variables.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Module 1 Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "This quiz will test the ability of students to summarise a data set numerically and graphically, and to understand and interpret the output of such analyses.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "FOSX1015",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: FOSX1015"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: FOSE1015"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Statistical Concepts for Science",
+                "academic_item_code": "FOSE1015",
+                "academic_item_url": "/2020/units/FOSE1015"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: WSTA1250"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Business Statistics",
+                "academic_item_code": "WSTA1250",
+                "academic_item_url": "/2020/units/WSTA1250"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: STAT1371"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Statistical Data Analysis",
+                "academic_item_code": "STAT1371",
+                "academic_item_url": "/2020/units/STAT1371"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: STAT1170"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Introductory Statistics",
+                "academic_item_code": "STAT1170",
+                "academic_item_url": "/2020/units/STAT1170"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: STAT1250"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Business Statistics",
+                "academic_item_code": "STAT1250",
+                "academic_item_url": "/2020/units/STAT1250"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "FOSX1015-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOSX1015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "FOSX1015-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOSX1015"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 2, Fully online/virtual<br />",
+    "subject_search_title": "FOSX1015 - Statistical Concepts for Science",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides a broad introduction to statistical concepts and data analysis techniques. You will develop an understanding of statistical practice through a study of those techniques most commonly used in the sciences, social sciences and humanities. Topics covered in this unit include data collection methods, data quality, data summarisation, and statistical models such as the normal distribution, followed by sampling distributions and statistical inferences about means and proportions. Also studied are methods of analysis relating to comparisons, counted data and relationships, including regression and correlation. Statistical computer packages are used for handling and analysing data. However, no prior computing knowledge is assumed. This unit introduces vital skills for tertiary learning and explores their relationship to success in future careers.",
+    "search_title": "FOSX1015 - Statistical Concepts for Science",
+    "code": "FOSX1015",
+    "title": "Statistical Concepts for Science",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides a broad introduction to statistical concepts and data analysis techniques. You will develop an understanding of statistical practice through a study of those techniques most commonly used in the sciences, social sciences and humanities. Topics covered in this unit include data collection methods, data quality, data summarisation, and statistical models such as the normal distribution, followed by sampling distributions and statistical inferences about means and proportions. Also studied are methods of analysis relating to comparisons, counted data and relationships, including regression and correlation. Statistical computer packages are used for handling and analysing data. However, no prior computing knowledge is assumed. This unit introduces vital skills for tertiary learning and explores their relationship to success in future careers.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-03T11:00:44.081",
+  "code": "FOSX1015",
+  "title": "Statistical Concepts for Science",
+  "implementationYear": "2021"
+}

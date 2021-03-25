@@ -1,0 +1,241 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically analyse and communicate the strategic role that key HR theories and practices have in determining the success of an organisation.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse the impact of strategic HRM in the context of the modern organisation.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate the role HR metrics play in strategic decision making within an organisation.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Lectures",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Tutorials",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "HRM300 or MGMT3002 or HRM308 or MGMT3007 or HRM317 or MGMT3017",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above including (HRM201 or MGMT2040) and (HRM250 or MGMT2050)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "HRM327, HRM328",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "An essay of up to 1,500 words, worth 30%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study Presentation",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "20",
+        "description": "This assessment consists of two parts worth 20% in total. The first is a 4-5 minute individual presentation followed by a 4-5 minute discussion. The second is a summary of up 500 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Strategic HRM Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "A project of up to 2,000 words, worth 50%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT3028-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3028"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT3028-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3028"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT3028-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3028"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT3028-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3028"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MGMT3028 - Strategic Human Resource Management",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is aimed at teaching students to apply knowledge and skills gained in human resources management (HRM) in an integrated way to organisations. The unit reviews and applies theoretical perspectives on strategic HRM to case studies of organisations. It provides the intellectual and practical tools for students to evaluate various approaches to the conception, planning, implementation and evaluation of strategic policy and practice in key functional areas of HRM. Students will develop graduate capabilities in critical, analytical and integrative thinking and effective communication in relation to the development of strategic responses to contemporary HR issues.",
+    "search_title": "MGMT3028 - Strategic Human Resource Management",
+    "code": "MGMT3028",
+    "title": "Strategic Human Resource Management",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is aimed at teaching students to apply knowledge and skills gained in human resources management (HRM) in an integrated way to organisations. The unit reviews and applies theoretical perspectives on strategic HRM to case studies of organisations. It provides the intellectual and practical tools for students to evaluate various approaches to the conception, planning, implementation and evaluation of strategic policy and practice in key functional areas of HRM. Students will develop graduate capabilities in critical, analytical and integrative thinking and effective communication in relation to the development of strategic responses to contemporary HR issues.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-09T09:29:53.04",
+  "code": "MGMT3028",
+  "title": "Strategic Human Resource Management",
+  "implementationYear": "2021"
+}

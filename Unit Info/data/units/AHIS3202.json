@@ -1,0 +1,250 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify evidence for the understanding and practice of magic from the ancient to early modern world.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Assess the ways in which definitions of &quot;magic&quot;, labelling of magical and religious phenomena, and the cultural processes via which they developed, affects our study of them.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Effectively and with academic integrity utilise communication skills appropriate to academic written and oral presentations.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Consider critically the impact of later academic and popular discourses on the scholarly study and general understanding of ancient and medieval magic.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Classify and interpret textual, documentary, and artifactual material in terms of technical or genre-based aspects, types of discourses, and their aims and functions.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation of readings for tutorials",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "AHIS355",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above or (20cp in AHIS or AHST units at 2000 level)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Mid-Session Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "An online quiz covering the material from the first half of the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Magical Spell",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "15",
+        "description": "Students work in small groups to create a magical spell and upload a video of its performance to an online forum.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-exam_att-Exam centre within Australia ",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Academic Integrity Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "0",
+        "description": "Students will complete a short quiz that gives examples of academic dishonesty. Students must gain full marks in this quiz to progress to the other assessment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "A two (2) hour examination during the exam period at the end of the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Magical Spell",
+        "type": {
+          "label": "Performance",
+          "value": "performance"
+        },
+        "weight": "15",
+        "description": "Students construct a magical ritual for performance in the final tutorial.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "A major essay of 2000 words (&#43;/- 10%).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "AHIS3202-unit_teaching_period-exam_att-subject",
+        "display_name": "Session 2-exam_att-Exam centre within Australia ",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Attendance for exam only"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS3202"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AHIS3202-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS3202"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Attendance for exam only, Exam centre within Australia <br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "AHIS3202 - A History of Magic: From the Magi to Merlin",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit surveys the history of magic from the ancient world to the present day, covering cultures from the Ancient Near East, Egypt and the Graeco-Roman world, Late Antiquity, Medieval and Renaissance Europe, down to the early modern world, as well as aspects of cognitive psychology such as perceptual illusions and delusional beliefs.  It provides thorough coverage of the way magic has been defined, understood, and used in these civilisations, and the way it has been conceived and studied in the history of modern scholarship over the past two centuries. Students will focus closely on the material sources for ancient magic, especially handbooks of spells and amulets on papyrus. There will also be close consideration of the construction of magic as an antithesis to religion in the ancient and modern worlds, and a focus on the role, use, and understanding of magic in wider historical, literary, and scientific contexts.",
+    "search_title": "AHIS3202 - A History of Magic: From the Magi to Merlin",
+    "code": "AHIS3202",
+    "title": "A History of Magic: From the Magi to Merlin",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit surveys the history of magic from the ancient world to the present day, covering cultures from the Ancient Near East, Egypt and the Graeco-Roman world, Late Antiquity, Medieval and Renaissance Europe, down to the early modern world, as well as aspects of cognitive psychology such as perceptual illusions and delusional beliefs.  It provides thorough coverage of the way magic has been defined, understood, and used in these civilisations, and the way it has been conceived and studied in the history of modern scholarship over the past two centuries. Students will focus closely on the material sources for ancient magic, especially handbooks of spells and amulets on papyrus. There will also be close consideration of the construction of magic as an antithesis to religion in the ancient and modern worlds, and a focus on the role, use, and understanding of magic in wider historical, literary, and scientific contexts.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T11:01:55.16",
+  "code": "AHIS3202",
+  "title": "A History of Magic: From the Magi to Merlin",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,220 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply basic social research techniques.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Distinguish the sociological imagination from other disciplinary approaches to analysing social issues and trends",
+        "code": "ULO4"
+      },
+      {
+        "description": "Describe key sociological concepts.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate a range of generic skills useful in tertiary education and vocational settings (reading and listening; critique; relational thinking; data collection and analysis; sociological observation; theoretical awareness; written and verbal expression)",
+        "code": "ULO2"
+      },
+      {
+        "description": "Summarise and apply basic works of sociology to the study of contemporary life",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading/viewing online resources on iLearn",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "SGY110, SOC175, SOCX175",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "final online exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "50",
+        "description": "A final online exam based on all lecture material, the readings and tutorial discussions will be set at the end of the course and delivered through iLearn and submitted through turnitin.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Several quizzes based on readings, lectures and tutorials have to be completed",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation.",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Graded active participation in tutorials, evidence of reading and lecture attendance, participation in learning assistance activities. External students are graded on online discussion boards - including a weekly summary and interaction in forums",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "SOCX1000",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: SOCX1000"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: SOCI1000"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Australian and Global Societies",
+                "academic_item_code": "SOCI1000",
+                "academic_item_url": "/2020/units/SOCI1000"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "SOCX1000-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCX1000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "SOCX1000 - Introduction to Sociology: Understanding contemporary society ",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Life in the 21st century is politically, economically and culturally fast-changing, increasingly diverse and technology-driven. In this unit, you will discover how sociologists understand society through topics such as culture and the economy, power and politics, gender and sexuality, self and identity, family and generations, social inequality and class, religion and race. It provides you with new and exciting ways to understand the contemporary world and your place within it. The skills and perspectives you learn will help you communicate complex ideas effectively and provide you with the analytical skills and perspectives you need to successfully navigate the politics, labour markets and diverse cultures in our rapidly changing world.",
+    "search_title": "SOCX1000 - Introduction to Sociology: Understanding contemporary society ",
+    "code": "SOCX1000",
+    "title": "Introduction to Sociology: Understanding contemporary society ",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Life in the 21st century is politically, economically and culturally fast-changing, increasingly diverse and technology-driven. In this unit, you will discover how sociologists understand society through topics such as culture and the economy, power and politics, gender and sexuality, self and identity, family and generations, social inequality and class, religion and race. It provides you with new and exciting ways to understand the contemporary world and your place within it. The skills and perspectives you learn will help you communicate complex ideas effectively and provide you with the analytical skills and perspectives you need to successfully navigate the politics, labour markets and diverse cultures in our rapidly changing world.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T10:51:13.309",
+  "code": "SOCX1000",
+  "title": "Introduction to Sociology: Understanding contemporary society ",
+  "implementationYear": "2021"
+}

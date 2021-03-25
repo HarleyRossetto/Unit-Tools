@@ -1,0 +1,239 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Assess and integrate ethical, social and environmental considerations for responsible new venture financing.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse stakeholder relationships to generate new venture finance strategies that create and deliver sustainable value across complex networks.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse the financial aspects of new venture business strategy and planning to choose the best source of financing.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Explore the role of diverse mindsets of different cultures and markets in how investors may view opportunities.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for classes and assessments. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MGSM840 or MMBA8040 or AFCP801 or AFCP8001",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Group Case Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "15",
+        "description": "Students will work on the case in a group and present individually in class. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "An open book three hour examination will be held durin the University Examination Period. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Case Term Sheet & Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "15",
+        "description": "Based on the presentation of the group case studies from the earlier assessment, the group has to submit an agreed Term Sheet and a Report. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Individual Assignment",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "30",
+        "description": "Students will be required to submit answers for an individual short answer and calculation question set. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMBA8047-unit_teaching_period-Special",
+        "display_name": "Term 4-Special",
+        "teaching_period": {
+          "value": "Term 4"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8047"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8047-unit_teaching_period-Special",
+        "display_name": "Term 2-Special",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8047"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8047-unit_teaching_period-Intensive-subject",
+        "display_name": "Term 2-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8047"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8047-unit_teaching_period-Intensive-subject",
+        "display_name": "Term 4-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Term 4"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8047"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 2, Intensive attendance, North Ryde*<br />Term 4, Intensive attendance, North Ryde*<br />Term 2, Special circumstances<br />Term 4, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MMBA8047 - Entrepreneurial Finance",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Entrepreneurial Finance examines the theory and practice associated with the financing of new ventures. This unit explores sources of funding, risk, venture capital financing terms and models, value creation, and exits. This study of entrepreneurial finance will enhance your ability to finance and launch new ventures, from both the viewpoints of the entrepreneur and external investors.",
+    "search_title": "MMBA8047 - Entrepreneurial Finance",
+    "code": "MMBA8047",
+    "title": "Entrepreneurial Finance",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Entrepreneurial Finance examines the theory and practice associated with the financing of new ventures. This unit explores sources of funding, risk, venture capital financing terms and models, value creation, and exits. This study of entrepreneurial finance will enhance your ability to finance and launch new ventures, from both the viewpoints of the entrepreneur and external investors.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-25T10:33:33.003",
+  "code": "MMBA8047",
+  "title": "Entrepreneurial Finance",
+  "implementationYear": "2021"
+}

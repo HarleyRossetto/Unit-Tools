@@ -1,0 +1,223 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate current treatment strategies and the role of personalised therapy.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify the mechanisms and risk factors that contribute to disease.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically review contemporary research in human disease processes.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Interpret and communicate research concepts and results.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Evaluation of clinical trial research",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Additional information, including reading, videos, formative quizzes to enhance student learning",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Directed learning for preparation of weekly workshops",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MEDI707",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Oral Presentation",
+        "type": {
+          "label": "Debate",
+          "value": "debate"
+        },
+        "weight": "30",
+        "description": "Debate conducted online about a current research topic.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Written Assessment",
+        "type": {
+          "label": "Summary",
+          "value": "summary"
+        },
+        "weight": "25",
+        "description": "Prepare a structured research abstract",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Oral Presentation",
+        "type": {
+          "label": "Debate",
+          "value": "debate"
+        },
+        "weight": "30",
+        "description": "Face to face debate on a current research topic",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "45",
+        "description": "Assessment of unit knowledge.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI7007"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI7007"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MEDI7007 - Unlocking the Mechanisms of Human Disease",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit you will explore the aetiology, pathogenesis and risk factors involved in common human diseases, including cancer and neurodegenerative conditions. Disease processes will be studied with a focus on cell biology, genetics, and immunology. You will gain an in depth understanding of fundamental biological mechanisms governing human disease pathogenesis. Current treatments and clinical trials will be reviewed and the impact of disease on the individual and on society will be discussed. The latest research into treatment response and resistance, liquid biopsies, and biomarker discovery will be incorporated throughout the unit, and the reality and promise of personalised therapy will be considered.",
+    "search_title": "MEDI7007 - Unlocking the Mechanisms of Human Disease",
+    "code": "MEDI7007",
+    "title": "Unlocking the Mechanisms of Human Disease",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit you will explore the aetiology, pathogenesis and risk factors involved in common human diseases, including cancer and neurodegenerative conditions. Disease processes will be studied with a focus on cell biology, genetics, and immunology. You will gain an in depth understanding of fundamental biological mechanisms governing human disease pathogenesis. Current treatments and clinical trials will be reviewed and the impact of disease on the individual and on society will be discussed. The latest research into treatment response and resistance, liquid biopsies, and biomarker discovery will be incorporated throughout the unit, and the reality and promise of personalised therapy will be considered.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:04:10.312",
+  "code": "MEDI7007",
+  "title": "Unlocking the Mechanisms of Human Disease",
+  "implementationYear": "2021"
+}

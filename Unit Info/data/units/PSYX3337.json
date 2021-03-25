@@ -1,0 +1,220 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate a basic understanding and appreciation of theory and typical research findings relating to cause and maintenance of the psychological disorders covered in this unit.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify the signs, symptoms and science-based treatments of the psychological disorders covered in this unit.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Display communication and critical analysis skills: in particular, analyse the theoretical and empirical literature and professionally communicate research findings.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate awareness of the prevalence and demographics typical for the psychological disorders covered in this unit.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate an understanding of the multiple definitions of abnormal behaviour and how to assess it.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "20cp from (PSYX or PSYU or PSY units at 2000 level) including PSYX248 or PSYX2248 or PSY248 or PSYU2248",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Three online multiple-choice quizzes testing unit content.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Final examination held within the University’s formal exam period, in accordance with relevant requirements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "A 1500 word written report, in APA format, that diagnoses a case vignette, and uses a science-based theory to describe the case’s condition and recommended treatment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PSYX3337",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PSYX3337"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PSYU3337"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Psychopathology",
+                "academic_item_code": "PSYU3337",
+                "academic_item_url": "/2020/units/PSYU3337"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PSYX3337-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYX3337"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "PSYX3337 - Psychopathology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This online unit focuses on so-called abnormal behaviour. Following a general introduction to the nature and study of abnormality, each of the main forms of psychopathology is discussed, along with theories of psychopathology and their evidence (when available) as well as science-based interventions. Tutorials are online. An intermediate level of research methodology and statistical knowledge is a pre-requisite for this unit, as this knowledge is required to understand the scientific basis of psychopathology and its theories.",
+    "search_title": "PSYX3337 - Psychopathology",
+    "code": "PSYX3337",
+    "title": "Psychopathology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This online unit focuses on so-called abnormal behaviour. Following a general introduction to the nature and study of abnormality, each of the main forms of psychopathology is discussed, along with theories of psychopathology and their evidence (when available) as well as science-based interventions. Tutorials are online. An intermediate level of research methodology and statistical knowledge is a pre-requisite for this unit, as this knowledge is required to understand the scientific basis of psychopathology and its theories.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-03T09:59:02.983",
+  "code": "PSYX3337",
+  "title": "Psychopathology",
+  "implementationYear": "2021"
+}

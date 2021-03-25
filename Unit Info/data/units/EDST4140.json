@@ -1,0 +1,170 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically reflect on HPE practices in K-6 contexts.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Use curriculum to support assessment knowledge and appropriate teaching strategies.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Constructively align (design) assessment an learning experiences for K-6 students in PDHPE.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Design a sequence of learning experiences for NESA PDHPE syllabus content across diverse K-6 contexts.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain the key concepts in NESA & ACARA syllabus documents for PDHPE/HPE Key Learning Areas.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "160cp and (EDST3000 or EDST300)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "AT1",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "50",
+        "description": "Reflective Blog Posts each week plus synopsis (2000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "AT2",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "50",
+        "description": "Design of assessment tool (2000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDST4140-unit_teaching_period",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST4140"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDST4140-unit_teaching_period",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST4140"
+        }
+      }
+    ],
+    "unit_offering_text": "2022<br />2022<br />",
+    "subject_search_title": "EDST4140 - Health and Physical Education in the Primary School",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit consists of lectures and practical workshop experiences that develop discipline content knowledge of Health and Physical Education (HPE) with specific attention to pedagogical application of the NSW primary years Personal Development, Health and Physical Education (PDHPE) syllabus. The content covered in this unit covers four broad fields of inquiry. First, we explore interpretations of Quality Health and Physical Education followed by learning how to assess it. Second, we compare ways in which we can teach personal, social and community health to children. Finally, we discuss the pedagogies associated with teaching meaningful movement and physical activity in school-based settings. This overall goal for students is for them to construct strategies that allow for the design and delivery of authentic learning experiences in the HPE context. It also incorporates exploration of strategies in differentiating learning of HPE within an inclusive classroom.",
+    "search_title": "EDST4140 - Health and Physical Education in the Primary School",
+    "code": "EDST4140",
+    "title": "Health and Physical Education in the Primary School",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit consists of lectures and practical workshop experiences that develop discipline content knowledge of Health and Physical Education (HPE) with specific attention to pedagogical application of the NSW primary years Personal Development, Health and Physical Education (PDHPE) syllabus. The content covered in this unit covers four broad fields of inquiry. First, we explore interpretations of Quality Health and Physical Education followed by learning how to assess it. Second, we compare ways in which we can teach personal, social and community health to children. Finally, we discuss the pedagogies associated with teaching meaningful movement and physical activity in school-based settings. This overall goal for students is for them to construct strategies that allow for the design and delivery of authentic learning experiences in the HPE context. It also incorporates exploration of strategies in differentiating learning of HPE within an inclusive classroom.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-16T16:34:23.225",
+  "code": "EDST4140",
+  "title": "Health and Physical Education in the Primary School",
+  "implementationYear": "2021"
+}

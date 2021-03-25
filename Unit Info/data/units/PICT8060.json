@@ -1,0 +1,219 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "apply in-depth understanding about the historical evolution of modern geopolitics. Students will be equipped with the knowledge of historical case studies of geopolitically important changes before and after the Cold War, and the implications for scholarly understandings of geopolitical study.",
+        "code": "ULO3"
+      },
+      {
+        "description": "apply geopolitical analysis and integrated knowledge to assess the significance of current trends in this area and the related implications for scholarship and the policy world. Students will also be able to recognise recurrent geopolitical patterns throughout history.",
+        "code": "ULO4"
+      },
+      {
+        "description": "understand the difference between classical and critical geopolitics. You will be able to apply different methods for analysing geopolitics and to critically assess geopolitical questions through different analytical lenses.",
+        "code": "ULO2"
+      },
+      {
+        "description": "apply in-depth understanding about geopolitical analysis, geopolitical theories and geostrategy in multiple contexts. You will be across the various methods and approaches to geopolitical and geostrategic analysis.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {},
+        "offerings": ""
+      },
+      {
+        "description": "Students prepare for classes each week by completing the required readings and analysing the key questions for each seminar topic",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PICT901, PICX860, PICT710, PICT860",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MPICT or MCPICT or GradDipPICT or GradDipCPICT or PGCertPICT or MPICTMIntSecSt or MCPICTMIntSecSt or MIntSecStud or GradDipIntSecStud or GradCertIntell or MCTerrorism or MCyberSec or GradDipSecStudCr or GradCertSecStudCr or MIntell or MSecStrategicStud or MCrim or MSecStrategicStudMCrim or MSecStrategicStudMIntell or MSecStrategicStudMCyberSec or MSecStrategicStudMCTerrorism or MIntellMCrim or MIntellMCyberSec or MIntellMCTerrorism or MCyberSecMCTerrorism or MCyberSecMCrim or MCTerrorismMCrim or Master of Cyber Security Analysis or ((Admission to BSecStudMCTerrorism or BSecStudMCrim or BSecStudMCyberSecAnalysis or BSecStudMIntell or BSecStudMSecStrategicStud) and (10cp at 6000 level or 10cp at 8000 level))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Annotations",
+        "type": {
+          "label": "Log book",
+          "value": "log_book"
+        },
+        "weight": "40",
+        "description": "Students will annotate a selection of their required readings. Instructional videos will be available on iLearn that show how to properly annotate a text.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Major Research Essay ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Students will prepare a 3,000 word research essay which will develop their ability to conduct independent research, apply critical thinking skills and foundational knowledge acquired during the seminar, and write in a clear, concise and academically rigorous manner.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students will be expected to actively engage in the weekly discussions and debates within their seminars (on campus students) or on the iLearn discussion forums (fully online students).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PICT8060-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8060"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PICT8060-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8060"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PICT8060-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8060"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "PICT8060 - Geopolitics and Geostrategy",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The international security order is in a period of rapid transformation. This unit examines the major global geopolitical trends, including in the Indo-Pacific, the greater Middle East, Europe, as well as Latin America and Africa. It also analyses the influence of those dynamics on the geostrategies of key countries. Aside from exposing students to the concept of geopolitics as an analytical instrument, the unit will deal with a series of case studies, including the evolving US-Sino rivalry; the Sino-India great power game; the geopolitics of Southeast Asia; the rise of Iran, and the emerging roles of Saudi Arabia and Turkey; the question of the re-emergence of Russia and Germany as great powers; and the United Kingdom in times of Brexit. The unit will provide students with in-depth understanding about the key contemporary global geostrategic dynamics and the implications for regional and international stability.",
+    "search_title": "PICT8060 - Geopolitics and Geostrategy",
+    "code": "PICT8060",
+    "title": "Geopolitics and Geostrategy",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The international security order is in a period of rapid transformation. This unit examines the major global geopolitical trends, including in the Indo-Pacific, the greater Middle East, Europe, as well as Latin America and Africa. It also analyses the influence of those dynamics on the geostrategies of key countries. Aside from exposing students to the concept of geopolitics as an analytical instrument, the unit will deal with a series of case studies, including the evolving US-Sino rivalry; the Sino-India great power game; the geopolitics of Southeast Asia; the rise of Iran, and the emerging roles of Saudi Arabia and Turkey; the question of the re-emergence of Russia and Germany as great powers; and the United Kingdom in times of Brexit. The unit will provide students with in-depth understanding about the key contemporary global geostrategic dynamics and the implications for regional and international stability.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-15T15:01:32.944",
+  "code": "PICT8060",
+  "title": "Geopolitics and Geostrategy",
+  "implementationYear": "2021"
+}

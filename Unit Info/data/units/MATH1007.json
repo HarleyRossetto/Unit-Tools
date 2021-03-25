@@ -1,0 +1,267 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate knowledge of the basic concepts of discrete mathematics, including logic, sets, functions relations, proofs, counting arguments, elementary number theory, matrices, and graph theory.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Construct logical, clearly presented and justified mathematical arguments in the context of discrete mathematics.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply the principles, concepts, and techniques learned in this unit to solve practical and abstract problems.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate appropriate interpretation of information communicated in mathematical form and formulate ideas and language from discrete mathematics.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Understand ethical application of mathematical approaches to solving problems and appropriately reference and acknowledge sources in a mathematical context.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Communicate to a general audience the relevance of mathematics to computer science.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate foundational learning skills including active engagement in your learning process.",
+        "code": "ULO7"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading lecture slides, reviewing lecture slides, reading textbook, preparing for SGTAs, reviewing SGTA material",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "DMTH137",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Lecture Activity (weekly)",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "Students are expected to demonstrate their ability to engage with the unit by participating in lecture activities.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Midterm Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "<div>\n<div>Set of questions with short answers required (using words, numerical analysis, graphs and formulas).</div>\n</div>\n<div> </div>",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "Problems are chosen to explore concepts and techniques learned in the unit. Students will solve the problems using logical mathematical arguments and submit clearly written solutions",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation in SGTA classess",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "Answering questions based on the previous week&#39;s lecture material",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation in SGTA classess (online)",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "Answering questions based on the previous week&#39;s lecture material",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "This will be held during the final exam period. The students will required to demonstrate understanding of the unit, implement mathematical techniques to solve problems, and communicate mathematical ideas in writing.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "Problems are chosen to explore concepts and techniques learned in the unit. Students will solve the problems using logical mathematical arguments and submit clearly written solutions",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MATH1007"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MATH1007"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MATH1007 - Discrete Mathematics I",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Mathematics and Statistics "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides a background in the area of discrete mathematics to provide an adequate foundation for further study in computer science. It is also of great interest to students wishing to pursue further study in mathematics. In this unit, students study propositional and predicate logic; methods of proof; fundamental structures in discrete mathematics such as sets, functions, relations and equivalence relations; Boolean algebra and digital logic; elementary number theory; graphs and trees; and elementary counting techniques.",
+    "search_title": "MATH1007 - Discrete Mathematics I",
+    "code": "MATH1007",
+    "title": "Discrete Mathematics I",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides a background in the area of discrete mathematics to provide an adequate foundation for further study in computer science. It is also of great interest to students wishing to pursue further study in mathematics. In this unit, students study propositional and predicate logic; methods of proof; fundamental structures in discrete mathematics such as sets, functions, relations and equivalence relations; Boolean algebra and digital logic; elementary number theory; graphs and trees; and elementary counting techniques.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:18:31.338",
+  "code": "MATH1007",
+  "title": "Discrete Mathematics I",
+  "implementationYear": "2021"
+}

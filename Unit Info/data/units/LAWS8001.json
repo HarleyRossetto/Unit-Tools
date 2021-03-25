@@ -1,0 +1,322 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Pass/Fail",
+      "value": "pass-fail"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply principles of reflective practice.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply principles of statutory interpretation and the doctrine of precedent to interpret and relate primary legal sources (case law and legislation) for the purpose of deriving legal rules and principles.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Locate relevant primary and secondary sources through legal research using online databases, library resources and internet sources, and apply research skills to legal analysis.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify, describe and relate sources of legal norms and foundational elements of the Australian legal system.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Recognise, comprehend and apply conventions for legal writing and referencing",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "prescribed readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparation for tutorials",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LAWS600",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to GradCertLaw or JD",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Reflection on Law",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "Consists of a written reflection (max. 1,500 words) in which students analyse a media article concerning the effectiveness of Australian legal frameworks in addressing a contemporary legal issue.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Academic Integrity and Referencing Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Consists of two online multiple choice quizzes in which students will demonstrate their ability to apply principles of academic integrity and rules for correct legal citation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Foundations of Law Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Students must complete a timed online quiz to demonstrate understanding of foundational aspects of Australian law, including core concepts in public law.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Foundations of Law Viva",
+        "type": {
+          "label": "Viva/oral examination",
+          "value": "viva_oral_exam"
+        },
+        "weight": "20",
+        "description": "Student understanding of fundamental principles of Australian law will be evaluated through a 15-minute oral assessment (in person or remotely).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Core Skills Assessment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "Consists of a short assignment (max 2,500 words, excluding footnotes) submitted online in which students will analyse and interpret primary legal sources (case law and legislation) and relate these to foundational concepts.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LAWS8001-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8001-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8001-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8001-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8001-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8001"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Infrequent attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "LAWS8001 - Foundations of Law",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is offered on a pass/fail basis. This unit enables students to attain well-developed cognitive and practical key legal skills (legal reasoning, case analysis and statutory interpretation) and to acquire an advanced level of foundational legal knowledge (Australian legal institutions; legal theory; comparative legal systems; parliamentary process; role of the judiciary) necessary for further graduate study in law. Students will also engage in reflective practice.",
+    "search_title": "LAWS8001 - Foundations of Law",
+    "code": "LAWS8001",
+    "title": "Foundations of Law",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is offered on a pass/fail basis. This unit enables students to attain well-developed cognitive and practical key legal skills (legal reasoning, case analysis and statutory interpretation) and to acquire an advanced level of foundational legal knowledge (Australian legal institutions; legal theory; comparative legal systems; parliamentary process; role of the judiciary) necessary for further graduate study in law. Students will also engage in reflective practice.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:32:15.043",
+  "code": "LAWS8001",
+  "title": "Foundations of Law",
+  "implementationYear": "2021"
+}

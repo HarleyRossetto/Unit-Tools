@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Research and critique relevant theories and concepts to analyse strategic management issues in international business.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically evaluate how competitive advantage applies to international business strategy.  ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse and describe the theories and concepts relevant to international business strategy.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Develop effective recommendations for successful strategy implementation. ",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Online resources, collaborative peer learning, reading, research ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "BUS804",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(BUS651 or MGMT6051 or ECON649 or ECON6049 or ECON991 or ECON8091 or MGNT812 or MGMT8012 or MKTG696 or MKTG6096) and 40cp at 8000 level",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Case Study",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "50",
+        "description": "For this individual assignment each student will need to prepare a 3000-word case study on an allocated topic and analyse the case questions through reference to concepts and frameworks introduced in the unit.  \n\nThe assignment requires students to conduct original research, which involves the collection and analysis of information from a range of sources, including academic journals, business magazines, newspapers and other media outlets. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay – Literature review",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "For this individual assignment each student will need to prepare a 3000-word essay.  The assignment requires students to conduct original research, which involves the search, review and critique of the relevant articles from a range of academic journals. To provide a rigorous review and critique, you are expected to read widely and incorporate at least 20 different references from academic articles.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT8004-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8004"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT8004-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8004"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT8004-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "120",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8004"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT8004-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8004"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde*<br />Session 1, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MGMT8004 - International Business Strategy",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit draws upon concepts from interdisciplinary sources as well as practical industry and firm-level case studies. It will introduce students to strategic decision making by providing insights on the practices and policies used for competitive advantage. Concepts developed in the unit will be applied to the solution of &#39;real world&#39; problems through the use of the case studies, and other learning strategies throughout the semester.",
+    "search_title": "MGMT8004 - International Business Strategy",
+    "code": "MGMT8004",
+    "title": "International Business Strategy",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit draws upon concepts from interdisciplinary sources as well as practical industry and firm-level case studies. It will introduce students to strategic decision making by providing insights on the practices and policies used for competitive advantage. Concepts developed in the unit will be applied to the solution of &#39;real world&#39; problems through the use of the case studies, and other learning strategies throughout the semester.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-08T08:23:24.383",
+  "code": "MGMT8004",
+  "title": "International Business Strategy",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,198 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply the discipline of business models and analytical techniques to sustainable business operations.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe and evaluate a range of business models and their applications in the context of the broader business environment.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically analyse a range of business model frameworks.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify a project and develop a business model to create sustainable values, both as an individual and as part of a group.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class preparation, readings, research, group meetings.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "BBA280",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "70cp at 1000 level or above including BBA102 or MGMT1002",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Individual Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Individual Report not exceeding 2000 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study Analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "2x Individual Case Analysis. (not exceeding 1200 words for each analysis)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Team Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "30",
+        "description": "Group Presentation – Individually marked (3 to 4 mins per student) and peer group evaluation (not exceeding 1200 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT2080-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT2080"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT2080-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT2080"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances<br />Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MGMT2080 - Application of Business Models",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The concept of business models applies to a broad spectrum of the business community, encompassing venture start-ups, existing private, public and social organisations. This unit takes a practical approach to analyse the value of business models and how sustainable values may be created and captured among different organisations. It looks at the role of critical elements such as sources of revenue, resources, capabilities, cost structure and key stakeholders, and how these elements are orchestrated to create organisation value and sustainability. This unit offers an opportunity to develop skill sets that help to develop innovative business models, and/or refine existing models, and challenges students to apply this knowledge to create business models for their project.",
+    "search_title": "MGMT2080 - Application of Business Models",
+    "code": "MGMT2080",
+    "title": "Application of Business Models",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The concept of business models applies to a broad spectrum of the business community, encompassing venture start-ups, existing private, public and social organisations. This unit takes a practical approach to analyse the value of business models and how sustainable values may be created and captured among different organisations. It looks at the role of critical elements such as sources of revenue, resources, capabilities, cost structure and key stakeholders, and how these elements are orchestrated to create organisation value and sustainability. This unit offers an opportunity to develop skill sets that help to develop innovative business models, and/or refine existing models, and challenges students to apply this knowledge to create business models for their project.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-15T11:54:37.18",
+  "code": "MGMT2080",
+  "title": "Application of Business Models",
+  "implementationYear": "2021"
+}

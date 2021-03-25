@@ -1,0 +1,285 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Advanced level of understanding of general doctrines of criminal responsibility, elements of offences and defences, and the aims of the criminal justice system, in accordance with Priestley requirements for legal practice",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically research, analyse, synthesise, interpret and derive legal principles from legislation, parliamentary debates and case law governing the administration of criminal justice",
+        "code": "ULO3"
+      },
+      {
+        "description": "Carry out independent research, and draft submissions to a legal inquiry, in order to develop, critique and advocate legal policy reform in the context of criminal justice",
+        "code": "ULO5"
+      },
+      {
+        "description": "Collaborate effectively with other students in group activities including in presentations and class discussions",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate effective and persuasive English communication skills, in verbal and written form, with legal and non-legal audiences",
+        "code": "ULO6"
+      },
+      {
+        "description": "Apply principles of statutory interpretation and problem solving methods to criminal justice scenarios",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly set readings of approximately 2 hours per week",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparation for tutorial exercises",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LAWS600 or LAWS8001",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "Admission to GradCertLaw or GradDipLaw or JD ",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LAWS802",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Revision Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "0",
+        "description": "This quiz will cover all of the unit content. Students will be presented with 20 questions from a much larger question bank. Questions will be multiple choice format. The time limit is one hour from when the student commences. The pass mark for this quiz is 75% (that is, minimum 15 correct answers out of 20). It is a hurdle assessment - a student cannot pass the unit without passing this assessment task. Students who do not achieve a 75% pass mark on their first attempt will be allowed a second and, if necessary, third attempt. No more than 3 attempts will be allowed. There is a mandatory minimum 24 hour delay between attempts. All attempts must be made during the 5-day time period that the quiz is open. This is a timed assessment task and late submissions will not be allowed.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Students are required to participate in set activities, including class discussions, opening and closing addresses, law reform proposals, individual and group quizzes, and other set work. Participation requires consistent demonstration of understanding and critical engagement with the required readings. When students are required to participate in group presentation exercises in tutorials, as part of class participation, then these are timed assessments and no late submission will be accepted.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Early Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "This formative assessment will test students&#39; understanding of the Principles of Criminal Responsibility, the key content that underpins the remainder of the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Law Reform Submission",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "40",
+        "description": "Students will be required to write a submission to a hypothetical law reform inquiry. Students will be required to demonstrate their understanding of the law, their ability to critically engage and evaluate existing legal principles, statutory frameworks and broader social contexts, and to propose sound, viable (legally, socially and politically), and reasoned legal and policy reforms.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Problem Question 1",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "30",
+        "description": "This problem question will focus on a unit topic to be determined. Students will be presented with a hypothetical factual scenario and are required to apply the principles of criminal responsibility, the relevant offence provisions and common law, and the law of defences to assess the criminal liability of a specific individual.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8002"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Special circumstances, Other<br />",
+    "subject_search_title": "LAWS8002 - Criminal Justice and Public Policy",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit aims to develop an advanced understanding of the substantive principles of criminal law, the administration of criminal justice and related public policy dimensions in contemporary Australian society. Students will critically examine principles of criminal responsibility, a range of criminal offences, and aspects of the prosecution and defence of criminal matters. They will carry out an independent piece of research to analyse and evaluate historical, social, political, philosophical and ethical factors that inform policy development in this area, including a current priority area for legal and policy reform.",
+    "search_title": "LAWS8002 - Criminal Justice and Public Policy",
+    "code": "LAWS8002",
+    "title": "Criminal Justice and Public Policy",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit aims to develop an advanced understanding of the substantive principles of criminal law, the administration of criminal justice and related public policy dimensions in contemporary Australian society. Students will critically examine principles of criminal responsibility, a range of criminal offences, and aspects of the prosecution and defence of criminal matters. They will carry out an independent piece of research to analyse and evaluate historical, social, political, philosophical and ethical factors that inform policy development in this area, including a current priority area for legal and policy reform.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:47:58.69",
+  "code": "LAWS8002",
+  "title": "Criminal Justice and Public Policy",
+  "implementationYear": "2021"
+}

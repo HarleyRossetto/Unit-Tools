@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain and apply the theories and concepts underpinning Business-to-Business Marketing.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse business-to-business environments to identify opportunities.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify and propose justified solutions that solve business-to-business marketing problems.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MKTG205",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "40cp at 2000 level or above including MKTG2002 or MKTG202",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Case study analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "The written case study analysis report will assess your ability to analyse a case, marshal your thoughts and ideas and propose solutions. The aim of case study analysis is to apply theory to solve the case and answer the case questions.\nLength: 1500 words ± 10%",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participatory task",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "Workshop activities give you opportunities to internalise your learning. These activities also allow you to engage in discussions and share your thoughts, help you explain your points of view, and develop not only your own knowledge, but also assist your fellow classmates to gain a better understanding of the topic.\n\nLength:The participatory tasks include both in-class group activities worth 20% and online individual activities worth 10%.  This unit is exempted from the 50/50 Assessment Policy.  In-class group activities include 10 quizzes each worth 2%. Online individual activities include 5 submissions each worth 2% of 100 words each and 5 peer reviews of 50 words each.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "This written assignment requires you to apply theories and concepts to examine how companies operate in the business environment. From your analyses you will identify opportunities to assist companies in their future operations.\nLength: 2500 words ± 10%",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MKTG3001-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG3001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MKTG3001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG3001"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MKTG3001 - Business to Business Marketing",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Marketing "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Business-to-business markets differ significantly from business-to-consumer markets, and present unique challenges and opportunities for marketers. Business customers are driven by different needs, engage in complex purchase decision-making processes, and respond differently to marketing stimuli. In facing the challenges and opportunities in business markets, marketers need to apply specific strategies to develop value offerings, communicate those offerings to stimulate purchase behaviours, and work to sustain long lasting business relationships with customers. This unit develops students’ knowledge to apply business-to-business marketing theories and principles to solve business-to-business marketing problems. Students learn how to analyse business-to-business networks and identify opportunities to offer superior value to customers.",
+    "search_title": "MKTG3001 - Business to Business Marketing",
+    "code": "MKTG3001",
+    "title": "Business to Business Marketing",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Business-to-business markets differ significantly from business-to-consumer markets, and present unique challenges and opportunities for marketers. Business customers are driven by different needs, engage in complex purchase decision-making processes, and respond differently to marketing stimuli. In facing the challenges and opportunities in business markets, marketers need to apply specific strategies to develop value offerings, communicate those offerings to stimulate purchase behaviours, and work to sustain long lasting business relationships with customers. This unit develops students’ knowledge to apply business-to-business marketing theories and principles to solve business-to-business marketing problems. Students learn how to analyse business-to-business networks and identify opportunities to offer superior value to customers.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-12T15:17:03.881",
+  "code": "MKTG3001",
+  "title": "Business to Business Marketing",
+  "implementationYear": "2021"
+}

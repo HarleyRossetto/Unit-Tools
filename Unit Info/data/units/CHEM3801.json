@@ -1,0 +1,254 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate medicinal chemistry concepts competently in oral presentations and in written format in exams, tests and laboratory reports and communicate conclusions based on experiments in the form of written reports.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Work with peers to conduct group work in an efficient, collaborative and equitable fashion.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Execute laboratory skills (synthesis, purification and instrumental and spectral analysis) in a safe manner, accurately record laboratory observations in an appropriate scientific manner, and analyse experimental results to solve related problems.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Use the primary literature and scientific databases (SciFinder and Reaxys) to plan and execute the synthesis of druglike molecules and undertake literature reviews.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse data and solve problems using medicinal chemistry principles.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Describe the structure and function of biological targets and the interaction of drugs or drug leads with these targets at a molecular level; methods of drug discovery and development; qualitative and quantitative structure–activity relationship methods; pharmacokinetics; the design of more active, selective or less toxic drugs; drug metabolism and prodrugs; and the mechanism of action of specific classes of drugs. ",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Laboratory Class preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CBMS306",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(CHEM2601 or CBMS203 or CBMS204) and 10cp in CBMS or BMOL or CHEM units at 2000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "Quizzes allow identification of any deficiency in knowledge and understanding and to encourage continuous learning of the lecture material without the stress of a significant assessment component.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Spectroscopy Training",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "All students are required to undertake the Kahn Academy course on spectroscopy before week 7.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-semester test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Mid-semester Test will cover unit content up to and including week 7.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "The final examination will be in the regular university examination period. This will assess specific understanding and holistic concepts of all the topics presented within the course and an opportunity for you to show what knowledge you have obtained and how you can apply this in new situations to solve complex problems.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical work",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "25",
+        "description": "The practical work (synthesis and antibacterial structure activity relationship of sulfonamides) will be conducted in small groups. Students will be required to maintain good laboratory notes, perform risk assessments and have safe laboratory practices. Each group will develop a written justification of their choice of final target compounds and possible synthetic procedures, will submit a short introductory report, formal write up of an experimental procedure, and a final group report. This assessment item counts 25%, of which 15% is for individual performance and 10% for group performance.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Pharmaceutical agent presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "5",
+        "description": "Students will deliver an oral presentation on a clinically used pharmaceutical agent, providing information on its structure and function at a molecular level. Peer feedback will be provided.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "CHEM3801-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHEM3801"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CHEM3801-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHEM3801"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "CHEM3801 - Medicinal Chemistry",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Molecular Sciences "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Medicinal chemistry is the application of chemistry to the discovery, design and synthesis of new drugs. This unit is of value to all molecular sciences and medical sciences students. The central core of the unit is the description of methods used for the discovery of new drugs, how these are modified to produce more active compounds, transportation to and from their points of action and how they are cleared from the body. Topics include: the structure and function of biological targets (proteins and DNA); sources of new drugs from nature; and lead generation and methods of lead modification to make more active, selective or less toxic drugs. This is followed by a study of structure-activity relationship methods; pharmacokinetics, drug metabolism and prodrugs, and chemical genetics. Case studies are also provided, including antibacterial and anticancer agents, and nucleic acid therapies. The theory is complemented by a discovery-based laboratory project incorporating synthetic chemistry, spectroscopic methods, bioassays and computational chemistry to elucidate the essential structural features necessary for the sulfonamide class of antibacterial agents.",
+    "search_title": "CHEM3801 - Medicinal Chemistry",
+    "code": "CHEM3801",
+    "title": "Medicinal Chemistry",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Medicinal chemistry is the application of chemistry to the discovery, design and synthesis of new drugs. This unit is of value to all molecular sciences and medical sciences students. The central core of the unit is the description of methods used for the discovery of new drugs, how these are modified to produce more active compounds, transportation to and from their points of action and how they are cleared from the body. Topics include: the structure and function of biological targets (proteins and DNA); sources of new drugs from nature; and lead generation and methods of lead modification to make more active, selective or less toxic drugs. This is followed by a study of structure-activity relationship methods; pharmacokinetics, drug metabolism and prodrugs, and chemical genetics. Case studies are also provided, including antibacterial and anticancer agents, and nucleic acid therapies. The theory is complemented by a discovery-based laboratory project incorporating synthetic chemistry, spectroscopic methods, bioassays and computational chemistry to elucidate the essential structural features necessary for the sulfonamide class of antibacterial agents.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-03T09:29:25.212",
+  "code": "CHEM3801",
+  "title": "Medicinal Chemistry",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,211 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Undertake independent learning and research throughout the semester.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Effectively communicate their understanding and analytical ability in both spoken and, particularly, polished written form.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Raise awareness of the importance of a critical approach to the study of the Middle East, by adopting macro (‘big picture’) perspectives discussed in the unit and integrating theory and empirical evidence. ",
+        "code": "ULO5"
+      },
+      {
+        "description": "Outline the geography and contemporary history of the Middle East.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Use a wide range of written and digital resources related to Middle East politics to convey, in essays and discussions, convincing arguments and ideas about the region.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading the set texts/required readings is essential for participation.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PLTX278, POL278, POL266, POL268, POIX278",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "40cp at 1000 level or above OR (10cp in HIST or MHIS or POL or POIR or MHIX or POIX units)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "60",
+        "description": "Write an essay of 2000 words. Choose one essay question provided by the Convenor. Students are expected to utilise the required readings in the unit and undertake independent research.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "The final exam will be delivered online. It will require students to demonstrate knowledge of the key concepts and debates examined in the unit. Responses to several tasks will total approximately 2,000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "POIX2780",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: POIX2780"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: POIR2780"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Middle-East Politics",
+                "academic_item_code": "POIR2780",
+                "academic_item_url": "/2020/units/POIR2780"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "POIX2780-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "POIX2780"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "POIX2780 - Middle-East Politics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The uprisings that gripped the Arab world in 2011, the ongoing violence in Syria, the mixed results of the revolution in Egypt and the emergence of ISIS in 2014 have refocused world attention on the Middle East and its relations with the West. This course introduces students to the domestic politics of the Middle East, and to the intellectual and ideological currents shaping those politics. The first weeks are devoted to the contemporary history of the region from the late nineteenth century to the rise of post-colonial states in the region. Broad-ranging theoretical concepts necessary for an understanding of Middle Eastern political processes, and different ways of looking at those processes, are considered in the first part of the course. The unit then examines the structure of government and the politics of the region, drawing on some of the ideas from the earlier part of the course. Particular attention is paid to the region’s ongoing relations with the West and the “war against terrorism”; the emergence and future prospects of religious fundamentalism; and the rise of Arab nationalism and Zionism. The Arab-Israeli conflict, the 2003 Iraq War and the impact of globalisation are also covered. All enrolment queries should be directed to Open Universities Australia (OUA): see <a href=\"http://www.open.edu.au\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">www.open.edu.au",
+    "search_title": "POIX2780 - Middle-East Politics",
+    "code": "POIX2780",
+    "title": "Middle-East Politics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The uprisings that gripped the Arab world in 2011, the ongoing violence in Syria, the mixed results of the revolution in Egypt and the emergence of ISIS in 2014 have refocused world attention on the Middle East and its relations with the West. This course introduces students to the domestic politics of the Middle East, and to the intellectual and ideological currents shaping those politics. The first weeks are devoted to the contemporary history of the region from the late nineteenth century to the rise of post-colonial states in the region. Broad-ranging theoretical concepts necessary for an understanding of Middle Eastern political processes, and different ways of looking at those processes, are considered in the first part of the course. The unit then examines the structure of government and the politics of the region, drawing on some of the ideas from the earlier part of the course. Particular attention is paid to the region’s ongoing relations with the West and the “war against terrorism”; the emergence and future prospects of religious fundamentalism; and the rise of Arab nationalism and Zionism. The Arab-Israeli conflict, the 2003 Iraq War and the impact of globalisation are also covered. All enrolment queries should be directed to Open Universities Australia (OUA): see <a href=\"http://www.open.edu.au\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">www.open.edu.au",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-25T16:01:44.305",
+  "code": "POIX2780",
+  "title": "Middle-East Politics",
+  "implementationYear": "2021"
+}

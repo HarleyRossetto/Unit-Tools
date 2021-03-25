@@ -1,0 +1,215 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Synthesise diverse sources to build and defend a reasoned position in response to research questions.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Evaluate and express conceptually difficult ideas and independent critical thinking in oral and written forms",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically analyse popular cultural forms in scholarly ways",
+        "code": "ULO2"
+      },
+      {
+        "description": "Interpret sexuality, gender, and race in the cultural history of Western rock music and rock’s impact on social norms.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Pose research questions",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {},
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "GEND230",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Project--Essay or Blog",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "This assignment builds on your research proposal to complete an essay or blog.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research proposal (1000 words)",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "30",
+        "description": "This 1000 word proposal is the first step in building your final research project. It provides you with the opportunity to research a topic of interest to you within the broad scope of gender, sexuality, race, and popular music. You can choose a question to answer from the list provided, or create your own question in concert with the tutor. This is a research assignment in which you will be expected to address a prompt/answer a question using an evidence-based argument. That evidence must be comprised of primary and secondary sources, including songs.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Tutorial participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Active engagement in discussion is an important part of university learning. You are required to participate in tutorials each week. Your mark will reflect the quality and quantity of your participation. It takes into consideration: --your knowledge of the material (you show evidence that you have listened to the lectures and done the required reading) --your active participation in discussions and tasks. This includes, at minimum, responding to questions posed by the tutor and responding to what others in your tutorial have said.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "GEND2030-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEND2030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GEND2030-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEND2030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GEND2030-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEND2030"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Fully online/virtual<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "GEND2030 - Sex, Race, and Rock",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit, we explore the cultural history of and links between sexuality, gender, race, and rock music. Influenced by black and working-class cultures, and with sexuality embedded in its form and practice, rock music has challenged and transformed existing norms of family, sex and gender. Music has also been a site of struggle between the freedom that music enables and the commodification that spreads music globally. We begin with slave songs in the nineteenth century and travel through the 1950s boom of rock&#39;n&#39;roll and Elvis, the 1960s British Invasion, the 1970s emergence of disco, the 1980s MTV revolution and hip hop, and conclude with Laura Jane Grace, Beyonce, and the contemporary music scene. Along the way, we uncover the hidden histories and pioneering contributions of women, explore how glam rock, disco, and MTV laid the foundations of performative gender and queer theories, and learn how social identities and ideals have been reflected in and shaped by rock music.",
+    "search_title": "GEND2030 - Sex, Race, and Rock",
+    "code": "GEND2030",
+    "title": "Sex, Race, and Rock",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit, we explore the cultural history of and links between sexuality, gender, race, and rock music. Influenced by black and working-class cultures, and with sexuality embedded in its form and practice, rock music has challenged and transformed existing norms of family, sex and gender. Music has also been a site of struggle between the freedom that music enables and the commodification that spreads music globally. We begin with slave songs in the nineteenth century and travel through the 1950s boom of rock&#39;n&#39;roll and Elvis, the 1960s British Invasion, the 1970s emergence of disco, the 1980s MTV revolution and hip hop, and conclude with Laura Jane Grace, Beyonce, and the contemporary music scene. Along the way, we uncover the hidden histories and pioneering contributions of women, explore how glam rock, disco, and MTV laid the foundations of performative gender and queer theories, and learn how social identities and ideals have been reflected in and shaped by rock music.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-27T10:11:53.394",
+  "code": "GEND2030",
+  "title": "Sex, Race, and Rock",
+  "implementationYear": "2021"
+}

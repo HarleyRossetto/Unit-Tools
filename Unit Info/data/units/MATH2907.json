@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Use formal mathematical methods to design, model and validate solutions to computational problems.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Understand the theoretical limitations of computing devices and the problems that can be solved by a computer.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Communicate mathematical arguments incorporating deductive reasoning, particularly in areas concerning how computer programs work.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply a broad range of standard mathematical techniques used in computer science.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Studying and reviewing from lecture slides, online resources and text books. Preparing for SGTA classes.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MATH1007 or MATH1020 or MATH1025 or DMTH137 or MATH133 or MATH136",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "DMTH237",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "24",
+        "description": "Solve a more involved project based problem, explain your solution and communicate your results in a clear and logical manner.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "The quizzes are competency tests to ensure that all students who pass this unit possess certain basic skills.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "18",
+        "description": "Solve a given set of questions and communicate your results in a clear and logical way in writing.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Module Examinations",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "48",
+        "description": "The unit is structured as three modules. At the end of each module students complete a module exam which is offered during their SGTA class. They are offered a second opportunity to complete a different version of each module exam during the final exam period. If a student makes two attempts at an exam for a module, the final mark awarded is the maximum of the marks attained in each attempt.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MATH2907-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MATH2907"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MATH2907-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MATH2907"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MATH2907 - Discrete Mathematics II",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Mathematics and Statistics "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The purpose of this unit is to give a grounding in discrete mathematics. It is important preparation for theoretical computing, software engineering and abstract algebra. The unit explores topics in areas such as computability and computational complexity; formal languages and finite state machines; recurrence relations and generating functions; computational applications of graphs, trees and matrices; and formal methods in programming. ",
+    "search_title": "MATH2907 - Discrete Mathematics II",
+    "code": "MATH2907",
+    "title": "Discrete Mathematics II",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The purpose of this unit is to give a grounding in discrete mathematics. It is important preparation for theoretical computing, software engineering and abstract algebra. The unit explores topics in areas such as computability and computational complexity; formal languages and finite state machines; recurrence relations and generating functions; computational applications of graphs, trees and matrices; and formal methods in programming. ",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-01T09:05:13.842",
+  "code": "MATH2907",
+  "title": "Discrete Mathematics II",
+  "implementationYear": "2021"
+}

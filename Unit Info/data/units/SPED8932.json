@@ -1,0 +1,165 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyze and explain the typical course of vocal development leading to intelligible speech production",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe and discuss the continuum of phonological and articulation development in young children",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply the physics of sound to read and interpret an audiogram",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate competence in reporting assessment results and establishing short and long term speech goals for children who are deaf/hard of hearing",
+        "code": "ULO5"
+      },
+      {
+        "description": "Implement knowledge of a range of strategies and programs designed to facilitate/remediate speech development",
+        "code": "ULO6"
+      },
+      {
+        "description": "Explain the physics of sound including frequency, amplitude, resonance and associated theories and their relationship to deaf/hard of hearing listener experience.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "SPED932",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "SPED8931 or SPED931",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "50",
+        "description": "Quiz on knowledge of psychoacoustics, perception/production systems",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "50",
+        "description": "Case Study/Problem Based Learning task (2500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPED8932"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "SPED8932 - Perception and Production of Speech in Deaf/Hard of Hearing Children",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit presents an introduction to speech perception and speech production of children who are Deaf/Hard of Hearing. Students will be introduced to the anatomy and physiology of the systems related to speech production, psychoacoustics and the speech chain. Typical speech perception and the continuum of development supporting the emergence of mature speech production will be considered. Listening and speech production assessments used in deaf education will be outlined, and results reviewed to determine specific goals.  Strategies to improve student outcomes and programming for Teachers of the Deaf to implement with their students will be explored.",
+    "search_title": "SPED8932 - Perception and Production of Speech in Deaf/Hard of Hearing Children",
+    "code": "SPED8932",
+    "title": "Perception and Production of Speech in Deaf/Hard of Hearing Children",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit presents an introduction to speech perception and speech production of children who are Deaf/Hard of Hearing. Students will be introduced to the anatomy and physiology of the systems related to speech production, psychoacoustics and the speech chain. Typical speech perception and the continuum of development supporting the emergence of mature speech production will be considered. Listening and speech production assessments used in deaf education will be outlined, and results reviewed to determine specific goals.  Strategies to improve student outcomes and programming for Teachers of the Deaf to implement with their students will be explored.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T16:04:48.155",
+  "code": "SPED8932",
+  "title": "Perception and Production of Speech in Deaf/Hard of Hearing Children",
+  "implementationYear": "2021"
+}

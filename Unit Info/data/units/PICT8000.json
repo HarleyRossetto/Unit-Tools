@@ -1,0 +1,191 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically analyse the limits to rational decision making.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply a theoretical and conceptual understanding of leadership and decision making to real-world examples.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop professional skills in communication, analysis and critical thinking.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Formulate, undertake and complete an individual research project to an advanced standard.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Conducting reading and research in preparation for in-class lectures and presentations",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "50cp at 2000 level or above and admission to BSecStudMCTerrorism or BSecStudMCrim or BSecStudMCyberSecAnalysis or BSecStudMIntell or BSecStudMSecStrategicStud",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Leadership Focus Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "Drawing from a list of biographies/autobiographies of leaders, students will be formed in groups to focus on one of the books and asked to develop a jointly prepared research presentation for the rest of the class.  Students will also prepare and submit an individual critical research essay of 3000 words on their selected leader.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Leadership profile",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "20",
+        "description": "Students will be asked to prepare a 500-word &#34;leadership profile&#34; for one of the guest lecturers, with background information, assessment of the guest&#39;s accomplishments/skills, and three incisive questions to be raised with the guest.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Op-ed essay",
+        "type": {
+          "label": "Non-academic writing",
+          "value": "Non_academic_writing"
+        },
+        "weight": "30",
+        "description": "Students to write a 700-word standard oped assessing a particular decision by a different leader than the one for their research project.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PICT8000-unit_teaching_period-Weekday",
+        "display_name": "Session 2-Weekday",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PICT8000-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance<br />",
+    "subject_search_title": "PICT8000 - Leadership and Strategic Decision Making",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is only available for students that are enrolled in the vertical degree program. The aim of the unit to prepare students for future senior decision-making positions in government or the private sector. To achieve this, students will first gain a deep theoretical and conceptional understanding of leadership and decision-making. In particular, the unit will explore the limits of rationality, human cognition and other decision-making hazards. Second, the unit will invite senior leaders and decision-makers to speak to the unit (e.g. from government, academia, the media or the think-tank community). Students will be provided with ample time to ask questions and learn directly from the guest&#39;s experiences and lessons learnt. Finally, students will undertake a major independent research project where they will combine the theoretical and practical elements of leadership and decision making.",
+    "search_title": "PICT8000 - Leadership and Strategic Decision Making",
+    "code": "PICT8000",
+    "title": "Leadership and Strategic Decision Making",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is only available for students that are enrolled in the vertical degree program. The aim of the unit to prepare students for future senior decision-making positions in government or the private sector. To achieve this, students will first gain a deep theoretical and conceptional understanding of leadership and decision-making. In particular, the unit will explore the limits of rationality, human cognition and other decision-making hazards. Second, the unit will invite senior leaders and decision-makers to speak to the unit (e.g. from government, academia, the media or the think-tank community). Students will be provided with ample time to ask questions and learn directly from the guest&#39;s experiences and lessons learnt. Finally, students will undertake a major independent research project where they will combine the theoretical and practical elements of leadership and decision making.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T10:03:03.901",
+  "code": "PICT8000",
+  "title": "Leadership and Strategic Decision Making",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,331 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop financial literacy and apply knowledge to evaluate and assess investment portfolio performance.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Assess and synthesise the differences between behavioural finance and rational expectations in a global investment environment.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify and evaluate conceptual frameworks and theories in managing investments. ",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings and research required for classes.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(MGSM835 or MMBA8035) and (MGSM840 or MMBA8040)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MGNT836, MGSM836",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "A closed book exam of 2 hours duration.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 1-Intensive-North Ryde, Term 3-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case study report",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "35",
+        "description": "A 1,500 word case study report including both quantitative and qualitative analysis.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 3-Special, Term 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Individual Assignment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "20",
+        "description": "This task involves quantitative and qualitative analysis of a case study.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 1-Intensive-North Ryde, Term 3-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid session in class exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "10",
+        "description": "A 40 minute closed book in class test the requires analysis and application of concepts.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 1-Intensive-North Ryde, Term 3-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group assignment",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "35",
+        "description": "A 1,500 word case study report including both quantitative and qualitative analysis. Marks will be allocated 50% for each students individual questions and 50% for the combined group report.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 3-Special, Term 1-Special",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Early session in class exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "10",
+        "description": "A 40 minute closed book in class test will occur early in the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 1-Intensive-North Ryde, Term 3-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "A 1.5 hour open book online mid session test will be held. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 3-Special, Term 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MMBA8036",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MMBA8036"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: AFIN8036"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.04",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Managing Investments",
+                "academic_item_code": "AFIN8036",
+                "academic_item_url": "/2020/units/AFIN8036"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMBA8036-unit_teaching_period-Weekday-subject",
+        "display_name": "Term 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "40",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8036"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8036-unit_teaching_period-Intensive-subject",
+        "display_name": "Term 1-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8036"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8036-unit_teaching_period-Special",
+        "display_name": "Term 1-Special",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8036"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8036-unit_teaching_period-Special",
+        "display_name": "Term 3-Special",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8036"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 1, Intensive attendance, North Ryde*<br />Term 3, Weekday attendance, North Ryde*<br />Term 3, Special circumstances<br />Term 1, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MMBA8036 - Investment Management",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit develops a conceptual framework to apply modern investment theory. Students analyse the investment industry, the risk-return relation, asset allocation between risky and risk-free assets, how optimal portfolios are constructed and why they are constructed the way they are. The unit also provides insights in terms of models that explain the cross-section of stock returns, articulating and considering the market efficiency debate, differences between behavioural finance and rational expectations, bond portfolio management, and portfolio insurance techniques. The unit concludes by examining portfolio performance measurement as the final step in the investment process.",
+    "search_title": "MMBA8036 - Investment Management",
+    "code": "MMBA8036",
+    "title": "Investment Management",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit develops a conceptual framework to apply modern investment theory. Students analyse the investment industry, the risk-return relation, asset allocation between risky and risk-free assets, how optimal portfolios are constructed and why they are constructed the way they are. The unit also provides insights in terms of models that explain the cross-section of stock returns, articulating and considering the market efficiency debate, differences between behavioural finance and rational expectations, bond portfolio management, and portfolio insurance techniques. The unit concludes by examining portfolio performance measurement as the final step in the investment process.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-25T11:02:04.481",
+  "code": "MMBA8036",
+  "title": "Investment Management",
+  "implementationYear": "2021"
+}

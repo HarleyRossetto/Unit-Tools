@@ -1,0 +1,442 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate an understanding of current biological research questions and methods",
+        "code": "ULO1"
+      },
+      {
+        "description": "Evaluate, synthesise and discuss current biological research with other biological researchers",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically reflect on your current knowledge and transferability of these in relation to your career aspirations inside and/or outside academia",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply networking skills in a variety of contexts with peers and partners from industry and academia",
+        "code": "ULO4"
+      },
+      {
+        "description": "Communicate current biological research questions, methods and results in multiple formats to a variety of audiences",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "To prepare for the seminars and following disucssions students must read a paper each week provided by the speaker",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "BIOL700, CBMS700, COMP700, ENVG700, ENVS700, FOAR700, FOBE710, FOHS700, GEOS700, MATH700, MEDI711, MEDI712, PHYS700, STAT700",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Seminars and Discussions",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "The aim of attending seminars and discussions is to broaden your knowledge and provide research inspiration. Departmental Seminars &amp; Discussions This is a forum for visiting scientists to convey topics of interest to the department and an excellent opportunity for Department members to learn about cutting edge research. These seminars will form the basis for the discussion groups, as well as your other assessments. Following each Department seminar, you will meet with the speaker as a group and discuss the topic they presented. These discussions allow researchers to explore the topics they covered in more depth, and for you to benefit from their knowledge and thoughts. Proactive participation in a discussion group subsequent to the departmental seminar is required. External Seminars In addition to the Biology Seminar Series, you will also be required to attend 3 seminars elsewhere (e.g. other departments at Macquarie University, other universities, museums, botanical gardens or other research oriented institutions).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Time on task reflection",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "5",
+        "description": "Through the semester students will keep a time on task diary, and the end of the session they will reflect on the time required to perform various tasks and reflect on their time management.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Social media",
+        "type": {
+          "label": "Non-academic writing",
+          "value": "Non_academic_writing"
+        },
+        "weight": "10",
+        "description": "Students will use social media and reflect on its role in science communication and professional networking.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Short opinion",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "25",
+        "description": "Based on one of the seminar topics, students will write a short article to a professional standard.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Summary paragraph",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "20",
+        "description": "Using a departmental seminar as a basis, students will write a Nature summary paragraph.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Goals and needs assessment",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "10",
+        "description": "Students will discuss research aspirations with a potential supervisor and researchers at various career stages to reflect on their research interests, preferred methods and modes of work and future goals.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "General audience science communitcation",
+        "type": {
+          "label": "Non-academic writing",
+          "value": "Non_academic_writing"
+        },
+        "weight": "20",
+        "description": "Based on one of the seminar topics, students will complete a science communication piece (blog, video, podcast, etc) aimed at a general audience.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "BIOL7900",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: BIOL7900"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MOLS7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Chemistry and Biomolecular Sciences",
+                "academic_item_code": "MOLS7900",
+                "academic_item_url": "/2020/units/MOLS7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: FOHS7000"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Human Sciences",
+                "academic_item_code": "FOHS7000",
+                "academic_item_url": "/2020/units/FOHS7000"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: PHYS7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Physics and Astronomy 1",
+                "academic_item_code": "PHYS7900",
+                "academic_item_url": "/2020/units/PHYS7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: COMP7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Computing 1",
+                "academic_item_code": "COMP7900",
+                "academic_item_url": "/2020/units/COMP7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: GEOS7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers: Advances in Earth and Environmental Sciences",
+                "academic_item_code": "GEOS7900",
+                "academic_item_url": "/2020/units/GEOS7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: STAT7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Statistics",
+                "academic_item_code": "STAT7900",
+                "academic_item_url": "/2020/units/STAT7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: ENVS7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Environmental Sciences",
+                "academic_item_code": "ENVS7900",
+                "academic_item_url": "/2020/units/ENVS7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: MATH7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Mathematics",
+                "academic_item_code": "MATH7900",
+                "academic_item_url": "/2020/units/MATH7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: FOAR7000"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Paradigms",
+                "academic_item_code": "FOAR7000",
+                "academic_item_url": "/2020/units/FOAR7000"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: MQBS7010"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Business and Economics",
+                "academic_item_code": "MQBS7010",
+                "academic_item_url": "/2020/units/MQBS7010"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "BIOL7900-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL7900"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL7900-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL7900"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "BIOL7900 - Research Frontiers in Biology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is centred around the Department of Biological Sciences seminar series. It is designed to expose MRes students to the broad range of current research topics in biological sciences. Through the seminars and discussions with seminar speakers students will engage deeply with current research topics, develop their science communication skills, become embedded in our active research community, and reflect on their future goals in the discipline.",
+    "search_title": "BIOL7900 - Research Frontiers in Biology",
+    "code": "BIOL7900",
+    "title": "Research Frontiers in Biology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is centred around the Department of Biological Sciences seminar series. It is designed to expose MRes students to the broad range of current research topics in biological sciences. Through the seminars and discussions with seminar speakers students will engage deeply with current research topics, develop their science communication skills, become embedded in our active research community, and reflect on their future goals in the discipline.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T13:17:24.332",
+  "code": "BIOL7900",
+  "title": "Research Frontiers in Biology",
+  "implementationYear": "2021"
+}

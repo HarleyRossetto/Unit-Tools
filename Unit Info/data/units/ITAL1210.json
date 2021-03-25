@@ -1,0 +1,300 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify, describe and evaluate many aspects of Italian-speaking cultures and societies.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate a refined awareness of language and language use, in both Italian and in English.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply relevant language conventions to create meaningful intercultural encounters.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Develop intermediate level skills in reading, writing, listening and speaking in the Italian language.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify, evaluate and deploy the grammatical structures of Italian at intermediate level.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to spend time on daily review of grammar and vocabulary, and Italian practice. Students should be familiar with the content of a week before attending their following seminar and feel comfortable with each week's content before starting a new week.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "HSC Italian Continuers band 4 and above or Italian Extension band E3 and above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Oral Video Presentation",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "10",
+        "description": "Students are required to prepare and perform a role play in Italian and record it on a video file. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Written Assignments",
+        "type": {
+          "label": "LOTE written composition",
+          "value": "lote_written_composition"
+        },
+        "weight": "20",
+        "description": "Written tasks in Italian. Grammar exercises, comprehension questions and original compositions are included.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Final test covering all material studied in first semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Listening Comprehension",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Students will listen to an audio recording and then answer a series of comprehension questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Preparation and Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Weekly activities to check and confirm active engagement with course material. This includes online forum discussions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Online assessment covering individual book chapters and revision work.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ITAL1210",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ITAL1210"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ITAL2010"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "I Italian Studies 3",
+                "academic_item_code": "ITAL2010",
+                "academic_item_url": "/2020/units/ITAL2010"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ITAL1210-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ITAL1210"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ITAL1210-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ITAL1210"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ITAL1210-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ITAL1210"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Fully online/virtual<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ITAL1210 - C Italian Studies 3",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is intended for students who have completed one year of Italian, for students who have completed Italian studies at HSC level, and for students who have equivalent knowledge of the language. It is designed to develop skills in all areas of Italian language (reading, writing, listening and speaking) to a higher level of proficiency. Students learn to discuss a wider range of topics as well as substantially increase their knowledge of vocabulary as well as increasing students&#39; skills in intercultural communication so that they will be able to communicate in a manner which is culturally as well as linguistically appropriate.",
+    "search_title": "ITAL1210 - C Italian Studies 3",
+    "code": "ITAL1210",
+    "title": "C Italian Studies 3",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is intended for students who have completed one year of Italian, for students who have completed Italian studies at HSC level, and for students who have equivalent knowledge of the language. It is designed to develop skills in all areas of Italian language (reading, writing, listening and speaking) to a higher level of proficiency. Students learn to discuss a wider range of topics as well as substantially increase their knowledge of vocabulary as well as increasing students&#39; skills in intercultural communication so that they will be able to communicate in a manner which is culturally as well as linguistically appropriate.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:11:14.201",
+  "code": "ITAL1210",
+  "title": "C Italian Studies 3",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,185 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and discuss complex problems and issues in health services research with intellectual independence.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Articulate cogent argument in written and oral form for a variety of audiences.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify pertinent areas of research and formulate a suitable methodology to answer a research question.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate advanced knowledge of current research in health services.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Synthesise and analyse information regarding health services research from a wide variety of sources.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes and (MEDI705 or MEDI7001)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MEDI710",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Podcast",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "description": "Presentation of novel research outcome in podcast format. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Shark-tank grant pitch",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Proposal",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Evaluate health system interventions",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "To be determined",
+        "teaching_period": {
+          "value": "To be determined"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI7010"
+        }
+      }
+    ],
+    "unit_offering_text": "To be determined<br />",
+    "subject_search_title": "MEDI7010 - Unmasking Health Services Research",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit, you will develop an advanced conceptual knowledge of innovative research relevant to a range of topics within the field of health services research. You will gain discipline specific knowledge that will be relevant to their future research careers and be exposed to the expertise of leading researchers, post-doctoral fellows, and PhD candidates from the Australian Institute of Health Innovation, Faculty of Medicine and Health Sciences. You will: (1) Attend seminars and lectures focused on ongoing research projects from the Australian Institute of Health Innovation and from invited speakers from leading national and international research institutes. (2) Participate in self-directed and group tasks in which you will learn to research, read and critically review seminal research findings that have shaped contemporary thinking, and disseminate your findings in written and oral form.",
+    "search_title": "MEDI7010 - Unmasking Health Services Research",
+    "code": "MEDI7010",
+    "title": "Unmasking Health Services Research",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit, you will develop an advanced conceptual knowledge of innovative research relevant to a range of topics within the field of health services research. You will gain discipline specific knowledge that will be relevant to their future research careers and be exposed to the expertise of leading researchers, post-doctoral fellows, and PhD candidates from the Australian Institute of Health Innovation, Faculty of Medicine and Health Sciences. You will: (1) Attend seminars and lectures focused on ongoing research projects from the Australian Institute of Health Innovation and from invited speakers from leading national and international research institutes. (2) Participate in self-directed and group tasks in which you will learn to research, read and critically review seminal research findings that have shaped contemporary thinking, and disseminate your findings in written and oral form.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:51:04.844",
+  "code": "MEDI7010",
+  "title": "Unmasking Health Services Research",
+  "implementationYear": "2021"
+}

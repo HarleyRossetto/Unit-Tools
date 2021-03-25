@@ -1,0 +1,190 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe the efficiency advantages of crossover designs, and be able to design and interpret the two-period crossover study",
+        "code": "ULO2"
+      },
+      {
+        "description": "Appreciate the importance of sample size in clinical studies, and perform sample size calculations for a variety of trial designs with different outcomes",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate an understanding of the principles underlying Phase I, II, III and IV studies, as well as an appreciation of the scientific basis underlying issues in clinical studies including intention-to-treat, blinding, interim analyses, subgroup analyses and the handling of missing data",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate knowledge of the principles behind the common experimental designs",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Self study",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Participation in online discussions and tutorials",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(Admission to MBioStat or GradCertBioStat) and (BCA801 or STAT8601) and (BCA802 or STAT8602)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BCA807",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment 3",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "40",
+        "description": "Analysis tasks covering Module 5",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "30",
+        "description": "Analysis tasks covering Modules 1 and 2",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "30",
+        "description": "Analysis tasks covering Modules 3 and 4",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "STAT8607-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT8607"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "STAT8607 - Design of Randomised Controlled Trials",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Mathematics and Statistics "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The aim of this unit is to enable students to understand and apply the principles of design and analysis of experiments, with a particular focus on randomised controlled trials (RCTs), to a level where they are able to contribute effectively as a statistician to the planning, conduct and reporting of a standard RCT. Topics include: ethical considerations; principles and methods of randomisation in controlled trials; treatment allocation, blocking, stratification and allocation concealment; parallel, factorial and crossover designs, including n-of-1 studies; practical issues in sample size determination; intention-to-treat principle; phase I dose finding studies; phase II safety and efficacy studies; interim analyses and early stopping; multiple outcomes/endpoints, including surrogate outcomes, multiple tests and subgroup analyses, including adjustment of significance levels and P-values; missing data; reporting trial results and use of the CONSORT statement. Because of the multi-institutional nature of the BCA units, there is an early cut-off for enrolment in this unit, which is typically one week before the start of the session. Please contact the program coordinator for details.",
+    "search_title": "STAT8607 - Design of Randomised Controlled Trials",
+    "code": "STAT8607",
+    "title": "Design of Randomised Controlled Trials",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The aim of this unit is to enable students to understand and apply the principles of design and analysis of experiments, with a particular focus on randomised controlled trials (RCTs), to a level where they are able to contribute effectively as a statistician to the planning, conduct and reporting of a standard RCT. Topics include: ethical considerations; principles and methods of randomisation in controlled trials; treatment allocation, blocking, stratification and allocation concealment; parallel, factorial and crossover designs, including n-of-1 studies; practical issues in sample size determination; intention-to-treat principle; phase I dose finding studies; phase II safety and efficacy studies; interim analyses and early stopping; multiple outcomes/endpoints, including surrogate outcomes, multiple tests and subgroup analyses, including adjustment of significance levels and P-values; missing data; reporting trial results and use of the CONSORT statement. Because of the multi-institutional nature of the BCA units, there is an early cut-off for enrolment in this unit, which is typically one week before the start of the session. Please contact the program coordinator for details.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-11T10:52:03.119",
+  "code": "STAT8607",
+  "title": "Design of Randomised Controlled Trials",
+  "implementationYear": "2021"
+}

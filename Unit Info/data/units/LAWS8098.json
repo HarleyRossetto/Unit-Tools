@@ -1,0 +1,267 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain the importance of risk in international commercial transactions and demonstrate a working knowledge of international insurance process and procedures.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate a sophisticated knowledge and understanding of relevant laws and conventions that influence international commercial transactions by sea and air",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse hypothetical international legal problem scenarios via constructing and defending arguments in a well-structured, reasoned, coherent and logical manner.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate comprehension of the regulatory framework and standards that govern International Sales of Goods.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate the ability to independently research contentious and timely issues in international commercial law.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Understand the legal aspects of international commercial transactions, and identify legal issues, problems and risk factors that a business entity may encounter in operating cross-border transactions.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "students will engage in addition research in preparation for lectures and tutorials",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students will be expected to undertake the weekly assigned readings. ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {},
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to LLM or MIntTrdeComLaw  or (admission to JD and 80cp in LAW or LAWS units at 6000 level or above)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LAW898",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Take Home Hypothetical Legal Problem Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "Timed assessment answering problem questions from a hypothetical international commercial sale scenario or scenarios assessing students’ ability to identify, analyse and appraise the legal issues covered throughout the course in a clear, concise and logical manner with reference to appropriate authorities. Students will be required to identify relevant factual issues and apply appropriate law",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Early Feedback Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Students will complete a brief quiz involving multiple choice questions on material covered in the first weeks of the Unit. The quiz is designed to provide students with early feedback on their aptitude for the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Preparation of legal advice",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "30",
+        "description": "Students will advise a client on a contentious hypothetical international commercial sale scenario (or scenarios) assessing students’ ability to independently research contentious issues, and to identify, analyse and appraise the legal issues covered throughout the first part of the course in a clear, concise and logical manner with reference to appropriate authorities. Students will be required to identify relevant factual issues and to research and apply appropriate law. This assessment and the feedback provided will assist student preparation for the final assessment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Tutorial Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Students must contribute in class through an on call presentation and contributions across the semester. The time for this task will be covered in tutorials.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LAWS8098-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8098"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8098-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8098"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8098-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8098"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8098-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8098"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "LAWS8098 - International Commercial Law",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "International Commercial Law examines contract law as it applies in an international context, addressing, in particular; the international sale of goods; Incoterms, contracts of sale under the Vienna Sales Convention; contracts for carriage of goods by sea, air and land; and bills of exchange, marine insurance and letters of credit in international trade. This unit incorporates analyses of different legal systems, an introduction to conflicts of law as well as political contexts underpinning the operation of this body of law. International commercial arbitration is highlighted as the key mode of dispute settlement for international contractual disputes.",
+    "search_title": "LAWS8098 - International Commercial Law",
+    "code": "LAWS8098",
+    "title": "International Commercial Law",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "International Commercial Law examines contract law as it applies in an international context, addressing, in particular; the international sale of goods; Incoterms, contracts of sale under the Vienna Sales Convention; contracts for carriage of goods by sea, air and land; and bills of exchange, marine insurance and letters of credit in international trade. This unit incorporates analyses of different legal systems, an introduction to conflicts of law as well as political contexts underpinning the operation of this body of law. International commercial arbitration is highlighted as the key mode of dispute settlement for international contractual disputes.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T14:45:24.103",
+  "code": "LAWS8098",
+  "title": "International Commercial Law",
+  "implementationYear": "2021"
+}

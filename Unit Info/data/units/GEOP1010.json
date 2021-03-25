@@ -1,0 +1,211 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate spatial literacy skills by reading and critiquing texts, images, maps and landscapes",
+        "code": "ULO4"
+      },
+      {
+        "description": "Write, research and communicate in academically appropriate ways",
+        "code": "ULO5"
+      },
+      {
+        "description": "Describe the overarching field of geography, and the range of human geography subdisciplines",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify and explain core concepts in human geography, including space, place, landscape, region, flow and scale, and their relevance in an interdisciplinary context",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply geographical approaches to the analysis of cultural, social, political, environmental and economic processes at a range of scales",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Completion of weekly tasks and readings as preparation for tutorials",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ENVG111, GEOS111, GEOP111",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "A 2000 word research essay drawing on academic geographical literature to develop critical analyses of a contemporary case study",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Open-book task",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Students will have three days to complete a series of questions related to core unit content, in an open-book format. Students will be required to make reference to relevant geographical literature and to analyse data as part of their question responses.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Geo Challenge",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "30",
+        "description": "Group-based activities analysing and evaluating key concepts including place, landscape and territoriality, the results of which will be presented in a group poster. Internal students will be organised into groups in tutorials and conduct Geo Challenge activities on Macquarie Campus, while online students will form groups and conduct activities online.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "GEOP1010-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GEOP1010-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GEOP1010-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP1010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />Session 1, Fully online/virtual<br />",
+    "subject_search_title": "GEOP1010 - Introducing Human Geography",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The interconnectedness of distinctive places and people across the planet is at the heart of many urgent contemporary issues, including climate change, migration, geopolitical conflict, and cultural transformation. This unit equips students to engage with these issues by introducing the key approaches used by geographers to explore and explain the spatial variations and interconnections of political, cultural, social, economic and environmental processes that shape the world today. The unit draws on historical and contemporary case studies to examine a range of different geographical perspectives, while maintaining a focus on the core concepts and theories that constitute the discipline of human geography. The unit ultimately aims to provide an understanding of how the discipline of geography is understood and practiced, and explore how geographic knowledge and skills can be used to analyse contemporary social and environmental challenges.",
+    "search_title": "GEOP1010 - Introducing Human Geography",
+    "code": "GEOP1010",
+    "title": "Introducing Human Geography",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The interconnectedness of distinctive places and people across the planet is at the heart of many urgent contemporary issues, including climate change, migration, geopolitical conflict, and cultural transformation. This unit equips students to engage with these issues by introducing the key approaches used by geographers to explore and explain the spatial variations and interconnections of political, cultural, social, economic and environmental processes that shape the world today. The unit draws on historical and contemporary case studies to examine a range of different geographical perspectives, while maintaining a focus on the core concepts and theories that constitute the discipline of human geography. The unit ultimately aims to provide an understanding of how the discipline of geography is understood and practiced, and explore how geographic knowledge and skills can be used to analyse contemporary social and environmental challenges.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-27T10:05:53.429",
+  "code": "GEOP1010",
+  "title": "Introducing Human Geography",
+  "implementationYear": "2021"
+}

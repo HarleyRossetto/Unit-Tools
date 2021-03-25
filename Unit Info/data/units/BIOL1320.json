@@ -1,0 +1,328 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe the basic functioning of the nervous system in animals, including the senses",
+        "code": "ULO1"
+      },
+      {
+        "description": "Extract key points from scientific papers and other forms of presentation and accurately communicate these to a general audience",
+        "code": "ULO5"
+      },
+      {
+        "description": "Explain the principles of evolution by natural selection and sexual selection",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply knowledge and skills to collect, analyse, and interpret scientific data including those presented in graphic form",
+        "code": "ULO4"
+      },
+      {
+        "description": "Comment critically on scientific papers and other forms of presentation with regard to life on our planet today",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate an understanding of basic concepts and principles in genetics, epigenetics, perception, learning, human evolution, explanations in animal behaviour, and the topics on the nature of science, ethics, study skills, animal behaviour and on evolution and human behaviour presented in the unit",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "read e-textbook",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "online recorded lectures",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "BBE100, BIOX122, BIOL122",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "35",
+        "description": "examination in the final exam period",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation in pracs",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "5",
+        "description": "Submitting certain tasks in pracs, tasks that are not graded for quality, that is, assessed as done (gaining all allotted marks) or not done (no allotted marks at all).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "quizzes in textbook",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "27",
+        "description": "quiz questions in each chapter of the e-textbook",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "29",
+        "description": "You will develop an essay summarising a scientific article. The essay will be developed and submitted in steps, with feedback given at each step. You will be expected to incorporate the feedback into the next draft.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Lab 2 quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "2",
+        "description": "quiz in iLearn on reading information from graphs in scientific articles",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "brief comments",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "2",
+        "description": "Brief comments on a short video",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "BIOL1320",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: BIOL1320"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: BIOX1320"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Biological Basis of Behaviour",
+                "academic_item_code": "BIOX1320",
+                "academic_item_url": "/2020/units/BIOX1320"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL1320"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL1320"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-exam_att-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Attendance for exam only"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL1320"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL1320"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Attendance for exam only, North Ryde<br />Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, Other<br />",
+    "subject_search_title": "BIOL1320 - Biological Basis of Behaviour",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "BIOL1320 is a suitable introductory science course of interest for all students, designed for the &#39;free&#39; zone. Canvassing a range of topics relevant to today&#39;s society in a manner accessible to all students, this journey teaches students the skills to communicate to a general audience. In contents, it offers an integrative approach to the amazing world of behaviour. Basic mechanisms are covered, together with function and evolution. Lecture topics include explanations of behaviour, evolution, evolutionary origins of behaviour, basic neuroscience, perception, learning, brain and behaviour, and topics in animal behaviour. Lectures culminate with some reflections on the lives of humans in our modern world and the role of culture in human evolution.",
+    "search_title": "BIOL1320 - Biological Basis of Behaviour",
+    "code": "BIOL1320",
+    "title": "Biological Basis of Behaviour",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "BIOL1320 is a suitable introductory science course of interest for all students, designed for the &#39;free&#39; zone. Canvassing a range of topics relevant to today&#39;s society in a manner accessible to all students, this journey teaches students the skills to communicate to a general audience. In contents, it offers an integrative approach to the amazing world of behaviour. Basic mechanisms are covered, together with function and evolution. Lecture topics include explanations of behaviour, evolution, evolutionary origins of behaviour, basic neuroscience, perception, learning, brain and behaviour, and topics in animal behaviour. Lectures culminate with some reflections on the lives of humans in our modern world and the role of culture in human evolution.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:33:41.779",
+  "code": "BIOL1320",
+  "title": "Biological Basis of Behaviour",
+  "implementationYear": "2021"
+}

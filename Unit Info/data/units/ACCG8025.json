@@ -1,0 +1,238 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Integrate and apply strategic control concepts and management accounting technologies to explain and evaluate the role of management accounting in strategic control in organisations.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically examine, discuss and reflect on ethical issues and challenges relating to strategic control in organisations. ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Propose and justify changes to the use of management accounting to enhance its role in the strategic control of an organisation. ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Employ management accounting technologies, to identify, analyse and solve strategic control problems in real-world organisations. ",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Peer Lead-Learning enables students to work on the Case Study assessment without the supervision of the Unit Convener / Lecturer. Engaging with this non-scheduled learning activity enables groups and individuals to work independently to examine, discuss and reflect on ethical issues related to strategic control in organisations. ",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "This unit relies on independent learning where students revise seminar notes and address questions on assigned case studies and published research.  Class preparation enables students to enjoy a productive and meaningful learning experience during seminars. Hence, engaging in preparation prior to attending the seminars enables students to successful complete a range of participatory tasks presented during the seminar and contributes to completing the test. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "This blended unit provides students with flexibility when working on the Case Study on ethics in management accounting. Students work online, for an equivalent of two (2) seminars, where you complete online discussions using discussion forums and online quizzes (see iLearn and the Assessment Guide for further information details). ",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "The readings for this unit consist of published academic research papers and seminar notes. The readings relate to the strategic control framework, key management accounting concepts and technologies and ethics in management accounting. Students must critically read the materials provided to support class preparation, seminar activities, peer lead-learning and the completion of assessments.  ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ACCG825",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "ACCG613 or ACCG921 or ACCG8121 or admission to MAdvProfAcc",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "25",
+        "description": "A two-hour online open book final exam will be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study / Case Analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "The case study requires students to critically assess and discuss ethical dilemmas and construct solutions to problems using relevant ethical principles and ideas, supported by a real-world case scenario. The purpose of this assessment is to introduce students to the ethical dimensions of management accounting as it relates to strategic control and develop their ethical reasoning skills. For this case study assessment, students will complete: Two (2) graded online discussion forums in groups focused on ethical dilemmas, ethical reasoning, and evaluating feasible ethical actions, using a real-world case scenario. Three (3) individual multiple-choice, open-book, online quizzes focused on ethical principles and frameworks, applicable to real-world scenarios. Students work in groups and individually online on the case study.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Participatory Tasks ",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "45",
+        "description": "Participatory Tasks requires students to participate in a range of activities. The purpose of this assessment is for students to show, with evidence, that they are working progressively and continuously throughout the session, to achieve the unit’s learning outcomes and to monitor their own progress in this unit. Participatory tasks, that are weight-averaged include: Seminar Participation (15%): In-class discussions, reflective activities, and online discussion forums. Other Seminar Activities (30%): Case analysis, online workshops and lessons, and presentations.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final Examination ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "25",
+        "description": "A two hour final examination will be held during the university examination period. The purpose of the test is to provide assurance that: i) learning acquired on selected topics not assessed by other means belongs to the student; and ii) students have attained the knowledge and capabilities on selected topics, assessed by the exam.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACCG8025-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8025"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG8025-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8025"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG8025 - Management Accounting: Strategy and Control",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit adopts a technical and practical emphasis, and incorporates theory, published research on management accounting technologies, and ethical dimensions of management accounting to inform how management accounting operates within an organisation’s strategic control system. Using case studies students learn how to critically analyse, evaluate, and solve problems using management accounting technologies. Students learn how management accounting enables and hinders strategic control processes thus positioning students to enhance its role in accomplishing effective strategic control. ",
+    "search_title": "ACCG8025 - Management Accounting: Strategy and Control",
+    "code": "ACCG8025",
+    "title": "Management Accounting: Strategy and Control",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit adopts a technical and practical emphasis, and incorporates theory, published research on management accounting technologies, and ethical dimensions of management accounting to inform how management accounting operates within an organisation’s strategic control system. Using case studies students learn how to critically analyse, evaluate, and solve problems using management accounting technologies. Students learn how management accounting enables and hinders strategic control processes thus positioning students to enhance its role in accomplishing effective strategic control. ",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-05T09:51:33.978",
+  "code": "ACCG8025",
+  "title": "Management Accounting: Strategy and Control",
+  "implementationYear": "2021"
+}

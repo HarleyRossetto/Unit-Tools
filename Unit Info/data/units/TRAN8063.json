@@ -1,0 +1,206 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate skills in different interpreting techniques for monologic settings",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify effective simultaneous interpreting strategies",
+        "code": "ULO3"
+      },
+      {
+        "description": "Discuss the role of the interpreter within a linguistic and cultural framework",
+        "code": "ULO1"
+      },
+      {
+        "description": "Explain discourse-based approaches to interpreting",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse interpreting coping strategies",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate free and literal interpreting techniques",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "weekly readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to GradDipAuslEngInt",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "TRAN863",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Discourse mapping task",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "15",
+        "description": "This assessment task involves a multi-step analysis of monologic interpretations (your exam texts). Firstly, using discourse mapping as a predictive tool, before performing the exam tasks, and then using discourse mapping as a reflective critique after you have completed the interpretations.  (1500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Monologic interpreting A-E and E-A",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "The exam is divided into 2 separate tasks of equal weighting: each student will interpret one Auslan monologue into English, and one English monologue into Auslan (each source text video is 5 minutes duration)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Summary and critique of reading",
+        "type": {
+          "label": "Summary",
+          "value": "summary"
+        },
+        "weight": "20",
+        "description": "Students will be allocated 1 reading to summarise and then critique at the on-campus blocks. 300 word summary, 500 word critique.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online postings",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "25",
+        "description": "Throughout the semester each student is required to undertake weekly reflective task/s and to submit via online postings, for group discussion at the blocks (approx 300 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "TRAN8063-unit_teaching_period-Intensive-subject",
+        "display_name": "2022-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8063"
+        }
+      }
+    ],
+    "unit_offering_text": "2022, Intensive attendance, North Ryde<br />",
+    "subject_search_title": "TRAN8063 - Auslan Interpreting Techniques",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will familiarise students with the broad context of interpreting theory. The unit also covers techniques of interpreting from English into Auslan, and from Auslan into English, focusing on monologic discourse. The online component explores theoretical aspects of interpreting, referring to both spoken and signed language interpreting literature and strategies, via readings, case studies and reflection on students&#39; own practice. On-campus sessions apply theory to professional practice, helping students recognise factors that influence the effective use of different interpreting techniques in different contexts, as well as the decision making involved.",
+    "search_title": "TRAN8063 - Auslan Interpreting Techniques",
+    "code": "TRAN8063",
+    "title": "Auslan Interpreting Techniques",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will familiarise students with the broad context of interpreting theory. The unit also covers techniques of interpreting from English into Auslan, and from Auslan into English, focusing on monologic discourse. The online component explores theoretical aspects of interpreting, referring to both spoken and signed language interpreting literature and strategies, via readings, case studies and reflection on students&#39; own practice. On-campus sessions apply theory to professional practice, helping students recognise factors that influence the effective use of different interpreting techniques in different contexts, as well as the decision making involved.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-18T11:37:54.473",
+  "code": "TRAN8063",
+  "title": "Auslan Interpreting Techniques",
+  "implementationYear": "2021"
+}

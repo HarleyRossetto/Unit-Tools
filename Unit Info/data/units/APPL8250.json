@@ -1,0 +1,283 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and explain current issues and research trends in the field of second language acquisition (SLA)",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate an understanding of the range of internal and external factors that influence an individual’s learning of a second language",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate in-depth familiarity with and the ability to critically evaluate three areas of SLA research",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply knowledge of SLA research to personally relevant educational contexts",
+        "code": "ULO5"
+      },
+      {
+        "description": "Communicate knowledge of SLA research to a professional audience",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Each lecture-seminar (except for the final week) involves an associated reading, which will take on average 2.5 hours per week to complete",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "In addition to the readings, students will be advised to complete a short preparation activity prior to each class (one hour per week, plus two hours during the mid-semester break)",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "APPL725, APPL925, LING912",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MAppLing or MAppLingTESOL or MTransInterMAppLingTESOL or MEd",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Annotated bibliography presentation",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "20",
+        "description": "For this assignment, students will prepare a short (5 minute) PowerPoint presentation detailing three academic references, and their relevance to their proposed research topic for the final assignment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Learner Data Discussion Paper",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "50",
+        "description": "For this assessment task, students will collect a small amount of data from a language learner and write up the findings in the form of a small-scale research report",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical review",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "Students will write a 1000 word guided critique of a scholarly journal article in the field of second language acquisition.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online key concepts quiz ",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "This quiz consists of multiple choice questions that students complete online during a 48 hour period when the quiz is open.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "APPL8250",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: APPL8250"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: APPL7250"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Advanced Topics in Second Language Acquisition",
+                "academic_item_code": "APPL7250",
+                "academic_item_url": "/2020/units/APPL7250"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "APPL8250-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "APPL8250-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "APPL8250-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8250"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "APPL8250 - Second Language Acquisition",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores a variety of approaches to the study of second and foreign language acquisition in both instructed and naturalistic settings. The unit focuses on the range of factors that influence the learning/acquisition of a second language, as well as ways of studying the characteristics of learner language. Throughout the unit, participants are encouraged to reflect on the relevance of second language acquisition research to their own experiences as both language learners and professionals working in educational contexts or other language-related areas.",
+    "search_title": "APPL8250 - Second Language Acquisition",
+    "code": "APPL8250",
+    "title": "Second Language Acquisition",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores a variety of approaches to the study of second and foreign language acquisition in both instructed and naturalistic settings. The unit focuses on the range of factors that influence the learning/acquisition of a second language, as well as ways of studying the characteristics of learner language. Throughout the unit, participants are encouraged to reflect on the relevance of second language acquisition research to their own experiences as both language learners and professionals working in educational contexts or other language-related areas.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T09:16:04.874",
+  "code": "APPL8250",
+  "title": "Second Language Acquisition",
+  "implementationYear": "2021"
+}

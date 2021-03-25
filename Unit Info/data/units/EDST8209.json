@@ -1,0 +1,272 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse and apply knowledge of research-based pedagogies associated with the learning and teaching of The Arts in Early Childhood and K-6 settings.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply skills and technical understanding of The Arts in the making of their own creative works.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Synthesise unit content and research to formulate and articulate evidence-based personal and professional perspectives on the pivotal role of The Arts in education.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Critically reflect on materials, resources and repertoire that underpin creative arts learning within the context of cultural traditions in each art form.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critically analyse and develop an appreciation of the expert body of knowledge skills and understandings in each of the four art form areas.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate specialist expertise in planning integrated creative arts learning/lesson sequences, aligned with curriculum outcomes for The Arts and other Key Learning Areas in Early Childhood and K-6 contexts.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Online discussion and reflection activities ",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": "Session 2-Infrequent-North Ryde"
+      },
+      {
+        "description": "Weekly readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Online discussion and reflection activities",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": "Session 2-Weekday-North Ryde, Session 2-Special"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "EDST8200 or ECHE6030",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Creative performance",
+        "type": {
+          "label": "Performance",
+          "value": "performance"
+        },
+        "weight": "30",
+        "description": "Prepare and present an original piece appropriate for performance by children in either Stage 2 or 3, based on a Key Learning Area other than the Creative Arts, eg, History, Science, PDHPE. Word count: N/A.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Independent Arts investigation",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "A critical analysis and reflection on the significance of the opportunities provided by professional arts organisations for primary aged children. 1500 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Planning for authentic integrated arts learning",
+        "type": {
+          "label": "Programming Task",
+          "value": "programming_task"
+        },
+        "weight": "40",
+        "description": "A summary of four sequential learning experiences in the Visual Arts integrated with other art forms. 2000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "EDST8209",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: EDST8209"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ECHE8280"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.01R",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Creativity and the Arts: Contemporary Perspectives",
+                "academic_item_code": "ECHE8280",
+                "academic_item_url": "/2021/units/ECHE8280"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8209"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8209"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8209"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "EDST8209 - Teaching The Arts",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to provide students with the knowledge, skills and understandings necessary to implement The Arts in Early Childhood and  K-6 context. Students will investigate current specialist pedagogies as a basis for developing personal approaches to the provision of early childhood arts education. Lectures and workshops will guide students through theoretical and practical approaches to arts pedagogies in dance, drama, music, and visual arts, developing appropriate teaching and assessment strategies. Students will examine approaches to integrating The Arts across other key learning areas. This unit focuses on the pivotal role of The Arts in the lives of children. Students are provided with opportunities to enhance their capacity to use diverse resources that underpin high quality arts education. The unit provides a forum through which to critique contemporary issues in arts education, drawing on current research in education and allied fields. Students will also explore the role of community and professional arts organisations, such as museums, galleries, and performing arts companies, in providing opportunities for children to gain experience and appreciation of the art forms.",
+    "search_title": "EDST8209 - Teaching The Arts",
+    "code": "EDST8209",
+    "title": "Teaching The Arts",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to provide students with the knowledge, skills and understandings necessary to implement The Arts in Early Childhood and  K-6 context. Students will investigate current specialist pedagogies as a basis for developing personal approaches to the provision of early childhood arts education. Lectures and workshops will guide students through theoretical and practical approaches to arts pedagogies in dance, drama, music, and visual arts, developing appropriate teaching and assessment strategies. Students will examine approaches to integrating The Arts across other key learning areas. This unit focuses on the pivotal role of The Arts in the lives of children. Students are provided with opportunities to enhance their capacity to use diverse resources that underpin high quality arts education. The unit provides a forum through which to critique contemporary issues in arts education, drawing on current research in education and allied fields. Students will also explore the role of community and professional arts organisations, such as museums, galleries, and performing arts companies, in providing opportunities for children to gain experience and appreciation of the art forms.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-29T15:41:04.596",
+  "code": "EDST8209",
+  "title": "Teaching The Arts",
+  "implementationYear": "2021"
+}

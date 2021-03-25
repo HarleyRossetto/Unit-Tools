@@ -1,0 +1,223 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Pass/Fail",
+      "value": "pass-fail"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Present and explain the rationale behind, and methodology used, in the initial proposal for the research project to the cohort.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Effectively communicate research methodology",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Discussion with Supervisor",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MClinNeuro",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PSYN825, PSYN918",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Submit research proposal ",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "50",
+        "description": "Submit an approximately 1500 word research proposal outlining the rationale, hypotheses and methods planned for the research project",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Present research proposal ",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "50",
+        "description": "Present a twenty five minute talk to the class outlining the rationale, hypotheses and methods proposed for the research project",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PSYN8918",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PSYN8918"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PSYN8825"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "20",
+                "academic_item_name": "Research Proposal",
+                "academic_item_code": "PSYN8825",
+                "academic_item_url": "/2020/units/PSYN8825"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYN8918"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYN8918"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PSYN8918 - Clinical Neuropsychology Research Proposal",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit, students work with an individual supervisor to formulate a project proposal which is presented to the class for critical review, and following any necessary amendments, a formal proposal is submitted. The topic chosen is intended to be related to clinical neuropsychology however the supervisor may be any member of staff in Psychology, Cognitive Science, or external to Macquarie (with co-supervision from a Psychology/Cognitive Science staff member). Students attend sessions relating to conducting a systematic review of literature.",
+    "search_title": "PSYN8918 - Clinical Neuropsychology Research Proposal",
+    "code": "PSYN8918",
+    "title": "Clinical Neuropsychology Research Proposal",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit, students work with an individual supervisor to formulate a project proposal which is presented to the class for critical review, and following any necessary amendments, a formal proposal is submitted. The topic chosen is intended to be related to clinical neuropsychology however the supervisor may be any member of staff in Psychology, Cognitive Science, or external to Macquarie (with co-supervision from a Psychology/Cognitive Science staff member). Students attend sessions relating to conducting a systematic review of literature.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:00:14.403",
+  "code": "PSYN8918",
+  "title": "Clinical Neuropsychology Research Proposal",
+  "implementationYear": "2021"
+}

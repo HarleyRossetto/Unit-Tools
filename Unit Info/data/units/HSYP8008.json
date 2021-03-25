@@ -1,0 +1,199 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify the key nutrients essential for human health, their role, requirements and dietary sources and analyse the factors impacting dietary intake and behaviour.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply appropriate dietary assessment measures for individuals and populations.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Discuss and debate the environmental impact and sustainability of current dietary patterns.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Critically appraise public health nutrition information from both scientific literature and lay (social) media sources.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Integrate knowledge of nutrition and food security issues with the design of effective and culturally appropriate strategies or interventions to address these issues.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Identify major diet-related health issues and critically analyse interventions aiming to address them.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Lecture preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MPH and HSYP805 or HSYP8104",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Public health nutrition program/intervention",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "40",
+        "description": "Development of diet related intervention",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical appraisal ",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "20",
+        "description": "Critical appraisal of nutrition related information ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Portfolio reflection",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "0",
+        "description": "Reflection of student performance and achievement of unit learning outcomes",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Dietary intake analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "Personal dietary intake analysis in alignment with the Australian Dietary Guides",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HSYP8008"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 3, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "HSYP8008 - Global Nutrition and Food Security",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Optimal nutrition is a cornerstone to health and well-being. In this unit you will develop an understanding of the relationships between nutrition, food security and health in Australia and globally. You will learn about key nutrients for human health in terms of their function, dietary sources and different nutritional requirements at various life stages; and then explore the factors that influence dietary behaviours and habits and their relationship to chronic diseases. We will train you to evaluate methods used to determine nutritional status and explore nutrition related policies, guidelines and programs used to prevent unhealthy dietary behaviours and consequently reduce the prevalence of chronic conditions. Also, you will explore global nutrition issues including nutrition transition, food security and environmental sustainability. ",
+    "search_title": "HSYP8008 - Global Nutrition and Food Security",
+    "code": "HSYP8008",
+    "title": "Global Nutrition and Food Security",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Optimal nutrition is a cornerstone to health and well-being. In this unit you will develop an understanding of the relationships between nutrition, food security and health in Australia and globally. You will learn about key nutrients for human health in terms of their function, dietary sources and different nutritional requirements at various life stages; and then explore the factors that influence dietary behaviours and habits and their relationship to chronic diseases. We will train you to evaluate methods used to determine nutritional status and explore nutrition related policies, guidelines and programs used to prevent unhealthy dietary behaviours and consequently reduce the prevalence of chronic conditions. Also, you will explore global nutrition issues including nutrition transition, food security and environmental sustainability. ",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:41:48.611",
+  "code": "HSYP8008",
+  "title": "Global Nutrition and Food Security",
+  "implementationYear": "2021"
+}

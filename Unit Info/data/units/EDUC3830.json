@@ -1,0 +1,231 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "demonstrate a knowledge and understanding of globalisation, especially as it relates to education",
+        "code": "ULO2"
+      },
+      {
+        "description": "explain the relationship between development and access to education",
+        "code": "ULO5"
+      },
+      {
+        "description": "demonstrate knowledge and understanding of selected global issues and how they impact on access to education",
+        "code": "ULO6"
+      },
+      {
+        "description": "demonstrate a knowledge and understanding of the nature of the geopolitical context and how this impacts on the provision of education",
+        "code": "ULO1"
+      },
+      {
+        "description": "demonstrate knowledge and understanding of Global Education as a cross-curriculum perspective",
+        "code": "ULO7"
+      },
+      {
+        "description": "describe the factors that determine the rate of development",
+        "code": "ULO4"
+      },
+      {
+        "description": "explain the nature of development and how it is measured",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparation for class test",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {},
+        "offerings": ""
+      },
+      {
+        "description": "Preparation for classes",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "EDUC353, EDUC383",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Article precis",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Students write a précis on a selected article (2500 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Extended response",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "A scaffolded research-based task that enables students to study the factors affecting access to, and participation in education in a developing country (2500 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDUC3830-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC3830"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDUC3830-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC3830"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDUC3830-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC3830"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "EDUC3830 - Education in a Global Society",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines the role of education in a global context. The links between economic and political arrangements, educational processes, and educational outcomes are examined. The process of globalisation is considered with a focus on the changing relationship between education and development, especially in developing countries. The unit also includes a focus on the place of global education in the school curriculum and the internationalisation of education.",
+    "search_title": "EDUC3830 - Education in a Global Society",
+    "code": "EDUC3830",
+    "title": "Education in a Global Society",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines the role of education in a global context. The links between economic and political arrangements, educational processes, and educational outcomes are examined. The process of globalisation is considered with a focus on the changing relationship between education and development, especially in developing countries. The unit also includes a focus on the place of global education in the school curriculum and the internationalisation of education.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-28T10:05:03.889",
+  "code": "EDUC3830",
+  "title": "Education in a Global Society",
+  "implementationYear": "2021"
+}

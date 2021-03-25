@@ -1,0 +1,270 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate the capacity for effective collaboration with others and in communicating findings",
+        "code": "ULO6"
+      },
+      {
+        "description": "Develop knowledge and skills in data analytics",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply professional judgement and decision making in evaluating audit evidence, the treatment of subsequent events, and in formulating audit opinions",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse case-based scenarios by identifying and evaluating risk factors and their implications for audit planning and evidence gathering activities",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain the purpose of external and internal audit and assurance services and the various types of audit and assurance services within the Australian and international regulatory, professional and ethical frameworks and environment ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Design audit strategies within the context of appropriate, sufficient and relevant evidence, and design appropriate audit procedures (including tests of controls and substantive tests) in response to specific risks ",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above including (ACCG308 or ACCG3008) and (ACCG250 or ACCG2050)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ACCG340",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Examination ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "A two hour closed book final examination for this unit will be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 3-Weekday-North Ryde, Session 2-Weekday-North Ryde, Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-semester test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "A mid-semester test will be held to give students practice on a summative assessment task and to provide feedback on their progress midway through the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "20",
+        "description": "Students will apply their knowledge of audit processes and procedures developed in the unit to a case study. Students will complete this assessment and submit their responses as part of a group and individually.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Online Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "A 2-hour online final examination for this unit will be held during the University Examination Period. Students are expected to access the exam online at the time designated in the University examination timetable.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG3040"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG3040"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG3040"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG3040"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG3040"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 3, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG3040 - Auditing and Assurance Services",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines the theory and practice of auditing and assurance services. The unit focuses on the external audit of corporate financial reports while also considering a broader range of financial and non-financial assurance services. Students will develop a comprehensive understanding of the audit process and the professional auditing environment. Students will also be exposed to ethical requirements, corporate governance and other current issues in auditing and assurance, including data analytics. The unit is applied in nature and will require students to work through learning resources and assessment tasks based on contemporary Auditing Standards and real-world auditing case studies.",
+    "search_title": "ACCG3040 - Auditing and Assurance Services",
+    "code": "ACCG3040",
+    "title": "Auditing and Assurance Services",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines the theory and practice of auditing and assurance services. The unit focuses on the external audit of corporate financial reports while also considering a broader range of financial and non-financial assurance services. Students will develop a comprehensive understanding of the audit process and the professional auditing environment. Students will also be exposed to ethical requirements, corporate governance and other current issues in auditing and assurance, including data analytics. The unit is applied in nature and will require students to work through learning resources and assessment tasks based on contemporary Auditing Standards and real-world auditing case studies.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:34:57.117",
+  "code": "ACCG3040",
+  "title": "Auditing and Assurance Services",
+  "implementationYear": "2021"
+}

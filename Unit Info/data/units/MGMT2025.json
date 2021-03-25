@@ -1,0 +1,191 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop skills in and reflect on mindful management.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify and critique the perspectives on social enterprises and social entrepreneurship in local and global contexts.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Work collaboratively to achieve social impact solutions. ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Research, analyse and develop social impact solution(s) to a chosen problem.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MGMT1020 or BBA220",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Mindfulness exercise",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "10",
+        "description": "This assessments consists of reflective writing. worth 10% in total.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Report & Individual Presentation",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "60",
+        "description": "This assessment consists of three components, worth 60% in total. The first component is a group report of 3,000-4,000 words, worth 30%. The second component is an individual presentation of up to 4 minutes, delivered as part of a group, and worth 20%. The final 10% is allocated to a 10 minute Q&amp;A session after the presentations.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Case Study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "A case study of up to 2,000 words, worth 30%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT2025-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT2025"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT2025-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT2025"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MGMT2025 - Social Entrepreneurship",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students with the opportunity to research, discuss and critically reflect upon the foundations and impact of social enterprises (and not-for-profits) and their existing landscape. Social enterprises endeavour to blend two strands of thinking and action: One is the social mission of serving public interest and the community, while the other includes the reliance on for-profit business practices. The aim of the course is to enable students to use theory to discern social enterprises from other types of organisations, to identify social impact solutions that are effective in both strands, understand how they work as well as analyse and recommend ways to scale them. In addition, this unit aims to promote concepts of mindfulness and reflection when analysing current issues.",
+    "search_title": "MGMT2025 - Social Entrepreneurship",
+    "code": "MGMT2025",
+    "title": "Social Entrepreneurship",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides students with the opportunity to research, discuss and critically reflect upon the foundations and impact of social enterprises (and not-for-profits) and their existing landscape. Social enterprises endeavour to blend two strands of thinking and action: One is the social mission of serving public interest and the community, while the other includes the reliance on for-profit business practices. The aim of the course is to enable students to use theory to discern social enterprises from other types of organisations, to identify social impact solutions that are effective in both strands, understand how they work as well as analyse and recommend ways to scale them. In addition, this unit aims to promote concepts of mindfulness and reflection when analysing current issues.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-08T15:52:43.534",
+  "code": "MGMT2025",
+  "title": "Social Entrepreneurship",
+  "implementationYear": "2021"
+}

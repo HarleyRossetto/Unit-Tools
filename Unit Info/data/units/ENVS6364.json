@@ -1,0 +1,306 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Use geographic spatial analysis to effectively communicate through maps and reports",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify and define key concepts and principles of Geographic Information Science, including scale, projections, interactions and interdependence",
+        "code": "ULO3"
+      },
+      {
+        "description": "Organise, analyse and interpret geographic or spatial information using a range of techniques",
+        "code": "ULO2"
+      },
+      {
+        "description": "Utilise standard Geographic Information Science concepts and analytical techniques to develop applications",
+        "code": "ULO5"
+      },
+      {
+        "description": "Perform operations using Geographic Information Systems (GIS) and Remote Sensing software",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class preparation before practical sessions including software installations is required.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Reading of scientific literature and/or viewing lectures online is required during and before practical classes",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Additional research is required before practical classes and assessments",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ENV808, ENVE810, GEOS801, GEOS810, ENVS808, ENVS8308",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to any Masters Degree or Graduate Certificate or Graduate Diploma",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Practical Assignment 3",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "30",
+        "description": "Computer-based practical exercise",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "Covers all material from lectures and practical classes",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical Assignment 1",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "15",
+        "description": "Getting started with GIS. This is a computer-based practical exercise.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical Assignment 2",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "25",
+        "description": "Computer-based practical exercise. A report is submitted at the end of the assignment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ENVS6364",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ENVS6364"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ENVS2364"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Introduction to Geographic Information Science and Remote Sensing",
+                "academic_item_code": "ENVS2364",
+                "academic_item_url": "/2021/units/ENVS2364"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: ENVS8308"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Introduction to Geographic Information Science for Postgraduates",
+                "academic_item_code": "ENVS8308",
+                "academic_item_url": "/2020/units/ENVS8308"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ENVS6364-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENVS6364"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ENVS6364-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENVS6364"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ENVS6364-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENVS6364"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ENVS6364 - Introduction to Geographic Information Science and Remote Sensing",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Earth and Environmental Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students with a comprehensive introduction to the rapidly evolving field of geospatial technologies, including geographic information systems (GIS), global positioning systems (GPS) and remote sensing. Students will develop broad theoretical technical skills in geospatial technologies and managing spatial data, analysing, visualising and synthesising spatial data, and the principles for applying these skills to real-world problems across a range of disciplines, including environmental science and management, physical and human geography, urban planning, biodiversity conservation, archaeology, health, business and marketing. Adding geospatial technology skills  to your undergraduate or graduate program can help you identify new areas of research and applications thereby strengthening your career prospects.",
+    "search_title": "ENVS6364 - Introduction to Geographic Information Science and Remote Sensing",
+    "code": "ENVS6364",
+    "title": "Introduction to Geographic Information Science and Remote Sensing",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides students with a comprehensive introduction to the rapidly evolving field of geospatial technologies, including geographic information systems (GIS), global positioning systems (GPS) and remote sensing. Students will develop broad theoretical technical skills in geospatial technologies and managing spatial data, analysing, visualising and synthesising spatial data, and the principles for applying these skills to real-world problems across a range of disciplines, including environmental science and management, physical and human geography, urban planning, biodiversity conservation, archaeology, health, business and marketing. Adding geospatial technology skills  to your undergraduate or graduate program can help you identify new areas of research and applications thereby strengthening your career prospects.",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-17T13:16:46.853",
+  "code": "ENVS6364",
+  "title": "Introduction to Geographic Information Science and Remote Sensing",
+  "implementationYear": "2021"
+}

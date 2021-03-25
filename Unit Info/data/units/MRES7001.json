@@ -1,0 +1,210 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate initiative and self-sufficiency during the placement.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Participate meaningfully as a member of an organisation or research team and develop a critically reflective practice on the experience of the research process.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Use ethical practices during the research project.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply knowledge and research methodologies learned in other units to a practical context.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Engage with ethical, social, and/or environmental issues affecting the partner organisation and assist in addressing them.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Develop professional skills which contribute to an organisation’s appreciation of research.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Use project management guidelines to plan and manage a project that aligns with the priorities of the partner organisation.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Participation and Engagement",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "An important part of this course is open dialogue and honest engagement with your teachers and peers over the course content and your internship experience. It is an expectation that you attend all face-to-face components of this unit, and beyond them, actively participate in the online forum discussions. Your grade for this assessment will be comprised of the following components: pre-class preparation and in-class participation, online engagement, a mid-semester reflection on internship, and your host supervisor’s evaluation and feedback.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final project report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "The final report will consist of two sections: 1) a report on your internship project (1500-2000 words) and 2) a reflective component (600-800 words). The report should provide enough background information so that your audience understands your host organisation and the nature of your activity. It will outline what you produced as part of your research internship, how you produced it, and how it compared to your original project plan. Your reflection will comprise a personal evaluation and reflection on your project and the research experience as a whole. You will be required to reflect on at least one dilemma you faced in your placement, and to develop an account of the impact the internship has had on your learning experience and your career outlook.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "You will give an 8-10 minute presentation on your project. The presentation should discuss the issues examined in your project, your findings and conclusions/recommendations. If applicable, you may also consider including suggestions for future work/investigation. The presentation should provide your reflections on the successes and failures of the project and reflect on how you would revise the approach taken if you had to do it all over again. Include a photograph of yourself in your internship setting and/or with your host supervisor.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project Management Plan",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "20",
+        "description": "Within the first 20 hours of placement (and before 31 August), you should produce a project management plan. This plan should include a title along with the background, scope and purpose of your project. The plan should also include a detailed schedule of tasks to be completed, and how you will monitor the project. The plan will also identify relevant stakeholders, milestones, deliverables, risks and issues associated with your project. The plan must be discussed with the host supervisor before submission.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MRES7001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MRES7001"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MRES7001 - PACE for Research",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "HDRO"
+    },
+    "school": {
+      "value": "HDRO"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "The PACE for Research unit provides MRes students with the opportunity to undertake research as part of a research team or in community or industry settings. In consultation with a partner organisation/research team leader, students identify, design, manage and conduct a research project that aligns with the strategic priorities of that organisation/team. Students’ projects are overseen and guided by a host supervisor and supported through a series of academic seminars on campus. This unit aims to equip students with practical problem-solving and research skills, as well as insight into conducting research that involves a partner. Students complete 100 hours working with their partner organisation eventuating in delivery of a formal written project report. Students may choose to use the research conducted in this unit as the basis of their MRes thesis in the second year.",
+    "search_title": "MRES7001 - PACE for Research",
+    "code": "MRES7001",
+    "title": "PACE for Research",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The PACE for Research unit provides MRes students with the opportunity to undertake research as part of a research team or in community or industry settings. In consultation with a partner organisation/research team leader, students identify, design, manage and conduct a research project that aligns with the strategic priorities of that organisation/team. Students’ projects are overseen and guided by a host supervisor and supported through a series of academic seminars on campus. This unit aims to equip students with practical problem-solving and research skills, as well as insight into conducting research that involves a partner. Students complete 100 hours working with their partner organisation eventuating in delivery of a formal written project report. Students may choose to use the research conducted in this unit as the basis of their MRes thesis in the second year.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:36:57.869",
+  "code": "MRES7001",
+  "title": "PACE for Research",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,275 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Diagnose and appraise mechanisms to uncover or recover evidence from digital devices to support litigation and investigations.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Examine issues and key principles of professional digital forensic practice, including chain of custody and best practice procedures.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Evaluate the theory, and principles of application, of data analytics skills and techniques relevant to forensic accounting.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Manage and interpret complex or disparate sets of data to underpin business development, interpret risk, understand behavioural patterns, and detect suspicious or irregular behaviour.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Investigate applications and strategies, including data mining, to enable collection, assessment, review, production and presentation of unstructured data.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for class and completing required readings.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ACCG6011 or ACCG611 or (admission to MActPrac or MBkgFin or MBusAnalytics or GradCertForAccg or GradDipForAccg or MForAccgFinCri)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Class Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The class test may include one, or a combination of, the following types of assessment: multiple-choice questions, true/false questions, short answer style questions, problem scenario or evidence- based questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Intensive-North Ryde, Session 1-Intensive-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Written Presentation",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "In this assessment students will submit a written presentation that requires a consolidation of the theory, and application of data analytics skills and techniques to enable the assessment, review, and presentation of unstructured data relevant to advance a forensic accounting investigation. A summary report will be required to accompany the presentation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "In this assessment students will deliver a 10-minute presentation that requires a consolidation of the theory, and application of data analytics skills and techniques to enable the assessment, review, and presentation of unstructured data relevant to advance a forensic accounting investigation. A summary report will be required to accompany the presentation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Intensive-North Ryde, Session 1-Intensive-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "This assessment involves evidence of preparation for, participation in, and contribution to seminars and online discussion forums.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The Online test may include one, or a combination of, the following types of assessment: multiple-choice questions, true/false questions, short answer style questions, problem scenario or evidence-based questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "In this assessment students will be required to critically reflect on the key issues and principles of professional digital forensic practice in the recovery of digital evidence to support an investigation. The submission should not exceed 2500 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8076"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8076"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8076"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8076"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Intensive attendance, North Ryde<br />Session 2, Intensive attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG8076 - Forensic and Data Analytics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit students will be exposed to the theory and application of data analytics skills and techniques in relation to fraud detection and identifying business risks. The unit will introduce students to mechanisms and principles relevant to tracing assets, investigating flow of funds and reconstructing accounting information. Visual and location analytic capabilities that use a variety of tools and techniques, along with external data sets, will be explored. The unit will also equip students with the capacity to appraise applications and strategies to enable collection, assessment, review, production and presentation of unstructured data.",
+    "search_title": "ACCG8076 - Forensic and Data Analytics",
+    "code": "ACCG8076",
+    "title": "Forensic and Data Analytics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit students will be exposed to the theory and application of data analytics skills and techniques in relation to fraud detection and identifying business risks. The unit will introduce students to mechanisms and principles relevant to tracing assets, investigating flow of funds and reconstructing accounting information. Visual and location analytic capabilities that use a variety of tools and techniques, along with external data sets, will be explored. The unit will also equip students with the capacity to appraise applications and strategies to enable collection, assessment, review, production and presentation of unstructured data.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-11T14:43:24.484",
+  "code": "ACCG8076",
+  "title": "Forensic and Data Analytics",
+  "implementationYear": "2021"
+}

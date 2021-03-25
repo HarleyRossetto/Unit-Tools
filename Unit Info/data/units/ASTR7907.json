@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "communicate complex physical concepts in writing and orally.",
+        "code": "ULO5"
+      },
+      {
+        "description": "solve problems in real-time during class tutorials, and demonstrate solutions to peers",
+        "code": "ULO4"
+      },
+      {
+        "description": "discuss stellar pulsations and role this plays in stellar evolution and mass loss.",
+        "code": "ULO1"
+      },
+      {
+        "description": "explain the synthesis of elements in stars and their observed chemical abundances.",
+        "code": "ULO2"
+      },
+      {
+        "description": "demonstrate an understanding of the dynamics of gas flows in Astrophysical environments, including magnetic fields, shocks and viscosity.",
+        "code": "ULO3"
+      },
+      {
+        "description": "use numerical codes to solve astrophysical problems.",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Consolidating lecture content, preparing for SGTAs and workshops.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ASTR707",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "Exam in the University Exam period covering the content from the whole unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "Leading class discussions on pre-assigned reading material",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project-based assignments",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "25",
+        "description": "One project in each half of the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Short weekly quizzes set at the beginning of the week.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ASTR7907"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ASTR7907"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ASTR7907 - Advanced Astrophysics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Physics and Astronomy "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers advanced topics in Astrophysics. For example the physics of fluid dynamics applied to accretion disks and jets in astrophysical objects such as black hole binaries; the physics of star and planet formation; the genesis of the elements; or galactic formation and evolution from the standpoints of interstellar gas and stellar populations. Observations of real celestial objects are used throughout the unit as examples of the processes we need to explain. Strong emphasis is placed on the connection between observations, interpretation and modelling. The scientific method   will be used and emphasised as the backbone of all research. Computational techniques in modelling and/or in data analysis will also be used.",
+    "search_title": "ASTR7907 - Advanced Astrophysics",
+    "code": "ASTR7907",
+    "title": "Advanced Astrophysics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit covers advanced topics in Astrophysics. For example the physics of fluid dynamics applied to accretion disks and jets in astrophysical objects such as black hole binaries; the physics of star and planet formation; the genesis of the elements; or galactic formation and evolution from the standpoints of interstellar gas and stellar populations. Observations of real celestial objects are used throughout the unit as examples of the processes we need to explain. Strong emphasis is placed on the connection between observations, interpretation and modelling. The scientific method   will be used and emphasised as the backbone of all research. Computational techniques in modelling and/or in data analysis will also be used.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:50:19.023",
+  "code": "ASTR7907",
+  "title": "Advanced Astrophysics",
+  "implementationYear": "2021"
+}

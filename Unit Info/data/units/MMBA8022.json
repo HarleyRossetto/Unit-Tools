@@ -1,0 +1,210 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply services marketing theories and concepts to address marketing problems and opportunites",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify and analyse services marketing issues using services marketing theories and concepts",
+        "code": "ULO1"
+      },
+      {
+        "description": "Formulate services marketing plans to minimise problems and maximise opportunities in the services marketing landscape",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MGSM820 or MMBA8020",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MGSM822",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Case study analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "20",
+        "description": "This is an individual assessment task where each student is required to complete a case study analysis. The cases will be allocated in session 3. The details of case study analysis will be provided on iLearn. Word limit: 1000 (EXCLUDING title page, executive summary, table of contents and reference list). Assignment to be submitted via Turnitin on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "This is an individual assessment task where each student is to undertake an analysis of Service Quality for a company of their choice with the approval of the unit convenor. Cases will be determined in week 2. Word limit is 2000 words (excluding title page, table of contents, reference list and<br />appendix). Assignment to be submitted via Turnitin on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "40",
+        "description": "The individual video report (10 mins length with 20 slides max) should concisely document the practical application of the relevant services marketing concepts and theories applied to a real-world problem the student faces in their workplace.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMBA8022-unit_teaching_period-Special",
+        "display_name": "Term 4-Special",
+        "teaching_period": {
+          "value": "Term 4"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8022"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8022-unit_teaching_period-Weekday-subject",
+        "display_name": "Term 4-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Term 4"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "40",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8022"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 4, Weekday attendance, North Ryde*<br />Term 4, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MMBA8022 - Services Marketing",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Marketing "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores the important issues in the marketing of services including: the differences between marketing services and marketing goods; the importance of customer relationships in services marketing; the importance and measurement of quality in service provision; and the application of services in marketing principles in a range of diverse industries and sectors (such as professional services, the public sector, retail services, tourism, charities etc.). The unit will draw on the extensive marketing literature in the field, while exploring salient issues from both theoretical and applied views. An industry based project and case studies are important components of the course.",
+    "search_title": "MMBA8022 - Services Marketing",
+    "code": "MMBA8022",
+    "title": "Services Marketing",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores the important issues in the marketing of services including: the differences between marketing services and marketing goods; the importance of customer relationships in services marketing; the importance and measurement of quality in service provision; and the application of services in marketing principles in a range of diverse industries and sectors (such as professional services, the public sector, retail services, tourism, charities etc.). The unit will draw on the extensive marketing literature in the field, while exploring salient issues from both theoretical and applied views. An industry based project and case studies are important components of the course.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-03-08T08:08:43.799",
+  "code": "MMBA8022",
+  "title": "Services Marketing",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,229 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Summarise current and future application spaces for synthetic biology by reviewing the latest published literature in the field",
+        "code": "ULO5"
+      },
+      {
+        "description": "Ultilise and describe techniques applicable to acquiring large biomolecular datasets and the limitations of the use of these methods",
+        "code": "ULO1"
+      },
+      {
+        "description": "Summarise and discuss synthetic biology engineering principles using appropriate contemporary synthetic biological vocabulary",
+        "code": "ULO4"
+      },
+      {
+        "description": "Design and conduct experiments to collect large biomolecular datasets using appropriate methods to assess and analyse the quality of these datasets.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Report, communicate and draw new conclusions about a biomolecular system from large analytical datasets",
+        "code": "ULO3"
+      },
+      {
+        "description": "Define the culture, safety practices, and organisational community of the synthetic biology field to evaluate how emerging and future synthetic biology technologies may benefit and/or potentially endanger humanity and the natural environment",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "((BMOL6201 or CBMS621) or (admission to MBioBus or BMedScMBiotech)) and BMOL6432",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CBMS836",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Synthetic Biology Design Project",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "description": "A presentation on a synthetic biology design task.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Genome assembly and annotation",
+        "type": {
+          "label": "Poster",
+          "value": "poster"
+        },
+        "weight": "25",
+        "description": "Presentation of a poster representing a genome assembly and annotation project.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "25",
+        "description": "An exam consisting of a series of problem solving, data interpretation and short essay questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Natural and Synthetic Genomics Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "An essay on a contemporary topic in genomics and/or synthetic biology.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Workshop Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "Based on attending workshops, contributing to discussions, and completing activities.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MOLS8411-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MOLS8411"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MOLS8411-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MOLS8411"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MOLS8411 - Molecular Genomics Analysis and Design",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Molecular Sciences "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides an introduction to synthetic biology and hands-on practise in the analysis of large datasets gathered when working in the broad field of biomolecular sciences. Biomolecular sciences spans the study of individual molecular structures and biochemical reactions to also encompass the &#39;omics&#39; sciences of genomics, proteomics, metabolomics and glycomics. These sciences all generate large and complex datasets that require specialised software and methods to assemble and analyse. The analyses are challenging, as they not only require a good knowledge of biochemistry, molecular biology, and cell and developmental biology, but also an understanding of limitations of both the software and the data quality. The lectures on synthetic biology start with a brief overview of the field before delving into more challenging yet exciting concepts. You will learn about current techniques and approaches used in synthetic biology and design a molecular switch using these principles. The lectures also discuss applications, limitations and future potential of synthetic biology to produce new solutions to global challenges.",
+    "search_title": "MOLS8411 - Molecular Genomics Analysis and Design",
+    "code": "MOLS8411",
+    "title": "Molecular Genomics Analysis and Design",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an introduction to synthetic biology and hands-on practise in the analysis of large datasets gathered when working in the broad field of biomolecular sciences. Biomolecular sciences spans the study of individual molecular structures and biochemical reactions to also encompass the &#39;omics&#39; sciences of genomics, proteomics, metabolomics and glycomics. These sciences all generate large and complex datasets that require specialised software and methods to assemble and analyse. The analyses are challenging, as they not only require a good knowledge of biochemistry, molecular biology, and cell and developmental biology, but also an understanding of limitations of both the software and the data quality. The lectures on synthetic biology start with a brief overview of the field before delving into more challenging yet exciting concepts. You will learn about current techniques and approaches used in synthetic biology and design a molecular switch using these principles. The lectures also discuss applications, limitations and future potential of synthetic biology to produce new solutions to global challenges.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T14:03:33.434",
+  "code": "MOLS8411",
+  "title": "Molecular Genomics Analysis and Design",
+  "implementationYear": "2021"
+}

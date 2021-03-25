@@ -1,0 +1,193 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate a critical understand of how criminological theory and understandings of crime can shape a policy response.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Employ independent research skills and disciplinary knowledge to evaluate domestic and transnational criminal issues.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Effectively communicate advanced disciplinary knowledge in both written and oral formats.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply a synthesised understanding of criminological theory to explain the development of criminal issues of domestic or international significance.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critically analyse, evaluate and compare a range of criminological theories.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MCrim or MSecStrategicStud or MIntell or MCTerrorism or MCyberSec or GradDipSecStudCr or GradCertSecStudCr or MSecStrategicStudMCrim or MSecStrategicStudMIntell or MSecStrategicStudMCyberSec or MSecStrategicStudMCTerrorism or MIntellMCrim or MIntellMCyberSec or MIntellMCTerrorism or MCyberSecMCTerrorism or MCyberSecMCrim or MCTerrorismMCrim or Master of Cyber Security Analysis or (10cps at 6000 level or 10cps 8000 level)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PICT888, PICX888",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Selecting one question from the list that is available on the iLearn platform, you will be required to demonstrate critical knowledge of course content across a range of weeks. In no more than 4,000 words, you will be expected to respond to the question and, drawing on course material along with independently sourced academic texts, display skills of analysis, evaluation and critical thinking to produce a logical and coherent argument.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Commentary Analysis",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Students will be asked to write a 1,000 word commentary piece for a public audience. Needing to display clarity in language as well as argument, students will be asked to identify a topical story currently or recently in the news and analyse the events through the use of theory. The aim will be to provide timely, theoretically based analysis of issues in the news and the use of plain English to describe otherwise complex issues. Part of the piece should involve some form of policy critique and/or proposal to help ameliorate the topical issue in question.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "You will be required to demonstrate an active and critical engagement with course materials. This includes showing a detailed knowledge and understanding of weekly readings and a critical awareness of, and response to, issues raised in the weekly lecture. You should also be able to apply these topics to ongoing national and international news events. This will be demonstrated by responding to the weekly questions posted on the forum as well as engage in forum discussion.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Commentary Analysis - Idea Pitch",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "10",
+        "description": "As a formative assignment for the commentary analysis, students will be asked to describe in one sentence what their peace will say as well as highlight why the reader, that is to say the public audience, will need to know about their chosen topic in question. The aim will be to give early feedback to help direct the students in the development of the assignment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PICX8088-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICX8088"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "PICX8088 - Advanced Criminology Theory",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to advanced criminology theory. Students will develop a comprehensive understanding of how theory directs critical understandings of crime and, in turn, relates to the broader social world. This includes criminological beliefs, held within the discipline of Criminology and by practitioners in the Criminal Justice System, that help understand the common attitudes and rule systems that contribute to the intellectual atmosphere of a particular time or place.  Topics focus on two ‘waves’ of criminological theory; the first, contemporary criminological theory, focuses on the ‘grand theories’ that are rooted in the discipline. The second, future directions in criminology, explores the challenges the discipline presently faces and how theory can contribute to expanding a critical understanding crime.",
+    "search_title": "PICX8088 - Advanced Criminology Theory",
+    "code": "PICX8088",
+    "title": "Advanced Criminology Theory",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to advanced criminology theory. Students will develop a comprehensive understanding of how theory directs critical understandings of crime and, in turn, relates to the broader social world. This includes criminological beliefs, held within the discipline of Criminology and by practitioners in the Criminal Justice System, that help understand the common attitudes and rule systems that contribute to the intellectual atmosphere of a particular time or place.  Topics focus on two ‘waves’ of criminological theory; the first, contemporary criminological theory, focuses on the ‘grand theories’ that are rooted in the discipline. The second, future directions in criminology, explores the challenges the discipline presently faces and how theory can contribute to expanding a critical understanding crime.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-03T16:00:53.271",
+  "code": "PICX8088",
+  "title": "Advanced Criminology Theory",
+  "implementationYear": "2021"
+}

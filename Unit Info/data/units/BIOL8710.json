@@ -1,0 +1,342 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Collaborate effectively as part of a team working on an ongoing conservation project by contributing to the development and implementation of a scientifically rigorous plan of action.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate a thorough understanding of the scientific, social, and legal dimensions of an issue of particular relevance to the conservation sector.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate professionalism by adhering to all workplace standards, particularly with regard to ethics, occupational health and safety, and legal requirements.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply knowledge and professional skills acquired in previous units (e.g. BIOL861, BIOL887) to conservation problems.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students undertake an independent research project under academic supervision.",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "BIOL870",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(20cp from (BIOL8610 or BIOL861) or BIOL873 or (BIOL8740 or BIOL874) or (BIOL8750 or BIOL875) or (BIOL8770 or BIOL877) or BIOL8870 or BIOL887)) and permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Internship Proposal",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "10",
+        "description": "You will write a short proposal explaining the work that you will undertake in your placement (internship) and skills to be learnt.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Risk assessment",
+        "type": {
+          "label": "Summary",
+          "value": "summary"
+        },
+        "weight": "15",
+        "description": "Undertake a risk assessment for the placement.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Internship Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "You will write a report (literature review and methods protocols for internship) describing what is currently known in the area of your project and how your work will contribute to further understanding in this area.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Supervisor Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "25",
+        "description": "Supervisors will provide a report on student performance, progress, abilities acquired and attendance throughout placement.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Daily Diary",
+        "type": {
+          "label": "Lab book",
+          "value": "lab_book"
+        },
+        "weight": "20",
+        "description": "Complete a daily diary recording work undertaken and skills learnt.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8710"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8710"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 3-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8710"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8710"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8710"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8710"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8710"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8710"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL8710"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, Other<br />Session 2, Special circumstances<br />Session 3, Infrequent attendance, North Ryde<br />Session 3, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "BIOL8710 - Conservation in Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides an opportunity to gain valuable and relevant professional experience either as an intern with a private or public organisation or through a professional project investigating the conservation sector. Students intending to undertake an independent internship in this unit should source a placement prior to the start of session. Please contact the convenor for a list of potential placements and projects. This unit can be combined with BIOL8600 Biology Research Experience for a more extended experience.",
+    "search_title": "BIOL8710 - Conservation in Practice",
+    "code": "BIOL8710",
+    "title": "Conservation in Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an opportunity to gain valuable and relevant professional experience either as an intern with a private or public organisation or through a professional project investigating the conservation sector. Students intending to undertake an independent internship in this unit should source a placement prior to the start of session. Please contact the convenor for a list of potential placements and projects. This unit can be combined with BIOL8600 Biology Research Experience for a more extended experience.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:34:34.345",
+  "code": "BIOL8710",
+  "title": "Conservation in Practice",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,249 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Exhibit legal and ethical workplace standards of performance and care.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate professional, technical competence and appraise workplace learning using reflective practice and on the job training skills.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply knowledge gained during student's program of study to complex workplace situations; work independently and to professional standards.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "[Admission to MCrim or MPICT or MCPICT or MPICTMIntSecSt or MSecStrategicStudMCrim or MSecStrategicStudMIntell or MSecStrategicStudMCyberSec or MSecStrategicStudMCTerrorism  or MIntellMCrim or MIntellMCyberSec or MIntellMCTerrorism or MCyberSecMCTerrorism or MCyberSecMCrim or MCTerrorismMCrim or MCPICTMIntSecSt or MIntSecStud or MSecStrategicStud or MIntell or MCTerrorism or MCyberSec or Master of Cyber Security Analysis or admission to BSecStudMCTerrorism or BSecStudMCrim or BSecStudMCyberSecAnalysis or BSecStudMIntell or BSecStudMSecStrategicStud] and permission by special approval and 30cp at 8000 level.",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ISS816, PICT916, PICT816",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Workplace Supervisor's Report",
+        "type": {
+          "label": "Work-integrated task",
+          "value": "work_integrated_task"
+        },
+        "weight": "60",
+        "description": "The workplace supervisor’s report will be completed by the student’s supervisor at the host organisation on completion of their internship. The report is based on the supervisor’s assessment of the student’s performance during the internship.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Organisational Review",
+        "type": {
+          "label": "Work-integrated task",
+          "value": "work_integrated_task"
+        },
+        "weight": "20",
+        "description": "The organisational review is a discussion piece situating the host organisation within the broader Australian national security framework. It should give consideration to both national and organisational history and context and the function of the host organisation. It should demonstrate awareness of and engagement with the national or international security issues or trends that form the primary focus of the organisation’s activities.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Placement Report",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "The placement report is a discussion piece about the student’s own role within the host organisation. The first section of the report should include a broad description of the projects and functions the student has undertaken, a description of key events and outline competencies acquired during the internship. The second part of the report should examine how the practical realities of the workplace either differed to or consolidated the more theoretical knowledge gained during the student’s degree. Importantly, the report should provide an in-depth and honest self-assessment of the student’s performance during their placement.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8016"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8016"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8016"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8016"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8016"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8016"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "PICT8016 - Internship",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The Department of Security Studies and Criminology (SSC) offers a unique opportunity for students to complete a security industry-focused internship as part of their Masters degree. There are a number of companies and organisations that host SSC post-graduate interns, including multinational consulting and insurance firms, think tanks, non-government organisations (NGO), defence contractors, and both public service regulatory and policing organisations. Expressions of Interest must be submitted to the course convenor. The timeline for submission is: for Session 2 participation by 15 April each year; for Session 1 participation by 15 September each year. Internship placements are made by matching student interests and study stream specialties as much as possible, but student flexibility is required due to the limited number of partnering agencies. Students are able to experience real-world, professional settings in a security organisation&#39;s workplace. SSC cannot guarantee any particular workplace and placements are made through a competitive selection process; a minimum grade point average of 70% is required to apply. Students may nominate their own internship placements in a relevant security organisation upon unit convenor approval.",
+    "search_title": "PICT8016 - Internship",
+    "code": "PICT8016",
+    "title": "Internship",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The Department of Security Studies and Criminology (SSC) offers a unique opportunity for students to complete a security industry-focused internship as part of their Masters degree. There are a number of companies and organisations that host SSC post-graduate interns, including multinational consulting and insurance firms, think tanks, non-government organisations (NGO), defence contractors, and both public service regulatory and policing organisations. Expressions of Interest must be submitted to the course convenor. The timeline for submission is: for Session 2 participation by 15 April each year; for Session 1 participation by 15 September each year. Internship placements are made by matching student interests and study stream specialties as much as possible, but student flexibility is required due to the limited number of partnering agencies. Students are able to experience real-world, professional settings in a security organisation&#39;s workplace. SSC cannot guarantee any particular workplace and placements are made through a competitive selection process; a minimum grade point average of 70% is required to apply. Students may nominate their own internship placements in a relevant security organisation upon unit convenor approval.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:41:09.267",
+  "code": "PICT8016",
+  "title": "Internship",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,163 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Integrate the outcomes of dysphagia assessment focused on body functions and structures with other sources of information, with a view to comprehensive, client-centred assessment.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically appraise the research evidence supporting speech pathology assessment and intervention for people experiencing dysphagia, and employ it appropriately to promote client-centred care.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply knowledge of the neurophysiological bases of swallowing to the assessment and differential diagnosis of dysphagia in adults and children.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify and evaluate ethical speech pathology practice for people with dysphagia, focusing on client-centred care.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply theoretically-motivated and evidence-based principles to planning speech pathology interventions for people with dysphagia, including both rehabilitative and compensatory approaches.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Before and after class learning activities including readings, small group work, development of materials shared with peers, engagement in online discussion.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MSpchLngPath",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Case based assessment: dysphagia assessment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "50",
+        "description": "In this assessment task students will be provided with case information relating to people who have dysphagia. They will also be provided with clinical scenarios, and asked to develop plans relating to speech pathology assessment for these people. The assessment task will require them to integrate and synthesise case information, case data, theory, research evidence, and routine speech pathology practices in order to formulate plans.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case based assessment: dysphagia intervention",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "50",
+        "description": "In this assessment task students will be provided with case information relating to people who have dysphagia. They will also be provided with clinical scenarios, and asked to develop plans relating to speech pathology intervention for these people. The assessment task will require them to integrate and synthesise case information, case data, theory, research evidence, and routine speech pathology practices in order to formulate plans.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPTH8852"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "SPTH8852 - Swallowing and its Disorders",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit, students will develop advanced knowledge and clinical reasoning skills relevant for speech pathology practice with swallowing disorders. It will address the neurophysiological bases of swallowing and its disorders, comprehensive client-centred speech pathology assessment and intervention for dysphagia, and the research evidence supporting speech pathology practice. Practice with adults and children will be addressed.",
+    "search_title": "SPTH8852 - Swallowing and its Disorders",
+    "code": "SPTH8852",
+    "title": "Swallowing and its Disorders",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit, students will develop advanced knowledge and clinical reasoning skills relevant for speech pathology practice with swallowing disorders. It will address the neurophysiological bases of swallowing and its disorders, comprehensive client-centred speech pathology assessment and intervention for dysphagia, and the research evidence supporting speech pathology practice. Practice with adults and children will be addressed.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-02T14:37:32.203",
+  "code": "SPTH8852",
+  "title": "Swallowing and its Disorders",
+  "implementationYear": "2021"
+}

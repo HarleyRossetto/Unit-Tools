@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically evaluate and reflect on scientific practice",
+        "code": "ULO5"
+      },
+      {
+        "description": "Appropriately design a research project, including identification of the research question and methodology, data analysis and interpretation of results.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate an understanding of research ethics",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate knowledge of research terminology, methodologies, sampling and measurement strategies",
+        "code": "ULO2"
+      },
+      {
+        "description": "Effectively communicate the design and results of a research project via a research report",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSY351",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "((Admission to BPsych(Hons)  and 60cp in PSY or PSYU or PSYX units at 2000 level including (PSY248 or PSYU2248 or PSYX248 or PSYX2248))OR((60cp from PSY234 or PSYU2234 or PSYX234 or PSYX2234 or PSY235 or PSYU2235 or PSYX235 or PSYX2235 or PSY236 or PSYU2236 or PSYX236 or PSYX2236 or PSY246 or PSYU2246 or PSYX246 or PSYX2246 or PSY247 or PSYU2247 or PSYX247 or PSYX2247 or PSY248 or PSYU2248 or PSYX248 or PSYX2248) and (30p(Cr) from PSY234 or PSYU2234 or PSYX234 or PSYX2234 or PSY235 or PSYU2235 or PSYX235 or PSYX2235 or PSY236 or PSYU2236 or PSYX236 or PSYX2236 or PSY246 or PSYU2246 or PSYX246 or PSYX2246 or PSY247 or PSYU2247 or PSYX247 or PSYX2247 or PSY248 or PSYU2248 or PSYX248 or PSYX2248))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Final examination held within the University’s formal exam period, in accordance with relevant requirements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Students will submit a 2000 word research report in APA format.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly online quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Weekly online multiple choice quizzes",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Students will write up a 2000 word research report in APA format based on a study completed in tutorials.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "The examination will comprise of multiple choice and short answer questions to be completed in 2 hours",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYU3351"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYU3351"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PSYU3351 - Research Methods in Psychology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is an introduction to research methods used in psychology and related disciplines. Psychology uses the scientist-practitioner model as its basis. Successful completion of this unit gives students an understanding of the range of methods that psychologists use to answer their research questions, their strengths and weakness and the historical antecedents of the science of psychology. One of the learning objectives of this unit is to provide insight into the process of doing research: devising the question, selecting a research strategy, conducting the study, evaluating the data, and reporting and interpreting the results, as well as practical experience in doing research. Students learn important research terminology, sampling strategies, measurement strategies, and how to write a research report.",
+    "search_title": "PSYU3351 - Research Methods in Psychology",
+    "code": "PSYU3351",
+    "title": "Research Methods in Psychology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is an introduction to research methods used in psychology and related disciplines. Psychology uses the scientist-practitioner model as its basis. Successful completion of this unit gives students an understanding of the range of methods that psychologists use to answer their research questions, their strengths and weakness and the historical antecedents of the science of psychology. One of the learning objectives of this unit is to provide insight into the process of doing research: devising the question, selecting a research strategy, conducting the study, evaluating the data, and reporting and interpreting the results, as well as practical experience in doing research. Students learn important research terminology, sampling strategies, measurement strategies, and how to write a research report.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:45:26.684",
+  "code": "PSYU3351",
+  "title": "Research Methods in Psychology",
+  "implementationYear": "2021"
+}

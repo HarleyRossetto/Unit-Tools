@@ -1,0 +1,231 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically evaluate and create new product and service opportunities, ideas, concepts and projects",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse and apply theories, models, and concepts underpinning new product and service commercialisation",
+        "code": "ULO1"
+      },
+      {
+        "description": "Formulate and plan effective commercialisation strategies for new products and/or services",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse and appraise factors that impact new product and service commercialisation decisions and outcomes",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MMktg",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "New product or service (i.e. innovation) recorded pitch presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "This assessment will assess students’ aptitude to formulate and design a feasible innovative product and service concept. This assessment focuses on students’ capability to communicate their new product/service idea and defend it verbally with the support of visual aids. A scenario will be placed on iLearn. Students will follow the scenario. 15 minutes",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Students will do 10, quizzes during the course of semester. Each quiz last 10 minutes, has 10 questions and each quiz is worth 15 marks. Quizzes will allow students to improve their individual knowledge and get ready for joining the workshops and participate in discussion. The final mark for the quiz would be the average of 10 quizzes during the course of semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "New product or service commercialisation project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "45",
+        "description": "This assessment is linked with presentation assessment. It assesses students’ skills to build on reliable technical and market-related data and facts, and communicate their new product/service concept in the form of a formal business report. The new product /service commercialisation project focuses on providing students with experience in the new product/service commercialisation process. The project focuses on market/industry analysis, concept generation, design, prototyping, testing, and marketing for the new product or service. Based on their market/industry analysis and opportunity evaluations, students are required to develop a product/service concept and propose commercilisation strategies for their product/service. 2000 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participatory assignment",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "In-class activities allows students to engage in discussions and share their thoughts, helps them articulate and communicate their point of view, and develop not only their own knowledge, but also assist their classmates to gain a better understanding of the topic. The activities focus on discussions questions, mini-case analysis, critical thinking and problem-solving activities. Length – ongoing",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MKTG8051-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG8051"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MKTG8051-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MKTG8051"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MKTG8051 - New Product and Service Commercialisation",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Marketing "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In dynamic business environments, where customers’ needs change rapidly and competition is intense, developing and launching new products and services that create and maintain a superior market position for a firm is a key success factor. Developing and launching new products addresses the commercialisation process within firms. Despite the significant investment in screening and developing new products and services, statistics reflect continuing high new product/service failure rates worldwide. This highlights the need for managing the commercialisation process of new products and services effectively.",
+    "search_title": "MKTG8051 - New Product and Service Commercialisation",
+    "code": "MKTG8051",
+    "title": "New Product and Service Commercialisation",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In dynamic business environments, where customers’ needs change rapidly and competition is intense, developing and launching new products and services that create and maintain a superior market position for a firm is a key success factor. Developing and launching new products addresses the commercialisation process within firms. Despite the significant investment in screening and developing new products and services, statistics reflect continuing high new product/service failure rates worldwide. This highlights the need for managing the commercialisation process of new products and services effectively.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-18T10:08:45.198",
+  "code": "MKTG8051",
+  "title": "New Product and Service Commercialisation",
+  "implementationYear": "2021"
+}

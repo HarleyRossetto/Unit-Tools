@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Articulate the ways that sociocultural norms around gender and sexuality shape health outcomes.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically and reflexively analyse the role of global markets, rise of human capital, increased mobility and structural inequalities in creating disparities in sexual and reproductive health conditions.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate a critical understanding of how the intersection of culture, health and sexuality can underpin vulnerability to sexual and reproductive health problems as well as shape the implementation of government and donor policies and interventions.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse the relationship between gender, sexuality and health in global discourses of development and international aid.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate an anthropological understanding of gender and sexuality as sociocultural constructs.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly tutorial readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ANTH377, ANTH322",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "Short presentation in tutorials (internal cohort) or online discussion forum (external cohort).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Tutorial reading and response",
+        "type": {
+          "label": "Summary",
+          "value": "summary"
+        },
+        "weight": "30",
+        "description": "Weekly summary of assigned readings and active participation in tutorial discussion (internal cohort) or online discussion forum (external cohort).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Students will write an expository essay exploring a topic related to the course material",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Take home exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Take home exam with short answer questions covering main topics of the unit",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ANTH3022-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH3022"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ANTH3022-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH3022"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ANTH3022-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH3022"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Fully online/virtual<br />",
+    "subject_search_title": "ANTH3022 - Gender, Sexuality and Global Health",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Anthropologists understand gender as the meanings that a particular society gives to the physical or biological traits that differentiate males and females. This unit will explore how cultural norms around gender and sexuality have defined, constructed, constrained, or expanded people&#39;s notions of self, their bodies, and their health in specific sociocultural contexts. The anthropological understanding of gender and sexuality, as well as health, provides a fresh lens on what appears, when viewed in terms of international politics, as &#39;global imperatives&#39; - the imperative to control female sexuality and population, for example, or to categorise male and femaleness, or to control disease epidemics such as AIDS. Every one of these imperatives in fact is mediated and refracted through understandings and meanings that cling to what is most immediate and local to each of us, namely, our bodies. Anthropology understands these meanings as simultaneously symbolic, biological and existential, but the meanings are also historically and culturally specific. Gender, sexuality, and health are always mediated by the local, even as people absorb and adapt new global discourses about their sexual identity and wellbeing.",
+    "search_title": "ANTH3022 - Gender, Sexuality and Global Health",
+    "code": "ANTH3022",
+    "title": "Gender, Sexuality and Global Health",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Anthropologists understand gender as the meanings that a particular society gives to the physical or biological traits that differentiate males and females. This unit will explore how cultural norms around gender and sexuality have defined, constructed, constrained, or expanded people&#39;s notions of self, their bodies, and their health in specific sociocultural contexts. The anthropological understanding of gender and sexuality, as well as health, provides a fresh lens on what appears, when viewed in terms of international politics, as &#39;global imperatives&#39; - the imperative to control female sexuality and population, for example, or to categorise male and femaleness, or to control disease epidemics such as AIDS. Every one of these imperatives in fact is mediated and refracted through understandings and meanings that cling to what is most immediate and local to each of us, namely, our bodies. Anthropology understands these meanings as simultaneously symbolic, biological and existential, but the meanings are also historically and culturally specific. Gender, sexuality, and health are always mediated by the local, even as people absorb and adapt new global discourses about their sexual identity and wellbeing.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T11:57:02.724",
+  "code": "ANTH3022",
+  "title": "Gender, Sexuality and Global Health",
+  "implementationYear": "2021"
+}

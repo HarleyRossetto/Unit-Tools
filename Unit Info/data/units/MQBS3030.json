@@ -1,0 +1,182 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop effective and justifiable strategies and solutions to identified business and/or cultural issues, individually and in a collaborative environment.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Communicate in a professional environment and reflect on study tour experiences and learning for personal and professional development.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Synthesise key management, business and international business concepts and theories and assess the practical application of these concepts and theories in the context of conducting business in a foreign country.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Examine the business environment in a foreign country and identify and analyse issues faced in order to extrapolate insights into challenges faced by businesses operating in an external economy. ",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading and research.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "FOBE330",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "120cp at 1000 level or above and permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Active Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Students will be expected to attend and actively participate in pre-trip seminars, in-class discussion and all field trip activities.\n\nContributions will be assessed based on preparation, quality of participation and engagement with peers, lecturer(s) and business hosts, professionalism at site-visits and during the tour and a student’s ability to synthesise theories with the practical application of these theories observed during their study tour.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Portfolio and Final Report",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "60",
+        "description": "This task consists of 3 stages/ components of work and is a combination of individual and group work:\n1. Individual: 1,000 word pre-trip report (worth 15%)\n2. Individual: 2,000 word post-trip final report (worth 25%) \n3. Group: Presentation and/or video (worth 20%)\n\nFor individual work, each group member is required to develop a different yet connected topic for his/her individual report, based on the learning throughout the lectures, readings and field trip in India. These topics developed individually will then be combined into a coherent and well-structured group presentation and/or video. Presentations and/or video should be produced to a standard suitable for presentation to a professional audience.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Reflective Journals",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "Students are expected to produce regular reflective journals outlining their personal experience and learning from the study tour experience.  They are expected to submit five entries from their reflective journals. Students will be assessed on the quality of their reflection, including their growth/development in self-awareness.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MQBS3030"
+        }
+      }
+    ],
+    "unit_offering_text": "2022<br />",
+    "subject_search_title": "MQBS3030 - International Study Tour",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit develops knowledge and understanding of the international business environment and business operations in foreign markets through first-hand observation of businesses in a foreign country. It is designed for students with background knowledge of, and interest in, business processes in an international context. The unit includes a series of seminars and a study tour to a foreign country.",
+    "search_title": "MQBS3030 - International Study Tour",
+    "code": "MQBS3030",
+    "title": "International Study Tour",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit develops knowledge and understanding of the international business environment and business operations in foreign markets through first-hand observation of businesses in a foreign country. It is designed for students with background knowledge of, and interest in, business processes in an international context. The unit includes a series of seminars and a study tour to a foreign country.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-04T12:00:03.88",
+  "code": "MQBS3030",
+  "title": "International Study Tour",
+  "implementationYear": "2021"
+}

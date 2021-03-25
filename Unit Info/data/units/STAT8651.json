@@ -1,0 +1,170 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "apply appropriate statistical models/methods in planning and carrying out a significant statistical analysis project.",
+        "code": "ULO1"
+      },
+      {
+        "description": "demonstrate the ability to undertake a biostatistics project independently.",
+        "code": "ULO5"
+      },
+      {
+        "description": "communicate methods used and results obtained in a clear and concise manner suitable for a non-statistical audience, in particular a clinical or health professional audience",
+        "code": "ULO4"
+      },
+      {
+        "description": "use modern statistical software packages in data analysis",
+        "code": "ULO3"
+      },
+      {
+        "description": "demonstrate a deep understanding of biostatistical theory and methods.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Research and data analysis",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "40cp in (BCA units at 8000 level or STAT8601-STAT8652) including 20cp from (BCA804 or BCA808 or STAT8606 or STAT8609)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BCA815",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Project report",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "100",
+        "description": "Perform an an analysis of a data set in the health sciences, and write a substantial report. Where appropriate a literature review should also be included.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "STAT8651-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT8651"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "STAT8651-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT8651"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 2, Fully online/virtual<br />",
+    "subject_search_title": "STAT8651 - Biostatistics Research Project Part A",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Mathematics and Statistics "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit exposes students to real-life biostatistical problems, with the aim of consolidating concepts and theories learnt through the program and further developing their analytical skills. A project may include any of the following: primary or secondary analysis of health data; scientific manuscript for a peer-reviewed journal; design work on a study, eg clinical trial or health survey; statistical consulting project; evaluation of a data collection, data management or health information system from the perspective of statistical analysis of the data. When more than one project is completed (ie, STAT8651 and STAT8652), the projects should not be of the same type and must involve the use of different statistical methods and concepts. At least one project should involve complex multivariable data analysis. Because of the multi-institutional nature of the Biostatistics units, there is an early cut-off for enrolment in this unit, which is typically one week before the start of the session. Please contact the program coordinator for details.",
+    "search_title": "STAT8651 - Biostatistics Research Project Part A",
+    "code": "STAT8651",
+    "title": "Biostatistics Research Project Part A",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit exposes students to real-life biostatistical problems, with the aim of consolidating concepts and theories learnt through the program and further developing their analytical skills. A project may include any of the following: primary or secondary analysis of health data; scientific manuscript for a peer-reviewed journal; design work on a study, eg clinical trial or health survey; statistical consulting project; evaluation of a data collection, data management or health information system from the perspective of statistical analysis of the data. When more than one project is completed (ie, STAT8651 and STAT8652), the projects should not be of the same type and must involve the use of different statistical methods and concepts. At least one project should involve complex multivariable data analysis. Because of the multi-institutional nature of the Biostatistics units, there is an early cut-off for enrolment in this unit, which is typically one week before the start of the session. Please contact the program coordinator for details.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-28T10:01:54.855",
+  "code": "STAT8651",
+  "title": "Biostatistics Research Project Part A",
+  "implementationYear": "2021"
+}

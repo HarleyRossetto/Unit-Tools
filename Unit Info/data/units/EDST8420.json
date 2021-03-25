@@ -1,0 +1,198 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "develop and apply a research-informed knowledge and understanding of leadership in educational settings",
+        "code": "ULO1"
+      },
+      {
+        "description": "critically reflect on recent developments in research, theory and practice of leadership for learning and their implications for diverse educational settings",
+        "code": "ULO3"
+      },
+      {
+        "description": "demonstrate the ability to recognise and critically evaluate key theoretical paradigms for leadership",
+        "code": "ULO2"
+      },
+      {
+        "description": "apply a range of relevant theories and constructs to the analysis of one’s own, and other people’s, experience of leadership and management in educational settings",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Participation in on-line Forums",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Engagement with OHTs and other resources",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Guided use of readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "EDL902, EHE902, EDCN842",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MEd or PGDipEdS or GradCertEdS or MEdLead or GradCertHEd or MEChild or GradCertEChild or MTeach(0-5) or GradCertClinEdSim or MIndigenousEd or GradDipIndigenousEd or GradDipChildLit or MChildLit or MPH or MSocEntre",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Keynote paper and associated learning materials",
+        "type": {
+          "label": "Learning resource creation",
+          "value": "learning_resource_creation"
+        },
+        "weight": "50",
+        "description": "Produce a resource for educational leaders comprising (a) critical review of leadership concepts relevant to a particular educational context  (b) associated keynote presentation materials. Word count 2500 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Forum",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "25",
+        "description": "A Forum relating to one of the following areas: (a) effective leaders (b) transformational and distributed leadership (c) leadership and emotion. Word count 1250 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflective Task",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "25",
+        "description": "A Reflective Task relating to one of the following areas: (a) gender and leadership (b) leader impacts on student achievement (c) leadership and ethics (d) leadership and power. Word count 1250 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8420"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "EDST8420 - Leadership for Learning",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on the nature of leadership and what it means to lead for learning in a variety of educational contexts including early childhood, primary, secondary, adult and higher education. Participants: - explore and critique experience and existing knowledge and understanding of leadership in educational settings; - develop specialised knowledge of the broad theory and research relevant to the study and practice of educational leadership; - build a deeper understanding and appreciation of recent developments in research, theory and practice of leadership for learning through a process of individual and collaborative scholarship and critical reflection; - apply a range of relevant theories and constructs to the analysis of their own and others&#39; experience of leadership and management in an educational setting, and; - develop capacity to lead for learning in multifaceted and changing educational organisations.",
+    "search_title": "EDST8420 - Leadership for Learning",
+    "code": "EDST8420",
+    "title": "Leadership for Learning",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on the nature of leadership and what it means to lead for learning in a variety of educational contexts including early childhood, primary, secondary, adult and higher education. Participants: - explore and critique experience and existing knowledge and understanding of leadership in educational settings; - develop specialised knowledge of the broad theory and research relevant to the study and practice of educational leadership; - build a deeper understanding and appreciation of recent developments in research, theory and practice of leadership for learning through a process of individual and collaborative scholarship and critical reflection; - apply a range of relevant theories and constructs to the analysis of their own and others&#39; experience of leadership and management in an educational setting, and; - develop capacity to lead for learning in multifaceted and changing educational organisations.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-02T11:31:18.938",
+  "code": "EDST8420",
+  "title": "Leadership for Learning",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,261 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Undertake a complex engineering-specific research project.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply research principles, research methods, and technical standards to identify and provide solutions to complex problems in Mechanical Engineering.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Communicate research results through an effective written dissertation and oral presentation to a variety of audiences in research fora.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop new knowledge, using appropriate technical and/or laboratory skills, data management and synthesis, critical analysis and interpretation of results.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify, formulate and solve complex open-ended Mechanical Engineering problems in an ethical manner.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Produce technical writing and presentations at a standard that would be acceptable in a professional engineering workplace.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to  conduct individual research about their selected research topics once the project begins. The research activity includes reviewing of relevant literature and scholarly work, project development and execution, and critical analysis and examination of developed models.  ",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MECH4092 or MECH410",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "20cp at 4000 level",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ENGG411, MECH411",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Thesis",
+        "type": {
+          "label": "Thesis",
+          "value": "thesis"
+        },
+        "weight": "70",
+        "description": "Students are required to prepare a thesis report about their projects, including the literature review, technical execution of the project, discussion and understanding of results, and conclusions and added value of work.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Management and Engagement",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students are required to actively engage with the project-related activities, and to demonstrate a professional demeanour towards project management and record-keeping. Students are also required to maintain a logbook for this unit, where dated records of day-to-day activities associated with the project are maintained.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Meeting with Supervisors",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "Students are required to meet with their supervisors on a weekly basis, once the project commences. Such weekly meetings should aim to seek feedback and steer the project, and would normally last at least 15-30 minutes or more. In order to pass this unit, a student must attend at least 6 out of 12 weekly meetings from Week 1 to Week 12. Meetings can be conducted using telephone or video-conference. Meetings should be logged using the consultation meeting log sheet provided on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Students are required to deliver a comprehensive oral presentation about their project outcomes at the end of the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MECH4093-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MECH4093"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MECH4093-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MECH4093"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MECH4093-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MECH4093"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MECH4093-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MECH4093"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MECH4093 - Mechanical Engineering Research Thesis B",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "School of Engineering"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit students will conduct the second half of their individual research thesis on a topic in the Mechanical Engineering specialisation under the direction of an academic supervisor. Students will implement the previously developed project plan, continuing the experimental and theoretical work to obtain results and analysis presented in the form of a final research thesis.",
+    "search_title": "MECH4093 - Mechanical Engineering Research Thesis B",
+    "code": "MECH4093",
+    "title": "Mechanical Engineering Research Thesis B",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit students will conduct the second half of their individual research thesis on a topic in the Mechanical Engineering specialisation under the direction of an academic supervisor. Students will implement the previously developed project plan, continuing the experimental and theoretical work to obtain results and analysis presented in the form of a final research thesis.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-28T09:53:13.872",
+  "code": "MECH4093",
+  "title": "Mechanical Engineering Research Thesis B",
+  "implementationYear": "2021"
+}

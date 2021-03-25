@@ -1,0 +1,229 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Recognise non-audiological factors that may influence use/acceptance of rehabilitation, and the role of counselling in achieving appropriate rehabilitative outcomes for the client and their family",
+        "code": "ULO6"
+      },
+      {
+        "description": "Critically evaluate device advertising and specifications to obtain information on feature",
+        "code": "ULO5"
+      },
+      {
+        "description": "Integrate information from a variety of sources to recognise suitable candidates (of all ages) for hearing device fitting and factors affecting outcomes",
+        "code": "ULO1"
+      },
+      {
+        "description": "Understand the processes, steps and reasoning for hearing aid fitting and verification using real ear insertion gain measurements, aided threshold testing, aided speech testing, and client subjective comments",
+        "code": "ULO4"
+      },
+      {
+        "description": "Integrate knowledge of technological features in selection and adjustment of hearing aids and acoustic coupling options with case information",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate an understanding of prescriptive methods and non-prescriptive methods for setting electroacoustic properties of hearing aids",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "(CAUD802 or CAUD8002) and (CAUD803 or CAUD8003) and (CAUD819 or CAUD8001)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CAUD805",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Problem based assessment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "3000 word problem based assessment of case stuides",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Final examination ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In-class quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "In-class multiple choice and short answer quiz testing foundational knowledge.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "On-line quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "On-line multiple choice and short answer quiz testing applied knowledge.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Short answer and multiple choice quiz assessing foundational knowledge. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CAUD8005"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CAUD8005"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "CAUD8005 - Hearing Devices",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit aims to equip students with an understanding of hearing aid systems and the principles of hearing aid measurement. It aims to familiarise students with the diverse range of hearing aids that are available and to provide students with skills to determine appropriate hearing aid selection on the basis of client need. Practise in impression taking, hearing aid measurement, hearing aid verification and electronic and acoustic adjustment of hearing aids will be provided.",
+    "search_title": "CAUD8005 - Hearing Devices",
+    "code": "CAUD8005",
+    "title": "Hearing Devices",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit aims to equip students with an understanding of hearing aid systems and the principles of hearing aid measurement. It aims to familiarise students with the diverse range of hearing aids that are available and to provide students with skills to determine appropriate hearing aid selection on the basis of client need. Practise in impression taking, hearing aid measurement, hearing aid verification and electronic and acoustic adjustment of hearing aids will be provided.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:46:57.425",
+  "code": "CAUD8005",
+  "title": "Hearing Devices",
+  "implementationYear": "2021"
+}

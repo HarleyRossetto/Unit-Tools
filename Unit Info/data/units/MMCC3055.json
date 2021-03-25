@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "analyse the various ways in which mobile technologies shape and construct cultural practices, drawing on media and cultural studies theories.",
+        "code": "ULO2"
+      },
+      {
+        "description": "effectively communicate arguments around the various ways mobile technologies interact with and transform communities, identities and everyday practices",
+        "code": "ULO4"
+      },
+      {
+        "description": "analyse the impact of mobile technologies on individual identities and bodies, as well as cultural identity.",
+        "code": "ULO3"
+      },
+      {
+        "description": "evaluate the cultural, political and social issues and debates surrounding the use of mobile technologies.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading and preparation - 3 hours per week",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CUL350",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Case-study analysis of a cultural practice or media form linked to mobility",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "35",
+        "description": "Students are required to submit a case study analysis of a cultural practice or media form linked to mobility. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Proposal for an initiative or innovation around mobilities",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "35",
+        "description": "In this assessment students will propose an initiative or innovation relating to cultural practices or media forms linked to mobility. The proposal will be presented in one of a range of online media forms. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflective summaries",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "30",
+        "description": "This assessment comprises of (a) a 200 word summary of key readings for each week between Week 2 and 12, submitted online before class; (b) a 1200 word reflection on 4 examples of the way the student’s understanding of particular readings was changed by discussions in tutorials and lectures. This reflection is submitted in week 13. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Proposal for an initiative or innovation around mobilities",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "35",
+        "description": "In this assessment students will propose an initiative or innovation relating to cultural practices or media forms linked to mobility. The proposal will be presented in one of a range of media forms (including live presentation; online video; powerpoint; audio presentation etc). Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC3055-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3055"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC3055-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3055"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MMCC3055 - Mobile Cultures",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will consider practices and experiences of mobility, focusing on contemporary technologies and cultures. Mobile and ubiquitous media technologies, particularly mobile phones, and the cultural practices and meanings around their development and use, will be a particular focus of discussion. What cultural assumptions underpin the development of mobile technologies and apps, and the platforms they draw on. What forms of identity, understandings of the body, and ways of using these technologies, are offered to those using mobile technologies, and how might these be changing? What are the cultural meanings of the way data flows from mobile technologies to users&#39; peers, professionals, governments and corporations. How do these flows of data enhance or undermine justice, shape bodies and relationships.",
+    "search_title": "MMCC3055 - Mobile Cultures",
+    "code": "MMCC3055",
+    "title": "Mobile Cultures",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will consider practices and experiences of mobility, focusing on contemporary technologies and cultures. Mobile and ubiquitous media technologies, particularly mobile phones, and the cultural practices and meanings around their development and use, will be a particular focus of discussion. What cultural assumptions underpin the development of mobile technologies and apps, and the platforms they draw on. What forms of identity, understandings of the body, and ways of using these technologies, are offered to those using mobile technologies, and how might these be changing? What are the cultural meanings of the way data flows from mobile technologies to users&#39; peers, professionals, governments and corporations. How do these flows of data enhance or undermine justice, shape bodies and relationships.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:10:22.848",
+  "code": "MMCC3055",
+  "title": "Mobile Cultures",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain and critically assess vanilla and non-vanilla financing products in developing financial strategy.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse and explain the types of decisions required to integrate financial strategy that support organisational objectives, and recognise the role of financial markets.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically evaluate trade-offs in developing corporate financial strategy, and make appropriate recommendations.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify and critically assess the impact of risk on the design of corporate financial strategy.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify and resolve issues in developing financial strategy for offshore operations",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for Interactive Classes",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECFS866 or AFCP8003",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "AFCP861",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment ",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "35",
+        "description": "Individual assignment submitted as a paper of up to 3,000 words ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "55",
+        "description": "An individual closed book assessment that is 2 hours and 10 minutes. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "10",
+        "description": "Individual assignment submitted as a paper of up to 2,000 words at or before the first class",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "AFCP8061-unit_teaching_period-Special",
+        "display_name": "Term 2-Special",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8061"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AFCP8061-unit_teaching_period-Weekday-subject",
+        "display_name": "Term 2-Weekday-Melbourne",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8061"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AFCP8061-unit_teaching_period-Weekday-subject",
+        "display_name": "Term 2-Weekday-City",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8061"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 2, Special circumstances<br />Term 2, Weekday attendance, City<br />Term 2, Weekday attendance, Melbourne<br />",
+    "subject_search_title": "AFCP8061 - Corporate Financial Strategy",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "5",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "A company&#39;s financial strategy requires simultaneous decisions about capital structure, dividend and capital management, cash levels, financial risk profile and target credit rating. All of these decisions must be made in the context of the company&#39;s operating performance and growth strategies. Taking the CFO perspective, this unit will give students the opportunity to analyse and develop a company&#39;s preferred financial strategy. This unit should appeal to those involved in developing financial strategy for corporations, and investment and corporate bankers who might advise CFO&#39;s on financial strategy. The unit also addresses issues in: managing external stakeholders, particularly investor relations; risk allocation between various stakeholders; and the role of complex financial structures. The unit also equips students to evaluate alternative equity raising and capital management transaction structures. Although the unit will take a strategic perspective, students will be able to develop financial modelling skills to support the necessary analysis.",
+    "search_title": "AFCP8061 - Corporate Financial Strategy",
+    "code": "AFCP8061",
+    "title": "Corporate Financial Strategy",
+    "content_type": "Unit",
+    "credit_points_header": "5 credit points"
+  },
+  "creditPoints": 5,
+  "description": "A company&#39;s financial strategy requires simultaneous decisions about capital structure, dividend and capital management, cash levels, financial risk profile and target credit rating. All of these decisions must be made in the context of the company&#39;s operating performance and growth strategies. Taking the CFO perspective, this unit will give students the opportunity to analyse and develop a company&#39;s preferred financial strategy. This unit should appeal to those involved in developing financial strategy for corporations, and investment and corporate bankers who might advise CFO&#39;s on financial strategy. The unit also addresses issues in: managing external stakeholders, particularly investor relations; risk allocation between various stakeholders; and the role of complex financial structures. The unit also equips students to evaluate alternative equity raising and capital management transaction structures. Although the unit will take a strategic perspective, students will be able to develop financial modelling skills to support the necessary analysis.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-14T11:48:03.307",
+  "code": "AFCP8061",
+  "title": "Corporate Financial Strategy",
+  "implementationYear": "2021"
+}

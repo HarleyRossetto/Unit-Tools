@@ -1,0 +1,171 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate effective communication strategies to report on rigorous investigation or scholarly inquiry into issues of critical relevance to enrichment thinking and creativity in educational contexts.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Apply knowledge of educational research and theory to design and critically evaluate assessment strategies that demonstrate the achievement of learning outcomes.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Critically evaluate pedagogical research and practice in order to differentiate teaching to meet learning needs.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate critical, in-depth and extensive understanding and application of the knowledge base underpinning the principles and practices of enrichment thinking and creativity in curriculum.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse ways in which research evidence contributes to facilitating learners' development.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Implement a range of pedagogical models to enact critical and creative thinking in educational contexts.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Develop logical, sequential, challenging and research informed lessons and resource materials to meet student learning outcomes.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are required to: participate in individual, small group activities, and whole class discussion. Activities focus on pedagogical content and skills required to teach in NSW.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(Admission to MTeach(Prim) or MTeach(Sec) and EDST8200) or (Admission to MEdLead or MEChild or GradCertEdStud)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Literature Review",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "50",
+        "description": "This task requires a review of literature in preparation for Assessment Task 2",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Independent Research Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "In this task, students design and conduct a small research project on an aspect of critical thinking.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8303"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "EDST8303 - Enrichment, Thinking and Creativity in Curriculum",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Responding to the challenges of the twenty-first century requires learners to be engaged, innovative and enterprising with the confidence and skills to use critical and creative thinking. As educators we need to know how to nurture thinking that is productive, purposeful and intentional and be able to design learning experiences that encourage learners to become more confident and autonomous problem-solvers and thinkers. This unit will address the critical knowledge of enrichment thinking including theories of cognition and cognitive development and explore research-informed strategies for the explicit teaching and embedding of critical and creative thinking in a range of learning areas and educational contexts.",
+    "search_title": "EDST8303 - Enrichment, Thinking and Creativity in Curriculum",
+    "code": "EDST8303",
+    "title": "Enrichment, Thinking and Creativity in Curriculum",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Responding to the challenges of the twenty-first century requires learners to be engaged, innovative and enterprising with the confidence and skills to use critical and creative thinking. As educators we need to know how to nurture thinking that is productive, purposeful and intentional and be able to design learning experiences that encourage learners to become more confident and autonomous problem-solvers and thinkers. This unit will address the critical knowledge of enrichment thinking including theories of cognition and cognitive development and explore research-informed strategies for the explicit teaching and embedding of critical and creative thinking in a range of learning areas and educational contexts.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T16:53:37.317",
+  "code": "EDST8303",
+  "title": "Enrichment, Thinking and Creativity in Curriculum",
+  "implementationYear": "2021"
+}

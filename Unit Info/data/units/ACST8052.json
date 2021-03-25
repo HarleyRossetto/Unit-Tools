@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate and critique issues in finance and financial reporting.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Examine key financial concepts and interpret how these concepts are illustrated in corporate financial practice.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply finance and financial reporting knowledge in a group project to solve a practical problem",
+        "code": "ULO4"
+      },
+      {
+        "description": "Describe the process of financial reporting and interpret financial reports.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Examine and identify issues of financial reporting in corporate practice.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for seminar and various assessment items.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MActPrac or (10cp in ACCG or ACST or AFIN or BUS or ECON or MKTG or MGMT units at 6000 level or above)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ACST852",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "The final examination will be closed book, a three-hour written paper with ten minutes reading time, to be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group assignment",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "20",
+        "description": "You will be assigned to a group to work on your Group Assignment. Note that 50% of the marks will be allocated to individual performance.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Individual assignment",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "20",
+        "description": "This is an individual assignment which focuses on finance and financial reporting.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The test will be approximately 90 minutes, to be held during class time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACST8052"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACST8052"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ACST8052 - Finance and Financial Reporting",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Actuarial Studies and Business Analytics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit equips students to understand corporate governance and organisation, corporate financial reporting and corporate finance decision-making. It provides a basic understanding of personal and corporate taxation, types of financial instruments, financial reporting and how to interpret financial statements, and integrates this with corporate financial decisions such as raising capital, determining capital structure including liquidity, paying dividends, evaluating possible investment projects and evaluating working capital in the context of the Australian financial sector. Students will also understand and apply basic theoretical concepts in finance. Students gaining a Credit or higher in this unit will satisfy the requirements for exemption from professional subject CB1 of the Actuaries Institute.",
+    "search_title": "ACST8052 - Finance and Financial Reporting",
+    "code": "ACST8052",
+    "title": "Finance and Financial Reporting",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit equips students to understand corporate governance and organisation, corporate financial reporting and corporate finance decision-making. It provides a basic understanding of personal and corporate taxation, types of financial instruments, financial reporting and how to interpret financial statements, and integrates this with corporate financial decisions such as raising capital, determining capital structure including liquidity, paying dividends, evaluating possible investment projects and evaluating working capital in the context of the Australian financial sector. Students will also understand and apply basic theoretical concepts in finance. Students gaining a Credit or higher in this unit will satisfy the requirements for exemption from professional subject CB1 of the Actuaries Institute.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:41:26.686",
+  "code": "ACST8052",
+  "title": "Finance and Financial Reporting",
+  "implementationYear": "2021"
+}

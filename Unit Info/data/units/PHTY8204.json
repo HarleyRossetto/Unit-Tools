@@ -1,0 +1,202 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply legal and ethical principles within professional practice to ensure the privacy, autonomy and safety of all children, whilst optimising health and wellbeing. <strong>(Professional)</strong>",
+        "code": "ULO5"
+      },
+      {
+        "description": "Perform and analyse age and stage appropriate assessments of infants, children and adolescents with complex health conditions. <strong>(Clinical Practitioner)</strong>",
+        "code": "ULO2"
+      },
+      {
+        "description": "Communicate effectively with infants, children, adolescents as well as their family/carers and other professionals, including teachers, to provide information about the individual's health status and to support optimal participation in age and stage appropriate activities. <strong>(Clinical Practitioner)</strong>",
+        "code": "ULO4"
+      },
+      {
+        "description": "Develop, implement and evaluate safe and effective physiotherapy management strategies appropriate for an infant, child or adolescent that considers the individual's goals and preferences, as well as their family, social and cultural context, to optimise and enhance health and wellbeing across the lifespan. <strong>(Clinical Practitioner)</strong>",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe how biological processes during paediatric years impact on health and physiotherapy care. <strong>(Scientist and Scholar)</strong>",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "You will be required to undertake preparatory activities prior to class.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(PHTY808 or PHTY8200) and (PHTY809 or PHTY8201) and (PHTY810 or PHTY8202) and (PHTY811 or PHTY8203)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PHTY812",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Viva examination",
+        "type": {
+          "label": "Viva/oral examination",
+          "value": "viva_oral_exam"
+        },
+        "weight": "30",
+        "description": "You will be required to describe and justify evidence based assessment and treatment choices using advanced clinical reasoning related to a complex case during a viva examination. This exam will test your understanding of content covered during lectures and tutorials.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Objective Structured Clinical Examination (OSCE)",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "30",
+        "description": "This assessment will test your understanding of content delivered during lectures and tutorials through the application of skills and knowledge across a number of tasks.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Clinical placement logbook",
+        "type": {
+          "label": "Log book",
+          "value": "log_book"
+        },
+        "weight": "0",
+        "description": "You will submit a logbook of briefly describing your experiences and hours accrued during your integrated clinical placement. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "HAWC assignment",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "40",
+        "description": "You will submit a video demonstrating an interaction between yourself and your paediatric HAWC volunteer and/or their carer, along with a short written self-reflection based upon the submitted video.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PHTY8204-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8204"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "PHTY8204 - Health and Wellbeing Across Lifespan A",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Health Professions"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on the delivery of physiotherapy services to promote and enhance health and wellbeing in paediatric populations. Within an integrated clinical component you will apply extended knowledge and skills to provide family and person centred care appropriate for infants, children and adolescents. You will also consider, and work within, contexts and settings specific to paediatric populations, such as the education sector and specialist healthcare settings.",
+    "search_title": "PHTY8204 - Health and Wellbeing Across Lifespan A",
+    "code": "PHTY8204",
+    "title": "Health and Wellbeing Across Lifespan A",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on the delivery of physiotherapy services to promote and enhance health and wellbeing in paediatric populations. Within an integrated clinical component you will apply extended knowledge and skills to provide family and person centred care appropriate for infants, children and adolescents. You will also consider, and work within, contexts and settings specific to paediatric populations, such as the education sector and specialist healthcare settings.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-23T10:39:06.077",
+  "code": "PHTY8204",
+  "title": "Health and Wellbeing Across Lifespan A",
+  "implementationYear": "2021"
+}

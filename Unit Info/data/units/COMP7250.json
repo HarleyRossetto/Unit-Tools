@@ -1,0 +1,207 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate working knowledge of the key networking technologies and their interaction.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse and Design Internet Routing Architectures and demonstrate working knowledge of emerging routing paradigms through peering for large loosely connected networks.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Conduct professional work ethically with a high level of integrity, autonomy, and accountability.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Design simulation and experiments to demonstrate the working of network technologies and algorithms.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Collaborate and communicate with others in a professional setting in both written and oral form.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class preparation and readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {},
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "COMP703",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Written exam.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "The purpose of the problem solving assignment is to help the students to get accustomed to dealing with real world problem situations/issues.It is designed to help students analyse a particular problem and find its best solution. Some questions may require an in depth research and will be a process to come up with an acceptable and reasonable answer",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "40",
+        "description": "Assignment 2 - Group Project will apply to all material taught in this course. Students will leverage their knowledge of mobile networks to research and critically analyse relevant literature in the discipline and present conclusions. The assessment also allows students to further develop their team working and professional communication skills.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "COMP7250-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP7250"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "COMP7250-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP7250"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "COMP7250 - Computer Networks",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit concerns itself with the design and implementation of real-world computer networks. We consider the various layers of modern network systems design, from the physical medium, through software protocol layers to the application protocols. Technical issues inherent to each layer are examined including routing, error detection and correction, flow control, connection management, data representation and network security management. The unit requires some background in data communications or networking, so the Computing MRes advisor should be consulted before selecting this unit.",
+    "search_title": "COMP7250 - Computer Networks",
+    "code": "COMP7250",
+    "title": "Computer Networks",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit concerns itself with the design and implementation of real-world computer networks. We consider the various layers of modern network systems design, from the physical medium, through software protocol layers to the application protocols. Technical issues inherent to each layer are examined including routing, error detection and correction, flow control, connection management, data representation and network security management. The unit requires some background in data communications or networking, so the Computing MRes advisor should be consulted before selecting this unit.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-19T08:44:41.377",
+  "code": "COMP7250",
+  "title": "Computer Networks",
+  "implementationYear": "2021"
+}

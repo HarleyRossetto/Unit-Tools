@@ -1,0 +1,191 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain the strengths and limitations of various neuroimaging methods and be able to identify the optimal method for a particular research question.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate advanced knowledge of neuroimaging methods and their application to the investigation of human brain function.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Interpret and critically evaluate the results of neuroimaging studies.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Discuss key concepts and theories in relation to research findings obtained through different neuroimaging methods.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "13 weeks x 2 hours",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp including (COGS2000 or COGS202) and COGS2020",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Multiple-choice and short answer questions",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Data analysis write-up 1",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "20",
+        "description": "Analysis of curated dataset and write-up of methods and results (max. 1000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "Contribution to a group presentation contrasting two neuroimaging approaches to the same research question (5%) and individual written summary (5%; max. 300 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Data analysis write-up 2",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "30",
+        "description": "Analysis of curated dataset and write-up of methods and results (max. 1500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COGS3030"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "COGS3030 - Human Neuroimaging",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Cognitive Science "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The human brain is among the most complex and powerful information processing systems known. Since the emergence of cognitive neuroscience as a field several decades ago, an impressive range of methods have been developed to investigate the structure and function of the human brain. In this unit, students will learn key principles of a range of functional neuroimaging techniques including functional magnetic resonance imaging (fMRI), electroencephalography (EEG), magnetoencephalography (MEG), and functional near infrared spectroscopy (fNIRS). The unit focuses on conceptual and methodological issues surrounding these techniques, giving students the opportunity to think critically about the advantages and disadvantages of each technique for addressing research questions in the field of cognitive neuroscience. The unit will also cover clinical applications of neuroimaging such as its use for investigating autism and schizophrenia.",
+    "search_title": "COGS3030 - Human Neuroimaging",
+    "code": "COGS3030",
+    "title": "Human Neuroimaging",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The human brain is among the most complex and powerful information processing systems known. Since the emergence of cognitive neuroscience as a field several decades ago, an impressive range of methods have been developed to investigate the structure and function of the human brain. In this unit, students will learn key principles of a range of functional neuroimaging techniques including functional magnetic resonance imaging (fMRI), electroencephalography (EEG), magnetoencephalography (MEG), and functional near infrared spectroscopy (fNIRS). The unit focuses on conceptual and methodological issues surrounding these techniques, giving students the opportunity to think critically about the advantages and disadvantages of each technique for addressing research questions in the field of cognitive neuroscience. The unit will also cover clinical applications of neuroimaging such as its use for investigating autism and schizophrenia.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:14:29.383",
+  "code": "COGS3030",
+  "title": "Human Neuroimaging",
+  "implementationYear": "2021"
+}

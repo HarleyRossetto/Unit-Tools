@@ -1,0 +1,233 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "analyse environments and materials that foster children’s learning through play and inquiry",
+        "code": "ULO3"
+      },
+      {
+        "description": "identify intentional teaching strategies using relevant theory and reflection",
+        "code": "ULO4"
+      },
+      {
+        "description": "actively and theoretically contribute towards your own and others’ development and learning.",
+        "code": "ULO5"
+      },
+      {
+        "description": "observe and interpret children's play/inquiry experiences in terms of what they reveal about, and their potential for facilitating children's learning and development.",
+        "code": "ULO2"
+      },
+      {
+        "description": "demonstrate an awareness of current approaches to, and debates about early childhood curriculum and pedagogy.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {},
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECED600, ECEX600, ECED817",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Understanding and Promoting Children’s Play and Inquiry",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "Part 1. Observation and Analysis of the learning potential of children’s play. Part 2: Enhancing Children’s Learning. [1800 words]",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Explanation of an area of the Early Years Learning Framework",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Provide an explanation of an area of the Early Years Learning Framework [800 - 1000 words].",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Environment Play Analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "Analyse a play environment for young children [1200 words]",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ECHX6000",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ECHX6000"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ECHE6000"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Early Childhood Philosophy and Pedagogy",
+                "academic_item_code": "ECHE6000",
+                "academic_item_url": "/2020/units/ECHE6000"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHX6000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "ECHX6000 - Early Childhood Philosophy and Pedagogy",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to the philosophical and pedagogical approaches in the field of early childhood education. The unit provides students with the opportunity to develop a critical understanding of: i) current philosophical and theoretical approaches to early childhood education; ii) the centrality of play, social interaction and relationships as a basis for early childhood curriculum; and iii) their own identity as early childhood educators. Overall, it aims to provide students with a crucial framework for developing professional teaching practice and for their future studies in early childhood. All enrolment queries should be directed to Open Universities Australia (OUA): see <a href=\"http://www.open.edu.au\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">www.open.edu.au",
+    "search_title": "ECHX6000 - Early Childhood Philosophy and Pedagogy",
+    "code": "ECHX6000",
+    "title": "Early Childhood Philosophy and Pedagogy",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to the philosophical and pedagogical approaches in the field of early childhood education. The unit provides students with the opportunity to develop a critical understanding of: i) current philosophical and theoretical approaches to early childhood education; ii) the centrality of play, social interaction and relationships as a basis for early childhood curriculum; and iii) their own identity as early childhood educators. Overall, it aims to provide students with a crucial framework for developing professional teaching practice and for their future studies in early childhood. All enrolment queries should be directed to Open Universities Australia (OUA): see <a href=\"http://www.open.edu.au\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">www.open.edu.au",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:30:45.184",
+  "code": "ECHX6000",
+  "title": "Early Childhood Philosophy and Pedagogy",
+  "implementationYear": "2021"
+}

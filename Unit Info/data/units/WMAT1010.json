@@ -1,0 +1,381 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Pathway",
+        "value": "pathway"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Employ techniques from linear algebra to analyse structures in 2- and 3-D Euclidean space, including vectors, lines and planes.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyze a mathematical problem using concepts of limits, continuity and differentiability.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Determine solutions to linear systems of equations using matrix tools and techniques.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Utilise the techniques of differentiation and integration with proficiency to a wide range of functions.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Communicate mathematical ideas in writing effectively using discipline specific terminology appropriately.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Evaluate problems from a wide variety of applications and utilise mathematical and computational techniques to solve them.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "(HSC Mathematics Band 3 and above or HSC Mathematics Advanced Band 3 and above or HSC Mathematics Extension 1 Band E2 and above or HSC Mathematics Extension 2) or WMAT1000 or WFMA003 or WFMA0003 or WMAT123 (HD) or MATH1000",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MATH132, MATH135, WMAT135",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Problem sets",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "15",
+        "description": "Students are required to complete three problem sets during the term. The problem sets will cover any of the topics studied until the date on which the problem sets are provided.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "25",
+        "description": "The Final Exam may include any topic covered in this unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "Students are required to complete five online quizzes throughout the term. The quizzes will cover any of the topics studied until the date on which the quiz is held.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-term Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "The Mid-term exam may include any topic covered until the end of Week 4. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "WMAT1010",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: WMAT1010"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MATH1015"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.04",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Mathematical Modelling IA (Advanced)",
+                "academic_item_code": "MATH1015",
+                "academic_item_url": "/2020/units/MATH1015"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: MATH1010"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Mathematical Modelling IA",
+                "academic_item_code": "MATH1010",
+                "academic_item_url": "/2020/units/MATH1010"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 6-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 6"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMAT1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 2-Special",
+        "teaching_period": {
+          "value": "MUIC term 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMAT1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMAT1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 5-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 5"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMAT1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 3-Special",
+        "teaching_period": {
+          "value": "MUIC term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMAT1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMAT1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 5-Special",
+        "teaching_period": {
+          "value": "MUIC term 5"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMAT1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMAT1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 1-Special",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WMAT1010"
+        }
+      }
+    ],
+    "unit_offering_text": "MUIC term 2, Special circumstances<br />MUIC term 2, Weekday attendance, North Ryde<br />MUIC term 3, Special circumstances<br />MUIC term 3, Weekday attendance, North Ryde<br />MUIC term 5, Special circumstances<br />MUIC term 5, Weekday attendance, North Ryde<br />MUIC term 6, Weekday attendance, North Ryde<br />MUIC term 1, Weekday attendance, North Ryde<br />MUIC term 1, Special circumstances<br />",
+    "subject_search_title": "WMAT1010 - Mathematical Modelling 1A",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie University International College"
+    },
+    "school": {
+      "value": "Macquarie University International College"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces basic concepts and techniques in linear algebra and calculus. The algebra component of the unit covers matrices, systems of linear equations and their applications, including the use of vectors in two and three-dimensional Euclidean geometry and linear optimisation. The calculus component of the unit explores the concept of a function of one variable and develops the notions of limit and continuity. The concept of the derivative as a suitable construct to describe rates of change is defined and techniques of differential and integral calculus of functions of a real variable are developed. Some simple differential equations and their role as quantitative models for dynamic processes are discussed. Students are also introduced to the use of computers in mathematics, and develop modelling and problem-solving skills through theoretical and practical problems.",
+    "search_title": "WMAT1010 - Mathematical Modelling 1A",
+    "code": "WMAT1010",
+    "title": "Mathematical Modelling 1A",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces basic concepts and techniques in linear algebra and calculus. The algebra component of the unit covers matrices, systems of linear equations and their applications, including the use of vectors in two and three-dimensional Euclidean geometry and linear optimisation. The calculus component of the unit explores the concept of a function of one variable and develops the notions of limit and continuity. The concept of the derivative as a suitable construct to describe rates of change is defined and techniques of differential and integral calculus of functions of a real variable are developed. Some simple differential equations and their role as quantitative models for dynamic processes are discussed. Students are also introduced to the use of computers in mathematics, and develop modelling and problem-solving skills through theoretical and practical problems.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-23T09:14:14.303",
+  "code": "WMAT1010",
+  "title": "Mathematical Modelling 1A",
+  "implementationYear": "2021"
+}

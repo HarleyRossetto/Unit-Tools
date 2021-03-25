@@ -1,0 +1,186 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "apply advanced discipline knowledge and scholarly understanding to evaluate student learning of mathematics, science and technology concepts",
+        "code": "ULO1"
+      },
+      {
+        "description": "develop appropriate assessment, monitoring and adaptation / intervention strategies to meet the needs of diverse learners",
+        "code": "ULO4"
+      },
+      {
+        "description": "apply domain knowledge to examine and critically evaluate theories and research that underpin practice in the fields of mathematics, science and technology instruction",
+        "code": "ULO3"
+      },
+      {
+        "description": "draw on domain knowledge to critically reflect on your own professional knowledge and practice",
+        "code": "ULO2"
+      },
+      {
+        "description": "synthesize concepts effectively through written and oral communication",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation as required for active participation in tutorials (e.g., reflecting on own practice, comparing adaptations/intervention, identifying assessment tasks).",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Readings will be assigned for each topic. This will either be from the recommended textbook or from additional reading (e.g., research-based evidence reported in journal articles) recommended by lecturer.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Links to online resources (e.g., webinars, apps, instructional videos, podcasts) will be provided throughout the unit. ",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MSpecEd or GradDipSpecEd or MInc&SpecEd or GradDipInc&SpecEd or GradCertLearnDiffSuppTeach",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "SPED8250 Effective Instruction in Numeracy",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Mathematics Problem Set",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "50",
+        "description": "Students will be provided with a task (or a set of tasks) designed to develop and apply their knowledge of effective instruction in Mathematics. For example, this may be conducting web and literature searches to find suitable tasks to assess different areas of mathematics, a case study where the student is asked to identify suitable methods of assessment and to explain an instructional approach or intervention that could be used to support the learning of the student, or a lesson plan where the student is asked to recommend adaptations to instruction, resources, and assessments to accommodate diverse learners.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Science/Technology Problem Set",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "50",
+        "description": "Students will be provided with a task (or a set of tasks) designed to develop and apply their knowledge of effective instruction in Science and/or Technology. For example, this may be conducting web and literature searches to find suitable tasks to assess different areas of science and technology learning, a case study where the student is asked to identify suitable methods of assessment and to explain an instructional approach or intervention that could be used to support the learning of the student, or a lesson plan where the student is asked to recommend adaptations to instruction, resources, and assessments to accommodate diverse learners.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC8250"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "EDUC8250 - Effective Instruction in Mathematics, Science and Technology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The aim of this unit is to examine how students with diverse needs can be supported in their participation in Mathematics, Science, and Technology.  It will explore a full range of teaching methodologies, including teacher-directed explicit instruction as well as student-centered and inquiry-driven approaches.  The unit focuses on the functional needs of the learner and will draw on knowledge gained in other units to consider how differentiated instruction is applied to best support the strengths and needs of individual learners. It will develop understanding regarding how to adapt pedagogy, resources, assessment tasks and classroom environments to ensure that every student has equitable opportunities to engage in Mathematics, Science and Technology learning experiences. There will also be a strong focus on the use of digital technologies to support learning in all areas.",
+    "search_title": "EDUC8250 - Effective Instruction in Mathematics, Science and Technology",
+    "code": "EDUC8250",
+    "title": "Effective Instruction in Mathematics, Science and Technology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The aim of this unit is to examine how students with diverse needs can be supported in their participation in Mathematics, Science, and Technology.  It will explore a full range of teaching methodologies, including teacher-directed explicit instruction as well as student-centered and inquiry-driven approaches.  The unit focuses on the functional needs of the learner and will draw on knowledge gained in other units to consider how differentiated instruction is applied to best support the strengths and needs of individual learners. It will develop understanding regarding how to adapt pedagogy, resources, assessment tasks and classroom environments to ensure that every student has equitable opportunities to engage in Mathematics, Science and Technology learning experiences. There will also be a strong focus on the use of digital technologies to support learning in all areas.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T15:13:13.9",
+  "code": "EDUC8250",
+  "title": "Effective Instruction in Mathematics, Science and Technology",
+  "implementationYear": "2021"
+}

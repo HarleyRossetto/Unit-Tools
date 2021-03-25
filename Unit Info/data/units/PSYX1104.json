@@ -1,0 +1,275 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate research and study skills (developed through planning research assignments, achieving study goals, and meeting deadlines).",
+        "code": "ULO1"
+      },
+      {
+        "description": "Develop information technology skills through practical assignments and using the web-based elements of the course.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Foster critical thinking skills through discussion of competing theories of psychological phenomena and understanding of scientific methodology.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply communication, interpersonal and team skills in written assignments and by working with fellow students on group tasks and discussions on assignment tasks.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Display an appreciation of ethical issues from class discussions and participating in research",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSYX1105 or PSYU1105",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PSY104, PSYC104, PSYX104",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Design Quizzes ",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Weekly multiple-choice quizzes, assessing Research Design content.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Lecture Quizzes (1 & 2)",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Two online, multiple-choice quizzes on Psychology content, held in the middle and end of the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "1250 word essay examining a key concept in psychological research.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "5",
+        "description": "Participation in research studies (online only).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Final examination held within the University’s formal exam period, in accordance with relevant requirements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Tutorial Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Participation in tutorial activities necessary to be able to answer examination and quiz questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PSYX1104",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PSYX1104"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PSYU1104"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Introduction to Psychology I",
+                "academic_item_code": "PSYU1104",
+                "academic_item_url": "/2020/units/PSYU1104"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PSYX1104-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "450",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYX1104"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual*<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "PSYX1104 - Introduction to Psychology I",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to the discipline of psychology through a focus on the physiological bases of behaviour; learning; motivation; the nature of personality and psychopathology; and cross-cultural and Indigenous psychology. The unit conveys information about substantive material, and assumptions of theory associated with the science and profession of psychology through lecture and tutorial/practical classes. The unit introduces students to research methods in psychology through a series of methodology lectures. A further important aim of the unit is to develop students&#39; competency in critical thinking and essay writing in psychology.",
+    "search_title": "PSYX1104 - Introduction to Psychology I",
+    "code": "PSYX1104",
+    "title": "Introduction to Psychology I",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to the discipline of psychology through a focus on the physiological bases of behaviour; learning; motivation; the nature of personality and psychopathology; and cross-cultural and Indigenous psychology. The unit conveys information about substantive material, and assumptions of theory associated with the science and profession of psychology through lecture and tutorial/practical classes. The unit introduces students to research methods in psychology through a series of methodology lectures. A further important aim of the unit is to develop students&#39; competency in critical thinking and essay writing in psychology.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T09:23:33.367",
+  "code": "PSYX1104",
+  "title": "Introduction to Psychology I",
+  "implementationYear": "2021"
+}

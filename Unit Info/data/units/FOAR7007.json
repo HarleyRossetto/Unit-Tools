@@ -1,0 +1,205 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate the ability to apply accumulated knowledge and skills to make decisions in the context of professional practice and scholarship",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate high standards of ethical conduct in research activities and relationship",
+        "code": "ULO4"
+      },
+      {
+        "description": "Think critically and make informed judgements of the arguments of others to arrive and reasoned and meaningful arguments and apply new ideas to new contexts",
+        "code": "ULO2"
+      },
+      {
+        "description": "Articulate a clear and coherent argument in written form to a variety of audiences",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "FOAR707",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to BPhil/MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Participation Assessment",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "This assessment will be marked in two components. The first will be based on being a ‘lead respondent’ in one of the weeks of the course. Responding will involve leading the discussion by making a brief comment and/or asking a question based on the reading to draw out the discussion. The second component is active engagement in seminars across the semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "This is a more traditional research essay. The aim is to discuss the concept of neoliberalism and its utility within your home discipline. We will work with you across the semester to develop a specific question/focus, particularly after the semester break. This is also an opportunity to think about how the concept might or might not be useful for your Year 2 research project.\n\nWord length: 4,000 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Short piece",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "30",
+        "description": "This assignment involves you exploring how neoliberalism is being used in public debate.  You will write a blog post (900 words) or make a short podcast (15 min) where you engage with a piece of writing or media that applies the concept of neoliberalism, and reflect on how the term is being used drawing on the material in the first 5 weeks of the unit. This is not a traditional research essay, and we do not expect a full reference list or formal referencing. However, the piece should use links or (verbal) references to key thinkers or texts to guide the audience to see the links between theories/theorists from the course and your analysis.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "FOAR7007-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOAR7007"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "FOAR7007-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOAR7007"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "FOAR7007-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOAR7007"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "FOAR7007 - Research Theme 3: Neoliberalism and Its Discontents",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces key themes and theorists in contemporary social and political theory. In particular, it will explore competing diagnoses and responses to the winding back of the post-war compromises between democratic states and corporate capitalism. Rather than taking a serial approach to a study of social and political theories, the unit will focus on their, at times diametrically opposed, configurations of this broad problem complex. In an epoch in which neoliberal agendas have both provoked, and perhaps also been facilitated by, the surge of populist politics across the globe, we look to contemporary social and political theories to help us make sense of new developments, to diagnose their costs and unravel future potentials. Can social democratic reformism survive the era of Trump, Brexit and Hanson? Organised as a workshop series, the unit will draw from leading theorists such as: Agamben, Boltanski, Brown, Chakrabarty, Fraser, Foucault, Habermas, Harvey, Honneth, Peck. Examining a problematic that is of foundational importance in much current social and political research, this unit is relevant to students across the humanities and social sciences.",
+    "search_title": "FOAR7007 - Research Theme 3: Neoliberalism and Its Discontents",
+    "code": "FOAR7007",
+    "title": "Research Theme 3: Neoliberalism and Its Discontents",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces key themes and theorists in contemporary social and political theory. In particular, it will explore competing diagnoses and responses to the winding back of the post-war compromises between democratic states and corporate capitalism. Rather than taking a serial approach to a study of social and political theories, the unit will focus on their, at times diametrically opposed, configurations of this broad problem complex. In an epoch in which neoliberal agendas have both provoked, and perhaps also been facilitated by, the surge of populist politics across the globe, we look to contemporary social and political theories to help us make sense of new developments, to diagnose their costs and unravel future potentials. Can social democratic reformism survive the era of Trump, Brexit and Hanson? Organised as a workshop series, the unit will draw from leading theorists such as: Agamben, Boltanski, Brown, Chakrabarty, Fraser, Foucault, Habermas, Harvey, Honneth, Peck. Examining a problematic that is of foundational importance in much current social and political research, this unit is relevant to students across the humanities and social sciences.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-28T10:24:43.845",
+  "code": "FOAR7007",
+  "title": "Research Theme 3: Neoliberalism and Its Discontents",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,242 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Competently develop and implement a culturally sensitive, person-centred physiotherapy plan that addresses the individual’s goals, utilises evidence-based treatment and is evaluated using appropriate outcome measures. (<strong>Clinical Practitioner)</strong>",
+        "code": "ULO5"
+      },
+      {
+        "description": "Communicate effectively with people with cardiorespiratory and neurological disorders to provide appropriate information about their diagnosis and prognosis, and to select a treatment which considers the individual’s social and cultural background, preferences and expectations. (<strong>Clinical Practitioner)</strong>",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply the biopsychosocial model to effectively and efficiently assess people with cardiorespiratory and neurological disorders including a comprehensive history and physical examination. (<strong>Clinical Practitioner)</strong>",
+        "code": "ULO2"
+      },
+      {
+        "description": "Describe common disorders of the cardiorespiratory and neurological systems and the principles of, and efficacy for, medical and physiotherapy treatment of these conditions, as well as the role of other health professionals involved in the assessment and/or management of individuals with these conditions. (<strong>Scientist and Scholar)</strong>",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse assessment findings to form a diagnosis and a prioritised list of impairments, activity limitations and participation restrictions. (<strong>Clinical Practitioner)</strong>",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "This unit's iLearn site will provide weekly resources for students, including: lecture notes and associated activities, tutorial worksheets, tutorial preparation and consolidation activities, videos, and other teaching resources.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 1-Weekday-North Ryde"
+      },
+      {
+        "description": "This unit's iLearn site will provide weekly resources for students, including: lecture notes and associated activities, tutorial worksheets, tutorial preparation and consolidation activities, videos, and other teaching resources.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 1-Special-North Ryde"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": " (PHTY800 or PHTY8100) and (PHTY801 or PHTY8101) and (PHTY802 or PHTY8102) and (MEDI915 or MEDI8105 or PHTY803 or PHTY8103)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PHTY807",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Open-book Written Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Final written examination covering all content from this unit. Half of the exam will be devoted to cardiorespiratory physiotherapy (25% of total unit weighting) and half to neurological physiotherapy (25% of total unit weighting). The examination will be a time-limited, open book and focussed on the application of information contained in the unit. The examination questions released on iLearn at a specified time with completed answers needing to be submitted in a document via Turnitin by a pre-specified time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Written Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Final written examination covering all content from this unit. Half of the exam will be devoted to cardiorespiratory physiotherapy (25% of total unit weighting) and half to neurological physiotherapy (25% of total unit weighting).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Clinical Simulation Exam 2",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "25",
+        "description": "You will perform a practical examination which involves a simulated assessment and treatment of a person with a condition covered in the second half of the session using a case-based scenario.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Clinical Simulation Exam 1",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "25",
+        "description": "You will perform a practical examination which involves a simulated assessment and treatment of a person with a condition covered in the first half of the session using a case-based scenario.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mastery register",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "0",
+        "description": "The mastery register for PHTY8107 is a list of key skills in which competence is considered to be a requirement for the assurance of quality physiotherapy practice for registration. You must demonstrate a minimum level of competence in these skills as a condition of passing this unit by achieving 60% completion of the mastery register for each of the specific unit modules (i.e. neurological and cardiorespiratory modules) in order to successfully complete the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PHTY8107-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8107"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PHTY8107-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8107"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "PHTY8107 - Physiotherapy Practice C",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Health Professions"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will develop your knowledge and skills to assess and treat individuals of all ages with disorders of the cardiorespiratory and neurological systems. Delivered in two modules - a neurological physiotherapy module and a cardiorespiratory physiotherapy module, you will engage in a focused exploration of the common conditions affecting each of these specific body systems, whilst considering these in the context of holistic person-centred care. You will develop the ability to select and implement evidence-based interventions based on advanced clinical reasoning and skill application, and considering the individual’s social and cultural background, preferences and expectations. At the completion of the unit you will be expected to have demonstrated sufficient evidence that you meet the unit learning outcomes for both modules independently.",
+    "search_title": "PHTY8107 - Physiotherapy Practice C",
+    "code": "PHTY8107",
+    "title": "Physiotherapy Practice C",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will develop your knowledge and skills to assess and treat individuals of all ages with disorders of the cardiorespiratory and neurological systems. Delivered in two modules - a neurological physiotherapy module and a cardiorespiratory physiotherapy module, you will engage in a focused exploration of the common conditions affecting each of these specific body systems, whilst considering these in the context of holistic person-centred care. You will develop the ability to select and implement evidence-based interventions based on advanced clinical reasoning and skill application, and considering the individual’s social and cultural background, preferences and expectations. At the completion of the unit you will be expected to have demonstrated sufficient evidence that you meet the unit learning outcomes for both modules independently.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T09:55:23.117",
+  "code": "PHTY8107",
+  "title": "Physiotherapy Practice C",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,191 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop skills, practices, and strategies to use communication to achieve ethical and socially responsible individual and institutional outcomes.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critique your communication practices to inform future learning and professional development.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Evaluate communication and its functions in your discipline and associated institutional, organisational, and workplace contexts.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Communicate the implications of regulatory, ethical, or social frameworks for professional practice in your discipline to diverse audiences using various modalities and technologies.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings and other activities as specified for each week.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "60cp at 2000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Personal learning and professional development plan",
+        "type": {
+          "label": "Learning plan",
+          "value": "learning_plan"
+        },
+        "weight": "30",
+        "description": "Plan for ongoing development of communication skills in the workplace or future educational pathway. (Typically 2-4 pages.)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Professional communication portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "50",
+        "description": "Portfolio of professional texts with contrastive audiences (eg specialist v non-specialist), purposes (eg inform v persuade) and modes (eg written, spoken, multimodal) with accompanying critical, reflection commentary on regulatory, ethical or social framework(s) and the communication skills, practices and strategies used to achieve ethical and socially responsible individual and institutional outcomes through the texts. (Typically two significant professional texts commensate with spending 20 hours on each text, with a 500 word commentary on each text.)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Multimodal presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Students will research and present (face-to-face or online) on a regulatory, ethical or social framework that is relevant to their future profession or educational pathway. (Typically 3 minute presentation with 1 slide plus 2 minutes QA.)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "FOHS3050-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOHS3050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "FOHS3050-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOHS3050"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "FOHS3050 - Critical Communication",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit aims to develop effective communication skills for professional practice in diverse institutional, organisational and workplace contexts. The unit examines how communication functions in professional contexts to achieve individual and institutional outcomes that are ethical and socially responsible. Students will draw on existing knowledge of their discipline and relevant regulatory, ethical or social frameworks to identify the critical communication demands of their field, for example whilst interacting with clients and negotiating with stakeholders. At the same time, students will develop the communication skills, practices and strategies to respond to these demands. Key outcomes of the unit are the ability to create written, spoken and multi-modal texts for diverse audiences and purposes; an ePortfolio demonstrating professional communication skills, practices and strategies; and a personal learning and professional development plan for ongoing development of communication skills. As well as equipping students with communication skills for the workplace, the unit is suitable for students who plan to undertake further study and/or research in their discipline.",
+    "search_title": "FOHS3050 - Critical Communication",
+    "code": "FOHS3050",
+    "title": "Critical Communication",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit aims to develop effective communication skills for professional practice in diverse institutional, organisational and workplace contexts. The unit examines how communication functions in professional contexts to achieve individual and institutional outcomes that are ethical and socially responsible. Students will draw on existing knowledge of their discipline and relevant regulatory, ethical or social frameworks to identify the critical communication demands of their field, for example whilst interacting with clients and negotiating with stakeholders. At the same time, students will develop the communication skills, practices and strategies to respond to these demands. Key outcomes of the unit are the ability to create written, spoken and multi-modal texts for diverse audiences and purposes; an ePortfolio demonstrating professional communication skills, practices and strategies; and a personal learning and professional development plan for ongoing development of communication skills. As well as equipping students with communication skills for the workplace, the unit is suitable for students who plan to undertake further study and/or research in their discipline.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T09:25:24.766",
+  "code": "FOHS3050",
+  "title": "Critical Communication",
+  "implementationYear": "2021"
+}

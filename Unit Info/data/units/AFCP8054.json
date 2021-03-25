@@ -1,0 +1,226 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop advanced modelling and forecasting skills.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop skills in analysing and appraising cash flow for a given industry or strategy.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply a range of credit risk metrics in financial analysis.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for interactive classes",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "AFCP854",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": " ECFS866 or AFCP8003",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Pre-Unit Quiz",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "10",
+        "description": "Pre-class quiz to be completed in iLearn prior to first class",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "35",
+        "description": "An individual assignment submitted via Turnitin",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "55",
+        "description": "A two-hour open book online examination will be held during the Term&#39;s Exam Week.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "55",
+        "description": "A two-hour (closed book) examination will be held during the Term&#39;s Exam Week.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 2-Weekday-Melbourne, Term 2-Weekday-City",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "AFCP8054-unit_teaching_period-Special",
+        "display_name": "Term 2-Special",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8054"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AFCP8054-unit_teaching_period-Weekday-subject",
+        "display_name": "Term 2-Weekday-Melbourne",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8054"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AFCP8054-unit_teaching_period-Weekday-subject",
+        "display_name": "Term 2-Weekday-City",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8054"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 2, Special circumstances<br />Term 2, Weekday attendance, City<br />Term 2, Weekday attendance, Melbourne<br />",
+    "subject_search_title": "AFCP8054 - Investment and Credit Analysis",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "5",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers the use of advanced financial analysis and modelling techniques in corporate finance applications, and is designed for students interested in analyst roles in equity and credit analysis, banking or consulting environments. Building on concepts introduced in ECFS866, this unit complements other corporate finance electives. The unit will allow students to explore the linkage between a company&#39;s strategy and industry competitive structure, and financial performance. We will analyse financial performance by demonstrating financial analysis techniques, and assess the impact of accounting issues in analysing a company&#39;s financial results. The unit will explore how financial modelling can be used to assist in addressing these issues.",
+    "search_title": "AFCP8054 - Investment and Credit Analysis",
+    "code": "AFCP8054",
+    "title": "Investment and Credit Analysis",
+    "content_type": "Unit",
+    "credit_points_header": "5 credit points"
+  },
+  "creditPoints": 5,
+  "description": "This unit covers the use of advanced financial analysis and modelling techniques in corporate finance applications, and is designed for students interested in analyst roles in equity and credit analysis, banking or consulting environments. Building on concepts introduced in ECFS866, this unit complements other corporate finance electives. The unit will allow students to explore the linkage between a company&#39;s strategy and industry competitive structure, and financial performance. We will analyse financial performance by demonstrating financial analysis techniques, and assess the impact of accounting issues in analysing a company&#39;s financial results. The unit will explore how financial modelling can be used to assist in addressing these issues.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-14T12:01:14.316",
+  "code": "AFCP8054",
+  "title": "Investment and Credit Analysis",
+  "implementationYear": "2021"
+}

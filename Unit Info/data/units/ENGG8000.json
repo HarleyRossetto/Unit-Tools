@@ -1,0 +1,250 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Exercise advanced professional and self reflective practice.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Develop and deliver a professional engineering report, detailing the problem to be solved, the proposed problem solution, and critically evaluate the solution and the reasons why the solution was chosen or recommended.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Examine and reflect on the socio-technical and other contexts in which engineering is practiced.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Work productively in teams of professional engineers and objectively evaluate the performance of the team and of your individual peers.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Effectively and professionally communicate engineering concepts in multiple modes to a range of audiences.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Pre-reading material before the lecture classes",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ENGG851, ENGG650, ENGG450",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MEngElecEng or MEngEnvSafetyEng or MEngMechEng or MEngNetTeleEng or MEngMgt",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "10",
+        "description": "Students will contribute regularly to an individual portfolio, recording a summary of professional practice engagement activities. (Note: the portfolio should be updated regularly, as appropriate depending on the variety of tasks).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Peer evaluation",
+        "type": {
+          "label": "Non-academic writing",
+          "value": "Non_academic_writing"
+        },
+        "weight": "5",
+        "description": "Students will produce a peer evaluation. They will evaluate and provide feedback to, a group of their peers on one of the deliverable assessments. Assessment for this is based on the quality and constructive nature of the evaluation. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Groups will produce a professional engineering report on the engineering solution to the chosen problem",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Engineering Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "Each group will provide a presentation of their engineering solution",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Progress Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "15",
+        "description": "A preliminary progress report outlining preliminary findings, a plan for the remaining work including individual roles within the team",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "In session quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "A series of small quizzes to reflect on the foundation scaffolding learning materials supporting the design of a solution",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ENGG8000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGG8000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ENGG8000-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGG8000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ENGG8000 - Professional Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "School of Engineering"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this professional practice capstone unit students will work as teams of consulting engineers to provide an engineering solution to a real need or problem, and which addresses a Sustainable Development Goal (SDG). The teams may be multidisciplinary, as required by the nature of the project, and will source valuable exposure to an in-depth understanding of the problem, the relevant industry, and the socio-technical and other contexts in which the need or problem arose, and the engineered system or solution required. The teams will be expected to organise, plan, and perform all other tasks associated with good engineering practice, including discussion and reflection around the engineering problem and the engineering process. Individual and collective technical and professional competencies will be demonstrated through the production of a substantial report and presentation for consideration. An appreciation of the various contexts and factors impacting upon engineering practice will be developed.",
+    "search_title": "ENGG8000 - Professional Practice",
+    "code": "ENGG8000",
+    "title": "Professional Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this professional practice capstone unit students will work as teams of consulting engineers to provide an engineering solution to a real need or problem, and which addresses a Sustainable Development Goal (SDG). The teams may be multidisciplinary, as required by the nature of the project, and will source valuable exposure to an in-depth understanding of the problem, the relevant industry, and the socio-technical and other contexts in which the need or problem arose, and the engineered system or solution required. The teams will be expected to organise, plan, and perform all other tasks associated with good engineering practice, including discussion and reflection around the engineering problem and the engineering process. Individual and collective technical and professional competencies will be demonstrated through the production of a substantial report and presentation for consideration. An appreciation of the various contexts and factors impacting upon engineering practice will be developed.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-07T10:48:23.177",
+  "code": "ENGG8000",
+  "title": "Professional Practice",
+  "implementationYear": "2021"
+}

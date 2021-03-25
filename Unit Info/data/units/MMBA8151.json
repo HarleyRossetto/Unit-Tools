@@ -1,0 +1,207 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explains a sound research framework on which to identify and select data.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Communicate research concepts and findings effectively, clearly and coherently to an academic audience in written and oral form.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Rigorously apply good academic research practice and methods to address identified research question, including the ability to source and appropriately acknowledge sources and references.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrates clear research objective informed and supported by developments in the field and recent literature.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Research to support selected topic.",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MGSM951",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(MGSM950 or MMBA8150) and permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Project",
+        "type": {
+          "label": "Thesis",
+          "value": "thesis"
+        },
+        "weight": "60",
+        "description": "<div>\n<div>\n<div>\n<div>The research project constitutes a written thesis of 12,000 to 15,000 words and a presentation. This Project includes a comprehensive literature review, a theoretical framework, a sound research model, results based on the qualitative or quantitative data analysis and a conclusion reflecting the findings which contribute to the existing literature.</div>\n</div>\n</div>\n</div>",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Qualitative and/or Quantitative Data Analysis",
+        "type": {
+          "label": "Thesis",
+          "value": "thesis"
+        },
+        "weight": "40",
+        "description": "<div>\n<div>\n<div>\n<div>Students will further advance their research project, begun in MMBA8150, by developing a research model and undertaking qualitative and/or quantitative analysis of data.</div>\n</div>\n</div>\n</div>",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MMBA8151",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MMBA8151"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MQBS8061"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Individual Research Project B",
+                "academic_item_code": "MQBS8061",
+                "academic_item_url": "/2021/units/MQBS8061"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "To be determined",
+        "teaching_period": {
+          "value": "To be determined"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8151"
+        }
+      }
+    ],
+    "unit_offering_text": "To be determined<br />",
+    "subject_search_title": "MMBA8151 - Individual Research Project B",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to be preceded by MMBA8150, in which the student commences the individual research project in a specified discipline. Students will further advance their research project, by developing a research model, undertaking qualitative and/or quantitative analysis of data, and concluding the project. The integrated overall research project for the combined units is expected to be 12,000-15,000 words.",
+    "search_title": "MMBA8151 - Individual Research Project B",
+    "code": "MMBA8151",
+    "title": "Individual Research Project B",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to be preceded by MMBA8150, in which the student commences the individual research project in a specified discipline. Students will further advance their research project, by developing a research model, undertaking qualitative and/or quantitative analysis of data, and concluding the project. The integrated overall research project for the combined units is expected to be 12,000-15,000 words.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-12T10:09:53.242",
+  "code": "MMBA8151",
+  "title": "Individual Research Project B",
+  "implementationYear": "2021"
+}

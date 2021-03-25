@@ -1,0 +1,199 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Begin acting in the role of the reflective practitioner.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Record and interpret observations of individual and small groups of children and identify implications for learning.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Become familiar with the professional environment of early childhood teaching.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Interact and build relationships with young children.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop an understanding of the early childhood curriculum and the ways this can be used to support children's learning, development and wellbeing.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {},
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": " 80cp including (ECH113 or ECHE1130) and admission to BTeach(ECE)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECHP222, EDST201",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Preparation for Professional Experience ",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "40",
+        "description": "Part A: Professional Experience Folder; Part B: Transitions and Literature Collection; Part C: Observation Records. Word count: 2000",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Professional Experience Documentation",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "60",
+        "description": "Students submit material from their Professional Experience folder (what they did whilst on PE Placement). These are reflective tasks that are completed on PE. Word count: 3000",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDST2010-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST2010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDST2010-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST2010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDST2010-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST2010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "EDST2010 - Practice of Teaching: Introduction to the Early Childhood Context",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "This unit combines university based early childhood study with practical experience in an early childhood setting. Central to the unit is the exploration of a variety of theories on how children learn. Students are assisted to record thoughtful, reflective observations, to use intentional teaching strategies to plan an appropriate curriculum and to follow the planning cycle. Additionally, a range of teaching strategies for guiding children&#39;s learning and behaviour are considered. Students also engage in critical reflection as part of their commitment to teaching through consideration of the Early Years Learning Framework and the National Quality Standards. Students will utilise their coursework knowledge to complete a compulsory professional experience in a prior to school early childhood setting with children aged two to five years.",
+    "search_title": "EDST2010 - Practice of Teaching: Introduction to the Early Childhood Context",
+    "code": "EDST2010",
+    "title": "Practice of Teaching: Introduction to the Early Childhood Context",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit combines university based early childhood study with practical experience in an early childhood setting. Central to the unit is the exploration of a variety of theories on how children learn. Students are assisted to record thoughtful, reflective observations, to use intentional teaching strategies to plan an appropriate curriculum and to follow the planning cycle. Additionally, a range of teaching strategies for guiding children&#39;s learning and behaviour are considered. Students also engage in critical reflection as part of their commitment to teaching through consideration of the Early Years Learning Framework and the National Quality Standards. Students will utilise their coursework knowledge to complete a compulsory professional experience in a prior to school early childhood setting with children aged two to five years.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-23T10:41:13.439",
+  "code": "EDST2010",
+  "title": "Practice of Teaching: Introduction to the Early Childhood Context",
+  "implementationYear": "2021"
+}

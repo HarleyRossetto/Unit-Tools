@@ -1,0 +1,174 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop and implement professional interviewing and counselling skills with a variety of clients and presenting issues.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply decision-making strategies to resolve ethical questions to problems using the APS Code of Ethics, Guidelines and Mandatory reporting legislation, across a variety of contexts.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Recognise historical approaches to the conceptualisation of diagnosis, case formulation, psychopathology and DSM.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critique theoretical constructs, models and evidence based counselling practice to improve effectiveness as a psychologist.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Practicing live skills assessment ",
+        "activity": {
+          "label": "Rehearsals",
+          "value": "rehearsals"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MProfPsych",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PSYP901",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Ethics report on a case study – 2000 words",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "Review a case, identify legal and ethical issues, who needs to receive communication and about what.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Live Counselling Skill demonstration – 2 hours per student",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "60",
+        "description": "This assessment enables students to demonstrate minimum competency in psychology skills integral to working with clients during an initial interview and throughout therapy.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PSYP8901-unit_teaching_period-Intensive-subject",
+        "display_name": "Session 1-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYP8901"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Intensive attendance, North Ryde<br />",
+    "subject_search_title": "PSYP8901 - Counselling and Professional Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides training in key counselling techniques such as reflective listening and empathic responding. Teaching is conducted in an experiential fashion to foster skill development and student counselling skills are assessed directly. Students are trained to intervene in complex situations such as those involving the abuse or neglect of children, and/or substance abuse. Issues in career counselling and counselling with youth are also considered. Students are exposed to relevant codes of ethics and professional practice as well as legal issues related to mandatory reporting. Students are taught about clinical issues which require medical intervention and the need for liaison with general practitioners and psychiatrists in addressing mental health problems more generally. An introduction to DSM and Psychopharmacology is also provided.",
+    "search_title": "PSYP8901 - Counselling and Professional Practice",
+    "code": "PSYP8901",
+    "title": "Counselling and Professional Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides training in key counselling techniques such as reflective listening and empathic responding. Teaching is conducted in an experiential fashion to foster skill development and student counselling skills are assessed directly. Students are trained to intervene in complex situations such as those involving the abuse or neglect of children, and/or substance abuse. Issues in career counselling and counselling with youth are also considered. Students are exposed to relevant codes of ethics and professional practice as well as legal issues related to mandatory reporting. Students are taught about clinical issues which require medical intervention and the need for liaison with general practitioners and psychiatrists in addressing mental health problems more generally. An introduction to DSM and Psychopharmacology is also provided.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-01T14:07:03.077",
+  "code": "PSYP8901",
+  "title": "Counselling and Professional Practice",
+  "implementationYear": "2021"
+}

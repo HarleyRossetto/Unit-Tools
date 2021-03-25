@@ -1,0 +1,243 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Practice skills for collaborating with a team",
+        "code": "ULO4"
+      },
+      {
+        "description": "Self-assess personal attributes, values, and professional preparedness skills",
+        "code": "ULO1"
+      },
+      {
+        "description": "Investigate possible career paths for graduates in your discipline",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate discussion, facilitation and presentation skills appropriate for a classroom environment",
+        "code": "ULO5"
+      },
+      {
+        "description": "Practice reflection and reflective writing skills",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "PROF1000 is offered in a flipped classroom environment. This means students are expected to review and engage with materials on iLearn each week in advance of the seminar. Preparation materials including readings and videos are located in the relevant week on iLearn.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(Admission to BProfPrac or BActStudProfPrac(Hons)) or permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PROF101",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Career path research report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "35",
+        "description": "Drawing on both primary and secondary sources, you will write a 1500-word reflective research report exploring your pre-professional identity, your current thinking around the type of career and organisation that are suitable for you and activities you can undertake to explore your fit with your proposed target career and type of organisation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Skills seminar",
+        "type": {
+          "label": "Facilitation",
+          "value": "facilitation"
+        },
+        "weight": "30",
+        "description": "Working with a team, you will collectively select a skill area for your professional development. Drawing on academic and non-academic sources, you will work with your team to design and facilitate an approximately 40-minute seminar to introduce the skill to your peers and engage them in activities and discussion to support their development in the skill area.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Seminar participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "35",
+        "description": "Participation and engagement both online and face-to-face is compulsory and critical to support learning and development of professional practice skills consistent with fitness-to-practice standards. Marks are based on three elements of the unit: written reflections early and late in session (10%, 15%) and documented peer feedback (10%).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PROF1000",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PROF1000"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PROF1001"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.04",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Introduction to Professional Practice",
+                "academic_item_code": "PROF1001",
+                "academic_item_url": "/2020/units/PROF1001"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PROF1000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PROF1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PROF1000-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PROF1000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PROF1000 - Introduction to Professional Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit offers an introduction to professional practice. Students will have opportunities to develop fundamental workplace skills, including communication, teamwork, decision-making, networking and reflective practice. Students will reflect on their personal attributes, values and skills, engage in career planning and goal setting, as well as exploring industries, organisations and/or occupations. The unit is designed to help students begin to develop an understanding of their professional identity and the changing nature of work. The unit will provide a foundation for students to complete a successful practical experience in a workplace as part of their studies. While students admitted to a Co-op course have enrolment priority for this unit, a limited number of spaces are open to students enrolled in other degrees.",
+    "search_title": "PROF1000 - Introduction to Professional Practice",
+    "code": "PROF1000",
+    "title": "Introduction to Professional Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit offers an introduction to professional practice. Students will have opportunities to develop fundamental workplace skills, including communication, teamwork, decision-making, networking and reflective practice. Students will reflect on their personal attributes, values and skills, engage in career planning and goal setting, as well as exploring industries, organisations and/or occupations. The unit is designed to help students begin to develop an understanding of their professional identity and the changing nature of work. The unit will provide a foundation for students to complete a successful practical experience in a workplace as part of their studies. While students admitted to a Co-op course have enrolment priority for this unit, a limited number of spaces are open to students enrolled in other degrees.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-10T10:10:53.137",
+  "code": "PROF1000",
+  "title": "Introduction to Professional Practice",
+  "implementationYear": "2021"
+}

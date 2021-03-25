@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop and demonstrate creative writing and close reading skills in relation to concepts, craft and technique.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Evaluate your learning in relation to your reading and writing of creative texts.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Plan, write, edit and rewrite creative works in the genres of poetry, short story, or novel.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse and evaluate the work of others in writing communities. ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate knowledge of Australian and international literature and creative writing.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading of texts for class discussion and activities; reading of student peers’ online posts.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ENGL712, CWPG810",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MCrWrit",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Two online quizzes enable students to review and consolidate the concepts, topics, and content of the readings and lectures.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Creative Work (minor)",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "15",
+        "description": "Three writing exercises are completed in order that students practice specific elements of writing craft and technique.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Analysis and Appraisal",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "20",
+        "description": "Written or verbal analysis and appraisal of lecture topics, set readings, and work in progress by student peers.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Creative Work (Major)",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "50",
+        "description": "A complete short story, series of poems or novel section. The work will develop upon one or both of the workshop drafts submitted for workshop; and may also have developed upon one or more of the Writing Exercises. The Creative Work (Major) must have been workshopped, and students are expected to have developed their work substantially following the workshop.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ENGL8010-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGL8010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ENGL8010-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGL8010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ENGL8010-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGL8010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ENGL8010 - Creative Writing Seminar: Narrative Fundamentals",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit students develop their creative writing practice across one or more writing genres, drafting new creative work in the genres of the short story, novel, or poetry. Students extend their skills both in the crafting and the analysis of the craft of writing, and practice close reading skills. New approaches to craft and technique or genre are explored, and students reflect upon and interrogate their writing and writing process. Analysis and evaluation of published creative works and contemporary narrative studies inform and enlarge students’ writing skills and technical vocabularies. At the end of the unit students will have drafted, workshopped and written a new creative work in their chosen genre.",
+    "search_title": "ENGL8010 - Creative Writing Seminar: Narrative Fundamentals",
+    "code": "ENGL8010",
+    "title": "Creative Writing Seminar: Narrative Fundamentals",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit students develop their creative writing practice across one or more writing genres, drafting new creative work in the genres of the short story, novel, or poetry. Students extend their skills both in the crafting and the analysis of the craft of writing, and practice close reading skills. New approaches to craft and technique or genre are explored, and students reflect upon and interrogate their writing and writing process. Analysis and evaluation of published creative works and contemporary narrative studies inform and enlarge students’ writing skills and technical vocabularies. At the end of the unit students will have drafted, workshopped and written a new creative work in their chosen genre.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-11T09:33:54.564",
+  "code": "ENGL8010",
+  "title": "Creative Writing Seminar: Narrative Fundamentals",
+  "implementationYear": "2021"
+}

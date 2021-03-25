@@ -1,0 +1,183 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate critical reading habits, interpretive analysis, research, and effective communication, with particular application to the field of English studies.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Understand and be able to describe some of the key features of a range of texts from the modern to the contemporary.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply understanding of literary techniques to literary study and beyond to other situations.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Engage in informed critical discussion on unit content with peers and teachers, entertain others' points of view, and to argue a critical position.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings and Viewing of Course Content",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [],
+    "assessments": [
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "1500 Word Research Essay Related to a Set Topic",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Textual Analysis Task",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "750 Word Textual Analysis Task",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Participation Task",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Preparation of notes for participation forum and any additional research. Participation in forum activities; answering questions in weekly forums and contributing meaningfully to forum discussion. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Students will complete one online quiz in week three - comprising 10 multiple choice questions. They will be timed at 10 minutes in duration. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGX1002"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "ENGX1002 - Literature: Modern and Contemporary",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Building on the range of concepts and tools introduced to students in ENGL1001 Literature: From Medieval to Modern, this unit focuses on how literature developed throughout the twentieth century to the present day. It analyses how English, Australian and American writers - poets, playwrights, novelists, graphic novelists and screenwriters - responded in profoundly intellectual and visceral ways to the wars, calamities, technological change and digital disruptions of what Eric Hobsbawm calls the &#39;Age of Extremes&#39;. We trace patterns of alienation and anomie, but also the growing urgency of hope and human rights in literary responses to the modern world. Continuing to develop university level skills in critical reading, textual analysis and writing about literary texts, this unit also introduces students to theories of visual literacy and critical studies, equipping students with the tools to interpret different kinds of narratives.",
+    "search_title": "ENGX1002 - Literature: Modern and Contemporary",
+    "code": "ENGX1002",
+    "title": "Literature: Modern and Contemporary",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Building on the range of concepts and tools introduced to students in ENGL1001 Literature: From Medieval to Modern, this unit focuses on how literature developed throughout the twentieth century to the present day. It analyses how English, Australian and American writers - poets, playwrights, novelists, graphic novelists and screenwriters - responded in profoundly intellectual and visceral ways to the wars, calamities, technological change and digital disruptions of what Eric Hobsbawm calls the &#39;Age of Extremes&#39;. We trace patterns of alienation and anomie, but also the growing urgency of hope and human rights in literary responses to the modern world. Continuing to develop university level skills in critical reading, textual analysis and writing about literary texts, this unit also introduces students to theories of visual literacy and critical studies, equipping students with the tools to interpret different kinds of narratives.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:27:12.262",
+  "code": "ENGX1002",
+  "title": "Literature: Modern and Contemporary",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,226 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify, describe and evaluate a few aspects of Croatian-speaking cultures and societies.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify, evaluate and deploy the grammatical structures of Croatian at elementary level.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop elementary level skills in reading, writing, listening and speaking in the Croatian language.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate an awareness of some language and language use in both Croatian and English.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply relevant language conventions to create meaningful intercultural encounters.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Online resources include reading and exploring additional unit material provided on the e-learning space that might be required or recommended for completing class activities or assessment tasks.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Class preparation includes reading weekly content, listening to the audio recordings, working on/studying vocabulary, doing the exercises in the course materials (textbook and/or workbook), posting questions in the course online forum, study and research time for written assignments and tests. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CRO150",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Not to count for credit for students who completed HSC Croatian",
+        "type": {
+          "label": "Info",
+          "value": "info"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Written Assignment",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "45",
+        "description": "This assessment will be delivered in three separate assignments each worth 15 marks. Students will need to answer a set of questions based on the lecture content covered in class and/or online.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "This assessment task will be delivered in three separate online quizzes each worth 10 marks. Quizzes consist of both closed (e.g. multiple-choice, matching) and open type questions (e.g. filling the gaps, short answer) and are based on the unit content covered in class and/or online.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Oral Presentation",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "Oral Presentation is to be delivered in the end of the term. It can be done in person (on-campus) or online. Students are required to prepare a 2-3-minute speech on a familiar topic in advance and present it to the examiner. In the second part of the presentation, students will need to answer several simple questions asked by the examiner.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "CROA1010-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CROA1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CROA1010-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CROA1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CROA1010-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CROA1010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "CROA1010 - I Croatian Studies 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed for those who have little or no previous knowledge of Croatian. The text book used in this unit follows a communicative approach with additional audio and written material to be worked on at home. The unit includes material on general cultural aspects of life in Croatia and provides a thorough grounding in the basic structures of the language, working towards Common European Framework of Reference for Languages (CEFR) level A1.",
+    "search_title": "CROA1010 - I Croatian Studies 1",
+    "code": "CROA1010",
+    "title": "I Croatian Studies 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed for those who have little or no previous knowledge of Croatian. The text book used in this unit follows a communicative approach with additional audio and written material to be worked on at home. The unit includes material on general cultural aspects of life in Croatia and provides a thorough grounding in the basic structures of the language, working towards Common European Framework of Reference for Languages (CEFR) level A1.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T12:47:23.735",
+  "code": "CROA1010",
+  "title": "I Croatian Studies 1",
+  "implementationYear": "2021"
+}

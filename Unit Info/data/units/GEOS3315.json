@@ -1,0 +1,251 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply geodynamic knowledge to solving problems, data analysis, scientific visualisation, and evaluating ideas and information",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply scientific methodology, in accessing, using and synthesising Earth-science information",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate knowledge of the interaction between global tectonics of the Earth and its surface systems",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse the processes powering mantle and lithosphere dynamics, and tectonic plates",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate the capacity to present ideas clearly with supporting evidence",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Listen to pre-workshop mini-lectures ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Undertake pre-workshop readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "GEOS385",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "10cp in GEOS units at 2000 level and 10cp in GEOS or MATH or PHYS units at 2000 level",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment I - Geodynamics",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "15",
+        "description": "Produce a report on the interaction between tectonics, geodynamics and surface systems",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "The final exam will consist of questions to be answered in essay style and will cover all aspects of the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Quizzes undertaken on workshop activities",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research paper ",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "25",
+        "description": "This review will consist of a paper, and a presentation, which results from your reading on an individually selected topic. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "GEOS3315",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: GEOS3315"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: GEOS3311"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Global Tectonics",
+                "academic_item_code": "GEOS3311",
+                "academic_item_url": "/2020/units/GEOS3311"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "GEOS3315-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOS3315"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "GEOS3315 - Global Tectonics and Cycles",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Earth and Environmental Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This multidisciplinary unit integrates recent advances in geodynamics, global cycle modelling, geophysics and geochemistry to understand the tectonic evolution of the Earth, its impact on the surface and the complex feedbacks between internal dynamics and the atmosphere, hydrosphere and biosphere (e.g. volcanic degassing, natural CO2 sequestration, feedback between climate and plate tectonics, among others). Topics covered include structure and dynamics of the Earth, global supercycles, heat and mass transfer, physical processes controlling Earth dynamics, and recent developments in the understanding of the links between the solid Earth and the atmosphere/hydrosphere/climate. Through hands-on workshops, students will also gain experience in computer programming, scientific visualization and quantitative data analysis.",
+    "search_title": "GEOS3315 - Global Tectonics and Cycles",
+    "code": "GEOS3315",
+    "title": "Global Tectonics and Cycles",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This multidisciplinary unit integrates recent advances in geodynamics, global cycle modelling, geophysics and geochemistry to understand the tectonic evolution of the Earth, its impact on the surface and the complex feedbacks between internal dynamics and the atmosphere, hydrosphere and biosphere (e.g. volcanic degassing, natural CO2 sequestration, feedback between climate and plate tectonics, among others). Topics covered include structure and dynamics of the Earth, global supercycles, heat and mass transfer, physical processes controlling Earth dynamics, and recent developments in the understanding of the links between the solid Earth and the atmosphere/hydrosphere/climate. Through hands-on workshops, students will also gain experience in computer programming, scientific visualization and quantitative data analysis.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-03T11:02:03.541",
+  "code": "GEOS3315",
+  "title": "Global Tectonics and Cycles",
+  "implementationYear": "2021"
+}

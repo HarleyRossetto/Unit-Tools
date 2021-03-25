@@ -1,0 +1,279 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse the development of competition law in Australia and various parts of the world and appraise the objective(s) of competition law in the economy.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply the Competition and Consumer Act, case law, and soft law to solve problems in competition and consumer law.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply the economic concepts used in competition law to examine the effects of anticompetitive practices.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically assess the powers of the courts, regulatory bodies, and private individuals to evaluate the role of different enforcement methods in competition and consumer law.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are required to complete weekly readings in preparation for lectures and tutorials.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students are expected to prepare problem and essay questions of the relevant tutorial in advance.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LAWS528, LAWS820",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(Admission to JD and 80cp in LAW or LAWS units at 6000 level or above or (admission to LLM or MInTrdeComLaw))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "online and in class tasks",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "25",
+        "description": "Students will be required to participate in a variety of problem solving tasks and discussion of competition and consumer law and may also be required to complete short in class quizzes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Hypothetical Problem Question ",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "50",
+        "description": "Students will be required to solve a hypothetical problem question.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Take-Home Exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "Students will be required to solve a hypothetical problem question in a time-limited take home exam.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "LAWS8020",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: LAWS8020"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: LAWS5028"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Competition and Consumer Law",
+                "academic_item_code": "LAWS5028",
+                "academic_item_url": "/2020/units/LAWS5028"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LAWS8020-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8020-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8020-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8020-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8020"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "LAWS8020 - Competition Law",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The unit introduces students to the principal areas of law in Australia which aim to preserve competition in the economy and to ensure consumer protection. Attention will focus on the competition law provisions in the <em>Competition and Consumer Act 2010 </em>and their theoretical underpinnings. Topics include cartels; anticompetitive agreements and concerted practices; misuse of market power; mergers; warranties and guarantees; misleading or deceptive conduct; unconscionable conduct and unfair contract terms; remedies and enforcement of both consumer and competition law.",
+    "search_title": "LAWS8020 - Competition Law",
+    "code": "LAWS8020",
+    "title": "Competition Law",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The unit introduces students to the principal areas of law in Australia which aim to preserve competition in the economy and to ensure consumer protection. Attention will focus on the competition law provisions in the <em>Competition and Consumer Act 2010 </em>and their theoretical underpinnings. Topics include cartels; anticompetitive agreements and concerted practices; misuse of market power; mergers; warranties and guarantees; misleading or deceptive conduct; unconscionable conduct and unfair contract terms; remedies and enforcement of both consumer and competition law.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:36:35.425",
+  "code": "LAWS8020",
+  "title": "Competition Law",
+  "implementationYear": "2021"
+}

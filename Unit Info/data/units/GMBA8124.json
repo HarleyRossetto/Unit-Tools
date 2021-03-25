@@ -1,0 +1,189 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Plan for working in adaptive teams in agile environments",
+        "code": "ULO4"
+      },
+      {
+        "description": "Create a viable solution in consultation with your client.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Deliver weekly updates to support the group's narrative development and solution iterations.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop and deliver a solution pitch to your client.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "GMBA8121 and GMBA8122",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "GMBA8123",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Teamwork critical reflection",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "30",
+        "description": "Length: 1,500-2,000 words (individual); 15 min. Presentation (team) <br />Format: Individual reflection (15%); Team Presentation (15%) <br />Task: In this assignment, you will complete: An individual reflection (15%) on one (1) team dimension (teamwork, conflict, client relationships) and one (1) personal / professional dimension of student’s choice (e.g. stakeholder management, conflict or time management, feedback and self-regulation, etc.); peer review by team members. A team critical reflection summary presentation (15%) (comparison, discussion, observation of mis/alignment and) following a team discussion of individual reflections.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "50",
+        "description": "Length: 20 min. presentation <br />Format: Team Presentation (25%); Individual Performance (25%) <br />Task: In this assignment, your immersion project team will creatively present the final project.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Presentation to advisory panel",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Length: 15 min. presentation <br />Format: Team Proposal (10%); Individual Performance (10%) <br />Task: In this assignment, your immersion project team will present the initial project proposal to the client and hold a live Q and A. Each team member will present for 3 mins.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Coursera term 6-Online",
+        "teaching_period": {
+          "value": "Coursera term 6"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GMBA8124"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Coursera term 3-Online",
+        "teaching_period": {
+          "value": "Coursera term 3"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GMBA8124"
+        }
+      }
+    ],
+    "unit_offering_text": "Coursera term 3, Fully online/virtual<br />Coursera term 6, Fully online/virtual<br />",
+    "subject_search_title": "GMBA8124 - Applied Immersion 2",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "5",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Applied Immersion 2 asks each group to shift their focus on the solution delivery. This second six-week sprint will see each group tasked with developing a solution to the problem identified in the first phase of the Applied Immersion units. You will need to apply your creativity as you and your group consider lateral options that are viable. Working with the faculty and industry coach, each group will iterate their solution delivery and be expected to present these iterations on a weekly basis culminating in a presentation to the client. This final sprint tests your problem solving skills in a time-bounded environment that can have real impact to the client.",
+    "search_title": "GMBA8124 - Applied Immersion 2",
+    "code": "GMBA8124",
+    "title": "Applied Immersion 2",
+    "content_type": "Unit",
+    "credit_points_header": "5 credit points"
+  },
+  "creditPoints": 5,
+  "description": "Applied Immersion 2 asks each group to shift their focus on the solution delivery. This second six-week sprint will see each group tasked with developing a solution to the problem identified in the first phase of the Applied Immersion units. You will need to apply your creativity as you and your group consider lateral options that are viable. Working with the faculty and industry coach, each group will iterate their solution delivery and be expected to present these iterations on a weekly basis culminating in a presentation to the client. This final sprint tests your problem solving skills in a time-bounded environment that can have real impact to the client.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:23:58.963",
+  "code": "GMBA8124",
+  "title": "Applied Immersion 2",
+  "implementationYear": "2021"
+}

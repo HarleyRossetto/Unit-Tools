@@ -1,0 +1,198 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "identify a range of theories that frame our encounters with media texts and practices.",
+        "code": "ULO1"
+      },
+      {
+        "description": "analyse different media texts using different theories.",
+        "code": "ULO3"
+      },
+      {
+        "description": "synthesise and communicate concisely key media concepts and movements in written and oral form.",
+        "code": "ULO4"
+      },
+      {
+        "description": "evaluate the key issues in a wide and far ranging theoretical, historical and cultural debate about media texts and practices.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings and additional research as appropriate",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MAS215",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Multiple Choice Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Two online multiple-choice quizzes.  Questions will test knowledge of the key concepts of particular theory in specified weeks. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Students will analyse a pair of set texts through a specified theory.As with essay one, the set texts will be circulated via iLearn during the semester. In this essay students will be assessed on their critical engagement with the unit and individually researched reading material, their undertaking of the task, their knowledge of theory, their critical and relational thinking and their use of academic writing conventions like structure, academic english and referencing. Minimum Research Requirement: At least three unit readings from the relevant week plus at least three other relevant and appropriate academic publications. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Theoretical Foundation Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "20",
+        "description": "Students will analyse a set text through one of the foundational media/cultural theories.The set texts for each theory will be made available through Ilearn during the first weeks of semester. In this essay students will be assessed on their critical engagement with unit and individually researched reading material, their undertaking of the task, their knowledge of theory, their critical and relational thinking and their use of academic writing conventions like structure, academic english and referencing. Minimum Research Requirement: At least two unit readings from the relevant week plus at least two other relevant and appropriate academic publications. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC2015-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC2015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC2015-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC2015"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MMCC2015 - Media Theory in Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to some of the major key thinkers and movements (including marxism, psychoanalysis, feminism, structuralism, deconstruction, post-colonialism, ecocriticism, etc.), that have framed, and continue to frame, the way we understand the production and consumption of media, its meaning and its affect. Applying key conceptual models and critical approaches to media texts, students will develop an understanding of the way media practices and consumption (in)form our everyday lives.",
+    "search_title": "MMCC2015 - Media Theory in Practice",
+    "code": "MMCC2015",
+    "title": "Media Theory in Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to some of the major key thinkers and movements (including marxism, psychoanalysis, feminism, structuralism, deconstruction, post-colonialism, ecocriticism, etc.), that have framed, and continue to frame, the way we understand the production and consumption of media, its meaning and its affect. Applying key conceptual models and critical approaches to media texts, students will develop an understanding of the way media practices and consumption (in)form our everyday lives.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T13:50:44.177",
+  "code": "MMCC2015",
+  "title": "Media Theory in Practice",
+  "implementationYear": "2021"
+}

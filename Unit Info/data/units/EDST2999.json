@@ -1,0 +1,108 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Pass/Fail",
+      "value": "pass-fail"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [],
+    "assessments": [],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDST2999-unit_teaching_period-subject",
+        "display_name": "Session 1-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST2999"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDST2999-unit_teaching_period-subject",
+        "display_name": "Session 2-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST2999"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Other<br />Session 2, Other<br />",
+    "subject_search_title": "EDST2999 - LANTITE",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "0",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The Literacy and Numeracy Test for Initial Teacher Education Students (LANTITE) is designed to assess initial teacher education students&#39; personal literacy and numeracy skills to ensure teachers are well equipped to meet the demands of teaching.",
+    "search_title": "EDST2999 - LANTITE",
+    "code": "EDST2999",
+    "title": "LANTITE",
+    "content_type": "Unit",
+    "credit_points_header": "0 credit points"
+  },
+  "creditPoints": 0,
+  "description": "The Literacy and Numeracy Test for Initial Teacher Education Students (LANTITE) is designed to assess initial teacher education students&#39; personal literacy and numeracy skills to ensure teachers are well equipped to meet the demands of teaching.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-13T12:07:44.02",
+  "code": "EDST2999",
+  "title": "LANTITE",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate personal competency, knowledge and confidence in their uses of language and literacy in a variety of forms including ICT and digital.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Develop some strategies to enhance their own pedagogical practices so as to work towards achieving improved literacy and language outcomes in education for all students.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate a working knowledge and  understanding of the key principles and concepts used in contemporary language and literacy learning.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Discuss in an informed manner the significant issues in literacy education through drawing upon their examination of current research, policies, curriculum and practices in the field.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Recognise the features of the six language modes (reading, writing, speaking, listening, viewing and representing) and apply this knowledge to enhance their own and their students' learning.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate a working knowledge of grammar, and of the forms and features of a range of texts.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "weekly reading ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "weekly preparation ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "preparation and weekly materials ",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": "Session 1-Infrequent-North Ryde"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "40cp at 1000 level or above including (EDUC1050 or EDUC105 or EDUC1060 or EDUC106) or (admission to BEd(ECE)(0-12) and (EDUC1060 or EDUC106 or ECH126))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "EDUC260",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "MAJOR ASSIGNMENT",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "40",
+        "description": "The development of an explicit teaching approach to teaching writing.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "FINAL END OF UNIT EXAMINATION",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "45",
+        "description": "2 hours closed book examination based on the 4 Modules of study.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "CONCEPTS OF LITERACY ",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "15",
+        "description": "Establishing the concepts and your personal expectations of literacy and learning.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDUC2600-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC2600"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDUC2600-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC2600"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "EDUC2600 - Language, Literacy and Learning",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Literacy is one of the foundations of learning; it manifests itself in evolving forms and comprises a complex repertoire of knowledge and skills. Our changing communicative modes within a rapidly altering world require an expansion of the uses, purposes and practices of language and literacy. These encompass the key skills of reading, writing, viewing, representing, speaking and listening framed by a multimodal perspective of language. This unit examines these six language modes and it is organised around a research-based study of words, sounds, images, and texts, which include written, visual, oral/aural, digital and multimodal texts. Contemporary Australian curriculum, educational policies, and quality literacy practices will be introduced. The pedagogical emphasis is on a continuous cycle of explicit, systematic, balanced and integrated teaching for all students.",
+    "search_title": "EDUC2600 - Language, Literacy and Learning",
+    "code": "EDUC2600",
+    "title": "Language, Literacy and Learning",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Literacy is one of the foundations of learning; it manifests itself in evolving forms and comprises a complex repertoire of knowledge and skills. Our changing communicative modes within a rapidly altering world require an expansion of the uses, purposes and practices of language and literacy. These encompass the key skills of reading, writing, viewing, representing, speaking and listening framed by a multimodal perspective of language. This unit examines these six language modes and it is organised around a research-based study of words, sounds, images, and texts, which include written, visual, oral/aural, digital and multimodal texts. Contemporary Australian curriculum, educational policies, and quality literacy practices will be introduced. The pedagogical emphasis is on a continuous cycle of explicit, systematic, balanced and integrated teaching for all students.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T16:33:34.513",
+  "code": "EDUC2600",
+  "title": "Language, Literacy and Learning",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,246 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate the law and legal institutions from a normative perspective.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop the ability to build and communicate theoretical legal arguments under time pressure.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse central debates in jurisprudence",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply theoretical knowledge to real-life situations and topical controversies",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "students will be required to complete required readings and additional readings for assessments",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LAW214",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "60cp including LAWS1000 or LAW115",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "This assignment will require comprehension and critical analysis of some key readings on the nature of law. .",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Take home exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "The take-home exam will test critical reasoning skills and comprehension of the set texts.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "timed online quizzes",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "two multiple choice quizzes - dates and times will be advertised on iLearn",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-Other, Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quizzes",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Class participation for this subject will be assessed by TWO multiple choice quizzes, to be taken in your tutorial during weeks 6 and 11. Each quiz will have 10 questions, each worth one mark. There is a total of 10 marks per quiz. You will need to bring a device to class, such as a laptop or smart phone, so you can connect to the iLearn site. The quiz is designed to test your comprehension of the texts set for study and your engagement with the course materials. If you attend class each week, do the readings and listen to the lectures, the quizzes will be very straightforward.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Infrequent-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LAWS2100-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS2100"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS2100-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "30",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS2100"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS2100-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS2100"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS2100-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS2100"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde*<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Special circumstances, Other<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "LAWS2100 - Jurisprudence",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is a philosophically-based introduction to law and legal thought. It has four main objectives. It aims to introduce students to the nature of the Australian legal system; to equip them to think in a theoretical and critical way about the nature of law and legal reasoning; to convey an understanding of some key legal concepts; and to assist them to draw on and apply these reflections in the context of some contemporary legal issues.",
+    "search_title": "LAWS2100 - Jurisprudence",
+    "code": "LAWS2100",
+    "title": "Jurisprudence",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is a philosophically-based introduction to law and legal thought. It has four main objectives. It aims to introduce students to the nature of the Australian legal system; to equip them to think in a theoretical and critical way about the nature of law and legal reasoning; to convey an understanding of some key legal concepts; and to assist them to draw on and apply these reflections in the context of some contemporary legal issues.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-15T15:22:03.083",
+  "code": "LAWS2100",
+  "title": "Jurisprudence",
+  "implementationYear": "2021"
+}

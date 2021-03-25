@@ -1,0 +1,279 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate extensive library and information retrieval skills relevant to the nominated project.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Collate, analyse and evaluate data collected during intercultural encounters.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify ways in which society and culture interact and locally manifest in the Australian context.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate proficiency in self-organisation and effective project management.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Design and conduct a project-based activity in an intercultural context within and outside the university environment.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Communicate a targeted aspect of language specific cultural life to peers, teachers and the public using written, oral and/or digital media in a nuanced and sophisticated manner.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for seminars",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Conducting research ",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparation for consultation with project supervisor",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Project plan",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "30",
+        "description": "Plan that details scope, activities and timeline of the project",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation of project results",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "description": "Oral presentation using digital media",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project written report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "45",
+        "description": "Report of findings and conclusions",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "INTS2015-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS2015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "INTS2015-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS2015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "INTS2015-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS2015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "INTS2015-unit_teaching_period-Intensive-subject",
+        "display_name": "Session 2-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS2015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "INTS2015-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS2015"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "INTS2015-unit_teaching_period-Intensive-subject",
+        "display_name": "Session 1-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS2015"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Intensive attendance, North Ryde<br />Session 1, Fully online/virtual<br />Session 2, Intensive attendance, North Ryde<br />Session 2, Fully online/virtual<br />Session 2, Special circumstances<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "INTS2015 - Intercultural Language Project 2",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Can various experiences, practices and perspectives of a culture tell us something unique about that culture? This project-based unit seeks to promote a deeper understanding of, and engagement with, lived experiences in the broad context of the intersection of language, culture and society. It focuses on helping students expand their appreciation of aspects of intercultural life and practices as well as sites of meaning in a culturally and linguistically specific environment. Through a semi-guided project, students will be encouraged to explore one aspect of intercultural life in the Australian context by collecting and analysing community-relevant factual data.",
+    "search_title": "INTS2015 - Intercultural Language Project 2",
+    "code": "INTS2015",
+    "title": "Intercultural Language Project 2",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Can various experiences, practices and perspectives of a culture tell us something unique about that culture? This project-based unit seeks to promote a deeper understanding of, and engagement with, lived experiences in the broad context of the intersection of language, culture and society. It focuses on helping students expand their appreciation of aspects of intercultural life and practices as well as sites of meaning in a culturally and linguistically specific environment. Through a semi-guided project, students will be encouraged to explore one aspect of intercultural life in the Australian context by collecting and analysing community-relevant factual data.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-09T10:06:52.902",
+  "code": "INTS2015",
+  "title": "Intercultural Language Project 2",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,198 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply finance techniques and theory to make sound energy finance and related investment decisions. ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Evaluate the state-of-art financing models for green assets. ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse how markets react to the new standards of sustainable finance and investment. ",
+        "code": "ULO2"
+      },
+      {
+        "description": "Work productively in a group to analyse and present well-justified recommendations regarding a business problem or opportunity. ",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for classes and assessments. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "AFIN810",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(Admission to MActPrac or MFin) or ACST603 or ACST6003 or AFIN6012 or AFIN613 or AFIN6013 or ECON649 or ECON6049 or ECON991 or ECON8091",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Case studies",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "Students will work in groups to analyse two cases. Students will present their findings and recommendations from this task via a (1) 1500 to 3000 word group report, for each case study; and (2) presentation. 50% of the marks from this task will be based on a student’s individual contribution to the case study analysis and their individual presentation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Take home examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Student will complete a take home exam in specified timeframe.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Valuation Task",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "20",
+        "description": "Students will conduct a valuation of a company and produce a 1000 to 2000 word report.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "AFIN8010-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFIN8010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AFIN8010-unit_teaching_period-Intensive-subject",
+        "display_name": "Session 1-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFIN8010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Intensive attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "AFIN8010 - Environmental Finance",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Environmental Finance is designed as an advanced unit to equip students with insights into the changing dynamics of the natural environment and the effects on finance and accounting decisions in the modern corporation. Students will learn about the international climate finance architecture as well as public and private investments into new projects associated with climate change adaptation and mitigation. The unit will introduce methods for evaluating the effects of environmental changes on business, introducing students to tools that will enable them to be intelligent users of risk assessment methodologies. It will also focus on exploring the implications of climate/environmental change for asset impairment, and introduces students to ideas around corporate social responsibility and the applicability to environmental finance. The unit concludes by introducing students to general ideas of how to evaluate adaptation and mitigation investment decisions under conditions of risk and uncertainty. Changing disclosure requirements from the changing environmental landscape are discussed.",
+    "search_title": "AFIN8010 - Environmental Finance",
+    "code": "AFIN8010",
+    "title": "Environmental Finance",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Environmental Finance is designed as an advanced unit to equip students with insights into the changing dynamics of the natural environment and the effects on finance and accounting decisions in the modern corporation. Students will learn about the international climate finance architecture as well as public and private investments into new projects associated with climate change adaptation and mitigation. The unit will introduce methods for evaluating the effects of environmental changes on business, introducing students to tools that will enable them to be intelligent users of risk assessment methodologies. It will also focus on exploring the implications of climate/environmental change for asset impairment, and introduces students to ideas around corporate social responsibility and the applicability to environmental finance. The unit concludes by introducing students to general ideas of how to evaluate adaptation and mitigation investment decisions under conditions of risk and uncertainty. Changing disclosure requirements from the changing environmental landscape are discussed.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T13:42:53.654",
+  "code": "AFIN8010",
+  "title": "Environmental Finance",
+  "implementationYear": "2021"
+}

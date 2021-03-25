@@ -1,0 +1,206 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop skills in communication and self directed learning.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Evaluate research strategies used to advance translational research into medical implants on the market.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Review advanced knowledge of the latest biomedical technologies in a variety of different medical disciplines.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically evaluate biomedical implants in terms of clinical success and ethical issues.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Provided readings aligned with the weekly topics.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Lecture preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MEDI751",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "Two quizzes/mini-exams. Multiple choice and short answer questions covering the unit content.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Implant Research Project",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "On a physiological problem/disease that has an unmet need for an implantable solution.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Ethics Assessment",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "20",
+        "description": "2 to 3 page letter to patient detailing an example study protocol and risks. Includes review of a complete research study.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI7051"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI7051"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MEDI7051 - The Artificial Human",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit within the Masters of Research provides learning in the processes of development and commercialisation of research ideas using the framework of device development, with concepts being applicable to the wider biomedical sphere. This unit focuses on some of the latest technologies in medical implants and provides a critical review of the clinical, biological, structural and philosophical aspects of biomedical research development. In this unit you will explore: the concept of innovation; patenting; ethical and regulatory expectations; the process of clinical trials; issues of biocompatibility and infection. The unit also uses case studies of recent biomedical research and device success and failures (including in the orthopaedic and cardiovascular fields), to contextualise learning. Learning activities will include seminars from field experts and drafting of professional documents required in biomedical development and commercialisation. Through this unit you will develop an appreciation for research, development and commercialisation that will inform your future academic research or industry-focused biomedical career.",
+    "search_title": "MEDI7051 - The Artificial Human",
+    "code": "MEDI7051",
+    "title": "The Artificial Human",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit within the Masters of Research provides learning in the processes of development and commercialisation of research ideas using the framework of device development, with concepts being applicable to the wider biomedical sphere. This unit focuses on some of the latest technologies in medical implants and provides a critical review of the clinical, biological, structural and philosophical aspects of biomedical research development. In this unit you will explore: the concept of innovation; patenting; ethical and regulatory expectations; the process of clinical trials; issues of biocompatibility and infection. The unit also uses case studies of recent biomedical research and device success and failures (including in the orthopaedic and cardiovascular fields), to contextualise learning. Learning activities will include seminars from field experts and drafting of professional documents required in biomedical development and commercialisation. Through this unit you will develop an appreciation for research, development and commercialisation that will inform your future academic research or industry-focused biomedical career.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:30:53.672",
+  "code": "MEDI7051",
+  "title": "The Artificial Human",
+  "implementationYear": "2021"
+}

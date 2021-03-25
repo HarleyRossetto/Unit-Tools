@@ -1,0 +1,227 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate and apply basic experimental research skills to test hypotheses in neuroscience.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Understand the core methods employed in neuroscience.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explain key terminology and basic principles of neuroscience.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Describe the basic structure and function of the central nervous system with an emphasis on the human brain.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse and interpret scientific information and research in neuroscience.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading/Preparation for lectures (2 hrs per week)",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "COGS1000 or COGS100",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Mid-Term Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "25",
+        "description": "1 hr multiple choice exam, conducted in class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "2 hr exam, conducted during the official exam period. Combination of multiple choice and short answer questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In-Class Lab Activity Sheets",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "15",
+        "description": "Short (1-2 page), highly structured lab activity sheets completed in class. 1 activity sheet per lab. Graded on C/NC basis. Students may miss 1 lab activity without penalty.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-Term Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "25",
+        "description": "1 hr multiple choice exam, conducted online.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Short online multiple quizzes covering basic content completed before each class lecture. Designed to provide routine assessment and feedback. Graded on C/NC basis with 50% correct threshold for C. 10 quizzes in total; 10-20 MC questions; no make-up quizzes; students may drop 2 lowest quizzes without penalty.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COGS1005"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COGS1005"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "COGS1005 - Introduction to Neuroscience 2",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Cognitive Science "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit forms a 2-unit sequence with COGS1000 and provides an intensive introduction to the fundamentals of modern neuroscience, with a focus on the structure and function of the human brain. Topics include neuroanatomy, neural signalling, sensory processing, neural control of movement, and brain development and evolution. Tutorials include hands-on research activities in which students will have the opportunity to act as both researchers and experimental participants.",
+    "search_title": "COGS1005 - Introduction to Neuroscience 2",
+    "code": "COGS1005",
+    "title": "Introduction to Neuroscience 2",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit forms a 2-unit sequence with COGS1000 and provides an intensive introduction to the fundamentals of modern neuroscience, with a focus on the structure and function of the human brain. Topics include neuroanatomy, neural signalling, sensory processing, neural control of movement, and brain development and evolution. Tutorials include hands-on research activities in which students will have the opportunity to act as both researchers and experimental participants.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:27:25.487",
+  "code": "COGS1005",
+  "title": "Introduction to Neuroscience 2",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,173 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Create and maintain appropriate research notes and records",
+        "code": "ULO3"
+      },
+      {
+        "description": "Recognise the basic research methods to prepare and commence research ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Evaluate and discuss scientific literature",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply basic methods to perform research data analysis, data collection, and data storage. ",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "MEDI208",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Lab report",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "20",
+        "description": "A written report that describes and discusses experimental observations and results acquired during practical classes. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Medical Research Study",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "50",
+        "description": "Using a research project and associated data, students will analyse the data and provide a research report that introduces the project and presents and discusses the results.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Statistical Data Analysis",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "30",
+        "description": "Students will be provided with a data set in which to perform statistical and descriptive analysis.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI2900"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 3, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MEDI2900 - Introduction to Medical Research",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biomedical Sciences "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Through this unit, you will begin to develop the required knowledge and skills to participate in basic research in the field of health or biomedical science. You will learn about the importance of appropriate research notetaking and record keeping. Building upon this, you will learn about widely used research methodology, gain an appreciation for the translational capacity of medical research as well as the application of emerging medical technology. You will be provided the opportunity to develop your skills in research planning and communication, setting you up for future studies that integrate research within your learning.",
+    "search_title": "MEDI2900 - Introduction to Medical Research",
+    "code": "MEDI2900",
+    "title": "Introduction to Medical Research",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Through this unit, you will begin to develop the required knowledge and skills to participate in basic research in the field of health or biomedical science. You will learn about the importance of appropriate research notetaking and record keeping. Building upon this, you will learn about widely used research methodology, gain an appreciation for the translational capacity of medical research as well as the application of emerging medical technology. You will be provided the opportunity to develop your skills in research planning and communication, setting you up for future studies that integrate research within your learning.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:08:53.301",
+  "code": "MEDI2900",
+  "title": "Introduction to Medical Research",
+  "implementationYear": "2021"
+}

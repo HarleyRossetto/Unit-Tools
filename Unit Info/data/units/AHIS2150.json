@@ -1,0 +1,242 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "investigate the significance of Egyptian for the study of relevant ancient cultures.",
+        "code": "ULO7"
+      },
+      {
+        "description": "recognize and recall Egyptian script, transliteration at an advanced level.",
+        "code": "ULO1"
+      },
+      {
+        "description": "recognize and recall extended Egyptian vocabulary.",
+        "code": "ULO2"
+      },
+      {
+        "description": "employ grammatical terminology.",
+        "code": "ULO5"
+      },
+      {
+        "description": "assess the grammar required for the translation of Egyptian texts appropriate to level of study.",
+        "code": "ULO3"
+      },
+      {
+        "description": "integrate knowledge of grammar and vocabulary in reading and/or writing Egyptian texts.",
+        "code": "ULO6"
+      },
+      {
+        "description": "explore and appraise relevant grammatical and lexical reference tools.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students apply knowledge gained by completing grammar exercises, preparing the readings to be discussed in class. Students consolidate knowledge of vocabulary encountered and the grammar and syntax covered in class.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "AHST360, AHIS378, AHIS279",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "AHIS178 or AHIS1150 or AHIS278 or AHST260",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Vocabulary Tests",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Students demonstrate their recall of hieroglyphic Egyptian vocabulary and phrases.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Translation Task",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "30",
+        "description": "Students apply skills and knowledge acquired through the unit weekly content to an unseen text in hieroglyphic Egyptian. They (1) transliterate and translate the text, (2) provide grammatical analysis, (3) comment on the significance of the text for the study of ancient Egyptian history.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Students complete a series of tasks based on the unit content. They are tested on their knowledge of the hieroglyphic script, vocabulary, grammar and syntax of Middle Egyptian.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Translation Tests",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Students transliterate and translate short hieroglyphic texts. Students demonstrate their understanding of Middle Egyptian script, grammar and syntax.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "AHIS2150-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS2150"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AHIS2150-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS2150"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AHIS2150-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS2150"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "AHIS2150 - Hieroglyphic Egyptian B",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit builds upon AHIS1150 providing further study of Middle Egyptian grammar as well as the study and interpretation of Middle Egyptian hieroglyphic texts.",
+    "search_title": "AHIS2150 - Hieroglyphic Egyptian B",
+    "code": "AHIS2150",
+    "title": "Hieroglyphic Egyptian B",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit builds upon AHIS1150 providing further study of Middle Egyptian grammar as well as the study and interpretation of Middle Egyptian hieroglyphic texts.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T10:21:13.659",
+  "code": "AHIS2150",
+  "title": "Hieroglyphic Egyptian B",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,225 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify the importance of links and transition processes between schools and prior to school services.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Observe and assess children in context.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate a professional standard of English expression in written and oral work throughout the unit.",
+        "code": "ULO9"
+      },
+      {
+        "description": "Identify and demonstrate effective strategies and theories which underpin guiding children's behaviour.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Plan for children in the school setting using outcomes and indicators from the Key Learning Areas (KLAs).",
+        "code": "ULO6"
+      },
+      {
+        "description": "Show knowledge of the range of policies pertaining to specific employer groups in school settings.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate understanding of philosophy of working in partnership with school staff, families and different communities.",
+        "code": "ULO8"
+      },
+      {
+        "description": "Demonstrate their role as a reflective practitioner.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Identify the role of NSW Education Standards Authority (formally known as the Board of Studies, Teaching and Educational Standards NSW (NSW BOSTES) and the Australian Curriculum, Assessment and Reporting Authority (ACARA) in relation to curriculum.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(EDUC260 or EDUC2600) and (ECHP222 or ECHP2220) and (ECH232 or ECHE2320) and admission to BED(ECE)(0-12)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECHP323, ECHP223",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "ECHE234 or ECHE2340",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Children's behaviour ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "The purpose of this assessment is to articulate appropriate strategies to guide children’s behaviour and the theories which underpin these strategies.(2000 words reference list not included)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "PE Documentation",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "45",
+        "description": " Professional Experience documentation (2000 words not including reference list)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Transition to school ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "15",
+        "description": "This assessment will enable students to develop an understanding of transition to school processes and strategies from the primary school perspective. (1000 words reference list not included)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHP2230"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHP2230"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Infrequent attendance, North Ryde<br />",
+    "subject_search_title": "ECHP2230 - Professional Experience 3",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students with an understanding of the primary school environment. They will explore relationships between prior-to-school and school settings, understanding of ACARA and NESA, strategies for managing behaviour and working in partnership with families, colleagues and communities. Students will develop their assessment, planning and teaching skills through participation in a 20 day Professional Experience placement in a primary school classroom.",
+    "search_title": "ECHP2230 - Professional Experience 3",
+    "code": "ECHP2230",
+    "title": "Professional Experience 3",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides students with an understanding of the primary school environment. They will explore relationships between prior-to-school and school settings, understanding of ACARA and NESA, strategies for managing behaviour and working in partnership with families, colleagues and communities. Students will develop their assessment, planning and teaching skills through participation in a 20 day Professional Experience placement in a primary school classroom.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-02T11:29:36.046",
+  "code": "ECHP2230",
+  "title": "Professional Experience 3",
+  "implementationYear": "2021"
+}

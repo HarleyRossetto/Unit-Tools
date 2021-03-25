@@ -1,0 +1,254 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate professional responsibility of your own and others’ learning by providing and responding to supportive, informed and reflective feedback.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate an advanced and critical understanding of the range of philosophical and theoretical approaches that inform infant-toddler services.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Design and implement an inquiry project to enhance your theoretical and practical understanding of a chosen approach.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify the implications of these approaches for specialised infant-toddler services and practitioners.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students engage in weekly readings readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "[Admission to MTeach(0-5) and (ECED603 or ECHE6030) and (ECED602 or ECHE6020) and (ECED824 or ECHE8240)] or [admission to MEChild or MEd or MEdLead or MIndigenousEd or MSpecEd or GradCertEdS]",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECED732, ECHX832, ECED832, ECEX832",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Project final report",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "55",
+        "description": "Students complete a final report and critical discussion of their project findings (Approximately 2200 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Video-Log Reading Reflection",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "25",
+        "description": "Students complete two 5-8 minute video-log critical reflections on a chosen reading",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project Proposal",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "0",
+        "description": "Students submit a written proposal for an individual inquiry project (Approximately 500 words using a provided pro-forma)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation and peer feedback",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Students complete a 10-minute presentation on their project progress and provide written peer feedback",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ECHE8320",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ECHE8320"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ECHE7320"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Contemporary Approaches to Infant and Toddler Theory and Practice",
+                "academic_item_code": "ECHE7320",
+                "academic_item_url": "/2020/units/ECHE7320"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: ECHX8320"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Contemporary Approaches to Infant and Toddler Theory and Practice",
+                "academic_item_code": "ECHX8320",
+                "academic_item_url": "/2020/units/ECHX8320"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECHE8320-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE8320"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "ECHE8320 - Contemporary Approaches to Infant and Toddler Theory and Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The recognition of the importance of children&#39;s first three years of life has led to an increasing awareness of the specialist nature of infant-toddler education and care services. This unit covers contemporary perspectives that can inform educational programs that aim to support infant-toddler development and learning. Students will build on prior knowledge about children&#39;s learning and development to critically reflect on research-based literature and examine its relevance in a range of infant-toddler early childhood programs. Students will design and implement an inquiry-based project to deepen their understanding of the applicability of this knowledge to infants and toddlers, their families and educators.",
+    "search_title": "ECHE8320 - Contemporary Approaches to Infant and Toddler Theory and Practice",
+    "code": "ECHE8320",
+    "title": "Contemporary Approaches to Infant and Toddler Theory and Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The recognition of the importance of children&#39;s first three years of life has led to an increasing awareness of the specialist nature of infant-toddler education and care services. This unit covers contemporary perspectives that can inform educational programs that aim to support infant-toddler development and learning. Students will build on prior knowledge about children&#39;s learning and development to critically reflect on research-based literature and examine its relevance in a range of infant-toddler early childhood programs. Students will design and implement an inquiry-based project to deepen their understanding of the applicability of this knowledge to infants and toddlers, their families and educators.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-25T10:41:03.439",
+  "code": "ECHE8320",
+  "title": "Contemporary Approaches to Infant and Toddler Theory and Practice",
+  "implementationYear": "2021"
+}

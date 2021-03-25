@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate an understanding of theoretical principles and recent developments in literacy research in a variety of social, global, historical and technological contexts.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify and analyze the function of literacy in different communities and explore how diverse literacies relate to fair and equitable access to social goods such as education, employment, welfare or community participation.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically evaluate relevant theoretical and empirical literature in literacy research and discuss a range of approaches to literacy.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Communicate to a professional audience advanced knowledge and understanding of socially relevant issues related to literacies.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Analyze and report on data relevant to the intersection between literacies and educational achievement.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MAppLing or MAppLingTESOL or MTransInterMAppLingTESOL or MAccComm",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LING913, APPL941",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research blog post",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "For your research blog post you will write about the same topic you covered in your oral presentation. This time, you will be required to communicate the topic in writing to a broad professional audience. The task consists of two parts: an actual blog post (1,200 words) and a reflection (600 words). Detailed guidelines and a marking rubric will be made available on ilearn. Research blog posts of particularly high quality will be considered for publication on Language on the Move. In order to make optimal use of feedback received on the presentation, your research blog post will be due within 10 days of your oral presentation date. There will be no extensions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz 1-10",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "There will be short online quizzes in weeks 2-11 consisting of multiple-choice and closed questions based on the content covered in the previous week. Each quiz will be valued 2%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Individual oral presentation in class or on video. Presentations will be scheduled throughout the term and will be on assigned topics and dates.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Participation will be measured by 10 small homework tasks to be undertaken throughout the term. Each task will consist of a comment of 70-100 words in response to research blog posts on Language on the Move. One or two tasks will be released each week and each task will be valued 2%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8410"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8410"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8410"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "APPL8410 - Literacies",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit you will be introduced to the theory and practice of literacy studies from a social perspective. The subject draws on social theories and research in literacy and linguistics, with a particular focus on the sociolinguistics of language learning and multilingualism. The unit explores the nature of literacies, schooled and grassroots literacies, and literacies in their social, global, historical and technological contexts. Throughout the unit, participants are encouraged to reflect on literacies in their own fields of experience and how these relate to fair and equitable access to social goods such as education, employment, welfare or community participation.",
+    "search_title": "APPL8410 - Literacies",
+    "code": "APPL8410",
+    "title": "Literacies",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit you will be introduced to the theory and practice of literacy studies from a social perspective. The subject draws on social theories and research in literacy and linguistics, with a particular focus on the sociolinguistics of language learning and multilingualism. The unit explores the nature of literacies, schooled and grassroots literacies, and literacies in their social, global, historical and technological contexts. Throughout the unit, participants are encouraged to reflect on literacies in their own fields of experience and how these relate to fair and equitable access to social goods such as education, employment, welfare or community participation.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:29:55.959",
+  "code": "APPL8410",
+  "title": "Literacies",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,246 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Pass/Fail",
+      "value": "pass-fail"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate the application of academic learning in the workplace.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Manage personal contribution to an organisation.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Manage professional learning through reflective practice and the application of research.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Develop professional skills in the workplace.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "BUS880",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Ethical Case Study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "This assessment is worth 40% in total. It is a 1400 - 1800 word individual case study.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflective Journal - Part B",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "40",
+        "description": "This assessment is worth 40% in total. It is a 1500 - 2000 word individual reflective journal.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflective Journal - Part A",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "This assessment is worth 20% in total. It is a 800 - 1000 word individual reflective journal.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MGMT8080",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MGMT8080"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MGMT8007"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Management Internship",
+                "academic_item_code": "MGMT8007",
+                "academic_item_url": "/2020/units/MGMT8007"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT8080-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8080"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT8080-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8080"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT8080-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8080"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Fully online/virtual<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MGMT8080 - Business Internship",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit gives students workplace experience and professional development skills to position them to better succeed in securing employment and manage their future careers. Students undertake a placement in an organisation under the guidance of a workplace mentor/supervisor and with the support of professional and academic University staff. The unit links the workplace experience to academic theory and research to maximise the benefits of both. Assessment tasks are integrated with a range of individual and interactive learning activities. Students will gain experience of the Australian workplace environment and the ability to self-manage future professional development of generic skills and specialist knowledge. The unit contributes to the development of graduate capabilities in critical, analytical and integrative thinking and professional and personal judgement and initiative.",
+    "search_title": "MGMT8080 - Business Internship",
+    "code": "MGMT8080",
+    "title": "Business Internship",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit gives students workplace experience and professional development skills to position them to better succeed in securing employment and manage their future careers. Students undertake a placement in an organisation under the guidance of a workplace mentor/supervisor and with the support of professional and academic University staff. The unit links the workplace experience to academic theory and research to maximise the benefits of both. Assessment tasks are integrated with a range of individual and interactive learning activities. Students will gain experience of the Australian workplace environment and the ability to self-manage future professional development of generic skills and specialist knowledge. The unit contributes to the development of graduate capabilities in critical, analytical and integrative thinking and professional and personal judgement and initiative.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-08T08:25:54.261",
+  "code": "MGMT8080",
+  "title": "Business Internship",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,262 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Practice effectively and with cultural responsiveness and sensitivity in Australian and Indian clinical settings, engaging positively and effectively with patients, families and/or carers, medical and healthcare professionals and others from diverse cultural backgrounds (Capability 3 Engaged Global Citizen).",
+        "code": "ULO8"
+      },
+      {
+        "description": "Perform procedural skills competently and safely in a clinical environment (Capability 2 Clinical Practitioner).",
+        "code": "ULO7"
+      },
+      {
+        "description": "Apply knowledge of relevant medical sciences, health conditions, scientific principles and mechanisms of disease to explain clinical presentations, as well as how drugs and other treatments are used to manage or prevent disease in individuals seeking healthcare (Capability 1 Scientist and Scholar).",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate effective teamwork and professional behaviour in accordance with ethical, legal and professional standards of medical care when interacting with patients and their families and/or carers, the healthcare teams, peers and the host organization (Capability 4 Professional).",
+        "code": "ULO10"
+      },
+      {
+        "description": "Build rapport and communicate sensitively in clinical settings with patients, their families and/or carers, and actively encourages patients to contribute to the discussion and choice of diagnostic, therapeutic and management approaches including health promotion strategies (Capability 2 Clinical Practitioner).",
+        "code": "ULO4"
+      },
+      {
+        "description": "Formulate focused clinical questions, use effective information search strategies, critically evaluate the quality of the evidence and develop evidence-based and/or research-informed judgements on clinical presentations and medical-issues relevant to healthcare (Capability 1 Scientist and Scholar).",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify and discuss social, cultural and economic factors, as well as healthcare team and health system factors, which may impact on healthcare and population health (Capability 3 Engaged Global Citizen).",
+        "code": "ULO9"
+      },
+      {
+        "description": "Demonstrate commitment to lifelong learning with the generation of professional development plans for the next phase of  your medical career (Capability 4 Professional)",
+        "code": "ULO12"
+      },
+      {
+        "description": "Use feedback from teachers, clinicians, peers and patients to inform self-evaluation and critical reflection, and generates development plans to address learning needs (Capability 4 Professional).",
+        "code": "ULO11"
+      },
+      {
+        "description": "Elicit a concise and accurate medical history and conduct a physical and/or mental examination with patients seeking healthcare (Capability 2 Clinical Practitioner).",
+        "code": "ULO3"
+      },
+      {
+        "description": "Communicate history and physical examination findings, differential diagnoses and management plans concisely and accurately in verbal or written form to interprofessional healthcare teams and/or peers (Capability 2 Clinical Practitioner).",
+        "code": "ULO6"
+      },
+      {
+        "description": "Use research-informed clinical reasoning to derive differential diagnoses, investigations and basic management plans for people seeking health care (Capability 2 Clinical Practitioner).",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Self-directed study",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MEDI8403",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "MEDI8401",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Rotation-Specific Assessment",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "50",
+        "description": "Completion of the rotation-specific assessment for either Mental Health or Critical and Acute Care placement, depending on clinical placement allocation. Assessment criteria will be mapped to relevant capability aspects and graduate Entrustable Professional Activities (EPAs). Overall, capability aspects performance and EPAs will be recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Direct Observation of Procedural Skills (DOPS)",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "0",
+        "description": "Ongoing formative assessments directed by the student to enhance evidence for portfolio. Assessment criteria will be mapped to relevant capability aspects and graduate Entrustable Professional Activities (EPAs). Overall, capability aspects performance and EPAs will be recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Capability or Entrustable Professional Activity (EPA) Task",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "30",
+        "description": "Assessing capability or EPAs yet to be evaluated across the portfolio such as a prescribing assessment, and a  management-oriented viva. Assessment criteria will be mapped to relevant capability aspects and graduate Entrustable Professional Activities (EPAs). Overall, capability aspects performance and EPAs will be recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Selective/ Elective Report and ITA",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Submission of  a report which includes student reflection of placement (500 words) and supervisor In-Training Assessment (ITA). Assessment criteria will be mapped to relevant capability aspects and graduate Entrustable Professional Activities (EPAs). Overall, capability aspects performance and EPAs will be recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Team-Clinical Evaluation Exercise (T-MEX)",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "0",
+        "description": "Ongoing formative assessments directed by the student to enhance evidence for portfolio. Assessment criteria will be mapped to relevant capability aspects and graduate Entrustable Professional Activities (EPAs). Overall, capability aspects performance and EPAs will be recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mini-Clinical Evaluation Exercise (Mini-CEX)",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "0",
+        "description": "Ongoing formative assessments directed by the student to enhance evidence for portfolio. Assessment criteria will be mapped to relevant capability aspects and graduate Entrustable Professional Activities (EPAs). Overall, capability aspects performance and EPAs will be recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Medicine and Health Sciences MDF-Weekday-On location at placement",
+        "teaching_period": {
+          "value": "Medicine and Health Sciences MDF"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI8402"
+        }
+      }
+    ],
+    "unit_offering_text": "Medicine and Health Sciences MDF, Weekday attendance, On location at placement<br />",
+    "subject_search_title": "MEDI8402 - Advanced Clinical Placements B",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "30",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is the second of two units which comprise a total of 32 weeks of clinical placements where you will be embedded in healthcare teams in Stage 2 of the Macquarie MD working with individuals with a variety of health conditions. In both MEDI8401: Advanced Clinical Placements A and MEDI8402: Advanced Clinical Placements B, you will complete a series of 4- or 8-week clinical placements. You will participate in core clinical placements in Critical and Acute Care and Mental Health, as well as Selective and Elective placements. You will submit preferences for Selective and Elective placements which match your emerging interests and learning needs. This unit will provide you with the opportunity to participate in delivery of patient-centred healthcare and to consolidate and apply your medical science knowledge and skills already acquired across the Macquarie MD. You will be required to participate in healthcare delivery and demonstrate significant progress toward the development of the 4 Macquarie MD Graduate Capabilities: Scientist and Scholar, Clinical Practitioner, Engaged Global Citizen and Professional, and the Entrustable Professional Activities, at a standard appropriate to Stage 2 of the Macquarie MD.",
+    "search_title": "MEDI8402 - Advanced Clinical Placements B",
+    "code": "MEDI8402",
+    "title": "Advanced Clinical Placements B",
+    "content_type": "Unit",
+    "credit_points_header": "30 credit points"
+  },
+  "creditPoints": 30,
+  "description": "This unit is the second of two units which comprise a total of 32 weeks of clinical placements where you will be embedded in healthcare teams in Stage 2 of the Macquarie MD working with individuals with a variety of health conditions. In both MEDI8401: Advanced Clinical Placements A and MEDI8402: Advanced Clinical Placements B, you will complete a series of 4- or 8-week clinical placements. You will participate in core clinical placements in Critical and Acute Care and Mental Health, as well as Selective and Elective placements. You will submit preferences for Selective and Elective placements which match your emerging interests and learning needs. This unit will provide you with the opportunity to participate in delivery of patient-centred healthcare and to consolidate and apply your medical science knowledge and skills already acquired across the Macquarie MD. You will be required to participate in healthcare delivery and demonstrate significant progress toward the development of the 4 Macquarie MD Graduate Capabilities: Scientist and Scholar, Clinical Practitioner, Engaged Global Citizen and Professional, and the Entrustable Professional Activities, at a standard appropriate to Stage 2 of the Macquarie MD.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-03T15:03:05.09",
+  "code": "MEDI8402",
+  "title": "Advanced Clinical Placements B",
+  "implementationYear": "2021"
+}

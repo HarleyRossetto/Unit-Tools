@@ -1,0 +1,123 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "CBMS899",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MOLS8990"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MOLS8990"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MOLS8990 - Master of Research - Chemistry and Biomolecular Science",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Molecular Sciences "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "80",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The 8000-level components of the Master of Research (Year 2) are not designed around units. The thesis together with four core research activities form a single coherent research program based on individual research plans and will consist of the following: (1) Research Frontiers 2: You will attend a number of department or faculty-run sessions and engage in a program of activities developing your knowledge of the sub-disciplinary field in which you want to situate your own research; (2) Literature Review: You will attend sessions explaining how researchers in your field engage with previous research literature, and produce a draft of your own literature review for your thesis; (3) Research Methods: With other students and led by academic staff, you will develop the research methods you will use in your research project; (4) Research Planning: Through a combination of group sessions and individual work with your supervision team, you will develop a plan for a large scale research project, part of which will be completed in the MRes; and (5) Thesis: You will complete a small research project, and write it up in a short thesis of about 20,000 words.",
+    "search_title": "MOLS8990 - Master of Research - Chemistry and Biomolecular Science",
+    "code": "MOLS8990",
+    "title": "Master of Research - Chemistry and Biomolecular Science",
+    "content_type": "Unit",
+    "credit_points_header": "80 credit points"
+  },
+  "creditPoints": 80,
+  "description": "The 8000-level components of the Master of Research (Year 2) are not designed around units. The thesis together with four core research activities form a single coherent research program based on individual research plans and will consist of the following: (1) Research Frontiers 2: You will attend a number of department or faculty-run sessions and engage in a program of activities developing your knowledge of the sub-disciplinary field in which you want to situate your own research; (2) Literature Review: You will attend sessions explaining how researchers in your field engage with previous research literature, and produce a draft of your own literature review for your thesis; (3) Research Methods: With other students and led by academic staff, you will develop the research methods you will use in your research project; (4) Research Planning: Through a combination of group sessions and individual work with your supervision team, you will develop a plan for a large scale research project, part of which will be completed in the MRes; and (5) Thesis: You will complete a small research project, and write it up in a short thesis of about 20,000 words.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:46:11.757",
+  "code": "MOLS8990",
+  "title": "Master of Research - Chemistry and Biomolecular Science",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,295 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically evaluate other studies with respect to experimental design and the application and interpretation of statistics",
+        "code": "ULO6"
+      },
+      {
+        "description": "Choose an appropriate statistical test to analyse experimental data",
+        "code": "ULO3"
+      },
+      {
+        "description": "Design an unconfounded experiment to test a given scientific hypothesis",
+        "code": "ULO2"
+      },
+      {
+        "description": "Carry out and correctly interpret a range of commonly used statistical tests using the computer package R",
+        "code": "ULO4"
+      },
+      {
+        "description": "Develop testable hypotheses from general scientific questions",
+        "code": "ULO1"
+      },
+      {
+        "description": "Clearly present outcomes of statistical analyses using figures, tables and text",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Review of lecture and practical materials for assessments.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "BIOL235, PSY222, PSY248, STAT270, STAT271, BIOL603",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MConsBiol or GradDipConsBiol or GradCertConsBiol or MSc or MScInnovationBioConsMgmt or BBioConsMConsBiol",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Exam of Basic Stats Knowledge",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "You will be tested on your knowledge of basic statistical concepts and skills taught in the statistics prerequisite for this unit. The test will be delivered as an online quiz through iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Practical",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "In practicals, you will learning how carry out a variety of statistical analyses to address biological hypotheses, and how to interpret the results of statistical analyses in light of these hypotheses.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "45",
+        "description": "The final exam will be held during the Semester 2 Exam Period and will be 2 hr (plus 10 min reading time). Please consult the University Handbook to determine the commencement and finishing dates of the compulsory exam period. Skills you will be tested on include identifying the appropriate statistical test given a dataset and hypothesis, correctly interpreting statistical output produced by R, and critically evaluating the experimental designs and statistics of previous studies.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Every week there will be an online quiz with example problems to complete. These problems will be based on  lectures and practicals. They will allow you to practice interpreting the results of statistical analyses, and applying the concepts and methods you have learned. It is strongly recommended that you make a serious effort to complete these quizzes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Experiment Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "You will design, conduct and analyse data for an experiment of your own. You will be given a range of alternative experimental questions to choose from. You will need to pick a question, design and carry out an experiment addressing that question, then write up the results in the form of the methods and results sections of a scientific paper.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-semester Exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "You will be tested on your knowledge of lecture material for weeks 1 to 6 in Week 8 (following semester break). This test will be delivered as an online assignment accessible through iLearn. Skills you will be tested on include identifying the appropriate statistical test given a dataset and hypothesis, correctly interpreting statistical output produced by R, and critically evaluating the experimental designs and statistics of previous studies.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "BIOL6610",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: BIOL6610"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: BIOL2610"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Biological Data Analysis",
+                "academic_item_code": "BIOL2610",
+                "academic_item_url": "/2020/units/BIOL2610"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "BIOL6610-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL6610"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL6610-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL6610"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "BIOL6610 - Biological Data Analysis",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Biological organisms are inherently variable, which means that practicing biologists need a solid grasp of how to design and implement experiments, perform statistical analyses on the resulting data, and correctly interpret the results of statistical tests. This unit provides a foundation in the principles of experimental design and data analysis for biology. The unit is taught by biology staff and draws on research carried out in the Department of Biological Sciences. Students also learn the overall process of asking and answering questions in biology. Students learn a range of common data analysis techniques, and how to interpret the outcomes of these analyses. There is a strong emphasis on critically evaluating biological studies and identifying sound conclusions and not-so-sound conclusions. This unit is strongly recommended for students planning a career in biology or environmental science.",
+    "search_title": "BIOL6610 - Biological Data Analysis",
+    "code": "BIOL6610",
+    "title": "Biological Data Analysis",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Biological organisms are inherently variable, which means that practicing biologists need a solid grasp of how to design and implement experiments, perform statistical analyses on the resulting data, and correctly interpret the results of statistical tests. This unit provides a foundation in the principles of experimental design and data analysis for biology. The unit is taught by biology staff and draws on research carried out in the Department of Biological Sciences. Students also learn the overall process of asking and answering questions in biology. Students learn a range of common data analysis techniques, and how to interpret the outcomes of these analyses. There is a strong emphasis on critically evaluating biological studies and identifying sound conclusions and not-so-sound conclusions. This unit is strongly recommended for students planning a career in biology or environmental science.",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-02T11:14:23.261",
+  "code": "BIOL6610",
+  "title": "Biological Data Analysis",
+  "implementationYear": "2021"
+}

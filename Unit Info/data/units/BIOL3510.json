@@ -1,0 +1,278 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate scientific information relevant to vertebrate biology in oral and in written format",
+        "code": "ULO6"
+      },
+      {
+        "description": "Classify vertebrate behaviour to functional roles and interactions at community levels",
+        "code": "ULO5"
+      },
+      {
+        "description": "Relate anatomical and behavioural traits to the diversity of key vertebrate species",
+        "code": "ULO2"
+      },
+      {
+        "description": "Associate the major steps in vertebrate evolution to behaviour, body form and physiological function",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate different methods for determining evolutionary relationships",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply taxonomic nomenclature to vertebrate groups",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "It is expected that the students prepare thoroughly for every prac class",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Each lecture has associated reading and there are also new papers posted illustrating current research on Vert Evol",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above including BIOL262 or BIOL208 or (BIOL2310 or BIOL228) or (BIOL2210 or BIOL229)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BIOL369",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Prac Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "The practical report requires your utmost attention during both the ‘rat dissection’ and ‘wildlife dissection’ practicals. As a class, we will be examining the relationship between an organism’s internal morphology and its ecology. The work will culminate in you producing a scientific paper that places these findings in an evolutionary context. Finer details on the details of the practical exercises and the report to be submitted will be provided on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Science Communication",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "10",
+        "description": "Australia is a country of extremes and many of our animals are superbly adapted to cope. Working in small groups, students will pick an Australian native animal to study and highlight the key adaptations that have enabled that animal to live in the harsh Australian environment. The group will put together a science communication project to present their findings to the class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Prac Notes",
+        "type": {
+          "label": "Lab book",
+          "value": "lab_book"
+        },
+        "weight": "20",
+        "description": "As a good scientist it is paramount that you learn to keep an accurate record of your experiments and activities. This usually takes the form of a lab book. Throughout this course you will be exposed to a series of lab exercises which involves examination of a LOT of different material. These lab notes should not only consolidate your understanding of each prac but also provide a good resource for review. (I still have my lab notes from my Vertebrate Evolution course from 1993!) It is expected that you will create a word document in which you will paste pictures, diagrams and notes that you take during the practical sessions. The lab “book” will be submitted via iLearn for review after prac 5 and prac 10, but will be reviewed during each prac session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly activities",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "You will demonstrate your understanding of important concepts and current themes in Vertebrate evolution",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "The final exam will cover both lecture and practical material",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "BIOL3510-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3510"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL3510-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3510"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL3510-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3510"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BIOL3510-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL3510"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Special circumstances<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "BIOL3510 - Vertebrate Biology and Behaviour",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Evolution is a dynamic process that has occurred over many millions of years (deep evolution) and continues to this day (contemporary evolution) shaping all aspects of vertebrate biology. This unit considers the major events in vertebrate evolution: invertebrate chordate to vertebrate; jawless to jawed; water to land; ectothermy to endothermy; and land to air. The newly emerging synthesis of evolutionary and developmental biology is having considerable impact on current vertebrate evolutionary theory, as are molecular techniques for constructing phylogenies. These topics are discussed in relation to deep and contemporary evolution of vertebrate groups. Lecture topics also discuss the main traits associated with each group of vertebrates including anatomy, physiology, brains and behaviour. The practical work reinforces the lectures by focussing on the comparative anatomy, morphology and behaviour of representative vertebrate groups. ",
+    "search_title": "BIOL3510 - Vertebrate Biology and Behaviour",
+    "code": "BIOL3510",
+    "title": "Vertebrate Biology and Behaviour",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Evolution is a dynamic process that has occurred over many millions of years (deep evolution) and continues to this day (contemporary evolution) shaping all aspects of vertebrate biology. This unit considers the major events in vertebrate evolution: invertebrate chordate to vertebrate; jawless to jawed; water to land; ectothermy to endothermy; and land to air. The newly emerging synthesis of evolutionary and developmental biology is having considerable impact on current vertebrate evolutionary theory, as are molecular techniques for constructing phylogenies. These topics are discussed in relation to deep and contemporary evolution of vertebrate groups. Lecture topics also discuss the main traits associated with each group of vertebrates including anatomy, physiology, brains and behaviour. The practical work reinforces the lectures by focussing on the comparative anatomy, morphology and behaviour of representative vertebrate groups. ",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-15T08:47:23.18",
+  "code": "BIOL3510",
+  "title": "Vertebrate Biology and Behaviour",
+  "implementationYear": "2021"
+}

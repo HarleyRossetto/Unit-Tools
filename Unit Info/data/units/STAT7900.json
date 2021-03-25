@@ -1,0 +1,438 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "demonstrate a broad view on some cutting edge research activities in statistics",
+        "code": "ULO1"
+      },
+      {
+        "description": "communicate credible information in oral, written, graphic or visual forms.",
+        "code": "ULO3"
+      },
+      {
+        "description": "summarise key messages from research seminars",
+        "code": "ULO4"
+      },
+      {
+        "description": "synthesise information from a variety of sources as supporting evidence and discuss them",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class Preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BIOL700, CBMS700, COMP700, ENVG700, ENVS700, FOAR700, FOBE710, FOHS700, MATH700, MEDI711, MEDI712, PHYS700, STAT700, GEOS700",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Presentation for Topic 6",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "15",
+        "description": "For assessment see Presentation for Topic 1",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation for Topic 4",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "15",
+        "description": "For assessment see Presentation for Topic 1",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation for Topic 3",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "15",
+        "description": "For assessment see Presentation for Topic 1.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation for Topic 2",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "15",
+        "description": "For assessment see Presentation for Topic 1.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Short Report on Statistics Seminars",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students are required to attend and compile a short report for at least 6 statistics research seminars. These are not limited to those hosted by the Department of Mathematics and Statistics at Macquarie and can be those hosted by other departments at Macquarie or by other universities/professional organisations. The NSW branch of the Statistical Society Australia (SSA) hold a seminar most months and they are organised as a meetup group which you can subscribe to at https://www.meetup.com/en-AU/NSW-Branch-of-the-Statistics-Society-of-Australia. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation for Topic 1",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "15",
+        "description": "Six different advanced topics will be covered in this unit. They are selected from areas of statistical research strength within the Department of Mathematics and Statistics. Each student will present for at least 15 minutes on the topic plus 5 minutes of question time on one of the papers the teaching staff provided and they will be assessed by the teaching staff of that topic. Two core criteria will be used to assess students’ work: (1) Understanding of key ideas and concepts. (2) The extent to which work has been written and/or presented in a manner consistent with accepted academic standards.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation for Topic 5",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "15",
+        "description": "For assessment see Presentation for Topic 1",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "STAT7900",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: STAT7900"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: FOAR7000"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Paradigms",
+                "academic_item_code": "FOAR7000",
+                "academic_item_url": "/2020/units/FOAR7000"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: MATH7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Mathematics",
+                "academic_item_code": "MATH7900",
+                "academic_item_url": "/2020/units/MATH7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: MOLS7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Chemistry and Biomolecular Sciences",
+                "academic_item_code": "MOLS7900",
+                "academic_item_url": "/2020/units/MOLS7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: MQBS7010"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Business and Economics",
+                "academic_item_code": "MQBS7010",
+                "academic_item_url": "/2020/units/MQBS7010"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: PHYS7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Physics and Astronomy 1",
+                "academic_item_code": "PHYS7900",
+                "academic_item_url": "/2020/units/PHYS7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: COMP7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Computing 1",
+                "academic_item_code": "COMP7900",
+                "academic_item_url": "/2020/units/COMP7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: FOHS7000"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Human Sciences",
+                "academic_item_code": "FOHS7000",
+                "academic_item_url": "/2020/units/FOHS7000"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: BIOL7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Biology",
+                "academic_item_code": "BIOL7900",
+                "academic_item_url": "/2020/units/BIOL7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: ENVS7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Environmental Sciences",
+                "academic_item_code": "ENVS7900",
+                "academic_item_url": "/2020/units/ENVS7900"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: GEOS7900"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers: Advances in Earth and Environmental Sciences",
+                "academic_item_code": "GEOS7900",
+                "academic_item_url": "/2020/units/GEOS7900"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "STAT7900-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT7900"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "STAT7900-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT7900"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "STAT7900 - Research Frontiers in Statistics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Mathematics and Statistics "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers selected topics in hot research areas of statistics. The topics will be delivered by reading research papers, discussions and presentations. Students are also required to attend department research seminars. Each topic will be taught in two weeks and then assessed by the lecturer delivering the topic.",
+    "search_title": "STAT7900 - Research Frontiers in Statistics",
+    "code": "STAT7900",
+    "title": "Research Frontiers in Statistics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit covers selected topics in hot research areas of statistics. The topics will be delivered by reading research papers, discussions and presentations. Students are also required to attend department research seminars. Each topic will be taught in two weeks and then assessed by the lecturer delivering the topic.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-01T10:36:53.204",
+  "code": "STAT7900",
+  "title": "Research Frontiers in Statistics",
+  "implementationYear": "2021"
+}

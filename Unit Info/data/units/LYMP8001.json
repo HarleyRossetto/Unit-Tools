@@ -1,0 +1,142 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain the anatomy and physiology of the lymphatic system including principles of microcirculation (<strong>Scientist and Scholar)</strong>",
+        "code": "ULO1"
+      },
+      {
+        "description": "Define and differentiate between types of oedemas <strong>(Scientist and Scholar)</strong>",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply knowledge and skills to plan a comprehensive assessment for a person at risk of or living with lymphoedema <strong>(Clinical Practitioner)</strong>",
+        "code": "ULO3"
+      },
+      {
+        "description": "Interpret assessment findings and use clinical reasoning to develop an evidence-based person-centred intervention plan (<strong>Clinical Practitioner)</strong>",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "This micro unit will be presented as a series of well designed learning activities with embedded readings and knowledge checks.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "AGF level 7 in a health degree or recognised equivalent with national registration if required.",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Mid-unit examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Multiple choice questions and short answer",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Written report case studies",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [],
+    "unit_offering_text": "*<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "LYMP8001 - Principles of Lymphoedema Management",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "5",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This is the first of two foundation units underpinning lymphoedema management and focuses on the principles of lymphoedema assessment and treatment.  In this unit, you will review the structure and function of physiology of the lymphatic system and the causes and consequences of lymphoedema.  You will develop an understanding of the principles of comprehensive lymphoedema therapy including patient-centred assessment as well as the common treatment modalities of complex lymphoedema therapy (CLT) including manual lymphatic drainage massage, compression therapy, exercise prescription, education, psychological well-being and surgical management. This unit will contribute to your development of the Scientist and Scholar and Clinical Practitioner graduate capabilities.",
+    "search_title": "LYMP8001 - Principles of Lymphoedema Management",
+    "code": "LYMP8001",
+    "title": "Principles of Lymphoedema Management",
+    "content_type": "Unit",
+    "credit_points_header": "5 credit points"
+  },
+  "creditPoints": 5,
+  "description": "This is the first of two foundation units underpinning lymphoedema management and focuses on the principles of lymphoedema assessment and treatment.  In this unit, you will review the structure and function of physiology of the lymphatic system and the causes and consequences of lymphoedema.  You will develop an understanding of the principles of comprehensive lymphoedema therapy including patient-centred assessment as well as the common treatment modalities of complex lymphoedema therapy (CLT) including manual lymphatic drainage massage, compression therapy, exercise prescription, education, psychological well-being and surgical management. This unit will contribute to your development of the Scientist and Scholar and Clinical Practitioner graduate capabilities.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-03T09:03:12.567",
+  "code": "LYMP8001",
+  "title": "Principles of Lymphoedema Management",
+  "implementationYear": "2021"
+}

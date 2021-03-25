@@ -1,0 +1,206 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Interview, analyse, and represent the illness experience of another person, emphasizing the integrative factors (culture, politics, social structure, etc.) influencing their condition.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse how illness and health (and normality) are constructed within particular social, cultural, political, and environmental contexts.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply the theories and concepts of medical anthropology to critically evaluate one’s own culture and determinants of illness and health.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate command of anthropological knowledge and theories relevant to the subdiscipline of medical anthropology and the broader study of illness and healing practices in their social and cultural contexts.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate an understanding of how healing systems often cut across categories of religion, medicine, and social organization.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify how inequality, social hierarchy, and structural violence generate unequal and often unique health determinants in the global and transnational context.",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MDevStud or MPH or MGlobalHlthDevStud or GradCertGlobalHlthDevStud or MDevStudGlobalHlth or GradCertDevStudGlobalHlth or MAppAnth or MDevCult or MSocEntre or GradCertSocEntre or MPASR or MPASRMDevStud or GradDipPASR or GradDipPP or MPPP or MPPPMDevStud or MPPPMPASR or 10cp in ANTH units at 8000 level",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ANTH816",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Written Discussion Guide",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "Written Discussion Guide for Weekly assigned readings.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "On-line final exam",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay relating to medical anthropology",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Written Discussion Guide for Weekly assigned readings",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ANTH8016-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH8016"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ANTH8016-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH8016"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "ANTH8016 - Culture, Health and Disease",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines the evolutionary, cultural, socio-economic, and political dimensions of disease and health. Notions of disease causality and healing practices vary across societies, and an understanding of the dynamics of these factors is crucial not only for theoretical advancement, but also for applied intervention in the field of international public health. In addition to surveying the key conceptual developments in medical anthropology, we look at how anthropological perspectives and methods can be used in applied settings. We also explore issues in critical medical anthropology, such as: How do global inequalities and violence affect health in developing countries? What larger social transformations accompany the rise of biomedicine, including recent biomedical technologies? These topics explore various dimensions through which medical anthropology can analyse and shape global health policies and interventions, preparing students to work in health policy and applied research.",
+    "search_title": "ANTH8016 - Culture, Health and Disease",
+    "code": "ANTH8016",
+    "title": "Culture, Health and Disease",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines the evolutionary, cultural, socio-economic, and political dimensions of disease and health. Notions of disease causality and healing practices vary across societies, and an understanding of the dynamics of these factors is crucial not only for theoretical advancement, but also for applied intervention in the field of international public health. In addition to surveying the key conceptual developments in medical anthropology, we look at how anthropological perspectives and methods can be used in applied settings. We also explore issues in critical medical anthropology, such as: How do global inequalities and violence affect health in developing countries? What larger social transformations accompany the rise of biomedicine, including recent biomedical technologies? These topics explore various dimensions through which medical anthropology can analyse and shape global health policies and interventions, preparing students to work in health policy and applied research.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T12:24:13.031",
+  "code": "ANTH8016",
+  "title": "Culture, Health and Disease",
+  "implementationYear": "2021"
+}

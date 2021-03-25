@@ -1,0 +1,363 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "0000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Pathway",
+        "value": "pathway"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply fundamental, discipline specific terminology and numeracy to solve problems related to economic concepts and relationships.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Communicate the role and relevance of Economics in society.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Evaluate and present economic information from a variety of sources both individually and collaboratively.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify the characteristics and outcomes of different markets in the macroeconomy.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explain the operation of different market mechanisms and the purpose of economic policy.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "\nCompleting set readings for the Unit.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Completing before/after class activities.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "WFEC001",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "The online final exam has a duration of 2 (two) hours plus 10 (ten) minutes, and more information about this assessment task will be available on iLearn before it is administered.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Students will be required to answer online a series of questions about topics learned throughout the Unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The Class Test includes concepts covered in the first three weeks of the Unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Project",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Students will be required to work together in allocated small groups to complete a report and deliver an oral presentation on an economic scenario provided to them.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 5-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 5"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFEC0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 5-Special",
+        "teaching_period": {
+          "value": "MUIC term 5"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFEC0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFEC0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 4-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 4"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFEC0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 2-Special",
+        "teaching_period": {
+          "value": "MUIC term 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFEC0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 3-Special",
+        "teaching_period": {
+          "value": "MUIC term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFEC0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 6-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 6"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFEC0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFEC0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFEC0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 4-Special",
+        "teaching_period": {
+          "value": "MUIC term 4"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFEC0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "MUIC term 1-Special",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFEC0001"
+        }
+      }
+    ],
+    "unit_offering_text": "MUIC term 1, Weekday attendance, North Ryde<br />MUIC term 2, Weekday attendance, North Ryde<br />MUIC term 2, Special circumstances<br />MUIC term 3, Weekday attendance, North Ryde<br />MUIC term 3, Special circumstances<br />MUIC term 4, Weekday attendance, North Ryde<br />MUIC term 4, Special circumstances<br />MUIC term 5, Weekday attendance, North Ryde<br />MUIC term 5, Special circumstances<br />MUIC term 6, Weekday attendance, North Ryde<br />MUIC term 1, Special circumstances<br />",
+    "subject_search_title": "WFEC0001 - Economics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie University International College"
+    },
+    "school": {
+      "value": "Macquarie University International College"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The aim of this Unit is to provide an introduction to economic theory, and a foundation in principles of Economics in order to prepare students for first year undergraduate studies in commerce and business. A focus of the Unit is to assist students to understand subject specific terms and concepts as well as to provide examples of their application in the context of a modern market economy. The Unit covers key macroeconomic concepts including GDP, inflation, unemployment, interest rates and exchange rates. Furthermore, the Unit explores the government&#39;s and the central bank’s macroeconomic policies which are used to influence these economic variables.",
+    "search_title": "WFEC0001 - Economics",
+    "code": "WFEC0001",
+    "title": "Economics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The aim of this Unit is to provide an introduction to economic theory, and a foundation in principles of Economics in order to prepare students for first year undergraduate studies in commerce and business. A focus of the Unit is to assist students to understand subject specific terms and concepts as well as to provide examples of their application in the context of a modern market economy. The Unit covers key macroeconomic concepts including GDP, inflation, unemployment, interest rates and exchange rates. Furthermore, the Unit explores the government&#39;s and the central bank’s macroeconomic policies which are used to influence these economic variables.",
+  "level": "0000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:26:40.796",
+  "code": "WFEC0001",
+  "title": "Economics",
+  "implementationYear": "2021"
+}

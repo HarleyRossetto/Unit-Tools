@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Define and describe health promotion and its place within the area of public health, both nationally and internationally.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Describe the various elements that are needed to plan, implement and evaluate a health promotion initiative and be able to apply this knowledge to the development of a health promotion initiative. ",
+        "code": "ULO5"
+      },
+      {
+        "description": "Critically analyse some health promotion programs and projects in terms of their application of theories and practices of contemporary health promotion.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Examine and form opinions about academic writings on the process and application of an evidence-based approach to health promotion initiatives. ",
+        "code": "ULO6"
+      },
+      {
+        "description": "Discuss and make informed opinions about some of the social, cultural, economic and political factors that may influence health promotion initiatives nationally and internationally. ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Summarise key theories of contemporary health promotion and their connection to health determinants. ",
+        "code": "ULO2"
+      },
+      {
+        "description": "Gain some insights into the rapidly evolving nature of health promotion globally and the effect on health promotion practitioners, with an emphasis on working in teams, across sectors and incorporating continuous flexible learning practices. ",
+        "code": "ULO7"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Research for essay",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Allocated Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "HLTH310",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above including HLTH200 or HLTH2000) or 130cp and admission to BHumanSc",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "35",
+        "description": "Essay of 1800 words on a health promotion topic.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "45",
+        "description": "2 hour exam (plus 10 mins reading time)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Work Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "This assessment is the end-product (an in-class presentation) of a small group project which gives students an opportunity to implement core content from the course. The group is to plan, develop and design one assigned aspect of a health promotion initiative and present this to the class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Individual Reflection Report",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "10",
+        "description": "This individual report is to provide students with an opportunity to reflect on the role they had to adopt in the small group project in addressing the topic and the assigned approach. The report should include comment on the health promotion issue and the experience of doing the group project.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "HLTH3100-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HLTH3100"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "HLTH3100-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HLTH3100"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "HLTH3100 - Health Promotion",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students with an overview of the theories, practices and frameworks of health promotion as a planned approach to the improvement of health in population groups. It focuses on both local and global health promotion issues. The unit aims to increase students&#39; understanding of the determinants of health and how these impact on the planning, implementation and evaluation of health promotion initiatives. The teaching approach facilitates a systematic approach to health promotion initiatives. The unit uses a mixture of academic texts, case studies, scenarios and reflective learning practices to immerse students in the study of modern health promotion and disease prevention and reduction practices. While designed primarily for health studies students, the unit is also suitable for students from other programs who may be interested the social, economic, political and geographic aspects of this fundamental area of human health endeavours.",
+    "search_title": "HLTH3100 - Health Promotion",
+    "code": "HLTH3100",
+    "title": "Health Promotion",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides students with an overview of the theories, practices and frameworks of health promotion as a planned approach to the improvement of health in population groups. It focuses on both local and global health promotion issues. The unit aims to increase students&#39; understanding of the determinants of health and how these impact on the planning, implementation and evaluation of health promotion initiatives. The teaching approach facilitates a systematic approach to health promotion initiatives. The unit uses a mixture of academic texts, case studies, scenarios and reflective learning practices to immerse students in the study of modern health promotion and disease prevention and reduction practices. While designed primarily for health studies students, the unit is also suitable for students from other programs who may be interested the social, economic, political and geographic aspects of this fundamental area of human health endeavours.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-08T09:49:53.289",
+  "code": "HLTH3100",
+  "title": "Health Promotion",
+  "implementationYear": "2021"
+}

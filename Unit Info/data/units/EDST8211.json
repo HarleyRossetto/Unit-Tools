@@ -1,0 +1,226 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Integrate technology across History and Geography.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate research informed knowledge and understanding of the syllabus content and requirements of the NSW Syllabus: History and Geography.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically reflect on the conceptual difficulties of teaching students about Aboriginal and Torres Strait Islander histories, cultures and languages.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Undertake a critical evaluation of key issues relating to the teaching for History and Geography in Primary years.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Implement teaching strategies informed by critical review of literature that develop students' knowledge of diverse cultures and communities, including Aboriginal and Torres Strait Islander histories, cultures and languages, and Asia and Australia's engagement with Asia.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critique (or reflect on) one's professional practice and that of their peers.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Analyse and apply content and pedagogical knowledge to design effective learning experiences and meet curriculum and assessment requirements.",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will be expected to complete the set readings for weekly workshop and lecture. These are crucial for professional development",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "EDST8206",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "EDST8204 and EDST8207",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Learning from Country",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "50",
+        "description": "Draw on a range of texts to define the concepts of Country and Learning from Country for Stage 3 students. Design a Learning from Country task that would require students K-6 to collect, analyse and present data to their class. Explain how learning from Country helps to avoid some of the dilemmas of representation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Representing other cultures in the classroom",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "45",
+        "description": "Write a critical evaluation of one of our most highly valued methods of teaching about other cultures - teaching children to understand others through empathy. Your evaluation must be based in the body of research literature, and you need to carefully consider issues around teaching difficult histories",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "ASSET Survey",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "5",
+        "description": "The 5 part ASSET will provide the Department of Educational Studies with a detailed understanding of our students and their experiences; including, who they are, their attitudes and beliefs about education, and how prepared they feel to work as teachers. In addition, as part of the registration of the Department of Educational Studies teacher preparation programs with the NSW Education Standards Authority, we are specifically required to collect impact data on programs. The proposed annual survey will serve the purpose of providing part of these mandatory data. Further, it will provide the Department of Educational Studies with valuable information to revise and improve the programs offered to students. Finally, you may elect to make your de-identified data available to researchers in the Department if you choose.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8211"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8211"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8211"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Infrequent attendance, North Ryde<br />",
+    "subject_search_title": "EDST8211 - Professional Practice 2: Teaching Human Society and its Environment in the Primary School",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This Professional Experience unit will help prepare initial teacher education students for classroom teaching. Effective practice in any subject area is culturally sensitive and inclusive. Students learn more effectively when their teachers know them and how they learn. This unit develops teacher education students&#39; ability to critically review and apply pedagogical content knowledge relating to the Australian curriculum and related syllabus documents with the focus on research-informed teaching about people and places in the History and Geography syllabuses. It requires them to synthesise current research regarding quality classroom practice to analyse and evaluate how they will teach the key concepts and skills of History and Geography in K-6 classrooms, including Aboriginal and Torres Strait Islander histories and cultures, and Asia and Australia&#39;s engagement with Asia without perpetuating stereotypes and generalisations. This unit incorporates a professional experience placement in a primary school where initial teacher education students will implement their knowledge of learning and teaching in a primary school context.",
+    "search_title": "EDST8211 - Professional Practice 2: Teaching Human Society and its Environment in the Primary School",
+    "code": "EDST8211",
+    "title": "Professional Practice 2: Teaching Human Society and its Environment in the Primary School",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This Professional Experience unit will help prepare initial teacher education students for classroom teaching. Effective practice in any subject area is culturally sensitive and inclusive. Students learn more effectively when their teachers know them and how they learn. This unit develops teacher education students&#39; ability to critically review and apply pedagogical content knowledge relating to the Australian curriculum and related syllabus documents with the focus on research-informed teaching about people and places in the History and Geography syllabuses. It requires them to synthesise current research regarding quality classroom practice to analyse and evaluate how they will teach the key concepts and skills of History and Geography in K-6 classrooms, including Aboriginal and Torres Strait Islander histories and cultures, and Asia and Australia&#39;s engagement with Asia without perpetuating stereotypes and generalisations. This unit incorporates a professional experience placement in a primary school where initial teacher education students will implement their knowledge of learning and teaching in a primary school context.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:47:10.151",
+  "code": "EDST8211",
+  "title": "Professional Practice 2: Teaching Human Society and its Environment in the Primary School",
+  "implementationYear": "2021"
+}

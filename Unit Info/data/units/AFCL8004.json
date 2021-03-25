@@ -1,0 +1,148 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MAppFin(Beijing) and (AFCL801 or AFCL8001)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECFS867, ECFL867",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [
+      {
+        "academic_item_code": "AFCL8004",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: AFCL8004"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: AFCP8004"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Financial Instruments",
+                "academic_item_code": "AFCP8004",
+                "academic_item_url": "/2020/units/AFCP8004"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "AFC September-Weekday-Beijing",
+        "teaching_period": {
+          "value": "AFC September"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCL8004"
+        }
+      }
+    ],
+    "unit_offering_text": "AFC September, Weekday attendance, Beijing<br />",
+    "subject_search_title": "AFCL8004 - Financial Instruments",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers the structure, pricing and usage of various financial instruments, including spot, forward, swaps and option contracts for equity, debt, foreign exchange and commodity markets. This unit is concerned with understanding how these financial instruments work, how they are used by end users for speculation and risk management, how they are priced and valued, and how market makers manage their risks when they trade these financial instruments.",
+    "search_title": "AFCL8004 - Financial Instruments",
+    "code": "AFCL8004",
+    "title": "Financial Instruments",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit covers the structure, pricing and usage of various financial instruments, including spot, forward, swaps and option contracts for equity, debt, foreign exchange and commodity markets. This unit is concerned with understanding how these financial instruments work, how they are used by end users for speculation and risk management, how they are priced and valued, and how market makers manage their risks when they trade these financial instruments.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T14:59:55.378",
+  "code": "AFCL8004",
+  "title": "Financial Instruments",
+  "implementationYear": "2021"
+}

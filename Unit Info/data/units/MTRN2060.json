@@ -1,0 +1,225 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate theoretical and practical understanding of a modern micro-controller",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply creativity and initiative in building self-directed mechatronic systems.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate practical use and theoretical understanding of electromechanics and small DC motors.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate theoretical and practical use of a variety of sensors, actuators, and appropriate interfacing electronics.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate a qualitative understanding of system response, including 2nd order systems.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "ELEC260",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "((PHYS1510 or PHYS140) or ((PHYS1020 or PHYS106) and (PHYS1010 or PHYS107))) and (MATH1020 or MATH1025 or MATH136 or MATH133)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Quizes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "16",
+        "description": "Weekly online quizzes can be taken outside of class and can be attempted multiple times. A delay between attempts may be imposed to encourage students to attempt the quiz before lecture.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Self Directed Practical Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "7",
+        "description": "In the final two weeks of term you will complete and present a mechatronic project of your own design.  The rubric for this task will be posted on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Sensor Data Analysis",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "2",
+        "description": "students will be given raw data from an accelerometer and asked to analyze the data.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Practical Tasks",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "40",
+        "description": "You will complete small projects in practical sessions with guidance provided by worksheets. Completion of the tasks during the allocated on-campus time will require significant preparation at home using the required electronics equipment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "35",
+        "description": "2 hour closed book exam. You will be permitted to bring one, double sided sheet of hand written notes and a calculator. No other formulas will be given during the exam.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MTRN2060"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MTRN2060"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MTRN2060 - Introduction to Mechatronics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "School of Engineering"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces the basic components of mechatronic systems including sensors, actuators, decision-making components and the electronics that connect them.  It details how these individual components work, and how they are integrated into simple systems. This process empowers students to be engineers and makers who see how instrumentation and automation surround us and enable modern life. The unit builds on foundations in electricity, mechanics, and programming and asks participants to learn how sensors and actuators work (physics), how they interact (signals), and how they behave (system response). The unit is essential for further study in the field of mechatronic engineering, where the simple systems examined and experimented with here are built into complex automated electromechanical machines.",
+    "search_title": "MTRN2060 - Introduction to Mechatronics",
+    "code": "MTRN2060",
+    "title": "Introduction to Mechatronics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces the basic components of mechatronic systems including sensors, actuators, decision-making components and the electronics that connect them.  It details how these individual components work, and how they are integrated into simple systems. This process empowers students to be engineers and makers who see how instrumentation and automation surround us and enable modern life. The unit builds on foundations in electricity, mechanics, and programming and asks participants to learn how sensors and actuators work (physics), how they interact (signals), and how they behave (system response). The unit is essential for further study in the field of mechatronic engineering, where the simple systems examined and experimented with here are built into complex automated electromechanical machines.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:09:45.663",
+  "code": "MTRN2060",
+  "title": "Introduction to Mechatronics",
+  "implementationYear": "2021"
+}

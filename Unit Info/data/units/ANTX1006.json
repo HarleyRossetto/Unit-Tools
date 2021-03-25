@@ -1,0 +1,224 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe the physical, psychological and social aspects of addiction.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Show familiarity with anthropological and ethnographic approaches to drug use, including the ritual and symbolic aspects of drug use.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify the influence of local, regional, and global factors on drug production and distribution.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply anthropological knowledge to real world issues and clarify your own position on drugs to be able to make informed decisions about drug policy.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Describe the impact of broad social, political, and economic forces on drug use and on social perceptions of drugs, including how social perceptions of drugs are influenced by gender, class, and ethnicity.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate a basic understanding of the pharmacology of recreational drugs.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings supplement the lectures and are assessed in the weekly quizzes and final exam",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ANT110, ANTH106, ANTX106",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Weekly Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "Weekly quizzes based on lecture materials and weekly readings. They are completed through iLearn and they are open-note and open-book. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "A final exam will assess cumulative knowledge of lectures, readings and films from the entire semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-Semester Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "An open-note, online, mid-term quiz will assess comprehensive knowledge of lectures and readings for the first half of the semester",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ANTX1006",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ANTX1006"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ANTH1006"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Drugs Across Cultures",
+                "academic_item_code": "ANTH1006",
+                "academic_item_url": "/2020/units/ANTH1006"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ANTX1006-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTX1006"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "ANTX1006 - Drugs Across Cultures",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Using anthropological and ethnographic studies, this unit focuses mainly on the social and cultural contexts of drug use, both legal and illegal. Topics include: the international traffic in opium/heroin and cocaine in the Golden Triangle of mainland South-East Asia and in South America and the way this traffic inter-meshes with regional politics and local tribal, peasant and commercial systems of production and exchange; the social history of drugs in the USA, UK and Australia; youth culture and drugs in the West; AIDS and intravenous drug use; addiction and treatment; drugs and the law; the global political economy of pharmaceuticals, particularly contraceptives, erectile dysfunction drugs, and antiretrovirals in the age of AIDS; and the placebo effect. Students will learn to appreciate the complex ways that drug use is shaped by cultural, historical, economic, and political factors on a global scale. This unit also examines psychological theories of addiction and the neurology of drug use. All enrolment queries should be directed to Open Universities Australia (OUA): see www.open.edu.au",
+    "search_title": "ANTX1006 - Drugs Across Cultures",
+    "code": "ANTX1006",
+    "title": "Drugs Across Cultures",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Using anthropological and ethnographic studies, this unit focuses mainly on the social and cultural contexts of drug use, both legal and illegal. Topics include: the international traffic in opium/heroin and cocaine in the Golden Triangle of mainland South-East Asia and in South America and the way this traffic inter-meshes with regional politics and local tribal, peasant and commercial systems of production and exchange; the social history of drugs in the USA, UK and Australia; youth culture and drugs in the West; AIDS and intravenous drug use; addiction and treatment; drugs and the law; the global political economy of pharmaceuticals, particularly contraceptives, erectile dysfunction drugs, and antiretrovirals in the age of AIDS; and the placebo effect. Students will learn to appreciate the complex ways that drug use is shaped by cultural, historical, economic, and political factors on a global scale. This unit also examines psychological theories of addiction and the neurology of drug use. All enrolment queries should be directed to Open Universities Australia (OUA): see www.open.edu.au",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T11:47:13.676",
+  "code": "ANTX1006",
+  "title": "Drugs Across Cultures",
+  "implementationYear": "2021"
+}

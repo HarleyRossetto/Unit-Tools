@@ -1,0 +1,249 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Produce and deliver a persuasive and critical analysis in reflective writing and oral presentation for cases/issues related to global business strategy, both individually and in a team",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate and synthesise a variety of theoretical concepts and principles and critically apply them to solve key strategic problems and issues in global business",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop an advanced understanding of the key theoretical principles and concepts in strategic management and their implications for international business",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Student should spend 1 hr on preparing and reviewing weekly lecture content",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Student should spend 1.5 hr per week (except for week 1) on doing some additional research ",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Weekly readings and online resources are provided on iLearn, and students are expected to spend 2 hours per week on these readings and online resources",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "20cp at 2000 level or above including BUS202 or MGMT2002",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "10cp from BUS or BBA or MGMT units at 3000 level",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "BUS301",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Problem Solving Analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "Multiple case studies of up to 2,500 words worth 40%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "An essay of up to 2,000 words worth 30%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": " A group presentation up to 45 minutes based on a group case study worth 30%. 15% of the mark is allocated to individual performance, and 15% as a group mark.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT3001-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT3001-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT3001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT3001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3001"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MGMT3001 - Global Business Strategy",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces a set of strategic management concepts and ideas to examine the key business policy decisions in managing an international business including: sources of competitive advantage in international competition; foreign market expansion strategies; international strategic alliances; global competitive dynamics; product and geographic diversification strategies; multinational organisational structures; and international corporate governance systems. By the end of the unit students should have an advanced understanding of the principles of developing a strategy for an international business as well the key factors that the firm must consider in respect of its external environment. Students are expected to critically apply the theoretical principles and concepts developed in this unit to solve real-world business problems through the use of the latest case studies, class debates/discussions, and presentations throughout the semester.",
+    "search_title": "MGMT3001 - Global Business Strategy",
+    "code": "MGMT3001",
+    "title": "Global Business Strategy",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces a set of strategic management concepts and ideas to examine the key business policy decisions in managing an international business including: sources of competitive advantage in international competition; foreign market expansion strategies; international strategic alliances; global competitive dynamics; product and geographic diversification strategies; multinational organisational structures; and international corporate governance systems. By the end of the unit students should have an advanced understanding of the principles of developing a strategy for an international business as well the key factors that the firm must consider in respect of its external environment. Students are expected to critically apply the theoretical principles and concepts developed in this unit to solve real-world business problems through the use of the latest case studies, class debates/discussions, and presentations throughout the semester.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-08T16:00:23.22",
+  "code": "MGMT3001",
+  "title": "Global Business Strategy",
+  "implementationYear": "2021"
+}

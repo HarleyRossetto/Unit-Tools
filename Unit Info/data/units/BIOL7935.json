@@ -1,0 +1,221 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically review the written work of others to a professional standard",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate mastery of bibliographic database software.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate and synthesise the current state of knowledge in a topic at the forefront of biological research.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify a knowledge gap in the field, explain its importance and present a case for addressing it.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BIOL799",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Literature review outline",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "10",
+        "description": "Students will meet and discuss with their supervisor a structure and outline for their literature review. Students will provide an outline of their lit review, presented as a brief, annotated table of contents that lists the major sections for their review and the information to be covered.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Peer review of literature review",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "20",
+        "description": "Students are to provide detailed written feedback and comments on the draft literature reviews of their peers.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Literature review",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "40",
+        "description": "Students are to complete a literature review based on the broad topic that they expect to research in year 2 of the MRes. The review topic will identify knowledge gaps that could be addressed in the context of MRes or PhD research. Students are to engage with their supervisor through regular meetings and explore the structure and content of the review.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Peer review of professional work",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "20",
+        "description": "Students will be provided with a relevant piece of scientific writing and they are to provide detailed written feedback and comments on the work. A relevant piece of scientific writing will be provided and approved by the student&#39;s supervisor and the unit convenor. It should be a final draft / submission ready - grant, paper, PhD thesis chapter, or MRes thesis relevant to the student&#39;s area of research interest. The authors, supervisor, and/or convenor should provide the student with the evaluation criteria and any special focus area prior review.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Annotated bibliography",
+        "type": {
+          "label": "Annotated bibliography",
+          "value": "annotated_bibliography"
+        },
+        "weight": "10",
+        "description": "Students will provide an annotated bibliography. The bibliography should be prepared using a referencing database program such as Mendeley or Endnote. For each paper you should include a short description of the relevance of the paper to your review. The bibliography must be submitted as a database file containing your annotated references.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL7935"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL7935"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "BIOL7935 - Advanced Research Topics in Biology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The aim of this unit is to search, read and critically review the available scientific literature across a broad range of fields within biological sciences at an advanced level. The topics are to be decided by the student in consultation with a mentor from the Department of Biological Sciences. All students undertake independent literature research, with regular contact with their topic mentor either in person or via e-mail. Students will need to take responsibility for organising their workload throughout the semester. This unit encourages students to directly interact with research active academic staff, postdoctoral researchers and PhD students within the department and to explore the most current and controversial issues in biological sciences.",
+    "search_title": "BIOL7935 - Advanced Research Topics in Biology",
+    "code": "BIOL7935",
+    "title": "Advanced Research Topics in Biology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The aim of this unit is to search, read and critically review the available scientific literature across a broad range of fields within biological sciences at an advanced level. The topics are to be decided by the student in consultation with a mentor from the Department of Biological Sciences. All students undertake independent literature research, with regular contact with their topic mentor either in person or via e-mail. Students will need to take responsibility for organising their workload throughout the semester. This unit encourages students to directly interact with research active academic staff, postdoctoral researchers and PhD students within the department and to explore the most current and controversial issues in biological sciences.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:41:14.37",
+  "code": "BIOL7935",
+  "title": "Advanced Research Topics in Biology",
+  "implementationYear": "2021"
+}

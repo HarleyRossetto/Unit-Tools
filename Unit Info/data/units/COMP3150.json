@@ -1,0 +1,293 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply the agile development process (prototyping and playtesting) to a semester-long video game design and development project",
+        "code": "ULO1"
+      },
+      {
+        "description": "Communicate the elements of a game design to a variety of audiences in both oral and written form.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate your own performance through self-reflection.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Contribute to a self-managing team and practise shared accountability to deliver on agreed milestones.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Conduct user research to evaluate game prototypes and find areas for improvement",
+        "code": "ULO6"
+      },
+      {
+        "description": "Independently reflect on and research game design and development roadblocks in order to overcome production challenges with creative solutions",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above including COMP2150 or COMP260",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "COMP352",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Pitch",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "5",
+        "description": "Give a 10 minute group presentation to pitch your idea to an audience of industry professionals and take feedback &amp; criticism.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final game",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "10",
+        "description": "Final game demonstrated to industry representatives. Mark is determined by these representatives.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Milestones ",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "24",
+        "description": "A series of milestone reports describing allocation of tasks to individual team members and reporting on your progress both as individuals and as a teams.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Playtesting report",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "10",
+        "description": "A report describing the outcomes of the playtesting process and how the results influenced the design.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Post-mortem",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "A reflective report describing what went well and what went badly in both the final game design and in the process of working as a team.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Design Document",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "15",
+        "description": "A report thoroughly describing of the final game mechanics of the game, justified in terms of the effect they are intended to achieve.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Design Plan",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "5",
+        "description": "Write a design plan that iterates on your pitch, incorporating feedback from industry, and also including details of how you plan to work together as a group to achieve your vision.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Elevator Pitch",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "6",
+        "description": "Pitch a novel game idea to the class in a 2 minute oral presentation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Playtesting plan",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "5",
+        "description": "A report describing your plans for the playtests you intend to conduct on your game.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "COMP3150-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP3150"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "COMP3150-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP3150"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "COMP3150 - Games Project A",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Students will work in groups to create a videogame using a commercial-level game engine. This will enable them to apply their previously acquired skills in videogame design and implementation to a substantial project. Teams will be expected to develop their own concept for the game. This will require creative design, the production of supporting documentation, quality control, and other associated skills and concepts. Teams will be expected to produce a compelling game proposal and meet regular agreed milestones as well as producing game documentation and giving a final presentation.",
+    "search_title": "COMP3150 - Games Project A",
+    "code": "COMP3150",
+    "title": "Games Project A",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Students will work in groups to create a videogame using a commercial-level game engine. This will enable them to apply their previously acquired skills in videogame design and implementation to a substantial project. Teams will be expected to develop their own concept for the game. This will require creative design, the production of supporting documentation, quality control, and other associated skills and concepts. Teams will be expected to produce a compelling game proposal and meet regular agreed milestones as well as producing game documentation and giving a final presentation.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-28T09:06:43.083",
+  "code": "COMP3150",
+  "title": "Games Project A",
+  "implementationYear": "2021"
+}

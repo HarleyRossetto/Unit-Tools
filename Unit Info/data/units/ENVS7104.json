@@ -1,0 +1,207 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "analyse, question, and synthesise knowledge about climate change from a range of sources",
+        "code": "ULO1"
+      },
+      {
+        "description": "confidently communicate and convey opinions on climate change mitigation and adaptation strategies in forms appropriate to different audiences",
+        "code": "ULO5"
+      },
+      {
+        "description": "demonstrate an understanding of and effectively manage uncertainty in scientific data and complexity with respect to current climate change",
+        "code": "ULO3"
+      },
+      {
+        "description": "identify the impacts from climate change on the environment, energy, economy and health",
+        "code": "ULO4"
+      },
+      {
+        "description": "research, interpret, and assess data on climate change and drawing connections across fields of knowledge",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Accessing online resources beforeo each lecture and tutorial",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Background reading throughout the course",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {},
+        "offerings": ""
+      },
+      {
+        "description": "Going through lecture notes before each class",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CLIM804, ENVS804, ENVS704",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Multiple quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Online quizzes at set points through the semester, assessing comprehension of knowledge aspects of the unit",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical report and discussion",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Short practical report combining and interpreting the results of several practical aspects of the unit",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Climate Change Mitigation/Adaptation Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Essay to discuss mitigation/adaptation strategies for climate change impact (e.g. heat, wave, drought, storm, bushfire, flood)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ENVS7104-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENVS7104"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "ENVS7104 - Climate Change and Adaptation",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Earth and Environmental Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Global climate change is one of the important issues facing humanity in the 21st century; the ability to mitigate or adapt to projected climate changes depends on developing an integrated perspective on the physical, biological, biogeochemical, socio-economic and cultural factors that influence the climate system. This unit focuses on the scientific framework for understanding  climate change, and covers (a) the multiple drivers of climate change, (b) the role of physical and biogeochemical feedbacks in the climate system, (c) climate change projections, (d) impacts from anthropogenic climate change including those from extreme events and (e) the principles of mitigation and adaptation of climate change and how they are performed under national and international context. It will provide students with the background to critically evaluate current understanding of the complex interactions that determine climate trajectories, the reliability of the tools used to make climate-impact projections and the effectiveness of various mitigation and adaptation strategies.",
+    "search_title": "ENVS7104 - Climate Change and Adaptation",
+    "code": "ENVS7104",
+    "title": "Climate Change and Adaptation",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Global climate change is one of the important issues facing humanity in the 21st century; the ability to mitigate or adapt to projected climate changes depends on developing an integrated perspective on the physical, biological, biogeochemical, socio-economic and cultural factors that influence the climate system. This unit focuses on the scientific framework for understanding  climate change, and covers (a) the multiple drivers of climate change, (b) the role of physical and biogeochemical feedbacks in the climate system, (c) climate change projections, (d) impacts from anthropogenic climate change including those from extreme events and (e) the principles of mitigation and adaptation of climate change and how they are performed under national and international context. It will provide students with the background to critically evaluate current understanding of the complex interactions that determine climate trajectories, the reliability of the tools used to make climate-impact projections and the effectiveness of various mitigation and adaptation strategies.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-03T14:19:23.883",
+  "code": "ENVS7104",
+  "title": "Climate Change and Adaptation",
+  "implementationYear": "2021"
+}

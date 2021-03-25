@@ -1,0 +1,205 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply Portfolio Management concepts in the context of IT strategic management",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse and Develop an effective business case for IT and business related projects.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Evaluate and explain the strategic thinking used in the development of an IT portfolio of projects.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply IT leadership focusing on integrating strategy, IT governance, realization of business value and metrics.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "ITEC844",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "ITEC602 or COMP6770",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "22",
+        "description": "Companies see value in data we may have not considered important in the past. You will explore the notion of how companies tap into the use of Big Data and more importantly how this is strategically project managed.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "In Class Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "8",
+        "description": "Based on your 8 weeks involvement with the tutorial - Weeks 4 - 11",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "The assessment task is to write a 2000 word report regarding the importance of strategically managing multiple projects for one organisation. You will use scholarly references that will address the issue(s) Refer to ilearn for the details of the assessment)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A three hour examination covering all the material over the semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "COMP8790-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP8790"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "COMP8790-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP8790"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "COMP8790 - Strategic Project Management",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit builds upon the foundations laid by introductory units to provide students with a more thorough understanding of the strategic, infrastructural and socio-technical aspects of project management. At one level, this unit is intended as a training ground for participants who wish to extend their existing ICT project planning and management skills in the more technical aspects of disciplines such as strategic planning, capital budgeting, risk analysis and post-implementation review. At another, we examine the political and organisational context into which this discipline fits, with a view to equipping candidates with the background required to make the transition into a project-sponsorship role.",
+    "search_title": "COMP8790 - Strategic Project Management",
+    "code": "COMP8790",
+    "title": "Strategic Project Management",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit builds upon the foundations laid by introductory units to provide students with a more thorough understanding of the strategic, infrastructural and socio-technical aspects of project management. At one level, this unit is intended as a training ground for participants who wish to extend their existing ICT project planning and management skills in the more technical aspects of disciplines such as strategic planning, capital budgeting, risk analysis and post-implementation review. At another, we examine the political and organisational context into which this discipline fits, with a view to equipping candidates with the background required to make the transition into a project-sponsorship role.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-03T09:48:53.73",
+  "code": "COMP8790",
+  "title": "Strategic Project Management",
+  "implementationYear": "2021"
+}

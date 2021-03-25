@@ -1,0 +1,347 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Produce written and multimodal texts appropriate to the purpose and audience in accordance with academic, disciplinary and professional communication conventions",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically gather, read, interpret, evaluate and synthesise information and ideas from appropriate sources",
+        "code": "ULO2"
+      },
+      {
+        "description": "Reflect on learning experience to inform future academic, disciplinary and professional practice",
+        "code": "ULO5"
+      },
+      {
+        "description": "Understand the basic grammatical foundations of clear academic and professional communication",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate acceptable academic practices, behaviours and values (academic integrity) in the completion of assessment tasks and other learning activities",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading unit material, textbook and research material",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Completion of online practice quizzes",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparing for Tutorials and lecture vlogs",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ACBE100, ACSC100, ACSH100, CAPP100, WACB100, WACS100, WACH100",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "E-portfolio and Online Tasks",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "30",
+        "description": "The E-portfolio and online tasks consist of three components which students will complete online. These include practice quizzes, a set of blogs and one final reflection. The assessment aims to test students’ understanding of and engagement with the concepts of the unit. It will run over the entire semester, culminating in each student publishing an e-portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research News Page (Part B)",
+        "type": {
+          "label": "Non-academic writing",
+          "value": "Non_academic_writing"
+        },
+        "weight": "15",
+        "description": "Part B requires students to rewrite some aspects of the research that were written up in Integrative Summary into a News Page for a public audience. The News Page, while still formal and making reference to the literature will use more relaxed language than the Integrative Summary, which was written for an academic audience. Three (3) sources to be used. (500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Integrative Summary",
+        "type": {
+          "label": "Summary",
+          "value": "summary"
+        },
+        "weight": "20",
+        "description": "The Integrative Summary builds on the information from an annotation completed in an earlier tutorial class. The Integrative Summary will describe and discuss two sources relevant to the assigned social inclusion issue. It will summarise and integrate the salient arguments and supporting evidence to present the key knowledge relevant to the issue. Such knowledge may include descriptions, statistics, perspectives (e.g. opposing theories for approaching the issue), related programs (and their impact) and general discussion of the core issue. Students are required to reference at the two (2) sources and demonstrate the ability to synthesise information and varying perspectives on a certain aspect of the social inclusion issue. (800 words) This assessment will also require students to write a reflective blog once feedback for the integrative summary has been received.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Persuasive Essay (Part A)",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "20",
+        "description": "The Persuasive essay will require students to develop a thesis and argue a response to a given quote related to their social inclusion topic. Students need to correctly reference relevant evidence to support each argument before reiterating and reinforcing the thesis through a summary of salient arguments. Students are required to reference at least five (5) sources and demonstrate the ability to synthesise information and views from a variety of perspectives to produce a coherent, well-supported recommendation. (1200 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Grammar Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "The grammar quiz is an online randomised grammar quiz that tests knowledge of basic grammatical constituency. The quiz will be open for 1 week and will take 1 hour to complete once it has been begun. To prepare for this quiz, students should participate in the online practice quizzes provided on the learn site. These practice quizzes can be attempted as many times as the student feels is necessary with no marks penalty.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ACOM1001",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ACOM1001"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ACOM1002"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Academic Communication in Science",
+                "academic_item_code": "ACOM1002",
+                "academic_item_url": "/2020/units/ACOM1002"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: ACOM1003"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Academic Communication in Business and Economics",
+                "academic_item_code": "ACOM1003",
+                "academic_item_url": "/2020/units/ACOM1003"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACOM1001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACOM1001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACOM1001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACOM1001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACOM1001-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACOM1001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACOM1001-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACOM1001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACOM1001-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACOM1001"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACOM1001 - Academic Communication in the Social Sciences and Humanities",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to support students in their transition to university by enabling them to understand and achieve standards of performance required in an academic environment. The unit provides a three-level focus which is initiated by supporting the development of academic practices, behaviours and values. Secondly, it fosters a level of familiarity with the disciplinary language, texts and conventions used when studying in programs offered by the Faculty of Arts and Faculty of Medicine, Health and Human Sciences. Finally, it raises an awareness of the diverse perspectives offered by disciplines and the different contributions they can make to solving problems and addressing issues of concern in contemporary society. Learning and assessment activities are designed to build the capacity for independent and collaborative approaches to learning. Students are guided to develop their capacity for reading, thinking and expressing ideas effectively and critically.",
+    "search_title": "ACOM1001 - Academic Communication in the Social Sciences and Humanities",
+    "code": "ACOM1001",
+    "title": "Academic Communication in the Social Sciences and Humanities",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to support students in their transition to university by enabling them to understand and achieve standards of performance required in an academic environment. The unit provides a three-level focus which is initiated by supporting the development of academic practices, behaviours and values. Secondly, it fosters a level of familiarity with the disciplinary language, texts and conventions used when studying in programs offered by the Faculty of Arts and Faculty of Medicine, Health and Human Sciences. Finally, it raises an awareness of the diverse perspectives offered by disciplines and the different contributions they can make to solving problems and addressing issues of concern in contemporary society. Learning and assessment activities are designed to build the capacity for independent and collaborative approaches to learning. Students are guided to develop their capacity for reading, thinking and expressing ideas effectively and critically.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T08:57:53.717",
+  "code": "ACOM1001",
+  "title": "Academic Communication in the Social Sciences and Humanities",
+  "implementationYear": "2021"
+}

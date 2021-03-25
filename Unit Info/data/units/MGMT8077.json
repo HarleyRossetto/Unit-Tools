@@ -1,0 +1,295 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Learn from and engage with audiences of diverse cultural, social and political attitudes and identities to persuade them to come together using a variety of communication techniques.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse and apply rational concepts and methods in a creative process to propose a path out of a current predicament or a solution to a current problem.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critique a variety of speakers and ways of communicating to deliver persuasive messages.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Employ deliberate persuasive strategies to encourage others to change their attitudes toward objective things in the world.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MMgmt and 40cp at 8000 level",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MGSM877, MGNT877",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Oral presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "This assessment is worth 20% in total. It is a 5 minute individual oral presentation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Peer Evaluation",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "10",
+        "description": "This assessment is made up of two components worth 10% in total. It is two individual peer evaluation assessments worth 5% each.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Individual Rhetorical Analysis",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "This assessment is worth 40% in total. It is a 3000 word essay.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Persuasive Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "This assessment is worth 30% in total. It is a 20 minute group presentation plus a 5 minute question and answer session. Each member of the group will be marked individually.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MGMT8077",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.06",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MGMT8077"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MMBA8077"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Rhetoric and Persuasion in Management",
+                "academic_item_code": "MMBA8077",
+                "academic_item_url": "/2020/units/MMBA8077"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT8077-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "60",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8077"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT8077-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8077"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT8077-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8077"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT8077-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8077"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde*<br />Session 2, Weekday attendance, North Ryde*<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MGMT8077 - Learning to be Persuasive",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The ability to communicate persuasively is a key skill of leadership. This unit offers a practical introduction to persuasion theory and persuasive communication and aims to develop in students an applied understanding of the psychology of persuasion and the art of rhetoric. The approach is theoretical and practical. We will explore both classical and contemporary ideas of persuasion with an emphasis on recent social psychological theory and research. Students will also practice critical skills in analysing, organising, information gathering, goal setting, evaluating and public speaking. The focus in this unit is on the co-active preparation and delivery of persuasive messages, on the quality of the argument and the engagement of the audience, rather than on the theatrics of the speaker’s delivery.",
+    "search_title": "MGMT8077 - Learning to be Persuasive",
+    "code": "MGMT8077",
+    "title": "Learning to be Persuasive",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The ability to communicate persuasively is a key skill of leadership. This unit offers a practical introduction to persuasion theory and persuasive communication and aims to develop in students an applied understanding of the psychology of persuasion and the art of rhetoric. The approach is theoretical and practical. We will explore both classical and contemporary ideas of persuasion with an emphasis on recent social psychological theory and research. Students will also practice critical skills in analysing, organising, information gathering, goal setting, evaluating and public speaking. The focus in this unit is on the co-active preparation and delivery of persuasive messages, on the quality of the argument and the engagement of the audience, rather than on the theatrics of the speaker’s delivery.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-11T09:26:33.29",
+  "code": "MGMT8077",
+  "title": "Learning to be Persuasive",
+  "implementationYear": "2021"
+}

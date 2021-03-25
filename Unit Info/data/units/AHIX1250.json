@@ -1,0 +1,179 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "<div>\n<div>Present written work to a high standard, with appropriate use of sources and accurate referencing.</div>\n</div>\n<div> </div>",
+        "code": "ULO5"
+      },
+      {
+        "description": "<div>\n<div>Analyse and critique primary and secondary sources, illustrating basic skills in research, the ability to write effectively, communicate orally and reflect on the learning experience.</div>\n</div>\n<div> </div>",
+        "code": "ULO4"
+      },
+      {
+        "description": "<div>\n<div>Present a clear, coherent, evidence-based description, comparison and analysis an ancient Egyptian artefact.</div>\n</div>\n<div> </div>",
+        "code": "ULO3"
+      },
+      {
+        "description": "<div>\n<div>Acquire knowledge of the geography, chronology and significant developments from the Predynastic to Late Antique periods.</div>\n</div>\n<div> </div>",
+        "code": "ULO1"
+      },
+      {
+        "description": "<div>\n<div>Contextualise and acquire knowledge of archaeological data of Egyptian settlements, tombs, temples and associated material culture from the Predynastic to Late Antique periods from published sources.</div>\n</div>\n<div> </div>",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will draw on online resources such as video lectures and/or a series of short readings. Details will be provided on iLearn.\n",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "As an extension and non-assessable task, each week students will be asked to write a short journal entry (100 words max) reflecting on your learning for the week.\n",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [],
+    "assessments": [
+      {
+        "assessment_title": "Online Quiz - Modules 1-5",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "<div>\n<div>Answer a series of questions on the required weekly video lectures. Complete the quiz using the iLearn quiz tool.</div>\n</div>\n<div> </div>",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Object Study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "45",
+        "description": "<div>\n<div>Short paper on ONE (1) ancient Egyptian artefact from the Macquarie University Museum of Ancient Cultures. Resources including MAC database entry, 3D scans and archaeological illustrations and further reading will be provided on the iLearn site. Guidelines and word limit available in iLearn. Submit via Turnitin.</div>\n</div>\n<div> </div>",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Documentation Exercise",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "<div>\n<div>A short exercise designed to ensure that students are familiar with the desired mode of presenting evidence and documenting an academic paper. Guidelines and word limit available in iLearn. Submit via Turnitin.</div>\n</div>\n<div> </div>",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "AHIX1250-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIX1250"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "AHIX1250 - Ancient Egyptian and Near Eastern Archaeology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores the development of ancient Egyptian culture in its Near Eastern context from the Predynastic period to the end of Late Antiquity (ca. 5000 BCE to 1000 CE) as reflected in the archaeological record. The themes studied will deal with both funerary and settlement archaeology and isolate key developments in burials, dwellings, religious buildings and objects of daily use. The unit will draw on the experience of extensive fieldwork by Macquarie University staff in Egypt and the Near East and incorporates object based learning drawing on the Egyptian antiquities collection in the Macquarie University History Museum. Students will gain a solid understanding of the geography, chronology and archaeology of the ancient Egyptian culture, which will be contextualised within developments in the wider region of the Near East, as well as an understanding of the key problems and controversial areas of interpretation as a basis for further specialised study in the discipline.",
+    "search_title": "AHIX1250 - Ancient Egyptian and Near Eastern Archaeology",
+    "code": "AHIX1250",
+    "title": "Ancient Egyptian and Near Eastern Archaeology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores the development of ancient Egyptian culture in its Near Eastern context from the Predynastic period to the end of Late Antiquity (ca. 5000 BCE to 1000 CE) as reflected in the archaeological record. The themes studied will deal with both funerary and settlement archaeology and isolate key developments in burials, dwellings, religious buildings and objects of daily use. The unit will draw on the experience of extensive fieldwork by Macquarie University staff in Egypt and the Near East and incorporates object based learning drawing on the Egyptian antiquities collection in the Macquarie University History Museum. Students will gain a solid understanding of the geography, chronology and archaeology of the ancient Egyptian culture, which will be contextualised within developments in the wider region of the Near East, as well as an understanding of the key problems and controversial areas of interpretation as a basis for further specialised study in the discipline.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T11:16:34.493",
+  "code": "AHIX1250",
+  "title": "Ancient Egyptian and Near Eastern Archaeology",
+  "implementationYear": "2021"
+}

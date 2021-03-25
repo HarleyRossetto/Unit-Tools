@@ -1,0 +1,231 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Build up a range of networking skills, communication skills and collaboration with other professionals involved with children and families.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Engage ethically with families and other community stakeholders in decision making and advocacy work that promotes children's rights.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Promote continuous professional learning for themselves and their team as lifelong learners.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Examine the role of communication within early childhood centres when working with parents, peers and other professionals.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Strengthen their knowledge and critically reflective skills in applying professional standards as early childhood centre directors.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Explain the theoretical underpinnings and national policies that guide the work of today's early childhood centre directors.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "unit readings (and additional optional reading) related to weekly lecture and tutorial content",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECH435",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(ECH315 OR ECHE3150 and admission to (BTeach(ECE))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Leadership Profile",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "35",
+        "description": "This assessment task is a leadership case study. The leadership profile involves interviewing an educational leader and writing a profile of that person with a focus on their experience of educational leadership.(Leadership Profile 1200 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Business Communication",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "35",
+        "description": "Prepare an advocacy plan",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Educational Leadership Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "In this essay you will be required to demonstrate your understanding of the concept of educational (or pedagogical) leadership. You will have a choice of questions which will allow you to focus on either early childhood or school settings. (2000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "EDST3160",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: EDST3160"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ECHE4350"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Management and Leadership II: Building Learning Environments",
+                "academic_item_code": "ECHE4350",
+                "academic_item_url": "/2020/units/ECHE4350"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDST3160-unit_teaching_period",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST3160"
+        }
+      }
+    ],
+    "unit_offering_text": "2022<br />",
+    "subject_search_title": "EDST3160 - Working as Early Childhood Centre Directors",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines the work of early childhood centre directors in contemporary organisational settings. Building on knowledge and skills developed in ECH315, organisational practices in early childhood centres are considered in greater depth. Students learn about leading and managing in the pursuit of quality improvement, equity and justice for children and families from diverse backgrounds. This includes strategic planning, quality accreditation; strategies for collaborating with families and professionals; consideration of budgets and business planning; a focus on staff&#39; well-being, and advocacy work. Central to this unit is an understanding of the crucial role of ethical code of conduct, social justice and effective communication in leading and managing early childhood settings.",
+    "search_title": "EDST3160 - Working as Early Childhood Centre Directors",
+    "code": "EDST3160",
+    "title": "Working as Early Childhood Centre Directors",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines the work of early childhood centre directors in contemporary organisational settings. Building on knowledge and skills developed in ECH315, organisational practices in early childhood centres are considered in greater depth. Students learn about leading and managing in the pursuit of quality improvement, equity and justice for children and families from diverse backgrounds. This includes strategic planning, quality accreditation; strategies for collaborating with families and professionals; consideration of budgets and business planning; a focus on staff&#39; well-being, and advocacy work. Central to this unit is an understanding of the crucial role of ethical code of conduct, social justice and effective communication in leading and managing early childhood settings.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T15:02:24.249",
+  "code": "EDST3160",
+  "title": "Working as Early Childhood Centre Directors",
+  "implementationYear": "2021"
+}

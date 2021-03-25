@@ -1,0 +1,206 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "analyse and explain sound and creative works, showing critical, analytical and integrative thinking.",
+        "code": "ULO2"
+      },
+      {
+        "description": "demonstrate independent research skills, organisational abilities, and an ability to problem-solve technical and creative issues.",
+        "code": "ULO3"
+      },
+      {
+        "description": "evaluate discipline-specific technical knowledge of digital audio editing and recording.",
+        "code": "ULO1"
+      },
+      {
+        "description": "formulate audio compositions in music software platforms, demonstrating musical creativity and originality.",
+        "code": "ULO4"
+      },
+      {
+        "description": "recognise issues of ethics and copyright in contemporary music production.",
+        "code": "ULO6"
+      },
+      {
+        "description": "appraise and effectively communicate self-reflection of the creative process through writing.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Completing readings and class preparation ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MUS203",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "40cp at 1000 level or above including (MUS 202 or MMCC2020)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Project 1",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "30",
+        "description": "Students will produce an original musical work (2-4 minutes) in the style of their choice. This project should demonstrate an ability to creatively work with audio files, resulting in a coherent musical composition. The project should incorporate production techniques discussed in lectures, including both sampling and recording. Projects will be accompanied by documentation including a project summary and audio/copyright information. All audio material used must be of copyright-permitted or of Creative Commons origins and all collaborators must be acknowledged in the project documentation. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Blog",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "30",
+        "description": "Students will document recording and production processes online, accompanied by independent research, examples of critical listening and analysis of relevant artists’ works. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project 2",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "40",
+        "description": "Building on tutor and peer feedback and skills developed in the previous assessment, as well as new course concepts introduced in the second half of the unit, students will produce an original musical work (3-6 minutes). This project should demonstrate an ability to creatively work with audio files and recording, resulting in a coherent musical composition. The project should incorporate advanced production techniques discussed in the unit. All audio material used must be of copyright-permitted or of Creative Commons origins. Projects will be presented to class. The final mix is to be exported from the project as a stereo wave file and uploaded to a music streaming service such as Soundcloud. Projects will be accompanied by documentation including a project summary and audio/copyright information and a link to the audio file online. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC2033-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC2033"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC2033-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC2033"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MMCC2033 - Music Production: Audio Recording and Mixing",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores the audio-recording and mixing functions of music production. Acoustic recording practices, the virtual mixing desk, plug-ins, effects, and hardware peripherals are introduced. Conceptual and practical issues regarding audio production and recording are covered through lectures and hands-on tutorials. This unit is taught within specialized Music laboratories fully equipped with individual digital audio workstations, MIDI keyboards, microphones, mixers, and a range of recording and production software and hardware. Students will produce original audio works using music production software.",
+    "search_title": "MMCC2033 - Music Production: Audio Recording and Mixing",
+    "code": "MMCC2033",
+    "title": "Music Production: Audio Recording and Mixing",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores the audio-recording and mixing functions of music production. Acoustic recording practices, the virtual mixing desk, plug-ins, effects, and hardware peripherals are introduced. Conceptual and practical issues regarding audio production and recording are covered through lectures and hands-on tutorials. This unit is taught within specialized Music laboratories fully equipped with individual digital audio workstations, MIDI keyboards, microphones, mixers, and a range of recording and production software and hardware. Students will produce original audio works using music production software.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T13:43:03.558",
+  "code": "MMCC2033",
+  "title": "Music Production: Audio Recording and Mixing",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,283 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Display expertise in forecasting environmental challenges that will affect environmental planning law in the future and how to combat these issues whilst balancing competing interests related to economic benefits of land use planning and development.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify, explain and apply the regulatory scheme for planning, development assessment and approval of land use development at federal, state and local levels as the basis for critically analysis of the Environmental Planning and Assessment Act 1979 (NSW) and Environment Protection Biodiversity Conservation Act 1999 (Cth).",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically evaluate how environmental law and policy is politicised across federal, state and local government balance  levels and how the economic aspects and attempts to balance economic and environmental priorities of land use.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Acquire and demonstrate specialized knowledge of the theories, principles and policies underlying planning and development law with particular focus on Ecologically Sustainable Development and environmental justice;",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically analyse the operation of legal review mechanisms relevant to environmental planning law in assessing the effectiveness and accountability of public authorities involved in environmental planning and assessment at all jurisdictional levels",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will spend this time completing the prescribed readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students will spend this time preparing for the designated tasks listed for each tutorial",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LAWS540, LAW861",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(Admission to JD and 80cp in LAW or LAWS units at 6000 level or above) or (admission to LLM or GradCertEnvPlan or MPlan)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Take Home assessment",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "Students will submit responses to questions based on a hypothetical scenario",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflective paper of learning experience",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "Students will write and submit a reflective paper on what they have learnt through the unit",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Analytical Research Essay ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Students will prepare a research essay that analyses a topic relating to environmental planning law",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "LAWS8061",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: LAWS8061"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: LAWS5040"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Environmental Planning Law",
+                "academic_item_code": "LAWS5040",
+                "academic_item_url": "/2020/units/LAWS5040"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LAWS8061-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8061"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8061-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8061"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8061-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8061"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8061-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8061"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "LAWS8061 - Environmental Planning Law",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Almost every use of land from building a family home to infrastructure projects across cities through to coal mining will require some form of legal assessment and approval. The relevant area of law is environmental planning law. This unit examines the intersection of economic, social and environmental issues in the context of land use and law. The focus is on both the natural and built environment in an urban and rural context with particular emphasis on the regulation of land use under the Environmental Planning and Assessment Law 1979 (NSW) and the Environment Protection and Biodiversity Conservation Act 1999 (Cth). The unit provides a detailed analysis of the legal requirements of land use planning instruments, development assessment methods, environmental impact assessment and administrative decision making relating to land use. A critical analysis is undertaken of the effectiveness of the current regulatory regime including reform proposals and options. Discussion and analysis of relevant case law and the functions of the Land and Environment Court in terms of resolving land planning and development issues is covered extensively. ",
+    "search_title": "LAWS8061 - Environmental Planning Law",
+    "code": "LAWS8061",
+    "title": "Environmental Planning Law",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Almost every use of land from building a family home to infrastructure projects across cities through to coal mining will require some form of legal assessment and approval. The relevant area of law is environmental planning law. This unit examines the intersection of economic, social and environmental issues in the context of land use and law. The focus is on both the natural and built environment in an urban and rural context with particular emphasis on the regulation of land use under the Environmental Planning and Assessment Law 1979 (NSW) and the Environment Protection and Biodiversity Conservation Act 1999 (Cth). The unit provides a detailed analysis of the legal requirements of land use planning instruments, development assessment methods, environmental impact assessment and administrative decision making relating to land use. A critical analysis is undertaken of the effectiveness of the current regulatory regime including reform proposals and options. Discussion and analysis of relevant case law and the functions of the Land and Environment Court in terms of resolving land planning and development issues is covered extensively. ",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T15:06:34.859",
+  "code": "LAWS8061",
+  "title": "Environmental Planning Law",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,246 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate an understanding of the fundamental links between the climate and oceans to interpret climate-ocean interactions and processes.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Draw on and synthesise appropriate sources of information to communicate ideas about climate drivers and responses in marine and coastal habitats.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply data collected from measuring and modelling climate-ocean interactions to understand mechanisms of climate and ocean variability.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate effective individual and team work skills in climate-ocean science to understand and solve real-world environmental problems in both the field and laboratory. ",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(ENVE117 or ENVS117 or ENVS1017 or GEOS117 or GEOS112 or GEOS1110 or GEOS126 or EESC1160) or 10cp in PHYS units at 1000 level",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ENVE301, GEOS301, ENVS301, ENVE216, GEOS216, ENVS216",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Assessment 1 involves two multiple-choice quizzes, each worth 15% of the final grade. Content can be from the lectures, practicals, fieldwork or assigned readings.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Fieldtrip report and presentation",
+        "type": {
+          "label": "Field work task",
+          "value": "field_work_task"
+        },
+        "weight": "50",
+        "description": "Assessment 3 is a fieldtrip report and presentation based on a 2-day local fieldtrip, worth 50% of the final grade. The content of the report will include an Introduction, Methods, Results, Discussion, Acknowledgements and References. This will be translated to a non-scientific audience in group presentations.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Practical report",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "20",
+        "description": "Assessment 2 is a practical report worth 20% of the final grade. The report will include experimental data introduced during practicals that is presented with appropriate graphical representation and statistical analysis, and a conclusion drawing correct associations and inferences from the data.  During this assessment task students will develop skills to apply to the fieldtrip report.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "EESC2160",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: EESC2160"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ENVS2116"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "The Atmospheric Environment",
+                "academic_item_code": "ENVS2116",
+                "academic_item_url": "/2020/units/ENVS2116"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: ENVS3101"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Marine Climate, Weather and Coastal Oceanography",
+                "academic_item_code": "ENVS3101",
+                "academic_item_url": "/2020/units/ENVS3101"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EESC2160"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "EESC2160 - Climate and Oceans",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Earth and Environmental Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The Earth’s climate and oceans are intimately linked and are fundamental to life on this planet. This unit explores the climate system and the role that oceans play in regulating climate. The unit examines climate and ocean interactions and processes on a range of spatial scales (local to global) and time scales (daily to decadal and millennial). The unit includes a field trip that introduces students to evidence of climate drivers and responses in marine and coastal habitats such as sea-level rise impacts and adaptation.",
+    "search_title": "EESC2160 - Climate and Oceans",
+    "code": "EESC2160",
+    "title": "Climate and Oceans",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The Earth’s climate and oceans are intimately linked and are fundamental to life on this planet. This unit explores the climate system and the role that oceans play in regulating climate. The unit examines climate and ocean interactions and processes on a range of spatial scales (local to global) and time scales (daily to decadal and millennial). The unit includes a field trip that introduces students to evidence of climate drivers and responses in marine and coastal habitats such as sea-level rise impacts and adaptation.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-04T13:27:03.132",
+  "code": "EESC2160",
+  "title": "Climate and Oceans",
+  "implementationYear": "2021"
+}

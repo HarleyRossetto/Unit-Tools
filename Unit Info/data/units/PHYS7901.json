@@ -1,0 +1,190 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "infer discrete and continuous symmetries from the properties of physical systems.",
+        "code": "ULO4"
+      },
+      {
+        "description": "employ discrete groups, continuous Lie groups and Lie algebras, and representation theory.",
+        "code": "ULO3"
+      },
+      {
+        "description": "analyse differential equations and group theory using Mathematica.",
+        "code": "ULO6"
+      },
+      {
+        "description": "explain the relations between symmetries and conservation laws.",
+        "code": "ULO5"
+      },
+      {
+        "description": "describe and use numerical methods for solving ordinary or partial differential equations.",
+        "code": "ULO2"
+      },
+      {
+        "description": "apply analytic methods for solving linear differential equations.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Self-led learning",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PHYS701",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Final examination covering all content from the course.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Problem-based assignments",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "Sets of problems based on lecture content",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Midsession exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "Exam on content from the first half of the unit",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PHYS7901-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHYS7901"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "PHYS7901 - Mathematical Methods in Physics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Physics and Astronomy "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers topics in mathematical physics including: differential equations and group theory. The aim is to develop effective problem solving strategies, and where possible, the examples will be taken from the physical sciences. In the first topic the primary focus is on ordinary differential equations covering topics from first order equations and how to classify and solve them, through to higher order equations and more general techniques such as reduction of order, Laplace transforms, Green functions and series solutions. The second topic covers discrete groups and continuous Lie groups and Lie algebras. Group representations are introduced with the examples from Abelian and non-Abelian groups. Irreducible representations, unitary representations, Shur&#39;s Lemma, and orthogonality relations are covered in the context of discrete groups. Compact and non-compact Lie groups and their generating Lie algebras are presented with several examples making the connection between symmetries and conservation laws, e.g. space-time symmetries and the Poincare group.",
+    "search_title": "PHYS7901 - Mathematical Methods in Physics",
+    "code": "PHYS7901",
+    "title": "Mathematical Methods in Physics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit covers topics in mathematical physics including: differential equations and group theory. The aim is to develop effective problem solving strategies, and where possible, the examples will be taken from the physical sciences. In the first topic the primary focus is on ordinary differential equations covering topics from first order equations and how to classify and solve them, through to higher order equations and more general techniques such as reduction of order, Laplace transforms, Green functions and series solutions. The second topic covers discrete groups and continuous Lie groups and Lie algebras. Group representations are introduced with the examples from Abelian and non-Abelian groups. Irreducible representations, unitary representations, Shur&#39;s Lemma, and orthogonality relations are covered in the context of discrete groups. Compact and non-compact Lie groups and their generating Lie algebras are presented with several examples making the connection between symmetries and conservation laws, e.g. space-time symmetries and the Poincare group.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-28T09:54:13.142",
+  "code": "PHYS7901",
+  "title": "Mathematical Methods in Physics",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,207 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Understand changing ideas of human rights over time and place.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate advanced critical writing skills in making sustained and evidence-based arguments about the past.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Understand the appropriate legal and political structures within which human rights are articulated.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Understand critiques of human rights from feminist and postcolonial perspectives.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Each week requires around 3 hours each. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "40cp at 1000 level or above OR (10cp in HIST or MHIS or POL or POIR or MHIX or POIX units)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Weekly quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Each week students will be given an online quiz, based on the lecture and the readings. This task usually ensures adequate student preparation, kicks off good tute discussions, and enables us to identify any writing issues.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Students are expected to develop their own research essay question in consultation with teachers. Essays should include reference to at least four primary sources and ten secondary sources. The ‘further reading’ lists in the unit guide will be the best place to start research. The point of this task is to hone your research skills; hone your ability to make a sustained argument with evidence; and hone your ability to write persuasively. Refer to the history essay-writing guide on iLearn for information about argumentation and form. (3000 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Article analysis",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Students will locate a recent article (last 12 months) in the media about human rights somewhere in the world. They are then asked to offer a close readings of the article. They will need to identify and discuss the larger human-rights context and ideology behind the story. This assessment task helps students note their development in learning about human rights and prepare for the larger research essays to come in terms of critical analysis and writing. (1500 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MHIS2001-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS2001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MHIS2001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS2001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MHIS2001-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS2001"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MHIS2001 - Between Hope and Despair: A History of Human Rights",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "What are human rights? How have they evolved and what is the political and cultural investment in them? How and why does a concept defined by hope and aspiration, promising human rights and freedoms, remain elusive and problematic in theory and practice? We will explore this history through social movements and legal systems, as well as politics, philosophy and rights discourses. We consider the personal and collective stories of human rights and explore key moments in their development from Magna Carta to Indigenous self-determination and climate change. The unit deepens and complicates understandings of modernity developed in MHIS1001 and MHIS1002. In addition, it provides crucial historical background, context and terminology for students interested in careers in international law, foreign aid, global politics and humanitarian organisations.",
+    "search_title": "MHIS2001 - Between Hope and Despair: A History of Human Rights",
+    "code": "MHIS2001",
+    "title": "Between Hope and Despair: A History of Human Rights",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "What are human rights? How have they evolved and what is the political and cultural investment in them? How and why does a concept defined by hope and aspiration, promising human rights and freedoms, remain elusive and problematic in theory and practice? We will explore this history through social movements and legal systems, as well as politics, philosophy and rights discourses. We consider the personal and collective stories of human rights and explore key moments in their development from Magna Carta to Indigenous self-determination and climate change. The unit deepens and complicates understandings of modernity developed in MHIS1001 and MHIS1002. In addition, it provides crucial historical background, context and terminology for students interested in careers in international law, foreign aid, global politics and humanitarian organisations.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T12:29:54.371",
+  "code": "MHIS2001",
+  "title": "Between Hope and Despair: A History of Human Rights",
+  "implementationYear": "2021"
+}

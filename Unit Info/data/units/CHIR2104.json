@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Know, apply, interpret and communicate diagnostic accuracy research",
+        "code": "ULO4"
+      },
+      {
+        "description": "Show respect and empathise with patients, and possess an ethical and professional attitude to health care",
+        "code": "ULO5"
+      },
+      {
+        "description": "Critical, analytical and integrative thinking as it relates to: (1) kinesiology of the upper extremity and thorax of the human body, and; (2) conceptual physics (Vibration, Waves, Sound, Light, Colour, Optics. Atomic and Nuclear Physics).",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate specific knowledge and skills: (a) Chiropractic extremity techniques (clinical assessment and management); (b) biomechanics of the upper extremity and how it applies to chiropractic techniques; (c) Strength testing of the major muscle groups of the upper extremity; (d) Identification and palpation of surface landmarks on the axial and appendicular regions of the body; (e) conceptual physics (Vibration, Waves, Sound, Light, Colour, Optics. Atomic and Nuclear Physics)",
+        "code": "ULO2"
+      },
+      {
+        "description": "Physically assess the upper extremity via basic orthopaedic methods, and clinically interpret the findings of basic orthopaedic tests of the upper extremity",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Four to five hours per week self-instructional learning, readings from the text and exercises on lecture topics",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to BChiroSc and (CHIR1101 or CHIR113) and (CHIR1102 or CHIR114) and (CHIR2103 or CHIR213)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CHIR214",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Physics class test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "This class test will be based on and evaluate the content taught in the physics lecture stream and will take the form of a &lt; 30-minute in-class test.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Chiropractic skills assessment",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "20",
+        "description": "Students will be assessed on their competency in performing chiropractic skills. Students will demonstrate a series of chiropractic procedures taught in this unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Physics workbook",
+        "type": {
+          "label": "Lab book",
+          "value": "lab_book"
+        },
+        "weight": "8",
+        "description": "The laboratory workbook assessment is based on student laboratory participation and the level to which they achieve the aims/objectives of laboratory-based tasks. The student’s laboratory workbook will be reviewed as part of this assessment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "47",
+        "description": "This written examination will test students&#39; knowledge of material covered in Chiropractic Sciences 4. It will also test students&#39; ability to connect theoretical knowledge to discipline-specific situations. The format will consist of a two (2) hour written exam.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research assignment",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "20",
+        "description": "This is a research assignment which will be submitted electronically via <em>turnitin</em>. The objective of this assignment is to further develop student’s research skills. It will take the form of a research report.<strong> </strong>In 1000 words candidates must calculate and report the diagnostic accuracy of an orthopaedic test. Further details on this assignment can be found on the unit’s iLearn page.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIR2104"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIR2104"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "CHIR2104 - Chiropractic Sciences 4",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Chiropractic "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit builds upon the principles of biomechanics and kinesiology taught in CHIR2103 as well as concepts in clinical anatomy taught in ANAT1002. The focus of this unit will be the kinesiology of thoracic cage and the upper extremity. Reference is made to clinical biomechanics as it relates to the skills of observation, range of motion assessment, palpation, and muscle testing. Concepts in clinical decision making will be developed. Chiropractic techniques of the thoracic spine and upper extremity will be introduced and developed.",
+    "search_title": "CHIR2104 - Chiropractic Sciences 4",
+    "code": "CHIR2104",
+    "title": "Chiropractic Sciences 4",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit builds upon the principles of biomechanics and kinesiology taught in CHIR2103 as well as concepts in clinical anatomy taught in ANAT1002. The focus of this unit will be the kinesiology of thoracic cage and the upper extremity. Reference is made to clinical biomechanics as it relates to the skills of observation, range of motion assessment, palpation, and muscle testing. Concepts in clinical decision making will be developed. Chiropractic techniques of the thoracic spine and upper extremity will be introduced and developed.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:26:26.05",
+  "code": "CHIR2104",
+  "title": "Chiropractic Sciences 4",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,207 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe good practice in Medical Research, including ethics, integrity and leadership. ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critique different methodologies that might be applied to address research questions. ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain the fundamentals of different research types and approaches. ",
+        "code": "ULO2"
+      },
+      {
+        "description": "Pose effective research questions, and describe key components in research design. ",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MEDI705",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Poster and talk",
+        "type": {
+          "label": "Poster",
+          "value": "poster"
+        },
+        "weight": "40",
+        "description": "Poster presentation to address key research questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Journal Article Review",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Students complete a journal article review. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Timeline",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "10",
+        "description": "Referenced table and reflection outlining history of human ethics framework.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Debate/Role Play",
+        "type": {
+          "label": "Debate",
+          "value": "debate"
+        },
+        "weight": "20",
+        "description": "Students debate a key topic. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MEDI7001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI7001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MEDI7001-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI7001"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MEDI7001 - Medical Research Foundations - Ethics, Integrity and Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will cover a range of key topics critical to good research practice in Medical Sciences. Presented by lecturers from the various disciplines represented in the faculty, the unit will focus on good research practice, ethics, fundamentals of different research approaches, and research reproducibility. You will explore how best to pose questions, design and deliver their research, with a strong emphasis on integrity, leadership, and cultural competence. The focus will be on the principles that underlie effective research in all disciplines of health systems, clinical and biomedical research. This unit is recommended to all students wishing to pursue robust and high quality research.",
+    "search_title": "MEDI7001 - Medical Research Foundations - Ethics, Integrity and Practice",
+    "code": "MEDI7001",
+    "title": "Medical Research Foundations - Ethics, Integrity and Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will cover a range of key topics critical to good research practice in Medical Sciences. Presented by lecturers from the various disciplines represented in the faculty, the unit will focus on good research practice, ethics, fundamentals of different research approaches, and research reproducibility. You will explore how best to pose questions, design and deliver their research, with a strong emphasis on integrity, leadership, and cultural competence. The focus will be on the principles that underlie effective research in all disciplines of health systems, clinical and biomedical research. This unit is recommended to all students wishing to pursue robust and high quality research.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T09:57:04.409",
+  "code": "MEDI7001",
+  "title": "Medical Research Foundations - Ethics, Integrity and Practice",
+  "implementationYear": "2021"
+}

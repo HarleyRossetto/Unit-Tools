@@ -1,0 +1,211 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate ideas and historical arguments in an engaging, concise and accessible style.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyze and evaluate the process of historical argumentation by reading and assessing a variety of different source materials.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Comprehend and assess the development of the global economy from the Middle Ages to the twenty-first century.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Synthesise primary and secondary sources to develop clear, specific, evidence-based arguments in response to historical questions.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse historical evidence, scholarship and changing representations of the past.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class preparation and reading",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "40cp at 1000 level or above OR (10cp in HIST or MHIS or POL or POIR or MHIX or POIX units)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Review paper",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Secondary source review",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflective Paper",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Reflective Paper",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Short weekly quiz",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MHIS2004-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS2004"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MHIS2004-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS2004"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MHIS2004-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS2004"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MHIS2004 - Capitalism in World History: From the Silk Roads to Amazon",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Globalization is older than we think. In the European Middle Ages, a network of trade routes connected the Afro-Eurasian landmass, which made possible the extensive travels of Italian merchant like Marco Polo and Moroccan scholar Ibn Battuta. In the sixteenth century, these networks expanded to include the Americas, creating the first global economy. This unit traces the long history of global capitalism from its medieval origins to the data-driven on-line commerce of the twenty-first century. It explores how commerce and exchange have developed over the past millennium, considering the ideas, commodities, and political forces that have facilitated and impeded trade. It examines the social, cultural, and environmental impacts of global capitalism. This unit explains how the world economy we live today took shape and why it operates the way that it does.",
+    "search_title": "MHIS2004 - Capitalism in World History: From the Silk Roads to Amazon",
+    "code": "MHIS2004",
+    "title": "Capitalism in World History: From the Silk Roads to Amazon",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Globalization is older than we think. In the European Middle Ages, a network of trade routes connected the Afro-Eurasian landmass, which made possible the extensive travels of Italian merchant like Marco Polo and Moroccan scholar Ibn Battuta. In the sixteenth century, these networks expanded to include the Americas, creating the first global economy. This unit traces the long history of global capitalism from its medieval origins to the data-driven on-line commerce of the twenty-first century. It explores how commerce and exchange have developed over the past millennium, considering the ideas, commodities, and political forces that have facilitated and impeded trade. It examines the social, cultural, and environmental impacts of global capitalism. This unit explains how the world economy we live today took shape and why it operates the way that it does.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T14:27:14.592",
+  "code": "MHIS2004",
+  "title": "Capitalism in World History: From the Silk Roads to Amazon",
+  "implementationYear": "2021"
+}

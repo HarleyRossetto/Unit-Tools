@@ -1,0 +1,250 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain principles of how microorganisms colonise different niches, and how they respond to their chemical, physiological and physical environment, in complex communities.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate key practical skills in working with microorganisms, including being able to apply and adapt methods to identify microorganisms and the use of good microbiological practices.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Aquire knowledge and understanding of how microbiology concepts apply to diverse areas such as medicine and health, industry, agriculture and biotechnology. ",
+        "code": "ULO5"
+      },
+      {
+        "description": "Integrate ideas, discuss and communicate results effectively for verbal and written presentation including sourcing appropriate microbiology literature to support scientific data.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Work cooperatively in a team through engagement, exercising initiative, and with accountability in order to maximise the achievement of goals.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Practical and tutorial preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above including BMOL2401 or CBMS215 or CBMS202",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CBMS335",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Microbe presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "Students will prepare and present a short report on a well studied microorganism. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Practical attendance",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "0",
+        "description": "You are expected to attend and participate in at least 80% of the practical laboratory classes to pass this unit. This is a hurdle requirement.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical and tutorial work",
+        "type": {
+          "label": "Lab book",
+          "value": "lab_book"
+        },
+        "weight": "20",
+        "description": "Pre-practical exercises, performance in the practicals, tutorials and post-practical exercises and laboratory record keeping will be used to calculate the final practical mark. The tasks are designed to encourage you to engage with practical material and develop useful workplace skills including: planning and time management, safe working practices and good record keeping.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Microbe presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "Students will prepare and present a short report on a well studied microorganism. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "55",
+        "description": "The final exam will require students to apply terminology and concepts learnt in the lecture and practical components to answer a variety of questions of a critical thinking nature. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid Semester Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Mid Semester Test",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BMOL3401"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BMOL3401"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "BMOL3401 - Applied and Medical Microbiology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Molecular Sciences "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Applied and Medical Microbiology examines the microbial world and how it interacts with our own. A key focus will be the role of microorganisms in human health and disease, covering topics ranging from the role of the human microbiome and the body&#39;s natural defences in protecting against microbial disease to epidemiology and the pathogenesis of infectious microorganisms. This unit covers medically important bacteria, fungi and viruses as well as antimicrobial agents, microbial resistance and susceptibility testing. Topics in applied microbiology include biotechnology, synthetic biology, food and water microbiology. In the hands-on laboratory sessions students gain skills in the current tools and techniques used in medical and applied microbiology laboratories. This unit is especially valuable for students majoring in biomolecular sciences, biology, and medical sciences.",
+    "search_title": "BMOL3401 - Applied and Medical Microbiology",
+    "code": "BMOL3401",
+    "title": "Applied and Medical Microbiology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Applied and Medical Microbiology examines the microbial world and how it interacts with our own. A key focus will be the role of microorganisms in human health and disease, covering topics ranging from the role of the human microbiome and the body&#39;s natural defences in protecting against microbial disease to epidemiology and the pathogenesis of infectious microorganisms. This unit covers medically important bacteria, fungi and viruses as well as antimicrobial agents, microbial resistance and susceptibility testing. Topics in applied microbiology include biotechnology, synthetic biology, food and water microbiology. In the hands-on laboratory sessions students gain skills in the current tools and techniques used in medical and applied microbiology laboratories. This unit is especially valuable for students majoring in biomolecular sciences, biology, and medical sciences.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:14:41.484",
+  "code": "BMOL3401",
+  "title": "Applied and Medical Microbiology",
+  "implementationYear": "2021"
+}

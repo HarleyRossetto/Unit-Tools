@@ -1,0 +1,223 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Create a variety of differentiated learning resources and activities and adapt existing resources effectively to suit the needs of learners with a range prior knowledge, diverse cultural backgrounds, skills and educational contexts.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Devise lesson and extended learning sequences grounded in understanding of NSW Languages syllabus outcomes and using a variety of effective teaching/learning and assessment strategies.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Communicate knowledge of content and pedagogy with scholarship and making extensive, judicious use of supporting evidence and demonstrating complex knowledge of the relevant discipline content, educational theory and practice.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Integrate the modelling of personal intercultural reflection, in using questioning techniques to elicit intercultural learning, which is fundamental approach to NSW syllabuses.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Develop strategies for and engage in research, reflexive practice and professional dialogue in order to ensure quality student outcomes, evidence-based practice and nurture resilience in teaching practice.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate a rigorous knowledge of evidence-based pedagogy for language learning, through effective lesson plans integrating effective e use of digital technologies.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "flipped learning activities, interactive forums",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "online readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "EDST8237",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Intercultural pedagogy",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "45",
+        "description": "1500 words. Intercultural autobiographical narrative, consideration of intercultural pedagogy and teacher role, with design of pedagogical application",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Unit of work",
+        "type": {
+          "label": "Learning plan",
+          "value": "learning_plan"
+        },
+        "weight": "45",
+        "description": "2500 words. Design a two-week unit of work using the K-10 Languages syllabus, with assessment tasks and resources",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participationi",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Demonstration of participation in Zoom tutorials and online forum activities",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8220"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8220"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8220"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "EDST8220 - Teaching Languages in the Secondary School 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit critically examines current approaches to language teaching theory and practice, and their application to syllabus requirements in New South Wales secondary schools. With knowledge of relevant research, topics covered include planning for effective teaching; developing communication skills; integrating language and culture; appraisal of teaching materials; motivation within language learning; and classroom management.",
+    "search_title": "EDST8220 - Teaching Languages in the Secondary School 1",
+    "code": "EDST8220",
+    "title": "Teaching Languages in the Secondary School 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit critically examines current approaches to language teaching theory and practice, and their application to syllabus requirements in New South Wales secondary schools. With knowledge of relevant research, topics covered include planning for effective teaching; developing communication skills; integrating language and culture; appraisal of teaching materials; motivation within language learning; and classroom management.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:41:50.269",
+  "code": "EDST8220",
+  "title": "Teaching Languages in the Secondary School 1",
+  "implementationYear": "2021"
+}

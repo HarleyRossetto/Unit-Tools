@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically evaluate, synthesise and Interpret contemporary empirical research aimed at testing the theories of human perception",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate an understanding of the key terms, physiological processes, research findings and theories related to human perception.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate an advanced understanding of the ethical challenges of perception research",
+        "code": "ULO4"
+      },
+      {
+        "description": "Develop skills in communication and public speaking and critically evaluating research presentations.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSYH490 or PSHY4490 or PSYH495 or PSYH4495 or PSYH4492",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "PSY463, PSYC763",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Student is required to submit an essay of 2500 words on a topic of interest in the field of visual perception.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Peer Feedback",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Each week, students not making a formal oral presentation will be required to provide written feedback to the speaker, to support the presenter in improving their technique for future presentations, noting three positive aspects of the presentation. This is submitted to the Unit chair and will be de-identified when provided to the speaker. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In class presentation ",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "description": "The topic of this 20 – 30 minute presentation should be one of the pre-approved journal articles and should introduce the study and provide a critical analysis, with three discussion points to guide the seminar group in their post-presentation discussion.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Seminar Participation ",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "The contributions of each student to in-class discussions will be judged by staff present, and will constitute the grade for this assessment task.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PSYH4463",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PSYH4463"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PSYM7763"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Advanced Visual Perception",
+                "academic_item_code": "PSYM7763",
+                "academic_item_url": "/2020/units/PSYM7763"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [],
+    "unit_offering_text": "*<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "PSYH4463 - Advanced Visual Perception",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Research in visual perception is rapidly changing, with broad impacts on many other areas of psychology and general life. In PSYH4463 we will meet weekly for lively seminars to critically evaluate recent papers chosen by the group. Recent areas of focus include face perception and the impact on ID screening for security applications; perception of bodies and its implications for eating disorders and body satisfaction, as well as developments in the understanding of basic visual processes. Students will hone their skills in presentations, receiving individualised feedback from peers and members of staff, and submit an essay on a chosen visual perception topic. In addition, staff and postgraduate students may present their own current research to students.",
+    "search_title": "PSYH4463 - Advanced Visual Perception",
+    "code": "PSYH4463",
+    "title": "Advanced Visual Perception",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Research in visual perception is rapidly changing, with broad impacts on many other areas of psychology and general life. In PSYH4463 we will meet weekly for lively seminars to critically evaluate recent papers chosen by the group. Recent areas of focus include face perception and the impact on ID screening for security applications; perception of bodies and its implications for eating disorders and body satisfaction, as well as developments in the understanding of basic visual processes. Students will hone their skills in presentations, receiving individualised feedback from peers and members of staff, and submit an essay on a chosen visual perception topic. In addition, staff and postgraduate students may present their own current research to students.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-08T10:31:43.341",
+  "code": "PSYH4463",
+  "title": "Advanced Visual Perception",
+  "implementationYear": "2021"
+}

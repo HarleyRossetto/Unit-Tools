@@ -1,0 +1,369 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "0000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Pathway",
+        "value": "pathway"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Research and critically evaluate academic sources to produce spoken and written academic texts.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply principles of academic integrity across all academic tasks.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Integrate information from multiple sources.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Actively participate and collaborate across academic tasks.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate effective academic language and literacy skills required in an Australian tertiary education environment.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "WFEN002 or WFEN0002 or admission to IP",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "WFRS001",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Reflection",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "25",
+        "description": "Students are required to reflect on an aspect of their learning. More information about this assessment task will be available on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "description": "Students will be required to deliver a group presentation. Each group member is required to deliver a section of the presentation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Research Essay Draft",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "10",
+        "description": "Students are required to submit their research essay draft via Turnitin link. More information about this assessment task will be available on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Active Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students are required to actively engage in unit activities. More information about this assessment task will be available on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Students are required to submit their research essay via Turnitin link. More information about this assessment task will be available on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "WFRS0001-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 4-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 4"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFRS0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFRS0001-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFRS0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFRS0001-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFRS0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFRS0001-unit_teaching_period-Special",
+        "display_name": "MUIC term 2-Special",
+        "teaching_period": {
+          "value": "MUIC term 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFRS0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFRS0001-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFRS0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFRS0001-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 6-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 6"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFRS0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFRS0001-unit_teaching_period-Special",
+        "display_name": "MUIC term 1-Special",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFRS0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFRS0001-unit_teaching_period-Special",
+        "display_name": "MUIC term 3-Special",
+        "teaching_period": {
+          "value": "MUIC term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFRS0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFRS0001-unit_teaching_period-Special",
+        "display_name": "MUIC term 5-Special",
+        "teaching_period": {
+          "value": "MUIC term 5"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFRS0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFRS0001-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 5-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 5"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFRS0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFRS0001-unit_teaching_period-Special",
+        "display_name": "MUIC term 4-Special",
+        "teaching_period": {
+          "value": "MUIC term 4"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFRS0001"
+        }
+      }
+    ],
+    "unit_offering_text": "MUIC term 1, Weekday attendance, North Ryde<br />MUIC term 2, Weekday attendance, North Ryde<br />MUIC term 2, Special circumstances<br />MUIC term 3, Weekday attendance, North Ryde<br />MUIC term 3, Special circumstances<br />MUIC term 4, Weekday attendance, North Ryde<br />MUIC term 4, Special circumstances<br />MUIC term 5, Weekday attendance, North Ryde<br />MUIC term 5, Special circumstances<br />MUIC term 6, Weekday attendance, North Ryde<br />MUIC term 1, Special circumstances<br />",
+    "subject_search_title": "WFRS0001 - Research for University Studies",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie University International College"
+    },
+    "school": {
+      "value": "Macquarie University International College"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to guide students through the process and production of secondary research. Students work through the processes of research-based tasks, both written and spoken, including analysing task requirements, utilising search engines and databases, researching and evaluating sources, analysing features of academic sources, planning, drafting, utilising language and academic feedback tools, integrating multiple sources, following academic integrity principles, and referencing conventions and applying presentation skills. The unit also focuses on developing skills for effective collaborative group work, participating in and leading online discussion forums, and reflection.",
+    "search_title": "WFRS0001 - Research for University Studies",
+    "code": "WFRS0001",
+    "title": "Research for University Studies",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to guide students through the process and production of secondary research. Students work through the processes of research-based tasks, both written and spoken, including analysing task requirements, utilising search engines and databases, researching and evaluating sources, analysing features of academic sources, planning, drafting, utilising language and academic feedback tools, integrating multiple sources, following academic integrity principles, and referencing conventions and applying presentation skills. The unit also focuses on developing skills for effective collaborative group work, participating in and leading online discussion forums, and reflection.",
+  "level": "0000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-26T10:57:23.562",
+  "code": "WFRS0001",
+  "title": "Research for University Studies",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,194 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically analyse the pressures organisations face to explore new areas for growth while maintaining existing ones.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse and describe the theories, models, and empirical research regarding organisational change.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply organisational change concepts to case studies so as to examine the nexus between theory and practice, both as an individual and as a team.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class readings, business simulation and research. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "((HRM201 or MGMT2040) and (HRM250 or MGMT2050)) or ((BBA310 or MGMT2010) and MGMT2018)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "HRM317",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Individual Case Study Analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "An individual case analysis of up to 3,000 words worth 40%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group report and individual presentation ",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "This assessment has two components worth 20% in total. The first is a group report of up to 1,500 words worth 10%. The second is an individual presentation of up to 5 minutes worth 10%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "An essay of up to 2,000 words worth 40%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT3017-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3017"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT3017-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3017"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MGMT3017 - Managing Change in Organisations",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines contemporary change management and sustainability theories with a focus on how they are applied in practice. Topics covered include leadership, power/ politics and strategy as they pertain to organisational change initiatives, in addition to measuring change initiatives and innovation. The case study method is extensively used in this unit to allow students to appreciate the interconnectedness of an organisation’s systems and develop their problem-solving skills by proposing solutions to complex problems. Change managers are invited to give guest lectures to reinforce the nexus between theory and practice.",
+    "search_title": "MGMT3017 - Managing Change in Organisations",
+    "code": "MGMT3017",
+    "title": "Managing Change in Organisations",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines contemporary change management and sustainability theories with a focus on how they are applied in practice. Topics covered include leadership, power/ politics and strategy as they pertain to organisational change initiatives, in addition to measuring change initiatives and innovation. The case study method is extensively used in this unit to allow students to appreciate the interconnectedness of an organisation’s systems and develop their problem-solving skills by proposing solutions to complex problems. Change managers are invited to give guest lectures to reinforce the nexus between theory and practice.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T15:02:43.156",
+  "code": "MGMT3017",
+  "title": "Managing Change in Organisations",
+  "implementationYear": "2021"
+}

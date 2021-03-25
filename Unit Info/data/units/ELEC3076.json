@@ -1,0 +1,286 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "demonstrate active self-learning, critical thinking, problem-solving, technical writing and time-management skills, individually and in a team.",
+        "code": "ULO6"
+      },
+      {
+        "description": "analyse the operation of power amplifiers in the time and frequency domains",
+        "code": "ULO4"
+      },
+      {
+        "description": "apply nonlinear device concepts to design and analyse transistor amplifiers",
+        "code": "ULO2"
+      },
+      {
+        "description": "apply mathematical methods to analyse nonlinear electronic systems in the frequency domain",
+        "code": "ULO3"
+      },
+      {
+        "description": "explain basic semiconductor devices, their operation and non-linear behaviour",
+        "code": "ULO1"
+      },
+      {
+        "description": "design, simulate, implement, test and debug electronic circuits and systems",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparatory reading and practice problems prior to lectures/labs. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students are expected to strengthen and expand their understanding of the concepts by reading the recommended course textbooks, reference materials and by solving example problems. ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Online resources contain pre-recorded videos and reading materials posted on iLearn. They cover the fundamental theories, concepts and examples. Students are expected to study and review these materials before each weekly lecture. Bring your questions and challenging ideas to the lecture for further discussion.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "((ELEC2075 or ELEC275) and completion of 130cp) or admission to MEngElecEng",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ELEC376",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Laboratory",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "15",
+        "description": "The experiments are designed to explore the practical aspects of the theory discussed in the unit. There are four lab modules in total. Marks are awarded for the pre-lab work, maintaining an up-to-date lab book, active participation in the lab, and the demonstration of results. Labs will be conducted in the electronics laboratory (circuit implementation and testing).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Take-home assignment",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "Take-home assignments mainly consist of numerical problems on the concepts learned. The answers are to be submitted online via iLearn. There will be four assignments in total.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Pre-classroom online quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "Students are expected to go through the online learning content, understand the theory and attempt the online quiz each week before attending the classroom activities of that week.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Laboratory",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "15",
+        "description": "The experiments are designed to explore the practical aspects of the theory discussed in the unit. There are four lab modules in total. Marks are awarded for the pre-lab work, maintaining an up-to-date lab book, active participation in the lab, and the demonstration of results. Labs will be conducted online (simulation and remote lab) as well as in the electronics laboratory (circuit implementation and testing).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Lab report",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "15",
+        "description": "Students are required to submit two individually written reports on two of the four lab modules. Lab reports will be assessed on the basis of originality, format, clarity, relevance, analysis of the results and the quality of technical writing.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "A final examination will be conducted during the formal examination period. This examination will assess all topics discussed in the unit unless otherwise specified.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "This is a one-hour open-book test conducted via iLearn during the regular lecture hour. There will be only one class test in total.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ELEC3076"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ELEC3076"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "ELEC3076 - Electronic Devices and Systems",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "School of Engineering"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit builds on linear and nonlinear circuit design, and further develops the topics of analogue circuit theory and practice with an emphasis on the circuit and system design. It covers semiconductor devices, circuit simulations, transistor amplifiers, operational-amplifiers, mixers and power amplifiers. It will also deal with advanced topics which may include noise and non-linear design issues. Students will get hands-on experience in designing and building small signal amplifiers, power amplifiers and mixers as well as working with professional software packages for circuit design and analysis.",
+    "search_title": "ELEC3076 - Electronic Devices and Systems",
+    "code": "ELEC3076",
+    "title": "Electronic Devices and Systems",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit builds on linear and nonlinear circuit design, and further develops the topics of analogue circuit theory and practice with an emphasis on the circuit and system design. It covers semiconductor devices, circuit simulations, transistor amplifiers, operational-amplifiers, mixers and power amplifiers. It will also deal with advanced topics which may include noise and non-linear design issues. Students will get hands-on experience in designing and building small signal amplifiers, power amplifiers and mixers as well as working with professional software packages for circuit design and analysis.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:24:15.372",
+  "code": "ELEC3076",
+  "title": "Electronic Devices and Systems",
+  "implementationYear": "2021"
+}

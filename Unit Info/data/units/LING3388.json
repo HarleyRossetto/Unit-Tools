@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse an organisation's responsibilities towards individuals with complex communication needs.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Reflect on, discover, and examine issues pertaining to disadvantage and social justice, inclusion, and other social challenges within the context of the partner organisation.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Describe the impact of lifelong disability on communication for the individual, family, and society.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify and compare research methodologies in communication disorders and critically appraise research from a range of sources.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Communicate an understanding of how theoretical aspects of disability relate to people with complex communication needs.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Give examples of multimodal communication approaches for people with complex communication needs.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Lecture and tutorial preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparation for placement",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LING288",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "50cp at 2000 level or above and permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Presentation including reflection and analysis of the student’s PACE placement. Approximately 5 minutes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Placement-based report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "45",
+        "description": "Reflection and analysis of the organization where the student undertook their PACE placement. Within the context of their PACE placement, students will apply the theoretical framework of disability to the needs of people with disordered communication. Approximately 1500 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Peer review of student presentations.",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "Peer review of student presentations. Two peer reviews. Approximately 250 words each.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "Essay on the theoretical framework of disability and its application to the needs of people with disordered communication. Approximately 1000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LING3388-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LING3388"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "LING3388 - Accessible and Inclusive Communication",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "This unit examines the impact of complex communication needs on a person&#39;s participation and inclusion in society. It explores theoretical models of disability, strategies to improve the communication outcomes of people with complex communication needs, and the facilitative role of communication partners. Students will engage in a work-integrated learning experience placement which may be undertaken across a range of sectors (e.g., government, not-for-profit, community-based organisations) and settings (e.g., disability policy, service planning or development, health promotion, advocacy, education, research). Students will complete a minimum of 50 hours during their placement. They will also engage with lecture and tutorial materials, which will provide theoretical knowledge and background information relevant to disadvantage and social justice, inclusion, and other social challenges. This unit will foster an understanding of the theoretical and practical considerations related to accessible and inclusive communication, highlighting strategies that facilitate successful communication for people with complex needs in a variety of real-world situations.",
+    "search_title": "LING3388 - Accessible and Inclusive Communication",
+    "code": "LING3388",
+    "title": "Accessible and Inclusive Communication",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines the impact of complex communication needs on a person&#39;s participation and inclusion in society. It explores theoretical models of disability, strategies to improve the communication outcomes of people with complex communication needs, and the facilitative role of communication partners. Students will engage in a work-integrated learning experience placement which may be undertaken across a range of sectors (e.g., government, not-for-profit, community-based organisations) and settings (e.g., disability policy, service planning or development, health promotion, advocacy, education, research). Students will complete a minimum of 50 hours during their placement. They will also engage with lecture and tutorial materials, which will provide theoretical knowledge and background information relevant to disadvantage and social justice, inclusion, and other social challenges. This unit will foster an understanding of the theoretical and practical considerations related to accessible and inclusive communication, highlighting strategies that facilitate successful communication for people with complex needs in a variety of real-world situations.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T10:12:24.097",
+  "code": "LING3388",
+  "title": "Accessible and Inclusive Communication",
+  "implementationYear": "2021"
+}

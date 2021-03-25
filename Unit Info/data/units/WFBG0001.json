@@ -1,0 +1,359 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "0000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Pathway",
+        "value": "pathway"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain the role and impact of Biology in society and on the environment.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply scientific knowledge and critical thinking to solve problems individually and/or collaboratively.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Use fundamental discipline specific language to express concepts and ideas related to Biology.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Design and conduct primary and secondary investigations to obtain and analyse information.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Completing set readings for the Unit.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Completing before/after class activities.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "WFBG001",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "The Final Exam has a duration of 2 (two) hours plus 10 (ten) minutes reading time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "The Case Study combines knowledge and strategies developed in lab sessions with the ability to conduct research using internet sources.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In-class Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The quizzes will test students’ comprehension of course content and their ability to critically evaluate scientific problems. The quizzes may include a combination of multiple choice, cloze passage, and short answer activities. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Poster Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "In collaboration with their peers, students will be required to give a presentation on a product of biotechnology. Students are expected to introduce and explain the product to a wider non-specialist audience.They are also required to prepare an A4 poster/press release related to the product.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "WFBG0001-unit_teaching_period-Special",
+        "display_name": "MUIC term 1-Special",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFBG0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFBG0001-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFBG0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFBG0001-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 4-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 4"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFBG0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFBG0001-unit_teaching_period-Special",
+        "display_name": "MUIC term 3-Special",
+        "teaching_period": {
+          "value": "MUIC term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFBG0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFBG0001-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 6-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 6"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFBG0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFBG0001-unit_teaching_period-Special",
+        "display_name": "MUIC term 5-Special",
+        "teaching_period": {
+          "value": "MUIC term 5"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFBG0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFBG0001-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFBG0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFBG0001-unit_teaching_period-Special",
+        "display_name": "MUIC term 2-Special",
+        "teaching_period": {
+          "value": "MUIC term 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFBG0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFBG0001-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFBG0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFBG0001-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 5-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 5"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFBG0001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WFBG0001-unit_teaching_period-Special",
+        "display_name": "MUIC term 4-Special",
+        "teaching_period": {
+          "value": "MUIC term 4"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WFBG0001"
+        }
+      }
+    ],
+    "unit_offering_text": "MUIC term 1, Special circumstances<br />MUIC term 1, Weekday attendance, North Ryde<br />MUIC term 4, Special circumstances<br />MUIC term 2, Special circumstances<br />MUIC term 2, Weekday attendance, North Ryde<br />MUIC term 3, Special circumstances<br />MUIC term 3, Weekday attendance, North Ryde<br />MUIC term 4, Weekday attendance, North Ryde<br />MUIC term 5, Special circumstances<br />MUIC term 5, Weekday attendance, North Ryde<br />MUIC term 6, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "WFBG0001 - Biology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie University International College"
+    },
+    "school": {
+      "value": "Macquarie University International College"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this Unit students will gain a basic understanding about fundamental concepts related to living organisms and their environments. This includes general biological principles; the structure, function and processes of cells. Topics are drawn from cell theory and function, evolution and genetics, including the structure and function of DNA. Through class work and practical activities, students will develop skills and techniques in scientific thinking and problem-solving; gathering and analysing data; recording and effectively communicating scientific information; as well as the safe use of laboratories and scientific equipment.",
+    "search_title": "WFBG0001 - Biology",
+    "code": "WFBG0001",
+    "title": "Biology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this Unit students will gain a basic understanding about fundamental concepts related to living organisms and their environments. This includes general biological principles; the structure, function and processes of cells. Topics are drawn from cell theory and function, evolution and genetics, including the structure and function of DNA. Through class work and practical activities, students will develop skills and techniques in scientific thinking and problem-solving; gathering and analysing data; recording and effectively communicating scientific information; as well as the safe use of laboratories and scientific equipment.",
+  "level": "0000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-19T15:35:02.974",
+  "code": "WFBG0001",
+  "title": "Biology",
+  "implementationYear": "2021"
+}

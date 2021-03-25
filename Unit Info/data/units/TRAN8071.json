@@ -1,0 +1,322 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "participate in a translation project and communicate effectively with the members of a team. ",
+        "code": "ULO5"
+      },
+      {
+        "description": "critically evaluate translation management systems and their use, as well as other generic technologies.",
+        "code": "ULO6"
+      },
+      {
+        "description": "demonstrate an understanding of the principles of Translation Environment Tools.",
+        "code": "ULO3"
+      },
+      {
+        "description": "demonstrate an understanding of generic and specialised technology used for translation purposes.",
+        "code": "ULO1"
+      },
+      {
+        "description": "effectively use a commercial translation management system with the aim of applying this knowledge to other units.",
+        "code": "ULO2"
+      },
+      {
+        "description": "demonstrate an understanding of the principles of Terminology Management Systems.",
+        "code": "ULO4"
+      },
+      {
+        "description": "identify the requirements for a specific project.",
+        "code": "ULO7"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Work in small groups (face-to-face or online) to stimulate real-life environment (group project)",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Practice the skills learnt in class outside of class",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "TRAN871",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to GradDipTransInter or MTransInterStudAdv or MTransInter or MTransInterMAppLingTESOL or MTransInterMIntRel or MConfInt",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Trados",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "In-class practical exam aimed at testing your ability to use translation tools. The exam is accompanied by a series of questions relating to the task.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Memsource",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "This quiz is aimed at testing your knowledge of Memsource, the first Computer Assisted Translation (CAT) tool introduced in the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "20",
+        "description": "During the course of the unit, you will need to gather materials to deepen your understanding of the concepts presented. This material must be agglomerated into a portfolio for assessment at the end of the semester. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group project",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "30",
+        "description": "You will be divided in teams to simulate the work of a translation agency. During the course of the project, your group will maintain a reflective journal and will present your findings through a presentation in the last week of the session. Group sessions (face-to-face or online) will be organized for this task.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Translation Technology",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "This quiz is aimed at testing your knowledge of the theoretical concepts relating to translation technology.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "TRAN8071-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8071"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8071-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-Korea",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8071"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8071-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8071"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8071-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-Korea",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8071"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8071-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8071"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8071-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-Korea",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8071"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, Korea<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Special circumstances, Korea<br />Session 2, Weekday attendance, Korea<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "TRAN8071 - Technology for Translating and Interpreting",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students with practical opportunities to use various technologies in the context of translation and interpreting. Students will develop an understanding of how translation memory works, learn how to build termbases, acquire project management skills and learn how to use Translation Environmnet Tools (TenTs). The combined online module and tutorial format gives students the opportunity to understand how technology works and simultaneously put into practice what they have learnt.",
+    "search_title": "TRAN8071 - Technology for Translating and Interpreting",
+    "code": "TRAN8071",
+    "title": "Technology for Translating and Interpreting",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides students with practical opportunities to use various technologies in the context of translation and interpreting. Students will develop an understanding of how translation memory works, learn how to build termbases, acquire project management skills and learn how to use Translation Environmnet Tools (TenTs). The combined online module and tutorial format gives students the opportunity to understand how technology works and simultaneously put into practice what they have learnt.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-03T10:02:03.35",
+  "code": "TRAN8071",
+  "title": "Technology for Translating and Interpreting",
+  "implementationYear": "2021"
+}

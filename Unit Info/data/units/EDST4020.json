@@ -1,0 +1,124 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Understand and implement the processes of planning, teaching, assessing and reflecting over a lesson sequence to determine the impact of teaching on student learning.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate knowledge of teaching strategies that are responsive to the learning strengths and needs of students from diverse linguistic and cultural backgrounds.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify, apply and synthesise evidence of practice aligned to AITSL graduate teacher standards.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Gain in-depth knowledge of culturally and linguistically diverse students and how they learn.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "10cp from EDTE4100-EDTE4420",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "EDST4010",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDST4020-unit_teaching_period",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST4020"
+        }
+      }
+    ],
+    "unit_offering_text": "2022<br />",
+    "subject_search_title": "EDST4020 - Practice of Teaching: Culturally and Linguistically Diverse Secondary Classrooms",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "This unit is a Professional Experience unit for intending secondary school teachers. Students are required to work in a school under the guidance of a Supervising Teacher implementing the strategies and techniques being developed concurrently in the unit and building on the work covered in the secondary methodology units. Lectures and tutorials focus on developing students&#39; knowledge and understanding of the learning needs of culturally and linguistically diverse students. It includes a Professional Experience Placement.",
+    "search_title": "EDST4020 - Practice of Teaching: Culturally and Linguistically Diverse Secondary Classrooms",
+    "code": "EDST4020",
+    "title": "Practice of Teaching: Culturally and Linguistically Diverse Secondary Classrooms",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is a Professional Experience unit for intending secondary school teachers. Students are required to work in a school under the guidance of a Supervising Teacher implementing the strategies and techniques being developed concurrently in the unit and building on the work covered in the secondary methodology units. Lectures and tutorials focus on developing students&#39; knowledge and understanding of the learning needs of culturally and linguistically diverse students. It includes a Professional Experience Placement.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-06T16:00:22.117",
+  "code": "EDST4020",
+  "title": "Practice of Teaching: Culturally and Linguistically Diverse Secondary Classrooms",
+  "implementationYear": "2021"
+}

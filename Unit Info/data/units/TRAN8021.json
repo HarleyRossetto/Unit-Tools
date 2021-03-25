@@ -1,0 +1,246 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop essential interpreting techniques: segmentation, reformulation, prediction and note-taking.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop an understanding of extra-linguistic and cultural aspects of discourse.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate an understanding of interpreter roles in practice.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Understand discourse for the purpose of interpreting.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop domain-specific knowledge.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Establish self-directed learning skills to enhance professional skills.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Demonstrate the ability to accurately transfer messages from B language to A language in different modes.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate reflective and critical practice to become life-long learners.",
+        "code": "ULO8"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are strongly encouraged to engage in small study groups that are formed by the students themselves to work on various interpreting exercises by themselves. Students will either be provided with resources for such exercises or guided to source materials on their own. Feedback from the lectuers or tutors will be provided on a needs basis. ",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "TRAN821",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MTransInter or MTransInterMIntRel or MTransInterMAppLingTESOL or MAdvTransInterStud and GradDipTransInter or GradCertCommInter or MConfInt",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Reflective Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "Students are required to write a reflective essay of approximately 1000 words following the interpreting examination. In the essay, students should provide a diagnostic assessment of their individual performance in the exam, analyse any problems or difficulties encountered and propose ways to address such.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Interpreting Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "25",
+        "description": "The exam consists of one sight translation task of approximately 200 words and one consecutive passage interpreting task of approximately 300 words (delivered in 3 segments), both of which shall be from the B language of the student (first acquired language) into A language (native language). Students will be provided with an assignment brief for the consecutive passage interpreting task in advance to enable preparation. Exam duration: Approx 30 minutes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Video Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "description": "In this task, students are required to choose one of the topics introduced during the lectures and make a 5 minute video presentation. Each student shall provide an introduction of the topic chosen, review her/his own learning process and propose further actions to further consolidate her/his knowledge and/or enhance skills.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Live Dialogue Interpreting Examination",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "25",
+        "description": "Students are required to interpret part of a live dialogue between an English speaker and a LOTE (Language Other Than English) speaker. An assignment brief will be sent to students to enable preparation beforehand and students are required to record their own interpreting performance for reflection purposes. Exam duration approx 20 minutes (dialogue interpreting in small groups)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "TRAN8021-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8021"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8021-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8021"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "TRAN8021-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8021"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "TRAN8021 - Introduction to Interpreting Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to introduce the basic concept of interpreting and help students develop key interpreting techniques such as listening skills, text analysis, memory retention, note-taking and oral translation skills. The unit will build on fundamental theoretical principles, and will enable students to apply theory to practice, helping students to recognise factors that influence the effective use of different interpreting techniques in different contexts, as well as the decision making involved in selecting one interpreting technique over another. Participants will be expected to perform individual, peer and group evaluations.",
+    "search_title": "TRAN8021 - Introduction to Interpreting Practice",
+    "code": "TRAN8021",
+    "title": "Introduction to Interpreting Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to introduce the basic concept of interpreting and help students develop key interpreting techniques such as listening skills, text analysis, memory retention, note-taking and oral translation skills. The unit will build on fundamental theoretical principles, and will enable students to apply theory to practice, helping students to recognise factors that influence the effective use of different interpreting techniques in different contexts, as well as the decision making involved in selecting one interpreting technique over another. Participants will be expected to perform individual, peer and group evaluations.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-18T11:31:44.765",
+  "code": "TRAN8021",
+  "title": "Introduction to Interpreting Practice",
+  "implementationYear": "2021"
+}

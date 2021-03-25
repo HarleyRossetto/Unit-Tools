@@ -1,0 +1,182 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop a security system on hardware, employing specific hardware technologies, design skills and advanced knowledge.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Describe, with advanced expertise, the relationship between the security level of a hardware system and its performance, cost, security metrics, and operational characteristics.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe in depth, a trustworthy security system on hardware, and its constituent components.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Design a trustworthy, hardware-based system that functions to meet specified requirements, within the constrains imposed by the hardware platform.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MEngElecEng",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Implementation of Security Hardware",
+        "type": {
+          "label": "Design Implementation",
+          "value": "design_impl"
+        },
+        "weight": "30",
+        "description": "Practical implementation of hardware security systems that meet pre-specified requirements",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Design Practical Work",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "40",
+        "description": "Students will work on developing various designs of hardware systems based on pre-defined specifications",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study and Analysis Report",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "Written report based on case studies of state-of-the-art hardware security systems, based on peer-reviewed research articles, where students critique the developments in a research domain. The report is written as an article in the format suitable for an IEEE Conference publication, with abstract, introduction, conclusions and references, as well as the main body of the paper.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ELEC8860-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ELEC8860"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ELEC8860-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ELEC8860"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ELEC8860 - Hardware Security",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "School of Engineering"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit aims to provide an in-depth introduction to the principal concepts, foundations, and methodologies for the design of trustworthy security systems on hardware. Specifically, the unit aims to equip students with the skills needed to build secure and trustworthy hardware using Field Programmable Gate Array (FPGA) technology. The unit will cover topics in cryptosystems, error coding techniques as well as state-of-the-art hardware security systems. The unit will also provide the students with an understanding of and fluency in the quantitative evaluation of design alternatives while considering design metrics such as performance, power dissipation, cost and security.",
+    "search_title": "ELEC8860 - Hardware Security",
+    "code": "ELEC8860",
+    "title": "Hardware Security",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit aims to provide an in-depth introduction to the principal concepts, foundations, and methodologies for the design of trustworthy security systems on hardware. Specifically, the unit aims to equip students with the skills needed to build secure and trustworthy hardware using Field Programmable Gate Array (FPGA) technology. The unit will cover topics in cryptosystems, error coding techniques as well as state-of-the-art hardware security systems. The unit will also provide the students with an understanding of and fluency in the quantitative evaluation of design alternatives while considering design metrics such as performance, power dissipation, cost and security.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-07T10:36:33.867",
+  "code": "ELEC8860",
+  "title": "Hardware Security",
+  "implementationYear": "2021"
+}

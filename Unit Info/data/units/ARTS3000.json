@@ -1,0 +1,262 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Consider how discipline-specific critical frameworks can inform ethical, sustainable and inclusive practices during the activity.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Utilise individual and interpersonal skills that are necessary for navigating the interconnected and fast-paced current global workplace.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Connect theoretical knowledge acquired in the cultural and social science disciplines and/or philosophy with the knowledge generated in the specific context of a real-world activity.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Integrate critical thinking and reflective practice into the activity, and develop self-management strategies to address challenges and enhance learning.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "In addition to workshops, students will also be expected to complete online modules, covering a variety of topics.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": "Session 1-Infrequent-North Ryde, Session 2-Infrequent-North Ryde"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "FOAR300, PACE399",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "50cp at 2000 level or above and permission by special approval ",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Reflective Essay ",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "35",
+        "description": "This task is designed for students to synthesise their academic and vocational knowledge and present it in the form of a reflective essay. The essay consists of a background section on the industry partner, a reflective section on the student&#39;s role within the organisation during the project, and a context section connecting what the student has experienced and learned during the project, including links to relevant theoretical idea(s) and/or discipline-specific knowledge, and how these have been applied to the activity. The essay will be accompanied by an individual log of hours and tasks completed towards the group project. At the end of the session workplace supervisors will assess students&#39; performance and the supervisor’s report will be used to inform assessment of this task.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project Work ",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "30",
+        "description": "Students will complete a series of tasks towards a major project assigned by their workplace supervisors.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Participation and engagement ",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "35",
+        "description": "Students are required to actively discuss required readings and complete activities in class and online, and must attend the presentation of projects by industry partners and a group work-in-progress presentation to the partners before submitting the final project work. Attendance at a) the briefing and b) the work-in-progress presentation is strongly encouraged, as through participation in these activities students will a) learn about the scope of their overall project and partner requirements and b) gain valuable feedback on the conduct of their project.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ARTS3000-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ARTS3000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ARTS3000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ARTS3000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ARTS3000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ARTS3000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ARTS3000-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ARTS3000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ARTS3000-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ARTS3000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ARTS3000-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ARTS3000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Special circumstances<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ARTS3000 - Social, Cultural and Ethical Action",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "ARTS3000 is a unit in the Bachelor of Arts PACE option set. In this unit students will be organised in small groups and will have the opportunity to apply discipline-specific knowledge and skills from anthropology, cultural studies, indigenous studies, gender studies, geography, philosophy, social justice, politics and international relations, sociology, and/or environment, society and law, to a real-world activity which will be sourced by the Arts PACE team. Students will engage with a partner organisation from either the university, corporate, government or not-for-profit sector, and contribute to a community outreach, advocacy, consultancy or research project. Students will bring to their activity a sensitivity to, and appreciation of the complexity of the cultural and social world, while making a positive contribution to an organisation and/or community. The activity will be supported by five on-campus workshops and through online modules and discussion forums. Through these, students will be prompted to connect cultural, social and ethical theory to practice, reflect on skill and knowledge development, road-test possible careers and set goals for the future. Please direct queries, including questions about eligibility and application requirements, to the Faculty of Arts PACE staff through arts.pace&#64;mq.edu.au at least four weeks before the beginning of session.",
+    "search_title": "ARTS3000 - Social, Cultural and Ethical Action",
+    "code": "ARTS3000",
+    "title": "Social, Cultural and Ethical Action",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "ARTS3000 is a unit in the Bachelor of Arts PACE option set. In this unit students will be organised in small groups and will have the opportunity to apply discipline-specific knowledge and skills from anthropology, cultural studies, indigenous studies, gender studies, geography, philosophy, social justice, politics and international relations, sociology, and/or environment, society and law, to a real-world activity which will be sourced by the Arts PACE team. Students will engage with a partner organisation from either the university, corporate, government or not-for-profit sector, and contribute to a community outreach, advocacy, consultancy or research project. Students will bring to their activity a sensitivity to, and appreciation of the complexity of the cultural and social world, while making a positive contribution to an organisation and/or community. The activity will be supported by five on-campus workshops and through online modules and discussion forums. Through these, students will be prompted to connect cultural, social and ethical theory to practice, reflect on skill and knowledge development, road-test possible careers and set goals for the future. Please direct queries, including questions about eligibility and application requirements, to the Faculty of Arts PACE staff through arts.pace&#64;mq.edu.au at least four weeks before the beginning of session.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-10T10:08:01.333",
+  "code": "ARTS3000",
+  "title": "Social, Cultural and Ethical Action",
+  "implementationYear": "2021"
+}

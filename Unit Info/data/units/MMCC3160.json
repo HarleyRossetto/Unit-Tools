@@ -1,0 +1,230 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "analyse and reflect on your personal development during the internship and your progression to employment.",
+        "code": "ULO4"
+      },
+      {
+        "description": "synthesise academic and vocational knowledge in order to maximise personal engagement and achievement in relation to employability.",
+        "code": "ULO3"
+      },
+      {
+        "description": "develop and apply creative, practical and professional skills based on the requirements of the workplace.",
+        "code": "ULO1"
+      },
+      {
+        "description": "apply and evaluate critically the integration of disciplinary knowledge to collaborative learning activities situated in real environments.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for class/readings etc",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MMCS321",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "20cp in MMCC at 3000 Level",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above and Permission by Special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Presentation and examples of work",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "60",
+        "description": "Students will present and submit an integrative project that situates their internship within a broader cultural context, disciplinary knowledge, and individual career aspirations/goals. This requires students to reflect on their internship, program of study, disciplinary skill acquisition and samples of work. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Diary and Logsheets",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "40",
+        "description": "Students will post 4 x 300 word reflective diary entries on the unit iLearn site. These submissions will be evenly spaced over the duration of the student&#39;s placement. Students will also submit a completed logsheet (signed by their internship supervisor) showing that they have completed the 45 hour minimum requirement. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MMCC3160",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MMCC3160"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MMCC3121"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Creative Industries Internship",
+                "academic_item_code": "MMCC3121",
+                "academic_item_url": "/2020/units/MMCC3121"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC3160-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3160"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC3160-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3160"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MMCC3160 - Arts Management Internship",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "This unit is intended to provide students with hands-on arts management experience within the creative and cultural industries. Through project-based and work-integrated learning activities, this unit integrates academic and industry knowledge in order to maximize students&#39; employability in this sector. In order to fulfill the requirements of this unit, students undertake a 45 hour (minimum) Internship/PACE activity working under supervision. Students choose from 3 options for this unit. Option 1 involves student-initiated placements; students can source their own Internship/PACE activity and propose this to the University for approval. Option 2 features University-assisted placements; the University can assist students with opportunities. Option 3 involves PACE partners being invited onto campus to work with student groups on a project the group(s) have been assigned by the partner organisation(s). Students seeking to enrol in this unit should contact the Arts PACE office (<a href=\"mailto:pace.arts&#64;mq.edu.au\" rel=\"nofollow\">pace.arts&#64;mq.edu.au",
+    "search_title": "MMCC3160 - Arts Management Internship",
+    "code": "MMCC3160",
+    "title": "Arts Management Internship",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is intended to provide students with hands-on arts management experience within the creative and cultural industries. Through project-based and work-integrated learning activities, this unit integrates academic and industry knowledge in order to maximize students&#39; employability in this sector. In order to fulfill the requirements of this unit, students undertake a 45 hour (minimum) Internship/PACE activity working under supervision. Students choose from 3 options for this unit. Option 1 involves student-initiated placements; students can source their own Internship/PACE activity and propose this to the University for approval. Option 2 features University-assisted placements; the University can assist students with opportunities. Option 3 involves PACE partners being invited onto campus to work with student groups on a project the group(s) have been assigned by the partner organisation(s). Students seeking to enrol in this unit should contact the Arts PACE office (<a href=\"mailto:pace.arts&#64;mq.edu.au\" rel=\"nofollow\">pace.arts&#64;mq.edu.au",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-01T14:05:33.564",
+  "code": "MMCC3160",
+  "title": "Arts Management Internship",
+  "implementationYear": "2021"
+}

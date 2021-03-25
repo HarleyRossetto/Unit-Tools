@@ -1,0 +1,286 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe and identify the structural and functional features of the musculoskeletal components of the limbs and back and their anatomical relations.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Communicate and demonstrate an appreciation and respect for those who have bequeathed their bodies to research.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate, where appropriate, on a living subject: a. musculoskeletal landmarks of the limbs and back b. the route of nerves and blood vessels of the limbs and back c. movements at joints d. muscle actions.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe and identify the arterial supply, venous and lymphatic drainage of the musculoskeletal components of the limbs and back.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify bony landmarks of the limbs and back and identify major structures on selected radiographs, CT and MRI images.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply acquired knowledge of the anatomy of the limbs and back to investigate clinical case studies.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Tutorial exercises must be completed by the following class.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "HLTH108 or ANAT1001",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "HLTH109",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Quiz 1 - Upper Limb",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "4",
+        "description": "Multiple choice question online quiz focusing on the upper limb; utilising images of human remains, bones, x-rays, surface anatomy photographs.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical Exam 1",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "Spot test in the anatomy laboratory focusing on the upper limb; utilising human remains, bones, x-rays, surface anatomy photographs.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Theory Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Theory exam covering the anatomy of the limbs and back. It consist of multiple choice questions, short answer questions and includes clinical cases.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz 2 - Lower Limb",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "4",
+        "description": "Multiple choice question online quiz focusing on the lower limb; utilising images of human remains, bones, x-rays, surface anatomy photographs.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical Exam 2",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "Spot test in the anatomy laboratory, focusing on the lower limb and back; utilising human remains, bones, x-rays, surface anatomy photographs.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz 3 - Back",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "2",
+        "description": "Multiple choice question online quiz focusing on the back; utilising images of human remains, bones, x-rays, surface anatomy photographs.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANAT1002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANAT1002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANAT1002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANAT1002"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "ANAT1002 - Anatomy of Limbs and Back",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Chiropractic "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit builds on the basic anatomy taught in ANAT1001 (previously known as HLTH108) (Introduction to Anatomy). It focuses on the musculoskeletal anatomy of the upper and lower limbs and back. The unit utilises an integrated approach within which relevant gross and radiological anatomy as well as histology and embryology are investigated in detail. It is clinically oriented and focuses on surface and applied anatomy. The unit includes a significant practical component in which human remains, models, medical images, surface anatomy and clinical cases are studied. Students are expected to show an appreciation and respect for those who have bequeathed their bodies to science.",
+    "search_title": "ANAT1002 - Anatomy of Limbs and Back",
+    "code": "ANAT1002",
+    "title": "Anatomy of Limbs and Back",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit builds on the basic anatomy taught in ANAT1001 (previously known as HLTH108) (Introduction to Anatomy). It focuses on the musculoskeletal anatomy of the upper and lower limbs and back. The unit utilises an integrated approach within which relevant gross and radiological anatomy as well as histology and embryology are investigated in detail. It is clinically oriented and focuses on surface and applied anatomy. The unit includes a significant practical component in which human remains, models, medical images, surface anatomy and clinical cases are studied. Students are expected to show an appreciation and respect for those who have bequeathed their bodies to science.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T11:03:43.463",
+  "code": "ANAT1002",
+  "title": "Anatomy of Limbs and Back",
+  "implementationYear": "2021"
+}

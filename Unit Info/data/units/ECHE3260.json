@@ -1,0 +1,202 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop an understanding of the broad theoretical approaches to the study of children and families, including ecological theory, family systems theory, life cycle approaches, and theories of risk and resilience.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify the importance of understanding children and families within particular social, linguistic and cultural contexts, and demonstrate sensitivity to diverse perspectives, abilities and cultural ways of knowing.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify and evaluate the range of formal and informal supports available to families with young children as well as factors that enhance connections between families and schools/childcare centres/preschools.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Develop an understanding of the unique learning requirements of children from a range of backgrounds and consider how best to accommodate this within different learning environments.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Have a detailed knowledge of contemporary issues concerning children and families, including such things as divorce, the role of the extended family, poverty, child abuse and neglect, substitute care and community violence.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ABEC215, ECH326",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Case study report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "60",
+        "description": "Family case study (2500 -3000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Service Folder for Families",
+        "type": {
+          "label": "Field work task",
+          "value": "field_work_task"
+        },
+        "weight": "40",
+        "description": "Selection of services and questions for family interview (8 pages)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE3260"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE3260"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE3260"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "ECHE3260 - Working with Families, Communities and Other Professionals in Education Settings",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines the contexts of childhood, family conditions, neighbourhood, environmental contexts and social policies, and identifies the implications for early childhood professionals and school practitioners. Theoretical approaches to the study of families are explored, along with issues for children related to the structural and cultural diversity of families in Australia. Interconnections between children, families and communities are examined along with implications for practice. Teacher Education Students will develop skills in constructing inclusive educational experiences for diverse children and their families by understanding how to work with other professional colleagues.",
+    "search_title": "ECHE3260 - Working with Families, Communities and Other Professionals in Education Settings",
+    "code": "ECHE3260",
+    "title": "Working with Families, Communities and Other Professionals in Education Settings",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines the contexts of childhood, family conditions, neighbourhood, environmental contexts and social policies, and identifies the implications for early childhood professionals and school practitioners. Theoretical approaches to the study of families are explored, along with issues for children related to the structural and cultural diversity of families in Australia. Interconnections between children, families and communities are examined along with implications for practice. Teacher Education Students will develop skills in constructing inclusive educational experiences for diverse children and their families by understanding how to work with other professional colleagues.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-16T15:56:34.121",
+  "code": "ECHE3260",
+  "title": "Working with Families, Communities and Other Professionals in Education Settings",
+  "implementationYear": "2021"
+}

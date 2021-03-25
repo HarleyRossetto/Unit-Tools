@@ -1,0 +1,128 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Work collaboratively within a student group on undertaking, producing and delivering a group project.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply principles of consultancy management to a range of management issues.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse issues related to management and leadership theory.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Assess the nature of project management issues and the environment in which they are generated and recommend strategic solutions.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply management and leadership knowledge and theory to reviewing strategic management within an organisation.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "20cp at 2000 level including ((MGMT2010 or BBA310) and MGMT2018)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MGMT3051",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT3020"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MGMT3020 - Management Project",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "By working on a management-based group project, this unit is designed to provide students with the opportunity to extend, but most importantly to apply, the knowledge and skills that they have gained throughout their Bachelor of Commerce (Management major) degree. The aim of the project is to provide a solution to a problem set by an industry partner, such as a not-for-profit organisation, government agency or for-profit organisation, and to present the solution to an organisation representative at the end of the session. It is expected that students will liaise with the industry partner throughout the session to ensure they are working effectively towards the end goal. Students will gain an insight into organisations and be able to contextualise the course&#39;s learning outcomes in the final management project. Students will be assessed on a reflective journal, and on both the written and oral components of their reports.",
+    "search_title": "MGMT3020 - Management Project",
+    "code": "MGMT3020",
+    "title": "Management Project",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "By working on a management-based group project, this unit is designed to provide students with the opportunity to extend, but most importantly to apply, the knowledge and skills that they have gained throughout their Bachelor of Commerce (Management major) degree. The aim of the project is to provide a solution to a problem set by an industry partner, such as a not-for-profit organisation, government agency or for-profit organisation, and to present the solution to an organisation representative at the end of the session. It is expected that students will liaise with the industry partner throughout the session to ensure they are working effectively towards the end goal. Students will gain an insight into organisations and be able to contextualise the course&#39;s learning outcomes in the final management project. Students will be assessed on a reflective journal, and on both the written and oral components of their reports.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:33:08.756",
+  "code": "MGMT3020",
+  "title": "Management Project",
+  "implementationYear": "2021"
+}

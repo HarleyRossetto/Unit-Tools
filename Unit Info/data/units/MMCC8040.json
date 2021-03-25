@@ -1,0 +1,186 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "evaluate the history of journalism and identify opportunities and challenges for the future of journalism.",
+        "code": "ULO5"
+      },
+      {
+        "description": "evaluate and analyse the research material on journalism and media.",
+        "code": "ULO3"
+      },
+      {
+        "description": "apply advanced reporting, research and writing techniques to produce articles for print and online media.",
+        "code": "ULO1"
+      },
+      {
+        "description": "analyse and discriminate between the various writing styles and reporting techniques for various journalistic mediums.",
+        "code": "ULO2"
+      },
+      {
+        "description": "identify and evaluate the key concepts underpinning the role of the fourth estate.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings and preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MECO804",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MMediaComm or MCrInd or MIC",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Media Portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "50",
+        "description": "This task introduces the student to media writing and research. Students will submit a portfolio containing a reflective introduction and three selected examples of production and critical analysis exercises from the prescribed weeks. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Media Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "Students will submit a major media project and a research report choosing from genres covered in the unit. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC8040-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC8040"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC8040-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC8040"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MMCC8040 - Media Writing and Research",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on the core skills that underpin journalism as a media practice including, reporting and research techniques and approaches to storytelling and representation across media. It also covers critical material on journalism and the contemporary media landscape, including ideals of objectivity, advocacy, and the use and function of news media.",
+    "search_title": "MMCC8040 - Media Writing and Research",
+    "code": "MMCC8040",
+    "title": "Media Writing and Research",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on the core skills that underpin journalism as a media practice including, reporting and research techniques and approaches to storytelling and representation across media. It also covers critical material on journalism and the contemporary media landscape, including ideals of objectivity, advocacy, and the use and function of news media.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:45:42.616",
+  "code": "MMCC8040",
+  "title": "Media Writing and Research",
+  "implementationYear": "2021"
+}

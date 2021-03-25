@@ -1,0 +1,227 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "appreciate the larger issues that engage historians of Hellenistic Age and to understand  connections between the ancient world and the modern, as well as the on-going significance of this period of the past in the modern world.",
+        "code": "ULO3"
+      },
+      {
+        "description": "examine and critically evaluate historical evidence with initiative and judgement and illustrate competency through devising and sustaining arguments and problem solving with respect to the Hellenistic Age.",
+        "code": "ULO2"
+      },
+      {
+        "description": "illustrate a broad knowledge of the historical developments in the Hellenistic Age and a broad understanding of how historians have approached this period.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Read books and articles made available in Leganto",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Find and study relevant materials not made available in Leganto",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "AHIS204",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Essay 2: The Hellenstic Age",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "The Second Essay of 1000 words will be focused on an aspect of the Hellenistic Age",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay 1: Alexander the Great and the Macedonian Empire",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "The essay of 1000 words (maximum) will focus on historical interpretation of an aspect of the reign of Alexander the Great and/or its historical consequences for the Hellenistic Age",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Take home Examination",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "Students will demonstrate in the assessment their broad knowledge of the Hellenistic Age and of the approaches to the History of this period by modern authors. A mandatory question on source analysis. There will also be an opportunity for students to demonstrate their understanding of the importance of this historical period for the modern world",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "AHIX2210",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: AHIX2210"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: AHIS2210"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Philip II, Alexander the Great, and the Macedonian Empire",
+                "academic_item_code": "AHIS2210",
+                "academic_item_url": "/2020/units/AHIS2210"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "AHIX2210-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIX2210"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "AHIX2210 - From Alexander the Great to Augustus: The Hellenistic Age",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Alexander the Great&#39;s extraordinary conquests (towards the end of the fourth century BCE) opened up vast areas of the ancient Near-East to Greek influences. This unit deals with the political and cultural history of the eastern Mediterranean area, beginning with Alexander&#39;s invasion of the Persian Empire, dealing in some detail with his personality and policies. It follows the fortunes of his successors in the third and second centuries BCE, treating the Hellenisation of native peoples and reactions to cultural change, down to and including the early first century CE, under the Roman Empire. Consideration will also be given to the place of Alexander the Great  as a historical figure in the modern world.",
+    "search_title": "AHIX2210 - From Alexander the Great to Augustus: The Hellenistic Age",
+    "code": "AHIX2210",
+    "title": "From Alexander the Great to Augustus: The Hellenistic Age",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Alexander the Great&#39;s extraordinary conquests (towards the end of the fourth century BCE) opened up vast areas of the ancient Near-East to Greek influences. This unit deals with the political and cultural history of the eastern Mediterranean area, beginning with Alexander&#39;s invasion of the Persian Empire, dealing in some detail with his personality and policies. It follows the fortunes of his successors in the third and second centuries BCE, treating the Hellenisation of native peoples and reactions to cultural change, down to and including the early first century CE, under the Roman Empire. Consideration will also be given to the place of Alexander the Great  as a historical figure in the modern world.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T09:07:42.891",
+  "code": "AHIX2210",
+  "title": "From Alexander the Great to Augustus: The Hellenistic Age",
+  "implementationYear": "2021"
+}

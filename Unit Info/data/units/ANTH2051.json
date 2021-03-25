@@ -1,0 +1,325 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain how paleoanthropologists conduct research and draw conclusions about extinct species and ways of life from material evidence.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Evaluate and employ evolution-based explanations for contemporary features of human life, anatomy, and behavior.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explain key anthropological concepts and theories in the study of human evolution, including be familiar with the most important debates and new developments in the field.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse and express judgement about significant debates in the study of human evolution.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Employ theoretical concepts, evidence, and analysis by specifically exercising these abilities on the materials covered in this unit.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Discuss and examine material related to human evolution (such as facsimile remains, site surveys, and material culture).",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading of required readings for class.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Pre-tutorial preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Reviewing online material for quizzes and final exam",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(ANTH150 or ANTH1050) or 40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ANTX151, ANTH151, ANT151",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Weekly online quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "Starting after the lecture in Week 2, students will be expected to take a weekly quiz online based on the readings, lecture and tutorial activity. The quiz will close prior to the lecture in the following week.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In-tutorial discussion questions",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Each week, the tutorial (online and on campus) sets the students a series of tasks, including a participatory task depending upon the material for that week.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Literature review",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "30",
+        "description": "The literature review is a library-based assignment that can be conducted online, especially using the Macquarie University Library’s extensive database and journal collection. Students find a recent article in a scientific journal, referred to as the &#39;target article&#39; (peer reviewed and published in the last five years). They find at least five additional sources linked to this article, either because they are cited in the target article&#39;s References or because they cite the target article. Students write short summaries, an introduction, and a conclusion (1500-word maximum).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final online exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "35",
+        "description": "The final exam is cumulative and multiple choice, conducted online after the final lecture.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ANTH2051",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ANTH2051"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ANTX1051"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Human Evolution and Diversity",
+                "academic_item_code": "ANTX1051",
+                "academic_item_url": "/2020/units/ANTX1051"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: ANTH1051"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.01R",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Human Evolution and Diversity",
+                "academic_item_code": "ANTH1051",
+                "academic_item_url": "/2021/units/ANTH1051"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: ANTX2051"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Human Evolution and Diversity",
+                "academic_item_code": "ANTX2051",
+                "academic_item_url": "/2021/units/ANTX2051"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ANTH2051-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH2051"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ANTH2051-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH2051"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ANTH2051-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ANTH2051"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "ANTH2051 - Human Evolution and Diversity",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores the evolution of our species, what makes humans distinct, and how we have developed the biological, cultural and technological diversity we now see around us. The unit examines new research, highlighting the most recent discoveries and theoretical breakthroughs, encouraging students to learn more about the major debates, key discoveries, and important theories in the study of human evolution. Specifically, the unit provides students with a background in evolutionary theory, genetics, anthropology, paleoarchaeology, and comparative primatology in order to address a number of topics: the development of the human brain; bipedalism; language; families; social life; sexuality; reproduction; hunting; diet; art; stone tools and technology; language; domesticated plants and animals; cities; and the first civilisations. The unit also demonstrates how an evolutionary perspective offers new insights into modern human diversity, including both cultural and biological differences among us. The unit does not require a background in the biological or evolutionary sciences. It provides an excellent foundation for understanding and evaluating important contemporary issues.",
+    "search_title": "ANTH2051 - Human Evolution and Diversity",
+    "code": "ANTH2051",
+    "title": "Human Evolution and Diversity",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores the evolution of our species, what makes humans distinct, and how we have developed the biological, cultural and technological diversity we now see around us. The unit examines new research, highlighting the most recent discoveries and theoretical breakthroughs, encouraging students to learn more about the major debates, key discoveries, and important theories in the study of human evolution. Specifically, the unit provides students with a background in evolutionary theory, genetics, anthropology, paleoarchaeology, and comparative primatology in order to address a number of topics: the development of the human brain; bipedalism; language; families; social life; sexuality; reproduction; hunting; diet; art; stone tools and technology; language; domesticated plants and animals; cities; and the first civilisations. The unit also demonstrates how an evolutionary perspective offers new insights into modern human diversity, including both cultural and biological differences among us. The unit does not require a background in the biological or evolutionary sciences. It provides an excellent foundation for understanding and evaluating important contemporary issues.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T12:11:45.063",
+  "code": "ANTH2051",
+  "title": "Human Evolution and Diversity",
+  "implementationYear": "2021"
+}

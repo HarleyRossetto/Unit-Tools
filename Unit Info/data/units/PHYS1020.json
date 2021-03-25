@@ -1,0 +1,278 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "demonstrate an understanding of the basic concepts of electricity and magnetism including charge, current, Coulomb's law, the Lorentz force law and Maxwell's equations.",
+        "code": "ULO1"
+      },
+      {
+        "description": "interpret mathematically the basic properties of waves and describe the concept of wave-particle duality.",
+        "code": "ULO4"
+      },
+      {
+        "description": "use the laws of electromagnetism to solve a variety of quantitative problems in electrostatics, magnetostatics, circuit theory, induction and electromagnetic waves.",
+        "code": "ULO3"
+      },
+      {
+        "description": "identify, record and explain sources of uncertainty in physical measurements; and to undertake appropriate uncertainty analysis of results, including statistical analysis.",
+        "code": "ULO6"
+      },
+      {
+        "description": "interpret and make predictions about physical situations in terms of electric and magnetic fields, electric potential, electric and magnetic flux, electromotive force and electrical circuit properties such as voltage and current.",
+        "code": "ULO2"
+      },
+      {
+        "description": "perform physical measurements, record experimental data, display data graphically, analyse data, and draw written conclusions in a clear, concise, and systematic manner.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Consolidating lecture material",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Special-North Ryde"
+      },
+      {
+        "description": "Preparing for SGTA and consolidating lecture material",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Weekday-North Ryde"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PHYS140, PHYS143, PHYS106",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "MATH132 or MATH135 or MATH1010 or MATH1015",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "PHYS1010 or PHYS107",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Problem sets",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "30",
+        "description": "A sequence of written problem sets through the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Laboratory record",
+        "type": {
+          "label": "Lab book",
+          "value": "lab_book"
+        },
+        "weight": "30",
+        "description": "Assessment of lab record made during each experimental activity, as well as any prelab preparation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "A series of short tests, taken in SGTAs.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Examination in the University Examination period, covering the entire unit content.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PHYS1020",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PHYS1020"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PHYS1520"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Physics for Electrical and Electronic Engineering",
+                "academic_item_code": "PHYS1520",
+                "academic_item_url": "/2020/units/PHYS1520"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHYS1020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHYS1020"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "PHYS1020 - Electric and Magnetic Interactions",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Physics and Astronomy "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit, following on from PHYS1010, provides an overview of physics primarily for students intending to study physics and astronomy beyond first year, but also suitable for those specialising in any of the sciences. As well as broadening their experience in classical Newtonian physics of matter and waves, and Maxwell&#39;s theory of electromagnetism, students are introduced to the main theories underlying modern physics: quantum mechanics, thermal physics, and Einstein&#39;s theory of relativity, with an emphasis on understanding the interrelationship between these fundamental ideas. PHYS1020 deals with electromagnetism, circuit theory, waves and diffraction, and the effects of special relativity. Fundamentals of experimental method and data analysis are taught in well-equipped laboratories using examples which support and complement the lecture course.",
+    "search_title": "PHYS1020 - Electric and Magnetic Interactions",
+    "code": "PHYS1020",
+    "title": "Electric and Magnetic Interactions",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit, following on from PHYS1010, provides an overview of physics primarily for students intending to study physics and astronomy beyond first year, but also suitable for those specialising in any of the sciences. As well as broadening their experience in classical Newtonian physics of matter and waves, and Maxwell&#39;s theory of electromagnetism, students are introduced to the main theories underlying modern physics: quantum mechanics, thermal physics, and Einstein&#39;s theory of relativity, with an emphasis on understanding the interrelationship between these fundamental ideas. PHYS1020 deals with electromagnetism, circuit theory, waves and diffraction, and the effects of special relativity. Fundamentals of experimental method and data analysis are taught in well-equipped laboratories using examples which support and complement the lecture course.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:44:48.315",
+  "code": "PHYS1020",
+  "title": "Electric and Magnetic Interactions",
+  "implementationYear": "2021"
+}

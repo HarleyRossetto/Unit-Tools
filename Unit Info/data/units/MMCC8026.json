@@ -1,0 +1,186 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "apply advanced reporting and storytelling techniques to find and produce stories that inform, educate and entertain.",
+        "code": "ULO3"
+      },
+      {
+        "description": "evaluate and analyse new literacies in journalism.",
+        "code": "ULO4"
+      },
+      {
+        "description": "demonstrate an advanced knowledge of how to gather, analyse and interpret data as a journalist.",
+        "code": "ULO2"
+      },
+      {
+        "description": "situate the focus on data and visualization within debates about journalism and its social function.",
+        "code": "ULO5"
+      },
+      {
+        "description": "analyse the practice of data journalism, its products (including visualizations and interactive reporting) and its history.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings and preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MECO826",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MMediaComm or MCrInd",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Data Visualization in Context",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "60",
+        "description": "This portfolio contains three original data visualisations and an reflective essay. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Writing Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "40",
+        "description": "This project contains two set exercises and a scholarly introduction that contextualises your work within key debates and discussions from the set readings and seminar content. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC8026-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC8026"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC8026-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC8026"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MMCC8026 - Data Journalism",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on innovative approaches to finding, reporting, producing and interacting with media stories through basic data analysis and data visualization. Students will critically analyse and gain practical experience in finding data-sets, using data-driven reporting techniques and producing effective and informative visualisations. The unit also covers user experience, interactivity and the rhetorical use of big and small data in media practice.",
+    "search_title": "MMCC8026 - Data Journalism",
+    "code": "MMCC8026",
+    "title": "Data Journalism",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on innovative approaches to finding, reporting, producing and interacting with media stories through basic data analysis and data visualization. Students will critically analyse and gain practical experience in finding data-sets, using data-driven reporting techniques and producing effective and informative visualisations. The unit also covers user experience, interactivity and the rhetorical use of big and small data in media practice.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:27:24.275",
+  "code": "MMCC8026",
+  "title": "Data Journalism",
+  "implementationYear": "2021"
+}

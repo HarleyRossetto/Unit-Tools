@@ -1,0 +1,255 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate knowledge of the strengths, limitations and applications of different job analysis techniques.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate an understanding of theories about the nature, causes, and impact of work stress, motivation and engagement by applying these theories and research findings to practical situations.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Undertake a range of job analysis techniques for different purposes.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Understand the theoretical, practical and ethical challenges surrounding workplace stress management.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate knowledge of the theory and practice associated with designing and re-designing work.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Design an evidence-based employee wellbeing intervention program that meets the specific needs of a client organisation.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Observing videos",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSYO964, PSYO914",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MOrgPsych or MProfPsych",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Fortnightly online quiz ",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Between four and eight multiple choice questions fortnightly delivered online. Each quiz is available for two week. Students have 20 minutes to complete each quiz.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Open book examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "35",
+        "description": "In class open book 60 minute written examination addressing four questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Intervention proposal ",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "55",
+        "description": "Students are required to prepare a 1600 word report describing and justifying a suitable intervention in response to a detailed client brief. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Competence evaluation",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "0",
+        "description": "Students will be perform in class activities in groups applying principles and concepts of industrial and organisational psychology. Students will be assessed as a group.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PSYO8914",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PSYO8914"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PSYB8964"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Industrial and Organisational Psychology",
+                "academic_item_code": "PSYB8964",
+                "academic_item_url": "/2020/units/PSYB8964"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PSYO8914-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYO8914"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "PSYO8914 - Industrial and Organisational Psychology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit aims to provide students with professional understanding of the relations between work and wellbeing, and appropriate skills for better management of these relations. The unit covers applications of research to such practical matters as job analysis, job design, and stress management. The unit brings together theory, methodology and workplace issues to provide a sound underpinning for professional practice in industrial and organisational psychology.",
+    "search_title": "PSYO8914 - Industrial and Organisational Psychology",
+    "code": "PSYO8914",
+    "title": "Industrial and Organisational Psychology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit aims to provide students with professional understanding of the relations between work and wellbeing, and appropriate skills for better management of these relations. The unit covers applications of research to such practical matters as job analysis, job design, and stress management. The unit brings together theory, methodology and workplace issues to provide a sound underpinning for professional practice in industrial and organisational psychology.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T09:44:53.725",
+  "code": "PSYO8914",
+  "title": "Industrial and Organisational Psychology",
+  "implementationYear": "2021"
+}

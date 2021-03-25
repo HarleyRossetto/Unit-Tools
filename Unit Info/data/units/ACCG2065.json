@@ -1,0 +1,230 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain the legal, ethical and governance issues relating to Blockchain. ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically assess the applications of Blockchain including smart contracts, financing, privacy and security, crypto currencies and how Blockchain can help an organisation achieve competitive advantage.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Investigate future trends in Blockchain and associated technologies. ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Formulate a strategy for integrating Blockchain in the supply chain, internet of things, insurance, finance, accounting and government.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "50cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "This assessment requires each student to deliver a presentation based in the report on legal and ethical issues. Presentation (10 marks)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "This assessment requires each student to record and submit a presentation based in the report on legal and ethical issues.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Assessment",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "A variety of activities will be assigned each week from weeks 3 to 12 (10 weeks) completed online on contemporary topics on Blockchain.  Students are expected to complete readings and research as required prior to the class",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Informative Report on Legal and Ethical Issues relating to Blockchain Report (1500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Analytical Report on applications of Blockchain and how they can be used in a business context (including future trends) Report (2000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Assessment",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "A variety of activities will be assigned each week from weeks 3 to 12 (10 weeks) completed in class and/or online (e.g. blogs) on contemporary topics on Blockchain.  Students are expected to complete readings and research as required prior to the class",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG2065"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG2065"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ACCG2065 - Blockchain for Business",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Blockchain is an emerging technology that has many applications other than cryptocurrencies in business and the accounting profession.   This unit is designed for students to gain an understanding of Blockchain from a business, accounting and technical perspective.  The primary objective of this unit is for students to be able to evaluate Blockchain by understanding the benefits and challenges as well as the legal, ethical and governance issues.  The unit will examine how Blockchain can assist an organisation to achieve competitive advantage and take advantage of future trends.",
+    "search_title": "ACCG2065 - Blockchain for Business",
+    "code": "ACCG2065",
+    "title": "Blockchain for Business",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Blockchain is an emerging technology that has many applications other than cryptocurrencies in business and the accounting profession.   This unit is designed for students to gain an understanding of Blockchain from a business, accounting and technical perspective.  The primary objective of this unit is for students to be able to evaluate Blockchain by understanding the benefits and challenges as well as the legal, ethical and governance issues.  The unit will examine how Blockchain can assist an organisation to achieve competitive advantage and take advantage of future trends.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:36:55.021",
+  "code": "ACCG2065",
+  "title": "Blockchain for Business",
+  "implementationYear": "2021"
+}

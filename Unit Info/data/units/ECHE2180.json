@@ -1,0 +1,230 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate a thorough working knowledge of current research, theory and issues in child development.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Appreciate the biological underpinnings of development.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Examine the role of child development research for informing teaching practice.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Explain the many and varying influences important to the development of a child.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Understand the whole child by appreciating the links between different areas of development.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Appreciate cultural, historical and contextual influences on development.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Logging onto ilearn, reading and responding to announcements, posting queries and topics to discussion, downloading lectures and tutorial materials, accessing e-reserve. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Reading, note taking from readings and linking to lecture and tutorial content and notes",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ABEC312, ABEC313, ECH218",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "A 2hr and 30min exam (plus 10mins reading time) that consists of a combination of multiple-choice, short answer and essay questions. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Parent leaflet task",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "30",
+        "description": "2 A4 page Information sheet designed for parents of children attending EC centre/school to promote awareness of one of specified area of child development (~750-1000wds)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Topic Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "\t\n1800wds. Discuss and critically evaluate the findings of at least five research studies related to specified area of development. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE2180"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE2180"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE2180"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ECHE2180 - Child Development in the Preschool and Primary School Years",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit offers a critical overview of current theory, research and issues in child development from the preschool years through to late middle childhood and puberty. The unit covers the major aspects of children&#39;s cognitive, physical and social/emotional development, personality, gender and moral development. The unit also considers the influence of key relationships with siblings and peers for children&#39;s development. An understanding of factors that promote and attenuate optimal development and well-being and the unique contribution of child rearing contexts is integrated throughout. In addition, students develop knowledge of strategies for the promotion of good mental health for young children. During the course of the unit, students are encouraged to engage in active interpretation of the material covered and to consider both the implications and practical application in their professional contexts. Particular attention is paid to the implications for prior to school and primary school educators within the contemporary Australian social/cultural context.",
+    "search_title": "ECHE2180 - Child Development in the Preschool and Primary School Years",
+    "code": "ECHE2180",
+    "title": "Child Development in the Preschool and Primary School Years",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit offers a critical overview of current theory, research and issues in child development from the preschool years through to late middle childhood and puberty. The unit covers the major aspects of children&#39;s cognitive, physical and social/emotional development, personality, gender and moral development. The unit also considers the influence of key relationships with siblings and peers for children&#39;s development. An understanding of factors that promote and attenuate optimal development and well-being and the unique contribution of child rearing contexts is integrated throughout. In addition, students develop knowledge of strategies for the promotion of good mental health for young children. During the course of the unit, students are encouraged to engage in active interpretation of the material covered and to consider both the implications and practical application in their professional contexts. Particular attention is paid to the implications for prior to school and primary school educators within the contemporary Australian social/cultural context.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T14:20:58.025",
+  "code": "ECHE2180",
+  "title": "Child Development in the Preschool and Primary School Years",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,202 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically analyse the relationship between linguistic practices, social organisation, and the material world.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Effectively and plainly communicate the findings of independent research in an academic research report.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate through independent research how language is used to achieve human social activities in particular contexts.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Conduct and interpret procedures relevant for analysing language use.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate and apply theories relevant for describing and explaining spoken language in use.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading and seminar preparation",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LING780",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "1. Transcription task",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "15",
+        "description": "Detailed transcription of an audio passage and a video passage. (Equivalent to 1000 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "2. An analysis task",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "25",
+        "description": "Students will conduct analyses of data extracts provided to them. Analyses will involve turn-taking, sequence organization, repair (Equivalent to 1200 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "4. Final report",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "50",
+        "description": "Students will write a report analysing extracts exemplifying interactional practices that they have identified from within transcribed recordings. (2500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "3. Data session",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "Students will lead a group data session on interactional practices that they have identified from within transcribed recordings (2 hour data session. Transcript preparation is equivalent to 800 words.)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "To be determined",
+        "teaching_period": {
+          "value": "To be determined"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LING7780"
+        }
+      }
+    ],
+    "unit_offering_text": "To be determined<br />",
+    "subject_search_title": "LING7780 - Advanced Topics in Language in Interaction",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will focus on how people use spoken language within social interaction in everyday situations. It will examine how lexis, syntax, and prosody integrate with other semiotic resources such as gaze, gesture, the body and the surrounding environment. It will also explore particular scenes of social activity, such as conversations between friends and family, emergency calls, medical consultations, and interactions involving people with cognitive disorders. The unit will provide students with a thorough methodological grounding in the micro-analytic techniques of conversation analysis (CA) and interactional linguistics. Wherever possible, the course will take a cross-linguistic and cross-cultural perspective on social interaction. Students will develop the technical skills necessary for data collection, transcription and analysis of both audio and video recordings, as well as the management of interactional corpora.",
+    "search_title": "LING7780 - Advanced Topics in Language in Interaction",
+    "code": "LING7780",
+    "title": "Advanced Topics in Language in Interaction",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will focus on how people use spoken language within social interaction in everyday situations. It will examine how lexis, syntax, and prosody integrate with other semiotic resources such as gaze, gesture, the body and the surrounding environment. It will also explore particular scenes of social activity, such as conversations between friends and family, emergency calls, medical consultations, and interactions involving people with cognitive disorders. The unit will provide students with a thorough methodological grounding in the micro-analytic techniques of conversation analysis (CA) and interactional linguistics. Wherever possible, the course will take a cross-linguistic and cross-cultural perspective on social interaction. Students will develop the technical skills necessary for data collection, transcription and analysis of both audio and video recordings, as well as the management of interactional corpora.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:52:28.509",
+  "code": "LING7780",
+  "title": "Advanced Topics in Language in Interaction",
+  "implementationYear": "2021"
+}

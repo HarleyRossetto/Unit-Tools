@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Pass/Fail",
+      "value": "pass-fail"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "5000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Meet learning outcomes relevant to the exchange unit chosen and set by the host university",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "130cp in LAWS units and permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Exchange program of study",
+        "type": {
+          "label": "Learning plan",
+          "value": "learning_plan"
+        },
+        "weight": "100",
+        "description": "Students must successfully complete units on exchange included in their exchange study program",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Winter vacation-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Winter vacation"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5301"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5301"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5301"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 3-Special",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5301"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Winter vacation-Special",
+        "teaching_period": {
+          "value": "Winter vacation"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5301"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5301"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5301"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 3, Weekday attendance, North Ryde<br />Winter vacation, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 3, Special circumstances<br />Winter vacation, Special circumstances<br />",
+    "subject_search_title": "LAWS5301 - International Law Exchange 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Law Exchange grants credit to students who undertake study of Law units while on exchange overseas. This provides an excellent opportunity for students to engage in the study of law in a foreign jurisdiction, gain important skills of cultural competence and experience living and studying in another country. Students are generally permitted to study Law units that are pre-approved by the Macquarie Law School Exchange Officer as the equivalent of a 5000 level elective. This may consist of a single Law unit studied overseas, or a combination of units that together, meet the equivalent of 150 hours of study at 5000 level. Students cannot get credit on exchange for any compulsory Macquarie Law school unit. The content and assessment of any unit is determined by the host University and the credit granted by Macquarie Law School is ungraded and does not count toward a student&#39;s WAM. Further details about the Exchange program can be found on the Macquarie Law School home page.",
+    "search_title": "LAWS5301 - International Law Exchange 1",
+    "code": "LAWS5301",
+    "title": "International Law Exchange 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Law Exchange grants credit to students who undertake study of Law units while on exchange overseas. This provides an excellent opportunity for students to engage in the study of law in a foreign jurisdiction, gain important skills of cultural competence and experience living and studying in another country. Students are generally permitted to study Law units that are pre-approved by the Macquarie Law School Exchange Officer as the equivalent of a 5000 level elective. This may consist of a single Law unit studied overseas, or a combination of units that together, meet the equivalent of 150 hours of study at 5000 level. Students cannot get credit on exchange for any compulsory Macquarie Law school unit. The content and assessment of any unit is determined by the host University and the credit granted by Macquarie Law School is ungraded and does not count toward a student&#39;s WAM. Further details about the Exchange program can be found on the Macquarie Law School home page.",
+  "level": "5000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T16:43:39.095",
+  "code": "LAWS5301",
+  "title": "International Law Exchange 1",
+  "implementationYear": "2021"
+}

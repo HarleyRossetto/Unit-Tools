@@ -1,0 +1,175 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "integrate critical self-reflexive methods and skills to assess own work and effort.",
+        "code": "ULO3"
+      },
+      {
+        "description": "synthesise ideas, concepts and processes in order to interpret and devise a creative project.",
+        "code": "ULO1"
+      },
+      {
+        "description": "evaluate projects for performance within production deadlines and resource constrain",
+        "code": "ULO2"
+      },
+      {
+        "description": "communicate in creative contexts, evaluate and respond to peer feedback.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation and Unit Readings ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Pre-requisite 40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Engagement Exercises",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "40",
+        "description": "Individual engagement with course content will be demonstrated through writing tasks in response to in-class practical exercises and readings.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Performance",
+        "type": {
+          "label": "Performance",
+          "value": "performance"
+        },
+        "weight": "60",
+        "description": "Students will produce an individual performance with an emphasis on its aesthetic, creative and innovative qualities. This includes a written reflection of the process of the performance, as well as the performance itself. Examples may include dance composition, musical work and theatrical performance. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC2125-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC2125"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC2125-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC2125"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MMCC2125 - Creative Process to Performance",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Creativity lies at the core of the contemporary performing arts and entertainment industries. This unit explores a variety of creative approaches and students develop key practical and conceptual skills necessary for undertaking independent creative practice. Students will explore performance processes across a wide range of forms and disciplines so that they are able to develop a performance project, using production elements such as live performance, sound, light, and video. No prior experience of the performing arts and entertainment industries is required.",
+    "search_title": "MMCC2125 - Creative Process to Performance",
+    "code": "MMCC2125",
+    "title": "Creative Process to Performance",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Creativity lies at the core of the contemporary performing arts and entertainment industries. This unit explores a variety of creative approaches and students develop key practical and conceptual skills necessary for undertaking independent creative practice. Students will explore performance processes across a wide range of forms and disciplines so that they are able to develop a performance project, using production elements such as live performance, sound, light, and video. No prior experience of the performing arts and entertainment industries is required.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T11:17:43.5",
+  "code": "MMCC2125",
+  "title": "Creative Process to Performance",
+  "implementationYear": "2021"
+}

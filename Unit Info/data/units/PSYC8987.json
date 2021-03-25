@@ -1,0 +1,230 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Act as a scientist-practitioner: i.e., a clinician who integrates scientific findings into their practice in order to make informed mental health care decisions for their patients.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Explain key demographic and epidemiological characteristics, along with the psychological theories underlying their aetiology and maintenance, the evidence supporting them, as well as risk and protective factors of the main disorders.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate understanding of the neuroscience and pharmacology of common mental disorders.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Explain the history of the DSM, its strengths and weaknesses, and alternative classification models.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify an appropriate theoretical model for understanding a disorder and for guiding its treatment based on scientific evidence.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Recognise and differentially diagnose DSM disorders, taking into account an individual's context.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Practice presentation with a peer",
+        "activity": {
+          "label": "Rehearsals",
+          "value": "rehearsals"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MClinPsych",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PSYC987, PSY919, PSY979",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "Final examination in final week of semester, in accordance with relevant requirements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In class test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Multiple choice questions in 1 hour",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Report: Mood Disorder",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "5",
+        "description": "In this 1500 word report, students will be provided with a case and they will have to establish a diagnosis(es) and provide support for that diagnosis(es). They will also need to describe a theoretical model for that disorder, provide scientific evidence for that model, describe how the patient’s symptoms fit that model and select an appropriate intervention.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Psychoeducation Presentation",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "20",
+        "description": "Throughout the semester, articles covering the various disorders discussed during this class are assigned. Students are expected to read these articles and adequately participate in class discussions about these articles, as well as present one of the articles to the class within 20 minutes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Report: Anxiety disorder",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "In this 1500 word report, students will be provided with a case and they will have to establish a diagnosis(es) and provide support for that diagnosis(es). They will also need to describe a theoretical model for that disorder, provide scientific evidence for that model, describe how the patient’s symptoms fit that model and select an appropriate intervention.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PSYC8987-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYC8987"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "PSYC8987 - Child and Adult Psychopathology 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit aims to develop students&#39; conceptual and diagnostic understanding of the mental disorders contained within the DSM-5&#39;s categories of bipolar and related disorders, depressive disorders, anxiety disorders, trauma-and stressor-related disorders, and the obsessive-compulsive and related disorders. Importantly, this unit will discuss the evidence (or lack of evidence) for these disorders and their existing theoretical models in light of the history of the DSM and its alternatives. Moreover, this unit will take a lifespan approach, by exploring potential variations in mental disorders in childhood, adulthood, and later life. Lastly, this unit will provide an overview of the biological bases of and pharmacology for the anxiety disorders, depressive disorders, substance-related and addictive disorders, and for schizophrenia spectrum and other psychotic disorders.",
+    "search_title": "PSYC8987 - Child and Adult Psychopathology 1",
+    "code": "PSYC8987",
+    "title": "Child and Adult Psychopathology 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit aims to develop students&#39; conceptual and diagnostic understanding of the mental disorders contained within the DSM-5&#39;s categories of bipolar and related disorders, depressive disorders, anxiety disorders, trauma-and stressor-related disorders, and the obsessive-compulsive and related disorders. Importantly, this unit will discuss the evidence (or lack of evidence) for these disorders and their existing theoretical models in light of the history of the DSM and its alternatives. Moreover, this unit will take a lifespan approach, by exploring potential variations in mental disorders in childhood, adulthood, and later life. Lastly, this unit will provide an overview of the biological bases of and pharmacology for the anxiety disorders, depressive disorders, substance-related and addictive disorders, and for schizophrenia spectrum and other psychotic disorders.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T09:49:13.763",
+  "code": "PSYC8987",
+  "title": "Child and Adult Psychopathology 1",
+  "implementationYear": "2021"
+}

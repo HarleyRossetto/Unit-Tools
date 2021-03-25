@@ -1,0 +1,173 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically evaluate and utilise relevant theoretical and research literature to support teaching decisions.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Recognise the importance of socially just practices in educational settings, by recognising and connecting with children's families, valuing community and cultural contexts, including Indigenous Perspectives.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Synthesise knowledge and skills developed throughout the program in a Teaching Performance Assessment.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Undertake candid self-assessment of progress towards the Professional Teaching Standards.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Implement the requirements of the relevant statutory processes in relation to early childhood curriculum.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Communicate effectively as ethical, reflective and informed teachers when working with colleagues, children, families, and other education and community stakeholders.",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "ECHP424",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "EDST4050 or ECHP425 or ECHP4250 or ECHP421",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [
+      {
+        "academic_item_code": "EDST4060",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: EDST4060"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ECHP4240"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Professional Experience 7",
+                "academic_item_code": "ECHP4240",
+                "academic_item_url": "/2020/units/ECHP4240"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDST4060-unit_teaching_period",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST4060"
+        }
+      }
+    ],
+    "unit_offering_text": "2022<br />",
+    "subject_search_title": "EDST4060 - Practice of Teaching: Transition to the Early Childhood Profession",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "Students are placed in an early childhood setting relevant to their course requirements. In preparing students for their professional career this professional experience combines both day to day responsibility for a class or group of children along with a practitioner inquiry project based on a self-assessment of their teaching. The aim of the unit is to build the confidence and capacity of students with a focus on curriculum decision making that reflects the needs of the setting and the student&#39;s personal philosophy of teaching. Students complete a placement in a birth to five setting.",
+    "search_title": "EDST4060 - Practice of Teaching: Transition to the Early Childhood Profession",
+    "code": "EDST4060",
+    "title": "Practice of Teaching: Transition to the Early Childhood Profession",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Students are placed in an early childhood setting relevant to their course requirements. In preparing students for their professional career this professional experience combines both day to day responsibility for a class or group of children along with a practitioner inquiry project based on a self-assessment of their teaching. The aim of the unit is to build the confidence and capacity of students with a focus on curriculum decision making that reflects the needs of the setting and the student&#39;s personal philosophy of teaching. Students complete a placement in a birth to five setting.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-06T15:57:32.354",
+  "code": "EDST4060",
+  "title": "Practice of Teaching: Transition to the Early Childhood Profession",
+  "implementationYear": "2021"
+}

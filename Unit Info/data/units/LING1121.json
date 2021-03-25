@@ -1,0 +1,219 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate some basic theoretical and technical knowledge about some sub-disciplines of linguistics.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply basic theoretical and technical linguistic knowledge to the analysis of language data.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Understand how language data is collected for the purpose of linguistic research.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically discuss a myth about language in light of linguistic realities using standard written English discourse.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Compare societal perspectives about language with findings from current linguistic research.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for tutorial tasks",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Carrying out required weekly readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LING121",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Etymology and Meaning",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "You will be provided with a set of words. These will form the basis of two tasks. The first involves finding the oldest and newest definitions of the word, according to the OED. The second task involves searching an online corpus of English for examples of the words in context. One of the words that has been investigated will then be the subject of an 800 word discussion of how its meaning has changed over time and what factors might account for this change.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Writing Systems Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "You will complete an online quiz which focuses on topics covered in the unit about writing systems. This will involve deciphering ancient scripts and identifying types of writing system, as well as demonstrating an understanding of key terms.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Major Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "This is the main piece of assessment for the unit. You will be provided with a list of essay questions on iLearn, which relate to content across the unit, and you will choose one of these for your essay, which should be of no more than 1500 words, and must appropriately use academic sources to support your argument.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Language Reconstruction",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "You will provided with a set of words from several related languages and asked to reconstruct these words in an ancestor language, based on the linguistic data you are provided with, and answer questions relating to language change. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LING1121-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LING1121"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LING1121-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LING1121"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "LING1121 - Language Myths and Realities",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores some common misunderstandings about language, and introduces students to a range of linguistic topics such as historical linguistics, language evolution, writing systems, and gesture. The unit showcases what linguists do outside of academia and provides practice in analysing real linguistic data.",
+    "search_title": "LING1121 - Language Myths and Realities",
+    "code": "LING1121",
+    "title": "Language Myths and Realities",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores some common misunderstandings about language, and introduces students to a range of linguistic topics such as historical linguistics, language evolution, writing systems, and gesture. The unit showcases what linguists do outside of academia and provides practice in analysing real linguistic data.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T10:18:24.876",
+  "code": "LING1121",
+  "title": "Language Myths and Realities",
+  "implementationYear": "2021"
+}

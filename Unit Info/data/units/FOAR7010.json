@@ -1,0 +1,207 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and critically reflect on how contemporary provision of education at all levels can meet the needs of 21st century leaners and society",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain the historical, philosophical, sociological and pedagogical context of contemporary provision of education from birth to adult education.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Investigate and present a topic related to the historical or contemporary provision of education from their chosen discipline area (e.g. history, philosophy, sociology, pedagogy, etc).",
+        "code": "ULO3"
+      },
+      {
+        "description": "Formulate, research and write a research essay related to historical or contemporary provision of education from their chosen discipline area.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will engage in approximately two hours of pre-reading prior to attending seminars",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to BPhil/MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Essay Plan",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "10",
+        "description": "Students are required to develop a plan for their essay. They will identify their own topic based on their area of interest, formulate an essay question, provide a rationale for their chosen topic, and indicate how they propose to investigate their topic.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "60",
+        "description": "Students will write an essay related to the philosophical, sociological or pedagogical context of historical or contemporary provision of education. Based on their exploration of the topic, students will be required to reflect on how educational settings can better meet the needs of 21stCentury learners, and support citizens become flexible, creative thinkers, problem solvers and communicators.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation / participation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "Students are required to: (i) present their research plan for their essay, and (ii) provide collegial feedback on their peers’ presentations.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "FOAR7010-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOAR7010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "FOAR7010-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOAR7010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "FOAR7010-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOAR7010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "FOAR7010 - Research Theme 5: Evolution of Education",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Evolution of Education explores the historical, philosophical, sociological and pedagogical context of contemporary educational settings, from birth through to adult education. In particular, this unit examines the different ways that contemporary educational settings, from early childhood to adult education, are evolving as a result of the challenges of our increasingly interconnected, globalised, rapidly changing and complex world. The unit also seeks to identify how educational settings can better meet the needs of 21st Century learners, and support citizens become flexible, creative thinkers, problem solvers and communicators. The subject will be of interest to students from a range of disciplines across the humanities and social sciences.",
+    "search_title": "FOAR7010 - Research Theme 5: Evolution of Education",
+    "code": "FOAR7010",
+    "title": "Research Theme 5: Evolution of Education",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Evolution of Education explores the historical, philosophical, sociological and pedagogical context of contemporary educational settings, from birth through to adult education. In particular, this unit examines the different ways that contemporary educational settings, from early childhood to adult education, are evolving as a result of the challenges of our increasingly interconnected, globalised, rapidly changing and complex world. The unit also seeks to identify how educational settings can better meet the needs of 21st Century learners, and support citizens become flexible, creative thinkers, problem solvers and communicators. The subject will be of interest to students from a range of disciplines across the humanities and social sciences.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T11:23:23.075",
+  "code": "FOAR7010",
+  "title": "Research Theme 5: Evolution of Education",
+  "implementationYear": "2021"
+}

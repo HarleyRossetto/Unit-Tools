@@ -1,0 +1,230 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate to a non-specialist audience research questions, concepts and findings in the candidate’s home discipline.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Design and produce a written research project proposal supported by appropriate literature and following discipline conventions.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Communicate research questions, key ideas, methods and findings, both orally and in writing, according to the academic requirements of the discipline.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Describe the risks associated with academic misconduct and determine appropriate responses.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "iLearn discussions and activities",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "research ",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Weekly readings ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "FOHS701",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to BPhil/MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Lay summary for research proposal",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "5",
+        "description": "A lay summary is one form of writing intended to communicate research to a non-specialist audience. In this assessment task, students will write, in no more than 120 words of plain English, a summary of the aims and the significance of a study they would like to conduct if given the opportunity. This study can be based on their MRes Year 2 project, or an alternative area of interest.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical Review and Reflection",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "25",
+        "description": "Critical reading is an essential component of the research process. In this assessment task, students will critically review a research paper of their choice. The review should identify, summarise, and evaluate the key ideas and information presented in the chosen paper. The critical review should be no longer than 1000 words. In addition to the critical review, students will also write a short 250 word reflection on why and how the paper they have selected to review is important to their proposed research topic.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research proposal",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "Students will write a research proposal for a higher degree research project. The proposal should include relevant background to the topic of interest, the aims and significance of the proposed study, as well as other core elements of a research proposal such as a review of relevant literature, project design, and expected outcomes. The research proposal should be no longer than 2000 words in addition to a lay summary of 120 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Oral presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Students will give a 10 minute oral presentation on a research paper/study of their choice. The presentation can be pre-recorded or delivered online via a web conference tool such as Zoom. The student will critically reflect on and communicate the significance of the chosen paper. Students should prepare a presentation in language that is accessible to an intelligent but non-specialist audience.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOHS7010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "FOHS7010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 2, Fully online/virtual<br />",
+    "subject_search_title": "FOHS7010 - Research Communication in the Human Sciences",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to prepare students for the communication demands of entering into a research-intensive degree. It will provide students with advanced skills in written and oral communication, with a focus on learning to interpret and translate complex research findings into language that is accessible to both specialist as well as non-expert audiences, and across disciplines. As effective communication relies on responsible communication, this unit will also pay close attention to the ethical issues that can emerge from the research encounter, and through this deepen student appreciation of research integrity and responsibility.",
+    "search_title": "FOHS7010 - Research Communication in the Human Sciences",
+    "code": "FOHS7010",
+    "title": "Research Communication in the Human Sciences",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to prepare students for the communication demands of entering into a research-intensive degree. It will provide students with advanced skills in written and oral communication, with a focus on learning to interpret and translate complex research findings into language that is accessible to both specialist as well as non-expert audiences, and across disciplines. As effective communication relies on responsible communication, this unit will also pay close attention to the ethical issues that can emerge from the research encounter, and through this deepen student appreciation of research integrity and responsibility.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:39:33.575",
+  "code": "FOHS7010",
+  "title": "Research Communication in the Human Sciences",
+  "implementationYear": "2021"
+}

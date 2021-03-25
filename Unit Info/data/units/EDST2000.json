@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "dentify current trends and practical and theoretical issues involved in inclusive education.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Devise and implement strategies for engaging in differentiated and inclusive practices that cater for all students in a diverse classroom.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain the principles for organising and managing diverse classrooms inclusively.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply processes of identifying specific learning needs and evidence based support strategies for a diverse range of learners.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explain the role of the reflexive teacher",
+        "code": "ULO7"
+      },
+      {
+        "description": "Undertake and interpret observations of students and identify implications for learning and planning.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Explain ethical, legislative and policy responsibilities of teachers as related to educational provision for students with diverse learning needs.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparation for class and placement",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "80cp including (EDST100 or EDST1000) and (EDST1010 or EDST101) and (admission to BABEd(Prim) or BA-PsychBEd(Prim) or BABEd(Sec) or BScBEd(Sec) or BEd(Prim) or BEd(Sec))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "EDST200",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Professional Experience Report",
+        "type": {
+          "label": "Field work task",
+          "value": "field_work_task"
+        },
+        "weight": "0",
+        "description": "Professional Experience Report completed by Supervising Teacher at the placement school.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Formal examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Formal examination",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case study of a student",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "60",
+        "description": "Analysis of a case study student and how to support inclusion (2000 wds)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDST2000-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST2000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDST2000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST2000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDST2000-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST2000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "EDST2000 - Practice of Teaching: Inclusive Education",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "This unit provides an introduction to inclusive educational principles and practices. There is a focus on the development of key competencies in understanding the policy, principles and teacher role in inclusive education; understanding diverse learners; establishing an inclusive classroom environment; and, designing inclusive curriculum and teaching practices. Emphasis is placed on strategies that equip teacher education students to work with all students in inclusive classroom environments within early childhood, primary, and secondary settings. Focus will also be on applying differentiation within an inclusive classroom environment and being able to organise and manage a diverse inclusive classroom. The teacher education students reflect upon these skills as they complete 10 compulsory days of professional experience in a primary or secondary school setting.",
+    "search_title": "EDST2000 - Practice of Teaching: Inclusive Education",
+    "code": "EDST2000",
+    "title": "Practice of Teaching: Inclusive Education",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an introduction to inclusive educational principles and practices. There is a focus on the development of key competencies in understanding the policy, principles and teacher role in inclusive education; understanding diverse learners; establishing an inclusive classroom environment; and, designing inclusive curriculum and teaching practices. Emphasis is placed on strategies that equip teacher education students to work with all students in inclusive classroom environments within early childhood, primary, and secondary settings. Focus will also be on applying differentiation within an inclusive classroom environment and being able to organise and manage a diverse inclusive classroom. The teacher education students reflect upon these skills as they complete 10 compulsory days of professional experience in a primary or secondary school setting.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-16T16:30:02.77",
+  "code": "EDST2000",
+  "title": "Practice of Teaching: Inclusive Education",
+  "implementationYear": "2021"
+}

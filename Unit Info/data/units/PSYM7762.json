@@ -1,0 +1,195 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply real-world examples to explain each of the different levels applicable to formal theories of cognition.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Define and critically evaluate theories and models of human cognition, identifying the need for formal theories to understand cognitive psychology.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Accurately summarize the core assumptions of formal models by writing a brief description of a model.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify and critically compare the breadth and scope of formal models of human cognition relative to other models in similar domains.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate knowledge of the main assumptions, advantages and disadvantages of human cognition modelling.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Model comparison essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Students will submit a 1000 word essay comparing and contrasting 3 models of a particular research domain",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Alternative approaches to modelling essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "Students will submit a 500 word essay summarizing the main differences between three alternative approaches to modeling",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Model description essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "Students will submit a 500 word essay describing a computational model",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYM7762"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYM7762"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PSYM7762 - Computational Modelling in Psychology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will provide an introduction to computational modelling in (cognitive) psychology. The main goals of this unit are to foster both a basic understanding of the different approaches to modelling and an appreciation of the practical and philosophical issues related to modelling. The first part of the unit will focus on the following questions: (1) What are computational models of cognition?; (2) What are the major approaches (e.g., production systems) that are used to model cognitive processes?; (3) How are models developed and used in research?; and (4) How are models compared and evaluated? The second part of the unit will examine these issues in more depth by comparing models that have been developed to account for phenomena in specific areas of cognitive research (e.g., episodic memory). The final part of the unit will consist of student-led discussions of seminal modelling papers from the students&#39; areas of interest. Students will also write brief descriptions of two model and a critique/review of existing models within their area of interest.",
+    "search_title": "PSYM7762 - Computational Modelling in Psychology",
+    "code": "PSYM7762",
+    "title": "Computational Modelling in Psychology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will provide an introduction to computational modelling in (cognitive) psychology. The main goals of this unit are to foster both a basic understanding of the different approaches to modelling and an appreciation of the practical and philosophical issues related to modelling. The first part of the unit will focus on the following questions: (1) What are computational models of cognition?; (2) What are the major approaches (e.g., production systems) that are used to model cognitive processes?; (3) How are models developed and used in research?; and (4) How are models compared and evaluated? The second part of the unit will examine these issues in more depth by comparing models that have been developed to account for phenomena in specific areas of cognitive research (e.g., episodic memory). The final part of the unit will consist of student-led discussions of seminal modelling papers from the students&#39; areas of interest. Students will also write brief descriptions of two model and a critique/review of existing models within their area of interest.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:42:59.324",
+  "code": "PSYM7762",
+  "title": "Computational Modelling in Psychology",
+  "implementationYear": "2021"
+}

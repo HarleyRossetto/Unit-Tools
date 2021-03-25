@@ -1,0 +1,165 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "5000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse a hypothetical fact situation, identify legal and factual issues, and apply relevant international legal principles to solve legal problems and advocate for a fictional client",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate a thorough and critical understanding of legal principles relating to relevant principles and procedures of international law",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate an enquiring, analytical, and thoughtful approach to advocacy before the International Court of Justice",
+        "code": "ULO2"
+      },
+      {
+        "description": "Formulate, present and evaluate oral and written arguments, drawing on relevant legal and policy considerations in the field of international law and practice",
+        "code": "ULO3"
+      },
+      {
+        "description": "Communicate effectively and persuasively, in verbal and written form,  in a courtroom setting",
+        "code": "ULO4"
+      },
+      {
+        "description": "Collaborate actively and constructively as part of a team in a competitive environment ",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "80cp in LAW or LAWS units and permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LAW480, LAWS530",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Written Memorials ",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "50",
+        "description": "Written Memorials must comply with the Official 2018 Rules of the Phillip C Jessup Moot Court Competition. The team must prepare and submit one Applicant and one Respondent memorial. These will be constructed as a team. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Oral Submissions ",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "50",
+        "description": "Students will make oral arguments during the National Rounds of the Jessup Competition, and in practice moots in the lead up to the competition in Canberra. Students will be assessed on the strength of their oral advocacy skills, ability to think on their feet, their capacity to generate structured, logical and persuasive arguments, and their ability to work collaboratively and in a supportive manner. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 3-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "5",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5030"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 3, Intensive attendance, North Ryde*<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "LAWS5030 - Law Moots and Competitions",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is based upon the Jessup International Law Moot Court Competition that is held each year and involves teams from around the world. An Australian regional round of competition is held annually in Canberra during February and from which the Australian representatives are selected to compete in the international round in Washington D.C. (USA), usually in the following April. Students in this unit work as a team in preparing written memorials in relation to a problem set by the competition organisers. The problems raise issues of current interest in the field of public international law.",
+    "search_title": "LAWS5030 - Law Moots and Competitions",
+    "code": "LAWS5030",
+    "title": "Law Moots and Competitions",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is based upon the Jessup International Law Moot Court Competition that is held each year and involves teams from around the world. An Australian regional round of competition is held annually in Canberra during February and from which the Australian representatives are selected to compete in the international round in Washington D.C. (USA), usually in the following April. Students in this unit work as a team in preparing written memorials in relation to a problem set by the competition organisers. The problems raise issues of current interest in the field of public international law.",
+  "level": "5000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-04T10:42:42.533",
+  "code": "LAWS5030",
+  "title": "Law Moots and Competitions",
+  "implementationYear": "2021"
+}

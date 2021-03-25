@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse and explain the scope of corporate Treasury responsibilities and its role within the broader corporation, and how Treasury can support the business and add value to the corporation, both as an individual and a group.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Understand, apply and interpret appropriate Treasury management and funding techniques to ‘real world’ situations.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify and implement appropriate strategies to manage key treasury risks, including short term liquidity, interest rate, FX and commodity price risks for a variety of time horizons.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically analyse the importance of appropriate systems and governance to protect the integrity of Treasury activities.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for interactive classes",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECFS867 or AFCP8004",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECFS850",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Group Class Case Study",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Group case studies to be submitted during class, based on topics covered in class and notes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "An individual closed book assessment that is 2 hours and 10 minutes. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "An individual assignment of up to 3,500 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 1-Infrequent-Melbourne",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 1-Infrequent-City",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Term 1-Special",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFCP8050"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 1, Special circumstances<br />Term 1, Infrequent attendance, City<br />Term 1, Infrequent attendance, Melbourne<br />",
+    "subject_search_title": "AFCP8050 - Corporate Treasury Management",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "5",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit aims to give students an insight into treasury management for non-financial corporations. It will examine cash forecasting and liquidity management, financing, financial risk management, and managing relationships with financial institutions, ratings agencies and within the business. We consider the issues confronting the treasurer today and the changing role of treasury in today&#39;s environment. A key focus is how treasury fits within the broader corporation, understanding how and why a corporate treasury differs from financial institutions, how it can add value to the corporation and work to support broader corporate objectives.",
+    "search_title": "AFCP8050 - Corporate Treasury Management",
+    "code": "AFCP8050",
+    "title": "Corporate Treasury Management",
+    "content_type": "Unit",
+    "credit_points_header": "5 credit points"
+  },
+  "creditPoints": 5,
+  "description": "This unit aims to give students an insight into treasury management for non-financial corporations. It will examine cash forecasting and liquidity management, financing, financial risk management, and managing relationships with financial institutions, ratings agencies and within the business. We consider the issues confronting the treasurer today and the changing role of treasury in today&#39;s environment. A key focus is how treasury fits within the broader corporation, understanding how and why a corporate treasury differs from financial institutions, how it can add value to the corporation and work to support broader corporate objectives.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-12T11:38:03.576",
+  "code": "AFCP8050",
+  "title": "Corporate Treasury Management",
+  "implementationYear": "2021"
+}

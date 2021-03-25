@@ -1,0 +1,411 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Pathway",
+        "value": "pathway"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Perform and report on laboratory experiments using a broad range of equipment, with an increased sophistication in treatment of errors. ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse linear electrical circuits through the use of appropriate models including circuit simplifications, mesh and node analysis, and equivalent circuits.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain foundational concepts in electricity and magnetism, and describe them in terms of concise mathematical models. ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Clearly explain physics concepts learned and illustrate these to peers. ",
+        "code": "ULO5"
+      },
+      {
+        "description": "Build and model simple electrical circuits and measure circuit properties with a digital multi-meter. ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Communicate disciplinary knowledge using appropriate academic discourses.",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "PHYS143, PHYS106, PHYS107, PHYS149, WPHY143",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": " WPHY1510 or WPHY140 ",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Video Exposition",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "10",
+        "description": "In small groups, students are required to produce a video exposition that relates the physics concepts encountered in the unit to a contemporary, real-world technology.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Mid-term Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "The mid-term exam may include any topics covered until the end of Week 4.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "The Final Exam may include any topic covered in this unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Tests",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Students are required to complete three tests during the term. The tests may cover any of the topics studied until the date on which the tests are provided.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Problem Sets",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "10",
+        "description": "Students are required to complete four problem sets during the term. The problem sets will cover any of the topics studied until the date on which the problem sets are provided.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Laboratory Work",
+        "type": {
+          "label": "Lab book",
+          "value": "lab_book"
+        },
+        "weight": "25",
+        "description": "Students will be required to demonstrate some of the basic skills and techniques that are used in experimental physical science and engineering. They will need to record all laboratory work in a laboratory notebook. Students are required to submit their lab books to their teacher at the end of each lab session for assessment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "WPHY1520",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: WPHY1520"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PHYS1010"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Modern Mechanics",
+                "academic_item_code": "PHYS1010",
+                "academic_item_url": "/2020/units/PHYS1010"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: PHYS1020"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Electric and Magnetic Interactions",
+                "academic_item_code": "PHYS1020",
+                "academic_item_url": "/2020/units/PHYS1020"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: PHYS1520"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Physics for Electrical and Electronic Engineering",
+                "academic_item_code": "PHYS1520",
+                "academic_item_url": "/2020/units/PHYS1520"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: PHYS1210"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Physics for Life Sciences",
+                "academic_item_code": "PHYS1210",
+                "academic_item_url": "/2020/units/PHYS1210"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "WPHY1520-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 6-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 6"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WPHY1520"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WPHY1520-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WPHY1520"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WPHY1520-unit_teaching_period-Special",
+        "display_name": "MUIC term 3-Special",
+        "teaching_period": {
+          "value": "MUIC term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WPHY1520"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WPHY1520-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 4-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 4"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WPHY1520"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WPHY1520-unit_teaching_period-Weekday-subject",
+        "display_name": "MUIC term 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "MUIC term 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WPHY1520"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WPHY1520-unit_teaching_period-Special",
+        "display_name": "MUIC term 1-Special",
+        "teaching_period": {
+          "value": "MUIC term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WPHY1520"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "WPHY1520-unit_teaching_period-Special",
+        "display_name": "MUIC term 4-Special",
+        "teaching_period": {
+          "value": "MUIC term 4"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "WPHY1520"
+        }
+      }
+    ],
+    "unit_offering_text": "MUIC term 1, Weekday attendance, North Ryde<br />MUIC term 1, Special circumstances<br />MUIC term 3, Weekday attendance, North Ryde<br />MUIC term 3, Special circumstances<br />MUIC term 4, Weekday attendance, North Ryde<br />MUIC term 4, Special circumstances<br />MUIC term 6, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "WPHY1520 - Physics for Electrical and Electronics Engineering",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie University International College"
+    },
+    "school": {
+      "value": "Macquarie University International College"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Following on from WPHY1510, this unit completes the overview of electric and magnetic physics required for further study in electrical and electronic engineering disciplines. This unit covers the theory of electromagnetism and investigates fields, potentials, the origin and effects of magnetic fields and electromagnetic induction, all described by Maxwell&#39;s equations. It links these physics concepts and theories to the fundamental quantities used in circuit theory, such as emf, voltage, current, resistance, capacitance, and inductance. Students are given the opportunity to develop the language and toolkit used to design and analyse simple circuits, including circuit theorems and circuit analysis. The unit also includes an introduction to electromagnetic radiation (light). Laboratory sessions provide a practical context for students to consolidate key concepts by conducting experiments and carrying out open-ended exploration of basic circuits.",
+    "search_title": "WPHY1520 - Physics for Electrical and Electronics Engineering",
+    "code": "WPHY1520",
+    "title": "Physics for Electrical and Electronics Engineering",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Following on from WPHY1510, this unit completes the overview of electric and magnetic physics required for further study in electrical and electronic engineering disciplines. This unit covers the theory of electromagnetism and investigates fields, potentials, the origin and effects of magnetic fields and electromagnetic induction, all described by Maxwell&#39;s equations. It links these physics concepts and theories to the fundamental quantities used in circuit theory, such as emf, voltage, current, resistance, capacitance, and inductance. Students are given the opportunity to develop the language and toolkit used to design and analyse simple circuits, including circuit theorems and circuit analysis. The unit also includes an introduction to electromagnetic radiation (light). Laboratory sessions provide a practical context for students to consolidate key concepts by conducting experiments and carrying out open-ended exploration of basic circuits.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-16T12:48:23.515",
+  "code": "WPHY1520",
+  "title": "Physics for Electrical and Electronics Engineering",
+  "implementationYear": "2021"
+}

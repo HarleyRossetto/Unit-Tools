@@ -1,0 +1,227 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and reflect upon the ethical issues that arise in the development of games.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply good programming practices in the context of game development.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify, articulate and adapt the key methodologies, theories and practices involved in game development.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate knowledge of project management within the context of game development.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply software engineering principles to develop a game in a 3D game engine.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Prac exercise preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(COMP1150 or COMP111 or MMCC1011 or MAS111) and (COMP1010 or COMP125)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Game Development Task 1",
+        "type": {
+          "label": "Programming Task",
+          "value": "programming_task"
+        },
+        "weight": "30",
+        "description": "You will develop a videogame to meet a specified design, and report on the software architecture employed and the performance of the game in terms of time and memory usage.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Game Development Task 2",
+        "type": {
+          "label": "Programming Task",
+          "value": "programming_task"
+        },
+        "weight": "30",
+        "description": "You will work in pairs to develop a videogame to meet a specified design. Emphasis will be placed on good project management following an agile methodology. You will report of the software architecture employed in the game, and the QA testing you performed.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Weekly practical exercises",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Weekly game programming exercises",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Weekly quizzes based on lecture material.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Ethics Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "20",
+        "description": "A short essay exploring one of the key ethical issues that arise in game development practice.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP2160"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP2160"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "COMP2160 - Game Development",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers the production processes involved in the development of videogames. Students will learn how to apply software engineering principles to develop a game in a 3D game engine, focusing on specific programming problems that arise in the context of game development. Practical exercises emphasise agile team-based production process for project management.",
+    "search_title": "COMP2160 - Game Development",
+    "code": "COMP2160",
+    "title": "Game Development",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit covers the production processes involved in the development of videogames. Students will learn how to apply software engineering principles to develop a game in a 3D game engine, focusing on specific programming problems that arise in the context of game development. Practical exercises emphasise agile team-based production process for project management.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-28T09:41:04.536",
+  "code": "COMP2160",
+  "title": "Game Development",
+  "implementationYear": "2021"
+}

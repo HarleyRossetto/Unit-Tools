@@ -1,0 +1,202 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "evaluate various media representations that contribute to cultural, social, and ethical values.",
+        "code": "ULO2"
+      },
+      {
+        "description": "apply team and individual problem solving and enquiry based learning to contemporary social, cultural, and ethical issues and debates.",
+        "code": "ULO4"
+      },
+      {
+        "description": "analyse, identify, and communicate broad and specific arguments in contemporary media, cultural, political, and ethical debates.",
+        "code": "ULO1"
+      },
+      {
+        "description": "reflect critically on the impact and consequence of one's arguments on others, while respecting the difference of counterarguments.",
+        "code": "ULO5"
+      },
+      {
+        "description": "apply theoretical arguments underpinning contemporary issues and debates to specific ethical decision making in everyday life.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Unit preparation each week",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CUL399",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Self-Reflective Essay",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "30",
+        "description": "Students will write a scholarly essay on the nuances and complications that arose when arguing for a specific position before an audience of peers. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Position Paper",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "35",
+        "description": "Students will choose a class topic and write a position paper in the form of an essay that develops a particular argument. The essay needs to respond to a clearly identified case study / media representation of a particular topic and build on course reading, analysis of relations of power and individual research. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Team Debate",
+        "type": {
+          "label": "Debate",
+          "value": "debate"
+        },
+        "weight": "35",
+        "description": "Students will be assigned a team, which will focus on a particular topic from the weekly lectorials. Students will be randomly assigned to one side of the argument and will develop, debate and defend a specific position. Debates will happen in scheduled class hours where possible. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC2016-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC2016"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC2016-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC2016"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MMCC2016 - Sex, Death and Politics: Media Representations",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is about the common (yet often scandalous) dilemmas or big issues we confront or have to ethically decide upon in our everyday lives. For example, why do we, or would we, decide to have an affair or a one night stand? Why do we decide to have kids, or not? Why do we decide to work, or be educated? Why do we decide it is important to prolong human life, or not (euthanasia)? Why do we choose to eat or not eat animals? Selecting from topics such as health, environment, science, to adultery, marriage, abortion, euthanasia, religion, war, sport, and work, this unit will draw on a number of key thinkers, ethical and practical approaches, and media representations, to debate how and why we make the decisions we do, why we think some decisions are more important than others, and how our decisions are influenced by media and politicians, religion and society, family and friends.",
+    "search_title": "MMCC2016 - Sex, Death and Politics: Media Representations",
+    "code": "MMCC2016",
+    "title": "Sex, Death and Politics: Media Representations",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is about the common (yet often scandalous) dilemmas or big issues we confront or have to ethically decide upon in our everyday lives. For example, why do we, or would we, decide to have an affair or a one night stand? Why do we decide to have kids, or not? Why do we decide to work, or be educated? Why do we decide it is important to prolong human life, or not (euthanasia)? Why do we choose to eat or not eat animals? Selecting from topics such as health, environment, science, to adultery, marriage, abortion, euthanasia, religion, war, sport, and work, this unit will draw on a number of key thinkers, ethical and practical approaches, and media representations, to debate how and why we make the decisions we do, why we think some decisions are more important than others, and how our decisions are influenced by media and politicians, religion and society, family and friends.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T13:48:04.395",
+  "code": "MMCC2016",
+  "title": "Sex, Death and Politics: Media Representations",
+  "implementationYear": "2021"
+}

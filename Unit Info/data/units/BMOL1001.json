@@ -1,0 +1,254 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Predict chemical and physical behaviours of molecules from their structures.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain and relate general chemistry and organic chemistry principles applicable to the discipline of clinical science.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Name and write (or describe) structures for representative molecules of the major classes of biochemicals/biomolecules found in the human body.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Utilise foundational learning skills including active engagement in their learning processes.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Describe the structure and properties of biomolecules using chemical and biochemical concepts.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Define and describe key biochemical concepts for the major biological systems involved in metabolism and energy production pathways in the living cell.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for quizzes",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Practice problems for general chemistry from the \"Chemistry: The Central Science\" textbook. Also available as an online purchase from the Mastering Chemistry website.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Workshop preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to BClinSc",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CBMS104",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Workshop reports",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Four reports based on the four workshops on: 1. Lipids; 2. Proteins; 3. Sugars; 4. Nucleic Acids.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-semester test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "A mid-semester test (multiple choice) will be held as detailed on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Molecule Project Report",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "15",
+        "description": "One short written essay (~1,000 words). The essay is in two parts: Part A (bibliography/literature search) is due at the end of week 7 and is worth 5%. Part B (essay) is due at the end of week 11 and is worth 10%. Details of the assignment will be given on ilearn by end of week 3. Assignments will be submitted through ilearn and checked through turnitin.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Short Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "During each Workshop, you will complete a short multiple-choice GAMSAT style quiz (4 in total). The quiz can only be done in the workshops and attendance for entire workshop is compulsory. There is a strict time limit for each quiz (15 minutes) to simulate the pace/pressure required when sitting the GAMSAT exam. The quiz will only be available during the first OR last 30 minutes of the Workshop and is worth 5% of the total grade.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "45",
+        "description": "The final exam (45%) will be 3 hours in length with 10 minutes reading time. It is designed to address specific understanding of all the topics presented within the course and to show that the knowledge obtained can be applied to new problems.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "BMOL1001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BMOL1001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BMOL1001-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BMOL1001"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "BMOL1001 - Biomolecules",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Molecular Sciences "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is an intensive blended unit which provides students with an understanding of fundamental concepts and principles in chemistry and biochemistry in a clinical context. The unit commences with Module 1 &#34;Biomolecules&#34;. The focus of this first module is on the structure and reactivity of the four major groups of biomolecules (lipids, proteins, nucleic acids, and carbohydrates). Discussion of each of these five groups allows for the integration of topics from the three traditional areas of general chemistry, introductory organic chemistry and biochemistry. The second module &#34;Metabolism&#34; draws on the concepts presented in the &#34;Biomolecules&#34; module and re-integrates them to fully develop the concepts of biomolecules as energy yielding compounds. Discussion in this second module is focused on metabolic considerations of carbohydrates, proteins and fats, and leads to discussion of topics such as obesity, dieting, fitness and disease. Through the participation in an integrated series of hands-on &#39;Molecules&#39; workshops, students will work with biochemically active &#39;real-life&#39; biomolecules of clinical importance and build a portfolio of biochemical properties of several biomolecules throughout the unit.",
+    "search_title": "BMOL1001 - Biomolecules",
+    "code": "BMOL1001",
+    "title": "Biomolecules",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is an intensive blended unit which provides students with an understanding of fundamental concepts and principles in chemistry and biochemistry in a clinical context. The unit commences with Module 1 &#34;Biomolecules&#34;. The focus of this first module is on the structure and reactivity of the four major groups of biomolecules (lipids, proteins, nucleic acids, and carbohydrates). Discussion of each of these five groups allows for the integration of topics from the three traditional areas of general chemistry, introductory organic chemistry and biochemistry. The second module &#34;Metabolism&#34; draws on the concepts presented in the &#34;Biomolecules&#34; module and re-integrates them to fully develop the concepts of biomolecules as energy yielding compounds. Discussion in this second module is focused on metabolic considerations of carbohydrates, proteins and fats, and leads to discussion of topics such as obesity, dieting, fitness and disease. Through the participation in an integrated series of hands-on &#39;Molecules&#39; workshops, students will work with biochemically active &#39;real-life&#39; biomolecules of clinical importance and build a portfolio of biochemical properties of several biomolecules throughout the unit.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T11:19:33.323",
+  "code": "BMOL1001",
+  "title": "Biomolecules",
+  "implementationYear": "2021"
+}

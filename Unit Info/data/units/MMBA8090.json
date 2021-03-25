@@ -1,0 +1,322 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Research and evaluate the design, operations planning, supply chain and improvement processes of a business in the context of social, economic and environmental factors. ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically examine business operations data and information through group and individual analysis to make well- informed operational, tactical and strategic decisions.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify and apply theoretical and conceptual frameworks to improve the effectiveness and efficiency of operations.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading and research activities to get ready for classes.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MGSM890",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MBA or GradDipMgt",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "35",
+        "description": "The final exam will be open book and of 2 hours duration with 10 minutes reading time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 1-Weekday-City, Term 2-Weekday-North Ryde, Term 4-Intensive-North Ryde, Term 3-Weekday-City",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Online Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "35",
+        "description": "A two-hour online final examination, administered via iLearn, will be held during the University Examination Period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Term 3-Special, Term 4-Special, Term 1-Special, Term 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "10",
+        "description": "Class participation and contribution will be assessed during discussion of class content, exercises and cases. This will be based on the extent to which the student appears prepared, the relevance and depth of comments, reflections on work experiences or other industry examples, and contribution to the learning experience of the class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critiquing Operations Management",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Students will choose from two of four assigned cases to critique. You will apply critical thinking techniques to assess each case. Submissions will be of up to 1,500 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "35",
+        "description": "Students will be allocated into groups and will need to collaborate and engage in a group activity. Students will work individually on a common topic, and then come together to discuss, compare and assess their findings. Each student will submit their initial research findings via a 1,500 word report before working collaboratively. A group presentation will be made towards the end of the session which exhibits a synthesis of individual research findings.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMBA8090-unit_teaching_period-Special",
+        "display_name": "Term 1-Special",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8090"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8090-unit_teaching_period-Weekday-subject",
+        "display_name": "Term 1-Weekday-City",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "40",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8090"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8090-unit_teaching_period-Special",
+        "display_name": "Term 2-Special",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8090"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8090-unit_teaching_period-Weekday-subject",
+        "display_name": "Term 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Term 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8090"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8090-unit_teaching_period-Special",
+        "display_name": "Term 4-Special",
+        "teaching_period": {
+          "value": "Term 4"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8090"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8090-unit_teaching_period-Special",
+        "display_name": "Term 3-Special",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8090"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8090-unit_teaching_period-Intensive-subject",
+        "display_name": "Term 4-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Term 4"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "45",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8090"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMBA8090-unit_teaching_period-Weekday-subject",
+        "display_name": "Term 3-Weekday-City",
+        "teaching_period": {
+          "value": "Term 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "40",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8090"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 1, Special circumstances<br />Term 1, Weekday attendance, City*<br />Term 2, Special circumstances<br />Term 2, Weekday attendance, North Ryde*<br />Term 3, Special circumstances<br />Term 3, Weekday attendance, City*<br />Term 4, Intensive attendance, North Ryde*<br />Term 4, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MMBA8090 - Managing Operations",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines key issues currently facing service and manufacturing organisations when creating products and services. A primary aim of the unit is to illustrate the principles involved in effectively creating a value proposition and how the value transformation process is managed in the organisation and across the value chain. The unit will also examine the strategic contribution that managing operations can make to the organisation&#39;s long-term success. After placing the activities required of the operations manager into a conceptual framework, the practical issues and difficulties in making operations decisions are examined. Topics covered include the areas of product design conversion processes for making goods and services, planning and control, the impact of e-commerce on operations, supply chain management, and improvement activities.",
+    "search_title": "MMBA8090 - Managing Operations",
+    "code": "MMBA8090",
+    "title": "Managing Operations",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines key issues currently facing service and manufacturing organisations when creating products and services. A primary aim of the unit is to illustrate the principles involved in effectively creating a value proposition and how the value transformation process is managed in the organisation and across the value chain. The unit will also examine the strategic contribution that managing operations can make to the organisation&#39;s long-term success. After placing the activities required of the operations manager into a conceptual framework, the practical issues and difficulties in making operations decisions are examined. Topics covered include the areas of product design conversion processes for making goods and services, planning and control, the impact of e-commerce on operations, supply chain management, and improvement activities.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-25T11:31:53.435",
+  "code": "MMBA8090",
+  "title": "Managing Operations",
+  "implementationYear": "2021"
+}

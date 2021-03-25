@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify common social, economic, political and environmental issues facing cities in the global South.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically assess the concept of development and the 'global South'",
+        "code": "ULO2"
+      },
+      {
+        "description": "Describe and explain key initiatives oriented at improving urban life in the global South",
+        "code": "ULO4"
+      },
+      {
+        "description": "Discuss development issues facing cities in the global South in a variety of spoken and written forms",
+        "code": "ULO5"
+      },
+      {
+        "description": "Investigate development issues in cities of the global South by synthesising information from a variety of written sources",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to read 2 readings for 8 weeks to stay up to date with class material (3 hours x 8 weeks – not including TBL weeks)",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ENVG215, GEOS215, GEOS217, GEOP215",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "City profile ",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "25",
+        "description": "Students will be required to build an online profile of a city of their choice.  Tutorials will be focused on building this profile which will include collating and analysing news articles, journal articles, demographic data and development data.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Team based learning quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Three team based learning multiple choice quizzes will take place that test student learning and build communication skills.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "City analysis",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "45",
+        "description": "The city analysis requires students to analyse a city in the global south, tracing its history, geography, development challenges and future. 2500 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "GEOP2040-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP2040"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GEOP2040-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP2040"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GEOP2040-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP2040"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "GEOP2040 - Cities of the Global South ",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides a geographical perspective on development issues facing cities of the global South. A series of case studies are drawn upon, particularly from the Asia Pacific region, to highlight key social, economic, political and environmental issues, how they are being addressed and hopeful ways forward. The unit is structured around five themes, each providing a different viewpoint on cities and development. First, the unit introduces the concept of the global South and key urban development theories. It then explores how shared histories of colonialism and post-colonial development have shaped cities in the global South. Section three explores life in the city, looking at how people make a living, housing challenges, informality, mobility, and inequality. Section four concentrates upon environmental issues, the sustainable development goals, and how cities are entangled in processes of social and ecological change. Finally the unit reviews a range of policy interventions and considers the role of different actors in responding to development challenges and pursuing more just and resilient urban futures. Throughout the unit students will have the opportunity to focus in on a particular city of their choice and develop a deep understanding its past, present and future.",
+    "search_title": "GEOP2040 - Cities of the Global South ",
+    "code": "GEOP2040",
+    "title": "Cities of the Global South ",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides a geographical perspective on development issues facing cities of the global South. A series of case studies are drawn upon, particularly from the Asia Pacific region, to highlight key social, economic, political and environmental issues, how they are being addressed and hopeful ways forward. The unit is structured around five themes, each providing a different viewpoint on cities and development. First, the unit introduces the concept of the global South and key urban development theories. It then explores how shared histories of colonialism and post-colonial development have shaped cities in the global South. Section three explores life in the city, looking at how people make a living, housing challenges, informality, mobility, and inequality. Section four concentrates upon environmental issues, the sustainable development goals, and how cities are entangled in processes of social and ecological change. Finally the unit reviews a range of policy interventions and considers the role of different actors in responding to development challenges and pursuing more just and resilient urban futures. Throughout the unit students will have the opportunity to focus in on a particular city of their choice and develop a deep understanding its past, present and future.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-27T10:03:53.931",
+  "code": "GEOP2040",
+  "title": "Cities of the Global South ",
+  "implementationYear": "2021"
+}

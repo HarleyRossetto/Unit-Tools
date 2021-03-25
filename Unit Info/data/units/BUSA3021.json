@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Enhance awareness of analytics' contribution to society through discussion of ethical and professional conduct and issues in corporate social responsibility.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate knowledge of data analysis techniques and apply various quantitative data analysis techniques to resolve the information needs of an organisation.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Successfully work in teams to achieve group and organisational objectives.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Be able to conduct an organisational and industry analysis to assess business opportunities by analysing customers, competitors, collaborators, and other external forces in a collaborative setting.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically examining problem areas, developing feasible analytics investment decision options, developing key recommendations, and communicating this strategic thinking to others.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for classes and assessment tasks. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MGMT321",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "BUSA3020 or MGMT320",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Group Project Report",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "45",
+        "description": "The group will write a report of 1000 - 2000 words and present the report to the client. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Report and Portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "15",
+        "description": "Students will produce a report of 500 - 1000 words to review the techniques they have learned from BUSA3020 (previously MGMT320) and to create a portfolio of their work.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Progress Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Student will be required to provide a progress report of 200 - 500 words on their own contribution to the group project. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflective Journal",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "Students will be required to submit two reflective journals between 200 to 500 words. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BUSA3021"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BUSA3021"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "BUSA3021 - Business Analytics Project",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Actuarial Studies and Business Analytics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "This unit provides a platform for students to exercise the knowledge and skills that they have gained in previous units. The major component of the unit is an organisation-based group project, where students will actively engage with an organisation including but not limited to: not-for-profit organisations, government agencies, companies, and industry partners. Group work engages students in the challenges of interpersonal communication, task allocation, coordination and control. Students will gain an insight into the analytical problems faced by organisations and be able to contextualise their graduate capabilities into the final business project. The unit will consider key issues, concepts and frameworks of analytics ethics, and social responsibility, and how these can be applied to policy and practice. The class is conducted through lectures, workshops and discussions where students will develop an analytical solution around the client specified information-based problem. Throughout the unit, the emphasis is on the analysis process: identifying information needs, acquiring the necessary information, interpreting it and using it as the basis for strategic recommendations back to the client partner.",
+    "search_title": "BUSA3021 - Business Analytics Project",
+    "code": "BUSA3021",
+    "title": "Business Analytics Project",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides a platform for students to exercise the knowledge and skills that they have gained in previous units. The major component of the unit is an organisation-based group project, where students will actively engage with an organisation including but not limited to: not-for-profit organisations, government agencies, companies, and industry partners. Group work engages students in the challenges of interpersonal communication, task allocation, coordination and control. Students will gain an insight into the analytical problems faced by organisations and be able to contextualise their graduate capabilities into the final business project. The unit will consider key issues, concepts and frameworks of analytics ethics, and social responsibility, and how these can be applied to policy and practice. The class is conducted through lectures, workshops and discussions where students will develop an analytical solution around the client specified information-based problem. Throughout the unit, the emphasis is on the analysis process: identifying information needs, acquiring the necessary information, interpreting it and using it as the basis for strategic recommendations back to the client partner.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T16:02:59.914",
+  "code": "BUSA3021",
+  "title": "Business Analytics Project",
+  "implementationYear": "2021"
+}

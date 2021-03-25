@@ -1,0 +1,175 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "apply advanced creativity techniques at both an individual and a group level, including the use of idea generation techniques.",
+        "code": "ULO3"
+      },
+      {
+        "description": "synthesize critical and creative approaches to the major themes, issues and debates relating to entrepreneurship in the performing arts industries.",
+        "code": "ULO2"
+      },
+      {
+        "description": "consolidate communication skills for a range of creative contexts (written, oral, interpersonal, professional presentations).",
+        "code": "ULO4"
+      },
+      {
+        "description": "analyse and evaluate a range of practices in creative entrepreneurship.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation/practice/readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Pre-requisite 130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Group Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "45",
+        "description": "Students apply theories, frameworks and concepts to authentic workplace scenarios through the presentation of a group pitch setting out the required steps, actions and/or tactics to meet identified goals. Refer to iLearn for further information.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Creative Plan ",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "55",
+        "description": "The creative plan provides students with an opportunity to propose an entrepreneur model and plan that aligns with  a particular interest and/or goal. The plan will synthesise a self-directed professional plan and associated documentation. Content will be self-initiated and will include samples of work towards achieving the student’s future aspirational or career goals. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC3025-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3025"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC3025-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3025"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MMCC3025 - Creative Entrepreneurship",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "What does it mean to be an entrepreneur in the performing arts and entertainment industries in a digital age? This unit examines models of creative entrepreneurship in the performing arts and entertainment industries. In the context of the digital era we live in, the unit will examine various revenue and monetization strategies for sustainable projects and careers. It considers collaborative approaches to production, startups, models for artist-run spaces and studios, self-initiated art projects and pick-up companies, curatorial practices, artist management, the role of the producer and skills to navigate potential funding, sponsorship, philanthropic support, and revenue streams.",
+    "search_title": "MMCC3025 - Creative Entrepreneurship",
+    "code": "MMCC3025",
+    "title": "Creative Entrepreneurship",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "What does it mean to be an entrepreneur in the performing arts and entertainment industries in a digital age? This unit examines models of creative entrepreneurship in the performing arts and entertainment industries. In the context of the digital era we live in, the unit will examine various revenue and monetization strategies for sustainable projects and careers. It considers collaborative approaches to production, startups, models for artist-run spaces and studios, self-initiated art projects and pick-up companies, curatorial practices, artist management, the role of the producer and skills to navigate potential funding, sponsorship, philanthropic support, and revenue streams.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T10:41:33.369",
+  "code": "MMCC3025",
+  "title": "Creative Entrepreneurship",
+  "implementationYear": "2021"
+}

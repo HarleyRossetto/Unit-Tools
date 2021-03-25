@@ -1,0 +1,284 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Devise computer code required to implement predictive analytics.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Assess data requirements needed to generate good predictions.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply a number of predictive analytics techniques to a range of business problems.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse business problems using data science methods.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Perform data cleaning for a complex dataset.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for classes and assessment tasks.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "BUSA7000",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Individual Assignment",
+        "type": {
+          "label": "Modelling task",
+          "value": "modelling_task"
+        },
+        "weight": "40",
+        "description": "The assignment is a hands-on project. Students will be required to understand and clean a complex real-world dataset, develop a predictive model for it and implement their work in Python script.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "An open book online test will be held. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Programming tasks",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "30",
+        "description": "A sequence of tutorial assessments implementing computer code and performing related analytics tasks.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "A closed book class test will be held.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "BUSA7001",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: BUSA7001"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: BUSA8001"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.01R",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Applied Predictive Analytics",
+                "academic_item_code": "BUSA8001",
+                "academic_item_url": "/2021/units/BUSA8001"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "BUSA7001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BUSA7001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BUSA7001-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BUSA7001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BUSA7001-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BUSA7001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "BUSA7001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BUSA7001"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances<br />Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "BUSA7001 - Applied Predictive Analytics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Actuarial Studies and Business Analytics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces modern machine learning methodology which is used in solving many business problems in the modern world. Topics will be chosen from a wide set of possible areas including data analytics principles such as training and test data and the bias-variance tradeoff, modern approaches to regression including shrinkage techniques, tree based models and neural networks, methods for classification and the predictive analytics workflow. Emphasis throughout the unit will be on business applications drawn from a variety of fields.",
+    "search_title": "BUSA7001 - Applied Predictive Analytics",
+    "code": "BUSA7001",
+    "title": "Applied Predictive Analytics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces modern machine learning methodology which is used in solving many business problems in the modern world. Topics will be chosen from a wide set of possible areas including data analytics principles such as training and test data and the bias-variance tradeoff, modern approaches to regression including shrinkage techniques, tree based models and neural networks, methods for classification and the predictive analytics workflow. Emphasis throughout the unit will be on business applications drawn from a variety of fields.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-14T13:17:13.215",
+  "code": "BUSA7001",
+  "title": "Applied Predictive Analytics",
+  "implementationYear": "2021"
+}

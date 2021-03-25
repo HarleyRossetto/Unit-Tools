@@ -1,0 +1,238 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Compare leadership theory and frameworks in relation to public health.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Develop personal definitions of leadership and leadership development plans.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply reflective thinking in relation to individual characteristics, style and personal attitudes and beliefs and consider how these impact on decision making.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain the importance of, and mechanisms for, advocacy for the public health profession.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Develop and apply teamwork processes and skills for authentic solutions to address real-world challenges for public health team work and leadership.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply innovative thinking and work in new ways to face challenges in public health.",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Required readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Online activities ",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Lecture preparation ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "HSYP807",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MPH or MPH(Res)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Portfolio reflection",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "0",
+        "description": "Reflection of student performance and achievement of course learning outcomes",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group advocacy campaign ",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "55",
+        "description": "Students work in groups to create a public health advocacy campaign that raises awareness or advocates for policy change.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Written assessment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "35",
+        "description": "Open book assessment consisting of a series of short answer questions testing knowledge and responses to a real-world scenario requiring students to apply this knowledge.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Peer assessment of group work ",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Individuals will be required to assess their peers contribution to the group work task ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HSYP8106"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HSYP8106"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "HSYP8106 - Innovation in Leadership, Teamwork and Advocacy",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit within the Master of Public Health focuses on leadership, teamwork, advocacy and innovation with the development of key practical skills in these areas for a career in public health. You will develop skills to collaborate and communicate effectively in multi-disciplinary teams of diverse backgrounds and in different contexts. You will also learn to apply reflective thinking to your public health practice and implement fresh, innovative ideas to address complex public health issues. You will engage with a wide variety of leaders in public health throughout the unit and learn from them what public health advocacy is and how to conduct an advocacy campaign.",
+    "search_title": "HSYP8106 - Innovation in Leadership, Teamwork and Advocacy",
+    "code": "HSYP8106",
+    "title": "Innovation in Leadership, Teamwork and Advocacy",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit within the Master of Public Health focuses on leadership, teamwork, advocacy and innovation with the development of key practical skills in these areas for a career in public health. You will develop skills to collaborate and communicate effectively in multi-disciplinary teams of diverse backgrounds and in different contexts. You will also learn to apply reflective thinking to your public health practice and implement fresh, innovative ideas to address complex public health issues. You will engage with a wide variety of leaders in public health throughout the unit and learn from them what public health advocacy is and how to conduct an advocacy campaign.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:36:43.747",
+  "code": "HSYP8106",
+  "title": "Innovation in Leadership, Teamwork and Advocacy",
+  "implementationYear": "2021"
+}

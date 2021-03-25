@@ -1,0 +1,185 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Confidently use online communication forums and engage in informed interactive learning.",
+        "code": "ULO8"
+      },
+      {
+        "description": "Understand the impact of colonisation on Indigenous languages loss and the activism to maintain and revitalize them.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrated knowledge of protocols, and ethical practices including meaningful consultation associated with the use of Indigenous languages.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Understand the importance of embedding local languages and cultural knowledges within teaching programs.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrated high level of written communication skills including structuring and supporting an academic argument.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Demonstrated ability to develop teaching resources that incorporate Indigenous languages.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrated understanding of the diversity of Indigenous languages in Australia.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MIndigenousEd",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "INED810",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "The Quiz is based on unit content and will be available online",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Lesson Plan",
+        "type": {
+          "label": "Lesson plan",
+          "value": "lesson_plan"
+        },
+        "weight": "40",
+        "description": "Students will be required to develop a lesson plan on imbedding local Indigenous language into the classroom or workplace.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participatory Tasks",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "Students will be required to actively participate in weekly online tutorial activities. These will be available on a weekly basis on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INED8010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "INED8010 - Indigenous Languages and Teaching",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Indigenous Studies "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines the impact of colonisation on Indigenous languages and the efforts of Indigenous peoples to maintain and revitalise them. The unit will explore the importance of local languages and cultural knowledges as it relates to teaching and learning. Demonstrating the diversity of Indigenous language students will develop teaching resources that are relevant to their local area.",
+    "search_title": "INED8010 - Indigenous Languages and Teaching",
+    "code": "INED8010",
+    "title": "Indigenous Languages and Teaching",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines the impact of colonisation on Indigenous languages and the efforts of Indigenous peoples to maintain and revitalise them. The unit will explore the importance of local languages and cultural knowledges as it relates to teaching and learning. Demonstrating the diversity of Indigenous language students will develop teaching resources that are relevant to their local area.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:58:46.052",
+  "code": "INED8010",
+  "title": "Indigenous Languages and Teaching",
+  "implementationYear": "2021"
+}

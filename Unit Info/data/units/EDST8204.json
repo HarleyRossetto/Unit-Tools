@@ -1,0 +1,223 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop research informed program design skills to support the development of coherent learning progressions for all learners.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate effective oral communication skills, listening skills, and teamwork skills suitable for arrange of professional contexts relevant to teaching of Mathematics, and Science and Technology in the primary years.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Design and critically evaluate assessment strategies aligned with a range of curriculum and pedagogical approaches and demonstrating scholarly understanding of mathematics and science and technology content knowledge.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Engage in the multi-faceted task of design learning experiences (Mathematics, and Science and Technology) using a range of pedagogical approaches, including inquiry-based models.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate critical understanding of planning for Working Mathematically, Scientifically and Technologically across a range of primary learning environments.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Integrate sustainability into effective learning and teaching experiences in the primary years.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Resources for external students ",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": "Session 2-Special-Other, Session 2-Infrequent-North Ryde"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "EDST8203",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assessment 1: Case Study Mathematics Learning and Teaching Sequence",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "50",
+        "description": "3000 words Design a sequence of mathematical learning experiences in an authentic context.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessment 2: Science and Technology Resources Portfolio and Zoom tutorial practice based tasks ",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "50",
+        "description": "3000 words Plan, design and produce an interactive digital teaching and learning resource (for an e-portfolio) with justification.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8204"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8204"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8204"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8204"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Intensive attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Special circumstances, Other<br />",
+    "subject_search_title": "EDST8204 - Teaching Mathematics, Science and Technology in the Primary School 2",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Teaching Mathematics, Science and Technology in the Primary School 2 is the second of a three unit sequence. It builds on knowledge acquired in EDST8203 in relation to the NSW Mathematics K-6 and Science and Technology K-6 syllabi. This unit aims to consolidate and extend this knowledge and to develop Teacher Education Students&#39; capabilities in designing of effective learning programs in mathematics, and science and technologies (design and digital) that include critical examination of theory and contemporary research. Teacher Education Students are supported to develop a research-based approach that supports primary students&#39; conceptual and developmental stages of learning in Mathematics, and Science and Technology.",
+    "search_title": "EDST8204 - Teaching Mathematics, Science and Technology in the Primary School 2",
+    "code": "EDST8204",
+    "title": "Teaching Mathematics, Science and Technology in the Primary School 2",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Teaching Mathematics, Science and Technology in the Primary School 2 is the second of a three unit sequence. It builds on knowledge acquired in EDST8203 in relation to the NSW Mathematics K-6 and Science and Technology K-6 syllabi. This unit aims to consolidate and extend this knowledge and to develop Teacher Education Students&#39; capabilities in designing of effective learning programs in mathematics, and science and technologies (design and digital) that include critical examination of theory and contemporary research. Teacher Education Students are supported to develop a research-based approach that supports primary students&#39; conceptual and developmental stages of learning in Mathematics, and Science and Technology.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:46:48.412",
+  "code": "EDST8204",
+  "title": "Teaching Mathematics, Science and Technology in the Primary School 2",
+  "implementationYear": "2021"
+}

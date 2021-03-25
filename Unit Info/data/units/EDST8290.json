@@ -1,0 +1,239 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Summarise universal approaches to curriculum, pedagogy and assessment and apply this learning to the practice of teaching.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Articulate key concepts and practices relevant to the application of universal design for learning and differentiated teaching.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Application of relevant principles of instruction during professional experience placement.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Identify the legal and human rights basis for differentiated and universal approaches to learning.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Evaluate assessment, instructional strategies and curriculum in light of effective teaching strategies.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse advanced knowledge and application of differentiated practice consistent with current research and policy.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MSpecEd or GradDipSpecEd or MInc&SpecEd or GradDipInc&SpecEd or GradCertInc&SpecEd or MEd or GradCertEd or GradDipEdStud or GradCertEdStud",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Professional Experience/Practicum",
+        "type": {
+          "label": "Work-integrated task",
+          "value": "work_integrated_task"
+        },
+        "weight": "0",
+        "description": "Supervised professional experience practicum allows for systematic and first-hand observation of teaching competencies.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "50",
+        "description": "This assessment will include a range of questions with a focus on integrating and examining practice-related application of knowledge of relevant content from the unit. These questions may involve analysis of assessment results, curriculum analysis, short critical review of research, short essay, case studies, scenario-based development of intervention strategies, addressing specific conceptual and theoretical issues in supporting differentiated instruction and universal design for learning (Approximately 2000 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Design Task",
+          "value": "design_task"
+        },
+        "weight": "50",
+        "description": "This assessment will present a plan for the implementation of a problem solution, focusing on the reasoning behind the implementation, how it meets a set of requirements and how it accommodates the necessary constraints. It may also include the development and examining of skills and practice related knowledge and application of relevant content from the unit addressing specific conceptual and theoretical issues of differentiated instruction and universal design for learning (Approximately 2000 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "EDST8290",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: EDST8290"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: SPED8220"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Effective Instruction",
+                "academic_item_code": "SPED8220",
+                "academic_item_url": "/2021/units/SPED8220"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: SPED8230"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.04",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Students with High Support Needs: Curriculum and Instruction",
+                "academic_item_code": "SPED8230",
+                "academic_item_url": "/2020/units/SPED8230"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDST8290-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8290"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "EDST8290 - Differentiated Instruction and Universal Design for Learning",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will develop an advanced understanding of Universal Design for Learning (UDL) as a framework through which to approach differentiated instruction, assessment and participation opportunities for all learners. This includes the development and application of techniques and strategies for engaging in flexible and responsive approaches to effective pedagogy for all. This unit will also investigate theoretical perspectives, including critiques of and evidence for differentiated practice and UDL to develop knowledge of effective, proactive, flexible, and responsive strategies for addressing the needs of a diverse range of learners. This unit will explore current research on inclusive approaches to learning in schools as well as the broader socio-cultural context of communities. This unit includes five days of mandatory professional experience. ",
+    "search_title": "EDST8290 - Differentiated Instruction and Universal Design for Learning",
+    "code": "EDST8290",
+    "title": "Differentiated Instruction and Universal Design for Learning",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will develop an advanced understanding of Universal Design for Learning (UDL) as a framework through which to approach differentiated instruction, assessment and participation opportunities for all learners. This includes the development and application of techniques and strategies for engaging in flexible and responsive approaches to effective pedagogy for all. This unit will also investigate theoretical perspectives, including critiques of and evidence for differentiated practice and UDL to develop knowledge of effective, proactive, flexible, and responsive strategies for addressing the needs of a diverse range of learners. This unit will explore current research on inclusive approaches to learning in schools as well as the broader socio-cultural context of communities. This unit includes five days of mandatory professional experience. ",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-03T08:46:21.496",
+  "code": "EDST8290",
+  "title": "Differentiated Instruction and Universal Design for Learning",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,194 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Reflect on personal experiences and how these shape perspectives.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explore the online environment and contribute effectively and respectfully.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Highlight and critically analyse a range of social, cultural and political perspectives/influences on family life.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explore diverse contexts in and perspectives on ways in which families function.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Source credible and scholarly research concerning families to inform practice and generate new understandings and knowledge.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Consider ways in which awareness of families in context can facilitate/support early childhood teaching practice.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Engage in active and critical reflective practice about working with diverse families",
+        "code": "ULO7"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECED720, ECED840, ECHX820, ECED820, ECEX820",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MTeach(0-5) or MEChild or MEd or MEdLead or MIndigenousEd or GradDipIndigenousEd or MSpecEd or GradCertEChild or GradCertEdS",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assessment 2",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Analysis of selected family topic. 2000 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessment 1",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Online participation and discussions. 1000 words",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessment 3",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Philosophy paper. 2000 words ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECHE8200-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE8200"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "ECHE8200 - Families in Context",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The overarching aim of this unit is to examine the implications of diversity in family values and the value of family across a range of contexts. Over the course of the unit, we will consider the role of socio-cultural, economic and political contexts in shaping family life and family values in the 21st century. Drawing on a variety of resources, including diverse media, academic publications and reflections on personal experiences, we will explore changing family lives and the extent to which traditional, largely Western-based, images of &#39;family&#39; life reflect contemporary experiences and practices of families and children in Australia and abroad.",
+    "search_title": "ECHE8200 - Families in Context",
+    "code": "ECHE8200",
+    "title": "Families in Context",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The overarching aim of this unit is to examine the implications of diversity in family values and the value of family across a range of contexts. Over the course of the unit, we will consider the role of socio-cultural, economic and political contexts in shaping family life and family values in the 21st century. Drawing on a variety of resources, including diverse media, academic publications and reflections on personal experiences, we will explore changing family lives and the extent to which traditional, largely Western-based, images of &#39;family&#39; life reflect contemporary experiences and practices of families and children in Australia and abroad.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T14:53:23.487",
+  "code": "ECHE8200",
+  "title": "Families in Context",
+  "implementationYear": "2021"
+}

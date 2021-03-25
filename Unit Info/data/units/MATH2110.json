@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply mathematical techniques to quantitatively analyse the behaviour of mathematical models that vary with time and space.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Formulate a simplified mathematical model of a complex physical system.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Interpret a mathematical model in order to determine the qualitative behaviour of the physical system that it represents.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Utilise software to numerically obtain, present, and communicate results pertaining to the behaviour of a physical system.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Translate solutions and results of mathematical models into implications and predictions for the original physical system being modelled.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class preparation time includes revising new content as soon as possible after lectures in order to identify, and fix, any issues before the next lecture, and thoroughly preparing for, and reflecting upon, small group teaching activities.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MATH2010 or MATH235 or MATH2055",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MATH232",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Major Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "30",
+        "description": "The students will be assigned a mathematical modelling task. They will be required to develop and analyse a mathematical model to draw conclusions. The students will be required to submit a written report.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "This will be held during the final exam period. It will test the ability of students to utilise the concepts taught in the course to develop mathematical models, and apply appropriate techniques to analyse and interpret these models.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "10",
+        "description": "This assignment will test the ability of students to develop and analyse mathematical problems using concepts and techniques from mathematical modelling and applied mathematics.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "10",
+        "description": "This assignment will test the ability of students to develop and analyse mathematical problems using concepts and techniques from mathematical modelling and applied mathematics.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MATH2110"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MATH2110"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MATH2110 - Mathematical Modelling and Differential Equations",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Mathematics and Statistics "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit builds upon 1000-level mathematical modelling methods and develops new techniques for both formulating and analysing mathematical models of physical systems. Theory and application will be presented in an integrative way, emphasising the utility of mathematical methods in obtaining information and making predictions about real-world processes. The unit will focus particularly on how to interpret and derive differential equations describing (possibly coupled) physical systems that either vary in time or space. Powerful methods, and their theoretical foundations, will be introduced to analyse and solve these differential equations. Complementary numerical techniques will be used in some of the methods, preparing students for analyses of more intricate problems.",
+    "search_title": "MATH2110 - Mathematical Modelling and Differential Equations",
+    "code": "MATH2110",
+    "title": "Mathematical Modelling and Differential Equations",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit builds upon 1000-level mathematical modelling methods and develops new techniques for both formulating and analysing mathematical models of physical systems. Theory and application will be presented in an integrative way, emphasising the utility of mathematical methods in obtaining information and making predictions about real-world processes. The unit will focus particularly on how to interpret and derive differential equations describing (possibly coupled) physical systems that either vary in time or space. Powerful methods, and their theoretical foundations, will be introduced to analyse and solve these differential equations. Complementary numerical techniques will be used in some of the methods, preparing students for analyses of more intricate problems.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-04T11:45:33.498",
+  "code": "MATH2110",
+  "title": "Mathematical Modelling and Differential Equations",
+  "implementationYear": "2021"
+}

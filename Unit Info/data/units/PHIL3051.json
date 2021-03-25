@@ -1,0 +1,271 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "evaluate relevant theories and arguments critically",
+        "code": "ULO3"
+      },
+      {
+        "description": "communicate clearly your own perspective on the views and arguments presented in the unit",
+        "code": "ULO4"
+      },
+      {
+        "description": "analyse arguments in the relevant literature",
+        "code": "ULO2"
+      },
+      {
+        "description": "understand some of the current debates and topics in contemporary applied ethics",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading set texts",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparing questions about content and answers to set questions",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Student-led literature research",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PHIL351, PHL351",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Demonstrating preparation for the weekly topics through active participation in on-campus tutorials and/or online discusssions",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Philosophical Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "In-depth analysis of a key question in applied ethics using the authors and arguments studied throughout the unit ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflective writing tasks",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "Reflective writing tasks",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Short online quizzes to test student understanding of key concepts and ideas",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PHIL3051",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PHIL3051"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PHIX3051"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.04",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Contemporary Topics in Applied Ethics",
+                "academic_item_code": "PHIX3051",
+                "academic_item_url": "/2021/units/PHIX3051"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PHIL3051-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHIL3051"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PHIL3051-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHIL3051"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Fully online/virtual<br />",
+    "subject_search_title": "PHIL3051 - Contemporary Topics in Applied Ethics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Philosophy "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will examine cutting edge topics in applied ethics curated by leading researchers in the field. Topics will be refreshed each year and may include exploration of: ethical issues in the use of AI and machine learning; animal ethics; ethics of emerging technologies including in healthcare, reproductive and genetic technologies, and computing; family ethics; children&#39;s rights and welfare; contemporary challenges in research ethics; climate change and environmental ethics. Discussion will be structured around key concepts, themes, ethical frameworks and questions such as personhood, autonomy, harm, dignity, justice, rights, vulnerability, integrity and accountability.",
+    "search_title": "PHIL3051 - Contemporary Topics in Applied Ethics",
+    "code": "PHIL3051",
+    "title": "Contemporary Topics in Applied Ethics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will examine cutting edge topics in applied ethics curated by leading researchers in the field. Topics will be refreshed each year and may include exploration of: ethical issues in the use of AI and machine learning; animal ethics; ethics of emerging technologies including in healthcare, reproductive and genetic technologies, and computing; family ethics; children&#39;s rights and welfare; contemporary challenges in research ethics; climate change and environmental ethics. Discussion will be structured around key concepts, themes, ethical frameworks and questions such as personhood, autonomy, harm, dignity, justice, rights, vulnerability, integrity and accountability.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-01T09:22:32.538",
+  "code": "PHIL3051",
+  "title": "Contemporary Topics in Applied Ethics",
+  "implementationYear": "2021"
+}

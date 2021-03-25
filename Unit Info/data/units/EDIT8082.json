@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Appraise the elements of editorial project management, and apply them to different publishing contexts",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate understanding of legal, ethical and cultural issues in publishing",
+        "code": "ULO4"
+      },
+      {
+        "description": "Predict the impact of current trends on the future of editing and publishing",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply knowledge of the standard tools and techniques for indexing, for print and web documents",
+        "code": "ULO2"
+      },
+      {
+        "description": "Assess the advantages and disadvantages of print and electronic publishing",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Investigation into current practices to be brought to particular weekly discussions (e.g. web-indexing, legal & ethical issues)",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Engagement in online discussion board based around weekly topic",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Reading of online notes and additional readings related to weekly lectures.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LING963, EDIT982",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to GradCertEditElecPub or MTransInter or MCrWrit or GradDipCrWrit or MAccComm or MAdvTransInterStud",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment on website navigation usability",
+        "type": {
+          "label": "Design Implementation",
+          "value": "design_impl"
+        },
+        "weight": "20",
+        "description": "Mockup of website and identification of usability issues; suggestion of solutions. (500 words rationale for design)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online discussion of promotion to a mixed audience",
+        "type": {
+          "label": "Debate",
+          "value": "debate"
+        },
+        "weight": "20",
+        "description": "Each student has to present an original idea to an online forum for a project that needs to be communicated to a mixed audience. They have to detail their communicative strategy for this project and defend this strategy against the critiques of other students. They also have to provide critiques on 4 communication strategies by other students.  (c.1500 words over multiple statements/responses)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online discussion on ethical issues in publishing",
+        "type": {
+          "label": "Debate",
+          "value": "debate"
+        },
+        "weight": "20",
+        "description": "Each student has to research and present a real-life ethical issue that has occurred in the area of publishing, and discuss the ethical issues that it raises in an online forum. They then respond to critiques of their interpretation of the issue raised by other students, and respond to 4 other ethical issues presented by other students. (c. 1500 words over multiple statements/responses)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay on the future of editing",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Selection of source article and discussion of predictions about future of editing/publishing (2500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDIT8082"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "EDIT8082 - Content Management for Print and Online Delivery",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit addresses current issues in electronic publishing, examining the many dimensions of communication in which the electronic and print mediums differ, and how to reversion content from print to screen delivery. It analyses their different document structures and page layouts, and issues of navigation and usability for web documents. Methods for indexing print and electronic materials are compared, and the use of metadata to optimise the searchability of website content is also examined. The editor&#39;s responsibilities for content in both mediums are discussed, as well as legal and ethical issues, as part of editorial project management.",
+    "search_title": "EDIT8082 - Content Management for Print and Online Delivery",
+    "code": "EDIT8082",
+    "title": "Content Management for Print and Online Delivery",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit addresses current issues in electronic publishing, examining the many dimensions of communication in which the electronic and print mediums differ, and how to reversion content from print to screen delivery. It analyses their different document structures and page layouts, and issues of navigation and usability for web documents. Methods for indexing print and electronic materials are compared, and the use of metadata to optimise the searchability of website content is also examined. The editor&#39;s responsibilities for content in both mediums are discussed, as well as legal and ethical issues, as part of editorial project management.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:13:10.551",
+  "code": "EDIT8082",
+  "title": "Content Management for Print and Online Delivery",
+  "implementationYear": "2021"
+}

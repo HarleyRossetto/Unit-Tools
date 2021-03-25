@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "read and analyse different kinds of historical writing and demonstrate an awareness of the benefits and limitations of particular approaches to the past",
+        "code": "ULO1"
+      },
+      {
+        "description": "understand some of the ways different historians have employed different theoretical models in their work",
+        "code": "ULO2"
+      },
+      {
+        "description": "communicate your analysis effectively in oral forms, and in a range of written forms",
+        "code": "ULO3"
+      },
+      {
+        "description": "engage effectively in group work with your peers and teachers",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading and thinking before class. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to BPhil/MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MHIS748",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Seminar Participation / Online Forum Contributions",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Participation means not only doing all the common readings beforehand but also contributing to discussion with your fellow students during our meeting or during the online discussion forum for external students. Good participation ensures a productive learning environment for you and everyone else. Your grade is assessed on the basis of your generosity with your knowledge to other students and your willingness to ask relevant questions and to have a go at trying to answer others&#39; questions. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Historiographic Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "60",
+        "description": "Write a 3000 word essay in which you address a historiographical question that you have formulated, a question that relates to any of the ideas or issues covered in the unit. You should clear your choice of question with your convenor by at least week 8. Start thinking about your essay question now! Try to keep your project manageable, by, for instance, investigating a concept or controversy through three to four primary texts. Keep your question short, too. Your paper should illustrate that you are able to locate evidence and present your findings in a clear and coherent manner. You must format and reference your essay according to departmental guidelines (see doc uploaded on ilearn). Submit via Turnitin.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflective Diary",
+        "type": {
+          "label": "Log book",
+          "value": "log_book"
+        },
+        "weight": "20",
+        "description": "Between weeks 2-13 you are expected to write a reflection each week after the discussion has concluded of between 200-400 words, you should attempt to synthesise the key points from the weekly discussion and offer a reflection on how these have challenged, transformed or perhaps reinforced some of your ideas about historical research. These will be submitted in 2 batches over the semester.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MHIS7000-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS7000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MHIS7000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS7000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MHIS7000-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MHIS7000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MHIS7000 - Introduction to Modern Historiography",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This advanced-studies unit introduces students to a brief history of modern historical thinking and writing. It starts with an investigation of three major and enduring strands of Western historical thought from the nineteenth century: Rankean empiricism, Marxist structuralism, and Nietzchean deconstructionism. The rest of the unit traces the intertwining ups and downs of these three traditions through the twentieth century and into the new millennium.  We look at the interplay between structuralisms and empiricisms during the early 1900s and then the returning challenge of deconstructionist—or what will be termed ‘poststructuralist’—thought by mid-century. We will study the effects of these changes especially on historical understandings of gender, class, and race. Our final weeks will look at what these different trajectories mean in our present era of ‘fake news’, and the shape of the dominant historiographical concerns of the immediate future.",
+    "search_title": "MHIS7000 - Introduction to Modern Historiography",
+    "code": "MHIS7000",
+    "title": "Introduction to Modern Historiography",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This advanced-studies unit introduces students to a brief history of modern historical thinking and writing. It starts with an investigation of three major and enduring strands of Western historical thought from the nineteenth century: Rankean empiricism, Marxist structuralism, and Nietzchean deconstructionism. The rest of the unit traces the intertwining ups and downs of these three traditions through the twentieth century and into the new millennium.  We look at the interplay between structuralisms and empiricisms during the early 1900s and then the returning challenge of deconstructionist—or what will be termed ‘poststructuralist’—thought by mid-century. We will study the effects of these changes especially on historical understandings of gender, class, and race. Our final weeks will look at what these different trajectories mean in our present era of ‘fake news’, and the shape of the dominant historiographical concerns of the immediate future.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T14:06:53.177",
+  "code": "MHIS7000",
+  "title": "Introduction to Modern Historiography",
+  "implementationYear": "2021"
+}

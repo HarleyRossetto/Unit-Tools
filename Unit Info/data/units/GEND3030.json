@@ -1,0 +1,238 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Examine the relationship between forms of knowledge and forms of everyday living.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate an understanding of imperial and transnational feminisms.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate an ability to examine the power dynamics that govern the relationships between the Global South and North.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate an understanding of the complexity of colonialism, post-colonialism and neo-colonialism.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate a realistic understanding of the lives of women in developing countries.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse critically a variety of texts (documentaries, novels, songs, media articles, news clips) and data sources concerning gender within their historical, social, geopolitical and theoretical contexts.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading the weekly texts + Thinking about the questions posted on iLearn",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "GEND330",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Group Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "This task consists of small group presentations on the readings the class has done. In Week 1 tutorial, each student will be assigned a group with which to prepare a presentation on the weekly readings. Each week, a different team of 2-3 students presents a critical analysis of the compulsory and/or recommended readings. The presentation should open up class discussion.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "45",
+        "description": "Research and compose a 2000 word essay in response to one of the questions provided.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Self-Reflection",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "35",
+        "description": "In this assessment task, students explore personal experiences, feelings and events and link them to the theories and concepts learnt through the unit materials. The Personal Reflection is an opportunity to reconsider events which students lived, watched, read or heard about. The sources of these experiences can be students’ personal lives, books or popular culture artefacts (rap songs, TV shows, films, ads, comics, cartoons, the news, blogs, Vlogs, etc).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Answers",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Regular contribution to weekly Discussion Forums is a requirement of this unit for external students. Participation should provide evidence of the student having done the readings, listened to the lecture and thought about the topics in relation to both local and global contexts.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Online, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "GEND3030-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEND3030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GEND3030-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEND3030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GEND3030-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEND3030"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "GEND3030 - Decolonising Identity",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit shows how colonialism, imperialism, post-colonialism and neo-colonialism affect identity. The unit explores the tensions between Third and First World feminists. This leads us to talk about imperial feminists and transnational feminists’ responses to their agendas.The issue of identity is also discussed in relation to Muslim women through a focus on veiling, unveiling and Islamic feminism. The unit&#39;s discussion of the North-South divide throws light on the relations between the identities of citizens of poor and wealthy countries. The course shows how religion, race, borders, Orientalism, imperialism and globalization affect gender relations and one’s sense of self.",
+    "search_title": "GEND3030 - Decolonising Identity",
+    "code": "GEND3030",
+    "title": "Decolonising Identity",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit shows how colonialism, imperialism, post-colonialism and neo-colonialism affect identity. The unit explores the tensions between Third and First World feminists. This leads us to talk about imperial feminists and transnational feminists’ responses to their agendas.The issue of identity is also discussed in relation to Muslim women through a focus on veiling, unveiling and Islamic feminism. The unit&#39;s discussion of the North-South divide throws light on the relations between the identities of citizens of poor and wealthy countries. The course shows how religion, race, borders, Orientalism, imperialism and globalization affect gender relations and one’s sense of self.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-27T15:32:33.48",
+  "code": "GEND3030",
+  "title": "Decolonising Identity",
+  "implementationYear": "2021"
+}

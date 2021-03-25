@@ -1,0 +1,298 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Competently select, perform and interpret tests commonly used in physiotherapy practice to assess human performance, applying strategies to enhance the reliability and validity of specific measurement procedures. <strong>(Clinical Practitioner)</strong>",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply proficient knowledge of anatomy to accurately describe and analyse everyday activities. <strong>(Scientist &amp; Scholar)</strong>",
+        "code": "ULO1"
+      },
+      {
+        "description": "Describe the biomechanical characteristics of performance of common everyday activities in healthy persons across the lifespan. <strong>(Scientist &amp; Scholar)</strong>",
+        "code": "ULO2"
+      },
+      {
+        "description": "Utilise clinical observation and measurement skills to identify adaptive behaviours during the performance of everyday activities, and apply sound clinical reasoning and assessment skills to determine the underlying impairments. <strong>(Clinical Practitioner)</strong>",
+        "code": "ULO3"
+      },
+      {
+        "description": "Design and progress an evidence-based exercise program to enhance motor learning and performance that considers impairments, goals and preferences, as well as social and behavioural factors alongside cultural background. <strong>(Clinical Practitioner)</strong>",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "This unit's iLearn site will provide weekly resources for students, including: lecture notes, tutorial worksheets,\npreparation and consolidation material, videos, discussion forums and other teaching resources.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PHTY801",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to DPT",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Clinical Simulation Exam",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "35",
+        "description": "You will demonstrate selected practical skills and clinical reasoning based on case scenarios. The exam will include practical and viva components.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mastery register",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "0",
+        "description": "The mastery register for PHTY8101 is a list of key skills in which competence is considered to be a requirement for the assurance of quality physiotherapy practice for registration. You must demonstrate a minimum level of competence in these skills as a condition of passing this unit by achieving 60% completion of the mastery register in order to successfully complete the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "The quiz will include short-answer questions on unit content delivered up to the end of the week prior to the quiz.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz 2",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The online quiz will include short-answer questions on unit content delivered up to the end of the week prior to the quiz.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Written examination 2",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "This examination is an integrated examination for PHTY8100, PHTY8101 and PHTY8102. The questions will test your understanding and application of all content delivered in this unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz 1",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The online quiz will include short-answer questions on unit content delivered up to the end of the week prior to the quiz.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Written examination 1",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "This examination is an integrated examination for PHTY8100, PHTY8101 and PHTY8102. The questions will test your understanding and application of all content delivered in this unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Clinical skills evaluation",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "30",
+        "description": "You will be required to submit a video demonstration of selected practical skills appropriate for a specific case scenario, including the clinical reasoning behind the selection and the explanation required for implementing these skills with a patient.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Viva Examination",
+        "type": {
+          "label": "Viva/oral examination",
+          "value": "viva_oral_exam"
+        },
+        "weight": "30",
+        "description": "You will be required to describe and justify a person-centred approach to physiotherapy assessment and management of an individual who is experiencing difficulties in performing everyday movements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8101"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8101"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "PHTY8101 - Applied Sciences for Physiotherapy B",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Health Professions"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will build upon your prerequisite and assumed knowledge with a focus on movement science in the context of physiotherapy. You will utilise skills in clinical observation and measurement of human performance to analyse the biomechanical and anatomical characteristics of everyday activities in healthy persons and those with health conditions. Using the World Health Organisation&#39;s International Classification of Functioning, Disability and Health as a model of clinical reasoning you will apply strategies to manage common impairments, and promote skill acquisition within the context of motor learning, to optimise human movement and participation.",
+    "search_title": "PHTY8101 - Applied Sciences for Physiotherapy B",
+    "code": "PHTY8101",
+    "title": "Applied Sciences for Physiotherapy B",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will build upon your prerequisite and assumed knowledge with a focus on movement science in the context of physiotherapy. You will utilise skills in clinical observation and measurement of human performance to analyse the biomechanical and anatomical characteristics of everyday activities in healthy persons and those with health conditions. Using the World Health Organisation&#39;s International Classification of Functioning, Disability and Health as a model of clinical reasoning you will apply strategies to manage common impairments, and promote skill acquisition within the context of motor learning, to optimise human movement and participation.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:49:35.708",
+  "code": "PHTY8101",
+  "title": "Applied Sciences for Physiotherapy B",
+  "implementationYear": "2021"
+}

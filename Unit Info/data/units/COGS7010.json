@@ -1,0 +1,210 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "identify the key critical issues in common methods used in cognitive science.",
+        "code": "ULO1"
+      },
+      {
+        "description": "critically analyse information from a variety of sources.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate an understanding of scientific integrity and the need for rigorous and transparent methodology and reporting of research.",
+        "code": "ULO7"
+      },
+      {
+        "description": "demonstrate an advanced understanding of the methods available for research into cognitive science.",
+        "code": "ULO3"
+      },
+      {
+        "description": "demonstrate an advanced understanding of the common underlying assumptions in studying cognition.",
+        "code": "ULO4"
+      },
+      {
+        "description": "clearly articulate an argument in written and oral form to a variety of audiences.",
+        "code": "ULO5"
+      },
+      {
+        "description": "provide critical analysis when reading academic research papers, and critically evaluate scientific methods, results and interpretations.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading in advance of class discussion.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "COGS701",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Critical issues essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "This assessment requires writing a 3000 word essay about key critical issues in cognitive science covered during the course.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical paper review",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "This assessment mimics the task of a pre-publication review, and provide a critical analysis of the selected paper, pointing out problems that should be addressed or issues that could be improved. The review needs to include a brief summary of the academic paper, identifying major and minor issues, discussing the implications and making constructive recommendations for changes that could improve the study. 1500 words maximum.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In-class participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "This assessment involves participating, discussing and contributing ideas in class.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Leading journal club",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "This assessment involves selecting an academic research paper and leading a student group discussion.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "COGS7010-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COGS7010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "COGS7010 - Research Frontiers in Cognitive Science",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Cognitive Science "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "You will engage in critical research issues in cognitive science. We examine the assumptions and methodological issues of the main techniques used across the different fields of cognitive science (e.g., neuroimaging, behavioural, and neuropsychological techniques). The unit will include seminars by experts in the various techniques and student-led analyses of recently published papers. The aim is to provide you with the tools to critically appraise published studies and the inferences made on the basis of experimental data. Activities are based on seminar attendance, directed reading of research articles, and critical discussion of research in both written and oral form.",
+    "search_title": "COGS7010 - Research Frontiers in Cognitive Science",
+    "code": "COGS7010",
+    "title": "Research Frontiers in Cognitive Science",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "You will engage in critical research issues in cognitive science. We examine the assumptions and methodological issues of the main techniques used across the different fields of cognitive science (e.g., neuroimaging, behavioural, and neuropsychological techniques). The unit will include seminars by experts in the various techniques and student-led analyses of recently published papers. The aim is to provide you with the tools to critically appraise published studies and the inferences made on the basis of experimental data. Activities are based on seminar attendance, directed reading of research articles, and critical discussion of research in both written and oral form.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T10:31:23.616",
+  "code": "COGS7010",
+  "title": "Research Frontiers in Cognitive Science",
+  "implementationYear": "2021"
+}

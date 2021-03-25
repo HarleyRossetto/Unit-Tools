@@ -1,0 +1,182 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "collaborate on screen production projects while individually researching, and engaging in, specialized roles.",
+        "code": "ULO4"
+      },
+      {
+        "description": "evaluate critically one's own and others' creative screen projects.",
+        "code": "ULO3"
+      },
+      {
+        "description": "differentiate technical and creative strategies through a critical analysis of creative screen works.",
+        "code": "ULO2"
+      },
+      {
+        "description": "synthesise practical, conceptual and analytical skills through the writing, development and collaborative realisation of a creative screen concept.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Unit preparation each week",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MAS313",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "130cp at 1000 level or above including MAS213 or MMCC2013",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Screen Production",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "60",
+        "description": "OPTION A COLLABORATIVE ASSESSMENT",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Portfolio: Video Essay and Study Plan",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "40",
+        "description": "Portfolio: Video Essay and Study Plan.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC3013-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3013"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC3013-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3013"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MMCC3013 - Screen Production: Open Form Filmmaking",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit offers students an opportunity to develop their creative, conceptual, and technical abilities through the collaborative production of fiction, non-fiction, hybrid, or experimental screen projects of their choice across different media. They are encouraged to step up to new creative challenges in roles they have an affinity for, such as directing, producing, cinematography, production design, editing or sound design. The creative opportunities of this unit can produce work suitable for professional portfolios and entry into film festivals.",
+    "search_title": "MMCC3013 - Screen Production: Open Form Filmmaking",
+    "code": "MMCC3013",
+    "title": "Screen Production: Open Form Filmmaking",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit offers students an opportunity to develop their creative, conceptual, and technical abilities through the collaborative production of fiction, non-fiction, hybrid, or experimental screen projects of their choice across different media. They are encouraged to step up to new creative challenges in roles they have an affinity for, such as directing, producing, cinematography, production design, editing or sound design. The creative opportunities of this unit can produce work suitable for professional portfolios and entry into film festivals.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T09:46:44.422",
+  "code": "MMCC3013",
+  "title": "Screen Production: Open Form Filmmaking",
+  "implementationYear": "2021"
+}

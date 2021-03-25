@@ -1,0 +1,226 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate the biomedical, social, and behavioural determinants of health of individuals and populations from a diverse array of cultural backgrounds and geographical settings to develop strategies that optimise health and wellbeing as people age, drawing upon interprofessional expertise and resources where appropriate. <strong>(Engaged Global Citizen)</strong>",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply safe and effective physiotherapy intervention strategies to treat complex multisystem problems, support self-management and minimise long term consequences of chronic health conditions across the lifespan, including strategies for Aboriginal and Torres Strait Islander people and other populations where health inequalities are prevalent. <strong>(Clinical Practitioner)</strong>",
+        "code": "ULO4"
+      },
+      {
+        "description": "Describe the pathophysiology and epidemiology of chronic disease, persistent pain and disability across the lifespan, and the impact to both the individual and society, including the impact to Aboriginal and Torres Strait Islander people and other populations where health inequalities are prevalent. <strong>(Clinical Practitioner)</strong>",
+        "code": "ULO1"
+      },
+      {
+        "description": "Communicate effectively and appropriately with a diverse range of individuals from different cultural backgrounds with varying levels of health literacy, using a variety of modes, including digital technologies, in order to support people to optimise their health and wellbeing as they age. <strong>(Clinical Practitioner)</strong>",
+        "code": "ULO5"
+      },
+      {
+        "description": "Utilise thorough assessment strategies and sound clinical reasoning to develop a personalised and collaborative management approach to physiotherapy for individuals with chronic disease, persistent pain and long-term disability, that considers an individual's preferences, current evidence and appropriate behavioural frameworks. <strong>(Clinical Practitioner)</strong>",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Independent research on topics covered across the semester will consolidate learning.",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "You will be required to undertake preparatory activities prior to class, such as reading specified materials, engaging with multimedia content and participating in discussion forums.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(PHTY808 or PHTY8200) and (PHTY809 or PHTY8201) and (PHTY810 or PHTY8202) and (PHTY811 or PHTY8203)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PHTY814",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Podcast and narrative medicine article",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "40",
+        "description": "You will produce a brief podcast that incorporates an interview with your Health and Wellbeing Collaboration (HAWC) volunteer, and an analysis of the strategies that may be used to enhance health and wellbeing. This will be accompanied by a narrative medicine essay, written in the format of a magazine article.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Viva examination",
+        "type": {
+          "label": "Viva/oral examination",
+          "value": "viva_oral_exam"
+        },
+        "weight": "40",
+        "description": "You will be required to describe and justify a person-centred and collaborative physiotherapy management approach to supporting an individual with multiple chronic health conditions to optimise their health and wellbeing.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Clinical placement log book",
+        "type": {
+          "label": "Log book",
+          "value": "log_book"
+        },
+        "weight": "0",
+        "description": "You will submit a logbook of briefly describing your experiences and hours accrued during your clinical placements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Infographic",
+        "type": {
+          "label": "Poster",
+          "value": "poster"
+        },
+        "weight": "20",
+        "description": "You will create an infographic outlining the inequity of the burden of chronic disease in a specific population group within Australia, and analyse the social determinants of health that contribute to this inequality.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PHTY8206-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8206"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PHTY8206-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY8206"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "PHTY8206 - Health and Wellbeing Across Lifespan B",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Health Professions"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on the role of physiotherapy in promoting and enhancing health and wellbeing in individuals with chronic health conditions and/or long-term disability across all stages of the lifespan, with a particular focus on the impact of these conditions in the adult and senior years. You will apply an enhanced understanding of the biomedical, social and behavioural determinants of health, and the inequities in the burden of chronic disease, to support behaviour change and self-management; and prevent or minimise the long term consequences of chronic disease, pain and disability. Within an integrated clinical component you will work collaboratively with, and learn from, health consumers and professionals, in a real world context.",
+    "search_title": "PHTY8206 - Health and Wellbeing Across Lifespan B",
+    "code": "PHTY8206",
+    "title": "Health and Wellbeing Across Lifespan B",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on the role of physiotherapy in promoting and enhancing health and wellbeing in individuals with chronic health conditions and/or long-term disability across all stages of the lifespan, with a particular focus on the impact of these conditions in the adult and senior years. You will apply an enhanced understanding of the biomedical, social and behavioural determinants of health, and the inequities in the burden of chronic disease, to support behaviour change and self-management; and prevent or minimise the long term consequences of chronic disease, pain and disability. Within an integrated clinical component you will work collaboratively with, and learn from, health consumers and professionals, in a real world context.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T09:41:37.913",
+  "code": "PHTY8206",
+  "title": "Health and Wellbeing Across Lifespan B",
+  "implementationYear": "2021"
+}

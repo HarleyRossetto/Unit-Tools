@@ -1,0 +1,237 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain complex priority disputes between competing claimants to the same property through the application of doctrinal and procedural rules of law and equity.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critique and describe the historical development of Australian property law and of the major historical and theoretical principles that underlie it.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Explain and critique the major forms of title to land in Australia and the fundamental difference between the creation and transfer of property rights in law and equity.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically analyse the way in which native title has been placed in the framework of Australian property law.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "LAWS809",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "LAWS803 or LAWS8030",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Students will prepare a properly referenced response with appropriate analysis and argument supported by relevant authoritative cases and commentary.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Students will be assessed on their ability to demonstrate knowledge of the required readings and lecture material and their oral and written discussion of those materials in tutorials and online",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "A Time-Limited Take Home Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "50",
+        "description": "The hypothetical take home problem question/s will be based on the material from the whole course",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "0",
+        "description": "The quiz will be based on the material covered in Lectures 1 – 3. This quiz is for the purposes of self assessment and carries no weight.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "LAWS8009-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8009"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8009-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8009"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8009-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8009"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "LAWS8009-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-Other",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8009"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />Session 1, Special circumstances, Other<br />",
+    "subject_search_title": "LAWS8009 - Property Law",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Property is a fundamental legal concept in contemporary western societies. In this unit the property concept is examined from theoretical and practical perspectives. Initially, the question of what the concept should encompass is raised, looking particularly at the person/property distinction and at the boundaries of property such as ownership of the human body and its parts and digital property. Moral implications and economic justifications for the allocation of property rights are then introduced. The major portion of the unit is concerned with a thorough examination of the practical application of property law in Australia beginning with the law of personal property and continuing with systems of title to land (old system, Torrens and native title), the primary interests in land such as mortgages, easements, leases and covenants and concurrent ownership. Analytical and problem solving skills are developed through hypothetical problem exercises and careful consideration of authoritative case law.",
+    "search_title": "LAWS8009 - Property Law",
+    "code": "LAWS8009",
+    "title": "Property Law",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Property is a fundamental legal concept in contemporary western societies. In this unit the property concept is examined from theoretical and practical perspectives. Initially, the question of what the concept should encompass is raised, looking particularly at the person/property distinction and at the boundaries of property such as ownership of the human body and its parts and digital property. Moral implications and economic justifications for the allocation of property rights are then introduced. The major portion of the unit is concerned with a thorough examination of the practical application of property law in Australia beginning with the law of personal property and continuing with systems of title to land (old system, Torrens and native title), the primary interests in land such as mortgages, easements, leases and covenants and concurrent ownership. Analytical and problem solving skills are developed through hypothetical problem exercises and careful consideration of authoritative case law.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:32:53.613",
+  "code": "LAWS8009",
+  "title": "Property Law",
+  "implementationYear": "2021"
+}

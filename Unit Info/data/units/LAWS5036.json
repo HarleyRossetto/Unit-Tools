@@ -1,0 +1,228 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "5000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Review and critique existing corporate law and regulatory strategies domestically and internationally",
+        "code": "ULO4"
+      },
+      {
+        "description": "Understand and convey key concepts related to corporate governance and corporate regulation.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Examine alternative corporate law and regulatory models and assess their application",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe and analyse the context in which corporate governance policies and practices operate",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "(80cp in LAW or LAWS units) or (130cp including (MMCC2014 or MAS214) or (BUSL250 and BUSL301) or (BUSL251 or ACCG2051)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LAW486, LAWS536",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online and participatory tasks",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "A series of online engagement activities and zoom tutorial discussion",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "A research essay exploring an important aspect of modern corporate governance",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "3 online quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "45",
+        "description": "Multiple choice quizzes assessing key concepts",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5036"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5036"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5036"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "30",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5036"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde*<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Special circumstances, Other<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "LAWS5036 - Modern Corporate Governance",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "What exactly is a corporation? Who&#39;s interests do corporations serve? How should corporations be held responsible for social or environmental harms? These are just some of the questions this course addresses. Corporations are powerful and complex legal creations with immense influence over society, economy, politics and environment. In this advanced unit, students will build on existing knowledge of business organisations and corporate law to gain deeper insight into how corporations govern themselves and how they are regulated by external actors, both in Australia and internationally. Students will engage in research and critical analysis of existing corporate governance strategies and the laws that govern corporate interactions, advancing their understanding of the actors and organisations that impact corporate governance, including: corporate boards, corporate regulators, auditors and stock exchanges. This course provides an opportunity to explore concepts such as Corporate Social Responsibility (CSR), Environmental and Social Governance (ESG), and Business and Human Rights. Students will analyse the relationships and legal obligations between corporations and their shareholders, creditors, employees and customers. ",
+    "search_title": "LAWS5036 - Modern Corporate Governance",
+    "code": "LAWS5036",
+    "title": "Modern Corporate Governance",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "What exactly is a corporation? Who&#39;s interests do corporations serve? How should corporations be held responsible for social or environmental harms? These are just some of the questions this course addresses. Corporations are powerful and complex legal creations with immense influence over society, economy, politics and environment. In this advanced unit, students will build on existing knowledge of business organisations and corporate law to gain deeper insight into how corporations govern themselves and how they are regulated by external actors, both in Australia and internationally. Students will engage in research and critical analysis of existing corporate governance strategies and the laws that govern corporate interactions, advancing their understanding of the actors and organisations that impact corporate governance, including: corporate boards, corporate regulators, auditors and stock exchanges. This course provides an opportunity to explore concepts such as Corporate Social Responsibility (CSR), Environmental and Social Governance (ESG), and Business and Human Rights. Students will analyse the relationships and legal obligations between corporations and their shareholders, creditors, employees and customers. ",
+  "level": "5000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:24:48.715",
+  "code": "LAWS5036",
+  "title": "Modern Corporate Governance",
+  "implementationYear": "2021"
+}

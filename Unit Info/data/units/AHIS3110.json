@@ -1,0 +1,242 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Employ linguistic technical terms",
+        "code": "ULO5"
+      },
+      {
+        "description": "Assess the grammar required for the translation of Greek texts appropriate to level of study",
+        "code": "ULO3"
+      },
+      {
+        "description": "Integrate knowledge of grammar and vocabulary in reading and writing advanced Greek texts",
+        "code": "ULO6"
+      },
+      {
+        "description": "Identify and recall Greek grammatical structures at advanced level",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse the significance of Greek for the study of relevant ancient cultures",
+        "code": "ULO7"
+      },
+      {
+        "description": "Recognise and memorise advanced Greek vocabulary",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explore and appraise relevant grammatical and lexical reference tools",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading and interpretation of Unit Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "AHIS308",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "20cp at 2000 level including (AHIS209 or AHIS2110 or AHST206)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "35",
+        "description": "Formal examination",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Prose Composition",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "35",
+        "description": "Up to six exercises in translation from English to Greek",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Comprehension Tests",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "Two comprehension tests",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Four online participation exercises",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "AHIS3110-unit_teaching_period-exam_att-subject",
+        "display_name": "Session 1-exam_att-Exam centre within Australia ",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Attendance for exam only"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS3110"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AHIS3110-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS3110"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AHIS3110-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS3110"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Attendance for exam only, Exam centre within Australia <br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "AHIS3110 - Ancient Greek C",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit aims to develop the skills of history students in order to support advanced study of the ancient Greek language. It builds on the introduction to the language provided in AHIS1110 and AHIS2110, offering a systematic analysis of grammar and introducing the concepts of dialectal variation and historical development in the classical and post-classical periods. The unit also aims to help students develop their skills in reading original Greek literary and documentary texts, and analyse the significance of Greek for the study of relevant ancient cultures.",
+    "search_title": "AHIS3110 - Ancient Greek C",
+    "code": "AHIS3110",
+    "title": "Ancient Greek C",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit aims to develop the skills of history students in order to support advanced study of the ancient Greek language. It builds on the introduction to the language provided in AHIS1110 and AHIS2110, offering a systematic analysis of grammar and introducing the concepts of dialectal variation and historical development in the classical and post-classical periods. The unit also aims to help students develop their skills in reading original Greek literary and documentary texts, and analyse the significance of Greek for the study of relevant ancient cultures.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T10:47:03.24",
+  "code": "AHIS3110",
+  "title": "Ancient Greek C",
+  "implementationYear": "2021"
+}

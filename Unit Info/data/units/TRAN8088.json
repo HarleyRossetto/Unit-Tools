@@ -1,0 +1,132 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate effective medical interpreting skills in both language directions (English and Auslan).",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify appropriate interpreting techniques to be used with medical texts or in medical contexts.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Discuss the linguistic, cultural and ethical issues faced by interpreters working in medical contexts.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply relevant discourse analysis frameworks to medical (sight) translations and interpretations.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate a basic understanding of the Australian healthcare system.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate an understanding of the role of the health care interpreters working with healthcare professionals.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "TRAN869 or TRAN8069",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "TRAN853, TRAN888",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8088"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />",
+    "subject_search_title": "TRAN8088 - Auslan Interpreting in Medical Settings",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The aim of this unit is to provide Auslan-English interpreting students with the opportunity to discuss and practice advanced interpreting skills in the specialised area of medical interpreting. Students will analyse the complex linguistic, cultural and ethical challenges of interpreting in medical settings. Students will explore theoretical and practical aspects of the healthcare system in Australia, medical terminology, the roles of various participants in the healthcare system, and specific interpretation issues faced by Auslan interpreting practitioners in this domain.",
+    "search_title": "TRAN8088 - Auslan Interpreting in Medical Settings",
+    "code": "TRAN8088",
+    "title": "Auslan Interpreting in Medical Settings",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The aim of this unit is to provide Auslan-English interpreting students with the opportunity to discuss and practice advanced interpreting skills in the specialised area of medical interpreting. Students will analyse the complex linguistic, cultural and ethical challenges of interpreting in medical settings. Students will explore theoretical and practical aspects of the healthcare system in Australia, medical terminology, the roles of various participants in the healthcare system, and specific interpretation issues faced by Auslan interpreting practitioners in this domain.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:40:17.209",
+  "code": "TRAN8088",
+  "title": "Auslan Interpreting in Medical Settings",
+  "implementationYear": "2021"
+}

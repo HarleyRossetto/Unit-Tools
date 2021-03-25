@@ -1,0 +1,198 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Scope environmental impacts through the lens of Indigenous governance and planning processes",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate, and propose improvements to, the design of Environmental Impact Assessment  systems for development projects",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse the social justice implications of Environmental Impact Assessment processes adopted in different nations",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critically evaluate Environmental Impact Statements from the perspective of different knowledge systems.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Background reading for the unit",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MEnv or MEnvEd or MEnvMgt or MEnvStud or MEnvPlan or MPlan or GradCertEnvPlan or MWldMgt or MPPP or MMarScMgt or MEnvLaw or GradDipEnv or MSusDev or GradCertSusDev or GradDipSusDev or GradCertSIA or GradDipSIA or MConsBiol or GradDipConsBiol or MDevStud or MPASRMDevStud or MPPPMDevStud or MSc in (Biodiversity Conversation or Remote Sensing and GIS or Environmental Health)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "GSE845, GEOP845",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Indigenous understandings of environmental health and well-being",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "55",
+        "description": "Focusing on a case study, students will discuss Indigenous understandings of environmental health and well-being and make a case for how these understandings should be recognised and valued in governance and planning systems. 3000 words ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Review of an EIA",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Students will select an Environmental Impact Assessment (EIA) to review. They will need to identify the strengths and weaknesses of the EIA and recommend areas for improvement. 1500 words ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "3 online quizzes based on workshop preparation materials including lectures and readings",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "GEOP8060-unit_teaching_period-Intensive-subject",
+        "display_name": "Session 2-Intensive-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Intensive attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP8060"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GEOP8060-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP8060"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Intensive attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "GEOP8060 - Environmental Impact Assessment",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Environmental impact assessment (EIA) is a central decision-making process in many planning systems, and sets the agenda for ongoing environmental management of developments. This unit will enhance students’ understandings of what EIAs are and how they are carried out in Australia and internationally. The unit will discuss formal government environmental impact assessment processes as well as the diverse ways in which non-government entities mobilise to assess environmental impacts. In particular, it will focus on how Indigenous peoples understand the environment and the multiple ways in which environment health and well-being is assessed and asserted through Indigenous governance and planning processes.",
+    "search_title": "GEOP8060 - Environmental Impact Assessment",
+    "code": "GEOP8060",
+    "title": "Environmental Impact Assessment",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Environmental impact assessment (EIA) is a central decision-making process in many planning systems, and sets the agenda for ongoing environmental management of developments. This unit will enhance students’ understandings of what EIAs are and how they are carried out in Australia and internationally. The unit will discuss formal government environmental impact assessment processes as well as the diverse ways in which non-government entities mobilise to assess environmental impacts. In particular, it will focus on how Indigenous peoples understand the environment and the multiple ways in which environment health and well-being is assessed and asserted through Indigenous governance and planning processes.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T09:41:43.676",
+  "code": "GEOP8060",
+  "title": "Environmental Impact Assessment",
+  "implementationYear": "2021"
+}

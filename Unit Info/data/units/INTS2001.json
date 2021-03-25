@@ -1,0 +1,223 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify, evaluate and deploy a broad range of theories relating to language learning, linguistics, and their applications.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate the capacity to communicate effectively in the target language across a range of contexts and via a variety of different communicative mediums.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify, describe, and evaluate a wide range of complex aspects of language and human interaction.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate a refined awareness of language and language use in a variety of intercultural contexts.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students engage with the weekly content and the various resources at their disposal through iLearn to revise, prepare, consolidate, expand, explore and develop their skills, research and knowledge base for this unit.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "40cp at 1000 level",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Participation ",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Students demonstrate active engagement with the weekly content in class and online. Further details on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Students engage with the content of the unit to write an analytical research essay demonstrating their awareness and understanding of key concepts in language acquisition, theories in linguistics and intercultural communication, and application to example(s) in LOTE. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Students demonstrate active engagement with the weekly content in class or online.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Students research a topic and speak to the class, demonstrating concrete language and culture knowledge and using texts in LOTE.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "INTS2001-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS2001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "INTS2001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS2001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "INTS2001-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS2001"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Fully online/virtual<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "INTS2001 - Language in Use",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Learning and using languages requires navigating the complexities of human interaction. This unit introduces students to the fundamentals of how language functions as a social tool and is used to negotiate complex systems of interaction in our increasingly globalised everyday life. With the aim to facilitate students&#39; understanding of foreign languages and language learning, the unit covers a wide variety of key concepts including language systems, language acquisition, and socio-cultural variation in languages. Class discussions employ examples from multiple languages, and require active study that develops both practical language skills and understanding of key concepts. By the end of this unit, students will develop autonomous learning skills, an appreciation of major theories on language, and a deep awareness of the importance of intercultural communicative competence within our daily lives. Lectures will be delivered in English. Tutorials will be offered in either English or one of the languages taught in the Department of Media, Communications, Creative Arts, Language and Literature, incorporating concrete language and cultural activities in relation to LOTE. ",
+    "search_title": "INTS2001 - Language in Use",
+    "code": "INTS2001",
+    "title": "Language in Use",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Learning and using languages requires navigating the complexities of human interaction. This unit introduces students to the fundamentals of how language functions as a social tool and is used to negotiate complex systems of interaction in our increasingly globalised everyday life. With the aim to facilitate students&#39; understanding of foreign languages and language learning, the unit covers a wide variety of key concepts including language systems, language acquisition, and socio-cultural variation in languages. Class discussions employ examples from multiple languages, and require active study that develops both practical language skills and understanding of key concepts. By the end of this unit, students will develop autonomous learning skills, an appreciation of major theories on language, and a deep awareness of the importance of intercultural communicative competence within our daily lives. Lectures will be delivered in English. Tutorials will be offered in either English or one of the languages taught in the Department of Media, Communications, Creative Arts, Language and Literature, incorporating concrete language and cultural activities in relation to LOTE. ",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T12:13:14.598",
+  "code": "INTS2001",
+  "title": "Language in Use",
+  "implementationYear": "2021"
+}

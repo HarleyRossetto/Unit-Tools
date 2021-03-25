@@ -1,0 +1,183 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify the bones, joints and muscles of the trunk and relate them to surface anatomy and medical images.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Relate advanced theoretical and conceptual knowledge of the structures of the genitourinary and gastrointestinal systems to their embryonic development, surface anatomy and medical imaging.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Articulate the embryonic development of the heart and lungs to explain the anatomy of their adult structures and common congenital abnormalities.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply advanced knowledge of the organization of the structures in the thoracic cavity in relation to its divisions, surface anatomy and medical images.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Online videos, Anatomy websites as a learning tool for anatomy learning",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Read prescribed textbook chapters and online linked resources.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to GradDipAnatomy",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Written Report and Anatomical Drawings",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Written report with anatomical drawings assessing applied knowledge of the anatomy of the structure presented in the clinical case scenario type question.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Anatomy Practical Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "In class practical test assessing regional anatomy studied in this unit. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Formal written exam using a combination of question types assessing content delivered across the session. This task is completed under examination conditions during the University examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "To be determined",
+        "teaching_period": {
+          "value": "To be determined"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI6101"
+        }
+      }
+    ],
+    "unit_offering_text": "To be determined<br />",
+    "subject_search_title": "MEDI6101 - Fundamentals in Visceral Anatomy",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides you with the fundamentals of the gross anatomy of the cardiorespiratory, alimentary, renal and reproductive systems as well as gross anatomy of the trunk wall. You will use technology, anatomical models and work with cadaveric material to provide you with ample opportunity to revise and extend in your knowledge of clinical anatomy. You will also discuss clinical cases, radiographic images and embryological concepts.",
+    "search_title": "MEDI6101 - Fundamentals in Visceral Anatomy",
+    "code": "MEDI6101",
+    "title": "Fundamentals in Visceral Anatomy",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides you with the fundamentals of the gross anatomy of the cardiorespiratory, alimentary, renal and reproductive systems as well as gross anatomy of the trunk wall. You will use technology, anatomical models and work with cadaveric material to provide you with ample opportunity to revise and extend in your knowledge of clinical anatomy. You will also discuss clinical cases, radiographic images and embryological concepts.",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:17:47.601",
+  "code": "MEDI6101",
+  "title": "Fundamentals in Visceral Anatomy",
+  "implementationYear": "2021"
+}

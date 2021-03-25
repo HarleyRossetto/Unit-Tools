@@ -1,0 +1,182 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "evaluate and apply a range of operational, technical and media industry skills related in particular to audio/radio production, program making and broadcasting.",
+        "code": "ULO2"
+      },
+      {
+        "description": "communicate, collaborate and plan to produce a range of creative and journalistic outputs.",
+        "code": "ULO3"
+      },
+      {
+        "description": "analyse and evaluate creative and professional media practice, with an emphasis on radio/audio industry or broadcast media content.",
+        "code": "ULO4"
+      },
+      {
+        "description": "apply radio and audio content production to diverse media applications.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Unit preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MAS337",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Radio Show/s and Production Diary",
+        "type": {
+          "label": "Performance",
+          "value": "performance"
+        },
+        "weight": "50",
+        "description": "Produce radio show/s for radio station 2SER. Documentation supporting your contribution to the broadcasts will be required in the form of a Production Diary. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Audio Portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "50",
+        "description": "Pre-produce audio content for the live or ‘as live’ radio show/s you will create for the following assessment. Refer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC3037-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3037"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC3037-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC3037"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MMCC3037 - Radio and Podcast: The 'On Air' Career",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is suited to students who already have some experience producing spoken word and/or music audio. It explores diverse radio, audio and podcast forms and production as they are emerging in the contemporary online and broadcast context. Students work across a range of professional roles contributing their skills and output to either a series of programs composed of a variety of radio forms (features, comedy, talk-back, reportage, discussion, live music, performance), or towards a &#39;live&#39; special event program for 2SER community radio station. Specialist studio/audio production is taught using &#39;Protools&#39; and appropriate other softwares. Students also advance their skills in voice production and microphone techniques (also applicable to film, news broadcast, podcast, and other audio-visual forms).",
+    "search_title": "MMCC3037 - Radio and Podcast: The 'On Air' Career",
+    "code": "MMCC3037",
+    "title": "Radio and Podcast: The 'On Air' Career",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is suited to students who already have some experience producing spoken word and/or music audio. It explores diverse radio, audio and podcast forms and production as they are emerging in the contemporary online and broadcast context. Students work across a range of professional roles contributing their skills and output to either a series of programs composed of a variety of radio forms (features, comedy, talk-back, reportage, discussion, live music, performance), or towards a &#39;live&#39; special event program for 2SER community radio station. Specialist studio/audio production is taught using &#39;Protools&#39; and appropriate other softwares. Students also advance their skills in voice production and microphone techniques (also applicable to film, news broadcast, podcast, and other audio-visual forms).",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:15:34.123",
+  "code": "MMCC3037",
+  "title": "Radio and Podcast: The 'On Air' Career",
+  "implementationYear": "2021"
+}

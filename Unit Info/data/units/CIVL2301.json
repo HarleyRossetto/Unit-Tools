@@ -1,0 +1,191 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Convey a sound knowledge of the theory, concepts, and principles in solid mechanics",
+        "code": "ULO1"
+      },
+      {
+        "description": "Perform qualitative and quantitative structural analysis and structural behaviour of different vertical and lateral loads",
+        "code": "ULO3"
+      },
+      {
+        "description": "Report the structural analysis process and outcomes to a professional standard in both oral and written forms",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse reactions, axial forces, bending moments, shear forces, deflection, and stresses in structural elements and systems ",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class preparation for tutorials and practical class",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CIVL1001",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Practical Report",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "20",
+        "description": "Report on practical work completed, including written and oral report.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Regular problem sets",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "Students will be provided with regular problem sets to complete. Five in total",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Final examination assessing content throughout semester",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid session quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Mid session quiz",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CIVL2301"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "CIVL2301 - Structural Analysis",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "School of Engineering"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit, students will be introduced to different aspects of mechanics of solids and structural analysis of trusses, beams and frames. This provides the students with the skills to analyse structures as a foundation skill to different structural designs. Students will develop their understanding of the physical performance of solid structural members, which are associated with a variety of structural systems in Civil Engineering. They also gain an understanding of the theory and application of structural analysis as it applies to trusses, beams and frames. Specific topics include basic concept of deformation compatibility; stresses and strains in structural elements, states of stress such as shear, bending, and torsion, displacements and deformations, energy methods for bar and beam structures; simple buckling; deformation of simple frames and cell box beams, response of linear elastic structures under different mechanical and environmental effects, and structural behaviour considering the distribution of internal forces.   ",
+    "search_title": "CIVL2301 - Structural Analysis",
+    "code": "CIVL2301",
+    "title": "Structural Analysis",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit, students will be introduced to different aspects of mechanics of solids and structural analysis of trusses, beams and frames. This provides the students with the skills to analyse structures as a foundation skill to different structural designs. Students will develop their understanding of the physical performance of solid structural members, which are associated with a variety of structural systems in Civil Engineering. They also gain an understanding of the theory and application of structural analysis as it applies to trusses, beams and frames. Specific topics include basic concept of deformation compatibility; stresses and strains in structural elements, states of stress such as shear, bending, and torsion, displacements and deformations, energy methods for bar and beam structures; simple buckling; deformation of simple frames and cell box beams, response of linear elastic structures under different mechanical and environmental effects, and structural behaviour considering the distribution of internal forces.   ",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:10:01.737",
+  "code": "CIVL2301",
+  "title": "Structural Analysis",
+  "implementationYear": "2021"
+}

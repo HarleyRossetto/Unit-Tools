@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Effectively communicate the theory and practice of educational research methods, and its application to identifying, implementing and evaluating evidence-based solutions to problems and issues that impact the quality of learning and teaching in school settings, to non-technical audiences who are stakeholders in school communities.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Collaborate with peers to develop strategies to identify, implement and evaluate evidence-based solutions to problems and issues that impact the quality of learning and teaching in school settings.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply knowledge of the theory and practice of educational research methods in order to develop approaches to evaluate the effectiveness of evidence-based solutions to problems and issues that impact the quality of learning and teaching in school settings.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify evidence-based solutions to problems and issues that impact the quality of learning and teaching in school settings.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify, analyse and critically evaluate educational research literature in order to understand the nature of problems and issues that impact the quality of learning and teaching in school settings.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Peer sessions for AT 1 and 2",
+        "activity": {
+          "label": "Peer-led learning",
+          "value": "peer_led_learning"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparation for classes each week",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Weekly readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "EDUC392",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "80cp at 1000 level or above including EDUC1070 or EDUC107",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Formal examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Exam at end of semester (2 hours)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Report",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Informed by the essays they produced, each group refines their problem or issue, explores the educational research literature in order to identify an evidence based solution to that problem or issue, and develops a strategy to implement and evaluate it. The group, collectively, produces a report, and each student receives the group mark.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Group project part 1",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Each group, collectively, explores the educational research literature in order to create a bibliography relating to their chosen problem or issue. Based on this, each group member, individually, explores a different facet of that problem or issue in their essay. Each student receives an individual mark",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC2920"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDUC2920"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Infrequent attendance, North Ryde<br />",
+    "subject_search_title": "EDUC2920 - Research Inquiry in Education",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The unit provides an introduction to the theory and practice of educational research, and focuses on its application to the development and evaluation of innovative, evidence-based educational practices which enhance the quality of learning and teaching in school settings. Students work in groups to complete a sequence of tasks through which they develop the knowledge and skills required to analyse and critically evaluate the educational research literature in order to identify evidence-based solutions to particular problems or issues in learning and teaching, and to apply educational research methodologies to evaluate their effectiveness. This specialist knowledge and skills that students develop will enhance their capacity to make sound, evidence-based professional judgements, support their future self-directed professional learning, and thereby contribute to the ongoing refinement of their professional practice. The group work component of the unit will scaffold the development of students&#39; abilities to work collaboratively in order to make a meaningful contribution to school-wide improvement efforts.",
+    "search_title": "EDUC2920 - Research Inquiry in Education",
+    "code": "EDUC2920",
+    "title": "Research Inquiry in Education",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The unit provides an introduction to the theory and practice of educational research, and focuses on its application to the development and evaluation of innovative, evidence-based educational practices which enhance the quality of learning and teaching in school settings. Students work in groups to complete a sequence of tasks through which they develop the knowledge and skills required to analyse and critically evaluate the educational research literature in order to identify evidence-based solutions to particular problems or issues in learning and teaching, and to apply educational research methodologies to evaluate their effectiveness. This specialist knowledge and skills that students develop will enhance their capacity to make sound, evidence-based professional judgements, support their future self-directed professional learning, and thereby contribute to the ongoing refinement of their professional practice. The group work component of the unit will scaffold the development of students&#39; abilities to work collaboratively in order to make a meaningful contribution to school-wide improvement efforts.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:45:52.475",
+  "code": "EDUC2920",
+  "title": "Research Inquiry in Education",
+  "implementationYear": "2021"
+}

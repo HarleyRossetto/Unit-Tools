@@ -1,0 +1,210 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Know and understand of current health policies and regulations in early childhood services",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse factors involved in various controversies and debates",
+        "code": "ULO6"
+      },
+      {
+        "description": "Examine diversity of opinion and reasons underlying this diversity",
+        "code": "ULO7"
+      },
+      {
+        "description": "Demonstrate awareness of current medical and scientific research affecting children and families",
+        "code": "ULO5"
+      },
+      {
+        "description": "Evaluate early childhood programs in the context of preventive health and child wellbeing and optimise environment for young children",
+        "code": "ULO4"
+      },
+      {
+        "description": "Use relevant skills in accessing, evaluating and using information gained from diverse sources in competent practical ways",
+        "code": "ULO2"
+      },
+      {
+        "description": "Promote positive health practices for young children in the family and early childhood services",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings from textbook",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECED818, ECHX601, ECED601, ECEX601",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MTeach(0-5)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Health and Safety Problem",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "50",
+        "description": "You will be provided with a health and/or safety problem and work towards a realistic solution. 2000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Major Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "The major essay will cover a contemporary topic in early childhood health. 2000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECHE6010-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE6010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECHE6010-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE6010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECHE6010-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE6010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ECHE6010 - Health and Well-being in Early Childhood",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit aims to cover many of the health issues that face children and families in both early childhood settings and at home. Early childhood professionals have an added duty of care that necessitates a comprehensive knowledge of likely and unlikely medical events in children&#39;s lives. It is also essential that these professionals are familiar with Australian regulations designed to protect children and ensure their optimal well being. With technology and medical knowledge increasing at an exponential rate, it is important to develop a critical awareness of controversies and differences of opinion concerning practices. An awareness of others&#39; beliefs and levels of understanding is necessary. Debate is encouraged regarding health and medical choices and practices.",
+    "search_title": "ECHE6010 - Health and Well-being in Early Childhood",
+    "code": "ECHE6010",
+    "title": "Health and Well-being in Early Childhood",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit aims to cover many of the health issues that face children and families in both early childhood settings and at home. Early childhood professionals have an added duty of care that necessitates a comprehensive knowledge of likely and unlikely medical events in children&#39;s lives. It is also essential that these professionals are familiar with Australian regulations designed to protect children and ensure their optimal well being. With technology and medical knowledge increasing at an exponential rate, it is important to develop a critical awareness of controversies and differences of opinion concerning practices. An awareness of others&#39; beliefs and levels of understanding is necessary. Debate is encouraged regarding health and medical choices and practices.",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T14:50:54.451",
+  "code": "ECHE6010",
+  "title": "Health and Well-being in Early Childhood",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,234 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "explain how the underlying theory of electromagnetism is linked to everyday phenomena, as well as scientific and engineering applications.",
+        "code": "ULO2"
+      },
+      {
+        "description": "compare experimental and theoretical results, and compile your findings in professional reports.",
+        "code": "ULO5"
+      },
+      {
+        "description": "apply theoretical concepts underpinning central topics in optics to experimental scenarios.",
+        "code": "ULO3"
+      },
+      {
+        "description": "carry out multi-part experimental investigations of physical phenomena using complex control and measurement equipment, recording your results accurately in a lab book.",
+        "code": "ULO4"
+      },
+      {
+        "description": "derive and apply mathematical formalisms to explain fundamental concepts and phenomena in electromagnetism. ",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Consolidating lecture content using a range of resources.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(PHYS201 or PHYS2010) and (PHYS202 or PHYS2020) and (MATH235 or MATH2010) and (MATH236 or MATH232 or MATH2020 or MATH2110)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PHYS301",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Pre-class reading",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Engagement with assigned pre-class reading.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Examination in the university exam period covering all content from the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Lab reports",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "20",
+        "description": "Formal reports for two experimental investigations.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignments",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "A series of problem-solving assignments throughout the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Lab record",
+        "type": {
+          "label": "Lab book",
+          "value": "lab_book"
+        },
+        "weight": "10",
+        "description": "Assessment of your in-lab record for two experimental investigations.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PHYS3010-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHYS3010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PHYS3010-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHYS3010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "PHYS3010 - Advanced Electromagnetism and Optics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Physics and Astronomy "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This course continues our development of the classical theory of electromagnetism, the first example of a unified theory in physics and the origin of the concept of fields. We apply Maxwell’s equations to derive a full dynamical description of electromagnetism in free space with an emphasis on the generation and propagation of electromagnetic waves. We use the concepts of interference and diffraction to determine how light propagates through and interacts with optical systems. Interference underpins practical devices such as the Fabry-Perot interferometer or multilayer dielectric filters while diffraction is critical for analysing beam propagation and image formation. Modern optical techniques are studied in the regular laboratory program that also reinforces the use of advanced data analysis and report writing techniques and thus provides a strong foundation for future research project work.",
+    "search_title": "PHYS3010 - Advanced Electromagnetism and Optics",
+    "code": "PHYS3010",
+    "title": "Advanced Electromagnetism and Optics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This course continues our development of the classical theory of electromagnetism, the first example of a unified theory in physics and the origin of the concept of fields. We apply Maxwell’s equations to derive a full dynamical description of electromagnetism in free space with an emphasis on the generation and propagation of electromagnetic waves. We use the concepts of interference and diffraction to determine how light propagates through and interacts with optical systems. Interference underpins practical devices such as the Fabry-Perot interferometer or multilayer dielectric filters while diffraction is critical for analysing beam propagation and image formation. Modern optical techniques are studied in the regular laboratory program that also reinforces the use of advanced data analysis and report writing techniques and thus provides a strong foundation for future research project work.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T13:56:54.115",
+  "code": "PHYS3010",
+  "title": "Advanced Electromagnetism and Optics",
+  "implementationYear": "2021"
+}

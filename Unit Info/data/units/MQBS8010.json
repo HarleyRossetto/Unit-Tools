@@ -1,0 +1,235 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate theory and research specific to the academic standards and conventions (in your discipline) to an audience.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Survey, critically analyse and evaluate research and theory used in seminal and contemporary research (in your discipline area).",
+        "code": "ULO1"
+      },
+      {
+        "description": "Identify, synthesise and apply theory and research to develop ideas and propose ideas for potential new research opportunities (in your discipline area).",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to read the assigned readings, including the seminar papers, prior to class.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "FOBE710, FOBE810",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "In-class activities",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "During seminars, particular topics and specific papers will be explored, critically analysed and evaluated. Themes and topics for each week will be made available as a reference point for generating additional readings. All students are expected to participate and contribute by preparing for seminars, engaging in discussions with other students and completing any assigned work.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical analysis of research",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "The critical analysis allows students to demonstrate their understanding of important theoretical and research domains and the current state of the literature on that specific topic/research domain in business, management and economics. You are required to focus on surveying, analysing and critically examining the literature related to specific theoretical and research area. Students are required to analyse, evaluate, and communicate the critical issues associated with the topic/research paper and draw an appropriate conclusion from their critical analysis. The analysis must be appropriately cited and referenced with academic sources.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research and theory report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "The research and theory report allows students to undertake an examination of a specific theory or research paper/topic. Through this process you will become familiar with the theory and research applying that specific theory as you undertake an analysis and evaluation of the research (theory/paper and published work using the theory). The report will assess your ability to analyse the topic and relevant research papers, identify limitations and formulate suggestions about further research opportunities, marshal your thoughts and ideas and communicate them via the Department&#39;s chosen submission approach (e.g. weekly/fortnightly review reports on the seminar papers that are being presented in the Department seminar series and presentations on the content of selected ground-breaking high-impact articles, or 2500 words for written report and 30 minutes for the presentation). You will be assessed on the identification and evaluation of relevant theory and concepts, and research on the selected/nominated topic; the depth of your research and critical analysis, and the quality of your communication to your audience.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MQBS8010",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MQBS8010"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MQBS7010"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Research Frontiers in Business and Economics",
+                "academic_item_code": "MQBS7010",
+                "academic_item_url": "/2020/units/MQBS7010"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MQBS8010-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "20",
+        "study_level": {},
+        "academic_item": {
+          "value": "MQBS8010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MQBS8010-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MQBS8010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde*<br />Session 1, Special circumstances<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "MQBS8010 - Research Frontiers in Business and Economics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Theories and other frameworks in business, management and economics help organise knowledge objectivity by framing how and why individuals, organisations, and other entities behave the way they do. Understanding how and why behaviours occur is important for researchers because it provides them with explanations underpinning human behaviours. The focus of this unit is on developing your knowledge about seminal and contemporary research from a theoretical perspective. You will explore theory and research relevant to your discipline and their various interpretations to develop an appreciation of the scope of theory and research. In particular, you will develop knowledge, critical analysis, and creative thinking to examine and explain theory and research to solve research problems. You will also learn how to critically evaluate, synthesise, explain theory and concepts, and communicate your ideas to extend available theories in your discipline area.",
+    "search_title": "MQBS8010 - Research Frontiers in Business and Economics",
+    "code": "MQBS8010",
+    "title": "Research Frontiers in Business and Economics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Theories and other frameworks in business, management and economics help organise knowledge objectivity by framing how and why individuals, organisations, and other entities behave the way they do. Understanding how and why behaviours occur is important for researchers because it provides them with explanations underpinning human behaviours. The focus of this unit is on developing your knowledge about seminal and contemporary research from a theoretical perspective. You will explore theory and research relevant to your discipline and their various interpretations to develop an appreciation of the scope of theory and research. In particular, you will develop knowledge, critical analysis, and creative thinking to examine and explain theory and research to solve research problems. You will also learn how to critically evaluate, synthesise, explain theory and concepts, and communicate your ideas to extend available theories in your discipline area.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T16:14:44.631",
+  "code": "MQBS8010",
+  "title": "Research Frontiers in Business and Economics",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,189 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop the ability to conduct independent and collaborative research through written presentations.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse how nation-states and non-nation-state actors utilise the Internet as an attack vector in information warfare to infiltrate digital systems and gain control of critical infrastructure, through the use of case studies.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse the technical, social and political drivers of information warfare, cyber conflict and cyber espionage.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Understand and differentiate characteristics and typologies of different cyber threats and trends in the cyber space.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MCrim or MPICT or MCPICT or GradDipPICT or GradDipCPICT or PGCertPICT or GradCertPICT or GradCertCPICT or MPICTMIntSecSt or MCPICTMIntSecSt or MIntSecStud or GradDipIntSecStud or MInfoTech or MSecStrategicStud or MIntell or MCTerrorism or MCyberSec or GradDipSecStudCr or GradCertSecStudCr or MSecStrategicStudMCrim or MSecStrategicStudMIntell or MSecStrategicStudMCyberSec or MSecStrategicStudMCTerrorism  or MIntellMCrim or MIntellMCyberSec or MIntellMCTerrorism or MCyberSecMCTerrorism or MCyberSecMCrim or MCTerrorismMCrim or Master of Cyber Security Analysis or 10cps at 6000 level or 10cps 8000 level",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PICT808, PICX808",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Case Study",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Cyber Breach Case Study",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Weekly participation in weekly discussions",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Research Essay on Specific Cyber Issue",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "10 weekly quizzes",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICX8080"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "PICX8080 - Cyber Conflict, Cyber Espionage and Cyber Terrorism",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides an overview of the new and developing threats that cyberspace brings in terms of global security and the implications for corporate, law enforcement and national security responses. The course will analyse cyber attacks involving both nation state actors and non-nation state actors with political motives (including terrorists) through historical, operational and strategic perspectives. Students will gain an understanding of various definitions of cyber espionage, cyber terrorism, cyber warfare and information warfare. They will also be able to analyse how nation states and non-nation state actors utilise the Internet as an attack vector in information warfare to infiltrate digital systems to gain control of critical infrastructure. The unit is interactive and students are expected to actively participate in seminars and online discussion forums.",
+    "search_title": "PICX8080 - Cyber Conflict, Cyber Espionage and Cyber Terrorism",
+    "code": "PICX8080",
+    "title": "Cyber Conflict, Cyber Espionage and Cyber Terrorism",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an overview of the new and developing threats that cyberspace brings in terms of global security and the implications for corporate, law enforcement and national security responses. The course will analyse cyber attacks involving both nation state actors and non-nation state actors with political motives (including terrorists) through historical, operational and strategic perspectives. Students will gain an understanding of various definitions of cyber espionage, cyber terrorism, cyber warfare and information warfare. They will also be able to analyse how nation states and non-nation state actors utilise the Internet as an attack vector in information warfare to infiltrate digital systems to gain control of critical infrastructure. The unit is interactive and students are expected to actively participate in seminars and online discussion forums.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:18:10.861",
+  "code": "PICX8080",
+  "title": "Cyber Conflict, Cyber Espionage and Cyber Terrorism",
+  "implementationYear": "2021"
+}

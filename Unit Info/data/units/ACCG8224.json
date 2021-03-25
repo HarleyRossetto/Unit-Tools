@@ -1,0 +1,183 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Integrate and apply technical knowledge and professional skills to solve complex problems with multi-disciplinary solutions.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply a sceptical and critical thinking approach to organisational problems and the evaluation of stakeholder perspectives and information.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Apply relevant risk-management strategies.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify ethical dilemmas and apply a structured process to resolve those dilemmas.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Interpret and summarise data to construct information, and synthesise information to form responses to business issues.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate the provision of business advice appropriate to context and client through effective written and verbal communications.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading  and preparation for the seminar.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MProfAcc or MProfAccgLead and (ACCG8220 or ACCG8221 or ACCG8222 or ACCG8223)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Students are required to actively contribute to class discussions. Details explaining how participation will be assessed will be provided on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "60",
+        "description": "During weeks 11 to 13, students are required to meet in groups and select two Australian companies that participate either in Global Reporting Initiative (GRI) or Integrated Reporting (IR). Students identify the two companies, their sustainability or integrated reports for the same year, and collate and report on additional published information on the company&#39;s approach to sustainability or non-financial reporting.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Assessed coursework",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Practical questions, similar to weekly homework questions, are included in the assessed coursework task, and will be collected four times throughout the session. Each assessment will contribute 5% to student’s overall assessment for this unit. Marks will be awarded based on accuracy.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACCG8224-unit_teaching_period",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8224"
+        }
+      }
+    ],
+    "unit_offering_text": "2022<br />",
+    "subject_search_title": "ACCG8224 - CA – Integrative",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The unit integrates knowledge and skills from the technical units in the CA specialisation. The focus is on the development of competencies such as critical thinking, ethical behaviour, effective communication, teamwork and the ability to analyse information and synthesis knowledge that candidates will need to perform effectively in the professional environment. ",
+    "search_title": "ACCG8224 - CA – Integrative",
+    "code": "ACCG8224",
+    "title": "CA – Integrative",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The unit integrates knowledge and skills from the technical units in the CA specialisation. The focus is on the development of competencies such as critical thinking, ethical behaviour, effective communication, teamwork and the ability to analyse information and synthesis knowledge that candidates will need to perform effectively in the professional environment. ",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-03-22T11:48:48.041",
+  "code": "ACCG8224",
+  "title": "CA – Integrative",
+  "implementationYear": "2021"
+}

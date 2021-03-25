@@ -1,0 +1,178 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Pass/Fail",
+      "value": "pass-fail"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Recognise and adopt ethical behaviours required for clinical practice in speech pathology.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate on COMPASS Novice Level Behaviours in Professional Competency of Reasoning, and on CBOS Competencies 1 (Assessment), 2 (Analysis and Interpretation), 3 (Planning evidence-based speech pathology practices), and 4 (Implementation of speech pathology practice).",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate on COMPASS Above Novice Level Behaviours on Professional Competencies of Communication, Learning, and Professionalism, and on CBOS Competency 7 (Lifelong learning and reflective practice).",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will complete planning, preparation and reflection activities related to their placement.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "SPHL831",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MSpchLngPath",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "COMPASS assessment",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "100",
+        "description": "Students will be assessed using the COMPASS competency-based assessment tool, which includes self-evaluation components at the midpoint, and at the end of the placement. This hurdle assessment is unweighted.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case presentation, discussion and self - evaluation",
+        "type": {
+          "label": "Viva/oral examination",
+          "value": "viva_oral_exam"
+        },
+        "weight": "0",
+        "description": "Students will report, evaluate, and discuss their progress with development of clinical competencies over the course of SPTH8831. Students will link this progress to specific CBOS and COMPASS Competencies, and discuss their development with MSLP course staff. Reflective reports will be delivered in two formats: a written report, and a viva examination.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Ethics quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "0",
+        "description": "In this assessment, students will complete an unweighted in - class hurdle quiz focused on the Speech Pathology Australia Code of Ethics. Quiz questions will address key concepts, their meanings, and their application to clinical scenarios. Students must achieve a mark of 80% in order to meet the requirements of this Unit, and engage in a clinical placement.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPTH8831"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "SPTH8831 - Speech Pathology Clinical Practice 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this clinical practice unit, lectures and tutorials will introduce students to speech pathology professional standards, reflective practice, foundational clinical skills, and advanced communication skills. Students will attend clinical placements and engage in clinical observation, speech pathology practice, and case discussions with clients, families and relevant professionals. Placements will provide learning experiences with a range of child and adult communication and swallowing disorders. Students will also engage in the preparation, planning, and reflection activities required for clinical placements. Placement: 12 full days, i.e., 1 day per week for 12 weeks.",
+    "search_title": "SPTH8831 - Speech Pathology Clinical Practice 1",
+    "code": "SPTH8831",
+    "title": "Speech Pathology Clinical Practice 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this clinical practice unit, lectures and tutorials will introduce students to speech pathology professional standards, reflective practice, foundational clinical skills, and advanced communication skills. Students will attend clinical placements and engage in clinical observation, speech pathology practice, and case discussions with clients, families and relevant professionals. Placements will provide learning experiences with a range of child and adult communication and swallowing disorders. Students will also engage in the preparation, planning, and reflection activities required for clinical placements. Placement: 12 full days, i.e., 1 day per week for 12 weeks.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-02T11:32:28.378",
+  "code": "SPTH8831",
+  "title": "Speech Pathology Clinical Practice 1",
+  "implementationYear": "2021"
+}

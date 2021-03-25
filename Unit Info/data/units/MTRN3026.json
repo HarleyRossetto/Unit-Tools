@@ -1,0 +1,253 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe and differentiate the components of mechatronic systems",
+        "code": "ULO1"
+      },
+      {
+        "description": "analyse the performance of AC motor drives and controller",
+        "code": "ULO2"
+      },
+      {
+        "description": "demonstrate understanding of modelling of mechatronic systems and kinematics of robotic systems",
+        "code": "ULO4"
+      },
+      {
+        "description": "apply pneumatics, and PLCs integrated with pneumatics, to control mechatronic systems",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "(MTRN2060 or ELEC260) and completion of 130cp",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ELEC326",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Test#2",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Test#2 will be on the topics from Week#4 to Week#8",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical Laboratory Report#1",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "10",
+        "description": "The students will conduct practical laboratory and write a report on the first activity. The report will be due on Week#5.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Practical Laboratory Report #2",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "10",
+        "description": "The students will conduct practical laboratory and write a report on the 2nd activity. The report will be due on Week#9.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Self-study topic and presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "The student will choose a topic of their choice and study by themselves. On Week#12, they have to give a presentation. They also need to write a report of 2 pages including around 5 papers.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Test#3",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Test#3 will be the equivalent of the Final examination and will be held on Week#14.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Test#1",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Test #1 on the taught topics from Week#1 to #3.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical Laboratory Report #3",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "10",
+        "description": "The students will conduct practical laboratory and write a report on the third activity. The report will be due on Week#13.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MTRN3026"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MTRN3026"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MTRN3026 - Mechatronic Systems",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "School of Engineering"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit builds on the instrumentation foundation of MTRN2060 and the system control concepts of ELEC3024. It introduces a number of mechatronic specific topics including AC electric motors and drives, pneumatics, application specific integrated circuits, and advanced control. It requires the application of design and modelling procedures developed in prerequisites, and through medium-scale projects, prepares students to undertake advanced projects.",
+    "search_title": "MTRN3026 - Mechatronic Systems",
+    "code": "MTRN3026",
+    "title": "Mechatronic Systems",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit builds on the instrumentation foundation of MTRN2060 and the system control concepts of ELEC3024. It introduces a number of mechatronic specific topics including AC electric motors and drives, pneumatics, application specific integrated circuits, and advanced control. It requires the application of design and modelling procedures developed in prerequisites, and through medium-scale projects, prepares students to undertake advanced projects.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T20:06:39.493",
+  "code": "MTRN3026",
+  "title": "Mechatronic Systems",
+  "implementationYear": "2021"
+}

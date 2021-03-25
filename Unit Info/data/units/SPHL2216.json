@@ -1,0 +1,230 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Engage in a research-rich environment.",
+        "code": "ULO8"
+      },
+      {
+        "description": "Differentiate the acoustic characteristics of segmental and voice quality aspects of speech.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse the acoustic features of consonants and vowels using standard methodologies.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe the acoustic characteristics of different speech source types and voice qualities.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Explain how speech can be represented acoustically.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse and describe the acoustic correlates of prosody.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Illustrate concepts pertinent to the acoustic theory of speech production.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate the ability to deconstruct coarticulated acoustic representations.",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Topics in speech acoustics are introduced and explained in selected readings from textbooks, journal articles, and online resources. The set readings constitute the core learning materials for this unit, underpinning all other learning activities.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "SPH399, SPHL299",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "LING217 or LING2217",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "5",
+        "description": "Students will participate in a study to learn more about current research directions in speech and language, and to gain first-hand experience in the research process. Research participation typically involves one hour of your time. You will be able to choose from a short list of studies being conducted by researchers in Linguistics, Psychology, and Cognitive Science.  If you do not wish to participate in any of the available studies, you will be given the option of completing an alternative assessment task to satisfy this component of the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Vowel Analysis",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "The aim of this assignment is to examine the acoustic phonetic properties of the vowels of a single speaker. Using the tools and techniques for spectrographic analysis developed in workshops, students will plot their own vowel space, and present a report describing the phonetic properties of their vowels in comparison with published vowel data. Indicative report length: 1500 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Consonant Analysis",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "The aim of this assignment is to examine the acoustic phonetic properties of English consonants in connected speech. Using the tools and techniques for spectrographic analysis developed in workshops, students will segment and quantify the consonants in speech recordings, and analyze and describe the allophonic and coarticulatory processes involved. Indicative report length: 1500 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "35",
+        "description": "Knowledge and understanding of the topics covered in the unit will be assessed in a 90 minute examination, requiring written responses to a range of questions and problems.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPHL2216"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPHL2216"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "SPHL2216 - Speech Acoustics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Human speech makes use of the special acoustic properties of the vocal tract to generate the sounds of each language and to communicate them with an unlimited range of expression. In this unit, we explore the acoustic properties of speech which make this possible, and acoustic theories of speech production which describe its linguistic use. Topics include: general acoustics, source-filter theory, acoustics of vowels and consonants, acoustic description of Australian English and sounds in other languages, voice quality, speech variation, coarticulation, and prosody. Practical exercises include analysis of your own vowel space.",
+    "search_title": "SPHL2216 - Speech Acoustics",
+    "code": "SPHL2216",
+    "title": "Speech Acoustics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Human speech makes use of the special acoustic properties of the vocal tract to generate the sounds of each language and to communicate them with an unlimited range of expression. In this unit, we explore the acoustic properties of speech which make this possible, and acoustic theories of speech production which describe its linguistic use. Topics include: general acoustics, source-filter theory, acoustics of vowels and consonants, acoustic description of Australian English and sounds in other languages, voice quality, speech variation, coarticulation, and prosody. Practical exercises include analysis of your own vowel space.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:17:20.312",
+  "code": "SPHL2216",
+  "title": "Speech Acoustics",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,231 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and understand the defining debates in the field of Global Politics.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Critically engage with and analyse the key issues and challenges that are the current focus of world politics.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Understand and apply the academic skills required to write cogently and to structure arguments in a logical order.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Understand and evaluate the role of historical events and the meanings that have been attributed to them in world politics.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Understand, explain and apply the key concepts, theories, methods, and issues relevant to the study of International Relations at an introductory level.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply and develop further independent research skills required to discover relevant evidence to support academic arguments.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "PLT120, POL108, POL168, POIX108",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Research Essay",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Discussion Board Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Online Discussion Board Participation",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "35",
+        "description": "Final Examination",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Quiz",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "POIX1080",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: POIX1080"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: POIR1080"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Introduction to Global Politics",
+                "academic_item_code": "POIR1080",
+                "academic_item_url": "/2020/units/POIR1080"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "POIX1080"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "POIX1080 - Introduction to Global Politics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Global politics is often dramatic and contentious covering big picture dilemmas such as what are the causes of war and peace? How do we find solutions to shared global problems like climate change and preventing the spread of nuclear weapons? How do we make sense of persistent poverty and underdevelopment in some parts of the world but not others? Whose political ideas matter most and why? Finally, what have been the implications of globalisation for world politics? This unit equips students with the tools to understand the forces that shape the world we live in by introducing them to the key issues, institutions, ideas and actors involved in global politics. The first section of the unit outlines the historical context, key theories and concepts, and fundamental institutions of contemporary global politics. The second section covers important contemporary issues including security challenges, climate change, nuclear proliferation, terrorism, global inequality, the role of culture, religion and identity in global politics, great power rivalry, and globalisation. The unit gives students the foundations necessary for undertaking a major in International Relations or Politics.\n\nAll enrolment queries should be directed to Open Universities Australia (OUA): see <a href=\"http://www.open.edu.au\" rel=\"nofollow\">www.open.edu.au</a>",
+    "search_title": "POIX1080 - Introduction to Global Politics",
+    "code": "POIX1080",
+    "title": "Introduction to Global Politics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Global politics is often dramatic and contentious covering big picture dilemmas such as what are the causes of war and peace? How do we find solutions to shared global problems like climate change and preventing the spread of nuclear weapons? How do we make sense of persistent poverty and underdevelopment in some parts of the world but not others? Whose political ideas matter most and why? Finally, what have been the implications of globalisation for world politics? This unit equips students with the tools to understand the forces that shape the world we live in by introducing them to the key issues, institutions, ideas and actors involved in global politics. The first section of the unit outlines the historical context, key theories and concepts, and fundamental institutions of contemporary global politics. The second section covers important contemporary issues including security challenges, climate change, nuclear proliferation, terrorism, global inequality, the role of culture, religion and identity in global politics, great power rivalry, and globalisation. The unit gives students the foundations necessary for undertaking a major in International Relations or Politics.\n\nAll enrolment queries should be directed to Open Universities Australia (OUA): see <a href=\"http://www.open.edu.au\" rel=\"nofollow\">www.open.edu.au</a>",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:39:29.694",
+  "code": "POIX1080",
+  "title": "Introduction to Global Politics",
+  "implementationYear": "2021"
+}

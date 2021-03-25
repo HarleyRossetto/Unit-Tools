@@ -1,0 +1,175 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain and identify the key principles of fair value measurement, along with the related disclosure requirements.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse the reporting requirements of an entity based on the national regulatory framework and explain the interaction between the national and international financial reporting regulatory frameworks.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Synthesise relevant accounting information derived from financial statements in order to solve complex business-related problems.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse a range of financial reporting issues.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading  and preparation for the seminar.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MProfAcc or MProfAccgLead and (ACCG921 or ACCG8121) and (ACCG923 or ACCG8123) and (ACCG926 or ACCG8126)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Class test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The class test is designed to give feedback to students on their understanding of key topics and concepts covered, and to identify any particular learning challenges or areas of difficulty prior to the final examination. The test may include multiple choice questions, true/false questions, problem solving exercises and short answers to set questions. Students who achieve poor results in the test should consult the teaching staff regarding strategies for improving their performance. The duration and details of the test will be advised the week prior to the test. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A three (3) hour closed-book final examination will be held during the University Examination period. No calculators, dictionaries, books, or other materials or aids are permitted. The examination will cover topics covered across the entire unit. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Business report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Students are required to write a 3,000 word business report recommending the appropriate accounting treatment and disclosures of transactions or event, for a specified case study. This assessment requires students to research the transactions / event, examine the outcome of the treatment, and evaluate issues regarding the preparation and presentation of financial reports to the case study. The report is to be submitted electronically on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACCG8221-unit_teaching_period",
+        "display_name": "To be determined",
+        "teaching_period": {
+          "value": "To be determined"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8221"
+        }
+      }
+    ],
+    "unit_offering_text": "To be determined<br />",
+    "subject_search_title": "ACCG8221 - CA - Financial Accounting and Reporting",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Financial accounting is a pivotal aspect of an accountant’s work and is the main reporting mechanism for preparing financial statements for organisations across all sectors of the economy. This unit covers the underlying framework and concepts behind financial reporting and enables students to prepare financial statements with reference to the Accounting Standards and pronouncements. It provides practical opportunities to apply knowledge to a variety of realistic scenarios.",
+    "search_title": "ACCG8221 - CA - Financial Accounting and Reporting",
+    "code": "ACCG8221",
+    "title": "CA - Financial Accounting and Reporting",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Financial accounting is a pivotal aspect of an accountant’s work and is the main reporting mechanism for preparing financial statements for organisations across all sectors of the economy. This unit covers the underlying framework and concepts behind financial reporting and enables students to prepare financial statements with reference to the Accounting Standards and pronouncements. It provides practical opportunities to apply knowledge to a variety of realistic scenarios.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-03-22T11:48:23.457",
+  "code": "ACCG8221",
+  "title": "CA - Financial Accounting and Reporting",
+  "implementationYear": "2021"
+}

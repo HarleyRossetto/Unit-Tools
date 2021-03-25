@@ -1,0 +1,247 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate written and oral communication skills, including through participation in class discussions.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop self-awareness skills by identifying and setting targets, and applying time management.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate an understanding of the key principles and processes of learning, mechanisms of behavioural neuroscience, neurophysiology, and neuropharmacology",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically analyse the key concepts of biopsychology and learning.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Effectively use electronic databases to search for papers in relevant topics.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Solve problems by comparing alternative interpretations of neuroscience data and formulating new explanations.",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSY236, PSYX236",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "((PSYC104 or PSYU1104 or PSYX104 or PSYX1104) and (PSYC105 or PSYU1105 or PSYX105 or PSYX1105)) or (PSYU1101 or PSYX1101) and (PSYU1102 or PSYX1102) and (STAT1103 or STAX1103)) or ((COGS100 or COGS1000) or (MEDI204 or MEDI2300) or (BIOL204 or BIOL2230) and (STAT170 or STAT1170)) ",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Final examination held within the University’s formal exam period, in accordance with relevant requirements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Students complete a 1500 word research report on a behavioural experiment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Regular online quizzes testing unit content.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PSYU2236",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PSYU2236"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PSYX2236"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Biopsychology and Learning",
+                "academic_item_code": "PSYX2236",
+                "academic_item_url": "/2020/units/PSYX2236"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYU2236"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYU2236"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PSYU2236 - Biopsychology and Learning",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to give students a basic knowledge of central neuronal mechanisms underlying fundamental behaviours and how these behaviours are modified through experience (learning). Half of the program describes the cytoarchitecture of central and peripheral neurons; the physiological and ionic bases of axonal and synaptic transmission; the overall anatomical organisation of the mammalian brain, and; sensory processing. These topics are followed by discussion on the central mechanisms underlying mammalian behaviours, such as motivation and psychopathology. The other half of the program provides a basic understanding of diverse phenomena in learning and behaviour, including classical conditioning and operant conditioning.",
+    "search_title": "PSYU2236 - Biopsychology and Learning",
+    "code": "PSYU2236",
+    "title": "Biopsychology and Learning",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to give students a basic knowledge of central neuronal mechanisms underlying fundamental behaviours and how these behaviours are modified through experience (learning). Half of the program describes the cytoarchitecture of central and peripheral neurons; the physiological and ionic bases of axonal and synaptic transmission; the overall anatomical organisation of the mammalian brain, and; sensory processing. These topics are followed by discussion on the central mechanisms underlying mammalian behaviours, such as motivation and psychopathology. The other half of the program provides a basic understanding of diverse phenomena in learning and behaviour, including classical conditioning and operant conditioning.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-03T16:56:44.529",
+  "code": "PSYU2236",
+  "title": "Biopsychology and Learning",
+  "implementationYear": "2021"
+}

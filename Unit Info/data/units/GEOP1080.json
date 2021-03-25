@@ -1,0 +1,211 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Discuss the interconnections between cities, climate change and social justice",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply urban and planning theories to case studies of Australian and international cities",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain how cites are imagined, planned and governed in theory and practice",
+        "code": "ULO3"
+      },
+      {
+        "description": "Communicate to diverse audiences using appropriately selected written, oral and visual means",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify and describe historical and contemporary processes of urbanisation",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly reading of academic and policy literature and media reports",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ENVG281, GEOP181, GEOS280, GEOS281",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Cities, social justice and the Anthropocene essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "2000 word essay exploring the connections between cities and social justice in the context of the Anthropocene",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Logbook",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "Written reflections using a specified template based on readings of literature, policy and media reports",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Urban policy case study",
+        "type": {
+          "label": "Poster",
+          "value": "poster"
+        },
+        "weight": "30",
+        "description": "A digital output exploring a specific urban policy/practice initiative in the context of a case study city",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "GEOP1080-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP1080"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GEOP1080-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP1080"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "GEOP1080-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GEOP1080"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "GEOP1080 - Urban Planet: Cities and Planning in the Anthropocene",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The unit focuses on two big ideas: urbanisation and the Anthropocene – a proposed epoch in which humans are driving planetary change. For the first time in human history, over half of the world’s population live in cities. Urbanisation and the political, cultural and economic structures that sustain urban life are key drivers of global environmental change. The unit asks the question: how are we to imagine, plan and govern cities in the Anthropocene epoch? How are cities contributing to global environmental change and what solutions might cities offer? Key dimensions of urban and planning theory and practice are introduced, including: urban infrastructures and mobilities, social change and social justice, urban political economy and governance, and sustainability transitions. Students will apply theory and practice to case studies of Australian and international cities to explore the problems and possibilities of living on an urbanised planet.",
+    "search_title": "GEOP1080 - Urban Planet: Cities and Planning in the Anthropocene",
+    "code": "GEOP1080",
+    "title": "Urban Planet: Cities and Planning in the Anthropocene",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The unit focuses on two big ideas: urbanisation and the Anthropocene – a proposed epoch in which humans are driving planetary change. For the first time in human history, over half of the world’s population live in cities. Urbanisation and the political, cultural and economic structures that sustain urban life are key drivers of global environmental change. The unit asks the question: how are we to imagine, plan and govern cities in the Anthropocene epoch? How are cities contributing to global environmental change and what solutions might cities offer? Key dimensions of urban and planning theory and practice are introduced, including: urban infrastructures and mobilities, social change and social justice, urban political economy and governance, and sustainability transitions. Students will apply theory and practice to case studies of Australian and international cities to explore the problems and possibilities of living on an urbanised planet.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-27T10:04:52.315",
+  "code": "GEOP1080",
+  "title": "Urban Planet: Cities and Planning in the Anthropocene",
+  "implementationYear": "2021"
+}

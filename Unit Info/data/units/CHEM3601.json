@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Use modern spectroscopic techniques to elucidate the structures of organic and inorganic compounds.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Communicate experimental observations clearly, concisely and accurately in the form of written scientific reports.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Assess the risks and hazards associated with working in a synthetic laboratory environment and apply appropriate processes and controls to minimise these risks.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Employ a set of advanced laboratory techniques to synthesise and purify selected organic and inorganic compounds safely and efficiently.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply knowledge of the fundamental molecular properties affecting chemical reactivity and selectivity to predict the products and propose the mechanisms of a range of organic and inorganic reactions.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Use the primary scientific literature to plan efficient synthetic routes to complex organic and inorganic molecules starting from simple building blocks.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Revision of lecture material and reading articles from the scientific literature",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CBMS303",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "20cp in CBMS or BMOL or CHEM units at 2000 level or above including (CHEM2601 or CBMS203 or CBMS204)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A three-hour examination covering course material from Weeks 1-13. The examination will assess understanding of all the topics presented within the course and the ability to apply the knowledge gained to solve new problems. The examination will consist of a combination of short-answer and mechanism-based questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-Semester Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "A one-hour test covering all material presented in the first half of the unit. The test will consist of a combination of short-answer and mechanism-based questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Workshop Performance",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "15",
+        "description": "Five workshops consisting of interactive problem solving sessions focused on exam-style questions. The workshops are designed to develop independence in problem solving and provide students with an opportunity to ask questions and receive immediate feedback on their work. Students are graded based on their level of preparedness and participation in each workshop.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical Classes",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "25",
+        "description": "Five discrete laboratory-based experiments spanning the whole semester. The lab sessions provide advanced practical training in a range of modern synthetic chemistry techniques and allow students to apply the knowledge gained in lectures to solve synthetic challenges safely and efficiently. Students must maintain a laboratory notebook for the duration of the unit, conduct comprehensive risk assessments and produce a concise lab report for each experiment performed.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHEM3601"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHEM3601"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "CHEM3601 - Advanced Synthesis",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Molecular Sciences "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines advanced topics in modern synthetic organic and inorganic chemistry. Specific topics may include: synthesis with selectivity, coordination chemistry, heterocyclic chemistry, rearrangement reactions, pericyclic reactions and advanced spectroscopic methods. These topics build upon the foundation of &#34;CHEM2601 Synthesis&#34;, using the same text books supplemented with inexpensive Oxford Chemistry Primers on the specified topics. This unit requires strong skills in organic and inorganic chemistry, while a background in other aspects of chemistry will be advantageous. The laboratory sessions are aimed at developing skills in organic and inorganic synthesis and in the spectroscopic identification of organic and inorganic compounds.",
+    "search_title": "CHEM3601 - Advanced Synthesis",
+    "code": "CHEM3601",
+    "title": "Advanced Synthesis",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines advanced topics in modern synthetic organic and inorganic chemistry. Specific topics may include: synthesis with selectivity, coordination chemistry, heterocyclic chemistry, rearrangement reactions, pericyclic reactions and advanced spectroscopic methods. These topics build upon the foundation of &#34;CHEM2601 Synthesis&#34;, using the same text books supplemented with inexpensive Oxford Chemistry Primers on the specified topics. This unit requires strong skills in organic and inorganic chemistry, while a background in other aspects of chemistry will be advantageous. The laboratory sessions are aimed at developing skills in organic and inorganic synthesis and in the spectroscopic identification of organic and inorganic compounds.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:20:15.086",
+  "code": "CHEM3601",
+  "title": "Advanced Synthesis",
+  "implementationYear": "2021"
+}

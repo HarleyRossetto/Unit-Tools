@@ -1,0 +1,259 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply principles of discourse analysis to academic texts",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate the appropriateness of academic language teaching materials and assessment tasks for use with specific student cohorts",
+        "code": "ULO5"
+      },
+      {
+        "description": "Critically evaluate academic language course design and select appropriate learning materials drawing on principles of needs analysis and discourse analysis",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate an understanding of and ability to use a range of academic genres",
+        "code": "ULO2"
+      },
+      {
+        "description": "Critically discuss the nature and features of academic discourse, and explain key issues related to teaching language for academic purposes to both first language and second language speakers",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students complete readings related to each weekly unit of work (on average 4 hours per week)",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LING969, APPL942, APPL742",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MAppLing or MAppLingTESOL or MTransInterMAppLingTESOL",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Article or Chapter Summary",
+        "type": {
+          "label": "Summary",
+          "value": "summary"
+        },
+        "weight": "20",
+        "description": "For this assignment, students summarise the main ideas in a chapter or article on academic discourse (1000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Materials Review",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "40",
+        "description": "Students critically analyse teaching materials taken from published sources (2500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay: Area of Interest",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Students explore a topic related to teaching English for Academic Purposes that is of interest to them (2000 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "APPL8420",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: APPL8420"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: APPL7420"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Advanced Topics in Teaching English for Academic Purposes",
+                "academic_item_code": "APPL7420",
+                "academic_item_url": "/2020/units/APPL7420"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8420"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8420"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8420"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "APPL8420 - Teaching English for Academic Purposes",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will provide you with an understanding of the features of academic discourse, focusing on the genres used by different disciplinary communities, and the way these communities use the lexico-grammatical resources of academic English to achieve their purposes. We examine the identities projected by academics in their writing, and the ways in which student writers develop their understanding of and ability to project appropriate identities. This understanding provides the basis for consideration of approaches to needs analysis, course and materials development and assessment. The problems faced by both native and non-native speakers of English will be explored. Students will have the opportunity to follow their own interests in their selection of assignment topics.",
+    "search_title": "APPL8420 - Teaching English for Academic Purposes",
+    "code": "APPL8420",
+    "title": "Teaching English for Academic Purposes",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will provide you with an understanding of the features of academic discourse, focusing on the genres used by different disciplinary communities, and the way these communities use the lexico-grammatical resources of academic English to achieve their purposes. We examine the identities projected by academics in their writing, and the ways in which student writers develop their understanding of and ability to project appropriate identities. This understanding provides the basis for consideration of approaches to needs analysis, course and materials development and assessment. The problems faced by both native and non-native speakers of English will be explored. Students will have the opportunity to follow their own interests in their selection of assignment topics.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:56:28.294",
+  "code": "APPL8420",
+  "title": "Teaching English for Academic Purposes",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,250 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "develop sophisticated research skills and an ability to manage an extended research and writing project",
+        "code": "ULO4"
+      },
+      {
+        "description": "formulate arguments and express ideas at an advanced level",
+        "code": "ULO3"
+      },
+      {
+        "description": "reflect upon the process of research and on scholarly debates",
+        "code": "ULO5"
+      },
+      {
+        "description": "demonstrate skill in evaluating ancient source material and modern interpretations of that source material at an advanced level",
+        "code": "ULO2"
+      },
+      {
+        "description": "acquire knowledge of historical developments and historiography relevant to chosen topic",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "AHIS348, AHIS350",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to BAncHist or to BArch and 130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research paper",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "2500-3000-word long research paper",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Book Review",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "20",
+        "description": "Students are to submit a short (750–1000 words) review of a book or major article (30&#43; pages) which is central to their chosen field of study.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Oral Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "Timed oral presentation on the results of your research",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Annotated Bibliography",
+        "type": {
+          "label": "Annotated bibliography",
+          "value": "annotated_bibliography"
+        },
+        "weight": "30",
+        "description": "Students are to submit an annotated bibliography of modern works on their chosen area of research together with a research plan (of no more than 300 words) outlining the proposed research project. The annotations and research plan should not be more than 1500–2000 words overall.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "AHIS3000-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS3000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AHIS3000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS3000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AHIS3000-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS3000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AHIS3000-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS3000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Fully online/virtual<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "AHIS3000 - Capstone in Ancient History and Archaeology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Students will undertake extended research on a topic arising from an AHIS unit which they have previously completed, and produce a research project which will be presented orally at a unit mini-conference and as a written paper (2500-3000 words). In preparation for the larger research project students will submit an annotated bibliography and research plan together with a review of a book relevant to the project. Students must contact the unit convenor by the first week of the session to obtain approval for their topic.",
+    "search_title": "AHIS3000 - Capstone in Ancient History and Archaeology",
+    "code": "AHIS3000",
+    "title": "Capstone in Ancient History and Archaeology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Students will undertake extended research on a topic arising from an AHIS unit which they have previously completed, and produce a research project which will be presented orally at a unit mini-conference and as a written paper (2500-3000 words). In preparation for the larger research project students will submit an annotated bibliography and research plan together with a review of a book relevant to the project. Students must contact the unit convenor by the first week of the session to obtain approval for their topic.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-03-25T11:50:52.778",
+  "code": "AHIS3000",
+  "title": "Capstone in Ancient History and Archaeology",
+  "implementationYear": "2021"
+}

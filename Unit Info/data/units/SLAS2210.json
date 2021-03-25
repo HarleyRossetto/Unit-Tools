@@ -1,0 +1,292 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify, evaluate and deploy the grammatical structures of Spanish at advanced level.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate a sophisticated awareness of language and language use, in both Spanish and in English.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify, describe and evaluate nuanced aspects of Spanish-speaking cultures and societies.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop advanced level skills in reading, writing, listening and speaking in the Spanish language.",
+        "code": "ULO1"
+      },
+      {
+        "description": "<div>\n<div>Apply relevant language conventions to create meaningful intercultural encounters.</div>\n</div>",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Occasional additional readings associated with films.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Watching films",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "SLAS1220",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Writing Journal",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "20",
+        "description": "Weekly compositions in different professional and literary genres, plus revision and resubmission of expanded and edited version of select example(s) for grading.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participatory Tasks",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Redrafting and editing tasks, group-based discussion, group-based collaborative content creation activities.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Interview/Individual Oral Presentation",
+        "type": {
+          "label": "Performance",
+          "value": "performance"
+        },
+        "weight": "35",
+        "description": "Encompasses two tasks:\nGroups of students conduct group interviews assuming diverse roles and communicating sociohistorical aspects and social implications of texts/themes.\n\nIndividual oral presentation introducing context of one unit topic.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Frequent mini-tests on assigned viewing.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Written Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Medium-length answer test on texts/themes studied.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "SLAS2210",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: SLAS2210"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: SLAS3010"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "I Spanish Studies 5",
+                "academic_item_code": "SLAS3010",
+                "academic_item_url": "/2020/units/SLAS3010"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "SLAS2210-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SLAS2210"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SLAS2210-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SLAS2210"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SLAS2210-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SLAS2210"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "SLAS2210 - C Spanish Studies 5",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit aims to enable students with an existing intermediate command of Spanish to become operationally proficient users of the Spanish language. It seeks to develop students&#39; skills in reading, writing, comprehension and speaking in Spanish and further develops students&#39; knowledge of contemporary Spanish and Latin American culture. This unit follows a communicative approach and is designed to further develop skills in reading, writing, comprehension and speaking, and requires spontaneous engagement with complex and specialised texts. The unit aims to develop students&#39; language skills towards B2 level in the Common European Framework of Reference (CEFR).",
+    "search_title": "SLAS2210 - C Spanish Studies 5",
+    "code": "SLAS2210",
+    "title": "C Spanish Studies 5",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit aims to enable students with an existing intermediate command of Spanish to become operationally proficient users of the Spanish language. It seeks to develop students&#39; skills in reading, writing, comprehension and speaking in Spanish and further develops students&#39; knowledge of contemporary Spanish and Latin American culture. This unit follows a communicative approach and is designed to further develop skills in reading, writing, comprehension and speaking, and requires spontaneous engagement with complex and specialised texts. The unit aims to develop students&#39; language skills towards B2 level in the Common European Framework of Reference (CEFR).",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-25T15:43:04.419",
+  "code": "SLAS2210",
+  "title": "C Spanish Studies 5",
+  "implementationYear": "2021"
+}

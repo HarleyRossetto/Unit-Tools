@@ -1,0 +1,299 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply a knowledge of programming and/or use of appropriate applications (for e.g. data gathering, curation, cleaning or analysis) in the context of practical work relevant to an empirical research project.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply a knowledge of the principles of ethical conduct of research, including an examination of the role of open access to data and publications.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Define and manage a project involving empirical research.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate best practice in document preparation and management in research.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Articulate clearly a coherent argument in written and oral form to a variety of audiences.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Continuing with practical exercises outside of scheduled class time.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "COMP777, ITEC876",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "COMP6200 or COMP6210 or ITEC657",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "Final examination.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical Assignments",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "30",
+        "description": "There will be some small practical assignments during the semester, linked to the lecture material and weekly practical exercises.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "5",
+        "description": "This presentation will describe to an audience the results of your project.  Feedback from the presentation can be incorporated into the final report.  The workload for the task includes the time spent on the project needed for the presentation, as well as the presentation itself.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Project Update Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "5",
+        "description": "This presentation will give an update on the state of the project.  The workload for the task includes the time spent on the project needed for the presentation, as well as the presentation itself.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "35",
+        "description": "This report will describe the completed project as a whole: what the goals were, what data was used, how it was processed, and what the results were relative to the goals.  It may also include any related programs written as part of the project, etc.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Project Proposal Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "5",
+        "description": "Part of the assessment for the unit will be built around a single project you will devise, as part of a small group.  This initial presentation is to pitch the idea to the audience (lecturers and students): explain the data you&#39;ll be using, give any relevant background, and outline a plan for tackling the project.  The workload for the task includes the time spent on the project needed for the presentation, as well as the presentation itself.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "COMP8240",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: COMP8240"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: COMP7860"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Computing Methods for Research",
+                "academic_item_code": "COMP7860",
+                "academic_item_url": "/2020/units/COMP7860"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP8240"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP8240"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "COMP8240 - Applications of Data Science",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit deals with the application of Data Science techniques to the analysis of data in a research context.   Topics covered include the management of data and keeping track of intermediate results, small and large scale data processing techniques, scripting experiments, version control for source code and data, the problem of replication of research results, data publication and presentation of results in various forms.   Students will complete a significant data analysis project that will use available data sets to address a research question and present results to a well defined target audience.",
+    "search_title": "COMP8240 - Applications of Data Science",
+    "code": "COMP8240",
+    "title": "Applications of Data Science",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit deals with the application of Data Science techniques to the analysis of data in a research context.   Topics covered include the management of data and keeping track of intermediate results, small and large scale data processing techniques, scripting experiments, version control for source code and data, the problem of replication of research results, data publication and presentation of results in various forms.   Students will complete a significant data analysis project that will use available data sets to address a research question and present results to a well defined target audience.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:55:25.994",
+  "code": "COMP8240",
+  "title": "Applications of Data Science",
+  "implementationYear": "2021"
+}

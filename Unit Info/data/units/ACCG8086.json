@@ -1,0 +1,182 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Examine and provide recommendations for potential ethical dilemmas of the work of cyber security experts.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Develop a cyber security road map for a specific organisation.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Evaluate the trade-offs between cyber security, cost/resources and business opportunities/competitive advantage.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Explain the governance principles and frameworks relevant to cyber security.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will work through the material each week on the iLearn website including discussion forums and weekly assessment tasks.  Students will prepare for the four workshops by engaging with the material provided prior to attending.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MCybergovMgnt or MForAccgFinCri or MCTerrorism or MCrim or MCyberSecAnalysis or MIntell or MSecStrategicStud or MInfoTechCyberSec or MInfoTechNetworking",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ACCG886",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Ethical Dilemmas Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "The aim of this assessment task is to write a 5,000 word business report that investigates and analyses the issues relating to the ethical dilemmas faced by cyber security practitioners. Students will be required to read and analyse relevant scholarly articles, use contemporary examples and provide a personal reflection for this task. Details and marking rubric are available on the iLearn website.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Cyber Security Roadmap/Plan",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "This assessment task is to develop a 3,000 word strategic cyber security roadmap/plan for the Board of a specific organisation. Details and marking rubric will be available on the iLearn website.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Assessment Tasks",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "Each week, from Week 3 to 12 (10 weeks in total), there will be an assessment task completed online or in workshops. The tasks will be varied and include discussions on contemporary cyber governance issues and dilemmas relating to the week’s topic. Details and rubric are available on the iLearn website.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACCG8086-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8086"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "ACCG8086 - Cyber Security, Governance Frameworks and Ethics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Organisations have an ethical and legal responsibility to safeguard customer data in a constantly evolving cyber security environment. This unit is designed for students to gain an understanding of cyber security governance frameworks and ethical issues relating to the complex issues relating to cyber security. The primary objectives of the unit are for students to be able to evaluate cyber security trade-offs, use relevant governance frameworks to develop a cyber security road map and to be able to examine and provide recommendations for cyber security ethical dilemmas.",
+    "search_title": "ACCG8086 - Cyber Security, Governance Frameworks and Ethics",
+    "code": "ACCG8086",
+    "title": "Cyber Security, Governance Frameworks and Ethics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Organisations have an ethical and legal responsibility to safeguard customer data in a constantly evolving cyber security environment. This unit is designed for students to gain an understanding of cyber security governance frameworks and ethical issues relating to the complex issues relating to cyber security. The primary objectives of the unit are for students to be able to evaluate cyber security trade-offs, use relevant governance frameworks to develop a cyber security road map and to be able to examine and provide recommendations for cyber security ethical dilemmas.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-05T14:46:55.07",
+  "code": "ACCG8086",
+  "title": "Cyber Security, Governance Frameworks and Ethics",
+  "implementationYear": "2021"
+}

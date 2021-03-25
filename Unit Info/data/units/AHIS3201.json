@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "<strong>Appreciate historiographical theories and how historical information (in the broadest sense) may be extracted from ancient texts and archaeological remains.</strong>",
+        "code": "ULO4"
+      },
+      {
+        "description": "<strong>Formulate arguments, express ideas and respond to the views of staff and peers in both oral and written form at an advanced level;</strong>",
+        "code": "ULO3"
+      },
+      {
+        "description": "<strong>Evaluate ancient source material and modern interpretations of that material at an advanced level;</strong>",
+        "code": "ULO2"
+      },
+      {
+        "description": "<strong>Acquire and demonstrate knowledge of the evidence relating to the life experiences of women and concepts of gender in the ancient world;</strong>",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Weekly readings will be provided in a course reader.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "20cp in AHIS or AHST units at 2000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "AHIS240, AHST270, AHST370, AHIS340",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "The essay will focus on a particular ancient author, literary genre or form of archaeological evidence. Students will be required to extract and analyze information relevant to the place of women in a particular ancient society and/or concepts of gender and sexuality in antiquity. Guidelines and word limit available in iLearn. Submit via Turnitin.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Seminar paper",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "20",
+        "description": "The seminar paper will require students to extract and analyze information relevant to the experience of a woman (or women) in a particular ancient society and/or concepts of gender and sexuality in antiquity. Guidelines and word limit available in iLearn. Submit via Turnitin.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "The two-hour online examination will test knowledge of the material covered throughout the unit, and, in accordance with the study of History at an advanced undergraduate level, students&#39; appreciation of historiographical theories.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS3201"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS3201"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS3201"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Fully online/virtual<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "AHIS3201 - Women and Gender in the Ancient World",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is a study of sexuality and gender in the Egyptian, Near Eastern and Ancient Mediterranean worlds, but with special emphasis on Ancient Greek and Roman society. It also looks at the convergence of classical traditions and Judaeo-Christian thought in late antique Rome. The unit draws upon the contributions of women&#39;s history and feminist scholarship to the study of antiquity, paying particular attention to the role of historiography in understanding past worlds.",
+    "search_title": "AHIS3201 - Women and Gender in the Ancient World",
+    "code": "AHIS3201",
+    "title": "Women and Gender in the Ancient World",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is a study of sexuality and gender in the Egyptian, Near Eastern and Ancient Mediterranean worlds, but with special emphasis on Ancient Greek and Roman society. It also looks at the convergence of classical traditions and Judaeo-Christian thought in late antique Rome. The unit draws upon the contributions of women&#39;s history and feminist scholarship to the study of antiquity, paying particular attention to the role of historiography in understanding past worlds.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-29T12:22:33.052",
+  "code": "AHIS3201",
+  "title": "Women and Gender in the Ancient World",
+  "implementationYear": "2021"
+}

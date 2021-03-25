@@ -1,0 +1,253 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate disciplinary knowledge to professional audiences.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply intelligence analysis to complex and evolving real-world situations.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate understanding of decision-making, bargaining situations and group dynamics in a political-strategic context.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply scenario-planning techniques to major contemporary security- and criminology-related issues",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Week 1-4",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PICT953, PICT963",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(PICT8013 or PICT813) and (PICT8014 or PICT814) and (PICT8044 or PICT844) and (PICT8045 or PICT845)",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "Admission to MIntellMCrim or MIntellMCTerrorism or MIntellMCyberSec or MSecStrategicMIntell and (PICT952 or PICT8952 or PICT951 or PICT8951 or PICT954 or PICT8954 or PICT955 or PICT8955) ",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Ministerial Brief",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "30",
+        "description": "Working as part of a team tasked with writing a ministerial brief/memo on a security and criminology-related scenario, write an intelligence estimate; and contribute to the executive summary and recommendations in that assessment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Scenario Planning Exercise",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "20",
+        "description": "For this assessment, students will be presented with one major contemporary security and criminology-related issue and will use a structured approach to develop scenarios.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Small simulation",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "10",
+        "description": "Small simulation conducted in the first half of the semester",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Main Simulation",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "30",
+        "description": "Each student team will be presented with a simulation scenario. Each team will be required to provide policy recommendations to the control group (convenors) as the situation unfolds over a number of simulation moves or turns.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Quizzes covering subject matter week 1-4.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8963"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8963"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8963"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PICT8963 - Decision Making, Scenario Planning and Simulation in Intelligence",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to scenario planning and simulation (serious game) techniques as critical thinking tools in the context of security policy analysis and planning. In the first modules, students are introduced to the broad logic and use of scenarios and simulations, as well as to their strengths and weaknesses. The second part of the unit is structured around one main contemporary security and criminology-related question that is examined in detail using scenario planning techniques and the conduct of a serious game. Students enrolled in this will take the role of the intelligence analyst.",
+    "search_title": "PICT8963 - Decision Making, Scenario Planning and Simulation in Intelligence",
+    "code": "PICT8963",
+    "title": "Decision Making, Scenario Planning and Simulation in Intelligence",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to scenario planning and simulation (serious game) techniques as critical thinking tools in the context of security policy analysis and planning. In the first modules, students are introduced to the broad logic and use of scenarios and simulations, as well as to their strengths and weaknesses. The second part of the unit is structured around one main contemporary security and criminology-related question that is examined in detail using scenario planning techniques and the conduct of a serious game. Students enrolled in this will take the role of the intelligence analyst.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-04T13:09:53.138",
+  "code": "PICT8963",
+  "title": "Decision Making, Scenario Planning and Simulation in Intelligence",
+  "implementationYear": "2021"
+}

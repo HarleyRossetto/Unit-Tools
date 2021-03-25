@@ -1,0 +1,251 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "evaluate strengths and weaknesses of dominant theories",
+        "code": "ULO2"
+      },
+      {
+        "description": "analyse strategic and ethical problems that arise in the quest for political change",
+        "code": "ULO4"
+      },
+      {
+        "description": "identify the major theories developed to explain social movements",
+        "code": "ULO1"
+      },
+      {
+        "description": "design and execute primary research on a particular social movement campaign",
+        "code": "ULO6"
+      },
+      {
+        "description": "apply social movement theory to contemporary Australian and international movements",
+        "code": "ULO3"
+      },
+      {
+        "description": "reflect on practical realities of social movements through analysis of activities of social movements and social movement organisations",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {},
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "130cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "SOC390, SOC350",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Campaign Analysis Outline",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "20",
+        "description": "Campaign Analysis Outline: Short plan (750 words) plus reference list for campaign analysis",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reading Reflection",
+        "type": {
+          "label": "Summary",
+          "value": "summary"
+        },
+        "weight": "20",
+        "description": "This task requires students to answer a question in relation to their weekly responses to readings from the first part of the unit.\n\nSee Ilearn for more information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Workshop/online discussion participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Students will participate in a range of preparatory and/or in-class learning activities throughout the session, including taking notes on weekly readings to prepare for tutorials and/or posting in response to discussion questions online. Students are required to actively discuss their responses to these required readings in class or online and within on-campus sessions.\n\nRefer to iLearn for further information\n",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Campaign Analysis",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Campaign Analysis: Written Report (2000wds) OR Conference Presentation (8-10mins) plus abstract (250-500wds)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "SOCI3050-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI3050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SOCI3050-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI3050"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SOCI3050-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI3050"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "SOCI3050 - Activism and Social Change",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Social movements are an important presence in contemporary societies. How are they organised? Why do they emerge? What shapes their development? This unit provides a framework for answering these questions. It focuses on both the history of social activism, including campaigns like the suffragettes and civil rights movement through to the Arab Spring and climate campaigning; as well as prominent theories and concepts for understanding the rise and success of social movements. As part of the assessment students will examine a contemporary campaign, looking first-hand at how movements organise and evaluating their success. This unit also allows students to progress to a PACE unit where they have the opportunity to work in a placement with a social change organisation.",
+    "search_title": "SOCI3050 - Activism and Social Change",
+    "code": "SOCI3050",
+    "title": "Activism and Social Change",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Social movements are an important presence in contemporary societies. How are they organised? Why do they emerge? What shapes their development? This unit provides a framework for answering these questions. It focuses on both the history of social activism, including campaigns like the suffragettes and civil rights movement through to the Arab Spring and climate campaigning; as well as prominent theories and concepts for understanding the rise and success of social movements. As part of the assessment students will examine a contemporary campaign, looking first-hand at how movements organise and evaluating their success. This unit also allows students to progress to a PACE unit where they have the opportunity to work in a placement with a social change organisation.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T12:00:53.727",
+  "code": "SOCI3050",
+  "title": "Activism and Social Change",
+  "implementationYear": "2021"
+}

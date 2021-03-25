@@ -1,0 +1,247 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "distinguish between personal opinion and scientifically verified evidence",
+        "code": "ULO2"
+      },
+      {
+        "description": "conduct independent non-participant observations in the field, then combine theory with both primary and secondary data to write up a formal report",
+        "code": "ULO5"
+      },
+      {
+        "description": "express key concepts clearly and accurately in both spoken and written format",
+        "code": "ULO4"
+      },
+      {
+        "description": "demonstrate a scholarly understanding of the criminal justice system",
+        "code": "ULO1"
+      },
+      {
+        "description": "prepare for and engage effectively in online and classroom activities",
+        "code": "ULO6"
+      },
+      {
+        "description": "use social research skills to identify, analyse and assess the quality of different data sources and types of evidence",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Independent reading",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Court Room Observations",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparation for Active Participation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "SOC226, SOC236, SOC126",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Justice Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "50",
+        "description": "Reports are often used as assessment tasks because well-developed report writing skills are important in many professional contexts. Reports are written based on gathering and analysing information using a discipline-specific methodology and format. If courts are open to the public students will visit court to gather primary data, if courts are closed to the public they will research using secondary data. Updated FAQs will be provided in iLearn",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "The online quiz will test basic knowledge on the course content for the first 6 weeks of the unit. Students will spend 1 hour on the quiz, plus at least 1 hour of preparation (including focused reading and online research).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reading Reflection",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "25",
+        "description": "Students will submit 2 reflections during the session. Reflection is a means to separate opinions from evidence. Students will engage with deep reflection on the topics of readings and explore how they have changed from exposure to new knowledge.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Active Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students must read at least an hour for every scheduled active participation activity. Depending on enrolment method this may include: preparation by reading and note-taking, bringing required participation to tutorials, engaging in online learning activities (e.g. wiki/discussion board) Active participation (15 skill-based tasks over 13 weeks) is used in this unit with a strict marking rubric and a careful alignment of each weekly activity to the skills needed for the unit assessments.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "SOCI1030-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI1030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SOCI1030-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI1030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SOCI1030-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SOCI1030"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "SOCI1030 - Introduction to Justice and Punishment",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers the social, moral and political relationships that underpin &#39;justice&#39; and &#39;punishment&#39;. Students will explore the purpose, aims and operation of criminal justice in New South Wales. The &#39;cycle of justice&#39; is unpacked, including: concepts of justice; the politics of justice; what happens in court; how people are punished and what we expect to happen afterwards. Students re-examine the socially constructed nature of both justice and punishment, questioning the purpose of law, the rule of law and the social contract. Students will analyse the role of these concepts in maintaining, or disrupting, established notions of justice. Students will observe justice in action and report back on their findings.",
+    "search_title": "SOCI1030 - Introduction to Justice and Punishment",
+    "code": "SOCI1030",
+    "title": "Introduction to Justice and Punishment",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit covers the social, moral and political relationships that underpin &#39;justice&#39; and &#39;punishment&#39;. Students will explore the purpose, aims and operation of criminal justice in New South Wales. The &#39;cycle of justice&#39; is unpacked, including: concepts of justice; the politics of justice; what happens in court; how people are punished and what we expect to happen afterwards. Students re-examine the socially constructed nature of both justice and punishment, questioning the purpose of law, the rule of law and the social contract. Students will analyse the role of these concepts in maintaining, or disrupting, established notions of justice. Students will observe justice in action and report back on their findings.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-25T15:38:43.659",
+  "code": "SOCI1030",
+  "title": "Introduction to Justice and Punishment",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,262 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply advanced tax knowledge in complex business areas at local and international levels, such as transactions involving complex goods and services tax law, cross-border tax issues, and tax avoidance. ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Advise on the tax implications arising from various complex business structures, superannuation and associated investment decisions. ",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply advanced tax knowledge to recommend an appropriate business or investment structure to achieve commercial and client’s personal goals. ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explain how tax theory and tax policies impact on business decisions and the tax consequences of various corporate financing arrangements ",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are required to read relevant materials from the course readings and attempt practice questions before each seminar.  ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(ACCG907 or ACCG8307) and (ACCG908 or ACCG8308) and (ACCG913 or ACCG8313) and (ACCG924 or ACCG8124)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ACCG909",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "CPA External Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "Examination administered by CPA Australia. CPA Australia will advise on the format and topics included in the final exam. Students need to achieve at least a PASS mark in this CPA external examination. If students do not pass this CPA examination, students will not pass this unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "Students are required to:",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "Students are required to: Prepare and hand in at least two written answers to tax problems allocated Attend and actively participate in class Class participation is designed to encourage and help students achieve the learning outcomes of this unit. Students will be nominated as an expert for a particular weekly class and are expected to have prepared for and be an active participant in discussions during their allocated class",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Test 2 ",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "35",
+        "description": "Two thirds into the session, a second examination will be conducted during the class time. This test is designed to provide feedback to students on their level of understanding of key topics and concepts and to identify any particular learning challenges or areas of difficulty",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Test 1",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "After the first quarter of the session, a class test will be conducted during the class time. This test is designed to provide feedback to students on the level of their understanding of key topics and concepts covered and to identify any particular learning challenges or areas of difficulty.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8309"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8309"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8309"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8309"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG8309 - CPA - Australia Taxation - Advanced",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides extended formal academic support for students concurrently enrolled in the Advanced Taxation unit of the CPA program. This unit examines advanced tax issues including income tax law for a variety of business structures and investment entities; goods and services tax; international tax; and anti-avoidance regimes. It also considers the tax implications of complex business structures and corporate financing arrangements. By the end of this unit, students will have an ability to explain how tax theory, tax policies and tax legislation impacts on business decisions. Students will also be able to advise on the local and international tax issues surrounding various complex business structures, and make appropriate recommendations to clients.",
+    "search_title": "ACCG8309 - CPA - Australia Taxation - Advanced",
+    "code": "ACCG8309",
+    "title": "CPA - Australia Taxation - Advanced",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides extended formal academic support for students concurrently enrolled in the Advanced Taxation unit of the CPA program. This unit examines advanced tax issues including income tax law for a variety of business structures and investment entities; goods and services tax; international tax; and anti-avoidance regimes. It also considers the tax implications of complex business structures and corporate financing arrangements. By the end of this unit, students will have an ability to explain how tax theory, tax policies and tax legislation impacts on business decisions. Students will also be able to advise on the local and international tax issues surrounding various complex business structures, and make appropriate recommendations to clients.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:41:11.748",
+  "code": "ACCG8309",
+  "title": "CPA - Australia Taxation - Advanced",
+  "implementationYear": "2021"
+}

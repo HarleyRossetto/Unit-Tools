@@ -1,0 +1,237 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Review and critically evaluate diverse scientific literature and present your findings.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Acquire, analyse, and interpret research data and methods in a way suitable for<br />presentation to the scientific community.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Participate in the day-to-day running of a research group and the responsibilities in<br />research and collaborate in discussion centred around research ideas, methods, and<br />data.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Communicate advanced theoretical and practical knowledge of fields of contemporary<br />research.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MEDI741",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Project Proposal",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "25",
+        "description": "Research proposal based on first research rotation. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research engagement",
+        "type": {
+          "label": "Lab book",
+          "value": "lab_book"
+        },
+        "weight": "15",
+        "description": "Contribution in research placement. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Poster Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "Presentation of outcomes from first research rotation. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mini-paper submission",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "30",
+        "description": "Conference proceeding on second research rotation topic. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MEDI7041-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI7041"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MEDI7041-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI7041"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MEDI7041-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI7041"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MEDI7041-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI7041"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "MEDI7041 - Research Rotation 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is the first of two units facilitating research within the first year of the Masters of Research within the Faculty of Medicine, Health and Human Sciences. This unit focuses on providing a first hand experience of performing research and research communication. In this unit, you will become a member of several research groups under the supervision of a senior PhD candidate or post-doctoral staff member. Learning activities will include participation in research activities such as assisting in the acquisition, analysis and interpretation of data, participation in research group meetings and journal clubs, and practical experience in research communication. The immersive learning environment within the research activities will provide you with access to discipline-specific expertise, and you will be able to demonstrate the application of the theoretical knowledge obtained in your other learning activities. Through this unit you will develop skills as a researcher and research communicator.",
+    "search_title": "MEDI7041 - Research Rotation 1",
+    "code": "MEDI7041",
+    "title": "Research Rotation 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is the first of two units facilitating research within the first year of the Masters of Research within the Faculty of Medicine, Health and Human Sciences. This unit focuses on providing a first hand experience of performing research and research communication. In this unit, you will become a member of several research groups under the supervision of a senior PhD candidate or post-doctoral staff member. Learning activities will include participation in research activities such as assisting in the acquisition, analysis and interpretation of data, participation in research group meetings and journal clubs, and practical experience in research communication. The immersive learning environment within the research activities will provide you with access to discipline-specific expertise, and you will be able to demonstrate the application of the theoretical knowledge obtained in your other learning activities. Through this unit you will develop skills as a researcher and research communicator.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T09:45:34.552",
+  "code": "MEDI7041",
+  "title": "Research Rotation 1",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,273 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Pass/Fail",
+      "value": "pass-fail"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop and apply audiological assessment and rehabilitative skills including identifying clients' history and needs and selecting appropriate management.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Discuss and select hearing aids, their features, styles and apply this in a clinical context.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Generate skills in written and verbal correspondence with clients, their significant others and other professionals.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate skills in audiological reporting and interpretation (including objective assessments) in adult and paediatric populations.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Exemplify a professional approach to audiological casework.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "CAUD808 or CAUD8008",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CAUD813",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Clinical Placement documents",
+        "type": {
+          "label": "Field work task",
+          "value": "field_work_task"
+        },
+        "weight": "20",
+        "description": "learning goals, evaluation and reflection. Students are required to prepare 2 pages of learning goals, complete a placement evaluation and also a one page reflective writing piece",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Clinical examination covering both adult and paediatric content",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "Exam covers paediatric and adult content",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Video presentation with slides. Students are expected to present on a topic related to clinical practice  and supply a written submission of presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Oral presentation on clinical topic",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Clinical Re-orientation and Basic Skills Assessment",
+        "type": {
+          "label": "Field work task",
+          "value": "field_work_task"
+        },
+        "weight": "20",
+        "description": "Year 2 students to complete full hearing test with an adult volunteer and submit results and reflection. Students will be assessed on their otoscopy and immittance skills.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "Session 1-Special, Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Clinical Reorientation",
+        "type": {
+          "label": "Field work task",
+          "value": "field_work_task"
+        },
+        "weight": "20",
+        "description": "Year 2 students to complete full hearing test with an adult volunteer and submit results and reflection.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "questions focus on applying theory to practice",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "CAUD8013-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CAUD8013"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CAUD8013-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CAUD8013"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CAUD8013-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CAUD8013"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CAUD8013-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CAUD8013"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "CAUD8013 - Clinical Practicum III",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is offered on a pass/fail basis. This unit aims to further develop knowledge and practical skills in audiological assessment and management of adults and children over the age of five years. Students will also develop skills in assessment of younger children and those which are more difficult to assess. Skills will be further developed in the area of aural rehabilitation including the fitting of hearing devices to adults and outcome assessments. Emphasis is placed upon students using problem solving and critical analysis skills to apply the information they have gained throughout the course in a clinical setting.",
+    "search_title": "CAUD8013 - Clinical Practicum III",
+    "code": "CAUD8013",
+    "title": "Clinical Practicum III",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is offered on a pass/fail basis. This unit aims to further develop knowledge and practical skills in audiological assessment and management of adults and children over the age of five years. Students will also develop skills in assessment of younger children and those which are more difficult to assess. Skills will be further developed in the area of aural rehabilitation including the fitting of hearing devices to adults and outcome assessments. Emphasis is placed upon students using problem solving and critical analysis skills to apply the information they have gained throughout the course in a clinical setting.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-18T11:04:43.345",
+  "code": "CAUD8013",
+  "title": "Clinical Practicum III",
+  "implementationYear": "2021"
+}

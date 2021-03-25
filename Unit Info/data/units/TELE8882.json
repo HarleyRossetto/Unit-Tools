@@ -1,0 +1,231 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Follow the current practice and research in cloud networking, and develop an ability to compare pros and cons of existing solutions. ",
+        "code": "ULO5"
+      },
+      {
+        "description": "Deploy virtual machines and write simple software-defined network functions.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Work effectively in teams, think analytically, demonstrate self-motivation and self-learning, all important elements of professional practice.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate understanding of cloud network topology and protocol stack for traffic engineering, routing and congestion control in data-centers.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Design physical connections among servers supporting low latency, high throughput and reliability. ",
+        "code": "ULO2"
+      },
+      {
+        "description": "Evaluate data-center performance and articulate fundamental tradeoffs between virtual network deployments and hardware-based implementations. ",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Regular self-study which students are expected to engage in weekly to review the previous weeks lecture notes.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MEngNetTeleEng",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Online final exam. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "Session 2-Special-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "Each student is assigned to 3 papers to present. The presentations will cover the problem, key idea, novelty and critique of the papers.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Unit Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "25",
+        "description": "Students will propose and run a session-long project in cloud networking. They will write a 10-15 page report summarising the project objectives, literature and outcomes. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "A final exam held in the formal exam period",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment ",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "25",
+        "description": "Students will complete bi-weekly problem sets testing both theory and implementation in cloud networking.    ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TELE8882"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TELE8882"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "TELE8882 - Cloud Networks",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "School of Engineering"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit develops applied and theoretical knowledge about cloud networking and data-center design to enable mainstream computing services in the cloud. It introduces the design rationale for data-center networking to obtain agile infrastructure supporting low latency and high throughput data communications required by cloud computing applications. The models for data-center network topology, traffic patterns, congestion control, routing and traffic engineering will be explored. The virtual network deployment, software-defined implementation of network functions and associated challenges to share a common infrastructure in a data-center will studied in detail, and the tradeoffs between virtual and hardware-based implementations will be discussed to understand current data-center operations and management.",
+    "search_title": "TELE8882 - Cloud Networks",
+    "code": "TELE8882",
+    "title": "Cloud Networks",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit develops applied and theoretical knowledge about cloud networking and data-center design to enable mainstream computing services in the cloud. It introduces the design rationale for data-center networking to obtain agile infrastructure supporting low latency and high throughput data communications required by cloud computing applications. The models for data-center network topology, traffic patterns, congestion control, routing and traffic engineering will be explored. The virtual network deployment, software-defined implementation of network functions and associated challenges to share a common infrastructure in a data-center will studied in detail, and the tradeoffs between virtual and hardware-based implementations will be discussed to understand current data-center operations and management.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:57:20.89",
+  "code": "TELE8882",
+  "title": "Cloud Networks",
+  "implementationYear": "2021"
+}

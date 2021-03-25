@@ -1,0 +1,286 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Research and professionally communicate appropriate accounting treatment and recommendations in a particular situation ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Examine and interpret current issues in financial and non-financial reporting frameworks and areas of international accounting research ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply relevant financial reporting standards to key business processes (transactions and events) and prepare financial statement reports for an incorporated entity, including statement of financial position, statement of comprehensive income, statement of changes in equity with necessary notes and cash flow statement and the reconciliation notes ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically analyse and evaluate the accounting problems by applying the theoretical and technical accounting knowledge and skills  ",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are required to undertake relevant research to write the business report. ",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students are required to read the relevant materials from the textbook to prepare for the weekly classes. ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(ACCG611 or ACCG6011) and admission to MAccg or MAccLead or MAccg(Adv) or MCom or MProfAcc or MProfAccgLead",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ACCG862, ACCG923",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online final exam ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "A two-hours fifteen minutes online examination will be held during the University examination period. The exam is worth 60%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "During the session, one test will be conducted during the class time. The test is designed to give feedback as to your understanding of key topics and concepts of topics covered and to identify any particular learning challenges or areas of difficulty prior to the final examination. Students who achieve poor results in class test should consult the teaching staff regarding strategies for improving their performance. The duration and detail of the test will be advised the week prior to the test. The test may include multiple choice questions, true/false questions, problem solving exercises and short answers to set questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Business Research Report (Research Assignment) ",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "15",
+        "description": "Full details of the major research assignment (assignment objectives, question materials and requirements, etc) will be posted to the unit web page (iLearn). Students are required to write an approximately 1,200 word business report recommending the appropriate accounting treatment and disclosures to a particular type of transaction(s) and/or event(s), for a specified case study. This assessment requires students to research the transaction(s) / event(s), examine the outcome(s) of the treatment and evaluate and interpret issues regarding the preparation and presentation of financial reports to the case study.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online class test ",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "The online class test covers topics one to five. The test is worth 25%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "55",
+        "description": "A three-hour closed book final examination for this unit will be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quizzes ",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "During the session, two short quizzes worth 5% each will be conducted in the earlier and later weeks of the session. The quizzes will consist of Multiple-Choice Questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8123"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8123"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8123"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8123"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG8123 - Accounting Standards and Practice",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines the purpose, framework and environment influencing and affecting financial reports from the perspective of an incorporated entity. It specifically surveys accounting treatments as required by the International Financial Reporting Standards (IFRS), and its Australian Accounting Standards (AASB), for particular transactions and events. This unit also introduces students to the key business processes and the risks and controls associated with applying these accounting rules to/in financial reports. By the end of the unit, students will be familiar with accounting standards, be able to apply relevant accounting standards to key business processes, prepare and interpret financial reports and examine the outcomes of particular accounting treatment(s) to financial reports. Critical, analytical and integrative thinking, research, problem-solving and professional writing skills are also developed through the Business Research Report which requires students to research, review and recommend relevant accounting treatments. ",
+    "search_title": "ACCG8123 - Accounting Standards and Practice",
+    "code": "ACCG8123",
+    "title": "Accounting Standards and Practice",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines the purpose, framework and environment influencing and affecting financial reports from the perspective of an incorporated entity. It specifically surveys accounting treatments as required by the International Financial Reporting Standards (IFRS), and its Australian Accounting Standards (AASB), for particular transactions and events. This unit also introduces students to the key business processes and the risks and controls associated with applying these accounting rules to/in financial reports. By the end of the unit, students will be familiar with accounting standards, be able to apply relevant accounting standards to key business processes, prepare and interpret financial reports and examine the outcomes of particular accounting treatment(s) to financial reports. Critical, analytical and integrative thinking, research, problem-solving and professional writing skills are also developed through the Business Research Report which requires students to research, review and recommend relevant accounting treatments. ",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T17:16:40.745",
+  "code": "ACCG8123",
+  "title": "Accounting Standards and Practice",
+  "implementationYear": "2021"
+}

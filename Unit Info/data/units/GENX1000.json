@@ -1,0 +1,239 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate an understanding of historical development of different forms of feminism, what they have contributed the field of Gender Studies, and why they matter today.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate an understanding of Gender Studies as an interdisciplinary field and its contribution to understanding the contemporary world.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse key concepts about gender, its intersections with other identities, and how these shape and are shaped by social, cultural, economic, and political institutions.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Research and synthesise media and scholarly texts.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "WST110, GENX110, GEN110",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Skills Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "To help you prepare for doing well in assessment tasks, you will be required to undertake three University Research Skills modules including University Study Skills and Resources, Research and Referencing, and Academic Integrity. Each module has a quiz testing skills developed in that module. These modules orient you to and develop critical academic skills that you will build on throughout your degree. The average results of the quizzes will comprise 5 per cent of your overall mark.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final research essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "1500 word analytical essay on one of the questions provided",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online tutorial participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Active engagement in discussion is an important part of university learning. You are required to participate in an online tutorial each week. Your mark will reflect the quality and quantity of your participation. It takes into consideration:\n*your knowledge of the material (you show evidence that you have listened to the lectures and done the required reading)\n*your active participation in discussions and tasks. This includes, at minimum, responding to questions posed by the tutor and responding to what others in your tutorial have said.\n*your overall contribution.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Short essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "25",
+        "description": "Write a maximum 1,250 word analysis of a key concept ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Students will be required to complete a weekly multiple choice quiz based on content from the lectures and from weekly readings. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "GENX1000",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: GENX1000"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: GEND1000"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Freedom Dreams: Foundations in Gender Studies",
+                "academic_item_code": "GEND1000",
+                "academic_item_url": "/2020/units/GEND1000"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "GENX1000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "GENX1000 - Freedom Dreams: Foundations in Gender Studies",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Social Sciences"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is an introduction to Gender Studies, an interdisciplinary field that analyses gender and how it intersects with sexuality, race, class, different abilities, and other identities. We establish foundational knowledge of and key concepts in how gender has been theorised and debated through exploring grassroots gender liberation activism including feminism, gay liberation, and the trans and intersex movements.",
+    "search_title": "GENX1000 - Freedom Dreams: Foundations in Gender Studies",
+    "code": "GENX1000",
+    "title": "Freedom Dreams: Foundations in Gender Studies",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is an introduction to Gender Studies, an interdisciplinary field that analyses gender and how it intersects with sexuality, race, class, different abilities, and other identities. We establish foundational knowledge of and key concepts in how gender has been theorised and debated through exploring grassroots gender liberation activism including feminism, gay liberation, and the trans and intersex movements.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:41:28.792",
+  "code": "GENX1000",
+  "title": "Freedom Dreams: Foundations in Gender Studies",
+  "implementationYear": "2021"
+}

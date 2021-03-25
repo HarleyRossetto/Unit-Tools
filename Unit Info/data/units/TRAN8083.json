@@ -1,0 +1,245 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Assess the appropriateness of a research proposal with focused research questions and methodology.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate familiarity with translation and interpreting studies literature.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Discuss and analyse findings of translation or interpreting research.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate critical analysis of translation or interpreting problems.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Display an appropriate level of understanding of relevant literature ",
+        "code": "ULO6"
+      },
+      {
+        "description": "Demonstrate an understanding of research methodology and apply it in an extended research project.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "TRAN883",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "TRAN908 or TRAN8908 or APPL902 or APPL8020",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "60",
+        "description": "The final assessment task should report the details of individual independent research projects in approximately 5,000 words. It should include introduction, literature review, methodology, results and discussion, and conclusion. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Literature review",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "40",
+        "description": "This assignment requires students to review and extend the literature review that they completed for their final assessment in APPL902. Drawing on the tutor feedback provided in APPL902, the revised literature review (approximately 3,000 words) will be prepared as the final version to be presented in the research project report (Assignment 2). In addition, an annotated bibliography, general and specific, of ten new references that are directly relevant to their research project must be included.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8083"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8083"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8083"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8083"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8083"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "TRAN8083"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Infrequent attendance, North Ryde<br />Session 2, Fully online/virtual<br />Session 2, Infrequent attendance, North Ryde<br />Session 1, Special circumstances<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "TRAN8083 - Research Project in Translation and Interpreting Studies",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will focus on individual research projects in translation and interpreting in order to enhance students&#39; research capability. Students will be required to identify research problems based on personal learning reflections in areas such as skill development specific to translation and interpreting, data gathering and data analysis. Students will then be guided by individual supervisors to explore the identified research questions. Research supervisors will solidly guide students in terms of research design, data gathering and research implementation. Based on critical readings, classroom and/or online discussions, and feedback from supervisors, students will have an opportunity to further sophisticate techniques and methods of doing research by pursuing an area of research that is close to their own.",
+    "search_title": "TRAN8083 - Research Project in Translation and Interpreting Studies",
+    "code": "TRAN8083",
+    "title": "Research Project in Translation and Interpreting Studies",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will focus on individual research projects in translation and interpreting in order to enhance students&#39; research capability. Students will be required to identify research problems based on personal learning reflections in areas such as skill development specific to translation and interpreting, data gathering and data analysis. Students will then be guided by individual supervisors to explore the identified research questions. Research supervisors will solidly guide students in terms of research design, data gathering and research implementation. Based on critical readings, classroom and/or online discussions, and feedback from supervisors, students will have an opportunity to further sophisticate techniques and methods of doing research by pursuing an area of research that is close to their own.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T20:05:26.323",
+  "code": "TRAN8083",
+  "title": "Research Project in Translation and Interpreting Studies",
+  "implementationYear": "2021"
+}

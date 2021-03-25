@@ -1,0 +1,194 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Formulate and execute an investigative interview to obtain complete, accurate, and reliable information to achieve investigation objectives. ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain and examine how to plan and manage a forensic investigation to define responsibilities of stakeholders, analyse information, identify investigation directions, and conduct risk assessments for limitations and opportunities. ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Explore and analyse various types of evidence essential to advance investigations and facilitate proper and secure recording of evidence, using information management systems to preserve the integrity of the data. ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Synthesise the concepts of evidence integrity and chain of evidence in the identification, acquisition and storage of data to prevent contamination and maintain admissibility of evidence. ",
+        "code": "ULO5"
+      },
+      {
+        "description": "Manage and apply investigative tools such as background research, data analysis, and forensic technology, to forensically process collected data, assess, and extract information of interest. ",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for class and completing required readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Preparation for class and completing required readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ACCG878",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(20cp at 6000 level or above including ACCG611 or ACCG6011) or (admission to GradDipForAccg or MForAccgFinCri or MCybergovMgnt or MCTerrorism or MCrim or MCyberSecAnalysis or MIntell or MSecStrategicStud)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "This assessment involves evidence of preparation for, participation in, and contribution to the online discussion forum and may include presentations, questions or written exercises.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Investigation Plan",
+        "type": {
+          "label": "Practice-based task",
+          "value": "practice_based_task"
+        },
+        "weight": "30",
+        "description": "In this assessment students are required to demonstrate their understanding of how to plan and manage an investigation, how to manage and apply investigative tools to advance an investigation and how to identify, manage, and analyse various types of evidence. Students must also show evidence of research. The submission should not exceed 2000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "50",
+        "description": "In this assessment students will be presented with a case study and will be required to critically reflect on the case study by analysing the relevant issues arising from the identification, collection and preservation of evidence, and the preparation of an investigative interview. The submission should not exceed 2500 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8078"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "ACCG8078 - Investigation Engagements",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines the essential aspects of the forensic investigation process including the mandatory requirements for providing forensic accounting services, planning the scope and structure of the investigation and case management; obtaining, handling and analysing documentary and testimonial evidence; and finally, reporting the findings and closing the investigation. On completing this unit students will be able to prepare, analyse and appraise investigation reports and issues related to their preparation and use in various business contexts. ",
+    "search_title": "ACCG8078 - Investigation Engagements",
+    "code": "ACCG8078",
+    "title": "Investigation Engagements",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines the essential aspects of the forensic investigation process including the mandatory requirements for providing forensic accounting services, planning the scope and structure of the investigation and case management; obtaining, handling and analysing documentary and testimonial evidence; and finally, reporting the findings and closing the investigation. On completing this unit students will be able to prepare, analyse and appraise investigation reports and issues related to their preparation and use in various business contexts. ",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:59:13.76",
+  "code": "ACCG8078",
+  "title": "Investigation Engagements",
+  "implementationYear": "2021"
+}

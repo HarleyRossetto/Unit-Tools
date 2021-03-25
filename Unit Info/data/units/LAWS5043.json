@@ -1,0 +1,267 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "5000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and understand the challenges of managing environmental change in a context of uncertainty and how scientific information is translated into law",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate an understanding of the fundamental bio-physical concepts of climate change, including its causes and impacts in the Anthropocene epoch, as a basis for understanding of the climate law framework",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse climate change law/policy and climate litigation law in Australia and overseas, to assist with critical evaluation of the effectiveness of law as a tool to assist improved climate governance across mitigation, adaptation and loss or damage",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critically analyse the history, current operation and future growth of the international climate law regime, recognizing the different perspectives of relevant groups of nation states",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop engagement with justice/ethical considerations particular to the field of climate change and climate change law to help understand why problems may be resolved through using multiple disciplinary perspectives",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will spend this time preparing for the designated tasks listed for each tutorial ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students will spend this time completing the prescribed readings ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(130cp in LAW or LAWS units) or  (130cp including LAWS259 or LAWS2000)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "LAWS543",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Report on status of climate law",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "50",
+        "description": "Students will submit a report on recent developments in the area of climate law legalisation/policy or judicial decisions",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflective paper of learning experience ",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "10",
+        "description": "Students will write and submit a reflective paper on what they have learnt through the unit",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Analytical Research Essay ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Students will prepare a research essay that analyses a topic relating to climate law.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "LAWS5043",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: LAWS5043"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": []
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5043"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5043"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5043"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "30",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS5043"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde*<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Special circumstances, Other<br /><br /> * This unit offering is subject to a quota. Limited places are available. Please refer to the Faculty for further information.",
+    "subject_search_title": "LAWS5043 - Climate Change Law",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Climate change is the outstanding environmental issue of our time. This is a specialised unit that analyses law and policy relevant to managing the problems presented by climate change. Both the causes and impacts of climate change are pervasive and present significant challenges to conventional legal approaches. The unit investigates the role of law in driving society’s response from the international law level through the United Nations Framework Convention on Climate Change and Paris Agreement, to federal and state responses in terms of both legislation and judicial decisions to local scale actions. At each jurisdictional level, focus is given to law that relates to the major pillars of climate policy – mitigation, adaptation and loss and damage.",
+    "search_title": "LAWS5043 - Climate Change Law",
+    "code": "LAWS5043",
+    "title": "Climate Change Law",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Climate change is the outstanding environmental issue of our time. This is a specialised unit that analyses law and policy relevant to managing the problems presented by climate change. Both the causes and impacts of climate change are pervasive and present significant challenges to conventional legal approaches. The unit investigates the role of law in driving society’s response from the international law level through the United Nations Framework Convention on Climate Change and Paris Agreement, to federal and state responses in terms of both legislation and judicial decisions to local scale actions. At each jurisdictional level, focus is given to law that relates to the major pillars of climate policy – mitigation, adaptation and loss and damage.",
+  "level": "5000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:28:44.682",
+  "code": "LAWS5043",
+  "title": "Climate Change Law",
+  "implementationYear": "2021"
+}

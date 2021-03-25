@@ -1,0 +1,254 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Assess both domestic and international security issues impacting Australia in the Indo-Asia-Pacific region and consider their impact on Australia's intelligence agencies, from a governmental, private sector and societal perspective.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify key agencies and functions in Australia’s national security community.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyze and explain the various public sector law enforcement and intelligence roles which contribute to both domestic and international security.",
+        "code": "ULO2"
+      },
+      {
+        "description": " ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Make judgments on the strategic and operational needs of intelligence and law enforcement agencies in relation to legal, ethical and policy constraints.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Critically assess the integration of surveillance, intelligence and law enforcement in protecting the state from threats and vulnerabilities and demonstrate knowledge of intelligence analytical, collection and production processes.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to complete the assigned readings each week. The estimated time for class preparation is three hours per week for Week 2 through Week 13. No class preparation is required in Week 1.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PICX210, PICT210",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "50cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Midterm Exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "This online, non-invigilated, iLearn-based examination will cover lecture and required reading material. All questions will be based on material delivered in both recorded in-class lectures (available on ECHO360 in iLearn) and material contained in required readings for each weekly session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "This online, non-invigilated, iLearn-based examination will cover lecture and required reading material. All questions will be based on material delivered in both recorded in-class lectures (available on ECHO360 in iLearn) and material contained in required readings for each weekly session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Constructive Engagement",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "5",
+        "description": "This assessment task is designed to promote student engagement, not only with the lecture materials and required readings, but through other readings, monitoring world events and in the context of presented questions, constructively engaging in considered and critical discussion with other students, moderated by the lecturer or tutor. Online and in-class discussion broadens student perspectives and value adds to course subject matter.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Intelligence Estimate & Issue Paper",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "30",
+        "description": "Students will prepare an Intelligence Estimate based on a selected subject chosen from a list posted to the iLearn page. From the Intelligence Estimate, prepare a One-Page Issue Paper summarising your assessments in the Intelligence Estimate.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Analytical Brief",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "25",
+        "description": "This task requires students to build a Microsoft Powerpoint briefing presentation on an assigned analytical topic, employing intelligence research and analysis to evaluate and assess capabilities, vulnerabilities, risks and threats, as well as opportunities and projected future developments or projections (predictive analysis). Students will gain experience in brief preparation, intelligence research and analytical assessment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PICT2010-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT2010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PICT2010-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT2010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PICT2010-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT2010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "PICT2010 - Intelligence and Counter Intelligence",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides an introduction to the fields of intelligence and counterintelligence. It focuses on the tactical, operational and strategic levels of security, as well as the role of intelligence organisations in protecting the state and its citizens from both domestic and foreign threats. Students will gain a deep understanding of the history of intelligence, the key national intelligence agencies in Australia, the intelligence cycle and its application, and the relationship between policing and intelligence in domestic security. Students will engage with key case studies to further understand these issues and dynamics.",
+    "search_title": "PICT2010 - Intelligence and Counter Intelligence",
+    "code": "PICT2010",
+    "title": "Intelligence and Counter Intelligence",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an introduction to the fields of intelligence and counterintelligence. It focuses on the tactical, operational and strategic levels of security, as well as the role of intelligence organisations in protecting the state and its citizens from both domestic and foreign threats. Students will gain a deep understanding of the history of intelligence, the key national intelligence agencies in Australia, the intelligence cycle and its application, and the relationship between policing and intelligence in domestic security. Students will engage with key case studies to further understand these issues and dynamics.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T10:43:14.861",
+  "code": "PICT2010",
+  "title": "Intelligence and Counter Intelligence",
+  "implementationYear": "2021"
+}

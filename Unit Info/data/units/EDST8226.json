@@ -1,0 +1,215 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Synthesise scholarly knowledge of research and apply this knowledge to how students learn mathematical concepts.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Skilfully communicate knowledge of mathematical content and teaching strategies with scholarship making use of supporting evidence.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Plan for, implement and critically reflect on effective units of work in mathematics that provide achievable challenges for students of varying backgrounds and abilities.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critically analyse a range of teaching strategies related to the content of Stages 4 and 5 of the mathematics syllabus.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explore and apply educational ideas through action research.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate in-depth, broad and coherent knowledge of the content of Stages 4 and 5 mathematics of the NSW 7-10 syllabus for the Australian Curriculum.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings and other asynchronous online activities related to the fortnightly online tutorials and workshops which students complete individually and discuss in iLearn Discussion Forums ",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "EDST8237",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Algebra research report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "50",
+        "description": "Conduct an interview with a secondary school student about their understanding of equations; report the results and suggest implications for learning and teaching mathematics [1500 words]",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Unit of work",
+        "type": {
+          "label": "Work-integrated task",
+          "value": "work_integrated_task"
+        },
+        "weight": "50",
+        "description": "Prepare a unit of work for a topic from the Stages 4-5 mathematics syllabus [2000 words]",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8226"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8226"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8226"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8226"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances, Other<br />Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Infrequent attendance, North Ryde<br />",
+    "subject_search_title": "EDST8226 - Teaching Mathematics in the Secondary School 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides an introduction to the secondary mathematics curriculum and its teaching. Students develop and integrate an in-depth, broad and coherent knowledge of the central concepts of school algebra; teaching methods, including planning units of work and the role of technology in mathematics education; and a critical reflection on practical and professional issues arising from students&#39; professional experience. Particular emphasis is given to learning and teaching mathematics in Years 7 to 10.",
+    "search_title": "EDST8226 - Teaching Mathematics in the Secondary School 1",
+    "code": "EDST8226",
+    "title": "Teaching Mathematics in the Secondary School 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an introduction to the secondary mathematics curriculum and its teaching. Students develop and integrate an in-depth, broad and coherent knowledge of the central concepts of school algebra; teaching methods, including planning units of work and the role of technology in mathematics education; and a critical reflection on practical and professional issues arising from students&#39; professional experience. Particular emphasis is given to learning and teaching mathematics in Years 7 to 10.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:14:07.717",
+  "code": "EDST8226",
+  "title": "Teaching Mathematics in the Secondary School 1",
+  "implementationYear": "2021"
+}

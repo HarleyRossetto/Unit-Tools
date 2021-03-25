@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate an understanding of the impacts of constant connectivity and distractions on quality of life, customer service and business operations, privacy and security and interpersonal relationships.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain how enterprise content management and electronic records reduce cost, support business operations and assist organisations to meet their regulatory, legal, governance and ethical obligations.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe how information technology supports business processes (including the risks and benefits of cloud computing, e-business, m-commerce, social computing and outsourcing) and compare and contrast decisions about project management and systems development including the factors that influence management decisions.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Explain why the business value of information technology is determined by people, hardware, software, data and procedures and describe the key trends of Information and Communications Technology and the implications for individuals, organisations and society.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate a commitment to working in a team and contribute to achieve the goals of the task at hand.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will be required to read any designated readings for the unit on a weekly basis.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ACCG250 or ACCG2050",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ACCG355",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assessed Coursework",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "30",
+        "description": "Each fortnight students will participate in a task allocated in their tutorial. Tasks are undertaken and marked in tutorials. The marking rubric is available on iLearn.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A two-hour online examination (open book) will be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Three (3) hour exam plus 10 minutes reading time.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study/Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "The assessment task is to write a 2000-word report with scholarly references that will address a contemporary topic relating to information systems (full details are available on iLearn).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG3055"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG3055"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ACCG3055 - Information Systems for Management",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit aims to increase students&#39; ability to recognise, describe, evaluate, analyse, design and develop information systems from a business professional&#39;s viewpoint. The focus is on the creation of business value by improving business processes through the use of information and communications technologies (ICTs). Achievement of the unit&#39;s objectives will enable students to play an effective part in information development, management and use, and to communicate effectively with ICT professionals. This unit enables students to gain an understanding of the implications and impacts of the web revolution based on the basic principles of management information systems.",
+    "search_title": "ACCG3055 - Information Systems for Management",
+    "code": "ACCG3055",
+    "title": "Information Systems for Management",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit aims to increase students&#39; ability to recognise, describe, evaluate, analyse, design and develop information systems from a business professional&#39;s viewpoint. The focus is on the creation of business value by improving business processes through the use of information and communications technologies (ICTs). Achievement of the unit&#39;s objectives will enable students to play an effective part in information development, management and use, and to communicate effectively with ICT professionals. This unit enables students to gain an understanding of the implications and impacts of the web revolution based on the basic principles of management information systems.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T14:48:35.463",
+  "code": "ACCG3055",
+  "title": "Information Systems for Management",
+  "implementationYear": "2021"
+}

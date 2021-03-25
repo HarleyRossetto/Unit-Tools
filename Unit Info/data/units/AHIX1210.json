@@ -1,0 +1,163 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Engage with contemporary cultural perspectives and practices to contextualise historical knowledge from antiquity",
+        "code": "ULO1"
+      },
+      {
+        "description": "Explain the principles a processes by which historical and/or archaeological evidence from ancient Greece, Rome and Late Antiquity is analysed, evaluated and interpreted.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Examine and critically evaluate historical data with initiative and judgement by presenting evidence based exposition of knowledge and ideas about the study of antiquity.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Prescribed reading from text-book or journal article – approximately 1 hour p.w. for 12 weeks",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [],
+    "assessments": [
+      {
+        "assessment_title": "Blog 1 Research Project",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "20",
+        "description": "Students will write a blog (300-500 words) in week three summarising the strengths of a research project.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Writing as an ancient author",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "40",
+        "description": "This assessment requires students to re-articulate a contemporary event utilising the literary techniques of an ancient author. The purpose of the exercise is to understand the construction of ancient sources and to engage with that format of writing to create a student&#39;s own narrative of a contemporary event.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Blog 2: Ancient History - The Importance of Studying the Past",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "Students will research a topic in ancient history and set out the significance of studying this topic in the form of a blog (maximum 1500 words) that is targeted at the contemporary public.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIX1210"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "AHIX1210 - Studying the Past from the Bronze Age to Byzantium",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The first half of the session will introduce students to research projects led by staff in the Discipline of Ancient History. This will introduce students to the role of research in the development of the discipline of Ancient History spanning the full range of Greek and Roman History from the Bronze Age to the Late Antiquity and the Byzantine emperors.  The second half of the unit will focus on the relevance of the discipline of ancient history to contemporary experiences and how the contemporary world shapes approaches to Ancient History. The unit will end with discussion of the future of Ancient History.",
+    "search_title": "AHIX1210 - Studying the Past from the Bronze Age to Byzantium",
+    "code": "AHIX1210",
+    "title": "Studying the Past from the Bronze Age to Byzantium",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The first half of the session will introduce students to research projects led by staff in the Discipline of Ancient History. This will introduce students to the role of research in the development of the discipline of Ancient History spanning the full range of Greek and Roman History from the Bronze Age to the Late Antiquity and the Byzantine emperors.  The second half of the unit will focus on the relevance of the discipline of ancient history to contemporary experiences and how the contemporary world shapes approaches to Ancient History. The unit will end with discussion of the future of Ancient History.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-03T15:35:54.285",
+  "code": "AHIX1210",
+  "title": "Studying the Past from the Bronze Age to Byzantium",
+  "implementationYear": "2021"
+}

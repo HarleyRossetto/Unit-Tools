@@ -1,0 +1,175 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain how tax theory and tax policies impact on business decisions and the tax consequences of various financial arrangements.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Examine what constitutes ethical tax advice.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Present conclusions as to the tax implications arising from a particular set of facts.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Determine a particular taxpayer's final income tax, GST and FBT liability.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading  and preparation for the seminar.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MProfAcc or MProfAccgLead and (ACCG921 or ACCG8121) and (ACCG923 or ACCG8123) and (ACCG926 or ACCG8126)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "Students will each be allocated a question and will be required to give an oral presentation analysing and answering the issues posed in the question. The presentation (worth 10%) must be no longer than 7 minutes. Presentations will be marked on the basis of the level of preparation, understanding, accuracy and ability to explain the key issues. Each student will also be required to submit a typed written analysis (maximum 300 words) of the issues, the law and the approach to solving the question that they have been allocated. This typed written analysis (worth 10%) should provide an explanation of the issues arising from the question, the taxation law relevant to those issues, and a suggestion as to how the issues can be solved by application of the law, and is not to be a repeat of the presentation. The written analysis must not include calculations or numerical explanations, and is to be submitted in hardcopy to the lecturer in class on the day of the presentation, as well as via Turnitin on iLearn.  ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "A three (3) hour closed-book final examination will be held during the University Examination period. The examination will cover topics covered across the entire unit. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "The case study will require students to analyse a set of facts concerning a taxpayer&#39;s individual circumstances, and then apply Australian tax law to arrive at conclusions and provide appropriate advice to the taxpayer. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACCG8223-unit_teaching_period",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8223"
+        }
+      }
+    ],
+    "unit_offering_text": "2022<br />",
+    "subject_search_title": "ACCG8223 - CA - Taxation",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "All business decisions have tax implications. Being proficient in tax is essential for Chartered Accountants required to provide accurate professional advice. This unit will advance your technical knowledge of tax, and also develop broader business skills in problem solving, critical thinking, research and evaluation. The unit examines and applies relevant taxation law to various tax entities. Students are required to explain and calculate the taxation consequences applicable to a range of real-life simulated scenarios, including a comprehensive tax reconciliation which integrates the various units.Topics include trading stock, employment remuneration, capital gains tax, tax losses, international tax and tax planning.",
+    "search_title": "ACCG8223 - CA - Taxation",
+    "code": "ACCG8223",
+    "title": "CA - Taxation",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "All business decisions have tax implications. Being proficient in tax is essential for Chartered Accountants required to provide accurate professional advice. This unit will advance your technical knowledge of tax, and also develop broader business skills in problem solving, critical thinking, research and evaluation. The unit examines and applies relevant taxation law to various tax entities. Students are required to explain and calculate the taxation consequences applicable to a range of real-life simulated scenarios, including a comprehensive tax reconciliation which integrates the various units.Topics include trading stock, employment remuneration, capital gains tax, tax losses, international tax and tax planning.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-03-22T11:48:39.909",
+  "code": "ACCG8223",
+  "title": "CA - Taxation",
+  "implementationYear": "2021"
+}

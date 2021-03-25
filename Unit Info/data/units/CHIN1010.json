@@ -1,0 +1,295 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop elementary level skills in reading, writing, listening and speaking in the Chinese language.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply relevant language conventions to create meaningful intercultural encounters.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Hand-write Chinese characters in the correct order, and type characters in computer as required.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Identify, describe and evaluate a few aspects of Chinese-speaking cultures and societies.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate an awareness of some language and language use in both Chinese and English.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify, evaluate and deploy the grammatical structures of Chinese at elementary level.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Self study vocabulary list each week before new lesson and finish workbook exercise after practical as required",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CHN104",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Not to count for credit for students who completed HSC Chinese (any level)",
+        "type": {
+          "label": "Info",
+          "value": "info"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Participation and preparation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Participation reflects students active contribution in class and online.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Vocabulary Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Weekly online vocab quizzes on vocabulary, phrases and short sentences, only available to access at set time frame before practicals start, in order to prepare for the lessons to be learnt in practicals.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Written Tests",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "Written tests covering a combination of listening, reading and writing skills.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Written Assignments",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "Four written assignments submitted on iLearn via Assignment box. Details will be available on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Oral Presentation",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "10",
+        "description": "Students in a group need to prepare and present a dialogue based on the content learnt and deliver it verbally without script. Detailed instructions are available on iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Oral One on One Individual Test ",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Students will prepare and present a monologue of a chosen topic orally then answer a few questions based on the monologue. more details in iLearn",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "CHIN1010",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: CHIN1010"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": []
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "CHIN1010-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIN1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CHIN1010-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIN1010"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CHIN1010-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIN1010"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "CHIN1010 - I Chinese Studies 1",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This is an introductory unit intended for students with no previous knowledge of Chinese, spoken or written. This unit aims to help students acquire Chinese characters and the basic grammatical elements. Students develop their skills in all four aspects of speaking, writing, listening and reading, as well as their understanding of contemporary Chinese culture. The classes and online resources are offered in an interactive way to provide feedback for students to learn Chinese on/off campus.",
+    "search_title": "CHIN1010 - I Chinese Studies 1",
+    "code": "CHIN1010",
+    "title": "I Chinese Studies 1",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This is an introductory unit intended for students with no previous knowledge of Chinese, spoken or written. This unit aims to help students acquire Chinese characters and the basic grammatical elements. Students develop their skills in all four aspects of speaking, writing, listening and reading, as well as their understanding of contemporary Chinese culture. The classes and online resources are offered in an interactive way to provide feedback for students to learn Chinese on/off campus.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-21T15:57:03.713",
+  "code": "CHIN1010",
+  "title": "I Chinese Studies 1",
+  "implementationYear": "2021"
+}

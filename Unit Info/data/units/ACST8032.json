@@ -1,0 +1,383 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate an understanding on the principles of measuring, reporting and managing solvency; measuring and reporting emerging profits and/or costs; monitoring and assessing experience; and responding to emerging experience.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Explain and justify decision making to different stakeholders using the Actuarial Control Cycle framework",
+        "code": "ULO6"
+      },
+      {
+        "description": "Apply relevant approaches and techniques to the valuation of liabilities.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Apply appropriate techniques to the pricing of products and contracts.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Recognise the importance of capital.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Show an understanding of how models are used to solve client problems",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for seminar and various assessment items.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Weekday-North Ryde"
+      },
+      {
+        "description": "Preparation for seminar and various assessment items.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Weekday-City, Session 2-Infrequent-North Ryde"
+      },
+      {
+        "description": "Preparation for classes and various assessment items.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Special"
+      },
+      {
+        "description": "Further article readings will form part of the learning resources to supplement lecture notes.\nRevert this record",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ACST831 or ACST8031",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ACST732, ACST832",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "70",
+        "description": "The final examination will be closed book, a three-hour written paper with ten minutes reading time, to be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "12",
+        "description": "An individual, written, case study report (word limit of up to 5000 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Postgraduate student task",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "0",
+        "description": "Postgraduate (ACST8032 and ACST8032 External) students are required to complete a postgraduate student task, to be submitted via iLearn.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "8",
+        "description": "The presentation is an oral presentation to the class based on a given task. Each student will have 5 minutes for the presentation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 2-Weekday-City",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessed Coursework",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "7",
+        "description": "A range of tasks due throughout the session based on textbook chapters, iLearn discussion and class quizzes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Infrequent-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "8",
+        "description": "The assignment consists of a PowerPoint presentation (5 minutes) and a script of 600 words. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessed Coursework",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "10",
+        "description": "A range of tasks due throughout the session based on textbook chapters, iLearn discussion and class quizzes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 2-Weekday-City, Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "11",
+        "description": "The assignment consists of Powerpoint presentaion and a script of 1000 - 1500 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Infrequent-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ACST8032",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ACST8032"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ACST7032"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Actuarial Control Cycle 2",
+                "academic_item_code": "ACST7032",
+                "academic_item_url": "/2020/units/ACST7032"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACST8032"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACST8032"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACST8032"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-City",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACST8032"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, City<br />Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ACST8032 - Actuarial Control Cycle 2",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Actuarial Studies and Business Analytics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit, in conjunction with ACST8031, develops and applies the actuarial principles and practices underlying the design, assessment, management and control of financial systems in the areas of life insurance, general insurance, and superannuation and other less traditional areas of actuarial practice. The two units together consider the process of actuarial and financial management including: product design; pricing; marketing; monitoring of experience; reserve setting; financing; solvency; determination and distribution of surplus; and its role in enterprise risk management. The overall control process is studied within the constraints imposed by the commercial environment and the actuarial professional code of conduct and standards. This includes a discussion of business ethics and issues of professionalism in actuarial practice. Students gaining a credit average in both ACST8031 (or ACST831) and ACST8032 (or ACST832) (minimum mark of 60 on both units) will satisfy the requirements for exemption from the Actuarial Control Cycle subject of the Actuary program of the Actuaries Institute.",
+    "search_title": "ACST8032 - Actuarial Control Cycle 2",
+    "code": "ACST8032",
+    "title": "Actuarial Control Cycle 2",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit, in conjunction with ACST8031, develops and applies the actuarial principles and practices underlying the design, assessment, management and control of financial systems in the areas of life insurance, general insurance, and superannuation and other less traditional areas of actuarial practice. The two units together consider the process of actuarial and financial management including: product design; pricing; marketing; monitoring of experience; reserve setting; financing; solvency; determination and distribution of surplus; and its role in enterprise risk management. The overall control process is studied within the constraints imposed by the commercial environment and the actuarial professional code of conduct and standards. This includes a discussion of business ethics and issues of professionalism in actuarial practice. Students gaining a credit average in both ACST8031 (or ACST831) and ACST8032 (or ACST832) (minimum mark of 60 on both units) will satisfy the requirements for exemption from the Actuarial Control Cycle subject of the Actuary program of the Actuaries Institute.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-12T08:49:02.631",
+  "code": "ACST8032",
+  "title": "Actuarial Control Cycle 2",
+  "implementationYear": "2021"
+}

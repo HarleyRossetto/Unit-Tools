@@ -1,0 +1,170 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe and analyse the prevalence, aetiology, neurology and physiology of the health conditions that underpin complex communication disability.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Evaluate and explain the role of augmentative and alternative communication strategies in speech pathology management of complex communication disability.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe and evaluate the communication needs of those with complex communication disability, including those with challenging behavioural and mental health concerns.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Select and justify appropriate evidence-based speech pathology assessment and intervention procedures that integrate the views of those with complex communication disability and their family and/or carers.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Discuss issues related to living with persistent and multifaceted disability, and its impact upon well-being and participation in society.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Before and after class learning activities including readings, small group work, development of materials shared with peers, engagement in online discussion.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MSpchLngPath",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "SPH824",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Case based assessment - adults with complex communication needs",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "50",
+        "description": "In this assessment task, students will be provided with case details relating to adults who have complex communication and/or swallowing disorders. They will be also be provided with clinical and life scenarios, and asked to develop plans relating to speech pathology management for these adults. The assessment task will require them to integrate and synthesise case information, case data, theory, research evidence, and routine speech pathology practices in order to formulate plans.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case based assessment - children with complex communication needs",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "50",
+        "description": "In this assessment task, students will be provided with case details relating to children who have complex communication needs, and may be appropriate for AAC systems. They will be also be provided with clinical scenarios, and asked to develop plans relating to speech pathology management for these cases. The assessment task will require them to integrate and synthesise case information, case data, theory, research evidence, and routine speech pathology practices in order to formulate plans.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPTH8824"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "SPTH8824 - Lifelong Disability and AAC",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit, students consider the nature of lifelong disability for populations within the scope of speech pathology practice. It employs multiple, and socially-oriented models of communication disability. Cerebral palsy, intellectual disability, and autism are addressed, as are issues related to speech pathology practice with alternative and augmentative communication. Quality of life and psychosocial issues across multiple populations are also discussed in detail.",
+    "search_title": "SPTH8824 - Lifelong Disability and AAC",
+    "code": "SPTH8824",
+    "title": "Lifelong Disability and AAC",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit, students consider the nature of lifelong disability for populations within the scope of speech pathology practice. It employs multiple, and socially-oriented models of communication disability. Cerebral palsy, intellectual disability, and autism are addressed, as are issues related to speech pathology practice with alternative and augmentative communication. Quality of life and psychosocial issues across multiple populations are also discussed in detail.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-02T11:31:31.186",
+  "code": "SPTH8824",
+  "title": "Lifelong Disability and AAC",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify the structural components of the nephron and interpret its function and contribution to fluid and electrolyte balance.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Discuss case studies by organising and integrating knowledge of genitourinary and endocrine glands structures and functions (as well as concepts of pathophysiology) and by critically evaluating evidence from scientific and medical literature.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Explain how genetic, hormonal, environmental and socioeconomic factors may interact to influence phenotypic development throughout the lifecycle.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate an understanding of the embryological development of the major structures of the genitourinary and endocrine systems and apply that knowledge to describe common embryological abnormalities.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe the mechanisms of hormonal control, action and feedback to explain how hypersecretion or hyposecretion of hormones leads to symptoms and signs of endocrine disorders.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Describe the structural components of the genitourinary systems, endocrine glands and structural organisation of the abdomino-pelvic wall and viscera.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Online activities/readings that help students consolidate learning.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Ongoing weekly study to consolidate learning and prepare for each scheduled class.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to BClinSc and (HLTH108 or ANAT1001) and (MEDI209 or MEDI219 or MEDI2200)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "MEDI202, MEDI302",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Formal written exam using a combination of question types assessing content delivered across the session. This task is completed under examination conditions during the University examination period. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "A short presentation that relates to the structure, development and/or function of the genitourinary and/or endocrine systems",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Flow chart",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "30",
+        "description": "Produce a flow chart of an urinary and reproductive system condition that integrates knowledge of endocrine system.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI2102"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI2102"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MEDI2102 - Renal, Reproductive and Endocrine Systems",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit builds up knowledge acquired in the foundation and systems units in the Bachelor of Clinical Science. You will extend your knowledge of the anatomy and physiology of the urinary system by focusing on renal blood flow, glomerular filtration, urine production and importance of kidneys in homeostasis of various body fluid compartments. You will study how various hormones interact with target cell receptors in regulating and modifying organ and cellular functions within the human body. You will discuss hormonal mechanisms and their regulatory activities on the structure and function of reproductive organs during puberty, reproductive stages and aging in humans. You will investigate how genetics and hormones interact with environmental and social influences to affect systems development and lifecycle outcomes. Key learning activities will include lectures, tutorial classes, and group presentations.",
+    "search_title": "MEDI2102 - Renal, Reproductive and Endocrine Systems",
+    "code": "MEDI2102",
+    "title": "Renal, Reproductive and Endocrine Systems",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit builds up knowledge acquired in the foundation and systems units in the Bachelor of Clinical Science. You will extend your knowledge of the anatomy and physiology of the urinary system by focusing on renal blood flow, glomerular filtration, urine production and importance of kidneys in homeostasis of various body fluid compartments. You will study how various hormones interact with target cell receptors in regulating and modifying organ and cellular functions within the human body. You will discuss hormonal mechanisms and their regulatory activities on the structure and function of reproductive organs during puberty, reproductive stages and aging in humans. You will investigate how genetics and hormones interact with environmental and social influences to affect systems development and lifecycle outcomes. Key learning activities will include lectures, tutorial classes, and group presentations.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T20:06:52.623",
+  "code": "MEDI2102",
+  "title": "Renal, Reproductive and Endocrine Systems",
+  "implementationYear": "2021"
+}

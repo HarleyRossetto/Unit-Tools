@@ -1,0 +1,256 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Examine and research implications of management of data, analytics and change for practice and society.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Design and conduct analysis to prepare organisations and employees for change.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Examine and analyse fundamental digital technological needed for effective implementation of analytics projects.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Recognise and apply different perspectives to help organisations develop evidence-based and data driven decision making practices.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Assess human, ethical, organisational and technical issues associated with data and business analytics.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Examine and (re)design business processes for successful use of business analytics initiatives and projects in organisations.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Pre-class readings and recorded material, case studies, and interactive in-class activities and discussions.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to Master of Research",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "Two open book online tests will be held.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Data, Analytics and Change Management Plan",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "This group assignment uses a design thinking approach, and will require students to understand business goals, design proper business processes, determine required enterprise systems to support business processes, prepare the organisation for change, and propose analytics initiatives and systems that support business goals.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Participation & Engagement",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Weekly engagement in seminar and/or discussion forum participation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "Students will produce a 2,500 word research paper, critically analysing academic and professional outlets as well as given scenario(s) and answering specific question(s) posed",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "BUSA7030",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: BUSA7030"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: BUSA8030"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Business Process Modelling",
+                "academic_item_code": "BUSA8030",
+                "academic_item_url": "/2021/units/BUSA8030"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BUSA7030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BUSA7030"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "BUSA7030 - Management of Data, Analytics and Change",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Actuarial Studies and Business Analytics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit makes decision making, people management and soft skills in analytics a priority. It will help students develop an understanding of how data analytics can be used to influence decision making, to manage business processes, projects and people, and to drive change. Students will also learn about enterprise information systems and contemporary digital technologies that are essential for managing data and driving analytics in organisations. The unit will cover topics such as business-analytics alignment, contemporary digital technologies, business process management, change management, and accountability and ethics in business analytics. The unit also will include how to examine the value propositions of data analytics projects and how to engage key stakeholders to achieve short-term and long-term organisational goals.",
+    "search_title": "BUSA7030 - Management of Data, Analytics and Change",
+    "code": "BUSA7030",
+    "title": "Management of Data, Analytics and Change",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit makes decision making, people management and soft skills in analytics a priority. It will help students develop an understanding of how data analytics can be used to influence decision making, to manage business processes, projects and people, and to drive change. Students will also learn about enterprise information systems and contemporary digital technologies that are essential for managing data and driving analytics in organisations. The unit will cover topics such as business-analytics alignment, contemporary digital technologies, business process management, change management, and accountability and ethics in business analytics. The unit also will include how to examine the value propositions of data analytics projects and how to engage key stakeholders to achieve short-term and long-term organisational goals.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-12T11:40:13.137",
+  "code": "BUSA7030",
+  "title": "Management of Data, Analytics and Change",
+  "implementationYear": "2021"
+}

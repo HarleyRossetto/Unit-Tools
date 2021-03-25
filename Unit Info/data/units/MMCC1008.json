@@ -1,0 +1,183 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "evaluate practices, production, technologies and techniques used to create podcasts",
+        "code": "ULO4"
+      },
+      {
+        "description": "communicate using appropriate styles and techniques for spoken word audio.",
+        "code": "ULO3"
+      },
+      {
+        "description": "apply practice and production skills.",
+        "code": "ULO2"
+      },
+      {
+        "description": "identify the principles and techniques underlying contemporary spoken word audio production and practices.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation/practice/research",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [],
+    "assessments": [
+      {
+        "assessment_title": "Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Quizzes will be based on listenings/readings.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practice-based Task",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "35",
+        "description": "Students develop a podcast concept.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Media Presentation: Podcast Episode",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "50",
+        "description": "Students work in groups to produce a podcast episode.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC1008-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC1008"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC1008-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC1008"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MMCC1008 - Introduction to Podcasting",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit you will be introduced to both the narrative and technical tools of audio storytelling. The unit will explore podcasting as a new form of spoken-word audio identifying both the continuities and divergences from precursors like radio and other allied media genres. This unit has a significant practical component and culminates in the production of a podcast episode. There is a particular focus on the requirements of producing content for the ear.",
+    "search_title": "MMCC1008 - Introduction to Podcasting",
+    "code": "MMCC1008",
+    "title": "Introduction to Podcasting",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit you will be introduced to both the narrative and technical tools of audio storytelling. The unit will explore podcasting as a new form of spoken-word audio identifying both the continuities and divergences from precursors like radio and other allied media genres. This unit has a significant practical component and culminates in the production of a podcast episode. There is a particular focus on the requirements of producing content for the ear.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T12:02:04.453",
+  "code": "MMCC1008",
+  "title": "Introduction to Podcasting",
+  "implementationYear": "2021"
+}

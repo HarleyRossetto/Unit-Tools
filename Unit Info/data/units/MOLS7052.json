@@ -1,0 +1,238 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "design and propose the synthesis of small molecule affinity probes for use in chemical biology.",
+        "code": "ULO6"
+      },
+      {
+        "description": "able to propose a set of experiments to elucidate the mode of action of a bioactive small molecule in the development of our understanding of cellular pathways and in drug design.",
+        "code": "ULO4"
+      },
+      {
+        "description": "apply chemical rationale for the design, synthesis, and application of small molecules for the manipulation of biological systems",
+        "code": "ULO3"
+      },
+      {
+        "description": "apply chemical rationale for the design, synthesis, and application of small molecules for the manipulation of biological systems",
+        "code": "ULO2"
+      },
+      {
+        "description": "write out the mechanism for reactions in primary and secondary metabolism",
+        "code": "ULO1"
+      },
+      {
+        "description": "articulate the principles underpinning forward and reverse chemical proteomics and in vitro display techniques and describe the advantages and limitations of each technique for identifying the cellular target(s) of bioactive compounds",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparing for SGTAs",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Reading of primary literature",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Recorded lectures",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CBMS792",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Oral presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "20",
+        "description": "2 oral presentations",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "assignment 2",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "30",
+        "description": "assignment 2",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "assignment 3",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "20",
+        "description": "assignment 3",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignments 1",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "30",
+        "description": "assignment 1",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MOLS7052"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MOLS7052"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MOLS7052 - Research Topic: Chemical Biology",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Molecular Sciences "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit comprises study of an advanced topic in chemistry and biomolecular sciences. The area studied each year is tailored to the current student cohort. Emphasis is put on both the understanding of advanced concepts as well as their application in problem-solving and/or research environments. Chemical biology is the science of small molecules in the context of living systems. This course focuses on current topics in chemical biology, particularly experiments in which small molecules are used to probe or control biological systems in novel ways or manipulate and understand biological systems. As the goal of the course is to familiarise students with innovative recent experimental approaches and to stimulate them to explore the boundaries of chemistry and biology, the unit will be taught extensively through the primary literature. Topics may include but are not limited to: In vitro display technologies, chemical proteomics, primary and secondary metabolism, chemical tools in mammalian systems, natural products and drug discovery.",
+    "search_title": "MOLS7052 - Research Topic: Chemical Biology",
+    "code": "MOLS7052",
+    "title": "Research Topic: Chemical Biology",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit comprises study of an advanced topic in chemistry and biomolecular sciences. The area studied each year is tailored to the current student cohort. Emphasis is put on both the understanding of advanced concepts as well as their application in problem-solving and/or research environments. Chemical biology is the science of small molecules in the context of living systems. This course focuses on current topics in chemical biology, particularly experiments in which small molecules are used to probe or control biological systems in novel ways or manipulate and understand biological systems. As the goal of the course is to familiarise students with innovative recent experimental approaches and to stimulate them to explore the boundaries of chemistry and biology, the unit will be taught extensively through the primary literature. Topics may include but are not limited to: In vitro display technologies, chemical proteomics, primary and secondary metabolism, chemical tools in mammalian systems, natural products and drug discovery.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-28T09:53:44.022",
+  "code": "MOLS7052",
+  "title": "Research Topic: Chemical Biology",
+  "implementationYear": "2021"
+}

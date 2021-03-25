@@ -1,0 +1,241 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Evaluate a diverse and evolving body of academic literature and case studies on intelligence analysis.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Analyse individual and group dynamics in organisational settings.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify the reasoning and cognitive processes involved in transforming incomplete information into intelligence knowledge.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Assess the professional, legal and ethical obligations of the intelligence profession.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Create intelligence products using a range of intelligence analytical tools and approaches, while applying academic research and writing skills.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MPICT or MCPICT or GradDipPICT or GradDipCPICT or PGCertPICT or GradCertPICT or GradCertCPICT or MPICTMIntSecSt or MCPICTMIntSecSt or MIntSecStud or GradDipIntSecStud or GradCertIntell or MIntell or MCyberSec or MSecStrategicStudMIntell or MIntellMCrim or MIntellMCyberSec or MIntellMCTerrorism or MSecStrategicStudMCyberSec or MCyberSecMCTerrorism or MCyberSecMCrim or admission to BSecStudMIntell",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PICX844, PICT844",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Advanced Analysis Brief",
+        "type": {
+          "label": "Professional writing",
+          "value": "professional_writing"
+        },
+        "weight": "20",
+        "description": "This task requires students to build a briefing presentation on an assigned analytical topic, employing intelligence research and analysis to evaluate and assess capabilities, vulnerabilities and risks, as well as opportunities and projected future developments.  Students will gain experience in brief preparation, intelligence research and analytical assessment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Engagement Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Engagement Quizzes cover subject matter in Weeks 2-11.\n\nQuizzes will assess student understanding of topics covered in weekly recorded lectures and required readings for that week.\n\nThis unit requires a consistent level of student engagement with the lecture and reading subject matter throughout the course.  Engagement will be demonstrated (and assessed) through participation in weekly quizzes on both the lecture material and required readings.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Analytical Case Study Critique",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "25",
+        "description": "This task requires students to analyse and report on a specific, real world assigned case study, demonstrating an understanding of the intelligence analytical techniques involved.  It is designed to provide students working on small teams, insight into more complex intelligence analytical challenges and challenge them to identify the intelligence processes at work.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Constructive Engagement",
+        "type": {
+          "label": "Performance",
+          "value": "performance"
+        },
+        "weight": "5",
+        "description": "This assessment task is designed to promote student engagement, not only with the lecture materials and required readings, but through other readings, monitoring world events and in the context of presented questions, constructively engaging in considered and critical discussion with other students, moderated by the lecturer or tutor.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Advanced Analysis Paper",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "This task requires students to prepare an in-depth analytical intelligence assessment using a real world assigned case study.  This exercise will challenge the student to write a detailed intelligence estimate using predominately intelligence preparation of the environment and other analytical approaches to write a comprehensive special analytical product.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8044"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8044"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8044"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PICT8044 - Intelligence Analysis",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students with a deeper appreciation of the complexities of intelligence analysis and exposure to the analytical tools and methodologies that will help them better understand and potentially contribute as intelligence professionals. In a globalised and dynamic security environment, students will be challenged to consider newer asymmetric threats and risks as well as more traditional military and security challenges in an analytical context. Students will apply what they have learned to conceptualise, design, and build intelligence analytical products, providing real-world focus and experience.",
+    "search_title": "PICT8044 - Intelligence Analysis",
+    "code": "PICT8044",
+    "title": "Intelligence Analysis",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides students with a deeper appreciation of the complexities of intelligence analysis and exposure to the analytical tools and methodologies that will help them better understand and potentially contribute as intelligence professionals. In a globalised and dynamic security environment, students will be challenged to consider newer asymmetric threats and risks as well as more traditional military and security challenges in an analytical context. Students will apply what they have learned to conceptualise, design, and build intelligence analytical products, providing real-world focus and experience.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T16:58:29.229",
+  "code": "PICT8044",
+  "title": "Intelligence Analysis",
+  "implementationYear": "2021"
+}

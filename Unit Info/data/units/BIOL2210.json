@@ -1,0 +1,311 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe the co-ordination of physiological processes in organisms, including transport systems and responses to stimuli",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply detailed knowledge to explain the processes by which organisms gain energy, grow, and develop",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyse and interpret complex experimental data and critically evaluate these data in the context of physiological phenomena",
+        "code": "ULO5"
+      },
+      {
+        "description": "Apply broad and coherent knowledge of physiology to applications in the fields of biotechnology and medicine",
+        "code": "ULO6"
+      },
+      {
+        "description": "Compare and contrast physiological processes, and their evolution, in microbes, plants, and animals",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate critical thinking and writing skills to appraise scientific literature on a major physiological theme",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Approximately 4 hours per week spent on outside readings, engagement with online forum, and other forms of preparation.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "BIOL229, BIOL208, BIOL210, BIOL606",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(40cp at 1000 level or above) including (BIOL1310 or BIOL114) or (BIOL1110 or BIOL115)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "35",
+        "description": "An analytical set of short-answer assembled in graded order of difficulty designed to test understanding rather than factual recall",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-semester test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "A test of material presented in the first half of semester, largely based around terminology and images",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Students complete a set of lecture-specific questions embedded in each lecture with answers registered in iLearn",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Written assessment",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "15",
+        "description": "A critical analysis of two recent publications on one of a set of topics chosen by the student",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Students complete a set of praac-specific questions embedded in each practical with answers registered in iLearn",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "BIOL2210",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: BIOL2210"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: BIOL6210"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Life Processes",
+                "academic_item_code": "BIOL6210",
+                "academic_item_url": "/2020/units/BIOL6210"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL2210"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL2210"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL2210"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "BIOL2210"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />Session 2, Special circumstances, Other<br />",
+    "subject_search_title": "BIOL2210 - Life Processes",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Biological Sciences"
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will compare and contrast a range of physiological processes in microbes, plants and animals. It will highlight common features and their evolutionary origins, with particular reference to prokaryotic genes which have been conserved in multicellular organisms. Topics to be explored include metabolism (e.g. respiration, photosynthesis and transport), environmental responses (e.g. abiotic stress response, immune reactions, behaviour), morphogenesis (e.g. cell division, homeotic genes, embryogenesis and symmetry) and phenology (e.g. sexual maturation, fertilisation, life cycles). The unit will draw the common threads of evolution together in complex multicellular organisms, as well as contrasting those processes unique to each Kingdom, such as photosynthesis and locomotion.",
+    "search_title": "BIOL2210 - Life Processes",
+    "code": "BIOL2210",
+    "title": "Life Processes",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will compare and contrast a range of physiological processes in microbes, plants and animals. It will highlight common features and their evolutionary origins, with particular reference to prokaryotic genes which have been conserved in multicellular organisms. Topics to be explored include metabolism (e.g. respiration, photosynthesis and transport), environmental responses (e.g. abiotic stress response, immune reactions, behaviour), morphogenesis (e.g. cell division, homeotic genes, embryogenesis and symmetry) and phenology (e.g. sexual maturation, fertilisation, life cycles). The unit will draw the common threads of evolution together in complex multicellular organisms, as well as contrasting those processes unique to each Kingdom, such as photosynthesis and locomotion.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T14:54:13.922",
+  "code": "BIOL2210",
+  "title": "Life Processes",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,251 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Perform the clinical neuromusculoskeletal history taking and examination competently",
+        "code": "ULO1"
+      },
+      {
+        "description": "Draw on acquired theoretical knowledge in order to tailor the physical examination to the clinical presentation of the patient, and from this develop a differential diagnosis and clinical management plan.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Acquire knowledge to evaluate conditions, research these cases further using appropriate reference material and communicate findings",
+        "code": "ULO4"
+      },
+      {
+        "description": "Develop a respect and empathy for patients, and an ethical and professional attitude to health care. In this regard, you should develop a commitment to remain informed and up-to-date in your profession",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate well developed clinical reasoning skills and the ability to diagnose conditions that are suitable for chiropractic care, and identify conditions that are contraindicated for chiropractic care including conditions of non-musculoskeletal origin.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "students prepare for tutorial by going through the manual and relevant assigned readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MChiroprac and (CHIR3106 or CHIR316) or (CHIR6110 or CHIR602) and (CHIR6111 or CHIR603) and (CHIR6302 or CHIR604) and (CHIR6303 or CHIR605) and (CHIR6410 or CHIR606) and (CHIR6510 or CHIR608)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final written examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "The final exam tests your knowledge of the theory, and the ability to connect that knowledge to real life situations (e.g. case studies, clinical presentations). It will consist of a 2 hour written exam with multiple choice questions and case studies.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "OSCE I",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "20",
+        "description": "The OSCE will assess competency in performing the neurological examination.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "weekly quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "students complete online weekly quizzes based on the previous week&#39;s lectures and case studies",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "OSCE II",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "20",
+        "description": "The OSCE will assess competency in performing the neurological examination and skill in differential diagnosis",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "CHIR8511",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: CHIR8511"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: CHIR8501"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Neuromusculoskeletal Diagnosis 1",
+                "academic_item_code": "CHIR8501",
+                "academic_item_url": "/2020/units/CHIR8501"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: CHIR8502"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Neuromusculoskeletal Diagnosis 2",
+                "academic_item_code": "CHIR8502",
+                "academic_item_url": "/2020/units/CHIR8502"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "CHIR8511-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIR8511"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "CHIR8511 - Clinical Neurology ",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Chiropractic "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers a wide spectrum of clinically relevant neurological conditions for chiropractic students. Students will develop competency in neurological examination and in formulating a differential diagnosis based on the patient&#39;s clinical presentation. The knowledge and understanding constructed in this way also enables students to discuss and analyse pertinent case studies with the necessary depth required. The knowledge and skills acquired during this unit are fundamental for diagnostic competence in chiropractic practice. A variety of teaching methods are employed, from lectures based on current evidence that are also made available online, to tutorials that are underpinned by a social constructivist approach to building knowledge, using the discussion of case studies to develop diagnostic skill.",
+    "search_title": "CHIR8511 - Clinical Neurology ",
+    "code": "CHIR8511",
+    "title": "Clinical Neurology ",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit covers a wide spectrum of clinically relevant neurological conditions for chiropractic students. Students will develop competency in neurological examination and in formulating a differential diagnosis based on the patient&#39;s clinical presentation. The knowledge and understanding constructed in this way also enables students to discuss and analyse pertinent case studies with the necessary depth required. The knowledge and skills acquired during this unit are fundamental for diagnostic competence in chiropractic practice. A variety of teaching methods are employed, from lectures based on current evidence that are also made available online, to tutorials that are underpinned by a social constructivist approach to building knowledge, using the discussion of case studies to develop diagnostic skill.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-28T09:40:23.405",
+  "code": "CHIR8511",
+  "title": "Clinical Neurology ",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,295 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply advanced critical thinking skills to generate, evaluate and transform professionally-oriented knowledge and practice",
+        "code": "ULO3"
+      },
+      {
+        "description": "Synthesise and communicate research and its results to different audiences.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Generate research questions and critically analyse and evaluate different research methods to address those questions.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply advanced and in-depth knowledge of research methods to critically evaluate evidence and to make evidence-based decisions.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Core reading from one text book will be assigned by the course convenor",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Additional resources will be provided by the leader of each workshop - this may be additional reading or online activities to ensure students are informed about the work to be covered during the session",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MEd or GradCertEdS or MEdLead or MHEd or GradCertHEd or MEChild or GradCertEChild or MTeach(0-5) or GradCertClinEdSim or MIndigenousEd or GradDipIndigenousEd or GradDipChildLit or MChildLit or MDisabilityStud or MTeach(Sec)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ECED852, EDL908, EDUC700, EDCN800",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Module 2 problem set",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "15",
+        "description": "Each workshop leader will design an appropriate task (or multiple short tasks) to assess the application of your knowledge for that module. For example, this could be the a critique of published research based on knowledge of evidence-based practice, a hands-on analysis task, contributions to discussion forums, or evaluating different methodological paradigms to address an educational research question. The exact nature of the assessment will be decided by the leader of the module and will be communicated to you ahead of the session. The assessment (or combination of assessment tasks) will be a maximum of 1000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Plan",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "25",
+        "description": "At the end of this unit you will submit a research plan. To complete this you will identify a research topic of personal interest and reflect on what you have learned through the unit to decide on the most appropriate research methodology for your proposed study. You will be asked to describe the research aims and rationale for the study, to outline the main research questions, and to describe your methodological approach. The assessment has a word limit of 1500 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Module 3 problem set",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "15",
+        "description": "Each workshop leader will design an appropriate task (or multiple short tasks) to assess the application of your knowledge for that module. For example, this could be the a critique of published research based on knowledge of evidence-based practice, a hands-on analysis task, contributions to discussion forums, or evaluating different methodological paradigms to address an educational research question. The exact nature of the assessment will be decided by the leader of the module and will be communicated to you ahead of the session. The assessment (or combination of assessment tasks) will be a maximum of 1000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Module 4 problem set",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "15",
+        "description": "Each workshop leader will design an appropriate task (or multiple short tasks) to assess the application of your knowledge for that module. For example, this could be the a critique of published research based on knowledge of evidence-based practice, a hands-on analysis task, contributions to discussion forums, or evaluating different methodological paradigms to address an educational research question. The exact nature of the assessment will be decided by the leader of the module and will be communicated to you ahead of the session. The assessment (or combination of assessment tasks) will be a maximum of 1000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Module 5 problem set",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "15",
+        "description": "Each workshop leader will design an appropriate task (or multiple short tasks) to assess the application of your knowledge for that module. For example, this could be the a critique of published research based on knowledge of evidence-based practice, a hands-on analysis task, contributions to discussion forums, or evaluating different methodological paradigms to address an educational research question. The exact nature of the assessment will be decided by the leader of the module and will be communicated to you ahead of the session. The assessment (or combination of assessment tasks) will be a maximum of 1000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Module 6 problem set",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "15",
+        "description": "Each workshop leader will design an appropriate task (or multiple short tasks) to assess the application of your knowledge for that module. For example, this could be the a critique of published research based on knowledge of evidence-based practice, a hands-on analysis task, contributions to discussion forums, or evaluating different methodological paradigms to address an educational research question. The exact nature of the assessment will be decided by the leader of the module and will be communicated to you ahead of the session. The assessment (or combination of assessment tasks) will be a maximum of 1000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "EDST8000",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: EDST8000"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: EDUC7000"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Foundations in Educational Research",
+                "academic_item_code": "EDUC7000",
+                "academic_item_url": "/2020/units/EDUC7000"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDST8000-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDST8000-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST8000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 2, Fully online/virtual<br />",
+    "subject_search_title": "EDST8000 - Educational Research",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The objective of this unit is to extend student understanding and application of the research methods used to explore contemporary issues in a variety of educational settings. A staff member actively engaged in research will lead each of 6 workshops to expose students to a range of methodological approaches and to develop their understanding of evidence-based practice. As students proceed through the workshops they will consider the application of these research approaches to addressing an educational topic of personal relevance and interest.",
+    "search_title": "EDST8000 - Educational Research",
+    "code": "EDST8000",
+    "title": "Educational Research",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The objective of this unit is to extend student understanding and application of the research methods used to explore contemporary issues in a variety of educational settings. A staff member actively engaged in research will lead each of 6 workshops to expose students to a range of methodological approaches and to develop their understanding of evidence-based practice. As students proceed through the workshops they will consider the application of these research approaches to addressing an educational topic of personal relevance and interest.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-16T16:35:03.923",
+  "code": "EDST8000",
+  "title": "Educational Research",
+  "implementationYear": "2021"
+}

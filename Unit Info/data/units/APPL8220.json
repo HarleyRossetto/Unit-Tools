@@ -1,0 +1,257 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Pass/Fail",
+      "value": "pass-fail"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Reflect upon language lessons they have taught and identify the main elements that enabled and inhibited successful teaching/learning to be achieved ",
+        "code": "ULO7"
+      },
+      {
+        "description": "Create motivating and engaging materials to support language learning activities ",
+        "code": "ULO6"
+      },
+      {
+        "description": "Conduct an initial needs assessment and create a learner group profile to facilitate the setting of lesson aims and objectives ",
+        "code": "ULO2"
+      },
+      {
+        "description": "Plan appropriate language learning activities that support lesson aims and objectives ",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply a range of teaching strategies suitable for a particular learner group ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Reflect upon observations of language lessons taught by others and identify the main elements that enabled and inhibited successful teaching/learning to be achieved ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Plan effective lessons in which the development of the four macro skills is taught in an integrated way ",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading prescribed coursebook and recommended and further readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Perparation for and feedback on placement teaching",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "APPL922 or LING973",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to GradCertTESOL or MAppLingTESOL or MTransInterMAppLingTESOL",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "(APPL6000 or APPL600) and (APPL6010 or APPL601) and (APPL8200 or APPL920)",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Observation Tasks 1-8",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "30",
+        "description": "Observation Tasks fully completed with diagrams, notes taken during observations, questions answered and reflections included.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Preparation Activity",
+        "type": {
+          "label": "Non-academic writing",
+          "value": "Non_academic_writing"
+        },
+        "weight": "20",
+        "description": "These are a series of tasks to be completed on iLearn from Week 1 to Week 7. They require engagement with assigned readings, analysis, evaluation, reflection and personalization of the concepts in focus and application to their own teaching context.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "50",
+        "description": "The portfolio is a complete record of the teacher&#39;s practicum experiences and includes practicum preparation tasks, fully completed observation tasks, reports on practice teaching sessions, a practice teaching journal, lesson plans and materials, and other artefacts from the practicum.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-On location at placement",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8220"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special-On location at placement",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8220"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-On location at placement",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8220"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-On location at placement",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8220"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, On location at placement<br />Session 2, Special circumstances, On location at placement<br />Session 2, Weekday attendance, On location at placement<br />Session 1, Special circumstances, On location at placement<br />",
+    "subject_search_title": "APPL8220 - Practicum in TESOL",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is offered on a pass/fail basis.This unit is centred on TESOL classroom practice. It is a practical application of the content of APPL8200, APPL6000 and APPL6010. It involves learners completing classroom observation tasks, supervised practice teaching, lesson and materials preparation, reflective teaching activities, and preparation of a teaching portfolio. The majority of time is spent on site at a language teaching institution.",
+    "search_title": "APPL8220 - Practicum in TESOL",
+    "code": "APPL8220",
+    "title": "Practicum in TESOL",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is offered on a pass/fail basis.This unit is centred on TESOL classroom practice. It is a practical application of the content of APPL8200, APPL6000 and APPL6010. It involves learners completing classroom observation tasks, supervised practice teaching, lesson and materials preparation, reflective teaching activities, and preparation of a teaching portfolio. The majority of time is spent on site at a language teaching institution.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:50:14.937",
+  "code": "APPL8220",
+  "title": "Practicum in TESOL",
+  "implementationYear": "2021"
+}

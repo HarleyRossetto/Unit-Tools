@@ -1,0 +1,182 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Conduct qualitative research using a sound understanding of different coding and interpretation strategies that are consistent with their respective research question, method, and research philosophy",
+        "code": "ULO2"
+      },
+      {
+        "description": "Analyze textual data in ways that are consistent with different research philosophies that can underpin qualitative research",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain the relative advantages and disadvantages of a diverse range of qualitative research methods used in management research in developing a research design",
+        "code": "ULO1"
+      },
+      {
+        "description": "Develop a theoretical research contribution by relating findings from qualitative data analysis to a literature review",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "MQBS7010 and MQBS7020",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Select any text (e.g. report; interview transcript; series of news or opinion articles on a particular topic) and write a 3,000 word research report that presents the findings of three different analyses that are each based a different research philosophy: (neo-)positivist, interpretive, and critical. Justify the coding and interpretation techniques you used for each analysis in relation to your research question, making use of the relevant literature on qualitative research methods. Support your main findings using data fragments and/or summary tables.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly Reveiw",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "40",
+        "description": "For each of the sessions from weeks 2 -12 of the course, write a 500-1,000 review that:\n\n1) Summarizes what you believe to be the most important learnings from the lecture and readings in each week\n\n2) Critically discuss how the materials covered could relate to your own research project e.g. how might you use some of the points discussed to improve, critique, and/or justify your research project?",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Select three recent (within the last 5 years) empirical research papers from three top academic journals that have used the same particular research method, and write a 3,000 word report that critically analyzes and compares the three papers in terms of:\n\n1) The way they position the research question in relation to existing literature\n\n2) The way they justify their research methods\n\n3) The extent to which, and ways in which, their main theoretical contributions is supported by, and connected to, the findings",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MQBS7025"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MQBS7025"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MQBS7025 - Advanced Qualitative Research Approaches in Business and Economics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit addresses comprehensive and practical considerations of qualitative research design, covering a range of qualitative research methodologies and analytical tools that are based on the main research philosophies underpinning qualitative research in business and organisation research. The topics include advanced research approaches and methods such as ethnography, discourse analysis, and critical approaches. It helps students develop advanced research skills that are critical to knowledge generation in business research and problem solving.",
+    "search_title": "MQBS7025 - Advanced Qualitative Research Approaches in Business and Economics",
+    "code": "MQBS7025",
+    "title": "Advanced Qualitative Research Approaches in Business and Economics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit addresses comprehensive and practical considerations of qualitative research design, covering a range of qualitative research methodologies and analytical tools that are based on the main research philosophies underpinning qualitative research in business and organisation research. The topics include advanced research approaches and methods such as ethnography, discourse analysis, and critical approaches. It helps students develop advanced research skills that are critical to knowledge generation in business research and problem solving.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:30:26.892",
+  "code": "MQBS7025",
+  "title": "Advanced Qualitative Research Approaches in Business and Economics",
+  "implementationYear": "2021"
+}

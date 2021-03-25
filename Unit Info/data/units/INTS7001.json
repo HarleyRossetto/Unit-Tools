@@ -1,0 +1,227 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Reflect on research practice to build critical thinking and problem-solving skills",
+        "code": "ULO5"
+      },
+      {
+        "description": "Build skills in critical research work, including identifying relevant scholarly sources and placing them within a broader disciplinary or interdisciplinary context",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop high level research communication skills",
+        "code": "ULO4"
+      },
+      {
+        "description": "Manage a research relationship with a scholarly mentor",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify key issues in the academic literature and develop an innovative solution to this problem by deploying relevant methodologies and approaches",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Conducting research incidental to the above assessments, especially identifying relevant sources",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to BPhil/MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Reflection Tasks",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "Students will write an essay in which they reflect upon their research practice and experiences working with an academic mentor",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project Statement",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "10",
+        "description": "Students produce a short abstract identifying the research problem they will explore and outlining how they will approach the review of literature",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Annotated Bibliography",
+        "type": {
+          "label": "Annotated bibliography",
+          "value": "annotated_bibliography"
+        },
+        "weight": "35",
+        "description": "Under the guidance of a staff mentor, students will conduct a systematic review of relevant scholarship and prepare an annotated bibliography of key texts in the literature",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Literature Review",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "35",
+        "description": "Students will prepare a literature review based on their annotated bibliography that identifies a research problem and proposes an innovative solution to said problem",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "INTS7001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS7001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "INTS7001-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS7001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "INTS7001-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "INTS7001"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances, North Ryde<br />",
+    "subject_search_title": "INTS7001 - Special Topics in International Studies: Languages and Cultures",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students the opportunity to conduct targeted research into a particular topic of concern that aligns with the interdisciplinary focus of the Department of International Studies: Languages and Cultures. Working in collaboration with a staff member from the Department, students will identify a debate or issue within the scholarship related to their own research interests and conduct a systematic and wide review of this literature with an aim to develop an innovative solution to the identified problem. Through this unit, students will learn fundamental skills in research communication and project development as well as reflect on their own research practices to build high level critical thinking and problem-solving skills.",
+    "search_title": "INTS7001 - Special Topics in International Studies: Languages and Cultures",
+    "code": "INTS7001",
+    "title": "Special Topics in International Studies: Languages and Cultures",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides students the opportunity to conduct targeted research into a particular topic of concern that aligns with the interdisciplinary focus of the Department of International Studies: Languages and Cultures. Working in collaboration with a staff member from the Department, students will identify a debate or issue within the scholarship related to their own research interests and conduct a systematic and wide review of this literature with an aim to develop an innovative solution to the identified problem. Through this unit, students will learn fundamental skills in research communication and project development as well as reflect on their own research practices to build high level critical thinking and problem-solving skills.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-27T08:18:42.462",
+  "code": "INTS7001",
+  "title": "Special Topics in International Studies: Languages and Cultures",
+  "implementationYear": "2021"
+}

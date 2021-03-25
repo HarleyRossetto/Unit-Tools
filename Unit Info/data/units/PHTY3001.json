@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Discuss the mechanical properties of bones, muscles, tendons and ligaments",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate, through explanation, an understanding of how changes of movement patterns and techniques will influence the load on human tissues during movement",
+        "code": "ULO2"
+      },
+      {
+        "description": "Describe the biomechanical characteristics of walking and running in healthy people",
+        "code": "ULO3"
+      },
+      {
+        "description": "Describe practical ways to measure common movements in a clinical and/or workplace settings",
+        "code": "ULO6"
+      },
+      {
+        "description": "Explain key terminology and basic biomechanical principles as they apply to human movement",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse and interpret biomechanical data characterising human movement",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for and revision of content each week",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 1-Weekday-North Ryde"
+      },
+      {
+        "description": "Preparation for and revision of content each week",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 1-Special-North Ryde"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "110cp at 1000 level or above including ((HLTH108 or ANAT1001) and ((HLTH109 or ANAT1002) or (MEDI203 or MEDI2100)))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PHTY302",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Mid-Semester Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Students will complete a quiz during a specified period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Movement/Skill Analysis",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Written group report with group and individual components (Movement Analysis)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Invigilated exam held during central exam period",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PHTY3001-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY3001"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PHTY3001-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHTY3001"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "PHTY3001 - Biomechanics of Human Movement",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Health Professions"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit will cover the basic principles of biomechanics and apply these to the analysis of human movement and the musculoskeletal system. This unit will integrate your understanding of mechanics with functional anatomy through the study of biomechanics of human locomotion (in two dimensions) and gross motor functions through the use of kinematics, kinetics, muscle function, work, and power. The mechanics of tissues in the musculoskeletal system will also be introduced and discussed in the context of injuries and exercise prescription. The basis of methods for assessing movement, both quantitative and qualitative, will also be introduced enabling basic practical analysis of common movements to be performed. Learning activities include lectures and hands-on laboratories.",
+    "search_title": "PHTY3001 - Biomechanics of Human Movement",
+    "code": "PHTY3001",
+    "title": "Biomechanics of Human Movement",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit will cover the basic principles of biomechanics and apply these to the analysis of human movement and the musculoskeletal system. This unit will integrate your understanding of mechanics with functional anatomy through the study of biomechanics of human locomotion (in two dimensions) and gross motor functions through the use of kinematics, kinetics, muscle function, work, and power. The mechanics of tissues in the musculoskeletal system will also be introduced and discussed in the context of injuries and exercise prescription. The basis of methods for assessing movement, both quantitative and qualitative, will also be introduced enabling basic practical analysis of common movements to be performed. Learning activities include lectures and hands-on laboratories.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T09:56:43.511",
+  "code": "PHTY3001",
+  "title": "Biomechanics of Human Movement",
+  "implementationYear": "2021"
+}

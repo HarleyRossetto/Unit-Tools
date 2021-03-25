@@ -1,0 +1,205 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Pass/Fail",
+      "value": "pass-fail"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Investigate research in sensory disability and synthesise findings to make improvements in identified focus areas for improvement.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply understanding of assessment strategies, including formal and informal, diagnostic, formative and summative approaches to assess and report on student learning.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Critically reflect on level of competency of the Australian Professional Standards for Teachers (and relevant elaborations) in order to formulate an improvement teaching plan",
+        "code": "ULO2"
+      },
+      {
+        "description": "Create, and deliver lesson sequences using knowledge of student learning and evaluate effectiveness of implemented teaching strategies",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MDisabilityStud and 40cp from SPED units at 8000 level and permission by special approval",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "SPED910",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "ePortfolio (Block 1)",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "50",
+        "description": "Practical experiences in the field of sensory disability",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "ePortfolio (Block 2)",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "50",
+        "description": "Practical experiences in the field of sensory disability",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "SPED8910-unit_teaching_period-Special-subject",
+        "display_name": "Session 2-Special-On location at placement",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPED8910"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SPED8910-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-On location at placement",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPED8910"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SPED8910-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-On location at placement",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPED8910"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "SPED8910-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 2-Infrequent-On location at placement",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "SPED8910"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, On location at placement<br />Session 2, Infrequent attendance, On location at placement<br />Session 1, Special circumstances, On location at placement<br />Session 2, Special circumstances, On location at placement<br />",
+    "subject_search_title": "SPED8910 - Critical Reflection and Professional Experience for Teachers in Sensory Disability",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides students with the opportunity to observe, plan, implement, manage and evaluate teaching programs as part of undertaking 16 days of professional experiences. Central to this professional experience is a critical reflection model that guides and highlights the student&#39;s awareness regarding the role that research plays in strengthening their professional skills and knowledge. Using critical reflection students will demonstrate professional practice that optimises outcomes for people with sensory disability.",
+    "search_title": "SPED8910 - Critical Reflection and Professional Experience for Teachers in Sensory Disability",
+    "code": "SPED8910",
+    "title": "Critical Reflection and Professional Experience for Teachers in Sensory Disability",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides students with the opportunity to observe, plan, implement, manage and evaluate teaching programs as part of undertaking 16 days of professional experiences. Central to this professional experience is a critical reflection model that guides and highlights the student&#39;s awareness regarding the role that research plays in strengthening their professional skills and knowledge. Using critical reflection students will demonstrate professional practice that optimises outcomes for people with sensory disability.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-03-01T10:43:03.897",
+  "code": "SPED8910",
+  "title": "Critical Reflection and Professional Experience for Teachers in Sensory Disability",
+  "implementationYear": "2021"
+}

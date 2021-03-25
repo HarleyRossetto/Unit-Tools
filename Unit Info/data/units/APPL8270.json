@@ -1,0 +1,214 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and evaluate reading assessment and intervention practices for children with a range of developmental disorders",
+        "code": "ULO6"
+      },
+      {
+        "description": "Interpret clinical (reading assessment) data in relation to published literature",
+        "code": "ULO4"
+      },
+      {
+        "description": "Interpret clinical data in the fields of reading assessment and intervention",
+        "code": "ULO3"
+      },
+      {
+        "description": "Understand and evaluate theories and research related to reading development and disorders.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically analyse empirical research in relation to differing theories of reading development and disorders",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify a range of reading assessment and intervention practices",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading prescribed articles/chapters, and evaluating comprehension using review questions",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Completing activities included to enhance understanding of unit content",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LING927",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MAppLing or MAppLingTESOL or MTransInterMAppLingTESOL",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "You will take part in online discussions regarding unit content throughout semester. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Review Questions",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "You will provide written answers in the form of short paragraphs to the review questions included in Part 1 Activity 1.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Critical review of literature",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "40",
+        "description": "You will review recent literature on some aspect of reading development, assessment, or intervention relating to one of the five developmental disorders covered in Part 4 of the unit content; namely, ADHD, autism, Down syndrome, hearing loss, or DLD. You will address a specific question or questions, and cover the most recent literature, including a summary table to highlight relevant aspects.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Synopsis and Critique",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "You will submit a written synopsis and critical evaluation in point form or essay format of a prescribed reading related to Part 3 of the unit content - <em>I</em><em>ntervention</em> <em>Strategies.</em> (Maximum length &#61; 1,000 words) ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL8270"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "APPL8270 - Reading Development and Disorders",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides an introduction to theoretical perspectives and empirical data in the area of normal reading acquisition before moving on to consider developmental disorders of reading in greater detail.",
+    "search_title": "APPL8270 - Reading Development and Disorders",
+    "code": "APPL8270",
+    "title": "Reading Development and Disorders",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an introduction to theoretical perspectives and empirical data in the area of normal reading acquisition before moving on to consider developmental disorders of reading in greater detail.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:41:05.795",
+  "code": "APPL8270",
+  "title": "Reading Development and Disorders",
+  "implementationYear": "2021"
+}

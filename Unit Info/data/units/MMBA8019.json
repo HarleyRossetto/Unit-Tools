@@ -1,0 +1,235 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Perform effectively in a team, while developing and applying a design thinking mindset.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Validate an innovation opportunity through field research and discovery of stakeholder insights.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Apply designerly ways of thinking and doing to create a desirable, viable and tangible solution to a complex marketing problem.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MGNT830, MGSM819",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "MGSM820 or MMBA8020",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Design Challenge Project",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "50",
+        "description": "The design challenge project is the major assessment item for this unit. Teams will work on a real-world project, applying theories, tools and techniques to a marketing innovation challenge. Based on your own field research, you will create a tangible solution and demonstrate why it is a desirable and viable business opportunity. You will summarise the outcomes of the project in a report (Group report, 3,500 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Critical Analysis",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "This individual assignment consists of critical case analysis about the transfer and application of design thinking to student&#39;s corporate and/or entrepreneurial environment (1,500 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class activity and participatory tasks",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "This assessment task requires students active participation during class sessions. There will be a range of class activities and learning events that students will be assessed upon. Students must take an active role in the sessions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MMBA8019",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.05",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MMBA8019"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MKTG8031"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Design Thinking for Innovation",
+                "academic_item_code": "MKTG8031",
+                "academic_item_url": "/2020/units/MKTG8031"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMBA8019-unit_teaching_period-Online",
+        "display_name": "Term 1-Online",
+        "teaching_period": {
+          "value": "Term 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMBA8019"
+        }
+      }
+    ],
+    "unit_offering_text": "Term 1, Fully online/virtual<br />",
+    "subject_search_title": "MMBA8019 - Design Thinking",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Marketing "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Innovating is at the core of successful enterprises today whether start-ups or Fortune 500 companies. Adopting a customer perspective is a guiding principle for successful marketing strategy and  design. In this unit, students will apply key concepts in marketing innovation based on the human-centred approach called “design thinking”. Student will define and validate a marketing innovation opportunity through field research and create a tangible, desirable and viable solution. This unit is based on experiential learning, i.e. learning by doing, so you will need to be prepared to engage fully in the unit and adopt a very “hands-on” approach.",
+    "search_title": "MMBA8019 - Design Thinking",
+    "code": "MMBA8019",
+    "title": "Design Thinking",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Innovating is at the core of successful enterprises today whether start-ups or Fortune 500 companies. Adopting a customer perspective is a guiding principle for successful marketing strategy and  design. In this unit, students will apply key concepts in marketing innovation based on the human-centred approach called “design thinking”. Student will define and validate a marketing innovation opportunity through field research and create a tangible, desirable and viable solution. This unit is based on experiential learning, i.e. learning by doing, so you will need to be prepared to engage fully in the unit and adopt a very “hands-on” approach.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-14T14:45:04.3",
+  "code": "MMBA8019",
+  "title": "Design Thinking",
+  "implementationYear": "2021"
+}

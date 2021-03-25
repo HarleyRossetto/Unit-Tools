@@ -1,0 +1,210 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "evaluate and synthesize contemporary production processes, crew roles, basic on-set protocols, and screen industry related safety procedures",
+        "code": "ULO6"
+      },
+      {
+        "description": "evaluate one's own and peer production works and identify creative and technical issues in these works.",
+        "code": "ULO4"
+      },
+      {
+        "description": "integrate screen production terminology and apply this knowledge to critically interpret and analyse screen production works.",
+        "code": "ULO2"
+      },
+      {
+        "description": "demonstrate understanding of introductory conceptual and practical skills in planning and executing screen productions.",
+        "code": "ULO1"
+      },
+      {
+        "description": "identify how screen productions can contribute to the awareness of social issues.",
+        "code": "ULO7"
+      },
+      {
+        "description": "apply skills and strategies for planning and problem solving in a screen production setting.",
+        "code": "ULO3"
+      },
+      {
+        "description": "collaborate and communicate effectively with fellow students and work to production deadlines.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Unit preparation each week",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MAS212",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "40cp at 1000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Screen Production",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "50",
+        "description": "This assignment has 2 components: Final Film (20%) Critical Evaluation of Role (30%)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "20",
+        "description": "This assignment has 2 components: Journal (10%) and Intensive Film OR Creation of &#39;production bible&#39; (10%)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Major Production Pitch Presentation",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "30",
+        "description": "Based on research and inspired by strong ideas, you will develop a pitch for a film of under 5 minutes in length. You may choose to pitch: a documentary; an experimental film; or a narrative, fiction film. The film could be in any genre. The film must have minimal dialogue (no more than 5 lines) with the exception of film essays and documentaries (which can include longer interviews and voice-over). The film MUST be made in black and white. The film MUST address a significant social, political, or cultural issue (e.g, anxiety among students) in a direct or indirect way. If you would like your screen idea to come to life on screen it must be feasible. For this assessment students need to submit: 1. a digital presentation of the pitch. 2. a written document of around 750 words addressing the following: a. A working title. b. 1-sentence description of the film. c. Familiarity with the form and genre. d. A short synopsis of the film. e. What is the social issue that you are exploring in your film? e. Key motif. f. Additionally thoughts on other relevant elements such as shooting style, performance, production design, the colour-palette, etc.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC2012-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC2012"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC2012-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC2012"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Special circumstances, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MMCC2012 - Screen Production: Filmmaking Across Genres",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to professional screen production practices, with a focus on creative development of ideas, cinematography, visual &amp; aural style, and editing. The unit is delivered through practical workshops, in-class and online exercises, equipment and software demonstrations, and selected case studies and screenings. The &#39;hands-on&#39; and experiential intensive mode of delivery exposes students to real-world practices and fosters development of collaboration and communication skills. Students work individually and in groups, as part of production crews, to generate original screen media when completing assignments. This unit aims to develop students&#39; ability to critically analyse and evaluate their own and other&#39;s work and to place it within an historical, creative and theoretical context.",
+    "search_title": "MMCC2012 - Screen Production: Filmmaking Across Genres",
+    "code": "MMCC2012",
+    "title": "Screen Production: Filmmaking Across Genres",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to professional screen production practices, with a focus on creative development of ideas, cinematography, visual &amp; aural style, and editing. The unit is delivered through practical workshops, in-class and online exercises, equipment and software demonstrations, and selected case studies and screenings. The &#39;hands-on&#39; and experiential intensive mode of delivery exposes students to real-world practices and fosters development of collaboration and communication skills. Students work individually and in groups, as part of production crews, to generate original screen media when completing assignments. This unit aims to develop students&#39; ability to critically analyse and evaluate their own and other&#39;s work and to place it within an historical, creative and theoretical context.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T13:56:55.171",
+  "code": "MMCC2012",
+  "title": "Screen Production: Filmmaking Across Genres",
+  "implementationYear": "2021"
+}

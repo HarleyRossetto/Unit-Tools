@@ -1,0 +1,236 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Interpret, synthesise and critically analyse published scholarship in English literary studies.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Compare, contrast and critique different points of view, to generate new ideas in spoken and written contexts.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Identify, understand and apply different questions and concepts to the interpretation of texts, and to the creation of meaning.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Organise and present information meaningfully and persuasively through the combination of research and critical practice.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate an understanding of the way literature is understood and consumed, through the critique of texts from a range of perspectives.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will be required to read a series of primary texts (novels, poems, short stories, plays) and secondary (critical) readings over the course of the session. Preparation of such readings is in addition to the regular preparation for seminars.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ENGL1001 or ENGL1002 or ENGL120; and 20cp in ENGL units at 2000 level or above",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Essay 2000 words",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Discursive (essay) response to one of the set essay questions",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Essay 3000 words",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Discursive (essay) response to one of the set essay questions",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participatory task",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Preparation of notes for class relating to set seminar topics and to any relevant additional research undertaken. Participation in group activities; answering questions in weekly seminars and contributing meaningfully to in-class discussion.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ENGL3051",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ENGL3051"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ENGL3050"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Critical Approaches to Literature",
+                "academic_item_code": "ENGL3050",
+                "academic_item_url": "/2020/units/ENGL3050"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGL3051"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGL3051"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ENGL3051 - Critical Approaches to Literature",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit examines different critical approaches to analysing literature, including narratological, postcolonial, feminist, and cognitive. This range of perspectives will open up ways of considering what literature is, what kinds of knowledge it provides, and what is at stake — culturally, politically, aesthetically, and emotionally — in the way texts are understood and consumed. This unit will prepare students for research in literary studies by addressing questions concerning how we as scholars approach literary texts and the critical responses they have attracted; how we recognize and assess a literary approach; and what questions and access points we use to understand and critique literary texts. Practically, students will learn to identify, understand, and apply different questions and concepts to the interpretation of texts and to the creation of meaning.",
+    "search_title": "ENGL3051 - Critical Approaches to Literature",
+    "code": "ENGL3051",
+    "title": "Critical Approaches to Literature",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit examines different critical approaches to analysing literature, including narratological, postcolonial, feminist, and cognitive. This range of perspectives will open up ways of considering what literature is, what kinds of knowledge it provides, and what is at stake — culturally, politically, aesthetically, and emotionally — in the way texts are understood and consumed. This unit will prepare students for research in literary studies by addressing questions concerning how we as scholars approach literary texts and the critical responses they have attracted; how we recognize and assess a literary approach; and what questions and access points we use to understand and critique literary texts. Practically, students will learn to identify, understand, and apply different questions and concepts to the interpretation of texts and to the creation of meaning.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-16T16:45:24.896",
+  "code": "ENGL3051",
+  "title": "Critical Approaches to Literature",
+  "implementationYear": "2021"
+}

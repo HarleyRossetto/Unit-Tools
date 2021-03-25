@@ -1,0 +1,182 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Synthesize complex information relating to significant episodes of intelligence history, and weigh the merits of competing interpretations of those episodes.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Develop compelling and original arguments regarding intelligence practice, and clearly communicate those arguments in writing.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrate knowledge of the historical development of intelligence practices and organisations.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Assess the significance of particular concepts and debates within the academic field of Intelligence Studies, and evaluate their applicability to historical and contemporary intelligence practice.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "In eight weeks of the unit, students will be expected to spend an hour preparing for the class discussion, generally by reading the discussion essays written by other students in the cohort for that week’s topic.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MPICT or MCPICT or GradDipPICT or GradDipCPICT or PGCertPICT or MPICTMIntSecSt or MCPICTMIntSecSt or MIntSecStud or GradDipIntSecStud or GradCertIntell or MCTerrorism or MCyberSec or GradDipSecStudCr or GradCertSecStudCr or MIntell or MSecStrategicStud or MCrim or MSecStrategicStudMCrim or MSecStrategicStudMIntell or MSecStrategicStudMCyberSec or MSecStrategicStudMCTerrorism or MIntellMCrim or MIntellMCyberSec or MIntellMCTerrorism or MCyberSecMCTerrorism or MCyberSecMCrim or MCTerrorismMCrim or Master of Cyber Security Analysis or (10cps at 6000 level or 10cps 8000 level)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PICT813, PICX813",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "30",
+        "description": "You will complete a number of quizzes across the course of the unit. Each quiz will be conducted online via the unit’s iLearn space, and will test your knowledge and understanding of the unit readings. All of the readings will be available electronically via Leganto, which in turn can be accessed via the unit’s iLearn space. Each quiz will consist of a mixture of multiple choice, true/false, and matching questions (e.g., match a thesis statement to its likely author). The quizzes are open book, i.e., you may refer to the unit materials and your notes as you take the quizzes. But you may not consult with any person (except the teaching staff, if necessary) about the quizzes. Quiz due dates will be listed on the unit’s iLearn space.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "You will write a final essay towards the end of the unit. Final essay questions and due date will be listed on the unit’s iLearn space. Your final essay assignment will require you to collate and synthesize information and concepts from across a number of the case studies covered in the unit. It should be based on deep engagement with the unit readings. This is not a research essay and you are not expected to find any additional sources. It is designed to develop and test your analytical and writing skills. You will be assessed on your ability to articulate and develop a clear, coherent, and persuasive argument; your understanding of the provided readings; and the structure and style of your writing. Your essay should be 2,000 words in length (give or take 200 words), and should be submitted via the relevant Turnitin dropbox on the unit’s iLearn space.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Discussion Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "You will write one discussion essay over the course of the unit on an assigned topic relating to a particular week’s readings. Discussion essay question assignments and due dates will be listed on the unit’s iLearn space. Your essay should be based on deep engagement with your assigned week’s readings. This is not a research essay and you are not expected to find any additional sources. It is designed to develop and test your analytical and writing skills. You will be assessed on your ability to articulate and develop a clear, coherent, and persuasive argument; your understanding of the provided readings; and the structure and style of your writing. Discussion essays may be shared with other students in your cohort in order to frame the class discussion and spark class debate on the topic. Your discussion essay should be 1,500 words in length (give or take 150 words), and should be submitted via the relevant Turnitin dropbox on the unit’s iLearn space.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICX8013"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "PICX8013 - History of Intelligence",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit considers how and why the practices of intelligence professionals and the organisations in which those professionals work have changed over time. It covers both ancient and modern intelligence, but focuses mostly on the post-World War II era. In surveying this history of intelligence as part of the broader development of national security policies and institutions, the unit provides context for some of the debates and discussions around intelligence today. In closely examining selected case studies of intelligence success and failure, students will develop their own skills in historical and analytical thinking—skills that are integral elements of intelligence tradecraft. All enrolment queries should be directed to Open Universities Australia (OUA): see www.open.edu.au",
+    "search_title": "PICX8013 - History of Intelligence",
+    "code": "PICX8013",
+    "title": "History of Intelligence",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit considers how and why the practices of intelligence professionals and the organisations in which those professionals work have changed over time. It covers both ancient and modern intelligence, but focuses mostly on the post-World War II era. In surveying this history of intelligence as part of the broader development of national security policies and institutions, the unit provides context for some of the debates and discussions around intelligence today. In closely examining selected case studies of intelligence success and failure, students will develop their own skills in historical and analytical thinking—skills that are integral elements of intelligence tradecraft. All enrolment queries should be directed to Open Universities Australia (OUA): see www.open.edu.au",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:34:05.433",
+  "code": "PICX8013",
+  "title": "History of Intelligence",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,191 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse and discuss the work of others in group discussions.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Evaluate creative writing processes",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify, engage with and apply concepts of narrative form and poetry.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Achieve creative writing and reading skills in relation to concepts, topics, craft, technique and voice",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Creative writing written for workshops: 2 workshops per semester. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ENGL201, ENGL218, ENGX121, ENGL121",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Creative Work (Minor)",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "25",
+        "description": "Creative writing: narrative prose or poetry. Scaffolded task.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Creative Work (Major) with Reflective Essay",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "50",
+        "description": "Creative writing of narrative prose or poetry, plus a short reflective essay",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Preparation for weekly class participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "25",
+        "description": "Preparatory reading of set texts and completion of writing exercises, for discussion. Answering questions in weekly tutorials and contributing meaningfully to class discussion. Providing critical feedback on other students’ creative works.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGL1021"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ENGL1021"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ENGL1021 - An Introduction to Creative Writing",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Creative writing involves expression and skills. It also involves reading. This practical unit introduces students to different approaches and ways of thinking about creative writing. Students engage in a series of lectures and workshops, learning a range of creative writing skills and topics. Students are encouraged to be experimental and adventurous in their writing. Seminars address different creative writing topics and readings so that students can learn about various genres, methods and approaches. The workshops are interactive; they aim to increase understanding of the process of creative writing. The aim of this unit is for students to learn, achieve and realise their creativity and writing skills in their creative work, engaging with lecture and reading content and participating in writing workshops, on-course writing exercises, and doing set assignments.",
+    "search_title": "ENGL1021 - An Introduction to Creative Writing",
+    "code": "ENGL1021",
+    "title": "An Introduction to Creative Writing",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Creative writing involves expression and skills. It also involves reading. This practical unit introduces students to different approaches and ways of thinking about creative writing. Students engage in a series of lectures and workshops, learning a range of creative writing skills and topics. Students are encouraged to be experimental and adventurous in their writing. Seminars address different creative writing topics and readings so that students can learn about various genres, methods and approaches. The workshops are interactive; they aim to increase understanding of the process of creative writing. The aim of this unit is for students to learn, achieve and realise their creativity and writing skills in their creative work, engaging with lecture and reading content and participating in writing workshops, on-course writing exercises, and doing set assignments.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-16T16:41:03.666",
+  "code": "ENGL1021",
+  "title": "An Introduction to Creative Writing",
+  "implementationYear": "2021"
+}

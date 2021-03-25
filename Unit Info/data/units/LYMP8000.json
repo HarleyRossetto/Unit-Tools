@@ -1,0 +1,155 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe the risk factors for and complications arising from lymphoedema and chronic oedema <strong>(Scientist and Scholar)</strong>",
+        "code": "ULO2"
+      },
+      {
+        "description": "Describe and interpret epidemiological data regarding the impact of lymphoedema and chronic oedema (<strong>Scientist and Scholar)</strong>",
+        "code": "ULO1"
+      },
+      {
+        "description": "Discuss individual and societal impact of lymphoedema and chronic oedema (<strong>Engaged Global Citizen)</strong>",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "This micro unit will be presented as a series of well designed learning activities with embedded readings and knowledge checks.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "AQF level 7 in a health degree or recognised equivalent with national registration if required, or MEDI8999.",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "60",
+        "description": "Multiple choice questions and short answers",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-unit examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Multiple choice questions",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "To be determined-Online",
+        "teaching_period": {
+          "value": "To be determined"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LYMP8000"
+        }
+      }
+    ],
+    "unit_offering_text": "To be determined, Fully online/virtual<br />",
+    "subject_search_title": "LYMP8000 - Lymphoedema in Context",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "5",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Lymphoedema and chronic oedemas are significant health issues.  This introductory unit will cover the impact of lymphoedema and chronic oedemas in society and a brief overview of the historical approaches to management of lymphoedema and chronic oedemas.  In this unit, you will explore available data to understand the incidence, prevalence, and consequences of lymphoedema and chronic oedema.   You will develop an understanding of the risk factors for development of lymphoedema and chronic oedema and common complications arising from lymphoedema and chronic oedema. This unit will contribute to the development of the following graduate capabilities: Scientist and Scholar and Engaged Global Citizen.",
+    "search_title": "LYMP8000 - Lymphoedema in Context",
+    "code": "LYMP8000",
+    "title": "Lymphoedema in Context",
+    "content_type": "Unit",
+    "credit_points_header": "5 credit points"
+  },
+  "creditPoints": 5,
+  "description": "Lymphoedema and chronic oedemas are significant health issues.  This introductory unit will cover the impact of lymphoedema and chronic oedemas in society and a brief overview of the historical approaches to management of lymphoedema and chronic oedemas.  In this unit, you will explore available data to understand the incidence, prevalence, and consequences of lymphoedema and chronic oedema.   You will develop an understanding of the risk factors for development of lymphoedema and chronic oedema and common complications arising from lymphoedema and chronic oedema. This unit will contribute to the development of the following graduate capabilities: Scientist and Scholar and Engaged Global Citizen.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-03T09:03:22.204",
+  "code": "LYMP8000",
+  "title": "Lymphoedema in Context",
+  "implementationYear": "2021"
+}

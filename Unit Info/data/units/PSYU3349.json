@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Communicate an understanding of the complexities of various research designs with respect to their data analysis and interpretation",
+        "code": "ULO3"
+      },
+      {
+        "description": "Clearly and concisely communicate quantitative research results to your peers.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Understand the framework of data analysis methods that exist within the Generalized Linear Model",
+        "code": "ULO4"
+      },
+      {
+        "description": "Demonstrates an understanding of the connection between research design and data analytic methods",
+        "code": "ULO2"
+      },
+      {
+        "description": "Appropriately apply analysis methods to a given research design, type of data and research question.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Undertake data analysis using Stata that answers practical questions in psychology research",
+        "code": "ULO6"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PSY349",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "((Admission to BPsych(Hons)  and 60cp in PSY or PSYU or PSYX units at 2000 level including (PSY248 or PSYU2248 or PSYX248 or PSYX2248))OR((60cp from PSY234 or PSYU2234 or PSYX234 or PSYX2234 or PSY235 or PSYU2235 or PSYX235 or PSYX2235 or PSY236 or PSYU2236 or PSYX236 or PSYX2236 or PSY246 or PSYU2246 or PSYX246 or PSYX2246 or PSY247 or PSYU2247 or PSYX247 or PSYX2247 or PSY248 or PSYU2248 or PSYX248 or PSYX2248) and (30p(Cr) from PSY234 or PSYU2234 or PSYX234 or PSYX2234 or PSY235 or PSYU2235 or PSYX235 or PSYX2235 or PSY236 or PSYU2236 or PSYX236 or PSYX2236 or PSY246 or PSYU2246 or PSYX246 or PSYX2246 or PSY247 or PSYU2247 or PSYX247 or PSYX2247 or PSY248 or PSYU2248 or PSYX248 or PSYX2248))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Weekly Online quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Mix of multiple choice /answer type short questions online quiz.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Final examination held within the University’s formal exam period, in accordance with relevant requirements.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid session Examination ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "10",
+        "description": "Practical analysis of random selection of statistical data requiring an answer.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Practical Project",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "40",
+        "description": "Students are asked to address a practical research question and must operationalise it and determine an appropriate course of analysis with only general directions. No word limit applied.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PSYU3349-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYU3349"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PSYU3349-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PSYU3349"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "PSYU3349 - Design and Statistics III",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Psychology "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit builds on and unifies statistical and design topics introduced in previous units, particularly PSYU2248 Design and Statistics II. Topics include: repeated measures and mixed design ANOVA, multiple regression (linear and curvilinear); analysis of variance and covariance; and model reduction procedures. The unit also illustrates the links between these different methods through placing them in the context of the generalised linear model; in so doing the unit enhances students&#39; understanding of statistical methods and their relationship with research design. Practical classes utilise the Stata statistical package.",
+    "search_title": "PSYU3349 - Design and Statistics III",
+    "code": "PSYU3349",
+    "title": "Design and Statistics III",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit builds on and unifies statistical and design topics introduced in previous units, particularly PSYU2248 Design and Statistics II. Topics include: repeated measures and mixed design ANOVA, multiple regression (linear and curvilinear); analysis of variance and covariance; and model reduction procedures. The unit also illustrates the links between these different methods through placing them in the context of the generalised linear model; in so doing the unit enhances students&#39; understanding of statistical methods and their relationship with research design. Practical classes utilise the Stata statistical package.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T09:24:12.608",
+  "code": "PSYU3349",
+  "title": "Design and Statistics III",
+  "implementationYear": "2021"
+}

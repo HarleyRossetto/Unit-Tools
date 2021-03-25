@@ -1,0 +1,211 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "formulate arguments and creative works based on appropriate research and academic sources.",
+        "code": "ULO4"
+      },
+      {
+        "description": "evaluate critical debates and apply media studies theories.",
+        "code": "ULO2"
+      },
+      {
+        "description": "demonstrate academic communication and disciplinary knowledge skills in different media and genres.",
+        "code": "ULO5"
+      },
+      {
+        "description": "evaluate relationships between technology, media practices, and cultures.",
+        "code": "ULO1"
+      },
+      {
+        "description": "assess the historical and technological development of present-day media forms.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "3 hours of reading and preparation per week (11 weeks)",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MAS110",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The content of quizzes will relate to readings and lectures undertaken in the unit.\n\nRefer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Media Presentation",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "40",
+        "description": "Students will undertake a research project relating academic theory to a case study. They will, then, record a presentation involving audio and/or visual material.\n\nRefer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Participatory Task",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students will complete a series of low-stakes assessment tasks that are scheduled throughout the session.\n\nRefer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Literature Review",
+        "type": {
+          "label": "Literature review",
+          "value": "literature_review"
+        },
+        "weight": "30",
+        "description": "Students will write a literature review on a topic that is relevant to the class.\n\nRefer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC1110"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC1110"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MMCC1110 - Media Technologies",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "At work and in our personal lives we navigate complex, ever-changing digital technologies, each with their own affordances, cultural norms, and potential hazards. This unit introduces students to key ideas and contemporary debates in digital media studies. We pose questions about the history of technological change, how we create and consume digital media, what happens to our online information, and the promises and risks related to new technologies. Through class discussions, key texts, multimedia, and lecture content, students have the opportunity to engage with topics such as online identity, artificial intelligence, digital labour, participatory culture, activism, digital games, and surveillance. Through these prisms, students will develop capacities to critically assess how technologies are shaped and how they shape us. Additionally, students will undertake self-directed research involving hands-on digital media production. The unit explores innovative digital media forms and practices.",
+    "search_title": "MMCC1110 - Media Technologies",
+    "code": "MMCC1110",
+    "title": "Media Technologies",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "At work and in our personal lives we navigate complex, ever-changing digital technologies, each with their own affordances, cultural norms, and potential hazards. This unit introduces students to key ideas and contemporary debates in digital media studies. We pose questions about the history of technological change, how we create and consume digital media, what happens to our online information, and the promises and risks related to new technologies. Through class discussions, key texts, multimedia, and lecture content, students have the opportunity to engage with topics such as online identity, artificial intelligence, digital labour, participatory culture, activism, digital games, and surveillance. Through these prisms, students will develop capacities to critically assess how technologies are shaped and how they shape us. Additionally, students will undertake self-directed research involving hands-on digital media production. The unit explores innovative digital media forms and practices.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:58:38.257",
+  "code": "MMCC1110",
+  "title": "Media Technologies",
+  "implementationYear": "2021"
+}

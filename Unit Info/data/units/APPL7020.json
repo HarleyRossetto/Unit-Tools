@@ -1,0 +1,290 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify and communicate a research topic to a professional audience",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate your understanding of basic principles of research design in one area of language-related research through the presentation of a formal written research proposal.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Explain the underlying principles of five broad approaches used in research in the field of applied language study: qualitative, quantitative, mixed-methods, corpus linguistics, and discourse analysis.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Critically review and synthesise published literature related to the topic of your proposed research and communicate this to a professional audience",
+        "code": "ULO2"
+      },
+      {
+        "description": "Formulate and operationalise research questions/hypotheses relating to one area of language-related research",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will use online databases and library search facilities to find and select relevant resources for their assignments. ",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students are to prepare for each class by reading assigned materials. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "APPL902, APPL701",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Active Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Students are required to participate actively in online discussions as well as complete learning activities progressively in the interactive text.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Topic Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "10",
+        "description": "Each student will prepare an 8-10 minute PowerPoint presentation on their chosen research topic and present it in class or online.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Annotated Bibliography",
+        "type": {
+          "label": "Annotated bibliography",
+          "value": "annotated_bibliography"
+        },
+        "weight": "30",
+        "description": "Students will choose a topic and search databases and library resources to select relevant published articles to write an annotated bibliography on their chosen topic (1200 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Proposal",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "40",
+        "description": "Students will write a formal written literature review and research proposal for a small-scale study in an area of language-related research (2000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "APPL7020-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL7020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "APPL7020-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL7020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "APPL7020-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL7020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "APPL7020-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL7020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "APPL7020-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL7020"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "APPL7020-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "APPL7020"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 1, Weekday attendance, North Ryde<br />Session 2, Fully online/virtual<br />Session 2, Special circumstances<br />Session 2, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "APPL7020 - Designing and Conducting Language-related Research",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Linguistics "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Acquiring advanced research knowledge and developing research skills is integral to and a core element of the Master of Research program. In this unit, you will be exposed to key research methodologies used in language-related research, including quantitative, qualitative, mixed-methods, corpus linguistics, and discourse analysis. You will also be involved with learning and assessment activities that prepare you to conduct your own research in the future. By completing this unit, it is anticipated that you will master critical concepts in research, enabling you to engage critically with published research of different types, and apply your knowledge of research methods to the preparation of original research proposals for your own future research endeavours.",
+    "search_title": "APPL7020 - Designing and Conducting Language-related Research",
+    "code": "APPL7020",
+    "title": "Designing and Conducting Language-related Research",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Acquiring advanced research knowledge and developing research skills is integral to and a core element of the Master of Research program. In this unit, you will be exposed to key research methodologies used in language-related research, including quantitative, qualitative, mixed-methods, corpus linguistics, and discourse analysis. You will also be involved with learning and assessment activities that prepare you to conduct your own research in the future. By completing this unit, it is anticipated that you will master critical concepts in research, enabling you to engage critically with published research of different types, and apply your knowledge of research methods to the preparation of original research proposals for your own future research endeavours.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-03T09:49:04.316",
+  "code": "APPL7020",
+  "title": "Designing and Conducting Language-related Research",
+  "implementationYear": "2021"
+}

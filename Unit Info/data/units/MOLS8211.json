@@ -1,0 +1,266 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Design appropriate procedures for isolating and handling proteins",
+        "code": "ULO1"
+      },
+      {
+        "description": "Extract and interpret information from literature sources concerning proteins",
+        "code": "ULO5"
+      },
+      {
+        "description": "Utilise contemporary web tools for protein analysis",
+        "code": "ULO3"
+      },
+      {
+        "description": "Demonstrate a chemical understanding of proteins (gene products), in vivo and in vitro",
+        "code": "ULO2"
+      },
+      {
+        "description": "Describe protein topology forms and architectures, and recognise how these are encoded within a primary sequence",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": " (BMOL6202 or CBMS634) and (BMOL6201 or CBMS621 or Admission to MBioBus)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "CBMS832, CBMS732",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "“Pet Protein” Sequence Analysis & Purification",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "15",
+        "description": "Each student will be assigned a protein of industrial/medical importance as a case study throughout this Unit. You will conduct a literature search to discover the purification procedures historically used to isolate this protein, and report on the background chemistry underlying these procedures.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "\"Pet Protein\" Model and Seminar",
+        "type": {
+          "label": "Creative work",
+          "value": "creative_work"
+        },
+        "weight": "20",
+        "description": "Research the literature concerning the 3D structure and structure determination method for your assigned protein. Construct a model that shows the three-dimensional shape of this macromolecule, and present this in a class presentation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In class quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "Short answer quizzes for continual assessment",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Protein Production Practical",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "15",
+        "description": "Follow the procedures for preparation and isolation of a protein, and analyse the characteristics of your sample.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Molecular graphics ",
+        "type": {
+          "label": "Lab report",
+          "value": "lab_report"
+        },
+        "weight": "10",
+        "description": "You will use molecular graphics (program PyMOL) to view the 3D structure of a GTP-ase protein to understand its binding and function.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MOLS8211",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MOLS8211"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MOLS7211"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Protein Discovery and Analysis",
+                "academic_item_code": "MOLS7211",
+                "academic_item_url": "/2020/units/MOLS7211"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MOLS8211-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MOLS8211"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MOLS8211-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MOLS8211"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MOLS8211 - Protein Discovery and Analysis",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Molecular Sciences "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit outlines molecular principles underlying today&#39;s developments in protein science and biomedical research. As well as detailing modern separation technologies, the course addresses structural biology, protein analysis and bioinformatics. Practices common in the biotechnology and pharmaceutical industries to isolate recombinant proteins are emphasized. Analysis methods are introduced in relation to proteomics, genomics and biochemical research. Molecular properties leading to the 3D shape of proteins are detailed, and contemporary structure methods outlined.",
+    "search_title": "MOLS8211 - Protein Discovery and Analysis",
+    "code": "MOLS8211",
+    "title": "Protein Discovery and Analysis",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit outlines molecular principles underlying today&#39;s developments in protein science and biomedical research. As well as detailing modern separation technologies, the course addresses structural biology, protein analysis and bioinformatics. Practices common in the biotechnology and pharmaceutical industries to isolate recombinant proteins are emphasized. Analysis methods are introduced in relation to proteomics, genomics and biochemical research. Molecular properties leading to the 3D shape of proteins are detailed, and contemporary structure methods outlined.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T14:01:23.678",
+  "code": "MOLS8211",
+  "title": "Protein Discovery and Analysis",
+  "implementationYear": "2021"
+}

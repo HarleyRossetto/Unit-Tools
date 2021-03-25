@@ -1,0 +1,194 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate a broad understanding of the mathematics underlying key statistical methods.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Understand the numerical methods behind solutions of equations regularly encountered in methods in biostatistics.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Demonstrate an understanding of basic algebra and analysis, and the ability to manually differentiate and integrate algebraic expressions, and perform Taylor series expansions.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Perform matrix manipulations manually.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Understand the basic laws of probability, and the calculus basis of expectation and distribution theory.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Self-study of modules",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Participation in online discussions and tutorials",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MBioStat or GradDipBioStat or GradCertBioStat",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BCA802",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assignment 2",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "Assignment 2 will cover Module 2.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 3",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "Assignment 3 will cover Module 3.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignment 1",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "20",
+        "description": "Assignment 1 will cover Module 1.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT8602"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "STAT8602 - Mathematical Background for Biostatistics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Mathematics and Statistics "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "In this unit, we develop the mathematical background needed to understand the proofs and mathematical reasoning used in the detailed treatment of biostatistical methods in subsequent units in the biostatistics program. Completion of this unit will allow students to concentrate on the statistical concepts presented in the later units, without being distracted by the detail of the mathematical techniques. The unit covers basic algebra and analysis; exponential functions; calculus; series, limits, approximations and expansions; linear algebra, matrices and determinants; and numerical methods.\n\nBecause of the multi-institutional nature of the BCA units, there is an early cut-off for enrolment in this unit, which is typically one week before the start of the session. Please contact the program coordinator for details.",
+    "search_title": "STAT8602 - Mathematical Background for Biostatistics",
+    "code": "STAT8602",
+    "title": "Mathematical Background for Biostatistics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "In this unit, we develop the mathematical background needed to understand the proofs and mathematical reasoning used in the detailed treatment of biostatistical methods in subsequent units in the biostatistics program. Completion of this unit will allow students to concentrate on the statistical concepts presented in the later units, without being distracted by the detail of the mathematical techniques. The unit covers basic algebra and analysis; exponential functions; calculus; series, limits, approximations and expansions; linear algebra, matrices and determinants; and numerical methods.\n\nBecause of the multi-institutional nature of the BCA units, there is an early cut-off for enrolment in this unit, which is typically one week before the start of the session. Please contact the program coordinator for details.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T16:24:33.33",
+  "code": "STAT8602",
+  "title": "Mathematical Background for Biostatistics",
+  "implementationYear": "2021"
+}

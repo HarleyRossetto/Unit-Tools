@@ -1,0 +1,279 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Be familiar with the ways early literacy development is integrated in a continuum of learning in pedagogic practices in prior-to-school and school settings and related curriculum documents such as the Early Years Learning Framework, the NSW K-6 English Syllabus, and National Curriculum Documents.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Understand young children's language and literacy development and the ways it can be enhanced through literature.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Constructively engage with educational research.",
+        "code": "ULO8"
+      },
+      {
+        "description": "Develop an understanding of and ability to support the language and literacy development of children from diverse backgrounds, including children learning English as an additional language (EAL), children from families with different socio-economic status, and children with special learning and literacy needs.",
+        "code": "ULO7"
+      },
+      {
+        "description": "Be aware of the influence of children's early oral language and literacy experiences on access and equity in early educational settings (birth-8) and on children's transition to school.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Understand children's early reading and writing developmental processes and ability to develop and apply strategies for supporting and evaluating these processes from a broad and research-informed multiliteracies perspective.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Design, engage in and critically evaluate rich and developmentally appropriate literacy experiences for young children prior-to-school and into the first years of primary school, and to integrate children's literature in these experiences.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Understand the important role adults and partnerships between home and educational settings play in young children's language and literacy development.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Independent learning using online resources, including learning tasks available on the iLearn site of the unit.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Weekly reading - 3 hours per week for 13 weeks",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(ECHP122 or ECHP1220 or EDST201 or EDST2010) or ((40cp at 1000 level or above) and admission to BTeach(ECS))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "ABEC320, ECH231",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "ASSET Survey",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "5",
+        "description": "Students complete the Annual Student Survey of Education for Teaching (ASSET) which will provide the School of Education with a detailed understanding of our students and their experiences; including, who they are, their attitudes and beliefs about education, and how prepared they feel to work as teachers. In addition, as part of the registration of the School of Education teacher preparation programs with the NSW Education Standards Authority, the School of Education is required to collect impact data on teacher education courses. The proposed annual survey will serve the purpose of providing part of these mandatory data. The survey is in 5 parts and each student will be awarded 1% for completion of each part for each unit in which the student is enrolled that includes ASSET as part of the assessment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Literacy planning for the early grades of primary school (5-to-8-year-old children)",
+        "type": {
+          "label": "Lesson plan",
+          "value": "lesson_plan"
+        },
+        "weight": "45",
+        "description": "Students choose one of 3 scenarios provided and complete and submit:  a sequence of 3 completed lesson plans for the class in the selected scenario based on the NSW K-10 English Syllabus (1-2 pages each),  1 summary paragraph for the school newsletter (300 words), and  1 analytic reflection on one’s own learning (800 words). (Total word limit: 2000 words)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Shared Reading",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "50",
+        "description": "Students analyse an interaction between an adult and a child during shared reading of a picture book, select a picture book for that child and design a literacy learning experience for that child using the selected picture book. 2000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Emergent literacy profile of and planned experience for an infant, toddler or preschool-aged child",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "50",
+        "description": "Each student finds a child aged between 6 months and 5 years, who has not yet started school, and on the basis of information about the child’s previous language, literacy and literature experiences and two observations of the child’s interactions and engagement with picture books, design, engage the child in and evaluate a literacy experience that integrates children’s literature. Students complete and submit: a completed literacy experience plan and evaluation (1-2 pages) and a 1200-word paper that includes a language- and literacy profile of the child and a justification of the student’s choice of literature for the child. (Total word limit: 1800 words).",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Infrequent-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ECHE2310",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.01R",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ECHE2310"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: EDST2120"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Language and Literacy Learning in Early Childhood",
+                "academic_item_code": "EDST2120",
+                "academic_item_url": "/2020/units/EDST2120"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE2310"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECHE2310"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "ECHE2310 - Young Children's Language, Literature and Literacy",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on children&#39;s language and literacy development as they move from home to prior-to-school settings and into the first years of school, and the ways it can be fostered through children&#39;s literature. It introduces students to the theory and practice of early reading and writing, multimodal and critical literacy development, and to research on the literacy experiences of children from diverse contexts and with different abilities. Students are given opportunities to develop and apply their understanding of the role of teachers in planning and evaluating experiences that support young children&#39;s literacy development within prior-to-school and early primary school settings.",
+    "search_title": "ECHE2310 - Young Children's Language, Literature and Literacy",
+    "code": "ECHE2310",
+    "title": "Young Children's Language, Literature and Literacy",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on children&#39;s language and literacy development as they move from home to prior-to-school settings and into the first years of school, and the ways it can be fostered through children&#39;s literature. It introduces students to the theory and practice of early reading and writing, multimodal and critical literacy development, and to research on the literacy experiences of children from diverse contexts and with different abilities. Students are given opportunities to develop and apply their understanding of the role of teachers in planning and evaluating experiences that support young children&#39;s literacy development within prior-to-school and early primary school settings.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:27:41.758",
+  "code": "ECHE2310",
+  "title": "Young Children's Language, Literature and Literacy",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,107 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "COGS705, COGS741",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "COGS7050-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COGS7050"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "COGS7050 - Advanced Principles of Cognitive Science: Language and Reading",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Cognitive Science "
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit forms part of a four-unit core sequence covering a range of foundational and cutting-edge research topics in cognitive science, with an emphasis on active research programs at MQ. This team-taught unit is made up of a selection of 3-4 topic modules, led by experts specialising in these fields. Topics to be covered may include but are not limited to: the cognitive science and cognitive neuropsychology of reading and language, with a particular focus on reading development, language production, developmental and acquired dyslexia, and acquired aphasia.",
+    "search_title": "COGS7050 - Advanced Principles of Cognitive Science: Language and Reading",
+    "code": "COGS7050",
+    "title": "Advanced Principles of Cognitive Science: Language and Reading",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit forms part of a four-unit core sequence covering a range of foundational and cutting-edge research topics in cognitive science, with an emphasis on active research programs at MQ. This team-taught unit is made up of a selection of 3-4 topic modules, led by experts specialising in these fields. Topics to be covered may include but are not limited to: the cognitive science and cognitive neuropsychology of reading and language, with a particular focus on reading development, language production, developmental and acquired dyslexia, and acquired aphasia.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-02T14:50:43.327",
+  "code": "COGS7050",
+  "title": "Advanced Principles of Cognitive Science: Language and Reading",
+  "implementationYear": "2021"
+}

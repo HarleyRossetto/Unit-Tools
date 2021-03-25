@@ -1,0 +1,223 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate understanding of the characteristics of information warfare and how these have changed over time",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse how democracies and authoritarian states approach offensive and defensive information warfare operations",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate the ability to conduct independent research on a topic relating to information warfare",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse how the Australian Defence Department works in conjunction with the wider Australian government and society in combating foreign information warfare operations",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to complete the required reading before the intensive teaching week",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MCTerrorism or GradCertSecStudCr or MIntell or MSecStrategicStud or MCrim or Master of Cyber Security Analysis or (Admission to BSecStudMCTerrorism or BSecStudMCrim or BSecStudMCyberSecAnalysis or BSecStudMIntell or BSecStudMSecStrategicStud) and (10cp at 6000 level or 10cp at 8000 level)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "50",
+        "description": "Students will complete a major research essay on Information Warfare. ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students will be expected to actively participate in the intensive week.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "The quiz will be multiple choice. The  questions will relate to the readings",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "The quiz will be multiple choice. The questions will relate to the readings",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Proposal",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "10",
+        "description": "Students will prepare a research proposal that will form the basis of their research essay",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "",
+        "type": {
+          "label": "Simulation/role play",
+          "value": "simulation_role_play"
+        },
+        "weight": "20",
+        "description": "Students will participate in a simulation exercise that will assess their understanding of Information Warfare. They will also have to submit a reflective written piece after the simulation",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PICT8002-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8002"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PICT8002-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PICT8002"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "PICT8002 - Information Warfare",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Security Studies and Criminology "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "We live in an age where nations are increasingly using disinformation, deception, manipulation and coercion against foreign states and populations. Since antiquity, states have been using information warfare to pursue their international objectives. However, the rapid advancement in digital technology (e.g. social media) and the ease with which people, money and goods can now cross borders has transformed the challenges posed by information warfare. This unit explores several central questions regarding information warfare, including: (1) how does the concept of information warfare relate to its stablemates: political warfare, cyber warfare and influence operations? (2) what is the nature of the information warfare threat posed by authoritarian actors, such as China and Russia? (3) How can democracies defend themselves against authoritarian actors that are employing information warfare without forfeiting their values, norms and ethics? (4) Can democracies employ information warfare offensively? By the end of this unit, students will possess an advanced understanding of the dynamics and challenges posed by information warfare and be able to make practical policy recommendations.",
+    "search_title": "PICT8002 - Information Warfare",
+    "code": "PICT8002",
+    "title": "Information Warfare",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "We live in an age where nations are increasingly using disinformation, deception, manipulation and coercion against foreign states and populations. Since antiquity, states have been using information warfare to pursue their international objectives. However, the rapid advancement in digital technology (e.g. social media) and the ease with which people, money and goods can now cross borders has transformed the challenges posed by information warfare. This unit explores several central questions regarding information warfare, including: (1) how does the concept of information warfare relate to its stablemates: political warfare, cyber warfare and influence operations? (2) what is the nature of the information warfare threat posed by authoritarian actors, such as China and Russia? (3) How can democracies defend themselves against authoritarian actors that are employing information warfare without forfeiting their values, norms and ethics? (4) Can democracies employ information warfare offensively? By the end of this unit, students will possess an advanced understanding of the dynamics and challenges posed by information warfare and be able to make practical policy recommendations.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-08T15:23:24.058",
+  "code": "PICT8002",
+  "title": "Information Warfare",
+  "implementationYear": "2021"
+}

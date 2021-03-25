@@ -1,0 +1,239 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Construct causal diagrams and use them to identify potential sources of bias.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Interpret results of analyses in light of the causal assumptions required.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Effectively communicate in language suitable for the scientific community the results of analyses using causal inference methods",
+        "code": "ULO6"
+      },
+      {
+        "description": "Use counterfactuals (potential outcomes) to precisely define causal effects.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Implement causal inference methods, using software, for single time point and longitudinal exposures, and for mediation analyses.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Describe the differences between association and causation, and the fundamental assumptions required for causation.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Self-study of modules",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Participation in online discussion forum",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(Admission to MBioStat or GradCertBioStat) and (BCA801 or STAT8601) and (BCA817 or STAT8603)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Assessment task 3.1",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "10",
+        "description": "Set of short exercises with either mathematical derivations, explanation of concepts, data analyses",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessment task 2",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "30",
+        "description": "Theoretical exercises requiring mathematical derivations, application to a case study, present results in suitable lay scientific language",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessment task 1",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "30",
+        "description": "Theoretical exercises requiring mathematical derivations, application to a case study, present results in suitable lay scientific language",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessment task 3.2",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "10",
+        "description": "Set of short exercises with either mathematical derivations, explanation of concepts, data analyses",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessment task 3.4",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "10",
+        "description": "Set of short exercises with either mathematical derivations, explanation of concepts, data analyses",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assessment task 3.3",
+        "type": {
+          "label": "Quantitative analysis task",
+          "value": "quantitative_task"
+        },
+        "weight": "10",
+        "description": "Set of short exercises with either mathematical derivations, explanation of concepts, data analyses",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "STAT8614-unit_teaching_period-Online",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "STAT8614"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Fully online/virtual<br />",
+    "subject_search_title": "STAT8614 - Causal Inference",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Mathematics and Statistics "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit covers the core concepts and methods to enable the assessment of causation from randomised and observational studies. The foundational concepts and notation of counterfactual (or potential) outcomes are first presented to define precisely the meaning of the causal effect of a treatment or exposure. Causal diagrams, in the form of directed acyclic graphs (DAGs), are presented as a visual representation of a postulated underlying causal structure, together with the key properties and rules used to determine the likely existence of confounding, selection and other biases that prevent unbiased estimation of causal effects. The unit then proceeds to methods of analysis of observational studies, using the concept of a hypothetical, target randomised trial to define the causal effect. Propensity score methods for assessment of single time point treatments/exposures are studied in detail, followed by longitudinal designs, in which the treatments/exposure and their effects can vary over time. The study of mediation effects, which are explanatory methods for determination of mechanisms and pathways by which an exposure affects an outcome are covered using language and methods of the potential outcomes framework. The unit concludes with a brief summary of additional, more advanced topics, many of which are still under methodological development.",
+    "search_title": "STAT8614 - Causal Inference",
+    "code": "STAT8614",
+    "title": "Causal Inference",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit covers the core concepts and methods to enable the assessment of causation from randomised and observational studies. The foundational concepts and notation of counterfactual (or potential) outcomes are first presented to define precisely the meaning of the causal effect of a treatment or exposure. Causal diagrams, in the form of directed acyclic graphs (DAGs), are presented as a visual representation of a postulated underlying causal structure, together with the key properties and rules used to determine the likely existence of confounding, selection and other biases that prevent unbiased estimation of causal effects. The unit then proceeds to methods of analysis of observational studies, using the concept of a hypothetical, target randomised trial to define the causal effect. Propensity score methods for assessment of single time point treatments/exposures are studied in detail, followed by longitudinal designs, in which the treatments/exposure and their effects can vary over time. The study of mediation effects, which are explanatory methods for determination of mechanisms and pathways by which an exposure affects an outcome are covered using language and methods of the potential outcomes framework. The unit concludes with a brief summary of additional, more advanced topics, many of which are still under methodological development.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-11T13:36:25.059",
+  "code": "STAT8614",
+  "title": "Causal Inference",
+  "implementationYear": "2021"
+}

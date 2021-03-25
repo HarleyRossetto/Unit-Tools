@@ -1,0 +1,247 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply advanced critical thinking skills to generate, evaluate and transform professionally-oriented knowledge and practice",
+        "code": "ULO3"
+      },
+      {
+        "description": "Synthesise and communicate research and its results to different audiences.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Generate research questions and critically analyse and evaluate different research methods to address those questions.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Apply advanced and in-depth knowledge of research methods to critically evaluate evidence and to make evidence-based decisions.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Core reading from one text book will be assigned by the course convenor",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Additional resources will be provided by the leader of each workshop - this may be additional reading or online activities to ensure students are informed about the work to be covered during the session",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to M Teaching (0 to 5) (OUA)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Problem set 3",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "15",
+        "description": "Each workshop leader will design an appropriate task (or multiple short tasks) to assess the application of your knowledge for that module. For example, this could be the a critique of published research based on knowledge of evidence-based practice, a hands-on analysis task, contributions to discussion forums, or evaluating different methodological paradigms to address an educational research question. The exact nature of the assessment will be decided by the leader of the module and will be communicated to you ahead of the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Problem set 2",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "15",
+        "description": "Each workshop leader will design an appropriate task (or multiple short tasks) to assess the application of your knowledge for that module. For example, this could be the a critique of published research based on knowledge of evidence-based practice, a hands-on analysis task, contributions to discussion forums, or evaluating different methodological paradigms to address an educational research question. The exact nature of the assessment will be decided by the leader of the module and will be communicated to you ahead of the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Portfolio",
+        "type": {
+          "label": "Portfolio",
+          "value": "portfolio"
+        },
+        "weight": "25",
+        "description": "At the end of this unit you will submit a portfolio of documents completed during the course of this unit. This will include reflection on the evidence base for your personal research interest, the identification of your research area and research question, reflection on how different research approaches could be used to address that question and key methodological issues that need to be considered, and a final brief research plan based on principles of high quality evidence-based practice.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Problem set 1",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "15",
+        "description": "Each workshop leader will design an appropriate task (or multiple short tasks) to assess the application of your knowledge for that module. For example, this could be the a critique of published research based on knowledge of evidence-based practice, a hands-on analysis task, contributions to discussion forums, or evaluating different methodological paradigms to address an educational research question. The exact nature of the assessment will be decided by the leader of the module and will be communicated to you ahead of the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Problem set 5 ",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "15",
+        "description": "Each workshop leader will design an appropriate task (or multiple short tasks) to assess the application of your knowledge for that module. For example, this could be the a critique of published research based on knowledge of evidence-based practice, a hands-on analysis task, contributions to discussion forums, or evaluating different methodological paradigms to address an educational research question. The exact nature of the assessment will be decided by the leader of the module and will be communicated to you ahead of the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Problem set 4",
+        "type": {
+          "label": "Problem set",
+          "value": "problem_set"
+        },
+        "weight": "15",
+        "description": "Each workshop leader will design an appropriate task (or multiple short tasks) to assess the application of your knowledge for that module. For example, this could be the a critique of published research based on knowledge of evidence-based practice, a hands-on analysis task, contributions to discussion forums, or evaluating different methodological paradigms to address an educational research question. The exact nature of the assessment will be decided by the leader of the module and will be communicated to you ahead of the session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDSX8000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Online",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDSX8000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />Session 2, Fully online/virtual<br />",
+    "subject_search_title": "EDSX8000 - Educational Research ",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The objective of this unit is to extend student understanding and application of the research methods used to explore contemporary issues in a variety of educational settings. A staff member actively engaged in research will lead each of 6 workshops to expose students to a range of methodological approaches and to develop their understanding of evidence-based practice. As students proceed through the workshops they will consider the application of these research approaches to addressing an educational topic of personal relevance and interest.",
+    "search_title": "EDSX8000 - Educational Research ",
+    "code": "EDSX8000",
+    "title": "Educational Research ",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The objective of this unit is to extend student understanding and application of the research methods used to explore contemporary issues in a variety of educational settings. A staff member actively engaged in research will lead each of 6 workshops to expose students to a range of methodological approaches and to develop their understanding of evidence-based practice. As students proceed through the workshops they will consider the application of these research approaches to addressing an educational topic of personal relevance and interest.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-04T12:43:53.498",
+  "code": "EDSX8000",
+  "title": "Educational Research ",
+  "implementationYear": "2021"
+}

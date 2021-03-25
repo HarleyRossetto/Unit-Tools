@@ -1,0 +1,238 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Identify, classify and resolve complex legal issues related to contemporary tort law",
+        "code": "ULO3"
+      },
+      {
+        "description": "Recognise and critique contemporary developments in the law of torts and reflect upon how such developments may impact upon tort-feasors and claimants.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Engage in critical legal reasoning, analysis, research and written and oral communication to generate appropriate responses to tort-based legal issues.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Describe and analsye the fundamental doctrines, concepts, principles, values and sources (both common law and statute) for different types of torts and categories of liability",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Reading and problem solving in preparation for tutorials",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Weekly readings according to iLearn schedule ",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "LAWS804",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(LAWS803 or LAWS8030)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Research Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "40",
+        "description": "A research essay related to tort law doctrine and theory",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final timed assessment",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "40",
+        "description": "A time limited take home problem assessment covering the unit content",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Two multiple choice quizzes to test understanding of the unit content",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "Two quizzes will be scheduled to test unit materials, especially problem material covered in tutorials",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8040"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8040"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8040"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "LAWS8040"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Infrequent attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 2, Special circumstances, Other<br />",
+    "subject_search_title": "LAWS8040 - Law of Obligations II - Torts",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie Law School "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The law of obligations encompasses private law obligations in contract, tort, and restitution. This compulsory unit examines the law of torts and its operation in context from doctrinal, practical, theoretical and normative perspectives. Torts addresses critical questions about social responsibility and obligations members of a community owe to one other, and how civil legal standards can and should be used to encourage appropriate behaviour and rectify wrongs. Negligence is the principal focus; other topics studied include assault, battery, false imprisonment, trespass to land and goods, nuisance, conversion, defences, and types of liability. The unit extends and integrates knowledge and skills developed in previous law units, focusing on communication, teamwork, problem solving and research. It also lays a foundation for the capstone unit LAWS815 Remedies, Reparations and Resolutions in Law.",
+    "search_title": "LAWS8040 - Law of Obligations II - Torts",
+    "code": "LAWS8040",
+    "title": "Law of Obligations II - Torts",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The law of obligations encompasses private law obligations in contract, tort, and restitution. This compulsory unit examines the law of torts and its operation in context from doctrinal, practical, theoretical and normative perspectives. Torts addresses critical questions about social responsibility and obligations members of a community owe to one other, and how civil legal standards can and should be used to encourage appropriate behaviour and rectify wrongs. Negligence is the principal focus; other topics studied include assault, battery, false imprisonment, trespass to land and goods, nuisance, conversion, defences, and types of liability. The unit extends and integrates knowledge and skills developed in previous law units, focusing on communication, teamwork, problem solving and research. It also lays a foundation for the capstone unit LAWS815 Remedies, Reparations and Resolutions in Law.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T16:25:26.406",
+  "code": "LAWS8040",
+  "title": "Law of Obligations II - Torts",
+  "implementationYear": "2021"
+}

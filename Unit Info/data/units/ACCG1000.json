@@ -1,0 +1,332 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Develop competences in key technical aspects in accounting practice and be able to process and interpret basic accounting information.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Examine the role of Accounting in a contemporary social context with a focus on business ethics and responsible management.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Research and communicate ethical issues in business.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Evaluate the traditional aspects of accounting for business decision-making.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Describe the business environment of the accounting profession.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Textbook readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ACCG100, ACCG106, ARTS105, MMCS105, WACC100, WACC106",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Team Based Learning (TBL) Activities ",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students are required to complete Team Based Learning (TBL) activities through iLearn, based on the preparatory materials provided. The TBL activities consists of 1. Readiness Assurance Test (IRAT) – a short multiple-choice quiz completed individually by students, 2. Team Readiness Assurance Test (TRAT) – the same quiz students retake in teams, and 3. Focused Application Tasks (FATs) – a more complex problem-solving activity completed by students in the same teams as before. The purpose of TBL activities is to enhance student engagement and the quality of their learning.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "55",
+        "description": "A two-hour online examination (open book) will be held during the University Examination period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Special, Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "10",
+        "description": "The case study is a 1000-word research essay that encourages students to explore ethical issues in business, using materials outside the assigned text.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Xero Assignment ",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "During the session, students are required to undertake an accounting task using online accounting software, Xero. The Xero assignment is progressive in nature, and students are required to complete the stipulated tasks of this assignment on a weekly basis.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "Students are required to attempt an online test (quiz) through iLearn. The purpose of the online test is to provide students with feedback on their learning of the &#39;Financial Accounting for Business&#39; topics.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ACCG1000",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.03",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ACCG1000"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: WACC1000"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Accounting in Society",
+                "academic_item_code": "WACC1000",
+                "academic_item_url": "/2020/units/WACC1000"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACCG1000-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG1000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG1000-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG1000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG1000-unit_teaching_period-Special",
+        "display_name": "Session 3-Special",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG1000"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG1000-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 3-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 3"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG1000"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 3, Weekday attendance, North Ryde<br />Session 3, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG1000 - Accounting in Society",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit focuses on the role of accounting and the accounting profession in society. By exploring and discovering diverse accountability frameworks, students will learn to appreciate the role accounting plays. The unit aims to introduce basic accounting language, concepts and methods. Students will be provided with an opportunity to discuss evolving means of information preparation, with an emphasis on understanding how such information assists users when making important business decisions. The role of accounting stewardship is explored, developing students’ awareness of social, environmental and ethical concerns in an attempt to develop well rounded business professionals.",
+    "search_title": "ACCG1000 - Accounting in Society",
+    "code": "ACCG1000",
+    "title": "Accounting in Society",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit focuses on the role of accounting and the accounting profession in society. By exploring and discovering diverse accountability frameworks, students will learn to appreciate the role accounting plays. The unit aims to introduce basic accounting language, concepts and methods. Students will be provided with an opportunity to discuss evolving means of information preparation, with an emphasis on understanding how such information assists users when making important business decisions. The role of accounting stewardship is explored, developing students’ awareness of social, environmental and ethical concerns in an attempt to develop well rounded business professionals.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-29T13:05:43.65",
+  "code": "ACCG1000",
+  "title": "Accounting in Society",
+  "implementationYear": "2021"
+}

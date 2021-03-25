@@ -1,0 +1,245 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyse the features of language systems and communication critical to code breaking and apply this knowledge to enhance teaching and learning.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Understand features of language systems, communication practices, and text genres critical for using and producing effective texts to enhance your own and your students’ learning.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain the features of the six language and literacy modes (reading, writing, speaking, listening, viewing and representing) and apply this knowledge to enhance your own and your students’ learning.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse the features of language systems and communication critical to meaning making and how to apply this knowledge to enhance your own and your students’ learning.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Articulate and apply a developing knowledge of the six language and literacy modes (listening, speaking, reading, writing, viewing, and visually representing) and the structural organisation and scope and sequence of curriculum content, as prescribed by relevant curriculum documents for prior-to-school and K-6 formal education contexts.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Apply a foundational knowledge of language, images, and communication context to analyse instructional practices and texts, their linguistic features, effectiveness, and social purposes.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students will be expected to undertake independent activities in preparation for tutorials. Some of these will involve text analysis.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Other independent online learning such as using recommended resources.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Students are required to complete the assigned weekly readings in advance of each tutorial, and are encouraged to read beyond the set readings. Two hours of reading per teaching week has been allocated.",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "80cp including (EDST100 or EDST1000) and admission to (BABEd(Prim) or BA-PsychBEd(Prim) or BTeach(ECE) or BEd(Prim))",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "EDST210",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Task 1 - Concepts in language and literacy ",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "20",
+        "description": "Students use applied literacy examples to demonstrate understanding of fundamental concepts in language and literacy education and research. Detailed instructions will be available on the iLearn site for the unit. Approx. 500 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Task 3 - Final examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Students will be examined on their knowledge and understanding of the material covered in the lectures, classes and readings. All modules will be assessed. Students will be expected to understand and apply knowledge of language and images to examples of texts for / by children. They will also be asked to apply knowledge of literacy instruction across the six language modes to suggest productive literacy learning activities for given text/s. Duration: 2 hours.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Task 2 - Major assignment (text analysis and planned learning experiences)",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "40",
+        "description": "Students annotate one fictional and one non-fictional instructional text to design and plan literacy learning experiences appropriate for target learners.  Detailed instructions will be available on the iLearn site for the unit. Approx. 1000 words.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDST2100-unit_teaching_period-Infrequent-subject",
+        "display_name": "Session 1-Infrequent-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Infrequent attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST2100"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDST2100-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST2100"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "EDST2100-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST2100"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Infrequent attendance, North Ryde<br />Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "EDST2100 - Language and Literacies",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit introduces students to language development, and to language and literacy in Australian curriculum documents, policies on literacy instruction, and quality instructional practices. The unit offers a systematic, research-based introduction to foundational knowledge of language and literacies. The unit focuses on developing knowledge of the language system and its uses, purposes, and practices in reading and writing. It stresses the importance of phonological and orthographic knowledge at the beginning of literacy instruction, as well as semantic, syntactic and pragmatic knowledge in developing reading and writing skills of all learners.",
+    "search_title": "EDST2100 - Language and Literacies",
+    "code": "EDST2100",
+    "title": "Language and Literacies",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit introduces students to language development, and to language and literacy in Australian curriculum documents, policies on literacy instruction, and quality instructional practices. The unit offers a systematic, research-based introduction to foundational knowledge of language and literacies. The unit focuses on developing knowledge of the language system and its uses, purposes, and practices in reading and writing. It stresses the importance of phonological and orthographic knowledge at the beginning of literacy instruction, as well as semantic, syntactic and pragmatic knowledge in developing reading and writing skills of all learners.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T14:57:53.913",
+  "code": "EDST2100",
+  "title": "Language and Literacies",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,271 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "7000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Research Master",
+        "value": "research_master"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Demonstrate competence in the use of advanced terminology and concepts associated with the analyses of environmental issues from an ecological economics perspective.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically analyse the major theoretical approaches to the ecological analysis of environmental issues, the assumptions on which they are based and their implications regarding the effects of changes in key parameters.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate ecological aspects of environmental problems, including key stakeholders and important incentive effects, and the role of ecological constraints.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Assess and compare policy alternatives in relation to environmental issues from the perspective of ecological economics.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "The unit relies heavily on independent learning and learning-by-doing. Students are expected to read textbook chapters with accompanying lecture notes, journal articles, and attempt weekly practice questions.",
+        "activity": {
+          "label": "Online resources",
+          "value": "online_resources"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ECON717, ECON917",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MRes",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Written reflections",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "This task involves two reflective blog entries on course content. Students are to identify what the key points are from particular sections of the course, and explain why. Each 500 word blog is worth 10%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Content quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "There will be weekly online quizzes from weeks 2-13. Each quiz involves 10 multiple choice questions on course content and readings.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research assignment",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "40",
+        "description": "The research assignment will include a 3000-word literature review of a topic in ecological economics.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research assignment summary",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "20",
+        "description": "This task involves the submission of a written 200 word abstract for the major research assignment, along with an oral presentation of approximately 5 minutes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research assignment summary",
+        "type": {
+          "label": "Qualitative analysis task",
+          "value": "qualitative_ task"
+        },
+        "weight": "20",
+        "description": "This task involves the submission of a written 200 word abstract for the major research assignment.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "ECON7017",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: ECON7017"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: ECON8017"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Ecological Economics",
+                "academic_item_code": "ECON8017",
+                "academic_item_url": "/2020/units/ECON8017"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ECON7017-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON7017"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ECON7017-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ECON7017"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ECON7017 - Ecological Economics",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Economics "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides an introduction to ecological economics - a trans-disciplinary approach to the application of economics to issues of environmental management, development and human welfare, stressing the complex nature of the ecosystem within which economic activity is embedded and the crucial constraints imposed on the scale of human economic activity. Topics covered include sustainability and sustainable development, limits to economic growth, the definition and measurement of welfare and economic progress, and the development of policy for a closed and rapidly-filling world. The unit will be applied in focus, with significant use of case studies and an individual applied research component.",
+    "search_title": "ECON7017 - Ecological Economics",
+    "code": "ECON7017",
+    "title": "Ecological Economics",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides an introduction to ecological economics - a trans-disciplinary approach to the application of economics to issues of environmental management, development and human welfare, stressing the complex nature of the ecosystem within which economic activity is embedded and the crucial constraints imposed on the scale of human economic activity. Topics covered include sustainability and sustainable development, limits to economic growth, the definition and measurement of welfare and economic progress, and the development of policy for a closed and rapidly-filling world. The unit will be applied in focus, with significant use of case studies and an individual applied research component.",
+  "level": "7000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T16:14:33.592",
+  "code": "ECON7017",
+  "title": "Ecological Economics",
+  "implementationYear": "2021"
+}

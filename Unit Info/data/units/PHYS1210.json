@@ -1,0 +1,304 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "demonstrate knowledge of foundational physics concepts, principles and theories, by predicting outcomes of 'thought experiments' (conceptual answers) and by calculating outcomes in specific physical situations (numerical answers). ",
+        "code": "ULO1"
+      },
+      {
+        "description": "demonstrate foundational learning skills including active engagement in your learning process. ",
+        "code": "ULO5"
+      },
+      {
+        "description": "apply physics principles to solve real-world problems including those involving topics in the life sciences. ",
+        "code": "ULO2"
+      },
+      {
+        "description": "use the tools, methodologies, language, conventions of physics to test and communicate ideas and explanations.  ",
+        "code": "ULO3"
+      },
+      {
+        "description": "collect experimental data with appropriate precision and uncertainties, using a range of measurement and data analysis tools, and interpret and report on your results. ",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Consolidating lecture content and preparing for SGTAs, using lecture material and iLearn resources.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(HSC Mathematics Standard 2 Band 5 and above or Advanced Mathematics Band 3 and above or Extension 1 or Extension 2)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "PHYS107, PHYS106, PHYS140, PHYS143, PHYS149",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final examination ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Examination during the university exam period, covering all content from the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "Short quizzes taken in the SGTAs.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Lab book",
+        "type": {
+          "label": "Lab book",
+          "value": "lab_book"
+        },
+        "weight": "25",
+        "description": "Assessment of your in-lab record of practical activities, as well as any pre-lab preparation.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PHYS1210",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PHYS1210"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PHYS1020"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Electric and Magnetic Interactions",
+                "academic_item_code": "PHYS1020",
+                "academic_item_url": "/2020/units/PHYS1020"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: PHYS1510"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Engineering Physics",
+                "academic_item_code": "PHYS1510",
+                "academic_item_url": "/2020/units/PHYS1510"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: PHYS1010"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.02",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Modern Mechanics",
+                "academic_item_code": "PHYS1010",
+                "academic_item_url": "/2020/units/PHYS1010"
+              },
+              {
+                "academic_item": {
+                  "value": "Unit: PHYS1520"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Physics for Electrical and Electronic Engineering",
+                "academic_item_code": "PHYS1520",
+                "academic_item_url": "/2020/units/PHYS1520"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PHYS1210-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHYS1210"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PHYS1210-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHYS1210"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "PHYS1210-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHYS1210"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "PHYS1210 - Physics for Life Sciences",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Physics and Astronomy "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit develops a conceptual and quantitative approach to key physics topics including: waves, light and sound; electricity; forces and motion; and thermodynamics, with illustrations of these topics using medical, biological and technological applications. It teaches students to apply their knowledge of science to solve problems; to think and reason logically and creatively; and to communicate effectively. Students will practice the basic techniques of physical measurement, data analysis and verification of theoretical models. Written communication skills for documenting laboratory work and problem-solving techniques are emphasised throughout the unit.",
+    "search_title": "PHYS1210 - Physics for Life Sciences",
+    "code": "PHYS1210",
+    "title": "Physics for Life Sciences",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit develops a conceptual and quantitative approach to key physics topics including: waves, light and sound; electricity; forces and motion; and thermodynamics, with illustrations of these topics using medical, biological and technological applications. It teaches students to apply their knowledge of science to solve problems; to think and reason logically and creatively; and to communicate effectively. Students will practice the basic techniques of physical measurement, data analysis and verification of theoretical models. Written communication skills for documenting laboratory work and problem-solving techniques are emphasised throughout the unit.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T14:05:53.914",
+  "code": "PHYS1210",
+  "title": "Physics for Life Sciences",
+  "implementationYear": "2021"
+}

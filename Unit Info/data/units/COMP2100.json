@@ -1,0 +1,318 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "2000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Analyze assembly code fragments.  Trace execution and re-express with higher level descriptions.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Explain how the hardware impacts on software performance and how software can interact directly with the hardware.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Analyze machine representations of data, such as integer and floating point.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Use a command line interface to control the computer.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Produce code that utilises system software to provide controlled access to system resources.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Identify security flaws that can arise from program execution.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Readings, attempting discussion questions before class, forum activity",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "COMP202",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "COMP1010 or COMP125",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Binary Bomb Lab",
+        "type": {
+          "label": "Programming Task",
+          "value": "programming_task"
+        },
+        "weight": "20",
+        "description": "Use debugging tools to understand the behaviour of a precompiled program. Find input strings that will be acceptable to the program (i.e. defuse the binary bomb). Marks are awarded for defusing each of several phase puzzles, and a limited number are marks are deducted for exploding the bomb. Students receive immediate feedback on their attempts, and can monitor their final mark for this assignment in real time. Each student has an individualised task.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Binary Bomb Lab",
+        "type": {
+          "label": "Programming Task",
+          "value": "programming_task"
+        },
+        "weight": "25",
+        "description": "Use debugging tools to understand the behaviour of a precompiled program. Find input strings that will be acceptable to the program (i.e. defuse the binary bomb). Marks are awarded for defusing each of several phase puzzles, and a limited number are marks are deducted for exploding the bomb. Students receive immediate feedback on their attempts, and can monitor their final mark for this assignment in real time. Each student has an individualised task.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final examination ",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "Final examination.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Workshop participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "10",
+        "description": "Students will participate in online workshop classes.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Mid-semester quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "Short quiz conducted in practical class sessions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Weekly online quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "10",
+        "description": "Students will complete a short quiz online each week.  Multiple attempts are permitted.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "End-semester Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "5",
+        "description": "Short quiz conducted in practical class session.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Data File Lab",
+        "type": {
+          "label": "Programming Task",
+          "value": "programming_task"
+        },
+        "weight": "20",
+        "description": "Develop C programs to manipulate data files. Submissions are automatically marked with immediate feedback to assist learning. Multiple submissions are permitted. Most marking is automatic and immediate; however, a portion of marks (3-4 marks out of 20) is awarded after the assignment submissions are closed, based on human assessment of program writing style compared to published guidelines. Each student has an individualised task.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Data File Lab",
+        "type": {
+          "label": "Programming Task",
+          "value": "programming_task"
+        },
+        "weight": "25",
+        "description": "Develop C programs to manipulate data files. Submissions are automatically marked with immediate feedback to assist learning. Multiple submissions are permitted. Most marking is automatic and immediate; however, a portion of marks (up to 5 marks out of 20) is awarded after the assignment submissions are closed, based on instructor assessment of program writing style compared to published guidelines. Each student has an individualised task.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "Session 2-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "50",
+        "description": "Written examination",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP2100"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "COMP2100"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "COMP2100 - Systems Programming",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Computing "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit studies the boundary between software and the systems on which software executes. It considers the impact of constraints imposed by operating systems and hardware systems on the design and performance of computer software. Students will learn how to operate within these constraints to build effective systems software. The unit studies these issues by looking below the abstractions provided by high-level programming languages. \n \nThe unit is an introduction to systems programming and related issues. It provides an entry point into more advanced study of computer systems in the following areas: hardware implementation, operating systems, network design and programming, and programming language design and implementation.",
+    "search_title": "COMP2100 - Systems Programming",
+    "code": "COMP2100",
+    "title": "Systems Programming",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit studies the boundary between software and the systems on which software executes. It considers the impact of constraints imposed by operating systems and hardware systems on the design and performance of computer software. Students will learn how to operate within these constraints to build effective systems software. The unit studies these issues by looking below the abstractions provided by high-level programming languages. \n \nThe unit is an introduction to systems programming and related issues. It provides an entry point into more advanced study of computer systems in the following areas: hardware implementation, operating systems, network design and programming, and programming language design and implementation.",
+  "level": "2000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T15:15:04.748",
+  "code": "COMP2100",
+  "title": "Systems Programming",
+  "implementationYear": "2021"
+}

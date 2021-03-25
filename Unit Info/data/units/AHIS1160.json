@@ -1,0 +1,199 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Recognise and recall Coptic script and phonetic structure",
+        "code": "ULO1"
+      },
+      {
+        "description": "Explore the significance of Coptic for the study of relevant ancient cultures",
+        "code": "ULO6"
+      },
+      {
+        "description": "Assess grammar, explore grammatical reference tools, and recognise and recall linguistic technical terms",
+        "code": "ULO4"
+      },
+      {
+        "description": "Integrate knowledge of grammar and vocabulary in reading and/or writing simple Coptic texts",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify and recall Coptic grammatical structures at elementary level",
+        "code": "ULO2"
+      },
+      {
+        "description": "Recognise and memorise foundational Coptic vocabulary",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation of weekly exercises and revision of previously done grammar and vocabulary.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "AHIS268, AHIS168",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Grammar Quiz",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "A fortnightly short-answer test of 10 points of grammar taken from the previous lessons.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Examinatiom",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "An Examination held in the Examination period brings together everything studied in the course to demonstrate an understanding of Coptic vocabulary and grammar.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Assignments",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "45",
+        "description": "Three assignments which consolidate the grammar and vocabulary learned to the time when each assignment is set.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "AHIS1160-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS1160"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "AHIS1160-unit_teaching_period-exam_att-subject",
+        "display_name": "Session 2-exam_att-Other",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Attendance for exam only"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AHIS1160"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Attendance for exam only, Other<br />",
+    "subject_search_title": "AHIS1160 - Coptic Egyptian A",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of History and Archaeology"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is an introduction to Coptic, the final stage of the Egyptian script and language. An understanding of Coptic is necessary for advanced study of late antique and Christian Egypt, and is of great benefit to those studying earlier phases of the Egyptian language. This unit focuses on the Sahidic (&#39;Upper Egyptian&#39;)dialect, the first Coptic dialect into which biblical texts were translated in the third century. Sahidic became a pan-Egyptian written dialect in the fourth and following centuries,and boasts a rich literature, both original and translated.",
+    "search_title": "AHIS1160 - Coptic Egyptian A",
+    "code": "AHIS1160",
+    "title": "Coptic Egyptian A",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is an introduction to Coptic, the final stage of the Egyptian script and language. An understanding of Coptic is necessary for advanced study of late antique and Christian Egypt, and is of great benefit to those studying earlier phases of the Egyptian language. This unit focuses on the Sahidic (&#39;Upper Egyptian&#39;)dialect, the first Coptic dialect into which biblical texts were translated in the third century. Sahidic became a pan-Egyptian written dialect in the fourth and following centuries,and boasts a rich literature, both original and translated.",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T10:12:52.732",
+  "code": "AHIS1160",
+  "title": "Coptic Egyptian A",
+  "implementationYear": "2021"
+}

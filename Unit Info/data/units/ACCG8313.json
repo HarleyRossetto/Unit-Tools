@@ -1,0 +1,278 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply and communicate professional responsibilities of an accountant from multiple perspectives involving complex ethical, governance and judgment matter operating in a global context.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Interpret the nature, role and vital importance of corporate social responsibility and sustainable development ",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explain the accounting profession in general and the varied roles of professional accountants including in relation to strategic, leadership and global issues driving accountants and the accounting profession ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse governance and regulatory frameworks affecting entities and the local and global perspectives of stakeholders in relation to these frameworks ",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Students are expected to fully study the course material and recommended readings of each CPA Module. Students are encouraged to properly construct their own notes based on the readings, any additional comments, and supplements. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ACCG913",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(40cp at 6000 level and (ACCG921 or ACCG8121) and (ACCG923 or ACCG8123) and (ACCG926 or ACCG8126) and admission to MProfAcc or MProfAccgLead) or admission to MAdvProfAcc and 10cp at 8000 level",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Class test 1 ",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "An online class test comprising of multiple choice questions and written response questions will be conducted during class time. This test is designed to provide feedback to students on their level of understanding of key topics and concepts covered and to identify any particular learning challenges or areas of difficulties.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In Class Test 2 ",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "35",
+        "description": "An online computer exam comprising of multiple-choice questions and extended response questions, mirroring the CPA exam conditions and length will be conducted during class time. This test is designed to provide feedback to students on their level of understanding of key topics and concepts covered and to identify any particular learning challenges or areas of difficulties.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "Students are required to actively participate in online discussions (eg zoom, discussion forums) both individually and in a group context when required. Prior preparation is necessary for active participation. The participation mark will be a result of attempting to participate, as well as the quality and frequency of that participation. Class participation is designed to encourage and help students achieve the learning outcomes of this unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Participation ",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "15",
+        "description": "Students are required to actively participate in class discussions both individually and in a group context when required. Prior preparation is necessary for active participation. The participation mark will be a result of attempting to participate, as well as the quality and frequency of that participation. Class participation is designed to encourage and help students achieve the learning outcomes of this unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 1-Weekday-North Ryde, Session 2-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "CPA External Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "30",
+        "description": "Examination administered by CPA Australia. CPA Australia will advise on the format and topics included in the final exam. Students need to achieve at least a PASS mark in this CPA external examination. If students do not pass this CPA examination, students will not pass this unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "In Class Test 2",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "35",
+        "description": "An online computer exam comprising of multiple-choice questions and/or extended response questions, mirroring the CPA exam conditions and length will be conducted during class time. This test is designed to provide feedback to students on their level of understanding of key topics and concepts covered and to identify any particular learning challenges or areas of difficulties.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "ACCG8313-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8313"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG8313-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8313"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG8313-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8313"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "ACCG8313-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "ACCG8313"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "ACCG8313 - CPA - Ethics and Governance",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Accounting and Corporate Governance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides extended formal academic support to students concurrently enrolled in the Ethics and Governance unit of the CPA program. This unit deals with core professional capabilities that must be possessed by all accountants. It explores and analyses the roles and functions of the accounting profession and its impact on and interface with society at large. It considers in detail a wide variety of issues including general theories of ethics and also the nature and application of the mandatory accounting professional ethical framework. The unit explores a range of governance issues that must be understood by accountants, including corporate social responsibility, corporate law and competition and consumer law. ‘Corporate social responsibility’ aspects are wide-ranging and include environmental and social reporting and intergenerational concerns. Students’ skills are extended with a focus on both developing practical problem solving capabilities and effective communication in complex managerial and related circumstances.",
+    "search_title": "ACCG8313 - CPA - Ethics and Governance",
+    "code": "ACCG8313",
+    "title": "CPA - Ethics and Governance",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides extended formal academic support to students concurrently enrolled in the Ethics and Governance unit of the CPA program. This unit deals with core professional capabilities that must be possessed by all accountants. It explores and analyses the roles and functions of the accounting profession and its impact on and interface with society at large. It considers in detail a wide variety of issues including general theories of ethics and also the nature and application of the mandatory accounting professional ethical framework. The unit explores a range of governance issues that must be understood by accountants, including corporate social responsibility, corporate law and competition and consumer law. ‘Corporate social responsibility’ aspects are wide-ranging and include environmental and social reporting and intergenerational concerns. Students’ skills are extended with a focus on both developing practical problem solving capabilities and effective communication in complex managerial and related circumstances.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-01-14T13:22:43.316",
+  "code": "ACCG8313",
+  "title": "CPA - Ethics and Governance",
+  "implementationYear": "2021"
+}

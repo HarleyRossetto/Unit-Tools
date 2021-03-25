@@ -1,0 +1,191 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "analyse the political and economic impact of media representations.",
+        "code": "ULO4"
+      },
+      {
+        "description": "communicate and present information in modes suited to a range of audiences, and in a range of text-based and audio-visual media.",
+        "code": "ULO3"
+      },
+      {
+        "description": "apply independent scholarly research to media cases with global/multicultural/ transnational foci.",
+        "code": "ULO2"
+      },
+      {
+        "description": "evaluate how media content can be represented across a range of formats, genres, and platforms.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MMediaComm or MCrInd or MIPD",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Presentation",
+        "type": {
+          "label": "Presentation",
+          "value": "presentation"
+        },
+        "weight": "30",
+        "description": "Task:  Once this semester, you will be responsible for giving a five minute “provocation presentation”, based on an assigned weekly reading. In this presentation, you will be expected to: \nintroduce and teach your peers one CONCEPT (or argument, or observation) of your choosing, taken from the class readings on offer that week.\n\nintroduce and detail one CASE STUDY of your choosing that you found to be a useful illustration of the concept (or argument, or observation) you just taught the class about.\n\u2028\nintroduce and consider one QUESTION you have, connected to your case study, and/or concept, in a way that invites and encourages class conversation. \n\nRefer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Project Proposal",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "20",
+        "description": "Task: For this assessment, you will provide a written proposal that explains what you are planning to create for your final project in this class (see more on that in Assessment 3.) In class, you will receive a template to guide you as you prepare your proposal. At minimum, your proposal should indicate: \n- Your desired media format and narrative position for this project.\n- A detailed description of what you wish to create (i.e. “a ___ about ____”). \n- A rationale explaining how this project dialogues with issues from class.\n- A detailed explanation of an objective you hope achieve with their project, and why (e.g.” I want to teach people about X, because Y,” or   “I want to show how I  felt  during X because Y”.\n- An intended timeline for completing your project.\n\nRefer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Project",
+        "type": {
+          "label": "Media presentation",
+          "value": "media"
+        },
+        "weight": "50",
+        "description": "Task: \n\nDrawing on the ideas that have been investigated through the course of this semester, you will produce an original project that engages with at least one key concept or debate from the unit readings/lectures. When we say “engages with,” we don’t necessarily mean “agrees with.” In your project, you can feel free to question, critique, reframe, expand on, or otherwise interact with ideas from class.  \n\nFormat:\n\nYour project can take any form you wish: it could be an essay; a short story; a short video; a curated photo series; a staged prank or social experiment of some sort, etc.** We’ll discuss ideal lengths for different formats during tutorials.  Regardless of format, you’ll need to ask yourself, questions like: \n\n- As a student in a class called Representing Realities, am I interested in creating a project that deals in facts, in fictions, or in a mix of these? Why?\n\n- Do I want readers/viewers to perceive my display of reality in this project as reliable, unreliable, hard to verify, or a mix of these? Why?\n\n- Do I want readers/viewers to experience my narration of reality as objective, omniscient, personally invested/affected, or something else? Why?\n\n**Please be advised that the range of format options above has been provided to allow students across all areas of the department to exercise their existing creative strengths. However, this is NOT a production class, and we do not teach production-oriented skills. If you are in doubt about format, we urge you to choose the essay approach, as it is one most students have encountered in the past.\n\nRefer to iLearn for further information.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MMCC6030-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC6030"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MMCC6030-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MMCC6030"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "MMCC6030 - Media and Communications: Representations",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Media, Communications, Creative Arts, Language and Literature"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit explores the practical and political realities of creative and media production as it applies to fiction, non-fiction, public relations, advertising, journalism, screen, radio, and other sorts of representational strategies. Drawing from the unit title students are exposed to major debates around: 1) the structural elements required to represent reality, both in and off media; 2) the politics of representation as a social practice; 3) the ethics of representing as an individual act; and 4) the unstable nature of representation received, modified, and re-circulated as &#34;renewed reality&#34;, especially via private, gated, public and &#34;super-public&#34; spheres.",
+    "search_title": "MMCC6030 - Media and Communications: Representations",
+    "code": "MMCC6030",
+    "title": "Media and Communications: Representations",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit explores the practical and political realities of creative and media production as it applies to fiction, non-fiction, public relations, advertising, journalism, screen, radio, and other sorts of representational strategies. Drawing from the unit title students are exposed to major debates around: 1) the structural elements required to represent reality, both in and off media; 2) the politics of representation as a social practice; 3) the ethics of representing as an individual act; and 4) the unstable nature of representation received, modified, and re-circulated as &#34;renewed reality&#34;, especially via private, gated, public and &#34;super-public&#34; spheres.",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-30T10:28:03.344",
+  "code": "MMCC6030",
+  "title": "Media and Communications: Representations",
+  "implementationYear": "2021"
+}

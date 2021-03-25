@@ -1,0 +1,252 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "1000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "express and defend your own views with increased clarity",
+        "code": "ULO4"
+      },
+      {
+        "description": "contribute to the learning of the group by engaging constructively in philosophical discussion and activities",
+        "code": "ULO5"
+      },
+      {
+        "description": "explain important philosophical responses to problems about human nature at an introductory level",
+        "code": "ULO2"
+      },
+      {
+        "description": "critically and reflectively respond to the problems and theories introduced in the unit.",
+        "code": "ULO3"
+      },
+      {
+        "description": "identify key philosophical problems about human nature at an introductory level",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Searching for and reading relevant background literature",
+        "activity": {
+          "label": "Research",
+          "value": "research"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Note taking, reviewing content",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Compulsory unit readings",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "PHI130, PHL131, PHIL131, PHIX131",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "35",
+        "description": "An argumentative Essay about themes from the unit.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Participation",
+        "type": {
+          "label": "Participatory task",
+          "value": "participatory_task"
+        },
+        "weight": "20",
+        "description": "Students should be well prepared for online discussion, having done the required reading and devised questions and discussion points. Students should make a constructive contribution to online discussion and associated activities.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Reflective tasks",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "20",
+        "description": "Short reflective tasks",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "25",
+        "description": "Multiple choice questions will cover material discussed in the weekly content.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "PHIX1031",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: PHIX1031"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: PHIL1031"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "The Philosophy of Human Nature",
+                "academic_item_code": "PHIL1031",
+                "academic_item_url": "/2020/units/PHIL1031"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "PHIX1031-unit_teaching_period-Online",
+        "display_name": "Session 1-Online",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Fully online/virtual"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "PHIX1031"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Fully online/virtual<br />",
+    "subject_search_title": "PHIX1031 - The Philosophy of Human Nature",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Philosophy "
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "The unit introduces the big philosophical questions about human nature, personal identity and the meaning of life. Are human beings somehow unique in nature? Do we have distinct selves that endure through time? Do we have free will? What is the relation between our identity and the things that matter to us? The main theme is whether there is such a thing as human nature at all. We begin by asking whether mind is entirely physical or could in principle survive bodily death. We also explore the links between the self, time, and memory. The remainder of the unit introduces some key thinkers of the twentieth century; and we explore their views on freedom, lived experience, and our relations to others. The unit as a whole offers a detailed introduction to controversial questions about the nature of the mind, showing how historical understanding animates current debates, and demonstrating the relevance of philosophy to live modern issues about science, human nature, and culture. All enrolment queries should be directed to Open Universities Australia (OUA): see <a href=\"http://www.open.edu.au\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">www.open.edu.au",
+    "search_title": "PHIX1031 - The Philosophy of Human Nature",
+    "code": "PHIX1031",
+    "title": "The Philosophy of Human Nature",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "The unit introduces the big philosophical questions about human nature, personal identity and the meaning of life. Are human beings somehow unique in nature? Do we have distinct selves that endure through time? Do we have free will? What is the relation between our identity and the things that matter to us? The main theme is whether there is such a thing as human nature at all. We begin by asking whether mind is entirely physical or could in principle survive bodily death. We also explore the links between the self, time, and memory. The remainder of the unit introduces some key thinkers of the twentieth century; and we explore their views on freedom, lived experience, and our relations to others. The unit as a whole offers a detailed introduction to controversial questions about the nature of the mind, showing how historical understanding animates current debates, and demonstrating the relevance of philosophy to live modern issues about science, human nature, and culture. All enrolment queries should be directed to Open Universities Australia (OUA): see <a href=\"http://www.open.edu.au\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">www.open.edu.au",
+  "level": "1000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-11-26T10:52:23.404",
+  "code": "PHIX1031",
+  "title": "The Philosophy of Human Nature",
+  "implementationYear": "2021"
+}

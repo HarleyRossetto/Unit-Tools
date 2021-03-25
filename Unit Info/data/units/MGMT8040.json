@@ -1,0 +1,194 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically evaluate the effectiveness of project management techniques and how these are used in project teams for business problem solving.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate the application of business research skills to contemporary business issues and themes both as an individual and as a member of a team.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Analyse the effectiveness of progress monitoring techniques used to effectively manage project delivery.",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for interactive lecture and tutorial activities.",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "(BUS651 or MGMT6051 or ECON649 or ECON6049 or MGNT608 or MGMT6008 or MKTG696 or MKTG6096) or (admission to MInfoSysMgmt or MEngMgt)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BUS840",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Group Business Project Analysis",
+        "type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "weight": "45",
+        "description": "This assessment has two components worth 45% in total. One component is a 3,000 word group report worth 30%. The other component is a 12 minute group presentation worth 15%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Individual Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "35",
+        "description": "This assessment is worth 35% in total. It is a 1,500 word (excluding references) individual essay.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Class Test",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "20",
+        "description": "This assessment has two components worth 20% in total. The first is a 30 question individual quiz administered in a three-hour window and worth 15%. The second is a mini-case study worth 5%.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT8040-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8040"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT8040-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT8040"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MGMT8040 - Business Project Management",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit is designed to develop the knowledge and skills required for effective problem solving and critical analysis in business project management. Students will gain an understanding of the nature and scope of leadership and technical capabilities needed for effective project management. The unit includes an analysis of: the definition, scoping and assessment of project feasibility; project planning and procurement; building a project team; delivery-time, cost and quality; project resource management; managing project risks; and project communications and marketing. These issues are critically examined through a combination of formal learning, group and individual project work, and interactive class-based activities.",
+    "search_title": "MGMT8040 - Business Project Management",
+    "code": "MGMT8040",
+    "title": "Business Project Management",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit is designed to develop the knowledge and skills required for effective problem solving and critical analysis in business project management. Students will gain an understanding of the nature and scope of leadership and technical capabilities needed for effective project management. The unit includes an analysis of: the definition, scoping and assessment of project feasibility; project planning and procurement; building a project team; delivery-time, cost and quality; project resource management; managing project risks; and project communications and marketing. These issues are critically examined through a combination of formal learning, group and individual project work, and interactive class-based activities.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-09T09:44:43.646",
+  "code": "MGMT8040",
+  "title": "Business Project Management",
+  "implementationYear": "2021"
+}

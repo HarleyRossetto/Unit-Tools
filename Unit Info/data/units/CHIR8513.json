@@ -1,0 +1,313 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Describe, perform, and interpret physical and functional capacity assessments for the musculoskeletal system, and relate impairments or findings to presenting musculoskeletal conditions.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Demonstrate patient-centred communication, education, and coaching during patient assessment, management, and to aid behaviour change.",
+        "code": "ULO5"
+      },
+      {
+        "description": "Identify risks and barriers to behaviour change with respect to exercise participation for the prevention and management of common musculoskeletal conditions.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Develop person-centered, goal-oriented exercise programs to target a variety of musculoskeletal conditions within an evidenced-based framework, with consideration of biopsychosocial and lifestyle factors, and incorporation of passive care where appropriate.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Apply key principles relating to exercise science and physical activity in relation to body functions, health, well-being, physical performance, and the prevention and management of disability.",
+        "code": "ULO1"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "3 hours of reading per week for 10 weeks",
+        "activity": {
+          "label": "Readings",
+          "value": "readings"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Rehearing clinical performance in preparation for OSCES",
+        "activity": {
+          "label": "Rehearsals",
+          "value": "rehearsals"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "1-hour of tutorial class preparation per week for 10 weeks",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "CHIR8511 ",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Rehabilitation - cervico-thoracic spine and upper limb objective structured clinical evaluation (OSCE)",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "20",
+        "description": "Rehabilitation - cervico-thoracic spine and upper limb objective structured clinical evaluation (OSCE)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Rehabilitation Final Theory Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "Rehabilitation Final Theory Exam",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Rehabilitation Assignment 1",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "10",
+        "description": "Academic poster clinical guidelines / systematic reviews",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Rehabilitation - lower limb objective structured clinical evaluation (OSCE)",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "20",
+        "description": "Rehabilitation - lower limb objective structured clinical evaluation (OSCE)",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Rehabilitation Assignment 2",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "10",
+        "description": "Exercise prescription based on a case study",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "CHIR8513",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: CHIR8513"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [
+              {
+                "parent_record": {
+                  "value": "Relationship Groups: Container 1"
+                },
+                "title": "Container 1.3",
+                "parent_connector": {
+                  "label": "AND",
+                  "value": "AND"
+                },
+                "containers": [],
+                "relationships": [
+                  {
+                    "academic_item": {
+                      "value": "Unit: CHIR8504"
+                    },
+                    "academic_item_type": {
+                      "label": "Unit",
+                      "value": "subject"
+                    },
+                    "abbr_name": "",
+                    "academic_item_version_name": "2020.04",
+                    "academic_item_credit_points": "10",
+                    "academic_item_name": "Clinical Management",
+                    "academic_item_code": "CHIR8504",
+                    "academic_item_url": "/2020/units/CHIR8504"
+                  }
+                ]
+              }
+            ],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: CHIR8503"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.03",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Physical and Functional Assessment",
+                "academic_item_code": "CHIR8503",
+                "academic_item_url": "/2020/units/CHIR8503"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "CHIR8513-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIR8513"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "CHIR8513-unit_teaching_period-Special-subject",
+        "display_name": "Session 1-Special-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "CHIR8513"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances, North Ryde<br />",
+    "subject_search_title": "CHIR8513 - Functional Rehabilitation",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Chiropractic "
+    },
+    "school": {
+      "value": "Faculty of Science and Engineering"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit concerns itself with modern functional rehabilitation of musculoskeletal conditions as may be managed by registered chiropractors in practice. The students are exposed to paradigms related to active care, the biopsychosocial model, the use of outcome measures and clinical practice guidelines. Skills are developed in patient-centred communication, physical and functional capacity assessment, functional rehabilitation program design and implementation.",
+    "search_title": "CHIR8513 - Functional Rehabilitation",
+    "code": "CHIR8513",
+    "title": "Functional Rehabilitation",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit concerns itself with modern functional rehabilitation of musculoskeletal conditions as may be managed by registered chiropractors in practice. The students are exposed to paradigms related to active care, the biopsychosocial model, the use of outcome measures and clinical practice guidelines. Skills are developed in patient-centred communication, physical and functional capacity assessment, functional rehabilitation program design and implementation.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T11:41:54.496",
+  "code": "CHIR8513",
+  "title": "Functional Rehabilitation",
+  "implementationYear": "2021"
+}

@@ -1,0 +1,222 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Design and evaluate health promotion strategies to demonstrate effective application of key principles and theoretical models of health promotion",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify and critically analyse the range of theoretical and practical intervention frameworks available for disease prevention and health promotion delivery within a specific population/community",
+        "code": "ULO3"
+      },
+      {
+        "description": "Explain health promotion concepts and principles in planning and practice",
+        "code": "ULO1"
+      },
+      {
+        "description": "Analyse the range of factors that influence the health of individuals and populations, including social determinants of health and lifestyle behaviours",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Tutorial preparation ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      },
+      {
+        "description": "Lecture preparation",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "HSYP805",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "Admission to MPH or MPH(Res)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Health promotion program - design",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "40",
+        "description": "Design of health promotion program bases on previously submitted plan",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Health promotion program - plan",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "20",
+        "description": "Proposed plan for health promotion program including formative feedback",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Portfolio reflection",
+        "type": {
+          "label": "Reflective Writing",
+          "value": "reflective_writing"
+        },
+        "weight": "0",
+        "description": "Reflection of student performance and achievement of unit learning outcomes",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Health promotion program - evaluation",
+        "type": {
+          "label": "Plan",
+          "value": "plan"
+        },
+        "weight": "40",
+        "description": "Evaluation of the submitted health promotion program ",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "HSYP8104-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HSYP8104"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "HSYP8104-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "HSYP8104"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "HSYP8104 - Disease Prevention and Health Promotion",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "Health promotion creates supportive conditions for health, enabling people to have control over, and improve their health and wellbeing. Health promotion officers need to have a good understanding of health promotion approaches and behaviour change models in order to engage communities and enable people to address their health needs. In this unit you will develop an understanding of health promotion concepts, frameworks and theories used to formulate policy and develop programs tailored for a variety of settings. The unit is taught with an emphasis on the determinants of health and health inequities, including economic, social and environmental influences. The key skills you will develop include designing and evaluating evidence-based health promotion initiatives within a specific population/community. These skills will prepare you for a career in health promotion practice and research.",
+    "search_title": "HSYP8104 - Disease Prevention and Health Promotion",
+    "code": "HSYP8104",
+    "title": "Disease Prevention and Health Promotion",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "Health promotion creates supportive conditions for health, enabling people to have control over, and improve their health and wellbeing. Health promotion officers need to have a good understanding of health promotion approaches and behaviour change models in order to engage communities and enable people to address their health needs. In this unit you will develop an understanding of health promotion concepts, frameworks and theories used to formulate policy and develop programs tailored for a variety of settings. The unit is taught with an emphasis on the determinants of health and health inequities, including economic, social and environmental influences. The key skills you will develop include designing and evaluating evidence-based health promotion initiatives within a specific population/community. These skills will prepare you for a career in health promotion practice and research.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-04T09:31:52.887",
+  "code": "HSYP8104",
+  "title": "Disease Prevention and Health Promotion",
+  "implementationYear": "2021"
+}

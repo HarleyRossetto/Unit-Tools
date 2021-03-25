@@ -1,0 +1,311 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "3000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Explain the principles and theory behind each valuation technique. ",
+        "code": "ULO1"
+      },
+      {
+        "description": "Critically reflect on the process of business valuation practices and on working productively in teams when undertaking corporate financial analysis and valuation.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Evaluate business valuation techniques and apply appropriately to real-world problems.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Communicate professionally such as in making investment recommendations and providing consultancy advice.",
+        "code": "ULO4"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Preparation for lectures, tutorials and assessment tasks. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Special, Session 1-Special"
+      },
+      {
+        "description": "Preparation for lectures, tutorials and assessment tasks. ",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": "Session 2-Weekday-North Ryde, Session 1-Weekday-North Ryde"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "ACCG350 or ACCG3050 or AFIN352 or AFIN3052 or AFIN353 or AFIN3053",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "AFIN310, AFIN312",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "45",
+        "description": "An online two hour open book exam will be held during the University Examination Period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Final Examination",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "55",
+        "description": "The final examination for this unit will be held during the University Examination examination period. The AFIN312 examination will be a 2 hour (and 10 minutes reading time) closed-book examination. Students are permitted ONE A4 page of paper containing reference material printed on both sides. The material may be handwritten or typed. The page will be submitted and will not be returned at the end of the final examination.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "40",
+        "description": "Students will work in groups to prepare a professional analyst report. The group report will be 7 - 10 pages long. 50% of this assessment mark will be allocated to a student’s individual performance, which can be assessed by  any of the following, individual online test, individual video presentation, individual Q&amp;A, etc.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Special, Session 1-Special",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      },
+      {
+        "assessment_title": "Online quizzes",
+        "type": {
+          "label": "Quiz/Test",
+          "value": "quiz_test"
+        },
+        "weight": "15",
+        "description": "There are two online quizzes, which aim to assess student progress in the course. The first online quiz (weighting 5%) will comprise 5 - 10 questions. The second quiz (weighting 10%) will comprise 10 - 15 questions.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Group Report",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "30",
+        "description": "Students will work in groups to prepare a professional analyst report to issue a stock recommendation for a commercial client. The group report will be 7 - 10 pages long. 50% of this assessment mark will be allocated to a student&#39;s individual performance, which will be assessed through various forms-- e.g., oral presentation, reflective essay/blogs/journals/diaries, individual quiz, and panel discussion, etc.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "Session 2-Weekday-North Ryde, Session 1-Weekday-North Ryde",
+        "individual": {
+          "label": "Individual and Group",
+          "value": "Individual and Group"
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "AFIN3012",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.02",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: AFIN3012"
+            },
+            "title": "Container 0",
+            "parent_connector": {
+              "label": "OR",
+              "value": "OR"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: AFIN3010"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2020.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Issues in Applied Finance",
+                "academic_item_code": "AFIN3010",
+                "academic_item_url": "/2020/units/AFIN3010"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFIN3012"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFIN3012"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFIN3012"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "AFIN3012"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 2, Special circumstances<br />Session 1, Special circumstances<br />",
+    "subject_search_title": "AFIN3012 - Issues in Corporate Finance",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Applied Finance "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "This unit comprises a series of academic lectures and industry seminars accompanied by a case study. The aim of the unit is to provide an up-to-date, integrated treatment of the valuation of businesses and investment opportunities that seriously considers industry practice and recent advances in valuation methods. This unit takes you inside the valuation process, learning it step by step, which resembles the industry valuation practice. You will emerge with the skills to understand the fundamentals of market pricing, perform intrinsic valuations, and make and/or suggest investment decisions with due diligence. The unit will showcase several lectures presented by senior industry specialists.",
+    "search_title": "AFIN3012 - Issues in Corporate Finance",
+    "code": "AFIN3012",
+    "title": "Issues in Corporate Finance",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit comprises a series of academic lectures and industry seminars accompanied by a case study. The aim of the unit is to provide an up-to-date, integrated treatment of the valuation of businesses and investment opportunities that seriously considers industry practice and recent advances in valuation methods. This unit takes you inside the valuation process, learning it step by step, which resembles the industry valuation practice. You will emerge with the skills to understand the fundamentals of market pricing, perform intrinsic valuations, and make and/or suggest investment decisions with due diligence. The unit will showcase several lectures presented by senior industry specialists.",
+  "level": "3000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T19:56:00.774",
+  "code": "AFIN3012",
+  "title": "Issues in Corporate Finance",
+  "implementationYear": "2021"
+}

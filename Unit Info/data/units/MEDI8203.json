@@ -1,0 +1,218 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "8000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "Yes",
+      "value": "yes"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Apply basic research methodology and information search strategies to identify evidence to answer relevant clinical research questions (<strong>Capability 1: Scientist and Scholar)</strong>",
+        "code": "ULO4"
+      },
+      {
+        "description": "Construct appropriate research questions and critique methodologies that might be applied to address research questions  <strong>(Capability 1: Scientist and Scholar)</strong>",
+        "code": "ULO3"
+      },
+      {
+        "description": "Perform clinical interviews and examinations efficiently with patients presenting with health conditions covered in Stage 1; and employ sound clinical reasoning skills in deriving diagnoses and management plans that encompass the multiple aspects of the given health issue (<strong>Capability 2: Clinical Practitioner)</strong>",
+        "code": "ULO5"
+      },
+      {
+        "description": "Discuss factors affecting and promoting patient safety and quality in private and public healthcare settings, including medical error, open disclosure and incident management, use of technology in healthcare, and patient management and transference <strong>(Capability 3: Engaged Global Citizen)</strong>",
+        "code": "ULO7"
+      },
+      {
+        "description": "Apply knowledge of relevant medical sciences, clinical presentations, scientific principles and mechanisms of disease to explain a variety of common or clinically-significant disease states, as well as how drugs and other treatments are used to manage or prevent disease in various population sub-groups <strong>(Capability 1: Scientist and Scholar)</strong>",
+        "code": "ULO1"
+      },
+      {
+        "description": "Use feedback from teachers, clinicians, peers and patients, to inform self-evaluation and critical reflection (<strong>Capability 4: Professional)</strong>",
+        "code": "ULO9"
+      },
+      {
+        "description": "Evaluate system-wide safety interventions and high-quality care, including evaluation of the importance of patient safety and quality, the measurement and assessment of patient safety and quality, and the role of technology, systems, people and services <strong>(Capability 3: Engaged Global Citizen)</strong>",
+        "code": "ULO6"
+      },
+      {
+        "description": "Recognise patient safety measures and the impact adverse events have on health service delivery and patient outcomes <strong>(Capability 4: Professional)</strong>",
+        "code": "ULO8"
+      },
+      {
+        "description": "Identify questions and learning needs arising from clinical cases, and work individually or as part of a group to create appropriate responses to clinical scenarios, relevant to critical care, by evaluating evidence from a range of sources, including medical scientific literature  <strong>(Capability 1: Scientist and Scholar)</strong>",
+        "code": "ULO2"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Pre and post readings and preparation for learning activities",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "MEDI923",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      },
+      {
+        "description": "(MEDI8200 or MEDI920) and (MEDI8201 or MEDI921) and (MEDI8202 or MEDI922)",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Objective Structured Clinical Examination (OSCE)",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "60",
+        "description": "The OSCE will have numerous stations and cover all of Stage 1 content. For each station, overall performance, capability aspects and Stage 1 Entrustable Professional Activities will be assessed and recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Research Project Plan",
+        "type": {
+          "label": "Report",
+          "value": "report"
+        },
+        "weight": "20",
+        "description": "Submit a draft research proposal that includes the research question (s), aim (s) and objective (s) for the project to be completed in Stage 2. Overall performance  and capability aspects will be assessed and recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "Yes",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Bedside tutor report and logbook",
+        "type": {
+          "label": "Clinical performance evaluation",
+          "value": "clinical_performance_evaluation"
+        },
+        "weight": "0",
+        "description": "The bedside tutor will provide a supervision rating on the Stage 1 Entrustable Professional Activities and review your logbook and provide an assessment of capability aspect. The results which will be recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Clinical Quiz",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "20",
+        "description": "The Clinical Quiz is a written examination consisting of mainly multiple choice and some short answer questions which will be mapped to capability aspects. Overall and capability aspects performance will be recorded in your Macquarie Assessment Portfolio.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "",
+        "display_name": "Medicine and Health Sciences MDB-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Medicine and Health Sciences MDB"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MEDI8203"
+        }
+      }
+    ],
+    "unit_offering_text": "Medicine and Health Sciences MDB, Weekday attendance, North Ryde<br />",
+    "subject_search_title": "MEDI8203 - Critical Care, Patient Safety and Quality, and Research",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Owned at Faculty level"
+    },
+    "school": {
+      "value": "Faculty of Medicine, Health and Human Sciences"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This 8 week unit provides you with focused learning on the patient safety and quality aspects of health systems, framed within the clinical context of critical care and anaesthetics. You will explore evaluation of system-wide safety interventions and high-quality care; medical error; open disclosure and incident management; digital technology in healthcare, and the role of systems, people and services in the development and delivery of resilient healthcare. The unit incorporates an experiential learning component contextually focused on patient-centred health care delivered in the clinical disciplines of critical care and anaesthetics. The unit includes weekly lectures/seminars, case based learning sessions, clinical bedside tutorials, clinical simulation sessions, as well as clinical placements to ensure you are prepared for Stage 2 of the Macquarie MD. Your learning is integrated with advanced learning about research methodologies to prepare you for your Research Project which you will complete in Stage 2.   You are expected to use these learning opportunities to demonstrate significant progress toward the development of the 4 Macquarie MD Graduate Capabilities: Scientist and Scholar, Clinical Practitioner, Engaged Global Citizen and Professional, and the Entrustable Professional Activities, at a standard appropriate to  end of Stage 1 of the Macquarie MD.",
+    "search_title": "MEDI8203 - Critical Care, Patient Safety and Quality, and Research",
+    "code": "MEDI8203",
+    "title": "Critical Care, Patient Safety and Quality, and Research",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This 8 week unit provides you with focused learning on the patient safety and quality aspects of health systems, framed within the clinical context of critical care and anaesthetics. You will explore evaluation of system-wide safety interventions and high-quality care; medical error; open disclosure and incident management; digital technology in healthcare, and the role of systems, people and services in the development and delivery of resilient healthcare. The unit incorporates an experiential learning component contextually focused on patient-centred health care delivered in the clinical disciplines of critical care and anaesthetics. The unit includes weekly lectures/seminars, case based learning sessions, clinical bedside tutorials, clinical simulation sessions, as well as clinical placements to ensure you are prepared for Stage 2 of the Macquarie MD. Your learning is integrated with advanced learning about research methodologies to prepare you for your Research Project which you will complete in Stage 2.   You are expected to use these learning opportunities to demonstrate significant progress toward the development of the 4 Macquarie MD Graduate Capabilities: Scientist and Scholar, Clinical Practitioner, Engaged Global Citizen and Professional, and the Entrustable Professional Activities, at a standard appropriate to  end of Stage 1 of the Macquarie MD.",
+  "level": "8000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-10-16T18:15:05.84",
+  "code": "MEDI8203",
+  "title": "Critical Care, Patient Safety and Quality, and Research",
+  "implementationYear": "2021"
+}

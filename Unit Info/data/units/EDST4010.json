@@ -1,0 +1,132 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "4000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Undergraduate",
+        "value": "undergrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Design technology-based tasks that are engaging and that enable the collection of data regarding student progress towards syllabus outcomes.",
+        "code": "ULO6"
+      },
+      {
+        "description": "Explain the implications of current issues in ICT and its impact on teaching and learning in secondary school environments.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Demonstrate understanding of the literature and theory of learning and teaching underpinning the effective integration of ICT in the classroom.",
+        "code": "ULO3"
+      },
+      {
+        "description": "Select and organise subject content and ICT resources in ways which engage and enhance student learning outcomes.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Select and evaluate a range of ICT resources that engage students in their learning.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Plan teaching and learning resources that embed current technologies and align outcomes, student activities, assessment, feedback and reporting.",
+        "code": "ULO5"
+      }
+    ],
+    "non_scheduled_learning_activities": [],
+    "enrolment_rules": [
+      {
+        "description": "10cp from EDTE4100-EDTE4420",
+        "type": {
+          "label": "Co-requisite",
+          "value": "corequisite"
+        }
+      },
+      {
+        "description": "EDST3010 or EDST301",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      }
+    ],
+    "assessments": [],
+    "requisites": [],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "EDST4010-unit_teaching_period",
+        "display_name": "2022",
+        "teaching_period": {
+          "value": "2022"
+        },
+        "attendance_mode": {
+          "value": ""
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "EDST4010"
+        }
+      }
+    ],
+    "unit_offering_text": "2022<br />",
+    "subject_search_title": "EDST4010 - Practice of Teaching: ICT in the Secondary School",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Macquarie School of Education"
+    },
+    "school": {
+      "value": "Faculty of Arts"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "PACE",
+      "value": "pace"
+    },
+    "description": "EDST4010 considers how information and communication technology can be effectively and ethically integrated into everyday teaching practice. It is particularly concerned with issues related to the use of technology in the classroom: how to successfully select and apply learning technologies to achieve syllabus outcomes; how to interact with social networking platforms in the classroom; how to develop cyber safety habits in secondary school students; and appropriate pedagogies for online learning. Practical application of these understandings is developed through skills-based workshops that focus on the creation, trial and evaluation of a teaching and learning website.",
+    "search_title": "EDST4010 - Practice of Teaching: ICT in the Secondary School",
+    "code": "EDST4010",
+    "title": "Practice of Teaching: ICT in the Secondary School",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "EDST4010 considers how information and communication technology can be effectively and ethically integrated into everyday teaching practice. It is particularly concerned with issues related to the use of technology in the classroom: how to successfully select and apply learning technologies to achieve syllabus outcomes; how to interact with social networking platforms in the classroom; how to develop cyber safety habits in secondary school students; and appropriate pedagogies for online learning. Practical application of these understandings is developed through skills-based workshops that focus on the creation, trial and evaluation of a teaching and learning website.",
+  "level": "4000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2020-12-02T11:31:43.432",
+  "code": "EDST4010",
+  "title": "Practice of Teaching: ICT in the Secondary School",
+  "implementationYear": "2021"
+}

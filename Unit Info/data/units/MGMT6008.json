@@ -1,0 +1,271 @@
+{
+  "data": {
+    "grading_schema": {
+      "label": "Graded",
+      "value": "graded"
+    },
+    "study_level": {},
+    "quota_enrolment_requirements": "",
+    "exclusions": "",
+    "level": {
+      "value": "6000"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "special_unit_type": [
+      {
+        "label": "Postgraduate",
+        "value": "postgrad"
+      }
+    ],
+    "version_status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "special_topic": false,
+    "asced_broad": {
+      "value": ""
+    },
+    "placement_proportion": {
+      "label": "No",
+      "value": "no"
+    },
+    "unit_description": [],
+    "unit_learning_outcomes": [
+      {
+        "description": "Critically assess different perspectives on, and approaches to, work and management and assess their implications for organisational outcomes.",
+        "code": "ULO2"
+      },
+      {
+        "description": "Employ ethical frameworks to analyse management decisions.",
+        "code": "ULO4"
+      },
+      {
+        "description": "Identify key workplace issues and use theory to explain and evaluate their impact.",
+        "code": "ULO1"
+      },
+      {
+        "description": "Utilise research and critical analysis skills to critique current debates across a range of workplace issues.",
+        "code": "ULO3"
+      }
+    ],
+    "non_scheduled_learning_activities": [
+      {
+        "description": "Class preparation and readings",
+        "activity": {
+          "label": "Class Preparation",
+          "value": "class_preparation"
+        },
+        "offerings": ""
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "Admission to MEngMgt or MEngEnvSafetyEng",
+        "type": {
+          "label": "Pre-requisite",
+          "value": "prerequisite"
+        }
+      },
+      {
+        "description": "BUS651, MGNT608, MGNT606",
+        "type": {
+          "label": "NCCW (pre-2020 units)",
+          "value": "nccw"
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "assessment_title": "Essay",
+        "type": {
+          "label": "Essay",
+          "value": "essay"
+        },
+        "weight": "30",
+        "description": "Through this 2,000 word essay students will demonstrate their ability to: research; construct a sustained argument/s in response to a specific question and offer examples to support argument/s; as well as demonstrate understanding in relation to recent developments and issues in HRM and professional practice. Note that demonstrating effective written communication is critical.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Online Final Exam",
+        "type": {
+          "label": "Examination",
+          "value": "exam"
+        },
+        "weight": "40",
+        "description": "A two-hour examination will be held during the University Examination Period.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      },
+      {
+        "assessment_title": "Case Study Report",
+        "type": {
+          "label": "Case study/analysis",
+          "value": "case_study"
+        },
+        "weight": "30",
+        "description": "Students will develop their case study skills through undertaking research and analysis on a targeted organisation. Students will identify an organisation and, through research, identify and evaluate its work-related management strategies, practices, processes and outcomes in a 2,000 word submission.",
+        "applies_to_all_offerings": "No",
+        "hurdle_task": "No",
+        "offerings": "",
+        "individual": {
+          "label": "",
+          "value": ""
+        }
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "MGMT6008",
+        "active": true,
+        "description": "",
+        "requisite_type": {
+          "label": "NCCW (2020 and onwards)",
+          "value": "anti_corequisite"
+        },
+        "academic_item_version_number": "2021.04",
+        "containers": [
+          {
+            "parent_record": {
+              "value": "Relationship Builder: MGMT6008"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [],
+            "relationships": [
+              {
+                "academic_item": {
+                  "value": "Unit: MGMT6051"
+                },
+                "academic_item_type": {
+                  "label": "Unit",
+                  "value": "subject"
+                },
+                "abbr_name": "",
+                "academic_item_version_name": "2021.01",
+                "academic_item_credit_points": "10",
+                "academic_item_name": "Work, Organisation and Management",
+                "academic_item_code": "MGMT6051",
+                "academic_item_url": "/2021/units/MGMT6051"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "publish": "true",
+        "name": "MGMT6008-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 1-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT6008"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT6008-unit_teaching_period-Special",
+        "display_name": "Session 1-Special",
+        "teaching_period": {
+          "value": "Session 1"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT6008"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT6008-unit_teaching_period-Weekday-subject",
+        "display_name": "Session 2-Weekday-North Ryde",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Weekday attendance"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT6008"
+        }
+      },
+      {
+        "publish": "true",
+        "name": "MGMT6008-unit_teaching_period-Special",
+        "display_name": "Session 2-Special",
+        "teaching_period": {
+          "value": "Session 2"
+        },
+        "attendance_mode": {
+          "value": "Special circumstances"
+        },
+        "quota_number": "",
+        "study_level": {},
+        "academic_item": {
+          "value": "MGMT6008"
+        }
+      }
+    ],
+    "unit_offering_text": "Session 1, Weekday attendance, North Ryde<br />Session 2, Weekday attendance, North Ryde<br />Session 1, Special circumstances<br />Session 2, Special circumstances<br />",
+    "subject_search_title": "MGMT6008 - Managing People",
+    "status": {
+      "label": "Approved",
+      "value": "Active"
+    },
+    "academic_org": {
+      "value": "Department of Management "
+    },
+    "school": {
+      "value": "Macquarie Business School"
+    },
+    "credit_points": "10",
+    "type": {
+      "label": "",
+      "value": "non_pace"
+    },
+    "description": "This unit provides a graduate-level introduction to theories, concepts, processes and debates in the field of work. Workplaces, the types of work undertaken within them, and how this work is organised, are changing. To be effective, leaders and managers need the knowledge and skills to implement best practices regarding the management of people and work. Students will critically explore a range of topics, including: the changing nature of work and organisations, the development of modern work practices, theoretical foundations for understanding behaviour in the workplace, current trends in management methods, key management roles and functions, technological change, motivation and learning in the workplace, and decision making and ethics in organisations.",
+    "search_title": "MGMT6008 - Managing People",
+    "code": "MGMT6008",
+    "title": "Managing People",
+    "content_type": "Unit",
+    "credit_points_header": "10 credit points"
+  },
+  "creditPoints": 10,
+  "description": "This unit provides a graduate-level introduction to theories, concepts, processes and debates in the field of work. Workplaces, the types of work undertaken within them, and how this work is organised, are changing. To be effective, leaders and managers need the knowledge and skills to implement best practices regarding the management of people and work. Students will critically explore a range of topics, including: the changing nature of work and organisations, the development of modern work practices, theoretical foundations for understanding behaviour in the workplace, current trends in management methods, key management roles and functions, technological change, motivation and learning in the workplace, and decision making and ethics in organisations.",
+  "level": "6000",
+  "publishedInHandbook": 1,
+  "levelDisplay": "Unit",
+  "effectiveDate": "2021-01-01T00:00:00",
+  "status": "Active",
+  "modDate": "2021-02-26T09:54:43.813",
+  "code": "MGMT6008",
+  "title": "Managing People",
+  "implementationYear": "2021"
+}

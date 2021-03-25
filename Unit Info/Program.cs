@@ -23,10 +23,11 @@ namespace Unit_Info
 
             //await program.CustomAPI_CourseDownloadAndTranslation();
 
-            await program.CustomAPI_UnitDownloadAndTranslation();
+            //await program.DownloadAllUnitsAndSaveToJson();
 
             //await program.CustomAPI_GetCourse("C000006");
 
+            await program.CustomAPI_GetUnit("COMP1010", false);
             //await program.CustomAPI_GetUnit("COMP1000", true);
             //await program.CustomAPI_GetUnit("EDTE3010");
             /*
@@ -45,18 +46,16 @@ namespace Unit_Info
         /// Demonstrates Unit request API creation, data collection and access.
         /// </summary>
         public async Task CustomAPI_GetUnit(String unitCode, bool writeToFile = true) {
-            HandbookApiRequestBuilder apiRequest = new UnitApiRequestBuilder() { ImplementationYear = 2021, Code = unitCode };
-            var unitCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieUnit>(apiRequest);
+            var unit = await MacquarieHandbook.GetUnit(unitCode);
 
-            if (unitCollection.Count > 0) {
-                MacquarieUnit unit = unitCollection[0];
+            if (unit != null) {
                 Console.WriteLine(unit.UnitData.Title);
 
                 if (writeToFile)
                     await SerialiseObjectToJsonFile(unit, $"data/units/{unit.Code}");
 
             } else {
-                Console.WriteLine("Unit with code '{0}' was not found.", apiRequest.Code);
+                Console.WriteLine("Unit with code '{0}' was not found.", unitCode);
             }
         }
 
@@ -69,15 +68,12 @@ namespace Unit_Info
         public async Task CustomAPI_GetCourse(String courseCode) {
             Stopwatch sw = new Stopwatch();
 
-            var apiRequest = new CourseApiRequestBuilder() { ImplementationYear = 2021, Code = courseCode };
 
             sw.Start();
-            var courseCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieCourse>(apiRequest);
+            var course = await MacquarieHandbook.GetCourse(courseCode);
             sw.Stop();
 
-            if (courseCollection.Count > 0) {
-                MacquarieCourse course = courseCollection[0];
-
+            if (course != null) {
                 Console.WriteLine(course.CourseData.CourseSearchTitle);
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Course retrevial & deserialisation took {0} milliseconds.", sw.ElapsedMilliseconds);
@@ -100,11 +96,11 @@ namespace Unit_Info
             Console.WriteLine(apiRequest.ToString());
 
             sw.Restart();
-            var courseCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieCourse>(apiRequest);
+            var courseCollection = await MacquarieHandbook.GetCMSDataCollection<MacquarieCourse>(apiRequest);
             sw.Stop();
 
-            if (courseCollection.Collection.Count > 0) {
-                var enumerable = courseCollection.Collection.AsEnumerable().OrderBy(crs => crs.Code).GroupBy(crs => crs.CourseData.School.Value);
+            if (courseCollection.Count > 0) {
+                var enumerable = courseCollection.AsEnumerable().OrderBy(crs => crs.Code).GroupBy(crs => crs.CourseData.School.Value);
                 await SerialiseObjectToJsonFile(enumerable, "data/courses/Macquarie_Courses");
 
                 Console.WriteLine("{0} milliseconds for {1} course query & deserialisation.", sw.ElapsedMilliseconds, courseCollection.Count);
@@ -115,19 +111,15 @@ namespace Unit_Info
         /// Demonstrates Unit request API creation, data collection and access.
         /// Requests all 2021 Units, with a limit of 3000 results.
         /// </summary>
-        public async Task CustomAPI_UnitDownloadAndTranslation() {
+        public async Task DownloadAllUnitsAndSaveToJson() {
             Stopwatch sw = new Stopwatch();
 
-            var apiRequest = new UnitApiRequestBuilder() { ImplementationYear = 2021, Limit = 3000 };
 
-            Console.WriteLine(apiRequest.ToString());
-
-            sw.Restart();
-            var unitCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieUnit>(apiRequest);
+            var unitCollection = await MacquarieHandbook.GetAllUnits();
 
             //var enumerable = unitCollection.Collection.AsEnumerable().OrderBy(unit => unit.Code).GroupBy(unit => unit.UnitData.School.Value);
-            
-            foreach (var unit in unitCollection.Collection) {
+
+            foreach (var unit in unitCollection) {
                 await SerialiseObjectToJsonFile(unit, $"data/units/{unit.Code}");
             }
             
@@ -145,14 +137,14 @@ namespace Unit_Info
             Console.WriteLine(apiRequest.ToString());
 
             sw.Restart();
-            var unitCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieUnit>(apiRequest);
+            var unitCollection = await MacquarieHandbook.GetCMSDataCollection<MacquarieUnit>(apiRequest);
 
 
             Boolean exportWithSubjectCode = false;
 
             if (exportWithSubjectCode) {
                 var ruleAndCode = new List<Tuple<string, string>>();
-                foreach (var i in unitCollection.Collection) {
+                foreach (var i in unitCollection) {
                     foreach (var j in i.UnitData.EnrolmentRules) {
                         if (j.Type.Value == "prerequisite") {
                             ruleAndCode.Add(new Tuple<string, string>(i.Code, j.Description));
@@ -164,7 +156,7 @@ namespace Unit_Info
 
                 await SerialiseObjectToJsonFile(orderedList, "data/units/prerequisites/unparsed/Macquarie_EnrolmentRules_Order_LENGTH_with_TITLE");
             } else {
-                var prerequisites = from enrolementRule in (from t2 in unitCollection.Collection from enrolementRules in t2.UnitData.EnrolmentRules select enrolementRules).ToList()
+                var prerequisites = from enrolementRule in (from t2 in unitCollection from enrolementRules in t2.UnitData.EnrolmentRules select enrolementRules).ToList()
                                     where enrolementRule.Type.Value == "prerequisite"
                                     orderby enrolementRule.Description.Length
                                     select enrolementRule.Description;
@@ -185,12 +177,12 @@ namespace Unit_Info
 
         public async Task<IEnumerable<IGrouping<string, MacquarieBasicItemInfo>>> GetListOfUnitCodes() {
             var apiRequest = new UnitApiRequestBuilder() { ImplementationYear = 2021, Limit = 2500 };
-            var unitCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieUnit>(apiRequest);
+            var unitCollection = await MacquarieHandbook.GetCMSDataCollection<MacquarieUnit>(apiRequest);
             // List<CourseBasicInfo> courseList =
             //             (from course in courseCollection.Collection
             //             select course.Code, course.).ToList();
 
-            var enumerable = (from unit in unitCollection.Collection
+            var enumerable = (from unit in unitCollection
                               select new { unit.Code, unit.Title, unit.UnitData.School.Value });
             var query = enumerable.Select(item => new MacquarieBasicItemInfo(item.Code, item.Title, item.Value)).OrderBy(item => item.Code).GroupBy(item => item.Department);
 
@@ -205,9 +197,9 @@ namespace Unit_Info
 
         public async Task<IEnumerable<IGrouping<string, MacquarieBasicItemInfo>>> GetListOfCourseCodes() {
             var apiRequest = new CourseApiRequestBuilder() { ImplementationYear = 2021, Limit = 250 };
-            var courseCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieCourse>(apiRequest);
+            var courseCollection = await MacquarieHandbook.GetCMSDataCollection<MacquarieCourse>(apiRequest);
 
-            var enumerable = (from course in courseCollection.Collection
+            var enumerable = (from course in courseCollection
                               select new { course.Code, course.Title, course.CourseData.School.Value });
             var query = enumerable.Select(item => new MacquarieBasicItemInfo(item.Code, item.Title, item.Value)).OrderBy(item => item.Code).GroupBy(item => item.Department);
 

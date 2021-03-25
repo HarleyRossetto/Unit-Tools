@@ -50,7 +50,7 @@ namespace Macquarie.JSON
                     Directory.CreateDirectory(outputFileInfo.DirectoryName);
 
                 var jsonString = SerialiseObject(obj);
-                await File.WriteAllTextAsync(jsonString, outputFileInfo.FullName);
+                await File.WriteAllTextAsync(outputFileInfo.FullName, jsonString);
             } catch (Exception ex) {
                 System.Console.WriteLine($"Failed to serialise object {obj.ToString()}\nReason:\n{ex.ToString()}");
                 return;

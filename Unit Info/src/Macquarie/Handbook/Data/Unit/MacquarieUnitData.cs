@@ -126,7 +126,7 @@ namespace Macquarie.Handbook.Data.Unit
                     RemoveEscapeSequencesFromPrerequisites();
 
 
-                    ParsePrerequisites();
+                    //ParsePrerequisites();
                 }
             }
         }
@@ -171,8 +171,11 @@ namespace Macquarie.Handbook.Data.Unit
                 //tokens (AND, OR)
                 // if (!group.Value.CanBeBrokenDownFurther) {
                 Connector result = null;
-                result = TryParseOrStructure(group.Value);
-                result = (result == null ? TryParseAndStructure(group.Value) : result);
+                //result = TryParseOrStructure(group.Value);
+                result = TryParseStructure(ConnectorType.OR, group.Value);
+                // result = (result == null ? TryParseAndStructure(group.Value) : result);
+                result = (result == null ? TryParseStructure(ConnectorType.AND, group.Value) : result);
+
 
                 if (result != null)
                     connectorStructureDictionary.Add(group.Value.ID, new Tuple<Connector, ParentheseGroup>(result, group.Value));
@@ -191,10 +194,14 @@ namespace Macquarie.Handbook.Data.Unit
                     and begin rebuilding the sequence as a graph.
                 */
                 if (expression.Item2.CanBeBrokenDownFurther) {
-
-                    //connectorStructureDictionary[expression.Item2.ParentID]
                     var removeOnCompletion = new List<string>(10);
                     foreach (var parentIdHash in expression.Item1.StringValues) {
+                        // bool conStructContainsHash = connectorStructureDictionary.Keys.Contains(Convert.ToInt32(parentIdHash));
+
+                        // if (conStructContainsHash) {
+
+                        // }
+
                         var bracedValue = hashcodeRegex.Match(parentIdHash);
                         int hashCode = Convert.ToInt32(bracedValue.Value);
                         expression.Item1.ConnectorValues.Add(connectorStructureDictionary[hashCode].Item1);
@@ -206,13 +213,14 @@ namespace Macquarie.Handbook.Data.Unit
                 }
             }
 
-            var topLevelConnector = connectorStructureDictionary.Values.Last().Item1;
-            topLevelConnector.OriginalString = preReqsRaw.First().Description;
+            if (connectorStructureDictionary.Values.Count > 0) {
+                var topLevelConnector = connectorStructureDictionary.Values.Last().Item1;
+                topLevelConnector.OriginalString = preReqsRaw.First().Description;
 
-            MacquarieHandbook.SerialiseObjectToFile(topLevelConnector, $"data/parsed/prerequisites/{Code}.json");
+                MacquarieHandbook.SerialiseObjectToFile(topLevelConnector, $"data/parsed/prerequisites/{Code}.json");
 
-            PrintPrereqGraph(topLevelConnector, 0);
-
+                PrintPrereqGraph(topLevelConnector, 0);
+            }
         }
 
         private void PrintPrereqGraph(Connector connector, int level) {
@@ -236,6 +244,18 @@ namespace Macquarie.Handbook.Data.Unit
         private void WriteNTabs(int n) {
             for (int i = 0; i < n; i++)
                 Console.Write("\t");
+        }
+
+        private Connector TryParseStructure(ConnectorType type, ParentheseGroup group) {
+            string filter = string.Format(" {0} ", type.ToString().ToLower());
+            if (group.GroupString.Contains(filter)) {
+                var split = group.GroupString.Split(filter, StringSplitOptions.TrimEntries);
+
+                var connector = new Connector() { ConnectionType = type };
+                connector.StringValues.AddRange(split);
+                return connector;
+            }
+            return null;
         }
 
         private Connector TryParseAndStructure(ParentheseGroup group) {
@@ -391,7 +411,6 @@ public class Connector
     public ConnectorType ConnectionType { get; init; }
     public List<string> StringValues { get; set; } = new List<string>(2);
     public List<Connector> ConnectorValues { get; set; } = new List<Connector>(2);
-
 
     [JsonIgnore]
     public bool IsMostBasic {

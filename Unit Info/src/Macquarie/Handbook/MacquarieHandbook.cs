@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 using Macquarie.Handbook.Data;
 using Macquarie.Handbook.Data.Shared;
 using Macquarie.Handbook.WebApi;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
+using static Unit_Info.JSON.JsonSerialisationHelper;
 
 namespace Macquarie.Handbook
 {
@@ -45,38 +44,6 @@ namespace Macquarie.Handbook
 
         public static async Task<MacquarieDataResponseCollection<MacquarieUnit>> GetUnitCollectionResponse(UnitApiRequestBuilder apiRequest) {
             return await GetDataResponseCollection<MacquarieUnit>(apiRequest);
-        }
-
-        public static T DeserialiseJsonObject<T>(string json) {
-#if WRITE_ALL_JSON_TO_DISK
-                WriteJsonToFile(json);
-#endif
-
-            return JsonConvert.DeserializeObject<T>(json);
-        }
-
-        public static string SerialiseObject(object obj) {
-            return JsonConvert.SerializeObject(obj, Formatting.Indented, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore, Converters = {new StringEnumConverter()}});
-//            return JsonConvert.SerializeObject(obj, Formatting.Indented, new StringEnumConverter());
-        }
-
-        public static async Task SerialiseObjectToFile(object obj, string file) {
-            var jsonString = SerialiseObject(obj);
-            await WriteJsonToFile(jsonString, file);
-        }
-
-        public static async Task WriteJsonToFile(string json) {
-            await File.WriteAllTextAsync(
-                                        string.Format(
-                                                        "downloaded/{0}.json",
-                                                        DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss-fffffff")),
-                                        json);
-        }
-
-        public static async Task WriteJsonToFile(string json, string file) {
-            if (File.Exists(file))
-                File.Delete(file);
-            await File.WriteAllTextAsync(file, json);
         }
     }
 }

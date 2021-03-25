@@ -7,12 +7,11 @@ using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
 
-using Newtonsoft.Json;
+using static Unit_Info.JSON.JsonSerialisationHelper;
 
 using Macquarie.Handbook;
 using Macquarie.Handbook.Data;
 using Macquarie.Handbook.WebApi;
-
 namespace Unit_Info
 {
     class Program
@@ -24,9 +23,9 @@ namespace Unit_Info
 
             //await program.CustomAPI_CourseDownloadAndTranslation();
 
-            //await program.CustomAPI_UnitDownloadAndTranslation();
+            await program.CustomAPI_UnitDownloadAndTranslation();
 
-            await program.CustomAPI_GetCourse("C000006");
+            //await program.CustomAPI_GetCourse("C000006");
 
             //await program.CustomAPI_GetUnit("COMP1000", true);
             //await program.CustomAPI_GetUnit("EDTE3010");
@@ -54,7 +53,7 @@ namespace Unit_Info
                 Console.WriteLine(unit.UnitData.Title);
 
                 if (writeToFile)
-                    await WriteObjectToJsonFile(unit, $"data/units/{unit.Code}");
+                    await SerialiseObjectToJsonFile(unit, $"data/units/{unit.Code}");
 
             } else {
                 Console.WriteLine("Unit with code '{0}' was not found.", apiRequest.Code);
@@ -104,10 +103,12 @@ namespace Unit_Info
             var courseCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieCourse>(apiRequest);
             sw.Stop();
 
-            var enumerable = courseCollection.Collection.AsEnumerable().OrderBy(crs => crs.Code).GroupBy(crs => crs.CourseData.School.Value);
-            await WriteObjectToJsonFile(enumerable, "data/Macquarie_Courses");
+            if (courseCollection.Collection.Count > 0) {
+                var enumerable = courseCollection.Collection.AsEnumerable().OrderBy(crs => crs.Code).GroupBy(crs => crs.CourseData.School.Value);
+                await SerialiseObject(enumerable, "data/courses/Macquarie_Courses");
 
-            Console.WriteLine("{0} milliseconds for {1} course query & deserialisation.", sw.ElapsedMilliseconds, courseCollection.Count);
+                Console.WriteLine("{0} milliseconds for {1} course query & deserialisation.", sw.ElapsedMilliseconds, courseCollection.Count);
+            }
         }
 
         /// <summary>
@@ -127,7 +128,7 @@ namespace Unit_Info
             //var enumerable = unitCollection.Collection.AsEnumerable().OrderBy(unit => unit.Code).GroupBy(unit => unit.UnitData.School.Value);
             
             foreach (var unit in unitCollection.Collection) {
-                await WriteObjectToJsonFile(unit, $"data/units/{unit.Code}");
+                await SerialiseObject(unit, $"data/units/{unit.Code}");
             }
             
             //await WriteObjectToJsonFile(enumerable, "data/Macquarie_Units");
@@ -161,14 +162,14 @@ namespace Unit_Info
 
                 var orderedList = ruleAndCode.OrderBy(i => i.Item2.Length);
 
-                await WriteObjectToJsonFile(orderedList, "Macquarie_EnrolmentRules_Order_LENGTH_with_TITLE");
+                await SerialiseObjectToJsonFile(orderedList, "data/units/prerequisites/unparsed/Macquarie_EnrolmentRules_Order_LENGTH_with_TITLE");
             } else {
                 var prerequisites = from enrolementRule in (from t2 in unitCollection.Collection from enrolementRules in t2.UnitData.EnrolmentRules select enrolementRules).ToList()
                                     where enrolementRule.Type.Value == "prerequisite"
                                     orderby enrolementRule.Description.Length
                                     select enrolementRule.Description;
 
-                await WriteObjectToJsonFile(prerequisites, "Macquarie_EnrolmentRules_Order_LENGTH_Sanitised");
+                await SerialiseObjectToJsonFile(prerequisites, "data/units/prerequisites/unparsed/Macquarie_EnrolmentRules_Order_LENGTH_Sanitised");
             }
 
             sw.Stop();
@@ -179,7 +180,7 @@ namespace Unit_Info
         public async Task SaveListOfUnitCodesAndTitles() {
             var unitCodes = await GetListOfUnitCodes();
 
-            await WriteObjectToJsonFile(unitCodes, "Macquarie_Unit_Codes");
+            await SerialiseObjectToJsonFile(unitCodes, "Macquarie_Unit_Codes");
         }
 
         public async Task<IEnumerable<IGrouping<string, MacquarieBasicItemInfo>>> GetListOfUnitCodes() {
@@ -199,44 +200,18 @@ namespace Unit_Info
         public async Task SaveListOfCourseCodesAndTitles() {
             var courseCodes = await GetListOfCourseCodes();
 
-            await WriteObjectToJsonFile(courseCodes, "Macquarie_Course_Codes");
+            await SerialiseObjectToJsonFile(courseCodes, "data/courses/Macquarie_Course_Codes");
         }
 
         public async Task<IEnumerable<IGrouping<string, MacquarieBasicItemInfo>>> GetListOfCourseCodes() {
             var apiRequest = new CourseApiRequestBuilder() { ImplementationYear = 2021, Limit = 250 };
             var courseCollection = await MacquarieHandbook.GetDataResponseCollection<MacquarieCourse>(apiRequest);
-            // List<CourseBasicInfo> courseList =
-            //             (from course in courseCollection.Collection
-            //             select course.Code, course.).ToList();
 
             var enumerable = (from course in courseCollection.Collection
                               select new { course.Code, course.Title, course.CourseData.School.Value });
             var query = enumerable.Select(item => new MacquarieBasicItemInfo(item.Code, item.Title, item.Value)).OrderBy(item => item.Code).GroupBy(item => item.Department);
 
             return query;
-        }
-
-        private static async Task WriteObjectToJsonFile(object obj, string fileName, Boolean humanReadable = true) {
-            var jsonString = JsonConvert.SerializeObject(obj, Formatting.Indented, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore });
-
-            string filePath = String.Format("{0}.json", fileName);
-
-            if (File.Exists(filePath))
-                File.Delete(filePath);
-
-            var fi = new FileInfo(filePath);
-            if (!Directory.Exists(fi.DirectoryName))
-                Directory.CreateDirectory(fi.DirectoryName);
-
-            await File.WriteAllTextAsync(filePath, jsonString);
-        }
-
-        private static async Task WriteObjectToJsonFileWithTimestamp(object obj, string fileName, Boolean humanReadable = true) {
-            var jsonString = JsonConvert.SerializeObject(obj, Formatting.Indented, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore });
-            await File.WriteAllTextAsync(string.Format("{0}_{1}.json",
-                                                        fileName,
-                                                        DateTime.Now.ToString("yyMMdd_HHmmssfffff")),
-                                                        jsonString);
         }
     }
 

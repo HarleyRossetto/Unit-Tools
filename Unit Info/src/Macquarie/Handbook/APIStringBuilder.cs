@@ -27,7 +27,9 @@ namespace Macquarie.Handbook.WebApi
     
     public class UnitApiRequestBuilder : HandbookApiRequestBuilder
     {
-        private const string BASE_API_STRING = "https://coursehandbook.mq.edu.au/api/content/render/false/query/+contentType:mq2_psubject";
+       // private const string BASE_API_STRING = "https://coursehandbook.mq.edu.au/api/content/render/false/query/+contentType:mq2_psubject";
+        private const string BASE_API_STRING = "https://macquarie-prod-handbook.factor5-curriculum.com.au/api/content/render/false/query/+contentType:mq2_psubject";
+
 
         public override void Reset()
         {

@@ -3,14 +3,18 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
 using Macquarie.Handbook.Data.Unit.Prerequisites;
 
 namespace Macquarie.Handbook.Data.Helpers
 {
     public static class EnrolmentRuleParentheseParser
     {
-        public static Dictionary<int, ParentheseGroup> BreakdownParentheseGroupingsRecursive(string rule, int level, int parentID) {
-            var groups = new Dictionary<int, ParentheseGroup>();
+        private static MD5 md5Hash = MD5.Create();
+
+        public static Dictionary<string, ParentheseGroup> BreakdownParentheseGroupingsRecursive(string rule, int level, string parentID) {
+            var groups = new Dictionary<string, ParentheseGroup>();
 
             int depth = 0;
             int indexOfFirstOpenBracket = 0;
@@ -21,7 +25,11 @@ namespace Macquarie.Handbook.Data.Helpers
                 bool isValidPreviousIndex = stringIndexer - 1 > 0;
                 char? previousCharacter = isValidPreviousIndex ? rule.ElementAt(stringIndexer - 1) : null;
 
+                ///
+                /// Handles opening braces 
+                ///
                 if (currentCharacter == '(') {
+                    //If the previous character is a letter, assume this particular parenthese group belongs with the prior string
                     if (previousCharacter != null) {
                         bool previousCharIsLetter = char.IsLetter((char)previousCharacter);
                         if (previousCharIsLetter) {
@@ -29,6 +37,7 @@ namespace Macquarie.Handbook.Data.Helpers
                             ignoreNextClose = true;
                         }
                     }
+                    //If we should not be ignoring the next closing brace
                     if (!ignoreNextClose) {
                         //Looking at top level parenthese only
                         if (depth == 0) {
@@ -36,43 +45,61 @@ namespace Macquarie.Handbook.Data.Helpers
                         }
                         depth++;
                     }
-                } else if (currentCharacter == ')') {
+                } 
+                ///
+                /// Handles closing braces 
+                ///
+                else if (currentCharacter == ')') {
+                    //If the other branch decided that this particular group is not a group pre-req clause but belongs to a string.
+                    //Reset the flat
                     if (ignoreNextClose)
                         ignoreNextClose = false;
                     else
-                        depth--;
+                        depth--; //Otherwise decrease the depth of the search
 
+                    //If we are dealing with the top level parenthese group again
                     if (depth == 0) {
                         int lengthOfSubstring = (stringIndexer + 1) - (indexOfFirstOpenBracket);
 
-                        //Select the substring, NOT removing the parenthese on each end, because it might NOT be a parenthese!.
+                        //Select the substring, NOT removing the parenthese on each end, because the end characters may not be parenthese!.
                         string groupSubstring = rule.Substring(indexOfFirstOpenBracket, lengthOfSubstring);
                         //Remove ( ) here!
                         if (groupSubstring.ElementAt(0) == '(') {
                             groupSubstring = groupSubstring.Remove(0, 1);
-                            //Assume we have matching closing parenthese
+                            //Assume we have matching closing parenthese, potentially a bold assumption..
                             groupSubstring = groupSubstring.Remove(groupSubstring.Length - 1, 1);
                         }
 
+                        //Get the index of the first parenthese in the substring.
+                        //If there is a parenthese then there is more work needed to deconstruct the string.
                         int indexOfFirstOpenParen = groupSubstring.IndexOf('(');
+                        //Indicates if this string has more substrings within it.
                         bool furtherWorkRequired = false;
-                        //if we can look back at previous char
+                        //if we can look back at previous char, i.e. the index is not 0
                         if (indexOfFirstOpenParen >= 1) {
                             char prevChar = groupSubstring.ElementAt(indexOfFirstOpenParen - 1);
-                            //Previous character is not a letter, then yes. If it is a letter then the paren belongs with previous words.
+                            //If the previous character is not a letter then we are assuming there is more parsing work to be done
                             if (!char.IsLetter(prevChar)) {
                                 furtherWorkRequired = true;
-                            } else {
+                            } 
+                            //If it is a letter then the parenthese belongs with previous words.
+                            else {
                                 if (groupSubstring.Count(i => i == '(') > 1) {
                                     furtherWorkRequired = true;
                                 }
                             }
                         }
-                        //If the string still contains ( or ) then we need to parse it more.
-                        //furtherWorkRequired = (groupSubstring.Contains('(') || groupSubstring.Contains(')'));
                         var range = new Range(indexOfFirstOpenBracket, stringIndexer);
-                        int hashCode = groupSubstring.GetHashCode() + range.GetHashCode();
-                        groups.Add(hashCode, new ParentheseGroup(range, groupSubstring, furtherWorkRequired, level, hashCode, parentID));
+
+                        var guid = Guid.NewGuid();
+
+                        groups.Add(guid.ToString(),
+                                   new ParentheseGroup(range,
+                                                       groupSubstring,
+                                                       furtherWorkRequired,
+                                                       level,
+                                                       guid.ToString(),
+                                                       parentID));
                     }
                 }
             }
@@ -85,7 +112,7 @@ namespace Macquarie.Handbook.Data.Helpers
             level += 1;
 
             //Go through 
-            var tempResults = new Dictionary<int, ParentheseGroup>();
+            var tempResults = new Dictionary<string, ParentheseGroup>();
             foreach (var element in groups.Values) {
                 //If we need to break this down further...
                 if (element.CanBeBrokenDownFurther) {
@@ -105,27 +132,29 @@ namespace Macquarie.Handbook.Data.Helpers
             return groups;
         }
 
-        public static Dictionary<int, ParentheseGroup> ParseParentheseGroups(IEnumerable<EnrolmentRule> rules) {
+        public static Dictionary<string, ParentheseGroup> ParseParentheseGroups(IEnumerable<EnrolmentRule> rules) {
             //Get breakdown for all rules.
-            const int TOP_LEVEL_PARENT_ID = 0;
+            Guid TOP_LEVEL_PARENT_ID = Guid.NewGuid();
             int decompositionLevel = 0;
-            var results = new Dictionary<int, ParentheseGroup>();
+            var results = new Dictionary<string, ParentheseGroup>();
 
             //If the collection isnt empty
             if (rules.Count() >= 1) {
                 //Add Top level statement to dictionary first.
                 var topLevelRule = rules.ElementAt(0);
                 var topLevelRange = new Range(0, topLevelRule.Description.Length - 1);
-                int topLevelId = topLevelRule.Description.GetHashCode() + topLevelRule.GetHashCode();
-                results.Add(topLevelId, new ParentheseGroup(topLevelRange,
-                                                            topLevelRule.Description,
-                                                            true,
-                                                            decompositionLevel++,
-                                                            topLevelId,
-                                                            TOP_LEVEL_PARENT_ID));
+
+                var topLevelId = Guid.NewGuid();
+
+                results.Add(topLevelId.ToString(), new ParentheseGroup(topLevelRange,
+                                                                     topLevelRule.Description,
+                                                                     true,
+                                                                     decompositionLevel++,
+                                                                     topLevelId.ToString(),
+                                                                     TOP_LEVEL_PARENT_ID.ToString()));
 
                 foreach (var rule in rules) {
-                    var groupings = BreakdownParentheseGroupingsRecursive(rule.Description, decompositionLevel, topLevelId); //Use ParentID of 0 to signify there is no parent.
+                    var groupings = BreakdownParentheseGroupingsRecursive(rule.Description, decompositionLevel, topLevelId.ToString()); //Use ParentID of 0 to signify there is no parent.
                     foreach (var item in groupings) {
                         results.Add(item.Key, item.Value);
                     }
@@ -133,18 +162,19 @@ namespace Macquarie.Handbook.Data.Helpers
 
                 //Go through each grouping and replace it'stringValue occurance in its' parents' string with it'stringValue ID.
                 foreach (var element in results.Values.Reverse()) {
-                    if (element.ParentID != 0) {
+                    if (element.ParentID != TOP_LEVEL_PARENT_ID.ToString()) {
                         //Get reference to parent item
-                        var parentElement = results[element.ParentID];
+                        var parentElement = results[element.ParentID.ToString()];
                         //Remove the original value from parent string
                         parentElement.GroupString = parentElement.GroupString.Remove(element.CharacterRangeInParentString.Start.Value,
                                                                                         element.CharacterRangeInParentString.End.Value - element.CharacterRangeInParentString.Start.Value + 1);
 
                         //Insert reference to group ID
-                        parentElement.GroupString = parentElement.GroupString.Insert(element.CharacterRangeInParentString.Start.Value, element.ID.ToString());
+                        parentElement.GroupString = parentElement.GroupString.Insert(element.CharacterRangeInParentString.Start.Value,
+                                                                                     element.ID.ToString());
 
                         //Reassign.
-                        results[element.ParentID] = parentElement;
+                        results[element.ParentID.ToString()] = parentElement;
                     }
                 }
             }
@@ -155,7 +185,7 @@ namespace Macquarie.Handbook.Data.Helpers
 
     public struct ParentheseGroup
     {
-        public ParentheseGroup(Range stringRange, string stringValue, bool canBeBrokenDownFurther, int decompositionLevel, int id, int parentId) {
+        public ParentheseGroup(Range stringRange, string stringValue, bool canBeBrokenDownFurther, int decompositionLevel, string id, string parentId) {
             CharacterRangeInParentString = stringRange;
             GroupString = stringValue;
             CanBeBrokenDownFurther = canBeBrokenDownFurther;
@@ -168,8 +198,8 @@ namespace Macquarie.Handbook.Data.Helpers
         public string GroupString { get; set; }
         public bool CanBeBrokenDownFurther { get; init; }
         public int Level { get; init; }
-        public int ParentID { get; init; }
-        public int ID { get; init; }
+        public string ParentID { get; init; }
+        public string ID { get; init; }
 
         public override string ToString() {
             return GroupString + " LVL: " + Level;

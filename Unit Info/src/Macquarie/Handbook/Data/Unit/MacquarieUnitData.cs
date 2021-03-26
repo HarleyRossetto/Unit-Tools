@@ -11,6 +11,7 @@ using Macquarie.Handbook.Data.Helpers;
 using static Macquarie.JSON.JsonSerialisationHelper;
 
 using Newtonsoft.Json;
+using Macquarie.JSON;
 
 namespace Macquarie.Handbook.Data.Unit
 {
@@ -128,7 +129,7 @@ namespace Macquarie.Handbook.Data.Unit
                     RemoveEscapeSequencesFromPrerequisites();
 
 
-                    //ParsePrerequisites();
+                    ParsePrerequisites();
                 }
             }
         }
@@ -164,10 +165,10 @@ namespace Macquarie.Handbook.Data.Unit
 
             var parentheseGroups = EnrolmentRuleParentheseParser.ParseParentheseGroups(preReqsRaw);
 
-            var hashedStrings = from v in parentheseGroups.Keys
+             var guidString =    from v in parentheseGroups.Keys
                                 select v.ToString();
 
-            var connectorStructureDictionary = new Dictionary<int, Tuple<Connector, ParentheseGroup>>();
+            var connectorStructureDictionary = new Dictionary<string, Tuple<Connector, ParentheseGroup>>();
 
             foreach (var group in parentheseGroups.Reverse()) {
                 //If the group cannot be broken down further, we can beging parsing for other
@@ -190,7 +191,8 @@ namespace Macquarie.Handbook.Data.Unit
             }
 
             //Regex braceExpression = new Regex(@"\{-?(\d{10})\}");
-            Regex hashcodeRegex = new Regex(@"-?\d{6,10}"); // USING HASHCODE IS TERRIBLE IDEA. CHANGE TO A BETTER METHOD.
+            //Regex hashcodeRegex = new Regex(@"-?\d{6,10}"); // USING HASHCODE IS TERRIBLE IDEA. CHANGE TO A BETTER METHOD.
+            Regex guidRegex = new Regex(@"([0-9a-f]){8}(-([0-9a-f]{4})){3}-([0-9a-f]{12})"); // USING HASHCODE IS TERRIBLE IDEA. CHANGE TO A BETTER METHOD.
             foreach (var expression in connectorStructureDictionary.Values) {
                 /*
                     If the expression is in its most basic form, find its parent
@@ -199,15 +201,8 @@ namespace Macquarie.Handbook.Data.Unit
                 if (expression.Item2.CanBeBrokenDownFurther) {
                     var removeOnCompletion = new List<string>(10);
                     foreach (var parentIdHash in expression.Item1.StringValues) {
-                        // bool conStructContainsHash = connectorStructureDictionary.Keys.Contains(Convert.ToInt32(parentIdHash));
-
-                        // if (conStructContainsHash) {
-
-                        // }
-
-                        var bracedValue = hashcodeRegex.Match(parentIdHash);
-                        int hashCode = Convert.ToInt32(bracedValue.Value);
-                        expression.Item1.ConnectorValues.Add(connectorStructureDictionary[hashCode].Item1);
+                        var bracedValueGuid = guidRegex.Match(parentIdHash);
+                        expression.Item1.ConnectorValues.Add(connectorStructureDictionary[bracedValueGuid.Value].Item1);
 
                         removeOnCompletion.Add(parentIdHash);
                     }
@@ -222,9 +217,11 @@ namespace Macquarie.Handbook.Data.Unit
 
 
                 //Discard so there is no await keyword warning
-                _ = SerialiseObjectToJsonFile(topLevelConnector, $"data/parsed/prerequisites/{Code}.json");
+                ///_ = SerialiseObjectToJsonFile(topLevelConnector, $"data/parsed/prerequisites/{Code}");
 
-                PrintPrereqGraph(topLevelConnector, 0);
+                _ = JsonSerialisationHelper.SerialiseObjectToJsonFile(topLevelConnector, $"data/prerequisites/parsed/{Code}_PreReqs");
+
+                //PrintPrereqGraph(topLevelConnector, 0);
             }
         }
 

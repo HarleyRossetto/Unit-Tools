@@ -19,20 +19,22 @@ namespace Unit_Info
         async static Task Main(string[] args) {
             Program program = new Program();
 
-            //await program.CustomApi_XXXXXXX();
+            //var courses = await MacquarieHandbook.GetAllCourses(2021);
+            //var unit = await MacquarieHandbook.GetAllUnits(2021);
 
-            await program.GetAllCoursesAndWriteToFile();
+            //await program.WriteCoursesGroupedBySchool(courses.AsEnumerable());
 
-            await program.GetAllCoursesAndSaveGroupedBySchool();
+            
+            //await program.GetAllCoursesAndSaveGroupedBySchool();
 
-            await program.GetAllCoursesAndWriteToFile();
+            //await program.GetAllCoursesAndWriteToFile();
 
-            await program.GetAllCoursesAndSaveGroupedBySchool();
+            //await program.GetAllCoursesAndSaveGroupedBySchool();
 
             //await program.GetCourse("C000006");
 
             //await program.GetUnit("COMP1000", true);
-            //await program.GetUnit("EDTE3010", false);
+            await program.GetUnit("EDTE3010");
             /*
                 EDTE3010 - has larger pre-requsite chain
             */
@@ -50,7 +52,7 @@ namespace Unit_Info
                 Console.WriteLine(unit.UnitData.Title);
 
                 if (writeToFile)
-                    await SerialiseObjectToJsonFile(unit, $"data/units/{unit.Code}");
+                    await SerialiseObjectToJsonFile(unit, $"data/units/individual/{unit.Code}");
 
             } else {
                 Console.WriteLine("Unit with code '{0}' was not found.", unitCode);

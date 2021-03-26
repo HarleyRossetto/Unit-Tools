@@ -161,7 +161,7 @@ namespace Unit_Info
         public async Task SaveListOfUnitCodesAndTitles() {
             var unitCodes = await GetListOfUnitCodes();
 
-            await SerialiseObjectToJsonFile(unitCodes, "Macquarie_Unit_Codes");
+            await SerialiseObjectToJsonFile(unitCodes, "data/units/filtered/Macquarie_Unit_Codes");
         }
 
         public async Task<IEnumerable<IGrouping<string, MacquarieBasicItemInfo>>> GetListOfUnitCodes() {

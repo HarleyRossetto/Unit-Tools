@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+
 using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Shared
@@ -15,5 +17,9 @@ namespace Macquarie.Handbook.Data.Shared
         public int Count { get => Collection.Count; }
 
         public IEnumerator<T> GetEnumerator() => Collection.GetEnumerator();
+
+        public IEnumerable<T> AsEnumerable() {
+            return Collection.AsEnumerable();
+        }
     }
 }

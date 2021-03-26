@@ -33,8 +33,8 @@ namespace Macquarie.Handbook.WebApi
         protected abstract string GetRequestHeader();
 
         public override string ToString() {
-            if (Code == null || Code.Length == 0)
-                return "127.0.0.1";
+            //if (Code == null || Code.Length == 0)
+                //return "127.0.0.1";
 
 
             API_STRING.Clear();

@@ -21,32 +21,30 @@ namespace Unit_Info
 
             //await program.CustomApi_XXXXXXX();
 
-            //await program.CustomAPI_CourseDownloadAndTranslation();
+            await program.GetAllCoursesAndWriteToFile();
 
-            //await program.DownloadAllUnitsAndSaveToJson();
+            await program.GetAllCoursesAndSaveGroupedBySchool();
 
-            //await program.CustomAPI_GetCourse("C000006");
+            await program.GetAllCoursesAndWriteToFile();
 
-            await program.CustomAPI_GetUnit("COMP1010", false);
-            //await program.CustomAPI_GetUnit("COMP1000", true);
-            //await program.CustomAPI_GetUnit("EDTE3010");
+            await program.GetAllCoursesAndSaveGroupedBySchool();
+
+            //await program.GetCourse("C000006");
+
+            //await program.GetUnit("COMP1000", true);
+            //await program.GetUnit("EDTE3010", false);
             /*
                 EDTE3010 - has larger pre-requsite chain
             */
-
-            //await program.SaveListOfCourseCodesAndTitles();
-
-            //await program.SaveListOfUnitCodesAndTitles();
-
             //Downloads all units and saves a copy of only the prerequisite enrolment rules.
-            //await program.CustomAPI_GetAllUnitPrerequsiteForDevelopment();
+            //await program.GetAllUnitPrerequsiteForDevelopment();
         }
 
         /// <summary>
         /// Demonstrates Unit request API creation, data collection and access.
         /// </summary>
-        public async Task CustomAPI_GetUnit(String unitCode, bool writeToFile = true) {
-            var unit = await MacquarieHandbook.GetUnit(unitCode);
+        public async Task GetUnit(String unitCode, bool writeToFile = true) {
+            var unit = await MacquarieHandbook.GetUnit(unitCode, 2021);
 
             if (unit != null) {
                 Console.WriteLine(unit.UnitData.Title);
@@ -60,89 +58,86 @@ namespace Unit_Info
         }
 
         /// <summary>
-        /// Demonstrates Course request API creation, data collection and access.
+        /// Demonstrates Unit request API creation, data collection and access.
+        /// Requests all 2021 Units, with a limit of 3000 results.
+        /// </summary>
+        public async Task GetAllUnitsAndWriteToFile() {
+            var unitCollection = await MacquarieHandbook.GetAllUnits(2021);
+
+            foreach (var unit in unitCollection) {
+                await SerialiseObjectToJsonFile(unit, $"data/units/individual/{unit.Code}", false, false);
+            }
+
+            Console.WriteLine($"{unitCollection.Count} unit{(unitCollection.Count > 0 ? "s" : "")} retrieved and written to disk.");
+        }
+
+        /// <summary>
+        /// Demonstrates Course data collection and access.
         /// </summary>
         /// <param name="courseCode">
         /// The course code to attempt to retreive.
         /// </param> 
-        public async Task CustomAPI_GetCourse(String courseCode) {
-            Stopwatch sw = new Stopwatch();
-
-
-            sw.Start();
-            var course = await MacquarieHandbook.GetCourse(courseCode);
-            sw.Stop();
+        public async Task GetCourse(String courseCode) {
+            var course = await MacquarieHandbook.GetCourse(courseCode, 2021);
 
             if (course != null) {
                 Console.WriteLine(course.CourseData.CourseSearchTitle);
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Course retrevial & deserialisation took {0} milliseconds.", sw.ElapsedMilliseconds);
-
-                //await WriteObjectToJsonFileInDataDir(course, "Test_Course_Serialisation");
+                await SerialiseObjectToJsonFile(course, $"data/courses/individual/{course.Code}");
             } else {
-                Console.WriteLine("No course with code '{0}' was found.", courseCode);
+                Console.WriteLine($"No course with code '{courseCode}' was found.");
+            }
+        }
+
+        public async Task<IEnumerable<MacquarieCourse>> GetAllCourses() {
+            var courses = await MacquarieHandbook.GetAllCourses(2021);
+            return courses.AsEnumerable();
+        }
+
+        public async Task GetAllCoursesAndSaveGroupedBySchool() {
+            var courseCollection = await GetAllCourses();
+
+            if (courseCollection.Count() > 0) {
+                await WriteCoursesGroupedBySchool(courseCollection);
             }
         }
 
         /// <summary>
         /// Demonstrates Course request API creation, data collection and access.
-        /// Requests all 2021 courses, with a limit of 250 results.
+        /// Requests all 2021 courses..
         /// </summary>
-        public async Task CustomAPI_CourseDownloadAndTranslation() {
-            Stopwatch sw = new Stopwatch();
+        public async Task GetAllCoursesAndWriteToFile() {
+            var courseCollection = await GetAllCourses();
 
-            var apiRequest = new CourseApiRequestBuilder() { ImplementationYear = 2021, Limit = 250 };
+            if (courseCollection.Count() == 0) {
+                Console.WriteLine($"No courses were found.");
+                return;
+            }
 
-            Console.WriteLine(apiRequest.ToString());
+            await WriteCoursesToIndividualFiles(courseCollection);
+        }
 
-            sw.Restart();
-            var courseCollection = await MacquarieHandbook.GetCMSDataCollection<MacquarieCourse>(apiRequest);
-            sw.Stop();
-
-            if (courseCollection.Count > 0) {
-                var enumerable = courseCollection.AsEnumerable().OrderBy(crs => crs.Code).GroupBy(crs => crs.CourseData.School.Value);
-                await SerialiseObjectToJsonFile(enumerable, "data/courses/Macquarie_Courses");
-
-                Console.WriteLine("{0} milliseconds for {1} course query & deserialisation.", sw.ElapsedMilliseconds, courseCollection.Count);
+        public async Task WriteCoursesToIndividualFiles(IEnumerable<MacquarieCourse> courses) {
+            foreach (var course in courses) {
+                await SerialiseObjectToJsonFile(course, $"data/courses/individual/{course.Code}");
             }
         }
 
-        /// <summary>
-        /// Demonstrates Unit request API creation, data collection and access.
-        /// Requests all 2021 Units, with a limit of 3000 results.
-        /// </summary>
-        public async Task DownloadAllUnitsAndSaveToJson() {
-            Stopwatch sw = new Stopwatch();
+        public async Task WriteCoursesGroupedBySchool(IEnumerable<MacquarieCourse> courses) {
+            if (courses != null && courses.Count() > 0) {
+                var grouped = courses.AsEnumerable().OrderBy(crs => crs.Code).GroupBy(crs => crs.CourseData.School.Value);
 
-
-            var unitCollection = await MacquarieHandbook.GetAllUnits();
-
-            //var enumerable = unitCollection.Collection.AsEnumerable().OrderBy(unit => unit.Code).GroupBy(unit => unit.UnitData.School.Value);
-
-            foreach (var unit in unitCollection) {
-                await SerialiseObjectToJsonFile(unit, $"data/units/{unit.Code}");
+                foreach (var g in grouped) {
+                    await SerialiseObjectToJsonFile(g, $"data/courses/filtered/bySchool/{g.Key}");
+                }
             }
-            
-            //await WriteObjectToJsonFile(enumerable, "data/Macquarie_Units");
-            sw.Stop();
-
-            Console.WriteLine("{0} milliseconds for {1} unit query & deserialisation.", sw.ElapsedMilliseconds, unitCollection.Count);
         }
-
-        public async Task CustomAPI_GetAllUnitPrerequsiteForDevelopment() {
+        public async Task GetAllUnitPrerequsiteForDevelopment() {
             Stopwatch sw = new Stopwatch();
-
-            var apiRequest = new UnitApiRequestBuilder() { ImplementationYear = 2021, Limit = 3000 };
-
-            Console.WriteLine(apiRequest.ToString());
 
             sw.Restart();
-            var unitCollection = await MacquarieHandbook.GetCMSDataCollection<MacquarieUnit>(apiRequest);
+            var unitCollection = await MacquarieHandbook.GetAllUnits(2021);
 
-
-            Boolean exportWithSubjectCode = false;
-
-            if (exportWithSubjectCode) {
+            if (unitCollection.Count > 0) {
                 var ruleAndCode = new List<Tuple<string, string>>();
                 foreach (var i in unitCollection) {
                     foreach (var j in i.UnitData.EnrolmentRules) {
@@ -154,15 +149,9 @@ namespace Unit_Info
 
                 var orderedList = ruleAndCode.OrderBy(i => i.Item2.Length);
 
-                await SerialiseObjectToJsonFile(orderedList, "data/units/prerequisites/unparsed/Macquarie_EnrolmentRules_Order_LENGTH_with_TITLE");
-            } else {
-                var prerequisites = from enrolementRule in (from t2 in unitCollection from enrolementRules in t2.UnitData.EnrolmentRules select enrolementRules).ToList()
-                                    where enrolementRule.Type.Value == "prerequisite"
-                                    orderby enrolementRule.Description.Length
-                                    select enrolementRule.Description;
-
-                await SerialiseObjectToJsonFile(prerequisites, "data/units/prerequisites/unparsed/Macquarie_EnrolmentRules_Order_LENGTH_Sanitised");
+                await SerialiseObjectToJsonFile(orderedList, "data/units/prerequisites/unparsed/Macquarie_EnrolmentRules_ASC_LENGTH");
             }
+
 
             sw.Stop();
 
@@ -172,7 +161,7 @@ namespace Unit_Info
         public async Task SaveListOfUnitCodesAndTitles() {
             var unitCodes = await GetListOfUnitCodes();
 
-            await SerialiseObjectToJsonFile(unitCodes, "Macquarie_Unit_Codes");
+            await SerialiseObjectToJsonFile(unitCodes, "data/units/filtered/Macquarie_Unit_Codes");
         }
 
         public async Task<IEnumerable<IGrouping<string, MacquarieBasicItemInfo>>> GetListOfUnitCodes() {
@@ -182,7 +171,7 @@ namespace Unit_Info
             //             (from course in courseCollection.Collection
             //             select course.Code, course.).ToList();
 
-            var enumerable = (from unit in unitCollection
+            var enumerable = (from unit in unitCollection.AsEnumerable()
                               select new { unit.Code, unit.Title, unit.UnitData.School.Value });
             var query = enumerable.Select(item => new MacquarieBasicItemInfo(item.Code, item.Title, item.Value)).OrderBy(item => item.Code).GroupBy(item => item.Department);
 
@@ -199,7 +188,7 @@ namespace Unit_Info
             var apiRequest = new CourseApiRequestBuilder() { ImplementationYear = 2021, Limit = 250 };
             var courseCollection = await MacquarieHandbook.GetCMSDataCollection<MacquarieCourse>(apiRequest);
 
-            var enumerable = (from course in courseCollection
+            var enumerable = (from course in courseCollection.AsEnumerable()
                               select new { course.Code, course.Title, course.CourseData.School.Value });
             var query = enumerable.Select(item => new MacquarieBasicItemInfo(item.Code, item.Title, item.Value)).OrderBy(item => item.Code).GroupBy(item => item.Department);
 

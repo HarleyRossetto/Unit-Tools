@@ -7,6 +7,7 @@ namespace Macquarie.Handbook.Data.Shared
 {
     public class MacquarieMetadata
     {
+        public DateTime DATE_DATA_RETRIEVED { get; init; } = DateTime.Now;
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
 #else

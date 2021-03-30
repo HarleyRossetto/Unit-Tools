@@ -129,7 +129,7 @@ namespace Macquarie.Handbook.Data.Unit
                     RemoveEscapeSequencesFromPrerequisites();
 
 
-                    ParsePrerequisites();
+                    //ParsePrerequisites();
                 }
             }
         }
@@ -153,6 +153,7 @@ namespace Macquarie.Handbook.Data.Unit
             }
         }
 
+        public static int successfulCompletions = 0;
         private void ParsePrerequisites() {
             //Parse some prereqs while we are at it?
             //Potentially move this later into some kind of observer / notifier system to accomodate
@@ -162,6 +163,10 @@ namespace Macquarie.Handbook.Data.Unit
                                                     select rule;
 
             //ParseEnrolmentRegexParentheses(preReqsRaw);
+
+            preReqsRaw.ToList().ForEach(r => PrerequisiteParser.ParsePrerequisiteString(r.Description));
+
+            return;
 
             var parentheseGroups = EnrolmentRuleParentheseParser.ParseParentheseGroups(preReqsRaw);
 
@@ -222,6 +227,8 @@ namespace Macquarie.Handbook.Data.Unit
                 _ = JsonSerialisationHelper.SerialiseObjectToJsonFile(topLevelConnector, $"data/prerequisites/parsed/{Code}_PreReqs");
 
                 //PrintPrereqGraph(topLevelConnector, 0);
+
+                successfulCompletions++;
             }
         }
 

@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -9,6 +10,14 @@ namespace Macquarie.Handbook.Data.Shared
 {
     public class MacquarieDataCollection<T> where T : MacquarieMetadata
     {
+        public MacquarieDataCollection(int capacity) {
+            Collection = new List<T>(capacity);
+        }
+
+        public MacquarieDataCollection(IEnumerable<T> tempCollection) {
+            Collection = new List<T>(tempCollection);
+        }
+
         [JsonProperty("contentlets")]
         public List<T> Collection { get; set; }
         

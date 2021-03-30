@@ -27,7 +27,7 @@ namespace Unit_Info
             LocalDataMap.LoadCache();
 
             //var courses = await MacquarieHandbook.GetAllCourses(2021);
-            var units = await MacquarieHandbook.GetAllUnits(2021, 3000, true);
+            var units = await MacquarieHandbook.GetAllUnits(2021, 3000, false);
 
             //await program.WriteUnitsToIndividualFilesFiltered(units.AsEnumerable());
 
@@ -45,16 +45,17 @@ namespace Unit_Info
 
             //await program.GetUnit("ECHE2320");
 
-            // await program.GetUnit("EDTE3010");
+            //await program.GetUnit("EDTE3010");
+            //await program.GetUnit("PICX8060");
             /*
                 EDTE3010 - has larger pre-requsite chain
+
+                PICX8060 - gives some stack overflow errors
             */
             //Downloads all units and saves a copy of only the prerequisite enrolment rules.
             //await program.GetAllUnitPrerequsiteForDevelopment();
 
-            if (LocalDataMap.unitToDirectoryDictionary != null) {
-                await SerialiseObjectToJsonFile(LocalDataMap.unitToDirectoryDictionary, LocalDataMap.CACHE_FULL_OUTPUT_PATH);
-            }
+            await LocalDataMap.SaveCacheAsync();
         }
 
         /// <summary>
@@ -158,7 +159,7 @@ namespace Unit_Info
                             var parentDir = CreateFilePath(Unit_Filtered_BySchool, $"{group.Key}/{department.Key.TrimEnd()}/");
                             var childpath = $"{level.Key}/{unit.Code}";
                             string filePath = parentDir + childpath;
-                            
+
                             LocalDataMap.Register(unit.Code, parentDir);
                             await SerialiseObjectToJsonFile(unit, filePath);
                         }

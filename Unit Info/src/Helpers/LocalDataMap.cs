@@ -1,8 +1,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
-using Macquarie.JSON;
+using static Macquarie.JSON.JsonSerialisationHelper;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Unit_Info.Helpers
 {
@@ -11,21 +12,33 @@ namespace Unit_Info.Helpers
         public static Dictionary<string, string> unitToDirectoryDictionary;
         static Regex unitTextRegex = new Regex(@"\D+");
         static Regex unitNumRegex = new Regex(@"\d");
+        public static bool HasBeenUpdated { get; private set; }
+
 
         public const string CACHE_OUTPUT_FILE = "UnitDirectoryDictionary.json";
         public static readonly string CACHE_FULL_OUTPUT_PATH = LocalDataDirectoryHelper.CreateFilePath(LocalDirectories.Local_Data_Cache, CACHE_OUTPUT_FILE);
 
         public static void LoadCache() {
             if (File.Exists(CACHE_FULL_OUTPUT_PATH)) {
-                unitToDirectoryDictionary = JsonSerialisationHelper.DeserialiseJsonObject<Dictionary<string, string>>(File.ReadAllText(CACHE_FULL_OUTPUT_PATH));
+                unitToDirectoryDictionary = DeserialiseJsonObject<Dictionary<string, string>>(File.ReadAllText(CACHE_FULL_OUTPUT_PATH));
             } else {
                 unitToDirectoryDictionary = new Dictionary<string, string>();
+            }
+        }
+
+        public static async Task SaveCacheAsync() {
+            if (HasBeenUpdated) {
+                HasBeenUpdated = false;
+                await SerialiseObjectToJsonFile(LocalDataMap.unitToDirectoryDictionary, LocalDataMap.CACHE_FULL_OUTPUT_PATH);
+            } else {
+                return;
             }
         }
 
         public static bool Register(string unitCode, string directory) {
             //Strip the dept code off beginning add and that to the dictionary.
             var unitText = unitTextRegex.Match(unitCode).Value;
+            HasBeenUpdated = true;
             return unitToDirectoryDictionary.TryAdd(unitText, directory);
         }
 

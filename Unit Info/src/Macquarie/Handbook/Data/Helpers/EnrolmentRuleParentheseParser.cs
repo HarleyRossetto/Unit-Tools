@@ -146,6 +146,7 @@ namespace Macquarie.Handbook.Data.Helpers
 
                 var topLevelId = Guid.NewGuid();
 
+                //Add the first element as the root to the list.
                 results.Add(topLevelId.ToString(), new ParentheseGroup(topLevelRange,
                                                                      topLevelRule.Description,
                                                                      true,

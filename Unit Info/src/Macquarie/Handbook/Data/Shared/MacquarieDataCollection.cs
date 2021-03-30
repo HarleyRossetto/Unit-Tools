@@ -10,6 +10,9 @@ namespace Macquarie.Handbook.Data.Shared
 {
     public class MacquarieDataCollection<T> where T : MacquarieMetadata
     {
+        //Empty constructor for JSON.net to use
+        public MacquarieDataCollection() {  }
+
         public MacquarieDataCollection(int capacity) {
             Collection = new List<T>(capacity);
         }

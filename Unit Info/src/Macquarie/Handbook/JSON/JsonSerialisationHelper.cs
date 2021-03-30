@@ -10,16 +10,22 @@ namespace Macquarie.JSON
     {
         public static T DeserialiseJsonObject<T>(string json) {
 #if WRITE_ALL_JSON_TO_DISK
-                WriteJsonToFile(json);
+            _ = WriteJsonToFile($"data/units/raw/{DateTime.Now.ToString("yyMMdd_HHmmss_fffff")}", json);
 #endif
             return JsonConvert.DeserializeObject<T>(json);
         }
 
-        public static string SerialiseObject(object obj) {
-            return JsonConvert.SerializeObject(obj, Formatting.Indented, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore, Converters = { new StringEnumConverter() } });
+        public static string SerialiseObject(object obj, Formatting formatting = Formatting.Indented) {
+            return JsonConvert.SerializeObject(obj, formatting, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore, Converters = { new StringEnumConverter() } });
         }
 
-        public static async Task SerialiseObjectToJsonFile(object obj, string fileName, bool saveWithTimeStamp = false, bool humanReadable = true) {
+        public static async Task SerialiseObjectToJsonFile(object obj, string fileName, bool saveWithTimeStamp = false, Formatting formatting = Formatting.Indented) {
+            var jsonString = SerialiseObject(obj, formatting);
+
+            await WriteJsonToFile(fileName, jsonString, saveWithTimeStamp);
+        }
+
+        public static async Task WriteJsonToFile(string fileName, string jsonString, bool saveWithTimeStamp = false) {
             if (fileName == null || fileName.Length == 0) {
                 System.Console.WriteLine("Cannot serialise object to file with null/empty fileName!");
             }
@@ -27,19 +33,11 @@ namespace Macquarie.JSON
             if (saveWithTimeStamp)
                 fileName = $"{fileName}_{DateTime.Now.ToString("yyMMdd_HHmmss_fffff")}";
 
-            string filePath = $"{fileName}.json";
 
-            //Delete the file if it already exists, we are going to update it.
-            if (File.Exists(filePath)) {
-                try {
-                    File.Delete(filePath);
-                } catch (Exception ex) {
-                    System.Console.WriteLine($"Failed to delete file: {filePath}!\n {ex.ToString()}");
-
-                    //Bail out of here!
-                    return;
-                }
-            }
+            string filePath = fileName;
+            //Only add .json to the end if it isn't already there.
+            if (!fileName.EndsWith(".json"))
+                filePath += ".json";
 
             FileInfo outputFileInfo;
 
@@ -49,10 +47,9 @@ namespace Macquarie.JSON
                 if (!Directory.Exists(outputFileInfo.DirectoryName))
                     Directory.CreateDirectory(outputFileInfo.DirectoryName);
 
-                var jsonString = SerialiseObject(obj);
-                await File.WriteAllTextAsync(outputFileInfo.FullName, jsonString);
+                await File.WriteAllTextAsync(filePath, jsonString);
             } catch (Exception ex) {
-                System.Console.WriteLine($"Failed to serialise object {obj.ToString()}\nReason:\n{ex.ToString()}");
+                System.Console.WriteLine($"Failed to serialise json string.\nReason:\n{ex.ToString()}");
                 return;
             }
         }

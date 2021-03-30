@@ -146,7 +146,7 @@ namespace Macquarie.Handbook
                 implementationYear = DateTime.Now.Year;
 
             if (fromDisk) {
-                return await GetLocalDataCollection<MacquarieUnit>(fromDisk);
+                return await GetLocalDataCollection<MacquarieUnit>(true);
             } else {
 
                 var apiRequest = new UnitApiRequestBuilder() { ImplementationYear = implementationYear, Limit = limit };

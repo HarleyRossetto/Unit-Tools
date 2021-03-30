@@ -5,6 +5,8 @@
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Unit_Info</RootNamespace>
 
+    <GenerateProgramFile>false</GenerateProgramFile>
+
     <!-- <DefineConstants>IGNORE_UNNECESSARY</DefineConstants> -->
     <!-- <DefineConstants>WRITE_ALL_JSON_TO_DISK</DefineConstants> -->
 

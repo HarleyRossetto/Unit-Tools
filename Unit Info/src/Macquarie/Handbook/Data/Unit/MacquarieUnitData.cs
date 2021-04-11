@@ -126,10 +126,10 @@ namespace Macquarie.Handbook.Data.Unit
                     RemoveEscapeSequencesFromPrerequisites();
 
                     //Original Implementation
-                    PrerequisiteParser.ParsePrerequisites(value, Code);
+                    PrerequisiteParserOld.ParsePrerequisites(value, Code);
 
                     //Testing implementations
-                    //EnrolmentRules.ForEach(x => PrerequisiteParser.ParsePrerequisiteString(x.Description));
+                    //EnrolmentRules.ForEach(x => PrerequisiteParserOld.ParsePrerequisiteString(x.Description));
                 }
             }
         }

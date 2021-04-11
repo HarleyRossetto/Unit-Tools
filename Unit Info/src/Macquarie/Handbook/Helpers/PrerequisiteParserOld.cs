@@ -9,13 +9,13 @@ using Unit_Info.Helpers;
 
 namespace Macquarie.Handbook.Helpers
 {
-    public static class PrerequisiteParser
+    public static class PrerequisiteParserOld
     {
         public static int successfulCompletions = 0;
 
         private static Dictionary<string, TokenType> Keywords = new Dictionary<string, TokenType>();
 
-        static PrerequisiteParser() {
+        static PrerequisiteParserOld() {
             Keywords.Add("admission", TokenType.Admission);
             Keywords.Add("and", TokenType.And);
             Keywords.Add("or", TokenType.Or);

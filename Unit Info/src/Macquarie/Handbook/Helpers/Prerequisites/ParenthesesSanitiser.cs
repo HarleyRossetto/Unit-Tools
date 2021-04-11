@@ -22,6 +22,8 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
         static Regex _regexZeroToFiveNumericRequirement = new Regex(@"\(0 to 5\)");
         //Matches (Birth to five)
         static Regex _regexZeroToFiveCharRequirement = new Regex(@"\(Birth to five\)");
+        //Matches "Pre-requisite "
+        static Regex _regexPrerequisiteRequirement = new Regex(@"Pre-requisite ");
 
         static List<Regex> _regexFilters = new()
         {
@@ -31,7 +33,8 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
             _regexBeijingRequirement,
             _regexPrimHonsRequirement,
             _regexSglOrDblDegreeRequirement,
-            _regexZeroToFiveCharRequirement
+            _regexZeroToFiveCharRequirement,
+            _regexPrerequisiteRequirement
         };
 
         public static string Sanitise(string prerequsite) {
@@ -48,7 +51,7 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
             return result;
         }
 
-        private static string QualifyFilterBrackets(string prerequsites, MatchCollection matches) {
+        public static string QualifyFilterBrackets(string prerequsites, MatchCollection matches) {
             foreach (Match match in matches) {
                 var replaced = ReplaceParenthesesWithSquareBrackets(match.Value);
                 var inputWithMatchRemoved = prerequsites.Remove(match.Index, match.Length);
@@ -63,7 +66,7 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
             return result.Replace(']', ')');
         }
 
-        private static string ReplaceParenthesesWithSquareBrackets(string input) {
+        public static string ReplaceParenthesesWithSquareBrackets(string input) {
             var temp = input.Replace('(', '[');
             return temp.Replace(')', ']');
         }

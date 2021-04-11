@@ -21,5 +21,8 @@
     },
     "ImplementTypeOptions": { 
         "PropertyGenerationBehavior": "PreferAutoProperties"
+    },
+    "RoslynExtensionsOptions": {
+        "enableDecompilationSupport": true
     }
 }

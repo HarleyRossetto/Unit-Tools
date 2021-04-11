@@ -87,24 +87,9 @@ namespace Macquarie.Handbook.Data.Helpers
             var parentheseGroups = EnrolmentRuleParentheseParser.ParseParentheseGroups(preReqsRaw);
 
             //Dictionary to hold our connector types
-            var connectorDictionary = new Dictionary<string, Tuple<Connector, ParentheseGroup>>();
+            var connectorDictionary = ParseGroupsForStructures(parentheseGroups);
 
-            //Work backwards through the list of parenthese groups and parse structures
-            foreach (var group in parentheseGroups.Reverse()) {
-                var type = AscertainConnector(group.Value);
-                Connector result = TryParseStructure(type, group.Value);
-
-                //If we cant find or parse the connector type then assign it a basic STATEMENT type
-                if (result == null) {
-                    result = new Connector() { ConnectionType = ConnectorType.STATEMENT };
-                    result.StringValues.Add(group.Value.GroupString);
-                }
-
-                //Add the connector to the dictionary
-                connectorDictionary.Add(group.Value.ID, new Tuple<Connector, ParentheseGroup>(result, group.Value));
-            }
-
-            //GUID regex 
+            //GUID regex , Dictionary<string, Tuple<Connector, ParentheseGroup>> connectorDictionary
             Regex guidRegex = new Regex(@"([0-9a-f]){8}(-([0-9a-f]{4})){3}-([0-9a-f]{12})");
 
             //Run through all the connectors.
@@ -138,20 +123,36 @@ namespace Macquarie.Handbook.Data.Helpers
 
             return;
 
-            if (connectorDictionary.Values.Count > 0) {
-                var topLevelConnector = connectorDictionary.Values.Last().Item1;
-                topLevelConnector.OriginalString = preReqsRaw.First().Description;
+            // if (connectorDictionary.Values.Count > 0) {
+            //     var topLevelConnector = connectorDictionary.Values.Last().Item1;
+            //     topLevelConnector.OriginalString = preReqsRaw.First().Description;
 
 
-                //Discard so there is no await keyword warning
-                _ = JsonSerialisationHelper.SerialiseObjectToJsonFile(topLevelConnector, LocalDataDirectoryHelper.CreateFilePath(LocalDirectories.Unit_Filtered, $"{unitCode}_PreReqs"));
+            //     //Discard so there is no await keyword warning
+            //     _ = JsonSerialisationHelper.SerialiseObjectToJsonFile(topLevelConnector, LocalDataDirectoryHelper.CreateFilePath(LocalDirectories.Unit_Filtered, $"{unitCode}_PreReqs"));
 
-                PrintPrereqGraph(topLevelConnector, 0);
+            //     PrintPrereqGraph(topLevelConnector, 0);
 
-                successfulCompletions++;
-            }
+            //     successfulCompletions++;
+            // }
         }
 
+        private static Dictionary<string, Tuple<Connector, ParentheseGroup>> ParseGroupsForStructures(Dictionary<string, ParentheseGroup> parentheseGroups) {
+            var results = new Dictionary<string, Tuple<Connector, ParentheseGroup>>();
+            //Work backwards through the list of parenthese groups and parse structures
+            foreach (var group in parentheseGroups.Reverse()) {
+                var type = AscertainConnector(group.Value);
+                Connector result = TryParseStructure(type, group.Value);
+
+                //If we cant find or parse the connector type then assign it a basic STATEMENT type
+                result ??= new Connector() { ConnectionType = ConnectorType.STATEMENT };
+                result.StringValues.Add(group.Value.GroupString);
+
+                //Add the connector to the dictionary
+                results.Add(group.Value.ID, new Tuple<Connector, ParentheseGroup>(result, group.Value));
+            }
+            return results;
+        }
 
         private static void PrintPrereqGraph(Connector connector, int level) {
             if (connector.IsMostBasic) {
@@ -276,7 +277,7 @@ namespace Macquarie.Handbook.Data.Helpers
 
         public bool IsMostBasic {
             get {
-                if (ConnectorValues == null) {
+                if (ConnectorValues is null) {
                     return false;
                 } else {
                     return ConnectorValues.Count == 0;

@@ -26,8 +26,9 @@ namespace Macquarie.JSON
         }
 
         public static async Task WriteJsonToFile(string fileName, string jsonString, bool saveWithTimeStamp = false) {
-            if (fileName == null || fileName.Length == 0) {
+            if (string.IsNullOrEmpty(fileName)) {
                 System.Console.WriteLine("Cannot serialise object to file with null/empty fileName!");
+                return;
             }
 
             if (saveWithTimeStamp)
@@ -39,18 +40,26 @@ namespace Macquarie.JSON
             if (!fileName.EndsWith(".json"))
                 filePath += ".json";
 
-            FileInfo outputFileInfo;
+            if (TryCreateDirectory(filePath)) {
+                try {
+                    await File.WriteAllTextAsync(filePath, jsonString);
+                } catch (Exception ex) {
+                    System.Console.WriteLine($"Failed to serialise json string.\nReason:\n{ex.ToString()}");
+                }
+            }
+        }
 
+        private static bool TryCreateDirectory(string filePath) {
+            FileInfo outputFileInfo;
             try {
                 outputFileInfo = new FileInfo(filePath);
 
                 if (!Directory.Exists(outputFileInfo.DirectoryName))
                     Directory.CreateDirectory(outputFileInfo.DirectoryName);
-
-                await File.WriteAllTextAsync(filePath, jsonString);
+                return true;
             } catch (Exception ex) {
-                System.Console.WriteLine($"Failed to serialise json string.\nReason:\n{ex.ToString()}");
-                return;
+                System.Console.WriteLine($"Failed to create directory.\n {ex.Message}");
+                return false;
             }
         }
     }

@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace UnitTools_Tests
 {
     [TestClass]
-    public class PrerequisiteSanitiserTests
+    public class PrerequisiteSanitiserTests 
     {
         [TestMethod]
         public void TestBracketedQualifiers() {

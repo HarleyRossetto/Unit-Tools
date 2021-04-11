@@ -11,15 +11,18 @@ namespace UnitTools_Tests
         [TestMethod]
         public void TestParentheseMatcher() {
             string inputOne = "(Admission to BEd(Prim) and (EDUC258 or EDUC2580) and (EDUC260 or EDUC2600) and (EDUC267 or EDUC2670)) or (130cp including (EDUC258 or EDUC2580) and (EDUC260 or EDUC2600) and (EDUC267 or EDUC2670) and (EDTE353 or EDTE3530))";
-            var resultOne = ParentheseMatcher.GetParenthesePairings(inputOne);
+            inputOne = ParenthesesSanitiser.Sanitise(inputOne);
+            var resultOne = ParentheseMatcher.GetBraces(inputOne);
             Assert.AreEqual<int>(18, new List<(int, ParentheseType, int)>(resultOne).Count);
 
             string inputTwo = "Admission to MPICT or MCPICT or GradDipPICT or GradDipCPICT or PGCertPICT or MPICTMIntSecSt or MCPICTMIntSecSt or MIntSecStud or GradDipIntSecStud or GradCertIntell or MCTerrorism or MCyberSec or GradDipSecStudCr or GradCertSecStudCr or MIntell or MSecStrategicStud or MCrim or MSecStrategicStudMCrim or MSecStrategicStudMIntell or MSecStrategicStudMCyberSec or MSecStrategicStudMCTerrorism or MIntellMCrim or MIntellMCyberSec or MIntellMCTerrorism or MCyberSecMCTerrorism or MCyberSecMCrim or MCTerrorismMCrim or Master of Cyber Security Analysis or (10cps at 6000 level or 10cps 8000 level)";
-            var resultTwo = ParentheseMatcher.GetParenthesePairings(inputTwo);
+            inputTwo = ParenthesesSanitiser.Sanitise(inputTwo);
+            var resultTwo = ParentheseMatcher.GetBraces(inputTwo);
             Assert.AreEqual<int>(2, new List<(int, ParentheseType, int)>(resultTwo).Count);
 
             string inputThree = "Admission to MPICT or MCPICT or GradDipPICT or GradDipCPICT or PGCertPICT or MPICTMIntSecSt or MCPICTMIntSecSt or MIntSecStud or GradDipIntSecStud or GradCertIntell or MCTerrorism or MCyberSec or GradDipSecStudCr or GradCertSecStudCr or MIntell or MSecStrategicStud or MCrim or MSecStrategicStudMCrim or MSecStrategicStudMIntell or MSecStrategicStudMCyberSec or MSecStrategicStudMCTerrorism or MIntellMCrim or MIntellMCyberSec or MIntellMCTerrorism or MCyberSecMCTerrorism or MCyberSecMCrim or MCTerrorismMCrim or Master of Cyber Security Analysis or ((Admission to BSecStudMCTerrorism or BSecStudMCrim or MBusAnalytics or BSecStudMCyberSecAnalysis or BSecStudMIntell or BSecStudMSecStrategicStud) and (10cp at 6000 level or 10cp at 8000 level))";
-            var resultThree = ParentheseMatcher.GetParenthesePairings(inputThree);
+            inputThree = ParenthesesSanitiser.Sanitise(inputThree);
+            var resultThree = ParentheseMatcher.GetBraces(inputThree);
             Assert.AreEqual<int>(6, new List<(int, ParentheseType, int)>(resultThree).Count);
         }
 

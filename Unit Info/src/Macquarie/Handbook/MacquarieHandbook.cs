@@ -35,7 +35,7 @@ namespace Macquarie.Handbook
             var response = await httpClient.GetAsync(url);
             return await response.Content.ReadAsStringAsync();
         }
-        
+
         public static async Task<MacquarieDataCollection<T>> GetCMSDataCollection<T>(HandbookApiRequestBuilder apiRequest) where T : MacquarieMetadata {
             return await GetCMSDataCollection<T>(apiRequest.ToString());
         }
@@ -45,37 +45,20 @@ namespace Macquarie.Handbook
         }
 
         //False for course. Make enum later
-        public static async Task<MacquarieDataCollection<T>> GetLocalDataCollection<T>(bool unit = true, bool doConcurrent = false) where T : MacquarieMetadata {
+        public static async Task<MacquarieDataCollection<T>> LoadAllLocalData<T>(bool unit = true) where T : MacquarieMetadata {
             var dirPath = LocalDataDirectoryHelper.GetDirectory(Unit_Filtered);
             if (Directory.Exists(dirPath)) {
                 try {
                     var filesToLoad = new List<string>(Directory.GetFiles(dirPath, "*.json", SearchOption.AllDirectories));
 
-                    ConcurrentBag<T> tempCollection = new ConcurrentBag<T>();
+                    var results = new MacquarieDataCollection<T>();
 
-                    if (doConcurrent) {
-
-                        var tasks = filesToLoad.Select(async file =>
-                        {
-                            tempCollection.Add(DeserialiseJsonObject<T>(await File.ReadAllTextAsync(file)));
-                        });
-
-                        await Task.WhenAll(tasks);
-
-                        return new MacquarieDataCollection<T>(tempCollection);
-                    } else {
-
-                        // var returnable = new MacquarieDataCollection<T>(filesToLoad.Count);
-
-                        Parallel.ForEach(filesToLoad,
-                                            new ParallelOptions() { MaxDegreeOfParallelism = 50 },
-                                            async (file) =>
-                                                {
-                                                    tempCollection.Add(DeserialiseJsonObject<T>(await File.ReadAllTextAsync(file)));
-                                                });
-
-                        return new MacquarieDataCollection<T>(tempCollection);
-                    }
+                    foreach (var file in filesToLoad) {
+                        var jsonString = await File.ReadAllTextAsync(file);
+                        var data = DeserialiseJsonObject<T>(jsonString);
+                        results.Add(data);
+                    }   
+                    return results;
 
                 } catch (Exception ex) {
                     System.Console.WriteLine(ex.ToString());
@@ -87,119 +70,84 @@ namespace Macquarie.Handbook
         }
 
         public static async Task<MacquarieUnit> GetUnit(string unitCode, int? implementationYear = null) {
-            var localPathIndividual = CreateFilePath(Unit_Individual, $"{unitCode}.json");
-            string localPathFiltered;
-            var localDirMapFound = LocalDataMap.GetDirectoryOut(unitCode, out localPathFiltered);
-            localPathFiltered += $"{unitCode}.json";
+            MacquarieUnit result = await TryLoadLocalData<MacquarieUnit>(unitCode, APIResourceType.Unit);
 
-            bool localDirMapValidPath = File.Exists(localPathFiltered);
-            bool individualValidPath = File.Exists(localPathIndividual);
-
-            string pathToAccess = "";
-            if (localDirMapValidPath)
-                pathToAccess = localPathFiltered;
-            else if (individualValidPath) {
-                pathToAccess = localPathIndividual;
+            if (result is null) {
+                System.Console.WriteLine($"Unable to load {unitCode} from local cache, loading from CMS..");
+                HandbookApiRequestBuilder apiRequestBuilder = new HandbookApiRequestBuilder(unitCode, implementationYear, APIResourceType.Unit);
+                var resultsCollection = await GetCMSDataCollection<MacquarieUnit>(apiRequestBuilder);
+                if (resultsCollection.Count >= 1)
+                    result = resultsCollection[0];
             }
 
-            //if we have a local copy source that.
-            if (localDirMapValidPath || individualValidPath) {
+            //Save to local cache  while we at it
+            await SerialiseObjectToJsonFile(result, CreateFilePath(Unit_Individual, unitCode));
 
-                try {
-                    System.Console.WriteLine($"Reading local copy of {unitCode} from disk..");
-                    System.Console.WriteLine(pathToAccess);
-
-                    var jsonString = await File.ReadAllTextAsync(pathToAccess);
-
-                    //var units = DeserialiseJsonObject<MacquarieDataCollection<MacquarieUnit>>(jsonString);
-                    var unit = DeserialiseJsonObject<MacquarieUnit>(jsonString);
-
-                    if (unit != null) {
-                        //var course = units.AsEnumerable().First();
-
-                        if (unit.ImplementationYear == implementationYear?.ToString()) {
-                            return unit;
-                        } else {
-                            System.Console.WriteLine($"Local copy of {unitCode}'s implementation year did not match {implementationYear}, was {unit.ImplementationYear}");
-                        }
-                    }
-                } catch (Exception ex) {
-                    System.Console.WriteLine(ex.ToString());
-                }
-            }
-
-            System.Console.WriteLine($"Sourcing {unitCode} from CMS..");
-            HandbookApiRequestBuilder apiRequest = new UnitApiRequestBuilder(unitCode, implementationYear);
-            var unitResultsCollection = await GetCMSDataCollection<MacquarieUnit>(apiRequest);
-
-            //The JSON returned from the request is always a list, even if just one value.
-            //CMS requests through this function should only every return 1 value.
-            if (unitResultsCollection.Count == 1) {
-                return unitResultsCollection[0];
-            } else {
-                return null;
-            }
+            return result;
         }
 
-        public static async Task<MacquarieDataCollection<MacquarieUnit>> GetAllUnits(int? implementationYear = null, int limit = 3000, bool fromDisk = false) {
-            if (implementationYear == null)
-                implementationYear = DateTime.Now.Year;
+        public static async Task<T> TryLoadLocalData<T>(string code, APIResourceType resourceType) where T : MacquarieMetadata {
+            LocalDirectories path = resourceType switch
+            {
+                APIResourceType.Course  => LocalDirectories.Course_Individual,
+                APIResourceType.Unit    => LocalDirectories.Unit_Individual,
+                _                       => LocalDirectories.NoDirectory
+            };
 
-            if (fromDisk) {
-                return await GetLocalDataCollection<MacquarieUnit>(true);
+            var localPath = CreateFilePath(path, $"{code}.json");
+
+            if (File.Exists(localPath)) {
+                System.Console.WriteLine($"Attempting to load {code} from local cache..");
+                var result = await LoadObjectFromFile<T>(localPath);
+
+                if (result is not null)
+                    System.Console.WriteLine($"Successfully loaded {code} ");
+
+                return result;
+            }
+
+            return default(T);
+        }
+
+        private static async Task<T> LoadObjectFromFile<T>(string file) where T : MacquarieMetadata{
+            try {
+                var jsonString = await File.ReadAllTextAsync(file);
+                var obj = DeserialiseJsonObject<T>(jsonString);
+
+                return obj;
+            } catch (Exception ex) {
+                System.Console.WriteLine(ex.Message);
+            }
+            return null;
+        }
+
+        public static async Task<MacquarieDataCollection<MacquarieUnit>> GetAllUnits(int? implementationYear = null, int limit = 3000, bool readFromDisk = false) {
+            implementationYear ??= DateTime.Now.Year;
+
+            if (readFromDisk) {
+                return await LoadAllLocalData<MacquarieUnit>(true);
             } else {
-
                 var apiRequest = new UnitApiRequestBuilder() { ImplementationYear = implementationYear, Limit = limit };
-
                 return await GetCMSDataCollection<MacquarieUnit>(apiRequest);
             }
         }
 
         public static async Task<MacquarieCourse> GetCourse(string courseCode, int? implementationYear = null) {
-            string localPath = CreateFilePath(Course_Individual, $"{courseCode}.json");
-            //if we have a local copy source that.
-            if (File.Exists(localPath)) {
-                try {
-                    System.Console.WriteLine($"Reading local copy of {courseCode} from disk..");
-                    System.Console.WriteLine(localPath);
+            MacquarieCourse result = await TryLoadLocalData<MacquarieCourse>(courseCode, APIResourceType.Course);
 
-                    var jsonString = await File.ReadAllTextAsync(localPath);
-
-                    //var units = DeserialiseJsonObject<MacquarieDataCollection<MacquarieUnit>>(jsonString);
-                    var course = DeserialiseJsonObject<MacquarieCourse>(jsonString);
-
-                    if (course != null) {
-                        //var course = units.AsEnumerable().First();
-
-                        if (course.ImplementationYear == implementationYear?.ToString()) {
-                            return course;
-                        } else {
-                            System.Console.WriteLine($"Local copy of {courseCode}'s implementation year did not match {implementationYear}, was {course.ImplementationYear}");
-                        }
-                    }
-                } catch (Exception ex) {
-                    System.Console.WriteLine(ex.ToString());
-                }
+            if (result is null) {
+                System.Console.WriteLine($"Unable to load {courseCode} from local cache, loading from CMS..");
+                HandbookApiRequestBuilder apiRequestBuilder = new HandbookApiRequestBuilder(courseCode, implementationYear, APIResourceType.Course);
+                var resultsCollection = await GetCMSDataCollection<MacquarieCourse>(apiRequestBuilder);
+                if (resultsCollection.Count >= 1)
+                    result = resultsCollection[0];
             }
 
-            System.Console.WriteLine($"Sourcing {courseCode} from CMS..");
-
-
-            HandbookApiRequestBuilder apiRequest = new CourseApiRequestBuilder(courseCode, implementationYear);
-            var courseResultsCollection = await GetCMSDataCollection<MacquarieCourse>(apiRequest);
-
-            //The JSON returned from the request is always a list, even if just one value.
-            //CMS requests through this function should only every return 1 value.
-            if (courseResultsCollection.Count == 1) {
-                return courseResultsCollection[0];
-            } else {
-                return null;
-            }
+            return result;
         }
 
         public static async Task<MacquarieDataCollection<MacquarieCourse>> GetAllCourses(int? implementationYear = null, int limit = 3000) {
-            if (implementationYear == null)
-                implementationYear = DateTime.Now.Year;
+            implementationYear ??= DateTime.Now.Year;
 
             var apiRequest = new CourseApiRequestBuilder() { ImplementationYear = implementationYear, Limit = limit };
 

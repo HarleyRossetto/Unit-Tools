@@ -123,7 +123,7 @@ namespace Macquarie.Handbook.Data.Unit
                 return _enrolmentRules;
             }
             set {
-                if (value != null) {
+                if (value is not null) {
                     _enrolmentRules = value;
 
                     //Sanitise the input.

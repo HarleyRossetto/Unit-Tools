@@ -3,7 +3,7 @@ using System.Text;
 
 namespace Macquarie.Handbook.WebApi
 {
-    public abstract class HandbookApiRequestBuilder
+    public class HandbookApiRequestBuilder
     {
         protected StringBuilder API_STRING = new StringBuilder(250);
 
@@ -11,42 +11,49 @@ namespace Macquarie.Handbook.WebApi
         public string Code {
             get { return _code; }
             set {
-                if (value != null)
+                if (value is not null)
                     _code = value;
             }
         }
 
-        protected string BASE_API_STRING { get; set; } = null;
+        protected string BASE_API_STRING { get; set; } = "https://macquarie-prod-handbook.factor5-curriculum.com.au/api/content/render/false/query/+contentType:mq2_p";
         public int? ImplementationYear { get; set; } = null;
         public int? Limit { get; set; } = null;
 
-        public HandbookApiRequestBuilder() {
-            BASE_API_STRING = GetBaseAPIString();
-        }
+        public APIResourceType ResourceType { get; set; } = APIResourceType.Unit;
 
-        public HandbookApiRequestBuilder(string code, int? implementationYear) : this() {
+        public HandbookApiRequestBuilder() { }
+
+        public HandbookApiRequestBuilder(string code, int? implementationYear, APIResourceType resourceType) : this() {
             Code = code;
             ImplementationYear = implementationYear;
+            ResourceType = resourceType;
         }
 
-        protected abstract string GetBaseAPIString();
-        protected abstract string GetRequestHeader();
+        protected virtual string GetBaseAPIString() { return ""; }
+        protected virtual string GetRequestDataType() {
+            switch (ResourceType) {
+                case APIResourceType.Course:
+                    return "course";
+                case APIResourceType.Unit:
+                    return "subject";
+                default:
+                    return "";
+            }
+        }
 
         public override string ToString() {
-            //if (Code == null || Code.Length == 0)
-                //return "127.0.0.1";
-
-
             API_STRING.Clear();
             API_STRING.Append(BASE_API_STRING);
+            API_STRING.Append(GetRequestDataType());
 
-            if (ImplementationYear != null) {
-                API_STRING.Append($"%20+{GetRequestHeader()}.implementationYear:{ImplementationYear}");
+            if (ImplementationYear is not null) {
+                API_STRING.Append($"%20+mq2_p{GetRequestDataType()}.implementationYear:{ImplementationYear}");
             }
-            if (Code != null) {
-                API_STRING.Append($"%20+{GetRequestHeader()}.code:{Code}");
+            if (Code is not null) {
+                API_STRING.Append($"%20+mq2_p{GetRequestDataType()}.code:{Code}");
             }
-            if (Limit != null) {
+            if (Limit is not null) {
                 API_STRING.Append($"/limit/{Limit}");
             }
             return API_STRING.ToString();
@@ -58,46 +65,44 @@ namespace Macquarie.Handbook.WebApi
         }
     }
 
+    public enum APIResourceType
+    {
+        Unit,
+        Course
+    }
+
+
+//Leaving these as syntatic sugar for the moment
     public class UnitApiRequestBuilder : HandbookApiRequestBuilder
     {
 
-        public UnitApiRequestBuilder() : base() { }
+        public UnitApiRequestBuilder() : base() {
+            BASE_API_STRING = GetBaseAPIString();
+         }
 
-        public UnitApiRequestBuilder(string unitCode) : base(unitCode, DateTime.Now.Year) { }
-
-        public UnitApiRequestBuilder(string unitCode, int? implementationYear) : base(unitCode, implementationYear) { }
-
-        public override void Reset() {
-            base.Reset();
-        }
-        protected override string GetRequestHeader() {
-            return "mq2_psubject";
+        public UnitApiRequestBuilder(string unitCode) : base(unitCode, DateTime.Now.Year, APIResourceType.Unit) {
+            BASE_API_STRING = GetBaseAPIString();
         }
 
-        protected override string GetBaseAPIString() {
-            //"https://coursehandbook.mq.edu.au/api/content/render/false/query/+contentType:mq2_psubject";
-            return "https://macquarie-prod-handbook.factor5-curriculum.com.au/api/content/render/false/query/+contentType:mq2_psubject";
+        public UnitApiRequestBuilder(string unitCode, int? implementationYear) : base(unitCode, implementationYear, APIResourceType.Unit) { 
+            BASE_API_STRING = GetBaseAPIString();
         }
+
     }
 
     public class CourseApiRequestBuilder : HandbookApiRequestBuilder
     {
-        public CourseApiRequestBuilder() : base() { }
+        public CourseApiRequestBuilder() : base() {
+            BASE_API_STRING = GetBaseAPIString();
+         }
 
-        public CourseApiRequestBuilder(string unitCode) : base(unitCode, DateTime.Now.Year) { }
+        public CourseApiRequestBuilder(string unitCode) : base(unitCode, DateTime.Now.Year, APIResourceType.Course) {
+            BASE_API_STRING = GetBaseAPIString();
+         }
 
-        public CourseApiRequestBuilder(string unitCode, int? implementationYear) : base(unitCode, implementationYear) { }
-
-        public override void Reset() {
-            base.Reset();
+        public CourseApiRequestBuilder(string unitCode, int? implementationYear) : base(unitCode, implementationYear, APIResourceType.Course) { 
+            BASE_API_STRING = GetBaseAPIString();
         }
 
-        protected override string GetBaseAPIString() {
-            return "https://macquarie-prod-handbook.factor5-curriculum.com.au/api/content/render/false/query/+contentType:mq2_pcourse";
-        }
-
-        protected override string GetRequestHeader() {
-            return "mq2_pcourse";
-        }
     }
 }

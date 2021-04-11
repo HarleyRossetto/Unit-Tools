@@ -22,18 +22,18 @@ namespace Unit_Info.Helpers
         }
 
         public static string CreateFilePath(LocalDirectories directory, string fileName) {
-            if (!paths.ContainsKey(directory.ToString())) {
-                return "";
-            } else {
+            if (paths.ContainsKey(directory.ToString())) {
                 return $"{paths[directory.ToString()]}{fileName}";
+            } else {
+                return "";
             }
         }
 
         public static string GetDirectory(LocalDirectories directory) {
-             if (!paths.ContainsKey(directory.ToString())) {
-                return "";
-            } else {
+             if (paths.ContainsKey(directory.ToString())) {
                 return paths[directory.ToString()];
+            } else {
+                return "";
             }
         }
     }
@@ -51,6 +51,7 @@ namespace Unit_Info.Helpers
         Course_Individual,
         Course_Filtered,
         Course_Filtered_BySchool,
+        NoDirectory
 
     }
 }

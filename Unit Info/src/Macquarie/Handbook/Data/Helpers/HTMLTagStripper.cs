@@ -4,8 +4,8 @@ namespace Macquarie.Handbook.Data.Helpers {
     public static class HTMLTagStripper {
         private static Regex filterHtmlTags = new Regex("<.>(.*?)<\\/.>");
         public static string StripHtmlTags(string input) {
-            if (input == null)
-                return input;
+            if (input is null)
+                return null;
                 
             var output = filterHtmlTags.Match(input);
             if (output.Groups.Count >= 2)

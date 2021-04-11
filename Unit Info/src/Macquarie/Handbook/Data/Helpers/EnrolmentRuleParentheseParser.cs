@@ -30,7 +30,7 @@ namespace Macquarie.Handbook.Data.Helpers
                 ///
                 if (currentCharacter == '(') {
                     //If the previous character is a letter, assume this particular parenthese group belongs with the prior string
-                    if (previousCharacter != null) {
+                    if (previousCharacter is not null) {
                         bool previousCharIsLetter = char.IsLetter((char)previousCharacter);
                         if (previousCharIsLetter) {
                             //Otherwise ignore it because it is part of a name.
@@ -104,11 +104,6 @@ namespace Macquarie.Handbook.Data.Helpers
                 }
             }
 
-            //We have a parenthese mismatch somewhere!
-            // if (depth != 0) {
-
-            // }
-
             level += 1;
 
             //Go through 
@@ -154,29 +149,47 @@ namespace Macquarie.Handbook.Data.Helpers
                                                                      topLevelId.ToString(),
                                                                      TOP_LEVEL_PARENT_ID.ToString()));
 
-                foreach (var rule in rules) {
-                    var groupings = BreakdownParentheseGroupingsRecursive(rule.Description, decompositionLevel, topLevelId.ToString()); //Use ParentID of 0 to signify there is no parent.
-                    foreach (var item in groupings) {
-                        results.Add(item.Key, item.Value);
-                    }
+                //Decompose all rules and appended to results dictionary.
+                var decomposedRules = DecomposeRules(rules, decompositionLevel, topLevelId);
+                decomposedRules.ToList().ForEach(x => results.Add(x.Key, x.Value));
+
+                //
+                ReplaceGroupValuesWithReferences(TOP_LEVEL_PARENT_ID, results);
+            }
+
+            return results;
+        }
+
+        private static void ReplaceGroupValuesWithReferences(Guid TOP_LEVEL_PARENT_ID, Dictionary<string, ParentheseGroup> results) {
+            //Go through each grouping and replace it'stringValue occurance in its' parents' string with it'stringValue ID.
+            foreach (var element in results.Values.Reverse()) {
+                if (element.ParentID != TOP_LEVEL_PARENT_ID.ToString()) {
+                    //Get reference to parent item
+                    var parentElement = results[element.ParentID.ToString()];
+
+                    var range = element.CharacterRangeInParentString;
+
+                    //Remove the original value from parent string
+                    parentElement.GroupString = parentElement.GroupString.Remove(   range.Start.Value, 
+                                                                                    range.GetLength());
+
+                    //Insert reference to group ID
+                    parentElement.GroupString = parentElement.GroupString.Insert(   range.Start.Value,
+                                                                                    element.ID.ToString());
+
+                    //Reassign.
+                    results[element.ParentID.ToString()] = parentElement;
                 }
+            }
+        }
 
-                //Go through each grouping and replace it'stringValue occurance in its' parents' string with it'stringValue ID.
-                foreach (var element in results.Values.Reverse()) {
-                    if (element.ParentID != TOP_LEVEL_PARENT_ID.ToString()) {
-                        //Get reference to parent item
-                        var parentElement = results[element.ParentID.ToString()];
-                        //Remove the original value from parent string
-                        parentElement.GroupString = parentElement.GroupString.Remove(element.CharacterRangeInParentString.Start.Value,
-                                                                                        element.CharacterRangeInParentString.End.Value - element.CharacterRangeInParentString.Start.Value + 1);
-
-                        //Insert reference to group ID
-                        parentElement.GroupString = parentElement.GroupString.Insert(element.CharacterRangeInParentString.Start.Value,
-                                                                                     element.ID.ToString());
-
-                        //Reassign.
-                        results[element.ParentID.ToString()] = parentElement;
-                    }
+        private static Dictionary<string, ParentheseGroup> DecomposeRules(IEnumerable<EnrolmentRule> rules, int decompositionLevel, Guid topLevelId) {
+            Dictionary<string, ParentheseGroup> results = new Dictionary<string, ParentheseGroup>();
+           
+            foreach (var rule in rules) {
+                var groupings = BreakdownParentheseGroupingsRecursive(rule.Description, decompositionLevel, topLevelId.ToString()); //Use ParentID of 0 to signify there is no parent.
+                foreach (var item in groupings) {
+                    results.Add(item.Key, item.Value);
                 }
             }
 

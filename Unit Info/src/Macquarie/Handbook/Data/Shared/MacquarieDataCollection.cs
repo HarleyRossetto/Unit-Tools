@@ -30,6 +30,8 @@ namespace Macquarie.Handbook.Data.Shared
 
         public IEnumerator<T> GetEnumerator() => Collection.GetEnumerator();
 
+        public void Add(T value) => Collection.Add(value);
+
         public IEnumerable<T> AsEnumerable() {
             return Collection.AsEnumerable();
         }

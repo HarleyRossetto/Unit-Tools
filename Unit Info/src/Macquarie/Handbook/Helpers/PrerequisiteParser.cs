@@ -7,7 +7,7 @@ using Macquarie.Handbook.Data.Unit.Prerequisites;
 using Macquarie.JSON;
 using Unit_Info.Helpers;
 
-namespace Macquarie.Handbook.Data.Helpers
+namespace Macquarie.Handbook.Helpers
 {
     public static class PrerequisiteParser
     {

@@ -2,17 +2,13 @@
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
 
 using Macquarie.Handbook.Data.Shared;
 using Macquarie.Handbook.Data.Unit.Prerequisites;
-using Macquarie.Handbook.Data.Helpers;
+using Macquarie.Handbook.Helpers;
 using static Macquarie.JSON.JsonSerialisationHelper;
 
 using Newtonsoft.Json;
-using Macquarie.JSON;
-using Unit_Info.Helpers;
 
 namespace Macquarie.Handbook.Data.Unit
 {

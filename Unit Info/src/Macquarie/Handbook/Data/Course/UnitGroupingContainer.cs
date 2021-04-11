@@ -1,15 +1,14 @@
 //#define IGNORE_UNNECESSARY
 
 using System.Collections.Generic;
-using Macquarie.Handbook.Data.Helpers;
 using Macquarie.Handbook.Data.Shared;
 using Newtonsoft.Json;
+using Macquarie.Handbook.Converters;
 
 namespace Macquarie.Handbook.Data.Course
 {
     public class UnitGroupingContainer
     {
-        private string description;
 
         [JsonProperty("title")]
         public string Title { get; set; }
@@ -36,7 +35,8 @@ namespace Macquarie.Handbook.Data.Course
         [JsonProperty("footnote")]
         public string Footnote { get; set; }
         [JsonProperty("description")]
-        public string Description { get => description; set => description = HTMLTagStripper.StripHtmlTags(value); }
+        [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
+        public string Description { get; set; }
         [JsonProperty("credit_points_max")]
         public string CreditPointsMax { get; set; }
 #if IGNORE_UNNECESSARY

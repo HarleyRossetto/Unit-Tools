@@ -1,14 +1,13 @@
 //#define IGNORE_UNNECESSARY
 
 using System.Collections.Generic;
-using Macquarie.Handbook.Data.Helpers;
+using Macquarie.Handbook.Converters;
 using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Shared
 {
     public class MacquarieMaterialMetadata
     {
-        private string description;
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
 #else
@@ -28,7 +27,8 @@ namespace Macquarie.Handbook.Data.Shared
         [JsonProperty("type")]
         public LabelledValue Type { get; set; }
         [JsonProperty("description")]
-        public string Description { get => description; set => description = HTMLTagStripper.StripHtmlTags(value); }
+        [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
+        public string Description { get; set; }
         [JsonProperty("search_title")]
         public string SearchTitle { get; set; }
 #if IGNORE_UNNECESSARY
@@ -59,7 +59,7 @@ namespace Macquarie.Handbook.Data.Shared
         [JsonIgnore]
 #else
         [JsonProperty("overview")]
-#endif 
+#endif
         public string Overview { get; set; }
         [JsonProperty("credit_points_header")]
         public string CreditPointsHeader { get; set; }
@@ -67,31 +67,31 @@ namespace Macquarie.Handbook.Data.Shared
         [JsonIgnore]
 #else
         [JsonProperty("academic_item_type")]
-#endif  
+#endif
         public string AcademicItemType { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
 #else
         [JsonProperty("inherent_requirements")]
-#endif  
+#endif
         public List<Requirement> InherentRequirements { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
 #else
         [JsonProperty("other_requirements")]
-#endif  
+#endif
         public List<Requirement> OtherRequirements { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
 #else
         [JsonProperty("external_provider")]
-#endif  
+#endif
         public string ExternalProvider { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
 #else
         [JsonProperty("links")]
-#endif  
+#endif
         public List<string> Links { get; set; }
     }
 }

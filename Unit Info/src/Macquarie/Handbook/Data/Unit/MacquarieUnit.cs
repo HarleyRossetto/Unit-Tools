@@ -3,16 +3,14 @@
 using System;
 using Macquarie.Handbook.Data.Shared;
 using Macquarie.Handbook.Data.Unit;
-using Macquarie.Handbook.Data.Converters;
+using Macquarie.Handbook.Converters;
 using Newtonsoft.Json;
-using Macquarie.Handbook.Data.Helpers;
+using Macquarie.Handbook.Helpers;
 
 namespace Macquarie.Handbook.Data
 {
     public class MacquarieUnit : MacquarieMetadata
     {
-        private string description;
-
         [JsonProperty("data")]
         [JsonConverter(typeof(MacquarieEmbeddedJsonConverter<MacquarieUnitData>))]
         public MacquarieUnitData UnitData { get; set; }
@@ -25,7 +23,8 @@ namespace Macquarie.Handbook.Data
 #endif
         public string SysId { get; set; }
         [JsonProperty("description")]
-        public string Description { get => description; set => description = HTMLTagStripper.StripHtmlTags(value); }
+        [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
+        public string Description { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
 #else

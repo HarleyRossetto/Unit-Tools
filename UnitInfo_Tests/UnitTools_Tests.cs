@@ -1,8 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using Macquarie.Handbook.Data.Unit;
 using Macquarie.Handbook.Data.Unit.Prerequisites;
-using Macquarie.Handbook.Data.Helpers;
+using Macquarie.Handbook.Helpers;
 
 namespace UnitTools_Tests
 {

@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace Macquarie.Handbook.Data.Helpers {
+namespace Macquarie.Handbook.Helpers {
     public static class HTMLTagStripper {
         private static Regex filterHtmlTags = new Regex("<.>(.*?)<\\/.>");
         public static string StripHtmlTags(string input) {

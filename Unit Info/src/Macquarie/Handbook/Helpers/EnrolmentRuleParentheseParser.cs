@@ -7,7 +7,7 @@ using System.Security.Cryptography;
 using System.Text;
 using Macquarie.Handbook.Data.Unit.Prerequisites;
 
-namespace Macquarie.Handbook.Data.Helpers
+namespace Macquarie.Handbook.Helpers
 {
     public static class EnrolmentRuleParentheseParser
     {

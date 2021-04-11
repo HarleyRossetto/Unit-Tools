@@ -44,7 +44,7 @@ namespace Unit_Info
 
             //await program.GetCourse("C000006");
 
-            var unit = await MacquarieHandbook.GetUnit("COMP1010", 2021);
+            var unit = await MacquarieHandbook.GetUnit("COMP1000", 2021);
 
             //await program.GetUnit("ECHE2320");
 

@@ -1,7 +1,9 @@
 //#define IGNORE_UNNECESSARY
 
 using Newtonsoft.Json;
-using Macquarie.Handbook.Data.Helpers;
+using Macquarie.Handbook.Helpers;
+using Macquarie.Handbook.Converters;
+
 namespace Macquarie.Handbook.Data.Shared
 {
     public class LearningOutcome
@@ -12,14 +14,9 @@ namespace Macquarie.Handbook.Data.Shared
         [JsonProperty("number")]
 #endif
         public string Number { get; set; }
-        private string _description;
         [JsonProperty("description")]
-        public string Description {
-            get { return _description; }
-            set {
-                _description = HTMLTagStripper.StripHtmlTags(value);
-            }
-        }
+        [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
+        public string Description { get; set; }
 
 #if IGNORE_UNNECESSARY
         [JsonIgnore]

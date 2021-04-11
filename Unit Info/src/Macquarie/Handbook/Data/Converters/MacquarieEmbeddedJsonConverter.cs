@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using System.Diagnostics.CodeAnalysis;
 using static Macquarie.JSON.JsonSerialisationHelper;
 
-namespace Macquarie.Handbook.Data.Converters
+namespace Macquarie.Handbook.Converters
 {
     public class MacquarieEmbeddedJsonConverter<T> : JsonConverter<T>
     {

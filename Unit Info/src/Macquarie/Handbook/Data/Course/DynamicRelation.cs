@@ -4,15 +4,14 @@ using System.Collections.Generic;
 
 using Newtonsoft.Json;
 
-using Macquarie.Handbook.Data.Converters;
+using Macquarie.Handbook.Converters;
 using Macquarie.Handbook.Data.Shared;
-using Macquarie.Handbook.Data.Helpers;
+using Macquarie.Handbook.Helpers;
 
 namespace Macquarie.Handbook.Data.Course
 {
     public class DynamicRelation
     {
-        private string description;
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
 #else
@@ -32,7 +31,8 @@ namespace Macquarie.Handbook.Data.Course
 #endif
         public string CL_ID { get; set; }
         [JsonProperty("description")]
-        public string Description { get => description; set => description = HTMLTagStripper.StripHtmlTags(value); }
+        [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
+        public string Description { get; set; }
         [JsonProperty("rule")]
         [JsonConverter(typeof(MacquarieEmbeddedJsonConverter<DynamicRelationRule>))]
         public DynamicRelationRule Rule { get; set; }

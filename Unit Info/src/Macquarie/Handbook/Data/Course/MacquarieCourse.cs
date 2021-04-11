@@ -1,6 +1,6 @@
 //#define IGNORE_UNNECESSARY
 
-using Macquarie.Handbook.Data.Converters;
+using Macquarie.Handbook.Converters;
 using Macquarie.Handbook.Data.Course;
 using Macquarie.Handbook.Data.Shared;
 using Newtonsoft.Json;

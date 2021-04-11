@@ -1,6 +1,6 @@
 //#define IGNORE_UNNECESSARY
 
-using Macquarie.Handbook.Data.Helpers;
+using Macquarie.Handbook.Converters;
 using Macquarie.Handbook.Data.Shared;
 using Newtonsoft.Json;
 
@@ -8,10 +8,9 @@ namespace Macquarie.Handbook.Data.Unit
 {
     public class LearningActivity
     {
-        private string description;
-
-        [JsonProperty("description")]
-        public string Description { get => description; set => description = HTMLTagStripper.StripHtmlTags(value); }
+        [JsonProperty("description")]     
+        [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
+        public string Description { get; set; }
         [JsonProperty("activity")]
         public LabelledValue Activity { get; set; }
 #if IGNORE_UNNECESSARY

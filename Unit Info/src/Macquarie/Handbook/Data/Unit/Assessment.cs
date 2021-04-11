@@ -1,8 +1,8 @@
 //#define IGNORE_UNNECESSARY
 
 using Macquarie.Handbook.Data.Shared;
-using Macquarie.Handbook.Data.Helpers;
 using Newtonsoft.Json;
+using Macquarie.Handbook.Converters;
 
 namespace Macquarie.Handbook.Data.Unit
 {
@@ -14,16 +14,9 @@ namespace Macquarie.Handbook.Data.Unit
         public LabelledValue Type { get; set; }
         [JsonProperty("weight")]
         public string Weight { get; set; }
-        private string _Description;
         [JsonProperty("description")]
-        public string Description {
-            get {
-                return _Description;
-            }
-            set {
-                _Description = HTMLTagStripper.StripHtmlTags(value);
-            }
-        }
+        [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
+        public string Description { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
 #else

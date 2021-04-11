@@ -5,6 +5,11 @@ Unit Info/data/units/individual
 Unit Info/data/units/filtered
 Unit Info/data/courses/individual
 Unit Info/data/parsed
+
+*.dll
+
+UnitInfo_Tests/obj
+UnitInfo_Tests/bin
 # test
 Unit Info/data/Factor5Data_210208_22400281073.json
 Unit Info/data/units/prerequisites/unparsed/Macquarie_EnrolmentRules_ASC_LENGTH.json

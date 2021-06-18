@@ -10,9 +10,8 @@ namespace Macquarie.Handbook.Data.Shared
         public DateTime DATE_DATA_RETRIEVED { get; init; } = DateTime.Now;
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("hostName")]
 #endif
+        [JsonProperty("hostName")]
         public string HostName { get; set; }
         [JsonProperty("modDate", NullValueHandling = NullValueHandling.Ignore)]
         public DateTime? ModificationDate { get; set; }
@@ -20,23 +19,20 @@ namespace Macquarie.Handbook.Data.Shared
         public string Code { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("studyLevel")]
 #endif
+        [JsonProperty("studyLevel")]
         public string StudyLevel { get; set; }
         [JsonProperty("title")]
         public string Title { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("contentTypeLabel")]
 #endif
+        [JsonProperty("contentTypeLabel")]
         public string ContentTypeLabel { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("inode")]
 #endif
+        [JsonProperty("inode")]
         public string IndexNode { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
@@ -52,15 +48,13 @@ namespace Macquarie.Handbook.Data.Shared
         public string Host { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("working")]
 #endif
+        [JsonProperty("working")]
         public bool Working { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("locked")]
 #endif
+        [JsonProperty("locked")]
         public bool Locked { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
@@ -70,89 +64,75 @@ namespace Macquarie.Handbook.Data.Shared
         public string STIndexNode { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("contentType")]
 #endif
+        [JsonProperty("contentType")]
         public string ContentType { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("live")]
 #endif
+        [JsonProperty("live")]
         public bool Live { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("owner")]
 #endif
+        [JsonProperty("owner")]
         public string Owner { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("identifier")]
 #endif
+        [JsonProperty("identifier")]
         public string Identifier { get; set; }
         #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("studyLevelValue")]
 #endif
+        [JsonProperty("studyLevelValue")]
         public string StudyLevelValue { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("languageId")]
 #endif
+        [JsonProperty("languageId")]
         public UInt16 LanguageId { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("URL_MAP_FOR_CONTENT")]
 #endif
+        [JsonProperty("URL_MAP_FOR_CONTENT")]
         public string UrlMapForContent { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("parentAcademicOrg")]
 #endif
+        [JsonProperty("parentAcademicOrg")]
         public string ParentAcademicOrg { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("url")]
 #endif
+        [JsonProperty("url")]
         public string Url { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("titleImage")]
 #endif
+        [JsonProperty("titleImage")]
         public string TitleImage { get; set; }
         [JsonProperty("implementationYear")]
         public string ImplementationYear { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("folder")]
 #endif
+        [JsonProperty("folder")]
         public string Folder { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("hasTitleImage")]
 #endif
+        [JsonProperty("hasTitleImage")]
         public bool HasTitleImage { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("sortOrder")]
 #endif
+        [JsonProperty("sortOrder")]
         public UInt16 SortOrder { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("modUser")]
 #endif
+        [JsonProperty("modUser")]
         public string ModificationUser { get; set; }
     }
 }

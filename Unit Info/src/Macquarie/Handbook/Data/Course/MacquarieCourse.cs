@@ -21,9 +21,8 @@ namespace Macquarie.Handbook.Data
         public string Generic { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("modUserName")]
 #endif
+        [JsonProperty("modUserName")]
         public string ModUserName { get; set; }
         [JsonProperty("urlMap")]
         public string UrlMap { get; set; }

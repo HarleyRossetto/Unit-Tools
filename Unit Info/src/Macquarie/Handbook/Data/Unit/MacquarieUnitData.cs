@@ -12,7 +12,7 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Unit
 {
-    public class MacquarieUnitData : MacquarieMaterialMetadata
+    public record MacquarieUnitData : MacquarieMaterialMetadata
     {
         [JsonProperty("grading_schema")]
         public LabelledValue GradingSchema { get; set; }
@@ -22,39 +22,33 @@ namespace Macquarie.Handbook.Data.Unit
         public string QuoteEnrolmentRequirements { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
+#endif
         [JsonProperty("duration_ft_max")]
-#endif  
         public string DurationFullTimeMax { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
+#endif
         [JsonProperty("duration_pt_max")]
-#endif  
         public string DurationPartTimeMax { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
+#endif
         [JsonProperty("duration_pt_std")]
-#endif  
         public string DurationPartTimeStandard { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
+#endif
         [JsonProperty("duration_pt_min")]
-#endif  
         public string DurationPartTimeMinimum { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
+#endif
         [JsonProperty("duration_pt_period")]
-#endif  
         public LabelledValue DurationPartTimePeriod { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("parent_id")]
 #endif
+        [JsonProperty("parent_id")]
         public KeyValueIdType ParentId { get; set; }
         [JsonProperty("start_date", NullValueHandling = NullValueHandling.Ignore)]
         public DateTime? StartDate { get; set; }
@@ -74,15 +68,13 @@ namespace Macquarie.Handbook.Data.Unit
         public DateTime? EndDate { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("sms_status")]
 #endif
+        [JsonProperty("sms_status")]
         public LabelledValue SMSStatus { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("sms_version")]
 #endif
+        [JsonProperty("sms_version")]
         public string SMSVersion { get; set; }
         [JsonProperty("learning_materials")]
         public string LearningMaterials { get; set; }
@@ -90,17 +82,15 @@ namespace Macquarie.Handbook.Data.Unit
         public bool SpecialTopic { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("d_gov_cohort_year")]
 #endif
+        [JsonProperty("d_gov_cohort_year")]
         public bool d_gov_cohort_year { get; set; }
         [JsonProperty("asced_broad")]
         public KeyValueIdType AscedBroad { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
+#endif
         [JsonProperty("publish_tuition_fees")]
-#endif  
         public bool PublishTuitionFees { get; set; }
         [JsonProperty("placement_proportion")]
         public LabelledValue PlacementProportion { get; set; }
@@ -123,10 +113,10 @@ namespace Macquarie.Handbook.Data.Unit
                     _enrolmentRules = value;
 
                     //Sanitise the input.
-                    RemoveEscapeSequencesFromPrerequisites();
+                    //RemoveEscapeSequencesFromPrerequisites();
 
                     //Original Implementation
-                    PrerequisiteParserOld.ParsePrerequisites(value, Code);
+                    //PrerequisiteParserOld.ParsePrerequisites(value, Code);
 
                     //Testing implementations
                     //EnrolmentRules.ForEach(x => PrerequisiteParserOld.ParsePrerequisiteString(x.Description));
@@ -143,7 +133,6 @@ namespace Macquarie.Handbook.Data.Unit
         public string UnitOfferingText { get; set; }
         [JsonProperty("subject_search_title")]
         public string SubjectSearchTitle { get; set; }
-
 
         private void RemoveEscapeSequencesFromPrerequisites() {
             foreach (var item in EnrolmentRules) {

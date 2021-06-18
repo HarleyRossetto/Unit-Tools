@@ -7,25 +7,19 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Unit
 {
-    public class ContainerRequisiteTemporaryName
+    public record ContainerRequisiteTemporaryName : IdentifiableRecord
     {
-        #if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("cl_id")]
-#endif
-        public string CL_ID { get; set; }
         [JsonProperty("parent_container_value")]
-        public string ParentContainerTable { get; set; }
+        public string ParentContainerTable { get; init; }
         [JsonProperty("parent_record")]
-        public KeyValueIdType ParentRecord { get; set; }
+        public KeyValueIdType ParentRecord { get; init; }
         [JsonProperty("title")]
-        public string Title { get; set; }
+        public string Title { get; init; }
         [JsonProperty("parent_connector")]
-        public LabelledValue ParentConnector { get; set; }
+        public LabelledValue ParentConnector { get; init; }
         [JsonProperty("containers")]
-        public List<ContainerRequisiteTemporaryName> Containers { get; set; }
+        public List<ContainerRequisiteTemporaryName> Containers { get; init; }
         [JsonProperty("relationships")]
-        public List<AcademicItem> Relationships { get; set; }
+        public List<AcademicItem> Relationships { get; init; }
     }
 }

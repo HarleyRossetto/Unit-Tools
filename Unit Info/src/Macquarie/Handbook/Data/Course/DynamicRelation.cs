@@ -10,7 +10,7 @@ using Macquarie.Handbook.Helpers;
 
 namespace Macquarie.Handbook.Data.Course
 {
-    public class DynamicRelation
+    public record DynamicRelation : IdentifiableRecord
     {
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
@@ -24,12 +24,6 @@ namespace Macquarie.Handbook.Data.Course
         [JsonProperty("parent_table")]
 #endif
         public string ParentTable { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("cl_id")]
-#endif
-        public string CL_ID { get; set; }
         [JsonProperty("description")]
         [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
         public string Description { get; set; }
@@ -42,7 +36,7 @@ namespace Macquarie.Handbook.Data.Course
         public string EncodedUrl { get; set; }
     }
 
-    public class DynamicRelationRule
+    public record DynamicRelationRule
     {
         [JsonProperty("operator_groups")]
         public List<OperatorGroup> OperatorGroups { get; set; }
@@ -50,7 +44,7 @@ namespace Macquarie.Handbook.Data.Course
         public List<OperatorGroupMember> OperatorGroupMembers { get; set; }
     }
 
-    public class OperatorGroup
+    public record  OperatorGroup
     {
         [JsonProperty("group_connector")]
         public string GroupConnector { get; set; }
@@ -66,7 +60,7 @@ namespace Macquarie.Handbook.Data.Course
         public string ParentRecord { get; set; }
     }
 
-    public class OperatorGroupMember
+    public record OperatorGroupMember
     {
         [JsonProperty("parent_record")]
         public string ParentRecord { get; set; }
@@ -82,7 +76,7 @@ namespace Macquarie.Handbook.Data.Course
         public OperatorGroupMemberMap Map { get; set; }
     }
 
-    public class OperatorGroupMemberMap
+    public record OperatorGroupMemberMap
     {
         [JsonProperty("field")]
         public string Field { get; set; }

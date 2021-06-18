@@ -6,31 +6,25 @@ using Macquarie.Handbook.Converters;
 
 namespace Macquarie.Handbook.Data.Unit
 {
-    public class Assessment
+    public record Assessment : IdentifiableRecord
     {
         [JsonProperty("assessment_title")]
-        public string AssessmentTitle { get; set; }
+        public string AssessmentTitle { get; init; }
         [JsonProperty("type")]
-        public LabelledValue Type { get; set; }
+        public LabelledValue Type { get; init; }
         [JsonProperty("weight")]
-        public string Weight { get; set; }
+        public string Weight { get; init; }
         [JsonProperty("description")]
         [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
-        public string Description { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("cl_id")]
-#endif
-        public string CL_ID { get; set; }
+        public string Description { get; init; }
         [JsonProperty("applies_to_all_offerings")]
-        public string AppliesToAllOfferings { get; set; }
+        public string AppliesToAllOfferings { get; init; }
         [JsonProperty("hurdle_task")]
-        public string HurdleTask { get; set; }
+        public string HurdleTask { get; init; }
         [JsonProperty("offerings")]
-        public string Offerings { get; set; }
+        public string Offerings { get; init; }
         [JsonProperty("individual")]
-        public LabelledValue Individual { get; set; }
+        public LabelledValue Individual { get; init; }
 
         public override string ToString()
         {

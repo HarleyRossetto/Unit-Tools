@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Shared
 {
-    public class LabelledValue
+    public record LabelledValue
     {
         [JsonProperty("label")]
         public string Label { get; set; }

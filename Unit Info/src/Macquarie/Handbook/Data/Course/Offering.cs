@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Course
 {
-    public class Offering
+    public record Offering : IdentifiableRecord
     {
         [JsonProperty("mode")]
         public LabelledValue Mode { get; set; }
@@ -41,19 +41,13 @@ namespace Macquarie.Handbook.Data.Course
         [JsonProperty("linking_id")]
 #endif
         public string LinkingId { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("cl_id")]
-#endif
-        public string CL_ID { get; set; }
         [JsonProperty("display_name")]
         public string DisplayName { get; set; }
         [JsonProperty("location")]
         public LabelledValue Location { get; set; }
         [JsonProperty("name")]
         public string Name { get; set; }
-      #if IGNORE_UNNECESSARY
+#if IGNORE_UNNECESSARY
         [JsonIgnore]
 #else
         [JsonProperty("order")]

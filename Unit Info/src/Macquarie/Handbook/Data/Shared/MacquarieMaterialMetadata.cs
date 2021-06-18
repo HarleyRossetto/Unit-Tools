@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Shared
 {
-    public class MacquarieMaterialMetadata
+    public record MacquarieMaterialMetadata : IdentifiableRecord
     {
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
@@ -31,12 +31,6 @@ namespace Macquarie.Handbook.Data.Shared
         public string Description { get; set; }
         [JsonProperty("search_title")]
         public string SearchTitle { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("cl_id")]
-#endif
-        public string CL_ID { get; set; }
         [JsonProperty("code")]
         public string Code { get; set; }
         [JsonProperty("title")]

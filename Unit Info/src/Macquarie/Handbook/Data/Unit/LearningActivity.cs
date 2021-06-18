@@ -1,32 +1,24 @@
-//#define IGNORE_UNNECESSARY
-
 using Macquarie.Handbook.Converters;
 using Macquarie.Handbook.Data.Shared;
 using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Unit
 {
-    public class LearningActivity
+    public record LearningActivity : IdentifiableRecord
     {
         [JsonProperty("description")]     
         [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
-        public string Description { get; set; }
+        public string Description { get; init; }
         [JsonProperty("activity")]
-        public LabelledValue Activity { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("cl_id")]
-#endif
-        public string CL_ID { get; set; }
+        public LabelledValue Activity { get; init; }
         [JsonProperty("offerings")]
-        public string Offerings { get; set; }
+        public string Offerings { get; init; }
 
         public override string ToString() {
             return Description;
         }
     }
 
-    public class ScheduledLearningActivity : LearningActivity { }
-    public class NonScheduledLearningActivity : LearningActivity { }
+    public record ScheduledLearningActivity : LearningActivity { }
+    public record NonScheduledLearningActivity : LearningActivity { }
 }

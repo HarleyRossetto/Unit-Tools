@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Course
 {
-    public class AdmissionRequirementPoint
+    public record AdmissionRequirementPoint : IdentifiableRecord
     {
         [JsonProperty("admission_requirement")]
         public string AdmissionRequirement { get; set; }
@@ -16,11 +16,5 @@ namespace Macquarie.Handbook.Data.Course
         public uint CreditPoints { get; set; }
         [JsonProperty("structure_zones")]
         public List<KeyValueIdType> StructureZones { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("cl_id")]
-#endif
-        public string CL_ID { get; set; }
     }
 }

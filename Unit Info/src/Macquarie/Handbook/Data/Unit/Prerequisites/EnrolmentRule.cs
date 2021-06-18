@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Unit.Prerequisites
 {
-    public class EnrolmentRule
+    public record EnrolmentRule : IdentifiableRecord
     {
         [JsonProperty("description")]
         [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
@@ -18,15 +18,9 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
 #else
-        [JsonProperty("cl_id")]
-#endif
-        public string CL_ID { get; set; }
-        #if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
         [JsonProperty("order")]
 #endif
-        public UInt16 Order { get; set; }
+        public UInt16 Order { get; init; }
 
         public override string ToString() {
             return Description;

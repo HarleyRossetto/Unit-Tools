@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Course
 {
-    public class OrgUnitData
+    public record OrgUnitData : IdentifiableRecord
     {
         [JsonProperty("parent")]
         public LabelledValue Parent { get; set; }
@@ -13,11 +13,5 @@ namespace Macquarie.Handbook.Data.Course
         public string Url { get; set; }
         [JsonProperty("name")]
         public string Name { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("cl_id")]
-#endif
-        public string CL_ID { get; set; }
     }
 }

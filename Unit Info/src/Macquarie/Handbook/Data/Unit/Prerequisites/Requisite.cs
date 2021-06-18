@@ -8,43 +8,42 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Unit
 {
-    public class Requisite
+    public record Requisite
     {
         [JsonProperty("academic_item_code")]
-        public string AcademicItemCode { get; set; }
+        public string AcademicItemCode { get; init; }
         [JsonProperty("active")]
-        public bool Active { get; set; }
+        public bool Active { get; init; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("requisite_cl_id")]
 #endif
-        public string RequisiteClId { get; set; }
+        [JsonProperty("requisite_cl_id")]
+        public string RequisiteClId { get; init; }
         [JsonProperty("description")]
         [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
-        public string Description { get; set; }
+        public string Description { get; init; }
         [JsonProperty("requisite_type")]
-        public LabelledValue RequisiteType { get; set; }
+        public LabelledValue RequisiteType { get; init; }
+        
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
+#endif
         [JsonProperty("cl_id")]
-#endif
-        public KeyValueIdType CL_ID { get; set; }
+        public KeyValueIdType CL_ID { get; init; }
+
         [JsonProperty("academic_item_version_number")]
-        public string AcademicItemVersionNumber { get; set; }
+        public string AcademicItemVersionNumber { get; init; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("order")]
 #endif
-        public string order { get; set; }
+        [JsonProperty("order")]
+        public string order { get; init; }
         [JsonProperty("start_date", NullValueHandling = NullValueHandling.Ignore)]
-        public DateTime? StartDate { get; set; }
+        public DateTime? StartDate { get; init; }
         [JsonProperty("end_date", NullValueHandling = NullValueHandling.Ignore)]
-        public DateTime? EndDate { get; set; }
+        public DateTime? EndDate { get; init; }
         [JsonProperty("containers")]
-        public List<ContainerRequisiteTemporaryName> Requisites { get; set; }
+        public List<ContainerRequisiteTemporaryName> Requisites { get; init; }
 
         public override string ToString() {
             return Description;

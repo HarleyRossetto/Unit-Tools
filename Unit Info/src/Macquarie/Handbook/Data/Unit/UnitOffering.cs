@@ -5,29 +5,26 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Unit
 {
-    public class UnitOffering
+    public record UnitOffering : IdentifiableRecord
     {
         [JsonProperty("publish")]
         public string Publish { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
+#endif
         [JsonProperty("fees_domestic")]
-#endif  
         public string FeesDomestic { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("location")]
 #endif
+        [JsonProperty("location")]
         public LabelledValue Location { get; set; }
         [JsonProperty("name")]
         public string Name { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("clarification_to_appear_in_handbook")]
 #endif
+        [JsonProperty("clarification_to_appear_in_handbook")]
         public string ClarificationToAppearInHandbook { get; set; }
         [JsonProperty("display_name")]
         public string DisplayName { get; set; }
@@ -41,47 +38,35 @@ namespace Macquarie.Handbook.Data.Unit
         public LabelledValue StudyLevel { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("self_enrol")]
 #endif
+        [JsonProperty("self_enrol")]
         public string SelfEnrol { get; set; }
         [JsonProperty("academic_item")]
         public KeyValueIdType AcademicItem { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("order")]
 #endif
+        [JsonProperty("order")]
         public string Order { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
+#endif
         [JsonProperty("fees_commonwealth")]
-#endif  
         public string FeesCommonwealth { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
+#endif
         [JsonProperty("fees_international")]
-#endif  
         public string FeesInternational { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
+#endif
         [JsonProperty("course_restrictions")]
-#endif  
         public string CourseRestrictions { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("cl_id")]
 #endif
-        public string CL_ID { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
         [JsonProperty("quota_limit")]
-#endif
         public string QuotaLimit { get; set; }
 
         public override string ToString() {

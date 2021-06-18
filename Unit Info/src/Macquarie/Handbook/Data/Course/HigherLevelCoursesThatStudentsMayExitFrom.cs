@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Course
 {
-    public class HigherLevelCoursesThatStudentsMayExitFrom
+    public record HigherLevelCoursesThatStudentsMayExitFrom : IdentifiableRecord
     {
         [JsonProperty("code")]
         public KeyValueIdType Code { get; set; }
@@ -13,11 +13,5 @@ namespace Macquarie.Handbook.Data.Course
         public string Status { get; set; }
         [JsonProperty("name")]
         public string Name { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("cl_id")]
-#endif
-        public string CL_ID { get; set; }
     }
 }

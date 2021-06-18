@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Course
 {
-    public class Fee
+    public record Fee : IdentifiableRecord
     {
 
         [JsonProperty("fee_per_credit_point")]
@@ -23,11 +23,5 @@ namespace Macquarie.Handbook.Data.Course
         public string EstimatedAnnualFee { get; set; }
         [JsonProperty("fee_type")]
         public LabelledValue FeeType { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("cl_id")]
-#endif
-        public string CL_ID { get; set; }
     }
 }

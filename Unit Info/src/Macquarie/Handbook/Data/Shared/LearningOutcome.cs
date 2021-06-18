@@ -6,7 +6,7 @@ using Macquarie.Handbook.Converters;
 
 namespace Macquarie.Handbook.Data.Shared
 {
-    public class LearningOutcome
+    public record LearningOutcome : IdentifiableRecord
     {
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
@@ -15,7 +15,7 @@ namespace Macquarie.Handbook.Data.Shared
 #endif
         public string Number { get; set; }
         [JsonProperty("description")]
-        [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
+       // [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
         public string Description { get; set; }
 
 #if IGNORE_UNNECESSARY
@@ -44,12 +44,6 @@ namespace Macquarie.Handbook.Data.Shared
         [JsonProperty("academic_item")]
 #endif
         public KeyValueIdType AcademicItem { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("cl_id")]
-#endif
-        public string CL_ID { get; set; }
 
         public override string ToString() {
             return Description;

@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data.Course
 {
-    public class MacquarieCourseData : MacquarieMaterialMetadata
+    public record MacquarieCourseData : MacquarieMaterialMetadata
     {
         [JsonProperty("aqf_level")]
         public LabelledValue AqfLevel { get; set; }

@@ -95,7 +95,7 @@ namespace Macquarie.Handbook.Data.Unit
         [JsonIgnore]
 #endif
         [JsonProperty("d_gov_cohort_year")]
-        public bool d_gov_cohort_year { get; init; }
+        public bool D_gov_cohort_year { get; init; }
 
 #if IGNORE_UNNECESSARY
         [JsonIgnore]

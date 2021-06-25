@@ -7,25 +7,25 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
     public static class ParenthesesSanitiser
     {
         //Matches (P|C|D|HD) elements
-        static Regex _regexGradeRequirement = new Regex(@"\([CPGD]\)");
+        static readonly Regex _regexGradeRequirement                = new(@"\([CPGD]\)");
         //Matches (OUA|ECE|ECS)
-        static Regex _regexOuaRequirement = new Regex(@"\(.{3}\)");
+        static readonly Regex _regexOuaRequirement                  = new(@"\(.{3}\)");
         //Matches (waiver)
-        static Regex _regexWaiverRequirement = new Regex(@"\(waiver\)");
+        static readonly Regex _regexWaiverRequirement               = new(@"\(waiver\)");
         //Matches (Beijing)
-        static Regex _regexBeijingRequirement = new Regex(@"\(Beijing\)");
+        static readonly Regex _regexBeijingRequirement              = new(@"\(Beijing\)");
         //Matches (Prim|Hons)
-        static Regex _regexPrimHonsRequirement = new Regex(@"\(\w{4}\)");
+        static readonly Regex _regexPrimHonsRequirement             = new(@"\(\w{4}\)");
         //Matches (Singe or double degrees)
-        static Regex _regexSglOrDblDegreeRequirement = new Regex(@"\(Single or double degrees\)");
+        static readonly Regex _regexSglOrDblDegreeRequirement       = new(@"\(Single or double degrees\)");
         //Matches (0 to 5)
-        static Regex _regexZeroToFiveNumericRequirement = new Regex(@"\(0 to 5\)");
+        static readonly Regex _regexZeroToFiveNumericRequirement    = new(@"\(0 to 5\)");
         //Matches (Birth to five)
-        static Regex _regexZeroToFiveCharRequirement = new Regex(@"\(Birth to five\)");
+        static readonly Regex _regexZeroToFiveCharRequirement       = new(@"\(Birth to five\)");
         //Matches "Pre-requisite "
-        static Regex _regexPrerequisiteRequirement = new Regex(@"Pre-requisite ");
+        static readonly Regex _regexPrerequisiteRequirement         = new(@"Pre-requisite ");
 
-        static List<Regex> _regexFilters = new()
+        static readonly List<Regex> _regexFilters = new()
         {
             _regexGradeRequirement,
             _regexOuaRequirement,
@@ -33,6 +33,7 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
             _regexBeijingRequirement,
             _regexPrimHonsRequirement,
             _regexSglOrDblDegreeRequirement,
+            _regexZeroToFiveNumericRequirement,
             _regexZeroToFiveCharRequirement,
             _regexPrerequisiteRequirement
         };

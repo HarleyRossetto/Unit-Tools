@@ -11,10 +11,10 @@ namespace UnitTools_Tests
     {
         [TestMethod]
         public void TestGetRangeStartAndLength() {
-            Range range = new Range(5, 25);
-            var result = range.GetRangeStartAndLength();
-            Assert.AreEqual(5, result.start);
-            Assert.AreEqual(21, result.length);
+            Range range = new(5, 25);
+            var (start, length) = range.GetRangeStartAndLength();
+            Assert.AreEqual(5, start);
+            Assert.AreEqual(21, length);
         }
     }
 }

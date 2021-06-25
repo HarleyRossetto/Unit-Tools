@@ -11,9 +11,7 @@ namespace Macquarie.Handbook.Helpers
 {
     public static class PrerequisiteParserOld
     {
-        public static int successfulCompletions = 0;
-
-        private static Dictionary<string, TokenType> Keywords = new Dictionary<string, TokenType>();
+        private static readonly Dictionary<string, TokenType> Keywords = new();
 
         static PrerequisiteParserOld() {
             Keywords.Add("admission", TokenType.Admission);

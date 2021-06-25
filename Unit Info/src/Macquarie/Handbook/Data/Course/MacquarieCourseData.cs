@@ -200,7 +200,7 @@ namespace Macquarie.Handbook.Data.Course
         [JsonProperty("admission_to_combined_double")]
         public string AdmissionToCombinedDouble { get; set; }
         [JsonProperty("ielts_speaking_score")]
-        public string ielts_speaking_score { get; set; }
+        public string IELTS_speaking_score { get; set; }
         [JsonProperty("capstone_or_professional_practice")]
         public string CapstoneOrProfessionalPractice { get; set; }
         [JsonProperty("external_body")]

@@ -22,7 +22,7 @@ namespace Macquarie.Handbook
 {
     public static class MacquarieHandbook
     {
-        static readonly HttpClient httpClient = new HttpClient();
+        static readonly HttpClient httpClient = new();
 
         public static TimeSpan WebRequestTimeout { get => httpClient.Timeout; set => httpClient.Timeout = value; }
 
@@ -44,9 +44,8 @@ namespace Macquarie.Handbook
             return DeserialiseJsonObject<MacquarieDataCollection<T>>(await DownloadString(url));
         }
 
-        //False for course. Make enum later
-        public static async Task<MacquarieDataCollection<T>> LoadAllLocalData<T>(bool unit = true) where T : MacquarieMetadata {
-            var dirPath = LocalDataDirectoryHelper.GetDirectory(Unit_Filtered);
+        public static async Task<MacquarieDataCollection<T>> LoadAllLocalData<T>() where T : MacquarieMetadata {
+            var dirPath = GetDirectory(Unit_Filtered);
             if (Directory.Exists(dirPath)) {
                 try {
                     var filesToLoad = new List<string>(Directory.GetFiles(dirPath, "*.json", SearchOption.AllDirectories));
@@ -74,7 +73,7 @@ namespace Macquarie.Handbook
 
             if (result is null) {
                 System.Console.WriteLine($"Unable to load {unitCode} from local cache, loading from CMS..");
-                HandbookApiRequestBuilder apiRequestBuilder = new HandbookApiRequestBuilder(unitCode, implementationYear, APIResourceType.Unit);
+                HandbookApiRequestBuilder apiRequestBuilder = new(unitCode, implementationYear, APIResourceType.Unit);
                 var resultsCollection = await GetCMSDataCollection<MacquarieUnit>(apiRequestBuilder);
                 if (resultsCollection.Count >= 1)
                     result = resultsCollection[0];
@@ -106,7 +105,7 @@ namespace Macquarie.Handbook
                 return result;
             }
 
-            return default(T);
+            return default;
         }
 
         private static async Task<T> LoadObjectFromFile<T>(string file) where T : MacquarieMetadata{
@@ -125,7 +124,7 @@ namespace Macquarie.Handbook
             implementationYear ??= DateTime.Now.Year;
 
             if (readFromDisk) {
-                return await LoadAllLocalData<MacquarieUnit>(true);
+                return await LoadAllLocalData<MacquarieUnit>();
             } else {
                 var apiRequest = new UnitApiRequestBuilder() { ImplementationYear = implementationYear, Limit = limit };
                 return await GetCMSDataCollection<MacquarieUnit>(apiRequest);
@@ -137,7 +136,7 @@ namespace Macquarie.Handbook
 
             if (result is null) {
                 System.Console.WriteLine($"Unable to load {courseCode} from local cache, loading from CMS..");
-                HandbookApiRequestBuilder apiRequestBuilder = new HandbookApiRequestBuilder(courseCode, implementationYear, APIResourceType.Course);
+                HandbookApiRequestBuilder apiRequestBuilder = new(courseCode, implementationYear, APIResourceType.Course);
                 var resultsCollection = await GetCMSDataCollection<MacquarieCourse>(apiRequestBuilder);
                 if (resultsCollection.Count >= 1)
                     result = resultsCollection[0];

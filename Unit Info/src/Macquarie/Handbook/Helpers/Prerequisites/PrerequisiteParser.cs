@@ -12,7 +12,7 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
 
             var prereqs = new List<PrerequisiteElement>(ExtractPrerequisiteElements(prerequisite, ranges));
 
-            var elementWithParents = FindParentRanges(prerequisite, prereqs);
+            var elementWithParents = FindParentRanges(prereqs);
 
             var prereqDictionary = CreatePrerequisiteDictionary(prereqs);
 
@@ -21,7 +21,7 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
             System.Console.WriteLine("test");
         }
 
-        private static IEnumerable<PrerequisiteElement> FindParentRanges(string str, IEnumerable<PrerequisiteElement> elements) {
+        private static IEnumerable<PrerequisiteElement> FindParentRanges(IEnumerable<PrerequisiteElement> elements) {
             var results = new List<PrerequisiteElement>();
 
             foreach (var element in elements) {
@@ -78,8 +78,7 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
 
         private static PrerequisiteElement ProcessPrerequisiteGuids(string prerequisite, Dictionary<string, PrerequisiteElement> elements) {
             foreach (var kv in elements.Reverse()) {
-                PrerequisiteElement parent;
-                if (elements.TryGetValue(kv.Value.ParentGUID ??= "0", out parent)) {
+                if (elements.TryGetValue(kv.Value.ParentGUID ??= "0", out PrerequisiteElement parent)) {
                     //Remove original value\
                     var length = kv.Value.RangeInParentString.GetLength() - 1;
                     var temp = parent.Prerequisite.Remove(kv.Value.RangeInParentString.Start.Value, length);

@@ -9,9 +9,9 @@ namespace Unit_Info.Helpers
 {
     public static class LocalDataMap
     {
-        public static Dictionary<string, string> unitToDirectoryDictionary;
-        static Regex unitTextRegex = new Regex(@"\D+");
-        static Regex unitNumRegex = new Regex(@"\d");
+        private static Dictionary<string, string> unitToDirectoryDictionary;
+        private static readonly Regex unitTextRegex = new(@"\D+");
+        private static readonly Regex unitNumRegex = new(@"\d");
         public static bool HasBeenUpdated { get; private set; }
 
 

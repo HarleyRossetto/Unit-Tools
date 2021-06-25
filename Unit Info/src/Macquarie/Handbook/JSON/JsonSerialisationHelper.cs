@@ -32,7 +32,7 @@ namespace Macquarie.JSON
             }
 
             if (saveWithTimeStamp)
-                fileName = $"{fileName}_{DateTime.Now.ToString("yyMMdd_HHmmss_fffff")}";
+                fileName = $"{fileName}_{DateTime.Now:yyMMdd_HHmmss_fffff}";
 
 
             string filePath = fileName;
@@ -44,7 +44,7 @@ namespace Macquarie.JSON
                 try {
                     await File.WriteAllTextAsync(filePath, jsonString);
                 } catch (Exception ex) {
-                    System.Console.WriteLine($"Failed to serialise json string.\nReason:\n{ex.ToString()}");
+                    System.Console.WriteLine($"Failed to serialise json string.\nReason:\n{ex}");
                 }
             }
         }

@@ -5,7 +5,7 @@ namespace Macquarie.Handbook.WebApi
 {
     public class HandbookApiRequestBuilder
     {
-        protected StringBuilder API_STRING = new StringBuilder(250);
+        protected StringBuilder API_STRING = new(250);
 
         private string _code = null;
         public string Code {
@@ -32,14 +32,12 @@ namespace Macquarie.Handbook.WebApi
 
         protected virtual string GetBaseAPIString() { return ""; }
         protected virtual string GetRequestDataType() {
-            switch (ResourceType) {
-                case APIResourceType.Course:
-                    return "course";
-                case APIResourceType.Unit:
-                    return "subject";
-                default:
-                    return "";
-            }
+            return ResourceType switch
+            {
+                APIResourceType.Course => "course",
+                APIResourceType.Unit => "subject",
+                _ => "",
+            };
         }
 
         public override string ToString() {

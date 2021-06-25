@@ -33,7 +33,7 @@ namespace Macquarie.Handbook.Data.Unit
         [JsonIgnore]
 #endif
         [JsonProperty("order")]
-        public string order { get; init; }
+        public string Order { get; init; }
 
 #if IGNORE_UNNECESSARY
         [JsonIgnore]

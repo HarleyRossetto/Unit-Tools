@@ -4,7 +4,7 @@ namespace Unit_Info.Helpers
 {
     public static class LocalDataDirectoryHelper
     {
-        private static Dictionary<string, string> paths = new Dictionary<string, string>();
+        private static readonly Dictionary<string, string> paths = new();
         private const string BASE_DIR = "data/";
 
         static LocalDataDirectoryHelper() {

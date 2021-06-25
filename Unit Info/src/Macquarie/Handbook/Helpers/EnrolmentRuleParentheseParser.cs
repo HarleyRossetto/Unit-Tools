@@ -11,8 +11,6 @@ namespace Macquarie.Handbook.Helpers
 {
     public static class EnrolmentRuleParentheseParser
     {
-        private static MD5 md5Hash = MD5.Create();
-
         public static Dictionary<string, ParentheseGroup> BreakdownParentheseGroupingsRecursive(string rule, int level, string parentID) {
             var groups = new Dictionary<string, ParentheseGroup>();
 
@@ -134,7 +132,7 @@ namespace Macquarie.Handbook.Helpers
             var results = new Dictionary<string, ParentheseGroup>();
 
             //If the collection isnt empty
-            if (rules.Count() >= 1) {
+            if (rules.Any()) {
                 //Add Top level statement to dictionary first.
                 var topLevelRule = rules.ElementAt(0);
                 var topLevelRange = new Range(0, topLevelRule.Description.Length - 1);
@@ -184,7 +182,7 @@ namespace Macquarie.Handbook.Helpers
         }
 
         private static Dictionary<string, ParentheseGroup> DecomposeRules(IEnumerable<EnrolmentRule> rules, int decompositionLevel, Guid topLevelId) {
-            Dictionary<string, ParentheseGroup> results = new Dictionary<string, ParentheseGroup>();
+            Dictionary<string, ParentheseGroup> results = new();
            
             foreach (var rule in rules) {
                 var groupings = BreakdownParentheseGroupingsRecursive(rule.Description, decompositionLevel, topLevelId.ToString()); //Use ParentID of 0 to signify there is no parent.

@@ -102,7 +102,7 @@ namespace Unit_Info.Demonstrations
         public static async Task GetAllCoursesAndWriteToFile() {
             var courseCollection = await GetAllCourses();
 
-            if (courseCollection.Count() == 0) {
+            if (!courseCollection.Any()) {
                 Console.WriteLine($"No courses were found.");
                 return;
             }

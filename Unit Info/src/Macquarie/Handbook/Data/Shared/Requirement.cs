@@ -11,18 +11,4 @@ namespace Macquarie.Handbook.Data.Shared
         [JsonProperty("rules")]
         public List<Rule> Rules { get; set; }
     }
-    public class Rule
-    {
-        [JsonProperty("description")]
-        [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
-        public string Description { get; set; }
-        [JsonProperty("domain")]
-        public LabelledValue Domain { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("links")]
-#endif
-        public List<string> Links { get; set; }
-    }
 }

@@ -10,18 +10,6 @@ namespace Macquarie.Handbook.Data.Shared
     {
         [JsonProperty("academic_item")]
         public KeyValueIdType AcademicItemInnerId { get; init; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("parent_record")]
-#endif
-        public KeyValueIdType ParentRecord { get; init; }
-      #if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("order")]
-#endif
-        public string Order { get; init; }
         [JsonProperty("academic_item_type")]
         public LabelledValue AcademicItemType { get; init; }
         [JsonProperty("abbr_name")]
@@ -38,5 +26,17 @@ namespace Macquarie.Handbook.Data.Shared
         public string AcademicItemCode { get; init; }
         [JsonProperty("academic_item_url")]
         public string AcademicItemUrl { get; init; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("parent_record")]
+        public KeyValueIdType ParentRecord { get; init; }
+        
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("order")]
+        public string Order { get; init; }
     }
 }

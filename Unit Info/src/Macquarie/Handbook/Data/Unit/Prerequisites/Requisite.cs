@@ -14,36 +14,38 @@ namespace Macquarie.Handbook.Data.Unit
         public string AcademicItemCode { get; init; }
         [JsonProperty("active")]
         public bool Active { get; init; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#endif
-        [JsonProperty("requisite_cl_id")]
-        public string RequisiteClId { get; init; }
         [JsonProperty("description")]
         [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
         public string Description { get; init; }
         [JsonProperty("requisite_type")]
         public LabelledValue RequisiteType { get; init; }
-        
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#endif
-        [JsonProperty("cl_id")]
-        public KeyValueIdType CL_ID { get; init; }
-
         [JsonProperty("academic_item_version_number")]
         public string AcademicItemVersionNumber { get; init; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#endif
-        [JsonProperty("order")]
-        public string order { get; init; }
         [JsonProperty("start_date", NullValueHandling = NullValueHandling.Ignore)]
         public DateTime? StartDate { get; init; }
         [JsonProperty("end_date", NullValueHandling = NullValueHandling.Ignore)]
         public DateTime? EndDate { get; init; }
         [JsonProperty("containers")]
         public List<ContainerRequisiteTemporaryName> Requisites { get; init; }
+
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("order")]
+        public string order { get; init; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("cl_id")]
+        public KeyValueIdType CL_ID { get; init; }
+        
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("requisite_cl_id")]
+        public string RequisiteClId { get; init; }
 
         public override string ToString() {
             return Description;

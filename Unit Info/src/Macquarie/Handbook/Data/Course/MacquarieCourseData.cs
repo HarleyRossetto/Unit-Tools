@@ -15,22 +15,10 @@ namespace Macquarie.Handbook.Data.Course
         public List<string> AccreditingBodies { get; set; }
         [JsonProperty("abbreviated_name_and_major")]
         public string AbbreviatedNameAndMajor { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("version_name")]
-#endif
-        public string VersionName { get; set; }
         [JsonProperty("course_code")]
         public string CourseCode { get; set; }
         [JsonProperty("abbreviated_name")]
         public string AbbreviatedName { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("ext_id")]
-#endif
-        public string ExtId { get; set; }
         [JsonProperty("source")]
         public KeyValueIdType Source { get; set; }
         [JsonProperty("active")]
@@ -71,12 +59,6 @@ namespace Macquarie.Handbook.Data.Course
         public string PublicationInformation { get; set; }
         [JsonProperty("internship_placement")]
         public string InternshipPlacement { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("cricos_code")]
-#endif
-        public string CricosCode { get; set; }
         [JsonProperty("specialisations")]
         public string Specialisations { get; set; }
         [JsonProperty("govt_special_course_type")]
@@ -93,12 +75,6 @@ namespace Macquarie.Handbook.Data.Course
         public string LastReviewDate { get; set; }
         [JsonProperty("career_opportunities")]
         public string CareerOpportunities { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("fees_description")]
-#endif  
-        public string FeesDescription { get; set; }
         [JsonProperty("location")]
         public string Location { get; set; }
         [JsonProperty("course_value")]
@@ -171,20 +147,8 @@ namespace Macquarie.Handbook.Data.Course
         public bool InformationDeclaration { get; set; }
         [JsonProperty("ahegs")]
         public string Ahegs { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("part_time_duration")]
-#endif        
-        public string PartTimeDuration { get; set; }
         [JsonProperty("criscos_status")]
         public LabelledValue CriscosStatus { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("full_time_duration")]
-#endif  
-        public string FullTimeDuration { get; set; }
         [JsonProperty("prohibited_employment_declaration")]
         public bool ProhibitedEmploymentDeclaration { get; set; }
         [JsonProperty("minimum_entry_requirements")]
@@ -201,12 +165,6 @@ namespace Macquarie.Handbook.Data.Course
         public string CReditArrangements { get; set; }
         [JsonProperty("outcomes")]
         public string Outcomes { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("maximum_duration")]
-#endif  
-        public string MaximumDuration { get; set; }
         [JsonProperty("major_minors")]
         public string MajorMinors { get; set; }
         [JsonProperty("vce_maths")]
@@ -219,12 +177,6 @@ namespace Macquarie.Handbook.Data.Course
         public bool WorkingWithChildrenCheck { get; set; }
         [JsonProperty("entry_pathways_and_adjustment_factors_other_details")]
         public string EntryPathwaysAndAdjustmentFactorsOtherDetails { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("course_duration_in_years")]
-#endif  
-        public LabelledValue CourseDurationInYears { get; set; }
         [JsonProperty("entry_pathways_and_adjustment_factors")]
         public List<KeyValueIdType> EntryPathwaysAndAdjustmentFactors { get; set; }
         [JsonProperty("does_undergraduate_principle_26_3_apply")]
@@ -313,12 +265,6 @@ namespace Macquarie.Handbook.Data.Course
         public List<CourseNote> CourseNotes { get; set; }
         [JsonProperty("learning_outcomes")]
         public List<LearningOutcome> LearningOutcomes { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("fees")]
-#endif  
-        public List<Fee> Fees { get; set; }
         [JsonProperty("higher_level_courses_that_students_may_exit_from")]
         public List<HigherLevelCoursesThatStudentsMayExitFrom> HigherLevelCoursesThatStudentsMayExitFrom { get; set; }
         [JsonProperty("level1_org_unit_data")]
@@ -334,5 +280,59 @@ namespace Macquarie.Handbook.Data.Course
         [JsonProperty("availableAOS")]
         public string AvailableAOS { get; set; }
 
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("ext_id")]
+        public string ExtId { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("version_name")]
+        public string VersionName { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif  
+        [JsonProperty("fees")]
+        public List<Fee> Fees { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif  
+        [JsonProperty("course_duration_in_years")]
+        public LabelledValue CourseDurationInYears { get; set; }
+        
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif  
+        [JsonProperty("maximum_duration")]
+        public string MaximumDuration { get; set; }
+        
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif  
+        [JsonProperty("full_time_duration")]
+        public string FullTimeDuration { get; set; }
+        
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif        
+        [JsonProperty("part_time_duration")]
+        public string PartTimeDuration { get; set; }
+
+        
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif  
+        [JsonProperty("fees_description")]
+        public string FeesDescription { get; set; }
+        
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("cricos_code")]
+        public string CricosCode { get; set; }
     }
 }

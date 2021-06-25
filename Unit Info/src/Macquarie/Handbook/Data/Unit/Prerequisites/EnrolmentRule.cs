@@ -17,9 +17,8 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites
         public LabelledValue Type { get; set; }
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("order")]
 #endif
+        [JsonProperty("order")]
         public UInt16 Order { get; init; }
 
         public override string ToString() {

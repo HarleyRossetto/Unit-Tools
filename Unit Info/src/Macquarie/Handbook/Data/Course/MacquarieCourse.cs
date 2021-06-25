@@ -19,12 +19,14 @@ namespace Macquarie.Handbook.Data
         public string UrlYear { get; set; }
         [JsonProperty("generic")]
         public string Generic { get; set; }
+        [JsonProperty("urlMap")]
+        public string UrlMap { get; set; }
+
+        
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
 #endif
         [JsonProperty("modUserName")]
         public string ModUserName { get; set; }
-        [JsonProperty("urlMap")]
-        public string UrlMap { get; set; }
     }
 }

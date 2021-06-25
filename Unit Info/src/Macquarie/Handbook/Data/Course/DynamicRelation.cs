@@ -12,18 +12,6 @@ namespace Macquarie.Handbook.Data.Course
 {
     public record DynamicRelation : IdentifiableRecord
     {
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("parent_record")]
-#endif
-        public KeyValueIdType ParentRecord { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("parent_table")]
-#endif
-        public string ParentTable { get; set; }
         [JsonProperty("description")]
         [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
         public string Description { get; set; }
@@ -34,6 +22,17 @@ namespace Macquarie.Handbook.Data.Course
         public string Wildcard { get; set; }
         [JsonProperty("encodedURL")]
         public string EncodedUrl { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("parent_record")]
+        public KeyValueIdType ParentRecord { get; set; }
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("parent_table")]
+        public string ParentTable { get; set; }
     }
 
     public record DynamicRelationRule
@@ -50,30 +49,30 @@ namespace Macquarie.Handbook.Data.Course
         public string GroupConnector { get; set; }
         [JsonProperty("id")]
         public string ID { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("order")]
-#endif
-        public string Order { get; set; }
         [JsonProperty("parent_record")]
         public string ParentRecord { get; set; }
+        
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("order")]
+        public string Order { get; set; }
     }
 
     public record OperatorGroupMember
     {
         [JsonProperty("parent_record")]
         public string ParentRecord { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("order")]
-#endif
-        public string Order { get; set; }
         [JsonProperty("id")]
         public string ID { get; set; }
         [JsonProperty("map")]
         public OperatorGroupMemberMap Map { get; set; }
+        
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("order")]
+        public string Order { get; set; }
     }
 
     public record OperatorGroupMemberMap

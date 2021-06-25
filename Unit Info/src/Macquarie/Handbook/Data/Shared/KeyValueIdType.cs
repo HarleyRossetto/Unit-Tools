@@ -6,19 +6,20 @@ namespace Macquarie.Handbook.Data.Shared
 {
     public record KeyValueIdType : IdentifiableRecord
     {
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("key")]
-#endif
-        public string Key { get; set; }
+
         [JsonProperty("value")]
         public string Value { get; set; }
+        
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("type")]
 #endif
+        [JsonProperty("key")]
+        public string Key { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("type")]
         public string Type { get; set; }
 
         public override string ToString() {

@@ -13,12 +13,6 @@ namespace Macquarie.Handbook.Data.Course
         public LabelledValue Mode { get; set; }
         [JsonProperty("admission_calendar")]
         public LabelledValue AdmissionCalendar { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("clarification_to_appear_in_handbook")]
-#endif
-        public string ClarificationToAppearInHandbook { get; set; }
         [JsonProperty("start_date", NullValueHandling = NullValueHandling.Ignore)]
         public DateTime? StartDate { get; set; }
         [JsonProperty("end_date", NullValueHandling = NullValueHandling.Ignore)]
@@ -35,24 +29,12 @@ namespace Macquarie.Handbook.Data.Course
         public LabelledValue Status { get; set; }
         [JsonProperty("offered")]
         public bool Offered { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("linking_id")]
-#endif
-        public string LinkingId { get; set; }
         [JsonProperty("display_name")]
         public string DisplayName { get; set; }
         [JsonProperty("location")]
         public LabelledValue Location { get; set; }
         [JsonProperty("name")]
         public string Name { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("order")]
-#endif
-        public string Order { get; set; }
         [JsonProperty("attendance_type")]
         public List<string> AttendanceType { get; set; }
         [JsonProperty("academic_item")]
@@ -61,5 +43,24 @@ namespace Macquarie.Handbook.Data.Course
         public string Year { get; set; }
         [JsonProperty("entry_point")]
         public bool EntryPoint { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("linking_id")]
+        public string LinkingId { get; set; }
+        
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("clarification_to_appear_in_handbook")]
+        public string ClarificationToAppearInHandbook { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("order")]
+        public string Order { get; set; }
+
     }
 }

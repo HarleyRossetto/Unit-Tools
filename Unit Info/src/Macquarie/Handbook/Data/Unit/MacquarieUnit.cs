@@ -16,72 +16,75 @@ namespace Macquarie.Handbook.Data
         public MacquarieUnitData UnitData { get; set; }
         [JsonProperty("creditPoints")]
         public UInt16 CreditPoints { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("sysId")]
-#endif
-        public string SysId { get; set; }
+
         [JsonProperty("description")]
         [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
         public string Description { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("type")]
-#endif
-        public string Type { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("baseType")]
-#endif
-        public string BaseType { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("mode")]
-#endif
-        public string Mode { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("academicOrg")]
-#endif
-        public string AcademicOrg { get; set; }
         [JsonProperty("level")]
         public string Level { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("active")]
-#endif
-        public string Active { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("teachingPeriod")]
-#endif
-        public string TeachingPeriod { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("version")]
-#endif
-        public string Version { get; set; }
         [JsonProperty("publishedInHandbook")]
         public UInt16 PublishedInHandbook { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("location")]
-#endif
-        public string Location { get; set; }
+
         [JsonProperty("levelDisplay")]
         public string LevelDisplay { get; set; }
         [JsonProperty("effectiveDate", NullValueHandling = NullValueHandling.Ignore)]
         public DateTime? EffectiveDate { get; set; }
         [JsonProperty("status")]
         public string Status { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("sysId")]
+        public string SysId { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("location")]
+        public string Location { get; set; }
+
+        
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("version")]
+        public string Version { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("teachingPeriod")]
+        public string TeachingPeriod { get; set; }
+        
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("active")]
+        public string Active { get; set; }
+
+        #if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("type")]
+        public string Type { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("baseType")]
+        public string BaseType { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("mode")]
+        public string Mode { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("academicOrg")]
+        public string AcademicOrg { get; set; }
     }
 }

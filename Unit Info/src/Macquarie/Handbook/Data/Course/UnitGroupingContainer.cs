@@ -7,23 +7,11 @@ using Macquarie.Handbook.Converters;
 
 namespace Macquarie.Handbook.Data.Course
 {
-    public class UnitGroupingContainer
+    public record UnitGroupingContainer
     {
 
         [JsonProperty("title")]
         public string Title { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("vertical_grouping")]
-#endif
-        public LabelledValue VerticalGrouping { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("horizontal_grouping")]
-#endif
-        public LabelledValue HorizontalGrouping { get; set; }
         [JsonProperty("preface")]
         public string Preface { get; set; }
         [JsonProperty("dynamic_query")]
@@ -39,18 +27,6 @@ namespace Macquarie.Handbook.Data.Course
         public string Description { get; set; }
         [JsonProperty("credit_points_max")]
         public string CreditPointsMax { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("parent_record")]
-#endif
-        public KeyValueIdType ParentRecord { get; set; }
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("parent_table")]
-#endif
-        public string ParentTable { get; set; }
         [JsonProperty("parentConnector")]
         public LabelledValue ParentConnector { get; set; }
         [JsonProperty("dynamic_relationship")]
@@ -59,5 +35,29 @@ namespace Macquarie.Handbook.Data.Course
         public List<UnitGroupingContainer> Container { get; set; }
         [JsonProperty("relationship")]
         public List<AcademicItem> Relationships { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("vertical_grouping")]
+        public LabelledValue VerticalGrouping { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("horizontal_grouping")]
+        public LabelledValue HorizontalGrouping { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("parent_record")]
+        public KeyValueIdType ParentRecord { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
+        [JsonProperty("parent_table")]
+        public string ParentTable { get; set; }
     }
 }

@@ -8,41 +8,41 @@ namespace Macquarie.Handbook.Data.Shared
 {
     public record LearningOutcome : IdentifiableRecord
     {
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#else
-        [JsonProperty("number")]
-#endif
-        public string Number { get; set; }
+
         [JsonProperty("description")]
        // [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
         public string Description { get; set; }
+        [JsonProperty("code")]
+        public string Code { get; set; }
 
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
+#endif
+        [JsonProperty("number")]
+        public string Number { get; set; }
+
+#if IGNORE_UNNECESSARY
+        [JsonIgnore]
+#endif
         [JsonProperty("order")]
-#endif
         public string Order { get; set; }
+
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
+#endif
         [JsonProperty("linking_id")]
-#endif
         public string LinkingId { get; set; }
+
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
+#endif
         [JsonProperty("lo_cl_id")]
-#endif
         public string LO_CL_ID { get; set; }
-        [JsonProperty("code")]
-        public string Code { get; set; }
+
 #if IGNORE_UNNECESSARY
         [JsonIgnore]
-#else
-        [JsonProperty("academic_item")]
 #endif
+        [JsonProperty("academic_item")]
         public KeyValueIdType AcademicItem { get; set; }
 
         public override string ToString() {

@@ -23,7 +23,7 @@ namespace UnitTools_Tests
             Assert.AreEqual(resultTwoExpected, resultTwo);
 
             string inputThree = "Admission to MAppFin(Beijing) and ECFL866 or AFCL8003";
-            inputThree = ParenthesesSanitiser.ReplaceSquareBrackets(inputTwo);
+            inputThree = ParenthesesSanitiser.ReplaceSquareBrackets(inputThree);
             const string resultThreeExpected = "Admission to MAppFin[Beijing] and ECFL866 or AFCL8003";
             var resultThree = ParenthesesSanitiser.ReplaceBracketedQualifiers(inputThree);
             Assert.AreEqual(resultThreeExpected, resultThree);

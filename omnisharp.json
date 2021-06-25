@@ -23,6 +23,7 @@
         "PropertyGenerationBehavior": "PreferAutoProperties"
     },
     "RoslynExtensionsOptions": {
+        "EnableAnalyzersSupport": true,
         "enableDecompilationSupport": true
     }
 }

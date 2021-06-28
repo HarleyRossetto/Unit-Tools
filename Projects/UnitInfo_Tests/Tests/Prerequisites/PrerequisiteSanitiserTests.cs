@@ -36,5 +36,34 @@ namespace UnitTools_Tests
             Assert.IsFalse(resultsOne.Contains('['));
             Assert.IsFalse(resultsOne.Contains(']'));
         }
+
+        [TestMethod]
+        public void TestNormaliseeCreditPointRepresentations() {
+            (string expected, string input)[] testStrings = {
+                ("40 cp", "40 credit points"),
+                ("40cp", "40cp"),
+                ("40cp", "40cps")
+            };
+
+            foreach (var (expected, input) in testStrings) {
+                Assert.AreEqual(expected, PrerequisiteSanitiser.NormaliseCreditPointRepresentations(input));
+            }
+        }
+
+        [TestMethod]
+        public void TestRemoveEscapeSequences() {
+            (string expected, string input)[] testStrings = {
+                ("40 credit points", "40 credit points\n"),
+                ("Admission to MCrWrit", "Admission to MCrWrit\n"),
+                ("Permission by special approval (waiver)", "Permission by special approval (waiver)\n"),
+                ("Pre-requisite 40cp at 1000 level or above", "Pre-requisite\t40cp at 1000 level or above"),
+                ("Admission to BClinSc and (MEDI206 or MEDI2400)", "\tAdmission to BClin\rSc and (MEDI206 or MEDI2400)")
+            };
+
+            foreach (var (expected, input) in testStrings) {
+                var result = PrerequisiteSanitiser.RemoveWhitespaceEscapeSequences(input);
+                Assert.AreEqual(expected, result);
+            }
+        }
     }
 }

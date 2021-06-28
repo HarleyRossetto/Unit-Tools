@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Unit Info/Unit Info.csproj",
+                "${workspaceFolder}/Projects/Unit Info/Unit Info.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Unit Info/Unit Info.csproj",
+                "${workspaceFolder}/Projects/Unit Info/Unit Info.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/Unit Info/Unit Info.csproj",
+                "${workspaceFolder}/Projects/Unit Info/Unit Info.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],

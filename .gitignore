@@ -1,9 +1,9 @@
-*.json
+**.json
 
-*.dll
+**.dll
 
-*/obj
-*/bin
+**/obj
+**/bin
 
 #Line Test Coverage files 
 Lcov.info

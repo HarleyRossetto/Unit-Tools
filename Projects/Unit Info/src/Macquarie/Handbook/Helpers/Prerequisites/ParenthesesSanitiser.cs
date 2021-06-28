@@ -38,6 +38,9 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
             _regexPrerequisiteRequirement
         };
 
+        private const char OPEN_SYMBOL_DELIMIT = '[';
+        private const char CLOSE_SYMBOL_DELIMIT = ']';
+
         public static string Sanitise(string prerequsite) {
             var standardisedBrackets = ReplaceSquareBrackets(prerequsite);
             var qualifiersCorrected = ReplaceBracketedQualifiers(standardisedBrackets);
@@ -54,7 +57,7 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
 
         public static string QualifyFilterBrackets(string prerequsites, MatchCollection matches) {
             foreach (Match match in matches) {
-                var replaced = ReplaceParenthesesWithSquareBrackets(match.Value);
+                var replaced = ReplaceParenthesesWithDelimitedSymbols(match.Value);
                 var inputWithMatchRemoved = prerequsites.Remove(match.Index, match.Length);
                 prerequsites = inputWithMatchRemoved.Insert(match.Index, replaced);
             }
@@ -63,13 +66,11 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
         }
 
         public static string ReplaceSquareBrackets(string input) {
-            var result = input.Replace('[', '(');
-            return result.Replace(']', ')');
+            return input.Replace('[', '(').Replace(']', ')');
         }
 
-        public static string ReplaceParenthesesWithSquareBrackets(string input) {
-            var temp = input.Replace('(', '[');
-            return temp.Replace(')', ']');
+        public static string ReplaceParenthesesWithDelimitedSymbols(string input) {
+            return input.Replace('(', OPEN_SYMBOL_DELIMIT).Replace(')', CLOSE_SYMBOL_DELIMIT);
         }
     }
 }

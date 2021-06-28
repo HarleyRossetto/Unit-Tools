@@ -126,7 +126,7 @@ namespace Macquarie.Handbook
             if (readFromDisk) {
                 return await LoadAllLocalData<MacquarieUnit>();
             } else {
-                var apiRequest = new UnitApiRequestBuilder() { ImplementationYear = implementationYear, Limit = limit };
+                var apiRequest = new HandbookApiRequestBuilder() { ImplementationYear = implementationYear, Limit = limit, ResourceType = APIResourceType.Unit };
                 return await GetCMSDataCollection<MacquarieUnit>(apiRequest);
             }
         }

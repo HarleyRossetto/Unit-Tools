@@ -1,7 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using Macquarie.Handbook.Helpers.Prerequisites;
-using System.Collections.Generic;
 
 namespace UnitTools_Tests
 {

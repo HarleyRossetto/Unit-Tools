@@ -13,7 +13,7 @@ using static Macquarie.JSON.JsonSerialisationHelper;
 using Unit_Info.Helpers;
 using static Unit_Info.Helpers.LocalDataDirectoryHelper;
 using static Unit_Info.Helpers.LocalDirectories;
-
+using System.IO;
 
 namespace Unit_Info.Demonstrations
 {
@@ -49,7 +49,7 @@ namespace Unit_Info.Demonstrations
             Console.WriteLine($"{unitCollection.Count} unit{(unitCollection.Count > 0 ? "s" : "")} retrieved and written to disk.");
         }
 
-            private static async Task WriteObjectToFile(MacquarieMetadata data, LocalDirectories directoryToSaveTo, bool saveWithTimeStamp = false, Newtonsoft.Json.Formatting formatting = Newtonsoft.Json.Formatting.Indented) {
+        private static async Task WriteObjectToFile(MacquarieMetadata data, LocalDirectories directoryToSaveTo, bool saveWithTimeStamp = false, Newtonsoft.Json.Formatting formatting = Newtonsoft.Json.Formatting.Indented) {
             if (data is not null) {
                 await SerialiseObjectToJsonFile(data, CreateFilePath(directoryToSaveTo, data.Code), saveWithTimeStamp, formatting);
             }
@@ -61,7 +61,7 @@ namespace Unit_Info.Demonstrations
             }
         }
 
-        
+
         /// <summary>
         /// Demonstrates Course data collection and access.
         /// </summary>
@@ -142,7 +142,17 @@ namespace Unit_Info.Demonstrations
                 }
             }
         }
-                    
+
+        public static async Task GetAllUnitNames() {
+            var unitCollection = await MacquarieHandbook.GetAllUnits(2021);
+            List<String> unitNames = new(unitCollection.Count);
+            foreach (var unit in unitCollection) {
+                unitNames.Add(unit.Code);
+            }
+
+            await SerialiseObjectToJsonFile(unitNames, CreateFilePath(Unit_Filtered, "UnitNames"));
+        }
+
         //Downloads all units and saves a copy of only the prerequisite enrolment rules.
         public static async Task GetAllUnitPrerequsiteForDevelopment() {
             Stopwatch sw = new();
@@ -163,11 +173,86 @@ namespace Unit_Info.Demonstrations
                 var orderedList = ruleAndCode.OrderBy(i => i.Item2.Length);
 
                 await SerialiseObjectToJsonFile(orderedList, CreateFilePath(Unit_PreRequisite_Unparsed, "Macquarie_EnrolmentRules_ASC_LENGTH"));
+
+                string[] prereqStrings = (from item in orderedList
+                                          select item.Item2).ToArray();
+
+                HashSet<String> hashset = new();
+
+                foreach (var (item1, item2) in orderedList) {
+                    hashset.Add(item2);
+                }
+
+                await SerialiseObjectToJsonFile(hashset, CreateFilePath(Unit_PreRequisite_Unparsed, "Unique_MQEnrolmentRules"));
+
+                int hashsetSize = hashset.Count;
+                List<String> tenPercentSelection = new(hashsetSize / 10);
+                for (int i = 0; i < hashsetSize; i += 10) {
+                    if (i < hashsetSize)
+                        tenPercentSelection.Add(hashset.ElementAt(i));
+                }
+
+                await SerialiseObjectToJsonFile(tenPercentSelection, CreateFilePath(Unit_PreRequisite_Unparsed, "Unique_MQEnrolmentRules_Selection"));
             }
 
             sw.Stop();
 
             Console.WriteLine("{0} milliseconds for {1} unit query & deserialisation.", sw.ElapsedMilliseconds, unitCollection.Count);
+        }
+
+        public static async Task ProcessPrereqs() {
+            String[] prereqs = DeserialiseJsonObject<String[]>(await File.ReadAllTextAsync(@"C:\Users\accou\Desktop\MQ Uni Data Tools\Unit Tools\Projects\Unit Info\data\units\prerequisites\unparsed\Unique_MQEnrolmentRules.json"));
+
+            IEnumerable<String> filtered = from str in prereqs
+                                           where str.Contains("dmission")
+                                           select str;
+
+            List<String> selection = new();
+            for (int i = 0; i < filtered.Count(); i += 10) {
+                if (i < filtered.Count())
+                    selection.Add(filtered.ElementAt(i));
+            }
+
+            await SerialiseObjectToJsonFile(selection, CreateFilePath(Unit_PreRequisite_Unparsed, "MQEnrolmentRules_Admission_Varients_Selection"));
+
+            HashSet<String> wordsFollowingAdmission = new();
+
+            foreach (var str in filtered) {
+                int idx = str.IndexOf("dmission");
+                if (idx >= 0) {
+                    var subStr = str[(idx + 8)..];//does substring. Range operator.
+                    var split = subStr.Trim().Split(' ', 2);
+                    if (split.Length > 0) {
+                        var combined = "Admission " + split[0];
+                        wordsFollowingAdmission.Add(combined);
+                    }
+                }
+            }
+
+            await SerialiseObjectToJsonFile(wordsFollowingAdmission, CreateFilePath(Unit_PreRequisite_Unparsed, "Keyword_Admission_FollowingWord"));
+
+            HashSet<String> wordsFollowingAnd = new();
+
+            foreach (var str in filtered) {
+                var split = str.Split(" and ");
+                for (int i = 1; i < split.Length; i += 2) {
+                    wordsFollowingAnd.Add("and " + split[i].Trim().Split()?[0]);
+                }
+            }
+
+            await SerialiseObjectToJsonFile(wordsFollowingAnd, CreateFilePath(Unit_PreRequisite_Unparsed, "Keyword_Add_FollowingWord"));
+
+            HashSet<String> wordsFollowingOr = new();
+
+            foreach (var str in filtered) {
+                var split = str.Split(" or ");
+                for (int i = 1; i < split.Length; i += 2) {
+                    wordsFollowingOr.Add("or " + split[i].Trim().Split()?[0]);
+                }
+            }
+
+            await SerialiseObjectToJsonFile(wordsFollowingOr, CreateFilePath(Unit_PreRequisite_Unparsed, "Keyword_Or_FollowingWord"));
+
         }
 
         public static async Task SaveListOfUnitCodesAndTitles() {
@@ -180,8 +265,8 @@ namespace Unit_Info.Demonstrations
             var apiRequest = new UnitApiRequestBuilder() { ImplementationYear = 2021, Limit = 2500 };
             var unitCollection = await MacquarieHandbook.GetCMSDataCollection<MacquarieUnit>(apiRequest);
 
-            var enumerable = (from unit in unitCollection.AsEnumerable()
-                              select new { unit.Code, unit.Title, unit.UnitData.School.Value });
+            var enumerable = from unit in unitCollection.AsEnumerable()
+                             select new { unit.Code, unit.Title, unit.UnitData.School.Value };
             var query = enumerable.Select(item => new MacquarieBasicItemInfo(item.Code, item.Title, item.Value)).OrderBy(item => item.Code).GroupBy(item => item.Department);
 
             return query;

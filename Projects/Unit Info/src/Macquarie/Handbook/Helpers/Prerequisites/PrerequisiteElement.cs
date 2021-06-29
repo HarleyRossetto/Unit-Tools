@@ -4,11 +4,12 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
 {
     public class PrerequisiteElement
     {
+        private static int counter = 0;
         public PrerequisiteElement(string prereq, Range range, int depth) {
             Prerequisite = prereq;
             RangeInOriginalString = range;
             Depth = depth;
-            GUID = Guid.NewGuid().ToString();
+            GUID = (counter++).ToString();
         }
 
         public string Prerequisite { get; set; }

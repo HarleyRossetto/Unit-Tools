@@ -7,7 +7,8 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
     public static class PrerequisiteParser
     {
         public static void Parse(string prerequisite) {
-            var sanitisedPrerequisiteString = ParenthesesSanitiser.Sanitise(prerequisite);
+            var sanitisedPrerequisiteString = SanitisePrerequisiteString(prerequisite);
+
             var ranges = ParentheseMatcher.Match(sanitisedPrerequisiteString);
 
             var prereqs = new List<PrerequisiteElement>(ExtractPrerequisiteElements(prerequisite, ranges));
@@ -19,6 +20,12 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
             var topLevelElement = ProcessPrerequisiteGuids(prerequisite, prereqDictionary);
 
             System.Console.WriteLine("test");
+        }
+
+        private static string SanitisePrerequisiteString(string prerequisite) {
+            var sanitisedPrerequisiteString = PrerequisiteSanitiser.Sanitise(prerequisite);
+            sanitisedPrerequisiteString = ParenthesesSanitiser.Sanitise(sanitisedPrerequisiteString);
+            return sanitisedPrerequisiteString;
         }
 
         private static IEnumerable<PrerequisiteElement> FindParentRanges(IEnumerable<PrerequisiteElement> elements) {
@@ -61,6 +68,12 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
             }
         }
 
+        /// <summary>
+        /// Returns a list of PrerequisiteElements which represent the string component within a pair of parentheses.
+        /// </summary>
+        /// <param name="prerequisite">The input string from which to divide into ranges.</param>
+        /// <param name="ranges">List of ranges representing matched parenthese pairs.</param>
+        /// <returns>A list of Prerequisite elements.</returns>
         private static IEnumerable<PrerequisiteElement> ExtractPrerequisiteElements(string prerequisite, IEnumerable<(Range Range, int Depth)> ranges) {
             yield return new PrerequisiteElement(prerequisite, new Range(0, prerequisite.Length), 0);
             foreach (var range in ranges) {

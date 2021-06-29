@@ -3,8 +3,11 @@
 - and
 - admission
 - including
-- ###cp | ###cps | ## credit points [Normalised to ### cp]
+- ###cp  
 - Permission by special approval (waiver)
+- Completion of
+- Corequisite
+- WAM of ##
 
 ### <span style="color:LightGreen">Grammars:</span>
 - ( ) Parenthese denote nested statement
@@ -17,14 +20,41 @@
       - COMP123
 - **or**
    - statement ___or___ statement
+
+   def : STATEMENT OR STATEMENT ;
+
+   OR : 'or' | 'OR' ;
 - **and**
    - statement ___and___ statement
+   
+   def : STATEMENT AND STATEMENT ;
+
+   AND : 'and' | 'AND' ;
  - **admission**
-   - (___A___|___a___)___dmission to___ statement
+   - (___A___|___a___)___dmission (in|to|into)___ statement
+  
+   def : HEADER STATEMENT
+
+   HEADER : 'Admission' | 'admission' PREPOSITION ;
+
+   PREPOSITION : 'in' | 'to' | 'into' ;
  - **cp**
    - ##___cp ( (___in___ QUALIFIER (___or___ QUALIFIER) ___units) at___ #### ___level___ (___or above___) (___including___ STATEMENT) | ___from___ statement ___-___ statement)
    - Special case ___or___ in this situation
 
+   def : CP LEVEL*;
+
+   CP : NUM+ 'cp' ;
+
+   NUM : [0-9] ;
+
+   LEVEL : 'at' LVL 'level' 'or above'?   ;
+
+   LVL : NUM '00' | '000' ;
+
+   INCLUDE : 'including' CP 'of' (STATEMENT | UNIT)
+   
+   UNIT : (); 
 
 /*
    EDTE3010 - has larger pre-requsite chain

@@ -63,9 +63,6 @@ namespace Macquarie.Handbook.Data.Unit
                 if (value is not null) {
                     _enrolmentRules = value;
 
-                    //Sanitise the input.
-                    //RemoveEscapeSequencesFromPrerequisites();
-
                     //Original Implementation
                     //PrerequisiteParserOld.ParsePrerequisites(value, Code);
 
@@ -144,13 +141,5 @@ namespace Macquarie.Handbook.Data.Unit
 #endif
         [JsonProperty("parent_id")]
         public KeyValueIdType ParentId { get; init; }
-
-        private void RemoveEscapeSequencesFromPrerequisites() {
-            foreach (var item in EnrolmentRules) {
-                if (item.Type.Value == "prerequisite" && (item.Description.Contains("\n") || item.Description.Contains("\t"))) {
-                    item.Description = item.Description.Replace("\n", "").Replace("\t", " ");
-                }
-            }
-        }
     }
 }

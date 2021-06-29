@@ -12,6 +12,12 @@
 		"coverage-gutters.showLineCoverage": true,
 		"coverage-gutters.showRulerCoverage": true,
 		"coverage-gutters.showGutterCoverage": false,
+
+		"omnisharp.enableImportCompletion": true,
+		"omnisharp.enableRoslynAnalyzers": true,
+		"omnisharp.enableEditorConfigSupport": true,
+
+		"editor.semanticHighlighting.enabled": true,
 	},
 	"extensions": {
 		"recommendations": [

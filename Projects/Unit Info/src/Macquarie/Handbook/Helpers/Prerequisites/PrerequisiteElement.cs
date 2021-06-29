@@ -1,10 +1,12 @@
 using System;
+using System.Collections.Generic;
 
 namespace Macquarie.Handbook.Helpers.Prerequisites
 {
     public class PrerequisiteElement
     {
         private static int counter = 0;
+
         public PrerequisiteElement(string prereq, Range range, int depth) {
             Prerequisite = prereq;
             RangeInOriginalString = range;
@@ -17,7 +19,9 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
         public int Depth { get; init; }
         public string GUID { get; init; }
         public string ParentGUID { get; set; }
+        public PrerequisiteElement Parent { get; set; }
         public Range RangeInParentString { get; set; }
+        public List<PrerequisiteElement> Children { get; set; } = new List<PrerequisiteElement>();
 
         public bool IsInRange(PrerequisiteElement other) {
             if (this == other)

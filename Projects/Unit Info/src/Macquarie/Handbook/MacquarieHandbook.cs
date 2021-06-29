@@ -1,11 +1,9 @@
 //#define WRITE_ALL_JSON_TO_DISK
 
 using System;
-using System.Collections.Concurrent;
 using System.IO;
 using System.Net.Http;
 using System.Threading.Tasks;
-using System.Linq;
 
 using Macquarie.Handbook.Data;
 using Macquarie.Handbook.Data.Shared;
@@ -26,6 +24,10 @@ namespace Macquarie.Handbook
 
         public static TimeSpan WebRequestTimeout { get => httpClient.Timeout; set => httpClient.Timeout = value; }
 
+        static MacquarieHandbook() {
+            //httpClient.BaseAddress = ""
+        }
+
         public static async Task<string> DownloadString(HandbookApiRequestBuilder apiRequest) {
             return await DownloadString(apiRequest.ToString());
         }
@@ -33,6 +35,13 @@ namespace Macquarie.Handbook
         public static async Task<string> DownloadString(string url) {
             Console.WriteLine(url);
             var response = await httpClient.GetAsync(url);
+
+            if (!response.IsSuccessStatusCode) {
+                System.Console.WriteLine(response.ToString());
+                //Return an emptry string to parse.
+                return String.Empty;
+            }
+
             return await response.Content.ReadAsStringAsync();
         }
 
@@ -44,6 +53,7 @@ namespace Macquarie.Handbook
             return DeserialiseJsonObject<MacquarieDataCollection<T>>(await DownloadString(url));
         }
 
+        //False for course. Make enum later
         public static async Task<MacquarieDataCollection<T>> LoadAllLocalData<T>() where T : MacquarieMetadata {
             var dirPath = GetDirectory(Unit_Filtered);
             if (Directory.Exists(dirPath)) {
@@ -108,7 +118,7 @@ namespace Macquarie.Handbook
             return default;
         }
 
-        private static async Task<T> LoadObjectFromFile<T>(string file) where T : MacquarieMetadata{
+        private static async Task<T> LoadObjectFromFile<T>(string file) where T : MacquarieMetadata {
             try {
                 var jsonString = await File.ReadAllTextAsync(file);
                 var obj = DeserialiseJsonObject<T>(jsonString);

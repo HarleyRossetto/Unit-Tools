@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace Macquarie.Handbook.Helpers.Prerequisites
@@ -11,21 +12,24 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
         };
 
         public static string Sanitise(string prerequisite) {
+
+            string result = prerequisite;
             foreach (var sanitiser in prerequisiteSanitisers) {
-                prerequisite = sanitiser(prerequisite);
+                result = sanitiser(result);
             }
-            return prerequisite;
+            return result;
         }
 
         public static string NormaliseCreditPointRepresentations(string prerequisite) {
-            return prerequisite.Replace("cps", "cp").Replace("credit points", "cp");
+            return  prerequisite.Replace("cps", "cp")
+                                .Replace("credit points", "cp");
         }
 
         public static string RemoveWhitespaceEscapeSequences(string prerequisite) {
             return prerequisite.Replace("\t", " ")
                                .Replace("\n", "")
                                .Replace("\r", "")
-                               .Trim();
+                               .Trim(); //Remove top and tail whitespace.
         }
     }
 }

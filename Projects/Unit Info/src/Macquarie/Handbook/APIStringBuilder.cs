@@ -5,7 +5,7 @@ namespace Macquarie.Handbook.WebApi
 {
     public class HandbookApiRequestBuilder
     {
-        protected StringBuilder API_STRING = new(250);
+        protected StringBuilder API_STRING = new (250);
 
         private string _code = null;
         public string Code {
@@ -23,6 +23,11 @@ namespace Macquarie.Handbook.WebApi
         public APIResourceType ResourceType { get; set; } = APIResourceType.Unit;
 
         public HandbookApiRequestBuilder() { }
+
+        public HandbookApiRequestBuilder(int? implementationYear, APIResourceType resourceType) : this() {
+            ImplementationYear = implementationYear;
+            ResourceType = resourceType;
+        }
 
         public HandbookApiRequestBuilder(string code, int? implementationYear, APIResourceType resourceType) : this() {
             Code = code;
@@ -70,36 +75,45 @@ namespace Macquarie.Handbook.WebApi
     }
 
 
-//Leaving these as syntatic sugar for the moment
+    //Leaving these as syntatic sugar for the moment
     public class UnitApiRequestBuilder : HandbookApiRequestBuilder
     {
 
-        public UnitApiRequestBuilder() : base() {
-            BASE_API_STRING = GetBaseAPIString();
-         }
-
-        public UnitApiRequestBuilder(string unitCode) : base(unitCode, DateTime.Now.Year, APIResourceType.Unit) {
-            BASE_API_STRING = GetBaseAPIString();
+        public UnitApiRequestBuilder() : base(DateTime.Now.Year, APIResourceType.Unit) {
+            //BASE_API_STRING = GetBaseAPIString();
         }
 
-        public UnitApiRequestBuilder(string unitCode, int? implementationYear) : base(unitCode, implementationYear, APIResourceType.Unit) { 
-            BASE_API_STRING = GetBaseAPIString();
+          public UnitApiRequestBuilder(int? implementationYear) : base(implementationYear, APIResourceType.Unit) {
+            //BASE_API_STRING = GetBaseAPIString();
+        }
+
+        public UnitApiRequestBuilder(string unitCode) : base(unitCode, DateTime.Now.Year, APIResourceType.Unit) {
+            //BASE_API_STRING = GetBaseAPIString();
+        }
+
+        public UnitApiRequestBuilder(string unitCode, int? implementationYear) : base(unitCode, implementationYear, APIResourceType.Unit) {
+            //BASE_API_STRING = GetBaseAPIString();
         }
 
     }
 
     public class CourseApiRequestBuilder : HandbookApiRequestBuilder
     {
-        public CourseApiRequestBuilder() : base() {
-            BASE_API_STRING = GetBaseAPIString();
-         }
+        public CourseApiRequestBuilder() : base(DateTime.Now.Year, APIResourceType.Course) {
+            //BASE_API_STRING = GetBaseAPIString();
+        }
+
+        public CourseApiRequestBuilder(int? implementationYear) : base(implementationYear, APIResourceType.Course) {
+            //BASE_API_STRING = GetBaseAPIString();
+        }
+
 
         public CourseApiRequestBuilder(string unitCode) : base(unitCode, DateTime.Now.Year, APIResourceType.Course) {
-            BASE_API_STRING = GetBaseAPIString();
-         }
+            //BASE_API_STRING = GetBaseAPIString();
+        }
 
-        public CourseApiRequestBuilder(string unitCode, int? implementationYear) : base(unitCode, implementationYear, APIResourceType.Course) { 
-            BASE_API_STRING = GetBaseAPIString();
+        public CourseApiRequestBuilder(string unitCode, int? implementationYear) : base(unitCode, implementationYear, APIResourceType.Course) {
+            //BASE_API_STRING = GetBaseAPIString();
         }
 
     }

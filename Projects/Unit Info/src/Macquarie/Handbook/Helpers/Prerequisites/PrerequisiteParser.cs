@@ -9,15 +9,8 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
         public static void Parse(string prerequisite) {
             var sanitisedPrerequisiteString = SanitisePrerequisiteString(prerequisite);
 
-            var ranges = ParentheseMatcher.Match(sanitisedPrerequisiteString);
-
-            var prereqs = new List<PrerequisiteElement>(ExtractPrerequisiteElements(prerequisite, ranges));
-
-            var elementWithParents = FindParentRanges(prereqs);
-
-            var prereqDictionary = CreatePrerequisiteDictionary(prereqs);
-
-            var topLevelElement = ProcessPrerequisiteGuids(prerequisite, prereqDictionary);
+            var prereqDictionary = CreatePrerequisiteDictionary(sanitisedPrerequisiteString);
+            var rootElement = GetRootElement(prereqDictionary);
 
             System.Console.WriteLine("test");
         }
@@ -40,7 +33,6 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
                 var parent = FindParentElement(element, elements);
                 if (parent is not null && parent != element) {
                     element.ParentGUID = parent.GUID;
-
 
                     int index = parent.Prerequisite.IndexOf(element.Prerequisite);
                     int end = index + element.Prerequisite.Length;
@@ -81,15 +73,24 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
             }
         }
 
-        private static Dictionary<string, PrerequisiteElement> CreatePrerequisiteDictionary(IEnumerable<PrerequisiteElement> prerequisites) {
+        private static Dictionary<string, PrerequisiteElement> CreatePrerequisiteDictionary(string prerequisite) {
+            var ranges = ParentheseMatcher.Match(prerequisite);
+
+            var prereqs = new List<PrerequisiteElement>(ExtractPrerequisiteElements(prerequisite, ranges));
+
+            var elementWithParents = FindParentRanges(prereqs);
+
             var dictionary = new Dictionary<string, PrerequisiteElement>();
-            foreach (var pr in prerequisites) {
+            foreach (var pr in prereqs) {
                 dictionary.Add(pr.GUID, pr);
             }
+
+            ReplaceGroupedElementsWithGuids(dictionary);
+
             return dictionary;
         }
 
-        private static PrerequisiteElement ProcessPrerequisiteGuids(string prerequisite, Dictionary<string, PrerequisiteElement> elements) {
+        private static void ReplaceGroupedElementsWithGuids(Dictionary<string, PrerequisiteElement> elements) {
             foreach (var kv in elements.Reverse()) {
                 if (elements.TryGetValue(kv.Value.ParentGUID ??= "0", out PrerequisiteElement parent)) {
                     //Remove original value\
@@ -100,49 +101,79 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
                     parent.Prerequisite = temp;
                 }
             }
-            return elements.Single(x => x.Value.Depth == 0).Value;
+        }
+
+        public static PrerequisiteElement GetRootElement(Dictionary<string, PrerequisiteElement> dictionary) {
+            return dictionary.Single(x => x.Value.Depth == 0).Value;
         }
     }
 
-    public class Expression {
-        /*
-            AND
-            OR
-            ADMISSION TO
-            #CP
-            #CP INCLUDING
-            #CP IN &&&& UNITS
-            #CP AT #### LEVEL OR ABOVE
-            Permission by special approval
+    /*
+           AND
+           OR
+           ADMISSION TO
+           ADMISSION IN
+           ADMISSION INTO
+           #CP
+           #CP INCLUDING
+           #CP IN &&&& UNITS
+           #CP AT #### LEVEL OR ABOVE
+           Permission by special approval
+           Completion of
 
 
+       */
 
-        */
+    /*
+        Statement
+
+            Noun
+            Verb
+            Preposition
+
+
+        OR
+        OR ABOVE        
+        ADMISSION TO
+        AND
+        
+
+    */
+
+    public class Expression
+    {
+
     }
 
-    public class StatementExpression : Expression { 
-        //Unitcode | Course | Degree...
+    public class StatementExpression : Expression
+    {
+        //Unitcode | CourseRecord | Degree...
     }
 
-    public class AndExpression : Expression {
+    public class AndExpression : Expression
+    {
         //Expression AND Expression
         //Unit AND Unit
-     }
+    }
 
-    public class OrExpression : Expression { 
+    public class OrExpression : Expression
+    {
         //Expression OR Expression
         //Unit OR Unit
     }
 
-    public class AdmissionToExpression : Expression {
+    public class AdmissionToExpression : Expression
+    {
         //ADMISSION TO Expression | Statement
-     }
+    }
 
-    public class SpecialApprovalExpression : Expression {
+    public class SpecialApprovalExpression : Expression
+    {
         //Permission by special approval
-     }
+    }
 
-    public class IncludingExpression : Expression {
+    public class IncludingExpression : Expression
+    {
         //Expression INCLUDING Expression
-     }
+    }
 }

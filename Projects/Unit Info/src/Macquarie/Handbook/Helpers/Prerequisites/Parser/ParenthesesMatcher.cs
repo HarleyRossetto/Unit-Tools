@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Macquarie.Handbook.Helpers.Prerequisites
+namespace Macquarie.Handbook.Helpers.Prerequisites.Parser
 {
     public static class ParentheseMatcher
     {
@@ -63,8 +63,8 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
     }
 
     public enum ParentheseType
-        {
-            Open,
-            Close
-        }
+    {
+        Open,
+        Close
+    }
 }

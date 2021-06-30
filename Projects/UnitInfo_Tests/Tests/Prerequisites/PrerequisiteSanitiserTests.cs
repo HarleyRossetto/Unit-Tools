@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using Macquarie.Handbook.Helpers.Prerequisites;
+using Macquarie.Handbook.Helpers.Prerequisites.Sanitisers;
 
 namespace UnitTools_Tests
 {

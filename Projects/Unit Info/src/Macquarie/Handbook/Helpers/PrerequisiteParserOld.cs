@@ -87,7 +87,7 @@ namespace Macquarie.Handbook.Helpers
             //Dictionary to hold our connector types
             var connectorDictionary = ParseGroupsForStructures(parentheseGroups);
 
-            //GUID regex , Dictionary<string, Tuple<Connector, ParentheseGroup>> connectorDictionary
+            //ID regex , Dictionary<string, Tuple<Connector, ParentheseGroup>> connectorDictionary
             Regex guidRegex = new Regex(@"([0-9a-f]){8}(-([0-9a-f]{4})){3}-([0-9a-f]{12})");
 
             //Run through all the connectors.

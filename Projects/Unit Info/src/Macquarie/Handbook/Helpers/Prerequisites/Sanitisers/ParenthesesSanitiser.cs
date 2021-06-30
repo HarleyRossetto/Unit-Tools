@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace Macquarie.Handbook.Helpers.Prerequisites
+namespace Macquarie.Handbook.Helpers.Prerequisites.Sanitisers
 {
     public static class ParenthesesSanitiser
     {

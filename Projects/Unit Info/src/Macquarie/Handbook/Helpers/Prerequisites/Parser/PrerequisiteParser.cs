@@ -2,20 +2,28 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Macquarie.Handbook.Helpers.Prerequisites
+using Macquarie.Handbook.Helpers.Prerequisites.Sanitisers;
+
+namespace Macquarie.Handbook.Helpers.Prerequisites.Parser
 {
     public static class PrerequisiteParser
     {
         public static void Parse(string prerequisite) {
-            var sanitisedPrerequisiteString = SanitisePrerequisiteString(prerequisite);
+            var sanitisedPrerequisiteString = SanitiseString(prerequisite);
 
+            //Breaks down the string into matching parenthese pairings
+            //Assigns a ID ({0} up) to each split.
             var prereqDictionary = CreatePrerequisiteDictionary(sanitisedPrerequisiteString);
+
+            //Give us the first element, from theere we can navigate through the children and back to the parent as needed
+            //when further parsing the structure.
             var rootElement = GetRootElement(prereqDictionary);
 
-            System.Console.WriteLine("test");
+            Console.WriteLine(rootElement.ToString());
+            
         }
 
-        private static string SanitisePrerequisiteString(string prerequisite) {
+        private static string SanitiseString(string prerequisite) {
             var sanitisedPrerequisiteString = PrerequisiteSanitiser.Sanitise(prerequisite);
             sanitisedPrerequisiteString = ParenthesesSanitiser.Sanitise(sanitisedPrerequisiteString);
             return sanitisedPrerequisiteString;
@@ -32,7 +40,9 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
 
                 var parent = FindParentElement(element, elements);
                 if (parent is not null && parent != element) {
-                    element.ParentGUID = parent.GUID;
+                    element.Parent = parent;
+                    //Add element at child of parent
+                    parent.Children.Add(element);
 
                     int index = parent.Prerequisite.IndexOf(element.Prerequisite);
                     int end = index + element.Prerequisite.Length;
@@ -67,9 +77,10 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
         /// <param name="ranges">List of ranges representing matched parenthese pairs.</param>
         /// <returns>A list of Prerequisite elements.</returns>
         private static IEnumerable<PrerequisiteElement> ExtractPrerequisiteElements(string prerequisite, IEnumerable<(Range Range, int Depth)> ranges) {
-            yield return new PrerequisiteElement(prerequisite, new Range(0, prerequisite.Length), 0);
+            int idCounter = 0;
+            yield return new PrerequisiteElement(prerequisite, new Range(0, prerequisite.Length), 0, "{" + idCounter++.ToString() + "}");
             foreach (var range in ranges) {
-                yield return new PrerequisiteElement(prerequisite.Substring(range.Range.Start.Value, range.Range.GetLength()), range.Range, range.Depth);
+                yield return new PrerequisiteElement(prerequisite.Substring(range.Range.Start.Value, range.Range.GetLength()), range.Range, range.Depth, "{" + idCounter++.ToString() + "}");
             }
         }
 
@@ -82,7 +93,7 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
 
             var dictionary = new Dictionary<string, PrerequisiteElement>();
             foreach (var pr in prereqs) {
-                dictionary.Add(pr.GUID, pr);
+                dictionary.Add(pr.ID, pr);
             }
 
             ReplaceGroupedElementsWithGuids(dictionary);
@@ -92,19 +103,56 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
 
         private static void ReplaceGroupedElementsWithGuids(Dictionary<string, PrerequisiteElement> elements) {
             foreach (var kv in elements.Reverse()) {
-                if (elements.TryGetValue(kv.Value.ParentGUID ??= "0", out PrerequisiteElement parent)) {
-                    //Remove original value\
-                    var length = kv.Value.RangeInParentString.GetLength() - 1;
-                    var temp = parent.Prerequisite.Remove(kv.Value.RangeInParentString.Start.Value, length);
-                    //Insert new value (GUID)
-                    temp = temp.Insert(kv.Value.RangeInParentString.Start.Value, kv.Key);
-                    parent.Prerequisite = temp;
+                if (kv.Value.Parent != null) {
+                    if (elements.TryGetValue(kv.Value.Parent.ID, out PrerequisiteElement parent)) {
+                        //Remove original value\
+                        var length = kv.Value.RangeInParentString.GetLength() - 1;
+                        var temp = parent.Prerequisite.Remove(kv.Value.RangeInParentString.Start.Value, length);
+                        //Insert new value (ID)
+                        temp = temp.Insert(kv.Value.RangeInParentString.Start.Value, kv.Key);
+                        parent.Prerequisite = temp;
+                    }
                 }
             }
         }
 
         public static PrerequisiteElement GetRootElement(Dictionary<string, PrerequisiteElement> dictionary) {
             return dictionary.Single(x => x.Value.Depth == 0).Value;
+        }
+
+        private delegate string KeywordParser(string lex);
+        private delegate bool CanParseKeyword(string lex);
+
+        private static readonly List<(string Keyword, CanParseKeyword CanParse, KeywordParser Parser)> keywords = new()
+        {
+            ("admission",   CanParseKeywordAdmission,       KeywordAdmissionParser),
+            ("or",          null,       null),
+            ("and",         null,       null),
+            ("permission",  null,       null),
+        };
+
+        private static string KeywordAdmissionParser(string lex) {
+            var splitLex = lex.Split(" ");
+            //Todo parse admission statements
+            return lex;
+        }
+
+        private static bool CanParseKeywordAdmission(string lex) {
+            var splitLex = lex.Split(" ");
+
+            if (splitLex.Any()) {
+                if (splitLex[0].ToLower() == "admission") {
+                    var preposition = splitLex?[1].ToLower();
+                    if (preposition != null 
+                        && preposition == "in"
+                        || preposition == "to"
+                        || preposition == "into") {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
         }
     }
 

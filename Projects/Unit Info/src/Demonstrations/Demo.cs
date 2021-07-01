@@ -63,7 +63,7 @@ namespace Unit_Info.Demonstrations
 
 
         /// <summary>
-        /// Demonstrates Course data collection and access.
+        /// Demonstrates CourseResult data collection and access.
         /// </summary>
         /// <param name="courseCode">
         /// The course code to attempt to retreive.
@@ -96,7 +96,7 @@ namespace Unit_Info.Demonstrations
 
 
         /// <summary>
-        /// Demonstrates Course request API creation, data collection and access.
+        /// Demonstrates CourseResult request API creation, data collection and access.
         /// Requests all 2021 courses..
         /// </summary>
         public static async Task GetAllCoursesAndWriteToFile() {
@@ -203,56 +203,113 @@ namespace Unit_Info.Demonstrations
         public static async Task ProcessPrereqs() {
             String[] prereqs = DeserialiseJsonObject<String[]>(await File.ReadAllTextAsync(@"C:\Users\accou\Desktop\MQ Uni Data Tools\Unit Tools\Projects\Unit Info\data\units\prerequisites\unparsed\Unique_MQEnrolmentRules.json"));
 
-            IEnumerable<String> filtered = from str in prereqs
-                                           where str.Contains("dmission")
-                                           select str;
 
-            List<String> selection = new();
-            for (int i = 0; i < filtered.Count(); i += 10) {
-                if (i < filtered.Count())
-                    selection.Add(filtered.ElementAt(i));
+            // Unique requirements containing 'admission'
+            var admissionVarientFilePath = CreateFilePath(Unit_PreRequisite_Unparsed, "MQEnrolmentRules_Admission_Varients_Selection");
+            if (!File.Exists(admissionVarientFilePath)) {
+                IEnumerable<String> filtered = from str in prereqs
+                                               where str.Contains("dmission")
+                                               select str;
+
+                List<String> selection = new();
+                for (int i = 0; i < filtered.Count(); i += 10) {
+                    if (i < filtered.Count())
+                        selection.Add(filtered.ElementAt(i));
+                }
+
+                await SerialiseObjectToJsonFile(selection, admissionVarientFilePath);
+
+                // Words following 'admission'
+                var admissionFollowingWordsFilePath = CreateFilePath(Unit_PreRequisite_Unparsed, "Keyword_Admission_FollowingWord");
+                if (!File.Exists(admissionFollowingWordsFilePath)) {
+                    HashSet<String> wordsFollowingAdmission = new();
+
+                    foreach (var str in filtered) {
+                        int idx = str.IndexOf("dmission");
+                        if (idx >= 0) {
+                            var subStr = str[(idx + 8)..];//does substring. Range operator.
+                            var split = subStr.Trim().Split(' ', 2);
+                            if (split.Length > 0) {
+                                var combined = "Admission " + split[0];
+                                wordsFollowingAdmission.Add(combined);
+                            }
+                        }
+                    }
+
+                    await SerialiseObjectToJsonFile(wordsFollowingAdmission, admissionFollowingWordsFilePath);
+                }
             }
 
-            await SerialiseObjectToJsonFile(selection, CreateFilePath(Unit_PreRequisite_Unparsed, "MQEnrolmentRules_Admission_Varients_Selection"));
+            // Words following 'and'
+            var andFollowingWordFilePath = CreateFilePath(Unit_PreRequisite_Unparsed, "Keyword_And_FollowingWord");
 
-            HashSet<String> wordsFollowingAdmission = new();
+            if (!File.Exists(andFollowingWordFilePath)) {
+                HashSet<String> wordsFollowingAnd = new();
 
-            foreach (var str in filtered) {
-                int idx = str.IndexOf("dmission");
-                if (idx >= 0) {
-                    var subStr = str[(idx + 8)..];//does substring. Range operator.
-                    var split = subStr.Trim().Split(' ', 2);
-                    if (split.Length > 0) {
-                        var combined = "Admission " + split[0];
-                        wordsFollowingAdmission.Add(combined);
+                foreach (var str in prereqs) {
+                    var split = str.Split(" and ");
+                    for (int i = 1; i < split.Length; i += 2) {
+                        wordsFollowingAnd.Add("and " + split[i].Trim().Split()?[0]);
                     }
                 }
+
+                await SerialiseObjectToJsonFile(wordsFollowingAnd, andFollowingWordFilePath);
             }
 
-            await SerialiseObjectToJsonFile(wordsFollowingAdmission, CreateFilePath(Unit_PreRequisite_Unparsed, "Keyword_Admission_FollowingWord"));
+            // Words following 'or'
+            var orFollowingWordFilePath = CreateFilePath(Unit_PreRequisite_Unparsed, "Keyword_Or_FollowingWord");
+            if (!File.Exists(orFollowingWordFilePath)) {
+                HashSet<String> wordsFollowingOr = new();
 
-            HashSet<String> wordsFollowingAnd = new();
-
-            foreach (var str in filtered) {
-                var split = str.Split(" and ");
-                for (int i = 1; i < split.Length; i += 2) {
-                    wordsFollowingAnd.Add("and " + split[i].Trim().Split()?[0]);
+                foreach (var str in prereqs) {
+                    var split = str.Split(" or ");
+                    for (int i = 1; i < split.Length; i += 2) {
+                        wordsFollowingOr.Add("or " + split[i].Trim().Split()?[0]);
+                    }
                 }
+
+                await SerialiseObjectToJsonFile(wordsFollowingOr, orFollowingWordFilePath);
             }
 
-            await SerialiseObjectToJsonFile(wordsFollowingAnd, CreateFilePath(Unit_PreRequisite_Unparsed, "Keyword_Add_FollowingWord"));
-
-            HashSet<String> wordsFollowingOr = new();
-
-            foreach (var str in filtered) {
-                var split = str.Split(" or ");
-                for (int i = 1; i < split.Length; i += 2) {
-                    wordsFollowingOr.Add("or " + split[i].Trim().Split()?[0]);
+            // Words following 'including'
+            var includingFollowingWordFilePath = CreateFilePath(Unit_PreRequisite_Unparsed, "Keyword_Including_FollowingWord");
+            if (!File.Exists(includingFollowingWordFilePath)) {
+                HashSet<String> wordsFollowingIncluding = new();
+                foreach (var str in prereqs) {
+                    var split = str.Split("including");
+                    for (int i = 1; i < split.Length; i += 2) {
+                        wordsFollowingIncluding.Add("including " + split[i].Trim().Split()?[0]);
+                    }
                 }
+
+                await SerialiseObjectToJsonFile(wordsFollowingIncluding, includingFollowingWordFilePath);
             }
 
-            await SerialiseObjectToJsonFile(wordsFollowingOr, CreateFilePath(Unit_PreRequisite_Unparsed, "Keyword_Or_FollowingWord"));
+             // Requirements containing 'corequisite'
+            var includingCorequisiteFilePath = CreateFilePath(Unit_PreRequisite_Unparsed, "Keyword_Corequisite_Unique");
+            if (!File.Exists(includingCorequisiteFilePath)) {
+                HashSet<String> includingCorequisite  = new();
+                foreach (var str in prereqs) {
+                    if (str.Contains("corequisite")) {
+                        includingCorequisite.Add(str);
+                    }
+                }
 
+                await SerialiseObjectToJsonFile(includingCorequisite, includingCorequisiteFilePath);
+            }
+
+             // Requirements containing 'completion'
+            var includingCompletionFilePath = CreateFilePath(Unit_PreRequisite_Unparsed, "Keyword_Completion_Unique");
+            if (!File.Exists(includingCompletionFilePath)) {
+                HashSet<String> includingCompletion  = new();
+                foreach (var str in prereqs) {
+                    if (str.Contains("completion", StringComparison.OrdinalIgnoreCase)) {
+                        includingCompletion.Add(str);
+                    }
+                }
+
+                await SerialiseObjectToJsonFile(includingCompletion, includingCompletionFilePath);
+            }
         }
 
         public static async Task SaveListOfUnitCodesAndTitles() {

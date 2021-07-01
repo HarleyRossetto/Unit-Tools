@@ -63,7 +63,7 @@ namespace Unit_Info.Demonstrations
 
 
         /// <summary>
-        /// Demonstrates CourseResult data collection and access.
+        /// Demonstrates Course  data collection and access.
         /// </summary>
         /// <param name="courseCode">
         /// The course code to attempt to retreive.
@@ -96,7 +96,7 @@ namespace Unit_Info.Demonstrations
 
 
         /// <summary>
-        /// Demonstrates CourseResult request API creation, data collection and access.
+        /// Demonstrates Course request API creation, data collection and access.
         /// Requests all 2021 courses..
         /// </summary>
         public static async Task GetAllCoursesAndWriteToFile() {

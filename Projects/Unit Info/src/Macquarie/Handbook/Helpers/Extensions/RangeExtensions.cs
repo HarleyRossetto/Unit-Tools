@@ -1,6 +1,6 @@
 using System;
 
-namespace Macquarie.Handbook.Helpers {
+namespace Macquarie.Handbook.Helpers.Extensions {
     public static class RangeExtensions {
         public static (int start, int length) GetRangeStartAndLength(this Range range) {
             return (range.Start.Value, range.End.Value - range.Start.Value + 1);

@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
+using Macquarie.Handbook.Helpers.Extensions;
+
 namespace Macquarie.Handbook.Helpers.Prerequisites
 {
     [DebuggerDisplay("{ID} {Prerequisite}")]
@@ -28,7 +30,7 @@ namespace Macquarie.Handbook.Helpers.Prerequisites
             if (other.Depth != this.Depth - 1)
                 return false;
 
-            return this.RangeInOriginalString.IsInRange(other.RangeInOriginalString);
+            return RangeInOriginalString.IsInRange(other.RangeInOriginalString);
         }
 
         public override string ToString() => Prerequisite;

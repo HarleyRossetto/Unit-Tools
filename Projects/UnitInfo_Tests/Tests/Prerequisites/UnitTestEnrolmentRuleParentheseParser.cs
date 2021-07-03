@@ -2,7 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using System;
 
-using Macquarie.Handbook.Helpers;
+using Macquarie.Handbook.Helpers.Extensions;
 
 namespace UnitTools_Tests
 {

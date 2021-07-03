@@ -3,9 +3,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
+
 using Macquarie.Handbook.Data.Unit.Prerequisites;
+using Macquarie.Handbook.Helpers.Extensions;
+
 
 namespace Macquarie.Handbook.Helpers
 {

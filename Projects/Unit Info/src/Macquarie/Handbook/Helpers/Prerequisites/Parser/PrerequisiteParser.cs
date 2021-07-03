@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Macquarie.Handbook.Helpers.Prerequisites.Sanitisers;
+using Macquarie.Handbook.Helpers.Extensions;
 
 namespace Macquarie.Handbook.Helpers.Prerequisites.Parser
 {

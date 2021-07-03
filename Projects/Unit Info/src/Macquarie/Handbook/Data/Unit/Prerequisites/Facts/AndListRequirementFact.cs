@@ -4,7 +4,7 @@ using Macquarie.Handbook.Data.Unit.Prerequisites;
 
 namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
 {
-    public class ListAndRequirementFact : ListRequirementFact
+    public class AndListRequirementFact : ListRequirementFact
     {
         public override bool RequirementMet(ITranscriptFactProvider resultsProvider) {
              return Facts.All((fact) =>
@@ -12,5 +12,7 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
                 return fact.RequirementMet(resultsProvider);
             });
         }
+
+        public override string ToString() => GetFactListAsString("and");
     }
 }

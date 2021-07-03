@@ -1,9 +1,8 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-using Macquarie.Handbook.Data.Unit.Prerequisites.Facts;
 using System;
-using Macquarie.Handbook.Data.Transcript.Facts;
 using Macquarie.Handbook.Data.Transcript;
+using Macquarie.Handbook.Data.Transcript.Facts;
+using Macquarie.Handbook.Data.Unit.Prerequisites.Facts;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitInfo_Tests.Tests
 {
@@ -68,6 +67,39 @@ namespace UnitInfo_Tests.Tests
             Assert.AreEqual("D", GradeConverter.ConvertToShortString(EnumGrade.Distinction));
             Assert.AreEqual("HD", GradeConverter.ConvertToShortString(EnumGrade.HighDistinction));
             Assert.ThrowsException<ArgumentOutOfRangeException>(() => GradeConverter.ConvertToShortString((EnumGrade)2));
+        }
+
+        [TestMethod]
+        public void ComplexRequirementChainTest() {
+            var statReqFacts = new OrListRequirementFact()
+            {
+                Facts = new() {
+                    new UnitRequirementFact(new UnitFact("STAT171", EnumGrade.Pass)),
+                    new UnitRequirementFact(new UnitFact("SAT1371", EnumGrade.Pass)),
+                }
+            };
+
+            var mathReqFacts = new OrListRequirementFact()
+            {
+                Facts = new()
+                {
+                    new UnitRequirementFact(new("MATH1020", EnumGrade.Pass)),
+                    new UnitRequirementFact(new("MATH1025", EnumGrade.Pass)),
+                    new UnitRequirementFact(new("MATH133", EnumGrade.Pass)),
+                    new UnitRequirementFact(new("MATH135", EnumGrade.Pass)),
+                }
+            };
+
+            var topOrList = new OrListRequirementFact()
+            {
+                Facts = new()
+                {
+                    statReqFacts,
+                    mathReqFacts
+                }
+            };
+
+            Console.WriteLine(topOrList.ToString());
         }
 
     }

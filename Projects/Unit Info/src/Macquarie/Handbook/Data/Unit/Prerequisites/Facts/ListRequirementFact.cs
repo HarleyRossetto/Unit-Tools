@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Text;
 using Macquarie.Handbook.Data.Transcript.Facts;
 
 namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
@@ -7,5 +8,18 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
     {
         public List<IRequirementFact> Facts { get; set; }
         public abstract bool RequirementMet(ITranscriptFactProvider resultsProvider);
+
+        public abstract override string ToString();
+
+        protected string GetFactListAsString(string seperator) {
+            StringBuilder sb = new("(");
+            for (int i = 0; i < Facts.Count; i++) {
+                sb.Append(Facts[i].ToString());
+                if (i < Facts.Count - 1)
+                    sb.Append($" {seperator} ");
+            }
+            sb.Append(')');
+            return sb.ToString();
+        }
     }
 }

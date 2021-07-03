@@ -1,4 +1,5 @@
 using System.Linq;
+using System.Text;
 using Macquarie.Handbook.Data.Transcript.Facts;
 
 namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
@@ -11,5 +12,7 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
                return fact.RequirementMet(resultsProvider);
            });
         }
+
+        public override string ToString() => GetFactListAsString("or");
     }
 }

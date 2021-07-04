@@ -201,7 +201,14 @@ namespace Unit_Info.Demonstrations
         }
 
         public static async Task ProcessPrereqs() {
-            String[] prereqs = DeserialiseJsonObject<String[]>(await File.ReadAllTextAsync(@"C:\Users\accou\Desktop\MQ Uni Data Tools\Unit Tools\Projects\Unit Info\data\units\prerequisites\unparsed\Unique_MQEnrolmentRules.json"));
+            string filePathUniqueEnrolmentRules = Environment.OSVersion.Platform switch
+            {
+                PlatformID.Unix => "",
+                PlatformID.Win32NT => "Projects\\Unit Info\\data\\units\\prerequisites\\unparsed\\Unique_MQEnrolmentRules.json",
+                _ => throw new InvalidProgramException("Only Linux and Windows are supported by function.")
+            };
+
+            string[] prereqs = DeserialiseJsonObject<string[]>(await File.ReadAllTextAsync(filePathUniqueEnrolmentRules));
 
 
             // Unique requirements containing 'admission'

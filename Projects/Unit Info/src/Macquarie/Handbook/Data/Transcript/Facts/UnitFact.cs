@@ -1,4 +1,5 @@
 using System;
+using Macquarie.Handbook.Data.Unit.Transcript.Facts;
 using Macquarie.Handbook.Helpers.Extensions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -12,6 +13,19 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
             init => _unitCode = value.ToUpper();
         }
 
+        private EnumStudyLevel _studyLevel;
+        public EnumStudyLevel StudyLevel {
+            get => _studyLevel;
+            init {
+                if ((int)value >= 0 && (int)value <= 7 && (int)value != 5) {
+                    _studyLevel = value;
+                } else {
+                    throw new ArgumentOutOfRangeException($"Study Level value {value} is invalid.");
+                }
+            }
+        }
+
+
         private int _marks;
         public int Marks {
             get => _marks;
@@ -21,16 +35,18 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
 
         public EnumGrade Grade { get; init; }
 
-        public UnitFact(string unitCode, int marks) {
+        public UnitFact(string unitCode, int marks, EnumStudyLevel studyLevel = EnumStudyLevel.NoLevel) {
             UnitCode = unitCode;
             Marks = marks;
             Grade = GradeConverter.ConvertFromMark(marks);
+            StudyLevel = studyLevel;
         }
 
-        public UnitFact(string unitCode, EnumGrade grade) {
+        public UnitFact(string unitCode, EnumGrade grade, EnumStudyLevel studyLevel = EnumStudyLevel.NoLevel) {
             UnitCode = unitCode;
             Grade = grade;
             Marks = GradeConverter.ConvertToMark(grade);
+            StudyLevel = studyLevel;
         }
 
         public override bool Equals(object obj) {

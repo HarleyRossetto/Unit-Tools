@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Macquarie.Handbook.Data.Transcript.Facts
 {
     //Marker interface
@@ -7,7 +9,7 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
     }
 
     
-    public interface ITranscriptFactProvider {
+    public interface ITranscriptFactProvider : IEnumerable<ITranscriptFact> {
         public bool GetFact(string key, out ITranscriptFact result);
     }
 }

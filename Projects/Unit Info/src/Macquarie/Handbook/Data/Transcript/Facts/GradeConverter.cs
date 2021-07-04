@@ -1,5 +1,4 @@
 using System;
-using Macquarie.Handbook.Helpers.Extensions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Macquarie.Handbook.Data.Transcript.Facts

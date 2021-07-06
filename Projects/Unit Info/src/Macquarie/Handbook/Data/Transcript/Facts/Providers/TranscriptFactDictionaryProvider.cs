@@ -1,27 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
+using Macquarie.Handbook.Data.Shared;
 using Macquarie.Handbook.Data.Transcript.Facts;
 
 namespace Macquarie.Handbook.Data.Unit.Transcript.Facts.Providers
 {
     public class TranscriptFactDictionaryProvider : ITranscriptFactProvider
     {
-        public Dictionary<string, ITranscriptFact> RequirementFacts { get; set; }
+        public Dictionary<string, ITranscriptFact> transcriptFacts;
+
+        public TranscriptFactDictionaryProvider(Dictionary<string, ITranscriptFact> dictionary) {
+            transcriptFacts = dictionary;
+        }
 
         public IEnumerator<ITranscriptFact> GetEnumerator() {
-            return RequirementFacts.Values.GetEnumerator();
+            return transcriptFacts.Values.GetEnumerator();
         }
 
         public bool GetFact(string key, out ITranscriptFact result) {
             result = null;
 
-            if (RequirementFacts is null) return false;
+            if (transcriptFacts is null) return false;
 
-            return RequirementFacts.TryGetValue(key, out result);
+            return transcriptFacts.TryGetValue(key, out result);
         }
 
         IEnumerator IEnumerable.GetEnumerator() {
-            return ((IEnumerable)RequirementFacts.Values).GetEnumerator();
+            return ((IEnumerable)transcriptFacts.Values).GetEnumerator();
         }
     }
 }

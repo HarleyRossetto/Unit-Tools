@@ -10,18 +10,18 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
     {
         public CreditPoint CreditPoints { get; init; }
 
-        public StudyLevelRequirement StudyLevelRequirement { get; init; }
+        public StudyLevelDescriptor StudyLevelRequirement { get; init; }
 
         public IRequirementFact IncludingFacts { get; init; } = null;
 
-        public CreditPointRequirementFact(StudyLevelRequirement studyLevelRequirement) {
+        public CreditPointRequirementFact(StudyLevelDescriptor studyLevelRequirement) {
             StudyLevelRequirement = studyLevelRequirement;
         }
 
         public bool RequirementMet(ITranscriptFactProvider resultsProvider) {
             // Determine which comparison function we are going to use to decide if a passed unit fulfils the 
             // requirment. 
-            StudyLevelRequirement.StudyLevelComparison comparisonFunc = StudyLevelRequirement.OrAbove ? StudyLevelRequirement.StudyLevelEqualOrGreaterComparison : StudyLevelRequirement.StudyLevelEqualComparison;
+            StudyLevelDescriptor.StudyLevelComparison comparisonFunc = StudyLevelRequirement.OrAbove ? StudyLevelRequirement.StudyLevelEqualOrGreaterComparison : StudyLevelRequirement.StudyLevelEqualComparison;
             // Get a list of all non-null, UnitFact instances then count all UnitFacts
             // which meet the comparison function and exceed the a PASS grade.
             // Might need to include way of considering specific grades on units, i.e. COMP1000 (D)
@@ -30,12 +30,11 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
             // Need to verify ABCD units rules, seperate rule object?
             var creditPointAttained = (from fact in resultsProvider
                                        where fact is not null && fact is UnitFact
-                                       select fact).Count(f =>
-                                       {
+                                       select fact).Count(f => {
                                            var fact = f as UnitFact;
 
-                                            // Study level is 'No Level' or #000 level.
-                                            // Check if study level matches exactly, or matches or is greater than.
+                                           // Study level is 'No Level' or #000 level.
+                                           // Check if study level matches exactly, or matches or is greater than.
                                            if (comparisonFunc(fact.StudyLevel)) {
 
                                                // Ensure subject is at least pass.
@@ -44,29 +43,30 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
 
                                            return false;
                                        });
-#region V1 Code
+            #region V1 Code
             // creditPointAttained = resultsProvider.Count((ITranscriptFact f) =>
             // {
             //     if (f is not null && f is UnitFact) {
             //         var fact = f as UnitFact;
 
-            //         StudyLevelRequirement.StudyLevelComparison comparisonFunc = StudyLevelRequirement.OrAbove ? StudyLevelRequirement.StudyLevelEqualOrGreaterComparison : StudyLevelRequirement.StudyLevelEqualComparison;
+            //         StudyLevelCreditPointRequirementFactDecorator.StudyLevelComparison comparisonFunc = StudyLevelCreditPointRequirementFactDecorator.OrAbove ? StudyLevelCreditPointRequirementFactDecorator.StudyLevelEqualOrGreaterComparison : StudyLevelCreditPointRequirementFactDecorator.StudyLevelEqualComparison;
 
-            //         if (comparisonFunc(fact.StudyLevel)) {
+            //         if (comparisonFunc(fact.StudyLevelDescriptor)) {
             //             return fact.Grade >= EnumGrade.Pass;
             //         }
 
             //     }
             //     return false;
             // });
-#endregion
+            #endregion
 
             return creditPointAttained >= CreditPoints.Value;
         }
     }
 
-    public class StudyLevelRequirement
+    public class StudyLevelDescriptor
     {
+
         private EnumStudyLevel _studyLevel;
         public EnumStudyLevel StudyLevel {
             get => _studyLevel;
@@ -81,7 +81,7 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
 
         public bool OrAbove { get; init; }
 
-        public StudyLevelRequirement(EnumStudyLevel studyLevel, bool orAbove = false) {
+        public StudyLevelDescriptor(EnumStudyLevel studyLevel, bool orAbove = false) {
             StudyLevel = studyLevel;
             OrAbove = orAbove;
         }

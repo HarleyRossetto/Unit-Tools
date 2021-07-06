@@ -1,7 +1,9 @@
 using System;
+using System.Collections.Generic;
 using Macquarie.Handbook.Data.Transcript;
 using Macquarie.Handbook.Data.Transcript.Facts;
 using Macquarie.Handbook.Data.Unit.Prerequisites.Facts;
+using Macquarie.Handbook.Data.Unit.Transcript.Facts.Providers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitInfo_Tests.Tests
@@ -73,7 +75,8 @@ namespace UnitInfo_Tests.Tests
         public void ComplexRequirementChainTest() {
             var statReqFacts = new OrListRequirementFact()
             {
-                Facts = new() {
+                Facts = new()
+                {
                     new UnitRequirementFact(new UnitFact("STAT171", EnumGrade.Pass)),
                     new UnitRequirementFact(new UnitFact("SAT1371", EnumGrade.Pass)),
                 }
@@ -100,6 +103,50 @@ namespace UnitInfo_Tests.Tests
             };
 
             Console.WriteLine(topOrList.ToString());
+        }
+
+        [TestMethod]
+        public void RequirementMet_UnitTest() {
+            // Transcript Facts
+            UnitFact comp1000 = new("COMP1000", 95);
+            UnitFact comp1350 = new("COMP1350", 84);
+
+            Dictionary<string, ITranscriptFact> transcript = new()
+            {
+                { comp1000.UnitCode, comp1000 },
+                { comp1350.UnitCode, comp1350 }
+            };
+
+            ITranscriptFactProvider transcriptProvider = new TranscriptFactDictionaryProvider(transcript);
+
+
+            // COMP2250 requirements
+            var programmingOr = new OrListRequirementFact()
+            {
+                Facts = new()
+                {
+                    new UnitRequirementFact(new("COMP1000", 50)),
+                    new UnitRequirementFact(new("COMP115", 50)),
+                }
+            };
+            var databaseOr = new OrListRequirementFact()
+            {
+                Facts = new()
+                {
+                    new UnitRequirementFact(new("COMP1350", 50)),
+                    new UnitRequirementFact(new("ISYS114", 50))
+                }
+            };
+            var parentOr = new OrListRequirementFact()
+            {
+                Facts = new()
+                {
+                    programmingOr,
+                    databaseOr
+                }
+            };
+
+            Assert.IsTrue(parentOr.RequirementMet(transcriptProvider));
         }
 
     }

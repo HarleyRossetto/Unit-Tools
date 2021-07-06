@@ -7,6 +7,9 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
     public class AndListRequirementFact : ListRequirementFact
     {
         public override bool RequirementMet(ITranscriptFactProvider resultsProvider) {
+            // If the underlying list contains no facts then we consider our requirements inherently met.
+            if (!ContainsFacts()) return true;
+
              return Facts.All((fact) =>
             {
                 return fact.RequirementMet(resultsProvider);

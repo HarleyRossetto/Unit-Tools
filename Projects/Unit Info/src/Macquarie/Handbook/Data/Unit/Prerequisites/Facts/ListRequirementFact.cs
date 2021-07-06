@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Macquarie.Handbook.Data.Transcript.Facts;
 
@@ -10,6 +12,10 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
         public abstract bool RequirementMet(ITranscriptFactProvider resultsProvider);
 
         public abstract override string ToString();
+
+        protected bool ContainsFacts() {
+            return Facts.Any();
+        }
 
         protected string GetFactListAsString(string seperator) {
             StringBuilder sb = new("(");

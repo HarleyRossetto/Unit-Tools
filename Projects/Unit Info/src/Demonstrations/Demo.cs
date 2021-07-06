@@ -1,19 +1,17 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-
 using Macquarie.Handbook;
 using Macquarie.Handbook.Data;
 using Macquarie.Handbook.Data.Shared;
 using Macquarie.Handbook.WebApi;
-using static Macquarie.JSON.JsonSerialisationHelper;
-
 using Unit_Info.Helpers;
+using static Macquarie.JSON.JsonSerialisationHelper;
 using static Unit_Info.Helpers.LocalDataDirectoryHelper;
 using static Unit_Info.Helpers.LocalDirectories;
-using System.IO;
 
 namespace Unit_Info.Demonstrations
 {
@@ -201,14 +199,16 @@ namespace Unit_Info.Demonstrations
         }
 
         public static async Task ProcessPrereqs() {
-            string filePathUniqueEnrolmentRules = Environment.OSVersion.Platform switch
-            {
-                PlatformID.Unix => "",
-                PlatformID.Win32NT => "Projects\\Unit Info\\data\\units\\prerequisites\\unparsed\\Unique_MQEnrolmentRules.json",
-                _ => throw new InvalidProgramException("Only Linux and Windows are supported by function.")
-            };
+            // string filePathUniqueEnrolmentRules = Environment.OSVersion.Platform switch
+            // {
+            //     PlatformID.Unix => $"/home/harley/Documents/Repos/MQUni/Unit-Tools/Projects/Unit Info/data/units/prerequisites/unparsed/Unique_MQEnrolmentRules.json",
+            //     PlatformID.Win32NT => "Projects\\Unit Info\\data\\units\\prerequisites\\unparsed\\Unique_MQEnrolmentRules.json",
+            //     _ => throw new InvalidProgramException("Only Linux and Windows are supported by function.")
+            // };
 
-            string[] prereqs = DeserialiseJsonObject<string[]>(await File.ReadAllTextAsync(filePathUniqueEnrolmentRules));
+            string dataPath = $"{Environment.CurrentDirectory}\\{CreateFilePath(Unit_PreRequisite_Unparsed, "Unique_MQEnrolmentRules.json")}";
+
+            string[] prereqs = DeserialiseJsonObject<string[]>(await File.ReadAllTextAsync(dataPath));
 
 
             // Unique requirements containing 'admission'

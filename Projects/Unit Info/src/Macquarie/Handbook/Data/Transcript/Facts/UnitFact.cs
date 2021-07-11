@@ -1,4 +1,5 @@
 using System;
+using System.Text.RegularExpressions;
 using Macquarie.Handbook.Data.Unit.Transcript.Facts;
 using Macquarie.Handbook.Helpers.Extensions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -7,10 +8,23 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
 {
     public class UnitFact : ITranscriptFact
     {
+        private static readonly Regex subjectCodeRegex = new("([A-Z]){3,4}");
+
         private string _unitCode;
         public string UnitCode {
             get => _unitCode;
-            init => _unitCode = value.ToUpper();
+            init {
+                _unitCode = value.ToUpper();
+
+                // Extracts the first string component out of the UnitCode
+                var match = subjectCodeRegex.Match(UnitCode);
+                _subjectCodeHeader = (match.Success) ? match.ToString() : string.Empty;
+            }
+        }
+
+        private string _subjectCodeHeader;
+        public string SubjectCodeHeader {
+            get => _subjectCodeHeader;
         }
 
         private EnumStudyLevel _studyLevel;
@@ -24,7 +38,6 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
                 }
             }
         }
-
 
         private int _marks;
         public int Marks {

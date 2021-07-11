@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Macquarie.Handbook.Data.Transcript;
 using Macquarie.Handbook.Data.Transcript.Facts;
+using Macquarie.Handbook.Data.Transcript.Facts.Providers;
 using Macquarie.Handbook.Data.Unit.Prerequisites.Facts;
 using Macquarie.Handbook.Data.Unit.Transcript.Facts;
 using Macquarie.Handbook.Data.Unit.Transcript.Facts.Providers;
@@ -213,9 +214,9 @@ namespace UnitInfo_Tests.Tests
 
         [TestMethod]
         public void CreditPointRequirementStringTest() {
-            var fact = new CreditPointRequirementFact(new(40), new StudyLevelDescriptor(Macquarie.Handbook.Data.Unit.Transcript.Facts.EnumStudyLevel.Level3000, true));
+            var transcriptFacts = new CreditPointRequirementFact(new(40), new StudyLevelDescriptor(Macquarie.Handbook.Data.Unit.Transcript.Facts.EnumStudyLevel.Level3000, true));
             string expected = "40cp at 3000 level or above";
-            Assert.AreEqual(expected, fact.ToString());
+            Assert.AreEqual(expected, transcriptFacts.ToString());
 
             var comp1010Req = new OrListRequirementFact()
             {
@@ -225,13 +226,84 @@ namespace UnitInfo_Tests.Tests
                     new UnitRequirementFact(new("COMP125", 50))
                 }
             };
-            fact = new CreditPointRequirementFact(new(60), new(EnumStudyLevel.Level1000, true))
+            transcriptFacts = new CreditPointRequirementFact(new(60), new(EnumStudyLevel.Level1000, true))
             {
                 IncludingFact = comp1010Req,
             };
 
             expected = "60cp at 1000 level or above including (COMP1010 (P) or COMP125 (P))";
-            Assert.AreEqual(expected, fact.ToString());
+            Assert.AreEqual(expected, transcriptFacts.ToString());
+        }
+
+        [TestMethod]
+        public void CreditPointRequirementUnitGroupTest() {
+            var requirementFact = new CreditPointRequirementFact(new(10), new StudyLevelDescriptor(EnumStudyLevel.Level2000, false), new UnitGroupRequirementFact("LING"));
+            string expected = "10cp in LING units at 2000 level";
+
+            var randomLingUnit = new UnitFact("LING2000", 60, EnumStudyLevel.Level2000);
+            var randomLingUnitTwo = new UnitFact("LING2010", 76, EnumStudyLevel.Level2000);
+            var transcript = new Dictionary<string, ITranscriptFact>() {
+                {randomLingUnit.UnitCode, randomLingUnit},
+                {randomLingUnitTwo.UnitCode, randomLingUnitTwo}
+            };
+
+            Assert.AreEqual(expected, requirementFact.ToString());
+
+            Assert.IsTrue(requirementFact.RequirementMet(new TranscriptFactDictionaryProvider(transcript)));
+
+
+            var unitGroupRequirement = new OrListRequirementFact()
+            {
+                Facts = new()
+                {
+                    new UnitGroupRequirementFact("LING"),
+                    new UnitGroupRequirementFact("COMP")
+                }
+            };
+            requirementFact = new CreditPointRequirementFact(new(20), new StudyLevelDescriptor(EnumStudyLevel.Level2000, false), unitGroupRequirement);
+            expected = "20cp in (LING or COMP) units at 2000 level";
+
+            Assert.AreEqual(expected, requirementFact.ToString());
+
+            Assert.IsTrue(requirementFact.RequirementMet(new TranscriptFactDictionaryProvider(transcript)));
+
+            Assert.IsFalse(requirementFact.RequirementMet(null));
+
+            transcript = new Dictionary<string, ITranscriptFact>() {
+                {randomLingUnit.UnitCode, randomLingUnit}
+            };
+
+            Assert.IsFalse(requirementFact.RequirementMet(new TranscriptFactDictionaryProvider(transcript)));
+
+            transcript = new Dictionary<string, ITranscriptFact>() {
+                {"COMP1010", null}
+            };
+
+            Assert.IsFalse(requirementFact.RequirementMet(new TranscriptFactDictionaryProvider(transcript)));
+        }
+
+        [TestMethod]
+        public void CreditPointRequirement_ComplexTest() {
+            string expected = "50cp at 2000 level or above including 10cp in LING units at 2000 level";
+
+            var includingReq = new CreditPointRequirementFact(new(10), new StudyLevelDescriptor(EnumStudyLevel.Level2000, false), new UnitGroupRequirementFact("LING"));
+            var requirement = new CreditPointRequirementFact(new(50), new StudyLevelDescriptor(EnumStudyLevel.Level2000, true))
+            {
+                IncludingFact = includingReq
+            };
+
+            Assert.AreEqual(expected, requirement.ToString());
+
+            var transcript = new Dictionary<string, ITranscriptFact>() {
+                {"LING2010", new UnitFact("LING2010", 51, EnumStudyLevel.Level2000)},
+                {"LING2000", new UnitFact("LING2000", 50, EnumStudyLevel.Level2000)},
+                {"MATH3000", new UnitFact("MATH3000", 53, EnumStudyLevel.Level3000)},
+                {"COMP4050", new UnitFact("COMP4050", 50, EnumStudyLevel.Level4000)},
+                {"STAT1170", new UnitFact("STAT1170", 50, EnumStudyLevel.Level1000)},
+                {"ANAT2000", new UnitFact("ANAT2000", 50, EnumStudyLevel.Level2000)}
+            };
+
+            Assert.IsTrue(requirement.RequirementMet(new TranscriptFactDictionaryProvider(transcript)));
         }
     }
 }

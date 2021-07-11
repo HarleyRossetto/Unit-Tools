@@ -3,7 +3,9 @@ using System.Linq;
 using System.Text;
 using Macquarie.Handbook.Data.Transcript;
 using Macquarie.Handbook.Data.Transcript.Facts;
+using Macquarie.Handbook.Data.Transcript.Facts.Providers;
 using Macquarie.Handbook.Data.Unit.Transcript.Facts;
+using Unit_Info.src.Macquarie.Handbook.Data.Transcript.Facts.Providers;
 
 namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
 {
@@ -13,19 +15,47 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
 
         public CreditPoint CreditPoints { get; init; }
 
+        private IRequirementFact _unitGroupRequirement;
+        public IRequirementFact UnitGroup {
+            get => _unitGroupRequirement;
+            init {
+                //Only accept new value if it is of type UnitFact or ListRequirementFact
+                _unitGroupRequirement = value switch
+                {
+                    UnitGroupRequirementFact _ => value,
+                    ListRequirementFact _ => value,
+                    _ => null
+                };
+            }
+        }
+
         public StudyLevelDescriptor StudyLevelRequirement { get; init; } = new StudyLevelDescriptor(EnumStudyLevel.Level1000, true);
 
         public IRequirementFact IncludingFact { get; init; } = null;
 
-        public CreditPointRequirementFact(CreditPoint credits, StudyLevelDescriptor studyLevelRequirement = null) {
+        public CreditPointRequirementFact(CreditPoint credits, StudyLevelDescriptor studyLevelRequirement = null, IRequirementFact unitGroup = null) {
             CreditPoints = credits;
 
             if (studyLevelRequirement is not null)
                 StudyLevelRequirement = studyLevelRequirement;
+
+            UnitGroup = unitGroup;
         }
 
         public bool RequirementMet(ITranscriptFactProvider resultsProvider) {
-            bool creditPointRequirementMet = IsCreditPointRequirementMet(resultsProvider);
+            //TODO Consider how to handle this situation in the future.
+            if (resultsProvider is null) return false;
+
+            // Get all units which are at least a pass grade and match the study level requirements.
+            var passedUnits = GetUnitsThatMeetPassCriteria(resultsProvider);
+
+            bool creditPointRequirementMet = IsCreditPointRequirementMet(passedUnits);
+
+            if (UnitGroup is not null) {
+                passedUnits = GetUnitsWhichMeetUnitGroupRequirement(passedUnits);
+                // Determine that the credit point requirement has been met
+                creditPointRequirementMet &= IsCreditPointRequirementMet(passedUnits);
+            }
 
             if (creditPointRequirementMet) {
                 bool includingFactMet = IsIncludingFactMet(resultsProvider);
@@ -35,22 +65,18 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
             return false;
         }
 
-        private bool IsCreditPointRequirementMet(ITranscriptFactProvider resultsProvider) {
-            return TotalCreditPointsAttained(resultsProvider) >= CreditPoints.Value;
+        private IEnumerable<UnitFact> GetUnitsWhichMeetUnitGroupRequirement(IEnumerable<UnitFact> passedUnits) {
+            return (from unit in passedUnits
+                    where UnitGroup.RequirementMet(new TranscriptFactSingleUnitProvider(unit))
+                    select unit);
         }
 
-        /// <summary>
-        /// Calculates the total number of credit points that have been attained based on the 
-        /// number of units whose grade were a pass or higher.
-        /// </summary>
-        /// <param name="resultsProvider">Provider interface for accessing transcription facts</param>
-        /// <returns></returns>
-        private int TotalCreditPointsAttained(ITranscriptFactProvider resultsProvider) {
-            return (from fact in resultsProvider
-                    where fact is not null && fact is UnitFact
-                    let unit = fact as UnitFact
-                    where unit.Grade >= EnumGrade.Pass && StudyLevelRequirement.Comparator(unit.StudyLevel)
-                    select fact).Count() * CREDIT_POINT_VALUE_2020;
+        private bool IsCreditPointRequirementMet(IEnumerable<UnitFact> passedUnits) {
+            return TotalCreditPointsAttainedMeetingRequirements(passedUnits) >= CreditPoints.Value;
+        }
+
+        private static int TotalCreditPointsAttainedMeetingRequirements(IEnumerable<UnitFact> passedUnits) {
+            return passedUnits.Count() * CREDIT_POINT_VALUE_2020;
         }
 
         private bool IsIncludingFactMet(ITranscriptFactProvider resultsProvider) {
@@ -62,50 +88,20 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
             return includingFactMet;
         }
 
-        public IEnumerable<ITranscriptFact> GetAwardedTranscriptFacts(ITranscriptFactProvider resultsProvider) {
+        public IEnumerable<UnitFact> GetUnitsThatMeetPassCriteria(ITranscriptFactProvider resultsProvider) {
             return from fact in resultsProvider
                    where fact is not null && fact is UnitFact
                    let unit = fact as UnitFact
                    where unit.Grade >= EnumGrade.Pass && StudyLevelRequirement.Comparator(unit.StudyLevel)
-                   select fact;
-        }
-
-        private bool StudyLevelRequirementMet(IEnumerable<ITranscriptFact> passedUnits) {
-            // Determine which comparison function we are going to use to decide if a passed unit fulfils the 
-            // requirment. 
-            if (StudyLevelRequirement is not null) {
-                var pointsAttainedAtLevel = (from unit in passedUnits
-                                             where StudyLevelRequirement.Comparator((unit as UnitFact).StudyLevel)
-                                             select unit).Count() * CREDIT_POINT_VALUE_2020;
-
-                return pointsAttainedAtLevel >= CreditPoints.Value;
-
-            }
-            return false;
-        }
-
-        private int ValidCreditPointAttained(ITranscriptFactProvider resultsProvider) {
-
-            // Get a list of all non-null, UnitFact instances then count all UnitFacts
-            // which meet the comparison function and exceed the a PASS grade.
-            // Might need to include way of considering specific grades on units, i.e. COMP1000 (D)
-            //
-            // Check 'including' conditions
-            // Need to verify ABCD units rules, seperate rule object?
-            var creditPointAttained = (from fact in resultsProvider
-                                       where fact is not null && fact is UnitFact
-                                       select fact).Count(f => {
-                                           var fact = f as UnitFact;
-                                           // Study level is 'No Level' or #000 level.
-                                           // Check if study level matches exactly, or matches or is greater than.
-                                           // Ensure subject is at least pass.
-                                           return (fact.Grade >= EnumGrade.Pass) && StudyLevelRequirement.Comparator(fact.StudyLevel);
-                                       }) * CREDIT_POINT_VALUE_2020;
-            return creditPointAttained;
+                   select unit;
         }
 
         public override string ToString() {
             var sb = new StringBuilder().Append(CreditPoints).Append("cp");
+
+            if (UnitGroup is not null) {
+                sb.AppendFormat(" in {0} units", UnitGroup.ToString());
+            }
 
             if (StudyLevelRequirement is not null) {
                 sb.AppendFormat(" at {0} level", StudyLevelConverter.ToInt(StudyLevelRequirement.StudyLevel));

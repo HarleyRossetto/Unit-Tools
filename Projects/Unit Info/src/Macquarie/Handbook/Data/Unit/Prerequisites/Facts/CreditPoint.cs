@@ -10,5 +10,11 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
             get => _creditPointValue;
             init => _creditPointValue = value.Clamp(0, int.MaxValue); //TODO Revise maximum clamp value.
         }
+
+        public CreditPoint(int credits) => Value = credits;
+
+        public override string ToString() {
+            return Value.ToString();
+        }
     }
 }

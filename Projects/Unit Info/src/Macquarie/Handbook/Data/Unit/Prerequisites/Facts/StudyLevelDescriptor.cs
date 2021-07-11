@@ -37,7 +37,7 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
         }
 
         public bool StudyLevelEqualOrGreaterComparison(EnumStudyLevel otherRequirement) {
-            return StudyLevel >= otherRequirement;
+            return otherRequirement >= StudyLevel;
         }
     }
 }

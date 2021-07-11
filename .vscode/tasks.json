@@ -49,6 +49,12 @@
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Git diff stats",
+            "command": "git diff --stat",
+            "type": "shell",
+            "problemMatcher": [],
         }
     ]
 }

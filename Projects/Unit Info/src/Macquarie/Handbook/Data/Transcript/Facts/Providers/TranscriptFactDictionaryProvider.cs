@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
-using Macquarie.Handbook.Data.Shared;
 using Macquarie.Handbook.Data.Transcript.Facts;
+using Macquarie.Handbook.Data.Transcript.Facts.Providers;
 
 namespace Macquarie.Handbook.Data.Unit.Transcript.Facts.Providers
 {

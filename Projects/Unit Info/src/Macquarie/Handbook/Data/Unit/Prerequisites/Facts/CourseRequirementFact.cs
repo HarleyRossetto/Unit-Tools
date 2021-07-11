@@ -1,7 +1,6 @@
 using System;
-using System.Diagnostics.CodeAnalysis;
 using Macquarie.Handbook.Data.Transcript.Facts;
-
+using Macquarie.Handbook.Data.Transcript.Facts.Providers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts

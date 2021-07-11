@@ -1,5 +1,6 @@
 using System.Linq;
 using Macquarie.Handbook.Data.Transcript.Facts;
+using Macquarie.Handbook.Data.Transcript.Facts.Providers;
 using Macquarie.Handbook.Data.Unit.Prerequisites;
 
 namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts

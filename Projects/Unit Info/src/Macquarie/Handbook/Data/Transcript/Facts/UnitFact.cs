@@ -15,7 +15,6 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
         private static readonly Regex subjectLevelRegex = new(@"(?<=([A-Z]\s?))(\d{3,4})", RegexOptions.None, new TimeSpan(RegexTimeoutTicks));
         private static readonly Regex unitCodeRegex = new(@"\b([A-Z]{3,4})(\s?)([\d]{3,4})", RegexOptions.None, new TimeSpan(RegexTimeoutTicks));
 
-       
         public const uint MINIMUM_MARK = 0;
         public const uint MAXIMUM_MARK = 100;
        
@@ -70,7 +69,7 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
                     Marks = GradeConverter.ConvertToMark(Grade);
                 } else { //Assume fail
                     Marks = 0;
-                    Grade = GradeConverter.ConvertFromMark(_marks);
+                    Grade = GradeConverter.ConvertFromMark(Marks);
                 }
             }
         }

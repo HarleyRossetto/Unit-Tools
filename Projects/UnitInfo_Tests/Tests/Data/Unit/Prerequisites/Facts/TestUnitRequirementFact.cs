@@ -6,15 +6,19 @@ namespace UnitInfo_Tests.Tests.Data.Unit.Prerequisites.Facts
     [TestClass]
     public class TestUnitRequirementFact
     {
-        UnitFact unit = new("COMP1010", 78);
+        UnitFact unit = new()
+        {
+            UnitCode = "COMP1010",
+            Results = new(57, null)
+        };
 
         [TestInitialize]
         public void Initialise() {
         }
 
-        [TestMethod]
-        public void Test() {
+        // [TestMethod]
+        // public void Test() {
 
-        }
+        // }
     }
 }

@@ -5,16 +5,28 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
     public class CourseFact : ITranscriptFact
     {
         private string _courseCode = "";
+        private string _courseName = "";
 
-        public CourseFact(string courseCode) => CourseCode = courseCode;
+        public CourseFact() { }
+        public CourseFact(string courseName) => CourseName = courseName;
 
         public string CourseCode {
             get => _courseCode;
             init {
-                if (String.IsNullOrEmpty(value.Trim()))
+                if (String.IsNullOrEmpty(value))
                     throw new NullReferenceException("CourseCode cannot be null or empty.");
                 
                 _courseCode = value.ToUpper();
+            }
+        }
+
+        public string CourseName {
+            get => _courseName;
+            init {
+                if (String.IsNullOrEmpty(value))
+                    throw new NullReferenceException("CourseCode cannot be null or empty.");
+
+                _courseName = value;
             }
         }
 
@@ -26,8 +38,8 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
             return false;
         }
 
-        public override int GetHashCode() => CourseCode.GetHashCode();
+        public override int GetHashCode() => CourseName.GetHashCode();
 
-        public override string ToString() => CourseCode;
+        public override string ToString() => CourseName;
     }
 }

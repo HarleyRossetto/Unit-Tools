@@ -85,8 +85,6 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
 
         public EnumGrade Grade { get; private init; } = EnumGrade.Fail;
 
-        public UnitFact() { }
-
         private void ExtractStudyLevelFromUnitCode() {
             //Extracts the subject number string component, taking the first to assume the study level
             var match2 = subjectLevelRegex.Match(UnitCode);
@@ -99,10 +97,7 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
             _subjectCodeHeader = (match.Success) ? match.ToString() : string.Empty;
         }
 
-        //Could just use GetHashCode()...
         public override bool Equals(object obj) {
-            //return GetHashCode().Equals(obj?.GetHashCode());
-
             if (obj is not null && obj is UnitFact && obj != this) {
                 var otherFact = obj as UnitFact;
                 return (UnitCode == otherFact.UnitCode) && (otherFact.Grade >= Grade);
@@ -110,7 +105,8 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
             return false;
         }
 
-        public override int GetHashCode() => UnitCode.GetHashCode() ^ (int)Marks;
+        // Unused
+        public override int GetHashCode() => UnitCode.GetHashCode();
 
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public override string ToString() => $"{UnitCode} ({GradeConverter.ConvertToShortString(Grade)})";

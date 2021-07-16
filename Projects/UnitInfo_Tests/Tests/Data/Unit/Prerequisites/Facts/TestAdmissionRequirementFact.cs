@@ -14,7 +14,7 @@ namespace UnitInfo_Tests.Tests.Data.Unit.Prerequisites.Facts
         [TestInitialize]
         public void Initialise() {
             validFact = new CourseRequirementFact(new CourseFact("MEng"));
-            invalidFact = new UnitRequirementFact(new UnitFact("COMP1000", 50));
+            invalidFact = new UnitRequirementFact(new UnitFact(){ UnitCode = "COMP1000", Results = new(50, null)});
         }
 
         [TestMethod]

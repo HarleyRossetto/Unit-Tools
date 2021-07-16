@@ -17,35 +17,33 @@ namespace UnitInfo_Tests.Tests
         [TestMethod]
         public void UnitRequirementFactTests() {
             //Basic Fact Tests
-            IRequirementFact singleUnit = new UnitRequirementFact(new UnitFact("COMP1000", 0));
+            IRequirementFact singleUnit = new UnitRequirementFact(new UnitFact() { UnitCode = "COMP1000", Results = new(0, null) });
             string expectedString = "COMP1000 (F)";
             string result = singleUnit.ToString();
             Assert.AreEqual(expectedString, result);
 
-            singleUnit = new UnitRequirementFact(new UnitFact("COMP1000", 50));
+            singleUnit = new UnitRequirementFact(new UnitFact() { UnitCode = "COMP1000", Results = new(50, null) });
             expectedString = "COMP1000 (P)";
             Assert.AreEqual(expectedString, singleUnit.ToString());
 
-            singleUnit = new UnitRequirementFact(new UnitFact("COMP1000", 65));
+            singleUnit = new UnitRequirementFact(new UnitFact() { UnitCode = "COMP1000", Results = new(65, null) });
             expectedString = "COMP1000 (Cr)";
             Assert.AreEqual(expectedString, singleUnit.ToString());
 
-            singleUnit = new UnitRequirementFact(new("COMP1000", 75));
+            singleUnit = new UnitRequirementFact(new UnitFact() { UnitCode = "COMP1000", Results = new(75, null) });
             expectedString = "COMP1000 (D)";
             Assert.AreEqual(expectedString, singleUnit.ToString());
 
-            singleUnit = new UnitRequirementFact(new("COMP1000", EnumGrade.HighDistinction));
+            singleUnit = new UnitRequirementFact(new UnitFact() { UnitCode = "COMP1000", Results = new(null, EnumGrade.HighDistinction) });
             expectedString = "COMP1000 (HD)";
             Assert.AreEqual(expectedString, singleUnit.ToString());
 
-            Assert.ThrowsException<ArgumentOutOfRangeException>(() => new UnitRequirementFact(new UnitFact("COMP1000", (EnumGrade)2)));
-
             //Basic Unit Facts, marks out of range
-            IRequirementFact factLowMark = new UnitRequirementFact(new UnitFact("COMP1010", -10));
+            IRequirementFact factLowMark = new UnitRequirementFact(new UnitFact() { UnitCode = "COMP1010", Results = new(10, null) });
             expectedString = "COMP1010 (F)";
             Assert.AreEqual(expectedString, factLowMark.ToString());
 
-            IRequirementFact factHighMark = new UnitRequirementFact(new UnitFact("COMP1010", 201));
+            IRequirementFact factHighMark = new UnitRequirementFact(new UnitFact() { UnitCode = "COMP1010", Results = new(201, null) });
             expectedString = "COMP1010 (HD)";
             Assert.AreEqual(expectedString, factHighMark.ToString());
         }
@@ -63,15 +61,7 @@ namespace UnitInfo_Tests.Tests
             Assert.AreEqual("C000006", courseFact.ToString());
         }
 
-        [TestMethod]
-        public void GradeToStringConverterTest() {
-            Assert.AreEqual("F", GradeConverter.ConvertToShortString(EnumGrade.Fail));
-            Assert.AreEqual("P", GradeConverter.ConvertToShortString(EnumGrade.Pass));
-            Assert.AreEqual("Cr", GradeConverter.ConvertToShortString(EnumGrade.Credit));
-            Assert.AreEqual("D", GradeConverter.ConvertToShortString(EnumGrade.Distinction));
-            Assert.AreEqual("HD", GradeConverter.ConvertToShortString(EnumGrade.HighDistinction));
-            Assert.ThrowsException<ArgumentOutOfRangeException>(() => GradeConverter.ConvertToShortString((EnumGrade)2));
-        }
+        
 
         [TestMethod]
         public void ComplexRequirementChainTest() {
@@ -79,8 +69,8 @@ namespace UnitInfo_Tests.Tests
             {
                 Facts = new()
                 {
-                    new UnitRequirementFact(new UnitFact("STAT171", EnumGrade.Pass)),
-                    new UnitRequirementFact(new UnitFact("SAT1371", EnumGrade.Pass)),
+                    new UnitRequirementFact(new UnitFact() { UnitCode = "STAT171", Results = new(0, EnumGrade.Pass) }),
+                    new UnitRequirementFact(new UnitFact() { UnitCode = "STAT1371", Results = new(0, EnumGrade.Pass) }),
                 }
             };
 
@@ -88,10 +78,10 @@ namespace UnitInfo_Tests.Tests
             {
                 Facts = new()
                 {
-                    new UnitRequirementFact(new("MATH1020", EnumGrade.Pass)),
-                    new UnitRequirementFact(new("MATH1025", EnumGrade.Pass)),
-                    new UnitRequirementFact(new("MATH133", EnumGrade.Pass)),
-                    new UnitRequirementFact(new("MATH135", EnumGrade.Pass)),
+                    new UnitRequirementFact(new() { UnitCode = "MATH1020", Results = new(0, EnumGrade.Pass)}),
+                    new UnitRequirementFact(new() { UnitCode = "MATH1025", Results = new(0, EnumGrade.Pass)}),
+                    new UnitRequirementFact(new() { UnitCode = "MATH133", Results = new(0, EnumGrade.Pass)}),
+                    new UnitRequirementFact(new() { UnitCode = "MATH135", Results = new(0, EnumGrade.Pass)}),
                 }
             };
 
@@ -110,8 +100,8 @@ namespace UnitInfo_Tests.Tests
         [TestMethod]
         public void RequirementMet_UnitTest() {
             // Transcript Facts
-            UnitFact comp1000 = new("COMP1000", 95);
-            UnitFact comp1350 = new("COMP1350", 84);
+            UnitFact comp1000 = new() { UnitCode = "COMP1000", Results = new(95, null) };
+            UnitFact comp1350 = new() { UnitCode = "COMP1350", Results = new(84, null) };
 
             Dictionary<string, ITranscriptFact> transcript = new()
             {
@@ -127,16 +117,16 @@ namespace UnitInfo_Tests.Tests
             {
                 Facts = new()
                 {
-                    new UnitRequirementFact(new("COMP1000", 50)),
-                    new UnitRequirementFact(new("COMP115", 50)),
+                    new UnitRequirementFact(new() { UnitCode = "COMP1000",  Results = new(50, null) }),
+                    new UnitRequirementFact(new() { UnitCode = "COMP115",   Results = new(50, null) }),
                 }
             };
             var databaseOr = new OrListRequirementFact()
             {
                 Facts = new()
                 {
-                    new UnitRequirementFact(new("COMP1350", 50)),
-                    new UnitRequirementFact(new("ISYS114", 50))
+                    new UnitRequirementFact(new() { UnitCode = "COMP1350",  Results = new(50, null) }),
+                    new UnitRequirementFact(new() { UnitCode = "ISYS114",   Results = new(50, null) })
                 }
             };
             var parentOr = new OrListRequirementFact()
@@ -158,8 +148,8 @@ namespace UnitInfo_Tests.Tests
             {
                 Facts = new()
                 {
-                    new UnitRequirementFact(new("COMP1010", 50)),
-                    new UnitRequirementFact(new("COMP125", 50))
+                    new UnitRequirementFact(new() { UnitCode = "COMP1010", Results = new(50, null)}),
+                    new UnitRequirementFact(new() { UnitCode = "COMP125", Results = new(50, null)})
                 }
             };
             var requirement = new CreditPointRequirementFact(new(60), new(EnumStudyLevel.Level1000))
@@ -168,12 +158,12 @@ namespace UnitInfo_Tests.Tests
             };
 
             //Transcript facts
-            var comp1010 = new UnitFact("COMP1010", 51, EnumStudyLevel.Level1000);
-            var comp1000 = new UnitFact("COMP1000", 50, EnumStudyLevel.Level1000);
-            var math1000 = new UnitFact("MATH1000", 50, EnumStudyLevel.Level1000);
-            var comp1350 = new UnitFact("COMP1350", 50, EnumStudyLevel.Level1000);
-            var stat1170 = new UnitFact("STAT1170", 50, EnumStudyLevel.Level1000);
-            var anat1001 = new UnitFact("ANAT1001", 50, EnumStudyLevel.Level1000);
+            var comp1010 = new UnitFact() { UnitCode = "COMP1010", Results = new(51, null) };
+            var comp1000 = new UnitFact() { UnitCode = "COMP1000", Results = new(50, null) };
+            var math1000 = new UnitFact() { UnitCode = "MATH1000", Results = new(50, null) };
+            var comp1350 = new UnitFact() { UnitCode = "COMP1350", Results = new(50, null) };
+            var stat1170 = new UnitFact() { UnitCode = "STAT1170", Results = new(50, null) };
+            var anat1001 = new UnitFact() { UnitCode = "ANAT1001", Results = new(50, null) };
 
             var dictionary = new Dictionary<string, ITranscriptFact>()
             {
@@ -222,8 +212,8 @@ namespace UnitInfo_Tests.Tests
             {
                 Facts = new()
                 {
-                    new UnitRequirementFact(new("COMP1010", 50)),
-                    new UnitRequirementFact(new("COMP125", 50))
+                    new UnitRequirementFact(new() { UnitCode = "COMP1010", Results = new(50, null) }),
+                    new UnitRequirementFact(new() { UnitCode = "COMP125", Results = new(50, null) })
                 }
             };
             transcriptFacts = new CreditPointRequirementFact(new(60), new(EnumStudyLevel.Level1000, true))
@@ -240,8 +230,8 @@ namespace UnitInfo_Tests.Tests
             var requirementFact = new CreditPointRequirementFact(new(10), new StudyLevelDescriptor(EnumStudyLevel.Level2000, false), new UnitGroupRequirementFact("LING"));
             string expected = "10cp in LING units at 2000 level";
 
-            var randomLingUnit = new UnitFact("LING2000", 60, EnumStudyLevel.Level2000);
-            var randomLingUnitTwo = new UnitFact("LING2010", 76, EnumStudyLevel.Level2000);
+            var randomLingUnit = new UnitFact() { UnitCode = "LING2000", Results = new(60, null) };
+            var randomLingUnitTwo = new UnitFact() { UnitCode = "LING2010", Results = new(76, null) };
             var transcript = new Dictionary<string, ITranscriptFact>() {
                 {randomLingUnit.UnitCode, randomLingUnit},
                 {randomLingUnitTwo.UnitCode, randomLingUnitTwo}
@@ -295,12 +285,12 @@ namespace UnitInfo_Tests.Tests
             Assert.AreEqual(expected, requirement.ToString());
 
             var transcript = new Dictionary<string, ITranscriptFact>() {
-                {"LING2010", new UnitFact("LING2010", 51, EnumStudyLevel.Level2000)},
-                {"LING2000", new UnitFact("LING2000", 50, EnumStudyLevel.Level2000)},
-                {"MATH3000", new UnitFact("MATH3000", 53, EnumStudyLevel.Level3000)},
-                {"COMP4050", new UnitFact("COMP4050", 50, EnumStudyLevel.Level4000)},
-                {"STAT1170", new UnitFact("STAT1170", 50, EnumStudyLevel.Level1000)},
-                {"ANAT2000", new UnitFact("ANAT2000", 50, EnumStudyLevel.Level2000)}
+                {"LING2010", new UnitFact() { UnitCode = "LING2010", Results = new(51, null)}},
+                {"LING2000", new UnitFact() { UnitCode = "LING2000", Results = new(50, null)}},
+                {"MATH3000", new UnitFact() { UnitCode = "MATH3000", Results = new(53, null)}},
+                {"COMP4050", new UnitFact() { UnitCode = "COMP4050", Results = new(50, null)}},
+                {"STAT1170", new UnitFact() { UnitCode = "STAT1170", Results = new(50, null)}},
+                {"ANAT2000", new UnitFact() { UnitCode = "ANAT2000", Results = new(50, null)}},
             };
 
             Assert.IsTrue(requirement.RequirementMet(new TranscriptFactDictionaryProvider(transcript)));

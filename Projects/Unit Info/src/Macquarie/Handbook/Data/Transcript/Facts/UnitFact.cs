@@ -9,6 +9,7 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
     public class UnitFact : ITranscriptFact
     {
         private static readonly Regex subjectCodeRegex = new("([A-Z]){3,4}");
+        private static readonly Regex subjectLevelRegex = new(@"(?<=(\w))(\d{3,4})");
 
         private string _unitCode;
         public string UnitCode {
@@ -16,9 +17,9 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
             init {
                 _unitCode = value.ToUpper();
 
-                // Extracts the first string component out of the UnitCode
-                var match = subjectCodeRegex.Match(UnitCode);
-                _subjectCodeHeader = (match.Success) ? match.ToString() : string.Empty;
+                ExtractSubjectCodeHeaderFromUnitCode();
+
+                ExtractStudyLevelFromUnitCode();
             }
         }
 
@@ -48,18 +49,36 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
 
         public EnumGrade Grade { get; init; }
 
+        public UnitFact(string unitCode, int marks) {
+            UnitCode = unitCode;
+            Marks = marks;
+            Grade = GradeConverter.ConvertFromMark(Marks);
+        }
+
         public UnitFact(string unitCode, int marks, EnumStudyLevel studyLevel = EnumStudyLevel.NoLevel) {
             UnitCode = unitCode;
             Marks = marks;
-            Grade = GradeConverter.ConvertFromMark(marks);
+            Grade = GradeConverter.ConvertFromMark(Marks);
             StudyLevel = studyLevel;
         }
 
         public UnitFact(string unitCode, EnumGrade grade, EnumStudyLevel studyLevel = EnumStudyLevel.NoLevel) {
             UnitCode = unitCode;
             Grade = grade;
-            Marks = GradeConverter.ConvertToMark(grade);
+            Marks = GradeConverter.ConvertToMark(Grade);
             StudyLevel = studyLevel;
+        }
+
+          private void ExtractStudyLevelFromUnitCode() {
+            //Extracts the subject number string component, taking the first to assume the study level
+            var match2 = subjectLevelRegex.Match(UnitCode);
+            _studyLevel = (match2.Success) ? StudyLevelConverter.FromInt(Convert.ToInt32(match2.ToString()[0])) : EnumStudyLevel.NoLevel;
+        }
+
+        private void ExtractSubjectCodeHeaderFromUnitCode() {
+            // Extracts the first string component out of the UnitCode
+            var match = subjectCodeRegex.Match(UnitCode);
+            _subjectCodeHeader = (match.Success) ? match.ToString() : string.Empty;
         }
 
         public override bool Equals(object obj) {

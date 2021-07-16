@@ -13,7 +13,7 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
         public string CourseCode {
             get => _courseCode;
             init {
-                if (String.IsNullOrEmpty(value))
+                if (String.IsNullOrWhiteSpace(value))
                     throw new NullReferenceException("CourseCode cannot be null or empty.");
                 
                 _courseCode = value.ToUpper();
@@ -23,7 +23,7 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
         public string CourseName {
             get => _courseName;
             init {
-                if (String.IsNullOrEmpty(value))
+                if (String.IsNullOrWhiteSpace(value))
                     throw new NullReferenceException("CourseCode cannot be null or empty.");
 
                 _courseName = value;

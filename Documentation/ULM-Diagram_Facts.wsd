@@ -1,0 +1,102 @@
+@startuml Diagram
+
+enum Grade {
+    Fail = 0
+    Pass = 50
+    Credit = 65
+    Distinction = 75
+    HighDestinction = 85
+}
+
+class GradeToStringCoverter <<static>> {
+    + {static} Convert(grade:Grade) : string
+}
+
+
+interface ITranscriptFact {
+    + IFactAsString : string FactAsString()
+}
+
+
+class TranscriptCourseFact
+ITranscriptFact <|-- TranscriptCourseFact
+
+class TranscriptUnitFact {
+    - _unitCode : String
+    + UnitCode : String <<get>> <<init>>
+    + Marks : int <<get>> <<init>>
+    + Grade : Grade <<get>> <<init>>
+    + TranscriptUnitFact(unitCode:String, int:marks)
+    + TranscriptUnitFact(unitCode:String, grade:Grade)
+    + <<override>> Equals(obj:object) : bool
+    + <<override>> GetHasCode() : int
+    + FactAsString(args:ITranscriptFactStringArguments) : string
+}
+ITranscriptFact <|-- TranscriptUnitFact
+IFactAsString <|-- TranscriptUnitFact
+
+interface ITranscriptFactStringArguments
+enum EnumTranscriptUnitFactStringArgument {
+    NoGrade
+    WithGrade
+}
+class TranscriptUnitFactStringArguments {
+    + Argument : EnumTranscriptUnitFactStringArgument <<get>> <<init>>
+    + TranscriptUnitFactStringArguments(argument : EnumTranscriptFactStringArgument)
+}
+ITranscriptFactStringArguments <|-- TranscriptUnitFactStringArguments
+
+interface IRequirementFact {
+    + RequirementMet(results:ResultsDictionary) : bool 
+}
+
+class RequirementUnit {
+    + UnitResultRequirements : TranscriptUnitFact <<get>> <<init>>
+    + RequirementUnit(unitResultRequirements : TranscriptUnitFact)
+    + RequirementUnit(unitCode : String, grade:Grade)
+    + RequirementUnit(unitCode : String, marks:int)
+    + <<override>> FactAsString(args : ITranscriptFactStringArguments) : String
+    + <<override>> RequirementsMet(results : ResultsDictionary) : bool
+}
+IRequirementFact <|-- RequirementUnit
+IFactAsString <|-- RequirementUnit
+
+class RequirementCourse {
+    + CourseResultRequirements : TranscriptCourseFact <<get>> <<init>>
+    + <<override>> RequirementsMet(results : ResultsDictionary) : bool
+}
+IRequirementFact <|-- RequirementCourse
+
+abstract class RequirementList {
+    + Facts : List<IRequirementFact> <<get>> <<set>>
+}
+IRequirementFact <|-- RequirementList 
+
+class RequirementListAnd {
+    + <<override>> RequirementMet(results : ResultsDictionary) : bool
+}
+RequirementList <|-- RequirementListAnd 
+
+class RequirementListOr {
+    + <<override>> RequirementMet(results : ResultsDictionary) : bool
+}
+RequirementList <|-- RequirementListOr 
+
+class RequirementCoRequisite {
+    + Fact : IRequirementFact <<get>> <<set>>
+    + <<override>> RequirementMet(results : ResultsDictionary) : bool
+}
+IRequirementFact <|-- RequirementCoRequisite 
+
+class RequirementAdmission {
+    + Fact : IRequirementFact <<get>> <<set>>
+    + <<override>> RequirementMet(results : ResultsDictionary) : bool
+}
+IRequirementFact <|-- RequirementAdmission 
+
+class RequirementCompletionOf {
+    + Fact : IRequirementFact <<get>> <<set>>
+    + <<override>> RequirementMet(results : ResultsDictionary) : bool
+}
+IRequirementFact <|-- RequirementCompletionOf 
+@enduml

@@ -206,6 +206,10 @@ namespace Macquarie.Handbook.Helpers
 
         #region REGEX_STUFF
 
+        // Regex to capture all unit code variations
+        public static Regex regexUnitCode = new(@"\b([A-Z]{3,4})(\s?)([\d]{3,4})");
+
+
         //Matches 4 characters and 4 digits, beginning and ending on word boundaries.
         //i.e. COMP1000
         public static Regex regex2020UnitCode = new Regex(@"\b([A-Z]{4})(\d{4})\b");

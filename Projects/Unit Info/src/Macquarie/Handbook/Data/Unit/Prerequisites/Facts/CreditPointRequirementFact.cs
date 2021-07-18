@@ -15,25 +15,14 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
 
         public CreditPoint CreditPoints { get; init; }
 
-        private IRequirementFact _unitGroupRequirement;
-        public IRequirementFact UnitGroup {
-            get => _unitGroupRequirement;
-            init {
-                //Only accept new value if it is of type UnitFact or ListRequirementFact
-                _unitGroupRequirement = value switch
-                {
-                    UnitGroupRequirementFact _ => value,
-                    ListRequirementFact _ => value,
-                    _ => null
-                };
-            }
-        }
+        //TODO can we hide this interface through a property?
+        public ListRequirementFact<UnitGroupRequirementFact> UnitGroup { get; init; }
 
         public StudyLevelDescriptor StudyLevelRequirement { get; init; } = new StudyLevelDescriptor(EnumStudyLevel.Level1000, true);
 
         public IRequirementFact IncludingFact { get; init; } = null;
 
-        public CreditPointRequirementFact(CreditPoint credits, StudyLevelDescriptor studyLevelRequirement = null, IRequirementFact unitGroup = null) {
+        public CreditPointRequirementFact(CreditPoint credits, StudyLevelDescriptor studyLevelRequirement = null, ListRequirementFact<UnitGroupRequirementFact> unitGroup = null) {
             CreditPoints = credits;
 
             if (studyLevelRequirement is not null)
@@ -42,8 +31,13 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
             UnitGroup = unitGroup;
         }
 
+        // TODO
+        // Check this
+        // 40cp in (BCA units at 8000 level or STAT8601-STAT8652) including 20cp from (BCA804 or BCA808 or STAT8606 or STAT8609)
+
         public bool RequirementMet(ITranscriptFactProvider resultsProvider) {
             //TODO Consider how to handle this situation in the future.
+            // Don't let null provider pass this point
             if (resultsProvider is null) return false;
 
             // Get all units which are at least a pass grade and match the study level requirements.

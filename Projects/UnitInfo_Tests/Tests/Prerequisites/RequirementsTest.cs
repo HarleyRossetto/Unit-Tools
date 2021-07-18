@@ -47,25 +47,11 @@ namespace UnitInfo_Tests.Tests
             expectedString = "COMP1010 (HD)";
             Assert.AreEqual(expectedString, factHighMark.ToString());
         }
-
-        [TestMethod]
-        public void CourseFactTests() {
-            Assert.ThrowsException<NullReferenceException>(() => new CourseFact(null));
-            Assert.ThrowsException<NullReferenceException>(() => new CourseFact(""));
-            Assert.ThrowsException<NullReferenceException>(() => new CourseFact("\n\t\n      \r\n"));
-        }
-
-        [TestMethod]
-        public void CourseRequirementFactTests() {
-            IRequirementFact courseFact = new CourseRequirementFact(new("C000006"));
-            Assert.AreEqual("C000006", courseFact.ToString());
-        }
-
-        
+       
 
         [TestMethod]
         public void ComplexRequirementChainTest() {
-            var statReqFacts = new OrListRequirementFact()
+            var statReqFacts = new OrListRequirementFact<IRequirementFact>()
             {
                 Facts = new()
                 {
@@ -74,7 +60,7 @@ namespace UnitInfo_Tests.Tests
                 }
             };
 
-            var mathReqFacts = new OrListRequirementFact()
+            var mathReqFacts = new OrListRequirementFact<IRequirementFact>()
             {
                 Facts = new()
                 {
@@ -85,7 +71,7 @@ namespace UnitInfo_Tests.Tests
                 }
             };
 
-            var topOrList = new OrListRequirementFact()
+            var topOrList = new OrListRequirementFact<IRequirementFact>()
             {
                 Facts = new()
                 {
@@ -113,7 +99,7 @@ namespace UnitInfo_Tests.Tests
 
 
             // COMP2250 requirements
-            var programmingOr = new OrListRequirementFact()
+            var programmingOr = new OrListRequirementFact<IRequirementFact>()
             {
                 Facts = new()
                 {
@@ -121,7 +107,7 @@ namespace UnitInfo_Tests.Tests
                     new UnitRequirementFact(new() { UnitCode = "COMP115",   Results = new(50, null) }),
                 }
             };
-            var databaseOr = new OrListRequirementFact()
+            var databaseOr = new OrListRequirementFact<IRequirementFact>()
             {
                 Facts = new()
                 {
@@ -129,7 +115,7 @@ namespace UnitInfo_Tests.Tests
                     new UnitRequirementFact(new() { UnitCode = "ISYS114",   Results = new(50, null) })
                 }
             };
-            var parentOr = new OrListRequirementFact()
+            var parentOr = new OrListRequirementFact<IRequirementFact>()
             {
                 Facts = new()
                 {
@@ -144,7 +130,7 @@ namespace UnitInfo_Tests.Tests
         [TestMethod]
         public void RequirementMet_CreditPoints() {
             // COMP2050 requirements
-            var comp1010Req = new OrListRequirementFact()
+            var comp1010Req = new OrListRequirementFact<IRequirementFact>()
             {
                 Facts = new()
                 {
@@ -208,7 +194,7 @@ namespace UnitInfo_Tests.Tests
             string expected = "40cp at 3000 level or above";
             Assert.AreEqual(expected, transcriptFacts.ToString());
 
-            var comp1010Req = new OrListRequirementFact()
+            var comp1010Req = new OrListRequirementFact<IRequirementFact>()
             {
                 Facts = new()
                 {
@@ -227,7 +213,7 @@ namespace UnitInfo_Tests.Tests
 
         [TestMethod]
         public void CreditPointRequirementUnitGroupTest() {
-            var requirementFact = new CreditPointRequirementFact(new(10), new StudyLevelDescriptor(EnumStudyLevel.Level2000, false), new UnitGroupRequirementFact("LING"));
+            var requirementFact = new CreditPointRequirementFact(new(10), new StudyLevelDescriptor(EnumStudyLevel.Level2000, false), new OrListRequirementFact<UnitGroupRequirementFact>() { Facts = new(){ new UnitGroupRequirementFact("LING") }});
             string expected = "10cp in LING units at 2000 level";
 
             var randomLingUnit = new UnitFact() { UnitCode = "LING2000", Results = new(60, null) };
@@ -242,7 +228,7 @@ namespace UnitInfo_Tests.Tests
             Assert.IsTrue(requirementFact.RequirementMet(new TranscriptFactDictionaryProvider(transcript)));
 
 
-            var unitGroupRequirement = new OrListRequirementFact()
+            var unitGroupRequirement = new OrListRequirementFact<UnitGroupRequirementFact>()
             {
                 Facts = new()
                 {
@@ -276,7 +262,7 @@ namespace UnitInfo_Tests.Tests
         public void CreditPointRequirement_ComplexTest() {
             string expected = "50cp at 2000 level or above including 10cp in LING units at 2000 level";
 
-            var includingReq = new CreditPointRequirementFact(new(10), new StudyLevelDescriptor(EnumStudyLevel.Level2000, false), new UnitGroupRequirementFact("LING"));
+            var includingReq = new CreditPointRequirementFact(new(10), new StudyLevelDescriptor(EnumStudyLevel.Level2000, false), new OrListRequirementFact<UnitGroupRequirementFact>() { Facts = new() {new UnitGroupRequirementFact("LING")}});
             var requirement = new CreditPointRequirementFact(new(50), new StudyLevelDescriptor(EnumStudyLevel.Level2000, true))
             {
                 IncludingFact = includingReq

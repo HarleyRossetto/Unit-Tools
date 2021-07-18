@@ -8,12 +8,12 @@ namespace UnitInfo_Tests.Tests.Data.Unit.Prerequisites.Facts
     [TestClass]
     public class TestAdmissionRequirementFact
     {
-        private IRequirementFact validFact;
-        private IRequirementFact invalidFact;
+        private ICourseRequirement validFact;
+        private IUnitRequirement invalidFact;
 
         [TestInitialize]
         public void Initialise() {
-            validFact = new CourseRequirementFact(new CourseFact("MEng"));
+            validFact = new CourseRequirementFact(new CourseFact() { CourseName = "MEng"});
             invalidFact = new UnitRequirementFact(new UnitFact(){ UnitCode = "COMP1000", Results = new(50, null)});
         }
 
@@ -27,12 +27,6 @@ namespace UnitInfo_Tests.Tests.Data.Unit.Prerequisites.Facts
 
             Assert.ReferenceEquals(validFact, admissionFact.Fact);
 
-            Assert.ThrowsException<ArgumentException>(() => {
-                admissionFact = new()
-                {
-                    Fact = invalidFact
-                };
-            });
         }
 
         [TestMethod]

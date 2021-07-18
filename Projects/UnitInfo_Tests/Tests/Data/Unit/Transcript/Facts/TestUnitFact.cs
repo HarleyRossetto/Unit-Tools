@@ -1,4 +1,5 @@
 using System;
+using System.Security;
 using Macquarie.Handbook.Data.Transcript;
 using Macquarie.Handbook.Data.Transcript.Facts;
 using Macquarie.Handbook.Data.Unit.Transcript.Facts;
@@ -12,29 +13,33 @@ namespace UnitInfo_Tests.Tests.Data.Unit.Transcript.Facts
         readonly UnitFact a = new()
         {
             UnitCode = "COMP1000",
+            UnitName = "Introduction to Computer Programming",
             Results = new(57, null)
         };
 
         readonly UnitFact b = new()
         {
             UnitCode = "COMP1000",
+            UnitName = "Introduction to Computer Programming",
             Results = new(57, null)
         };
 
         readonly UnitFact c = new()
         {
             UnitCode = "COMP1000",
+            UnitName = "Introduction to Computer Programming",
             Results = new(0, EnumGrade.Fail)
         };
 
         readonly UnitFact d = new()
         {
             UnitCode = "MATH1010",
+            UnitName = "Mathematical Modelling 1A",
             Results = new(89, null)
         };
 
         /// <summary>
-        /// Establishes that UnitFact can correctly determine the SubjectCodeHeader
+        /// Establishes that UnitFact can correctly determine the UnitPrefix
         /// and Study level based off regex parsing of input UnitCode.
         /// </summary>
         [TestMethod]
@@ -46,7 +51,7 @@ namespace UnitInfo_Tests.Tests.Data.Unit.Transcript.Facts
             };
 
             Assert.AreEqual("COMP1010", validUnitFact.UnitCode);
-            Assert.AreEqual("COMP", validUnitFact.SubjectCodeHeader);
+            Assert.AreEqual("COMP", validUnitFact.UnitPrefix);
             Assert.AreEqual(EnumStudyLevel.Level1000, validUnitFact.StudyLevel);
 
             // Invalid Input Parameters
@@ -58,8 +63,13 @@ namespace UnitInfo_Tests.Tests.Data.Unit.Transcript.Facts
             };
 
             Assert.AreEqual(string.Empty, invalidUnitFact.UnitCode);
-            Assert.AreEqual(string.Empty, invalidUnitFact.SubjectCodeHeader);
+            Assert.AreEqual(string.Empty, invalidUnitFact.UnitPrefix);
             Assert.AreEqual(EnumStudyLevel.NoLevel, invalidUnitFact.StudyLevel);
+        }
+
+        [TestMethod]
+        public void TestCreationUnitNameProperty() {
+            Assert.AreEqual("Introduction to Computer Programming", a.UnitName);
         }
 
         [TestMethod]
@@ -142,6 +152,14 @@ namespace UnitInfo_Tests.Tests.Data.Unit.Transcript.Facts
         }
 
         [TestMethod]
+        public void TestGetKey() {
+            Assert.AreEqual(a.UnitCode, a.GetKey());
+            Assert.AreEqual(b.UnitCode, b.GetKey());
+            Assert.AreEqual(c.UnitCode, c.GetKey());
+            Assert.AreEqual(d.UnitCode, d.GetKey());
+        }
+
+        [TestMethod]
         public void TestEquals() {
             //Null
             Assert.IsFalse(a.Equals(null));
@@ -159,7 +177,7 @@ namespace UnitInfo_Tests.Tests.Data.Unit.Transcript.Facts
             Assert.IsFalse(a.Equals(d));
 
             // Equals this
-            Assert.IsFalse(a.Equals(a));
+            //Assert.IsFalse(a.Equals(a));
         }
 
         [TestMethod]

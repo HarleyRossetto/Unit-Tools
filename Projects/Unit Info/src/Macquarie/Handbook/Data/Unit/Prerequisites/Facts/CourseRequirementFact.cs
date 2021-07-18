@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
 {
-    public class CourseRequirementFact : IRequirementFact
+    public class CourseRequirementFact : ICourseRequirement
     {
         public CourseFact RequiredCourse { get; init; }
 
@@ -15,10 +15,8 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
         public override string ToString() => RequiredCourse.ToString();
 
         public bool RequirementMet(ITranscriptFactProvider resultsProvider) {
-            //TODO Consider how to handle this situation in the future.
-            if (resultsProvider is null) return false;
-
-            resultsProvider.GetFact(RequiredCourse.CourseCode, out ITranscriptFact fact);
+            ITranscriptFact fact = null;
+            resultsProvider?.GetFact(RequiredCourse.GetKey(), out fact);
             return RequiredCourse.Equals(fact);
         }
     }

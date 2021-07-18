@@ -1,6 +1,4 @@
 using System;
-using System.Diagnostics.SymbolStore;
-using System.Net.Http.Headers;
 using System.Text.RegularExpressions;
 using Macquarie.Handbook.Data.Unit.Transcript.Facts;
 using Macquarie.Handbook.Helpers.Extensions;
@@ -41,9 +39,11 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
             }
         }
 
-        private string _subjectCodeHeader = string.Empty;
-        public string SubjectCodeHeader {
-            get => _subjectCodeHeader;
+        public string UnitName { get; init; }
+
+        private string _unitPrefix = string.Empty;
+        public string UnitPrefix {
+            get => _unitPrefix;
         }
 
         private EnumStudyLevel _studyLevel = EnumStudyLevel.NoLevel;
@@ -93,11 +93,13 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
         private void ExtractSubjectCodeHeaderFromUnitCode() {
             // Extracts the first string component out of the UnitCode
             var match = subjectCodeRegex.Match(UnitCode);
-            _subjectCodeHeader = (match.Success) ? match.ToString() : string.Empty;
+            _unitPrefix = (match.Success) ? match.ToString() : string.Empty;
         }
 
+        public string GetKey() => UnitCode;
+
         public override bool Equals(object obj) {
-            if (obj is not null && obj is UnitFact && obj != this) {
+            if (obj is not null && obj is UnitFact /*&& obj != this*/) {
                 var otherFact = obj as UnitFact;
                 return (UnitCode == otherFact.UnitCode) && (otherFact.Grade >= Grade);
             }

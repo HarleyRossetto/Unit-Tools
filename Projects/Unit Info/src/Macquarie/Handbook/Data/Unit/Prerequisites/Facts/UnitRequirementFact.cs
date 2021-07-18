@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
 {
-    public class UnitRequirementFact : IRequirementFact
+    public class UnitRequirementFact : IUnitRequirement
     {
         public UnitFact RequiredUnit { get; init; }
 
@@ -20,10 +20,8 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
         /// <param name="results"></param>
         /// <returns></returns>
         public bool RequirementMet(ITranscriptFactProvider resultsProvider) {
-            //TODO Consider how to handle this situation in the future.
-            if (resultsProvider is null) return false;
-
-            resultsProvider.GetFact(RequiredUnit.UnitCode, out ITranscriptFact fact);
+            ITranscriptFact fact = null;
+            resultsProvider?.GetFact(RequiredUnit.UnitCode, out fact);
             return RequiredUnit.Equals(fact);
         }
     }

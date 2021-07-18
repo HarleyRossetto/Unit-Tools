@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Macquarie.Handbook.Data.Transcript.Facts;
+using Microsoft.VisualStudio.TestPlatform.Common.Utilities;
 
 namespace Macquarie.Handbook.Data.Transcript.Facts.Providers
 {
@@ -16,13 +17,11 @@ namespace Macquarie.Handbook.Data.Transcript.Facts.Providers
         }
 
         public bool GetFact(string key, out ITranscriptFact result) {
-            // if (collection.Where((x) => {
-            //     x.
-            // }))
+            result = collection.First((fact) => {
+                return fact.GetKey() == key;
+            });
 
-            //TODO consider this design more.
-            result = null;
-            return false;
+            return result is not null;
         }
 
         IEnumerator IEnumerable.GetEnumerator() {

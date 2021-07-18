@@ -5,7 +5,7 @@ using Macquarie.Handbook.Data.Unit.Prerequisites;
 
 namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
 {
-    public class AndListRequirementFact : ListRequirementFact
+    public class AndListRequirementFact<T> : ListRequirementFact<T> where T : IRequirementFact
     {
         public override bool RequirementMet(ITranscriptFactProvider resultsProvider) {
             // If the underlying list contains no facts then we consider our requirements inherently met.

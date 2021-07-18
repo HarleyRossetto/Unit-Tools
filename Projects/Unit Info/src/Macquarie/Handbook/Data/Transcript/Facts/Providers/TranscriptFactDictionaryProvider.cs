@@ -20,9 +20,7 @@ namespace Macquarie.Handbook.Data.Unit.Transcript.Facts.Providers
         public bool GetFact(string key, out ITranscriptFact result) {
             result = null;
 
-            if (transcriptFacts is null) return false;
-
-            return transcriptFacts.TryGetValue(key, out result);
+            return transcriptFacts is not null && transcriptFacts.TryGetValue(key, out result);
         }
 
         IEnumerator IEnumerable.GetEnumerator() {

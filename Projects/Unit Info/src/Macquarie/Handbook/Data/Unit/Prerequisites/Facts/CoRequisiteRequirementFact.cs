@@ -1,27 +1,20 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
 using Macquarie.Handbook.Data.Transcript.Facts;
+using Macquarie.Handbook.Data.Transcript.Facts.Providers;
 
 namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
 {
-    public class CoRequisiteRequirementFact : BasicRequirementFact
+    public class CoRequisiteRequirementFact : IRequirementFact
     {
-        private IRequirementFact _fact;
-        public override IRequirementFact Fact {
-            get {
-                return _fact;
-            }
-            init {
-                if (value is UnitRequirementFact or ListRequirementFact) {
-                    _fact = value;
-                } else {
-                    throw new ArgumentException($"Expected {typeof(UnitFact)} or {typeof(ListRequirementFact)} but received {value}");
-                }
-            }
+        private ListRequirementFact<UnitRequirementFact> Fact { get; init; } = new AndListRequirementFact<UnitRequirementFact>();
+
+        public bool RequirementMet(ITranscriptFactProvider resultsProvider) {
+            return Fact.RequirementMet(resultsProvider);
         }
 
         public override string ToString() {
-            return $"corequisite {Fact.ToString()}";
+            return $"corequisite {Fact}";
         }
     }
 }

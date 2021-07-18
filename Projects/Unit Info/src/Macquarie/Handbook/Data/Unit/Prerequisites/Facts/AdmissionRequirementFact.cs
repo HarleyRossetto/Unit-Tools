@@ -1,22 +1,15 @@
 using System;
 using Macquarie.Handbook.Data.Transcript.Facts;
+using Macquarie.Handbook.Data.Transcript.Facts.Providers;
 
 namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
 {
-    public class AdmissionRequirementFact : BasicRequirementFact
+    public class AdmissionRequirementFact : IRequirementFact
     {
-        private IRequirementFact _fact;
-        public override IRequirementFact Fact {
-            get {
-                return _fact;
-            }
-            init {
-                if (value is CourseRequirementFact) {
-                    _fact = value;
-                } else {
-                    throw new ArgumentException($"Expected {typeof(CourseRequirementFact)} but received {value}");
-                }
-            }
+        public  ICourseRequirement Fact { get; init; }
+
+        public bool RequirementMet(ITranscriptFactProvider resultsProvider) {
+            return Fact is not null && Fact.RequirementMet(resultsProvider);
         }
 
         public override string ToString() {

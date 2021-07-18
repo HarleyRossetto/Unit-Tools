@@ -34,7 +34,7 @@ namespace Unit_Info
                 await LocalDataMap.SaveCacheAsync();
             }
 
-            await Demo.ProcessPrereqs();
+            //await Demo.ProcessPrereqs();
 
             // var course = await MacquarieHandbook.GetCourse("C000006", 2021);
 

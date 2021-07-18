@@ -8,25 +8,20 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
         private string _courseName = "";
 
         public CourseFact() { }
-        public CourseFact(string courseName) => CourseName = courseName;
 
         public string CourseCode {
             get => _courseCode;
             init {
-                if (String.IsNullOrWhiteSpace(value))
-                    throw new NullReferenceException("CourseCode cannot be null or empty.");
-                
-                _courseCode = value.ToUpper();
+                if (!String.IsNullOrWhiteSpace(value))
+                    _courseCode = value.ToUpper();
             }
         }
 
         public string CourseName {
             get => _courseName;
             init {
-                if (String.IsNullOrWhiteSpace(value))
-                    throw new NullReferenceException("CourseCode cannot be null or empty.");
-
-                _courseName = value;
+                if (!String.IsNullOrWhiteSpace(value))
+                    _courseName = value;
             }
         }
 
@@ -37,6 +32,8 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
             }
             return false;
         }
+
+        public string GetKey() => CourseCode;
 
         public override int GetHashCode() => CourseName.GetHashCode();
 

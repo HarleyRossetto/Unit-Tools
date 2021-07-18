@@ -8,6 +8,7 @@
 		"dotnet-test-explorer.enableTelemetry": false,
 		"dotnet-test-explorer.testProjectPath": "**/*_Tests.@(csproj|vbproj|fsproj)",
 		"dotnet-test-explorer.testArguments": "/p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./coverage/lcov.info",
+		"dotnet-test-explorer.autoWatch": true,
 		
 		"coverage-gutters.showLineCoverage": true,
 		"coverage-gutters.showRulerCoverage": true,
@@ -19,7 +20,6 @@
 			"coverage.xml",
 			"jacoco.xml"
 		],
-		//"coverage-gutters.coverageReportFileName": "{coverageBaseDir}/report/html/index.html",
 
 		"omnisharp.enableImportCompletion": true,
 		"omnisharp.enableRoslynAnalyzers": true,

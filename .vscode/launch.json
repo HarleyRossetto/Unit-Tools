@@ -48,7 +48,7 @@
             "program": "${workspaceFolder}/Projects/Unit Info/bin/Debug/net5.0/Unit Info.dll",
             "args": [
                 "course",
-                "C000006"
+                "C000105"
             ],
             "cwd": "${workspaceFolder}/Projects/Unit Info",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
@@ -59,6 +59,6 @@
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach"
-        }
+        },
     ]
 }

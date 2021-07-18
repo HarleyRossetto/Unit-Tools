@@ -40,8 +40,8 @@
         },
         {
             "label": "test",
-            "command": "dotnet",
             "type": "process",
+            "command": "dotnet",
             "args": [
                 "build",
                 "${workspaceFolder}/Tests/Tests.csproj",
@@ -52,9 +52,31 @@
         },
         {
             "label": "Git diff stats",
-            "command": "git diff --stat",
             "type": "shell",
-            "problemMatcher": [],
+            "command": "git diff --stat",
+            "problemMatcher": []
+        },
+        {
+            "label": "Generate Test Coverage Report",
+            "command": "reportgenerator",
+            "args": [
+                "-reports:\"${workspaceFolder}/Projects/UnitInfo_Tests/coverage/lcov.info\"",
+                "-targetdir:\"${workspaceFolder}/Projects/UnitInfo_Tests/coverage/report/html\"",
+                "-reporttypes:Html"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "Open Coverage Report",
+            "type": "shell",
+            "command": "google-chrome",
+            "args": [
+                "${workspaceFolder}/Projects/UnitInfo_Tests/coverage/report/html/index.html"
+            ],
+            "dependsOn": [
+                "Generate Test Coverage Report"
+            ],
+            "problemMatcher": []
         }
     ]
 }

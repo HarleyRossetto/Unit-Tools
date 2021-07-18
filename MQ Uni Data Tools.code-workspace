@@ -6,12 +6,20 @@
 	],
 	"settings": {
 		"dotnet-test-explorer.enableTelemetry": false,
-		"dotnet-test-explorer.testProjectPath": "**/*Tests.@(csproj|vbproj|fsproj)",
+		"dotnet-test-explorer.testProjectPath": "**/*_Tests.@(csproj|vbproj|fsproj)",
 		"dotnet-test-explorer.testArguments": "/p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./coverage/lcov.info",
-	
+		
 		"coverage-gutters.showLineCoverage": true,
 		"coverage-gutters.showRulerCoverage": true,
 		"coverage-gutters.showGutterCoverage": false,
+		"coverage-gutters.coverageBaseDir": "Projects/UnitInfo_Tests/coverage",
+		"coverage-gutters.coverageFileNames":[
+			"lcov.info",
+			"cov.xml",
+			"coverage.xml",
+			"jacoco.xml"
+		],
+		//"coverage-gutters.coverageReportFileName": "{coverageBaseDir}/report/html/index.html",
 
 		"omnisharp.enableImportCompletion": true,
 		"omnisharp.enableRoslynAnalyzers": true,

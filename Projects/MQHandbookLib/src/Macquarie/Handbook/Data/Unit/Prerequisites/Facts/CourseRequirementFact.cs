@@ -1,7 +1,6 @@
 using System;
 using Macquarie.Handbook.Data.Transcript.Facts;
 using Macquarie.Handbook.Data.Transcript.Facts.Providers;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
 {
@@ -11,7 +10,6 @@ namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
 
         public CourseRequirementFact(CourseFact requiredCourse) => RequiredCourse = requiredCourse;
 
-        [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public override string ToString() => RequiredCourse.ToString();
 
         public bool RequirementMet(ITranscriptFactProvider resultsProvider) {

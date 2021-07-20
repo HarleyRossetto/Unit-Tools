@@ -2,7 +2,6 @@ using System;
 using System.Text.RegularExpressions;
 using Macquarie.Handbook.Data.Unit.Transcript.Facts;
 using Macquarie.Handbook.Helpers.Extensions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Macquarie.Handbook.Data.Transcript.Facts
 {
@@ -109,7 +108,6 @@ namespace Macquarie.Handbook.Data.Transcript.Facts
         // Unused
         public override int GetHashCode() => UnitCode.GetHashCode();
 
-        [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public override string ToString() => $"{UnitCode} ({GradeConverter.ConvertToShortString(Grade)})";
     }
 }

@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Macquarie.Handbook.Data.Transcript.Facts;
-using Microsoft.VisualStudio.TestPlatform.Common.Utilities;
 
 namespace Macquarie.Handbook.Data.Transcript.Facts.Providers
 {

@@ -1,6 +1,3 @@
-using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
 namespace Macquarie.Handbook.Data.Transcript.Facts
 {
     public static class GradeConverter

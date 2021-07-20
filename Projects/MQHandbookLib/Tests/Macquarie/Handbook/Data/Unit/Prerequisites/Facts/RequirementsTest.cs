@@ -8,7 +8,7 @@ using Macquarie.Handbook.Data.Unit.Transcript.Facts;
 using Macquarie.Handbook.Data.Unit.Transcript.Facts.Providers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitInfo_Tests.Tests
+namespace Tests.Macquarie.Handbook.Data.Unit.Prerequisites.Facts
 {
     [TestClass]
     public class RequirementsTest
@@ -190,7 +190,7 @@ namespace UnitInfo_Tests.Tests
 
         [TestMethod]
         public void CreditPointRequirementStringTest() {
-            var transcriptFacts = new CreditPointRequirementFact(new(40), new StudyLevelDescriptor(Macquarie.Handbook.Data.Unit.Transcript.Facts.EnumStudyLevel.Level3000, true));
+            var transcriptFacts = new CreditPointRequirementFact(new(40), new StudyLevelDescriptor(EnumStudyLevel.Level3000, true));
             string expected = "40cp at 3000 level or above";
             Assert.AreEqual(expected, transcriptFacts.ToString());
 

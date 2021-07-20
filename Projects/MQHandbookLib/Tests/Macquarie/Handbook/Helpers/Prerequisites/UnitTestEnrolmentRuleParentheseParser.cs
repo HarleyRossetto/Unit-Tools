@@ -4,7 +4,7 @@ using System;
 
 using Macquarie.Handbook.Helpers.Extensions;
 
-namespace UnitTools_Tests
+namespace Test.Macquarie.Handbook.Helpers.Prerequisites
 {
     [TestClass]
     public class UnitTestEnrolmentRuleParentheseParser

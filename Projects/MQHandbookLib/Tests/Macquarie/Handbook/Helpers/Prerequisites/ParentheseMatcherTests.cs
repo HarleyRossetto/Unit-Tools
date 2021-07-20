@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using Macquarie.Handbook.Helpers.Prerequisites.Parser;
 using Macquarie.Handbook.Helpers.Prerequisites.Sanitisers;
 
-namespace UnitTools_Tests
+namespace Test.Macquarie.Handbook.Helpers.Prerequisites
 {
     [TestClass]
     public class ParentheseMatcherTests

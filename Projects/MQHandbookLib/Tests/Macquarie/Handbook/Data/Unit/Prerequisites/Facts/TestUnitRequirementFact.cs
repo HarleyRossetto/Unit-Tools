@@ -1,7 +1,7 @@
 using Macquarie.Handbook.Data.Transcript.Facts;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitInfo_Tests.Tests.Data.Unit.Prerequisites.Facts
+namespace Tests.Macquarie.Handbook.Data.Unit.Prerequisites.Facts
 {
     [TestClass]
     public class TestUnitRequirementFact

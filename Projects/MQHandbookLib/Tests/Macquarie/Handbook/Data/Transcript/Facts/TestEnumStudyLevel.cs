@@ -2,7 +2,7 @@ using System;
 using Macquarie.Handbook.Data.Unit.Transcript.Facts;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitInfo_Tests.Tests.Data.Unit.Transcript.Facts
+namespace Tests.Macquarie.Handbook.Data.Transcript.Facts
 {
     [TestClass]
     public class TestEnumStudyLevel

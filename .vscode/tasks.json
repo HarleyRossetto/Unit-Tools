@@ -48,8 +48,8 @@
             "label": "Generate Test Coverage Report",
             "command": "reportgenerator",
             "args": [
-                "-reports:\"${workspaceFolder}/Projects/MQHandbookLib/Tests/Coverage/lcov.info\"",
-                "-targetdir:\"${workspaceFolder}/Projects/MQHandbookLib/Tests/Coverage/report/html\"",
+                "-reports:\"${workspaceFolder}/Projects/MQHandbookLib_Tests/Coverage/lcov.info\"",
+                "-targetdir:\"${workspaceFolder}/Projects/MQHandbookLib_Tests/Coverage/report/html\"",
                 "-reporttypes:Html"
             ],
             "problemMatcher": []

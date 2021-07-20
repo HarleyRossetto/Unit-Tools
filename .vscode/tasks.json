@@ -39,18 +39,6 @@
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "test",
-            "type": "process",
-            "command": "dotnet",
-            "args": [
-                "build",
-                "${workspaceFolder}/Tests/Tests.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
-            ],
-            "problemMatcher": "$msCompile"
-        },
-        {
             "label": "Git diff stats",
             "type": "shell",
             "command": "git diff --stat",
@@ -60,8 +48,8 @@
             "label": "Generate Test Coverage Report",
             "command": "reportgenerator",
             "args": [
-                "-reports:\"${workspaceFolder}/Projects/UnitInfo_Tests/coverage/lcov.info\"",
-                "-targetdir:\"${workspaceFolder}/Projects/UnitInfo_Tests/coverage/report/html\"",
+                "-reports:\"${workspaceFolder}/Projects/MQHandbookLib/Tests/Coverage/lcov.info\"",
+                "-targetdir:\"${workspaceFolder}/Projects/MQHandbookLib/Tests/Coverage/report/html\"",
                 "-reporttypes:Html"
             ],
             "problemMatcher": []
@@ -69,9 +57,14 @@
         {
             "label": "Open Coverage Report",
             "type": "shell",
-            "command": "google-chrome",
+            "linux":{
+                "command": "google-chrome",
+            },
+            "windows":{
+                "command": "chrome.exe",
+            },
             "args": [
-                "${workspaceFolder}/Projects/UnitInfo_Tests/coverage/report/html/index.html"
+                "${workspaceFolder}/Projects/Projects/MQHandbookLib/Tests/Coverage/report/html/index.html"
             ],
             "dependsOn": [
                 "Generate Test Coverage Report"

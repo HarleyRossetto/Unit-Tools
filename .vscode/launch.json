@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Projects/Unit Info/bin/Debug/net5.0/Unit Info.dll",
+            "program": "${workspaceFolder}/Projects/Unit Info/bin/Debug/net6.0/Unit Info.dll",
             "args": [],
             "cwd": "${workspaceFolder}/Projects/Unit Info",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
@@ -26,7 +26,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Projects/Unit Info/bin/Debug/net5.0/Unit Info.dll",
+            "program": "${workspaceFolder}/Projects/Unit Info/bin/Debug/net6.0/Unit Info.dll",
             "args": [
                 "unit",
                 "COMP2110"
@@ -45,12 +45,30 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Projects/Unit Info/bin/Debug/net5.0/Unit Info.dll",
+            "program": "${workspaceFolder}/Projects/Unit Info/bin/Debug/net6.0/Unit Info.dll",
             "args": [
                 "course",
                 "C000105"
             ],
             "cwd": "${workspaceFolder}/Projects/Unit Info",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Launch - UI",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/Projects/Demo_UI/bin/Debug/net6.0/Demo_UI.dll",
+            "args": [
+                "GetUnit",
+                "COMP2100",
+                "--year",
+                "2020"
+            ],
+            "cwd": "${workspaceFolder}/Projects/Demo_UI",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false

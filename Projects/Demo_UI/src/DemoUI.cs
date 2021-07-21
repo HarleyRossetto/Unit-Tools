@@ -26,13 +26,6 @@ namespace Demo_UI.src
                         }).UseDefaults().Build();
 
             await parser.InvokeAsync(args);
-
-            // root = new RootCommand("Root Command Description");
-            // root.Handler = CommandHandler.Create(() => root.Invoke("-h"));
-
-            // builder = new CommandLineBuilder(root);
-
-            // parser = builder.UseDefaults().Build();
         }
 
         private static CommandLineBuilder BuildCommandLine() {

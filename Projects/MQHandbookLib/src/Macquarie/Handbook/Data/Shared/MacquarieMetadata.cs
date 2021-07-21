@@ -16,7 +16,7 @@ namespace Macquarie.Handbook.Data.Shared
         [JsonProperty("title")]
         public string Title { get; set; }
         [JsonProperty("implementationYear")]
-        public string ImplementationYear { get; set; }
+        public UInt16 ImplementationYear { get; set; }
         
 
 #if IGNORE_UNNECESSARY

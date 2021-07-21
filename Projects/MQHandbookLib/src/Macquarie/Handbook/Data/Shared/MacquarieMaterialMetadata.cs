@@ -1,5 +1,6 @@
 //#define IGNORE_UNNECESSARY
 
+using System;
 using System.Collections.Generic;
 using Macquarie.Handbook.Converters;
 using Newtonsoft.Json;
@@ -10,7 +11,7 @@ namespace Macquarie.Handbook.Data.Shared
     {
 
         [JsonProperty("implementationYear")]
-        public string ImplementationYear { get; set; }
+        public ushort ImplementationYear { get; set; }
         [JsonProperty("status")]
         public LabelledValue Status { get; set; }
         [JsonProperty("academic_org")]
@@ -18,7 +19,7 @@ namespace Macquarie.Handbook.Data.Shared
         [JsonProperty("school")]
         public KeyValueIdType School { get; set; }
         [JsonProperty("credit_points")]
-        public string CreditPoints { get; set; }
+        public UInt16 CreditPoints { get; set; }
         [JsonProperty("type")]
         public LabelledValue Type { get; set; }
         [JsonProperty("description")]

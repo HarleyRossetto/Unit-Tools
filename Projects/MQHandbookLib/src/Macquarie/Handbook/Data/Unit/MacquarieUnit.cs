@@ -32,7 +32,7 @@ namespace Macquarie.Handbook.Data
         [JsonProperty("status")]
         public string Status { get; set; }
 
-        public override string ToString() => $"{UnitData.Code}";
+        public override string ToString() => $"{UnitData.Code} {ImplementationYear}";
 
 #if IGNORE_UNNECESSARY
         [JsonIgnore]

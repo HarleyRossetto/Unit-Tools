@@ -69,9 +69,7 @@ namespace Tests.Macquarie.Handbook.Data.Transcript.Facts
 
         [TestMethod]
         public void TestGetKey() {
-            CourseFact course = new();
-
-            course = new()
+            CourseFact course = new()
             {
                 CourseCode = "N000062",
                 CourseName = "Bachelor of Information Technology"
@@ -86,9 +84,7 @@ namespace Tests.Macquarie.Handbook.Data.Transcript.Facts
 
         [TestMethod]
         public void TestToString() {
-            CourseFact course = new();
-
-            course = new()
+            CourseFact course = new()
             {
                 CourseCode = "N000062",
                 CourseName = "Bachelor of Information Technology"

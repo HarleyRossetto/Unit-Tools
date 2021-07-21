@@ -1,11 +1,11 @@
 //#define IGNORE_UNNECESSARY
 
 using System;
+using Macquarie.Handbook.Converters;
 using Macquarie.Handbook.Data.Shared;
 using Macquarie.Handbook.Data.Unit;
-using Macquarie.Handbook.Converters;
-using Newtonsoft.Json;
 using Macquarie.Handbook.Helpers;
+using Newtonsoft.Json;
 
 namespace Macquarie.Handbook.Data
 {
@@ -31,6 +31,8 @@ namespace Macquarie.Handbook.Data
         public DateTime? EffectiveDate { get; set; }
         [JsonProperty("status")]
         public string Status { get; set; }
+
+        public override string ToString() => $"{UnitData.Code}";
 
 #if IGNORE_UNNECESSARY
         [JsonIgnore]

@@ -14,31 +14,57 @@ namespace Demo_UI.src.Commands
     public class GetUnitCommand : Command
     {
         private const string CommandName = "GetUnit";
-        private const string CommandDescription  = "Retreives the specified unit";
+        private const string CommandDescription = "Retreives the specified unit";
+
+        public readonly Option<int> OptionLimit = new(  new string[] {
+                                                                "--l",
+                                                                "--limit"
+                                                            }, 
+                                                            () => 10, 
+                                                            "Maximum number of records to retrieve");
+
+        public readonly Option<string> OptionUnitCode = new(new string[] {
+            "--unitcode",
+            "--unit",
+            "--u"
+        });
+
+        public readonly Option<int?> OptionYear = new(new string[] {
+            "--year",
+            "--y"
+        }, _ => DateTime.Now.Year);
 
         public GetUnitCommand() : base(CommandName, CommandDescription) {
-            AddArgument(new Argument<string>("UnitCode"));
-            AddOption(new Option<int>("--year"));
+            AddOption(OptionYear);
+            AddOption(OptionUnitCode);
+            AddOption(OptionLimit);
         }
 
         public override string Name { get => base.Name; set => base.Name = value; }
 
         public new class Handler : ICommandHandler
         {
+
+            public string Unit { get; set; }
+            public int Limit { get; set; }
+            public int? Year { get; set; }
+
             public async Task<int> InvokeAsync(InvocationContext context) {
+                if (Unit is not null) {
+                    var unit = await MacquarieHandbook.GetUnit(Unit, Year);
 
-                var unitcode = context.ParseResult.ValueForArgument<string>("UnitCode");
-
-                int? year = null;
-                if (context.ParseResult.HasOption("--year")) {
-                    year = context.ParseResult.ValueForOption<int>("--year");
+                    if (unit is not null) {
+                        Console.WriteLine(unit.ToString());
+                        return 0;
+                    }
+                    return -1;
+                } else {
+                    var units = await MacquarieHandbook.GetAllUnits(Year, Limit);
+                    if (units is not null) {
+                        return 0;
+                    }
+                    return -1;
                 }
-
-                var unit = await MacquarieHandbook.GetUnit(unitcode, year);
-
-                Console.WriteLine(unit.ToString());
-
-                return 0;
             }
         }
     }

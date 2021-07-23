@@ -8,7 +8,7 @@ namespace Demo_UI
     {
         static async Task Main(string[] args)
         {
-            await new DemoUI().Run(args);
+            await DemoUI.Run(args);
         }
     }
 }

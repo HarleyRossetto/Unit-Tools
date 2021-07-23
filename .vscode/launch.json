@@ -64,8 +64,9 @@
             "program": "${workspaceFolder}/Projects/Demo_UI/bin/Debug/net6.0/Demo_UI.dll",
             "args": [
                 "GetUnit",
+                "--u",
                 "COMP2100",
-                "--year",
+                "-y",
                 "2020"
             ],
             "cwd": "${workspaceFolder}/Projects/Demo_UI",

@@ -17,7 +17,7 @@ namespace Demo_UI.src.Commands
         {
             public async Task<int> InvokeAsync(InvocationContext context) {
                 DemoUI.RunCommandLoop = false;
-                return 1;
+                return await Task.Run(() => 0); //Shuts up async warnings
             }
         }
     }

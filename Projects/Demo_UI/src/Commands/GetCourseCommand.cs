@@ -30,7 +30,8 @@ namespace Demo_UI.src.Commands
                     year = context.ParseResult.ValueForOption<int>("--year");
                 }
 
-                var unit = await MacquarieHandbook.GetCourse(courseCode, year);
+                var handbook = new MacquarieHandbook();
+                var unit = await handbook.GetCourse(courseCode, year);
 
                 Console.WriteLine(unit.ToString());
 

@@ -23,7 +23,7 @@ public class HandbookController : ControllerBase
 
     [HttpGet(Name = "GetUnit/{unitCode}")]
     public async Task<UnitDTO> GetUnit(string unitCode = "elec3042") {
-        _logger.LogInformation($"Attempting to retrieve data for {unitCode}");
+        _logger.LogInformation("Attempting to retrieve data for {unitCode}", unitCode);
         return _mapper.Map<UnitDTO>(await _handbook.GetUnit(unitCode));
     }
 }

@@ -1,12 +1,8 @@
 namespace MQHandbookAPI.Controllers;
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Macquarie.Handbook;
 using Microsoft.AspNetCore.Mvc;
-
 
 [ApiController]
 [Route("[controller]")]
@@ -22,7 +18,7 @@ public class CourseLoopController : ControllerBase
 
     [HttpGet(Name = "GetUnitCMSJson/{unitCode}")]
     public async Task<string> GetUnit(string unitCode) {
-        _logger.LogInformation($"Attempting to retrieve CMS json for {unitCode}");
+        _logger.LogInformation("Attempting to retrieve data for {unitCode}", unitCode);
         return await _handbook.GetUnitRawJson(unitCode);
     }
 

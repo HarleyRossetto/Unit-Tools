@@ -10,23 +10,29 @@ namespace Demo_UI.src.Commands
     public class GetCourseCommand : Command
     {
         private const string CommandName = "GetCourse";
-        private const string CommandDescription  = "Retreives the specified course";
+        private const string CommandDescription = "Retreives the specified course";
 
-        public GetCourseCommand() : base(CommandName, CommandDescription) {
+        public GetCourseCommand() : base(CommandName, CommandDescription)
+        {
             AddArgument(new Argument<string>("CourseCode"));
             AddOption(new Option<int>("--year"));
         }
 
-        public override string Name { get => base.Name; set => base.Name = value; }
+        public override string Name
+        {
+            get => base.Name;
+            set => base.Name = value;
+        }
 
         public new class Handler : ICommandHandler
         {
-            public async Task<int> InvokeAsync(InvocationContext context) {
-
+            public async Task<int> InvokeAsync(InvocationContext context)
+            {
                 var courseCode = context.ParseResult.ValueForArgument<string>("CourseCode");
 
                 int? year = null;
-                if (context.ParseResult.HasOption("--year")) {
+                if (context.ParseResult.HasOption("--year"))
+                {
                     year = context.ParseResult.ValueForOption<int>("--year");
                 }
 

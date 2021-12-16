@@ -17,23 +17,24 @@ public static class DemoUI
     public static bool RunCommandLoop { get; set; } = true;
     private static Parser parser;
 
-    public static async Task Run(String[] args) {
+    public static async Task Run(String[] args)
+    {
         parser = BuildCommandLine()
-                    .UseHost(_ => Host.CreateDefaultBuilder(args), (builder) => {
-                        builder.ConfigureServices((hostContext, services) => {
-                            var configuration = hostContext.Configuration;
+            .UseHost(_ => Host.CreateDefaultBuilder(args), (builder) =>
+            {
+                builder.ConfigureServices((hostContext, services) =>
+                    {
+                        var configuration = hostContext.Configuration;
 
-                                //Dependancies can follow..
-                            })
-                        .ConfigureLogging(logging => {
-                            logging.SetMinimumLevel(LogLevel.Warning);
-                        })
-                        .UseCommandHandler<QuitCommand, QuitCommand.Handler>()
-                        .UseCommandHandler<GetUnitCommand, GetUnitCommand.Handler>()
-                        .UseCommandHandler<GetCourseCommand, GetCourseCommand.Handler>();
+                        //Dependancies can follow..
                     })
-                    .UseDefaults()
-                    .Build();
+                    .ConfigureLogging(logging => { logging.SetMinimumLevel(LogLevel.Warning); })
+                    .UseCommandHandler<QuitCommand, QuitCommand.Handler>()
+                    .UseCommandHandler<GetUnitCommand, GetUnitCommand.Handler>()
+                    .UseCommandHandler<GetCourseCommand, GetCourseCommand.Handler>();
+            })
+            .UseDefaults()
+            .Build();
 
         LocalDataDirectoryHelper.DirectoryHeader = @"C:\Users\accou\Desktop\MQ Uni Data Tools\Unit Tools\Docs";
 
@@ -41,12 +42,14 @@ public static class DemoUI
         if (args.Any())
             await parser.InvokeAsync(args);
 
-        while (RunCommandLoop) {
+        while (RunCommandLoop)
+        {
             await parser.InvokeAsync(Console.ReadLine()); //Make the readline some form of interface.
         }
     }
 
-    private static CommandLineBuilder BuildCommandLine() {
+    private static CommandLineBuilder BuildCommandLine()
+    {
         var rootCommand = new RootCommand();
         rootCommand.AddCommand(new GetUnitCommand());
         rootCommand.AddCommand(new GetCourseCommand());

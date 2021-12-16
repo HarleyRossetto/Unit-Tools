@@ -14,6 +14,12 @@ public class UnitFactParser : IPrerequisiteParser
     //Matches (P|CR|D|HD) elements
     private static readonly Regex _regexGradeRequirement = new(@"\((P|CR|D|HD)\)", RegexOptions.Compiled, RegexTimeout);
 
+    /// <summary>
+    /// Parses the supplied text in search of a unit code and associated grade requirement.
+    /// We assume the grade to be a Pass unless otherwise specified.
+    /// </summary>
+    /// <param name="sourceText">Input test to parse.</param>
+    /// <returns></returns>
     public IRequirementFact Parse(string sourceText) {
         //String navigator
         var split = sourceText.Split(' ', StringSplitOptions.RemoveEmptyEntries);

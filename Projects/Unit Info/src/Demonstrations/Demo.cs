@@ -17,11 +17,13 @@ namespace Unit_Info.Demonstrations
 {
     public class Demo
     {
+        static readonly IMacquarieHandbook _handbook = new MacquarieHandbook();
+
         /// <summary>
         /// Demonstrates Unit request API creation, data collection and access.
         /// </summary>
         public static async Task GetUnit(String unitCode, bool writeToFile = true) {
-            var unit = await MacquarieHandbook.GetUnit(unitCode, DateTime.Now.Year);
+            var unit = await _handbook.GetUnit(unitCode, DateTime.Now.Year);
 
             if (unit is null) {
                 Console.WriteLine("Unit with code '{0}' was not found.", unitCode);
@@ -40,7 +42,7 @@ namespace Unit_Info.Demonstrations
         /// Requests all 2021 Units, with a limit of 3000 results.
         /// </summary>
         public static async Task GetAllUnitsAndWriteToFile() {
-            var unitCollection = await MacquarieHandbook.GetAllUnits(2021, 10);
+            var unitCollection = await _handbook.GetAllUnits(2021, 10);
 
             await WriteCollectionToIndividualFiles(unitCollection);
 
@@ -67,7 +69,7 @@ namespace Unit_Info.Demonstrations
         /// The course code to attempt to retreive.
         /// </param> 
         public static async Task<MacquarieCourse> GetCourse(String courseCode) {
-            var course = await MacquarieHandbook.GetCourse(courseCode, 2021);
+            var course = await _handbook.GetCourse(courseCode, 2021);
 
             if (course is null) {
                 Console.WriteLine($"No course with code '{courseCode}' was found.");
@@ -80,7 +82,7 @@ namespace Unit_Info.Demonstrations
         }
 
         public static async Task<IEnumerable<MacquarieCourse>> GetAllCourses() {
-            var courses = await MacquarieHandbook.GetAllCourses(2021);
+            var courses = await _handbook.GetAllCourses(2021);
             return courses.AsEnumerable();
         }
 
@@ -142,7 +144,7 @@ namespace Unit_Info.Demonstrations
         }
 
         public static async Task GetAllUnitNames() {
-            var unitCollection = await MacquarieHandbook.GetAllUnits(2021);
+            var unitCollection = await _handbook.GetAllUnits(2021);
             List<String> unitNames = new(unitCollection.Count);
             foreach (var unit in unitCollection) {
                 unitNames.Add(unit.Code);
@@ -156,7 +158,7 @@ namespace Unit_Info.Demonstrations
             Stopwatch sw = new();
 
             sw.Restart();
-            var unitCollection = await MacquarieHandbook.GetAllUnits(2021);
+            var unitCollection = await _handbook.GetAllUnits(2021);
 
             if (unitCollection.Count > 0) {
                 var ruleAndCode = new List<Tuple<string, string>>();
@@ -326,8 +328,7 @@ namespace Unit_Info.Demonstrations
         }
 
         public static async Task<IEnumerable<IGrouping<string, MacquarieBasicItemInfo>>> GetListOfUnitCodes() {
-            var apiRequest = new UnitApiRequestBuilder() { ImplementationYear = 2021, Limit = 2500 };
-            var unitCollection = await MacquarieHandbook.GetCMSDataCollection<MacquarieUnit>(apiRequest);
+            var unitCollection = await _handbook.GetAllUnits();
 
             var enumerable = from unit in unitCollection.AsEnumerable()
                              select new { unit.Code, unit.Title, unit.UnitData.School.Value };
@@ -343,8 +344,7 @@ namespace Unit_Info.Demonstrations
         }
 
         public static async Task<IEnumerable<IGrouping<string, MacquarieBasicItemInfo>>> GetListOfCourseCodes() {
-            var apiRequest = new CourseApiRequestBuilder() { ImplementationYear = 2021, Limit = 250 };
-            var courseCollection = await MacquarieHandbook.GetCMSDataCollection<MacquarieCourse>(apiRequest);
+            var courseCollection = await _handbook.GetAllCourses();
 
             var enumerable = (from course in courseCollection.AsEnumerable()
                               select new { course.Code, course.Title, course.CourseData.School.Value });

@@ -6,7 +6,7 @@
 	],
 	"settings": {
 		"dotnet-test-explorer.enableTelemetry": false,
-		"dotnet-test-explorer.testProjectPath": "**/*_Tests/*_Tests.@(csproj|vbproj|fsproj)",
+		"dotnet-test-explorer.testProjectPath": "**/*_Tests/*_Tests.csproj",
 		"dotnet-test-explorer.testArguments": "/p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./Coverage/lcov.info",
 		"dotnet-test-explorer.autoWatch": false,
 		

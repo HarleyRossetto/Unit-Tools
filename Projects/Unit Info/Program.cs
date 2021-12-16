@@ -1,45 +1,42 @@
-﻿//#define IGNORE_UNNECESSARY
+﻿namespace Unit_Info;
 
-using System.Threading.Tasks;
 using System.Linq;
-
-using Unit_Info.Helpers;
+using System.Threading.Tasks;
 using Macquarie.Handbook;
-
 using Unit_Info.Demonstrations;
+using Unit_Info.Helpers;
 
-namespace Unit_Info
+
+class Program
 {
-    class Program
-    {
-        async static Task Main(string[] args) {
-            /*
-                0 = Resource to get type (unit|course)
-                1 = Resource code (COMP1010|C000006)
-            */
+    async static Task Main(string[] args) {
+        /*
+            0 = Resource to get type (unit|course)
+            1 = Resource code (COMP1010|C000006)
+        */
 
-            if (args.Length >= 2) {
+        if (args.Length >= 2) {
 
-                LocalDataMap.LoadCache();
+            LocalDataMap.LoadCache();
+            var handbook = new MacquarieHandbook();
 
-                switch (args[0].ToLower()) {
-                    case "unit":
-                        var unit = await MacquarieHandbook.GetUnit(args[1], 2021);
-                        break;
-                    case "course":
-                        var course = await MacquarieHandbook.GetCourse(args[1], 2021);
-                        break;
-                }
-
-                await LocalDataMap.SaveCacheAsync();
+            switch (args[0].ToLower()) {
+                case "unit":
+                    _ = await handbook.GetUnit(args[1], 2021);
+                    break;
+                case "course":
+                    _ = await handbook.GetCourse(args[1], 2021);
+                    break;
             }
 
-            //await Demo.ProcessPrereqs();
-
-            // var course = await MacquarieHandbook.GetCourse("C000006", 2021);
-
-            // var unit = await MacquarieHandbook.GetUnit("COMP2100", 2021);
-
+            await LocalDataMap.SaveCacheAsync();
         }
+
+        //await Demo.ProcessPrereqs();
+
+        // var course = await MacquarieHandbook.GetCourse("C000006", 2021);
+
+        // var unit = await MacquarieHandbook.GetUnit("COMP2100", 2021);
+
     }
 }

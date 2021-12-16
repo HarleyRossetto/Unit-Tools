@@ -1,63 +1,48 @@
-//#define IGNORE_UNNECESSARY
+namespace Macquarie.Handbook.Data.Course;
 
 using System.Collections.Generic;
 using Macquarie.Handbook.Data.Shared;
 using Newtonsoft.Json;
 using Macquarie.Handbook.Converters;
 
-namespace Macquarie.Handbook.Data.Course
+public record UnitGroupingContainer
 {
-    public record UnitGroupingContainer
-    {
 
-        [JsonProperty("title")]
-        public string Title { get; set; }
-        [JsonProperty("preface")]
-        public string Preface { get; set; }
-        [JsonProperty("dynamic_query")]
-        public string DynamicQuery { get; set; }
-        [JsonProperty("child_table")]
-        public string ChildTable { get; set; }
-        [JsonProperty("child_record")]
-        public KeyValueIdType ChildRecord { get; set; }
-        [JsonProperty("footnote")]
-        public string Footnote { get; set; }
-        [JsonProperty("description")]
-        [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
-        public string Description { get; set; }
-        [JsonProperty("credit_points_max")]
-        public string CreditPointsMax { get; set; }
-        [JsonProperty("parentConnector")]
-        public LabelledValue ParentConnector { get; set; }
-        [JsonProperty("dynamic_relationship")]
-        public List<DynamicRelation> DynamicRelationship { get; set; }
-        [JsonProperty("container")]
-        public List<UnitGroupingContainer> Container { get; set; }
-        [JsonProperty("relationship")]
-        public List<AcademicItem> Relationships { get; set; }
+    [JsonProperty("title")]
+    public string Title { get; set; }
+    [JsonProperty("preface")]
+    public string Preface { get; set; }
+    [JsonProperty("dynamic_query")]
+    public string DynamicQuery { get; set; }
+    [JsonProperty("child_table")]
+    public string ChildTable { get; set; }
+    [JsonProperty("child_record")]
+    public KeyValueIdType ChildRecord { get; set; }
+    [JsonProperty("footnote")]
+    public string Footnote { get; set; }
+    [JsonProperty("description")]
+    [JsonConverter(typeof(MacquarieHtmlStripperConverter))]
+    public string Description { get; set; }
+    [JsonProperty("credit_points_max")]
+    public string CreditPointsMax { get; set; }
+    [JsonProperty("parentConnector")]
+    public LabelledValue ParentConnector { get; set; }
+    [JsonProperty("dynamic_relationship")]
+    public List<DynamicRelation> DynamicRelationship { get; set; }
+    [JsonProperty("container")]
+    public List<UnitGroupingContainer> Container { get; set; }
+    [JsonProperty("relationship")]
+    public List<AcademicItem> Relationships { get; set; }
 
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#endif
-        [JsonProperty("vertical_grouping")]
-        public LabelledValue VerticalGrouping { get; set; }
+    [JsonProperty("vertical_grouping")]
+    public LabelledValue VerticalGrouping { get; set; }
 
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#endif
-        [JsonProperty("horizontal_grouping")]
-        public LabelledValue HorizontalGrouping { get; set; }
+    [JsonProperty("horizontal_grouping")]
+    public LabelledValue HorizontalGrouping { get; set; }
 
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#endif
-        [JsonProperty("parent_record")]
-        public KeyValueIdType ParentRecord { get; set; }
+    [JsonProperty("parent_record")]
+    public KeyValueIdType ParentRecord { get; set; }
 
-#if IGNORE_UNNECESSARY
-        [JsonIgnore]
-#endif
-        [JsonProperty("parent_table")]
-        public string ParentTable { get; set; }
-    }
+    [JsonProperty("parent_table")]
+    public string ParentTable { get; set; }
 }

@@ -1,11 +1,10 @@
-namespace MQHandbookAPI.Models.Macquarie.Handbook.Data.Unit.Prerequisites
-{
-    public record EnrolmentRuleDto
-    {
-        public string Description { get; init; } = string.Empty;
-        public string Type { get; init; } = string.Empty;
-        public ushort Order { get; init; } = 0;
+namespace MQHandbookAPI.Models.Macquarie.Handbook.Data.Unit.Prerequisites;
 
-        public override string ToString() => Description;
-    }
+public record EnrolmentRuleDto
+{
+    public string Description { get; init; } = string.Empty;
+    public string Type { get; init; } = string.Empty;
+    public ushort Order { get; init; } = 0;
+
+    public override string ToString() => Description;
 }

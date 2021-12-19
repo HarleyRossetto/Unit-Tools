@@ -12,5 +12,5 @@ public record RequisiteDto
 
     public List<RequisiteContainerDto>? Requisites { get; init; }
 
-    public string Order { get; init; }
+    public string Order { get; init; } = string.Empty;
 }

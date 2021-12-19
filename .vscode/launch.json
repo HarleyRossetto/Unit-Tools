@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Projects/Unit Info/bin/Debug/net5.0/Unit Info.dll",
+            "program": "${workspaceFolder}/Projects/Unit Info/bin/Debug/net6.0/Unit Info.dll",
             "args": [],
             "cwd": "${workspaceFolder}/Projects/Unit Info",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
@@ -26,7 +26,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Projects/Unit Info/bin/Debug/net5.0/Unit Info.dll",
+            "program": "${workspaceFolder}/Projects/Unit Info/bin/Debug/net6.0/Unit Info.dll",
             "args": [
                 "unit",
                 "COMP2110"
@@ -45,7 +45,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Projects/Unit Info/bin/Debug/net5.0/Unit Info.dll",
+            "program": "${workspaceFolder}/Projects/Unit Info/bin/Debug/net6.0/Unit Info.dll",
             "args": [
                 "course",
                 "C000105"
@@ -54,6 +54,50 @@
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
+        },
+        {
+            "name": "Launch - UI",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/Projects/Demo_UI/bin/Debug/net6.0/Demo_UI.dll",
+            "args": [
+                "GetUnit",
+                "--u",
+                "COMP2100",
+                "-y",
+                "2020"
+            ],
+            "cwd": "${workspaceFolder}/Projects/Demo_UI",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Launch - API",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/Projects/MQHandbookAPI/bin/Debug/net6.0/MQHandbookAPI.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
         },
         {
             "name": ".NET Core Attach",

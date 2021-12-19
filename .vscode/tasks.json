@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Projects/Unit Info/Unit Info.csproj",
+                "${workspaceFolder}/Projects/Demo_UI/Demo_UI.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Projects/Unit Info/Unit Info.csproj",
+                "${workspaceFolder}/Projects/Demo_UI/Demo_UI.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,19 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/Projects/Unit Info/Unit Info.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
-            ],
-            "problemMatcher": "$msCompile"
-        },
-        {
-            "label": "test",
-            "type": "process",
-            "command": "dotnet",
-            "args": [
-                "build",
-                "${workspaceFolder}/Tests/Tests.csproj",
+                "${workspaceFolder}/Projects/Demo_UI/Demo_UI.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -60,8 +48,8 @@
             "label": "Generate Test Coverage Report",
             "command": "reportgenerator",
             "args": [
-                "-reports:\"${workspaceFolder}/Projects/UnitInfo_Tests/coverage/lcov.info\"",
-                "-targetdir:\"${workspaceFolder}/Projects/UnitInfo_Tests/coverage/report/html\"",
+                "-reports:\"${workspaceFolder}/Projects/MQHandbookLib_Tests/Coverage/lcov.info\"",
+                "-targetdir:\"${workspaceFolder}/Projects/MQHandbookLib_Tests/Coverage/report/html\"",
                 "-reporttypes:Html"
             ],
             "problemMatcher": []
@@ -69,14 +57,44 @@
         {
             "label": "Open Coverage Report",
             "type": "shell",
-            "command": "google-chrome",
+            "linux": {
+                "command": "google-chrome"
+            },
+            "windows": {
+                "command": "Start-Process"
+            },
             "args": [
-                "${workspaceFolder}/Projects/UnitInfo_Tests/coverage/report/html/index.html"
+                "${workspaceFolder}\\Projects\\MQHandbookLib_Tests\\Coverage\\report\\html\\index.html"
             ],
             "dependsOn": [
                 "Generate Test Coverage Report"
             ],
             "problemMatcher": []
+        },
+        {
+            "label": "HotReload",
+            "type": "shell",
+            "command": "dotnet",
+            "args": [
+                "watch",
+                "--project",
+                "${input:hotreloadProject}"
+            ],
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "type": "pickString",
+            "id": "hotreloadProject",
+            "description": "Which project to hot reload?",
+            "options": [
+                "Projects/Demo_UI",
+                "Projects/MQHandbookAPI/MQHandbookAPI.csproj",
+                "Projects/MQHandbookLib",
+                "Projects/MQHandbookLib_Tests"
+            ],
+            "default": "Projects/MQHandbookAPI"
         }
     ]
 }

@@ -4,10 +4,12 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
+using System.Threading;
 using System.Threading.Tasks;
 using Macquarie.Handbook.Data;
 using Macquarie.Handbook.Data.Shared;
 using Macquarie.Handbook.WebApi;
+using Microsoft.Extensions.Logging;
 using Unit_Info.Helpers;
 using static Macquarie.JSON.JsonSerialisationHelper;
 //Bad separation...
@@ -18,13 +20,12 @@ namespace Macquarie.Handbook;
 
 public class MacquarieHandbook : IMacquarieHandbook
 {
-    readonly HttpClient _httpClient = new();
-
+    private readonly HttpClient _httpClient = new();
+    private readonly ILogger<MacquarieHandbook> _logger;
     public TimeSpan WebRequestTimeout { get => _httpClient.Timeout; set => _httpClient.Timeout = value; }
 
-    public MacquarieHandbook() {
-        //TODO Consider setting up httpclient properly and append url options instead of generating new url each time?
-        //httpClient.BaseAddress = ""
+    public MacquarieHandbook(ILogger<MacquarieHandbook> logger) {
+        _logger = logger;
     }
 
     /// <summary>
@@ -33,26 +34,21 @@ public class MacquarieHandbook : IMacquarieHandbook
     /// </summary>
     /// <param name="url">The URL from which to download the JSON resource.</param>
     /// <returns>JSON retrieved from URL. In the event of a http failure, an empty string.</returns>
-    public async Task<string> DownloadJsonDataFromUrl(string url) {
-        Console.WriteLine(url);
-        var response = await _httpClient.GetAsync(url);
+    public async Task<string> DownloadJsonDataFromUrl(string url, CancellationToken cancellationToken) {
+        _logger.LogInformation("Retrieving json data form {url}.", url);
 
-        //If the http call has failed print the result to the console and return an empty string.
-        if (!response.IsSuccessStatusCode) {
-            Console.WriteLine(response.ToString());
-            //Return an empty string to parse.
-            return string.Empty;
+        var response = await _httpClient.GetAsync(url, cancellationToken);
+
+        if (response.IsSuccessStatusCode) {
+            return await response.Content.ReadAsStringAsync(cancellationToken);
         }
 
-        return await response.Content.ReadAsStringAsync();
+        _logger.LogWarning("Http data request failed. Response: {response}", response);
+        return string.Empty;
     }
 
-    private async Task<MacquarieDataCollection<T>> DownloadDataAsCollection<T>(HandbookApiRequestBuilder apiRequest) where T : MacquarieMetadata {
-        return await DownloadDataAsCollection<T>(apiRequest.ToString());
-    }
-
-    private async Task<MacquarieDataCollection<T>> DownloadDataAsCollection<T>(string url) where T : MacquarieMetadata {
-        var jsonString = await DownloadJsonDataFromUrl(url);
+    private async Task<MacquarieDataCollection<T>> DownloadDataAsCollection<T>(string url, CancellationToken cancellationToken) where T : MacquarieMetadata {
+        var jsonString = await DownloadJsonDataFromUrl(url, cancellationToken);
 
         //
         if (string.IsNullOrEmpty(jsonString)) {
@@ -68,7 +64,46 @@ public class MacquarieHandbook : IMacquarieHandbook
         }
     }
 
-    public static async Task<MacquarieDataCollection<T>> LoadAllLocalData<T>() where T : MacquarieMetadata {
+    private async Task<MacquarieDataCollection<T>> DownloadDataAsCollection<T>(HandbookApiRequestBuilder apiRequest, CancellationToken cancellationToken = default) where T : MacquarieMetadata {
+        return await DownloadDataAsCollection<T>(apiRequest.ToString(), cancellationToken);
+    }
+
+    private async Task<T> LoadObjectFromFile<T>(string file) where T : MacquarieMetadata {
+        try {
+            var jsonString = await File.ReadAllTextAsync(file);
+            var obj = DeserialiseJsonObject<T>(jsonString);
+
+            return obj;
+        } catch (Exception ex) {
+            _logger.LogError("Exception thrown in {methodName}. Exception: {exMessage}", nameof(LoadObjectFromFile), ex.Message);
+        }
+        return null;
+    }
+
+    public async Task<T> TryLoadLocalData<T>(string code, APIResourceType resourceType) where T : MacquarieMetadata {
+        LocalDirectories path = resourceType switch
+        {
+            APIResourceType.Course => Course_Individual,
+            APIResourceType.Unit => Unit_Individual,
+            _ => NoDirectory
+        };
+
+        var localPath = CreateFilePath(path, $"{code}.json");
+
+        if (File.Exists(localPath)) {
+            _logger.LogInformation("Attempting to load {code} from local cache at {localPath}", code, localPath);
+            var result = await LoadObjectFromFile<T>(localPath);
+
+            if (result is not null)
+                _logger.LogInformation("Successfully loaded {code}", code);
+
+            return result;
+        }
+
+        return default;
+    }
+
+    public async Task<MacquarieDataCollection<T>> LoadAllLocalData<T>() where T : MacquarieMetadata {
         var dirPath = GetDirectory(Unit_Filtered);
         if (Directory.Exists(dirPath)) {
             try {
@@ -84,7 +119,7 @@ public class MacquarieHandbook : IMacquarieHandbook
                 return results;
 
             } catch (Exception ex) {
-                Console.WriteLine(ex.ToString());
+                _logger.LogError("Failed to load get all files in {dirPath}. Exception: {ex}", dirPath, ex.ToString());
                 return null;
             }
         } else {
@@ -99,7 +134,7 @@ public class MacquarieHandbook : IMacquarieHandbook
             result = await TryLoadLocalData<MacquarieUnit>(unitCode, APIResourceType.Unit);
 
         if (result is null) {
-            Console.WriteLine($"Unable to load {unitCode} from local cache, loading from CMS..");
+            _logger.LogInformation("Unable to load {unitCode} from local cache, loading from CMS..", unitCode);
             HandbookApiRequestBuilder apiRequestBuilder = new(unitCode, implementationYear, APIResourceType.Unit);
             var resultsCollection = await DownloadDataAsCollection<MacquarieUnit>(apiRequestBuilder);
             if (resultsCollection.Count >= 1)
@@ -114,52 +149,19 @@ public class MacquarieHandbook : IMacquarieHandbook
 
     public async Task<string> GetUnitRawJson(string unitCode) {
         var request = new HandbookApiRequestBuilder(unitCode, 2022, APIResourceType.Unit);
-        return await DownloadJsonDataFromUrl(request.ToString());
+        return await DownloadJsonDataFromUrl(request.ToString(), default);
     }
 
-    public static async Task<T> TryLoadLocalData<T>(string code, APIResourceType resourceType) where T : MacquarieMetadata {
-        LocalDirectories path = resourceType switch
-        {
-            APIResourceType.Course => LocalDirectories.Course_Individual,
-            APIResourceType.Unit => LocalDirectories.Unit_Individual,
-            _ => LocalDirectories.NoDirectory
-        };
-
-        var localPath = CreateFilePath(path, $"{code}.json");
-
-        if (File.Exists(localPath)) {
-            Console.WriteLine($"Attempting to load {code} from local cache..");
-            var result = await LoadObjectFromFile<T>(localPath);
-
-            if (result is not null)
-                Console.WriteLine($"Successfully loaded {code} ");
-
-            return result;
-        }
-
-        return default;
-    }
-
-    private static async Task<T> LoadObjectFromFile<T>(string file) where T : MacquarieMetadata {
-        try {
-            var jsonString = await File.ReadAllTextAsync(file);
-            var obj = DeserialiseJsonObject<T>(jsonString);
-
-            return obj;
-        } catch (Exception ex) {
-            Console.WriteLine(ex.Message);
-        }
-        return null;
-    }
-
-    public async Task<MacquarieDataCollection<MacquarieUnit>> GetAllUnits(int? implementationYear = null, int limit = 3000, bool readFromDisk = false) {
+    public async Task<MacquarieDataCollection<MacquarieUnit>> GetAllUnits(int? implementationYear = null, int limit = 3000, bool readFromDisk = false, CancellationToken cancellationToken = default) {
         implementationYear ??= DateTime.Now.Year;
+
+        _logger.LogInformation("Loading all unit data for {implementationYear}.", implementationYear);
 
         if (readFromDisk) {
             return await LoadAllLocalData<MacquarieUnit>();
         } else {
             var apiRequest = new HandbookApiRequestBuilder() { ImplementationYear = implementationYear, Limit = limit, ResourceType = APIResourceType.Unit };
-            return await DownloadDataAsCollection<MacquarieUnit>(apiRequest);
+            return await DownloadDataAsCollection<MacquarieUnit>(apiRequest, cancellationToken);
         }
     }
 
@@ -172,7 +174,7 @@ public class MacquarieHandbook : IMacquarieHandbook
 
         //If local data could not be loaded and result is null, try load from CMS, if that fails return null/empty course object
         if (result is null) {
-            Console.WriteLine($"Unable to load {courseCode} from local cache, loading from CMS..");
+            _logger.LogInformation("Unable to load {courseCode} from local cache, loading from CMS..", courseCode);
             HandbookApiRequestBuilder apiRequestBuilder = new(courseCode, implementationYear, APIResourceType.Course);
             var resultsCollection = await DownloadDataAsCollection<MacquarieCourse>(apiRequestBuilder);
             if (resultsCollection.Count >= 1)

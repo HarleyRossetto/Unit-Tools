@@ -4,6 +4,7 @@ using System.CommandLine.Invocation;
 using System.CommandLine.Parsing;
 using System.Threading.Tasks;
 using Macquarie.Handbook;
+using Microsoft.Extensions.Logging;
 
 namespace Demo_UI.src.Commands
 {
@@ -36,7 +37,7 @@ namespace Demo_UI.src.Commands
                     year = context.ParseResult.ValueForOption<int>("--year");
                 }
 
-                var handbook = new MacquarieHandbook();
+                var handbook = new MacquarieHandbook(default);
                 var unit = await handbook.GetCourse(courseCode, year);
 
                 Console.WriteLine(unit.ToString());

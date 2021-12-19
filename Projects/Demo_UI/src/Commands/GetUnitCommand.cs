@@ -62,7 +62,7 @@ namespace Demo_UI.src.Commands
 
             public async Task<int> InvokeAsync(InvocationContext context)
             {
-                var handbook = new MacquarieHandbook();
+                var handbook = new MacquarieHandbook(default);
                 if (Unit is not null)
                 {
                     var unit = await handbook.GetUnit(Unit, Year, false);

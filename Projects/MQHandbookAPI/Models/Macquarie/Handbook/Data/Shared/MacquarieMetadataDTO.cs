@@ -1,20 +1,21 @@
 namespace MQHandbookAPI.Models.Macquarie.Handbook.Data.Shared;
 
 using System;
-using Newtonsoft.Json;
 
-public class MacquarieMetadataDTO
+public record MetadataDto
 {
     public DateTime DateRetrieved { get; init; } = DateTime.Now;
-    public DateTime? ModificationDate { get; set; }
-    public string Code { get; set; }
-    public string Title { get; set; }
-    public ushort ImplementationYear { get; set; }
-    public string StudyLevel { get; set; }
-    public string ContentTypeLabel { get; set; }
-    public bool Archived { get; set; }
-    public bool Working { get; set; }
-    public bool Locked { get; set; }
-    public bool Live { get; set; }
-    public string UrlMapForContent { get; set; }
+    public DateTime? ModificationDate { get; init; }
+    public string Code { get; init; } = string.Empty;
+    public string Title { get; init; } = string.Empty;
+    public ushort ImplementationYear { get; init; }
+    public string StudyLevel { get; init; } = string.Empty;
+    public string ContentTypeLabel { get; init; } = string.Empty;
+    public bool Archived { get; init; }
+    public bool Working { get; init; }
+    public bool Locked { get; init; }
+    public bool Live { get; init; }
+    public string UrlMapForContent { get; init; } = string.Empty;
+    public string HostName { get; init; } = string.Empty;
+
 }

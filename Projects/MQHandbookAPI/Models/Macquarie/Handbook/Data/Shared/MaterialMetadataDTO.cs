@@ -2,27 +2,28 @@ using Macquarie.Handbook.Data.Shared;
 
 namespace MQHandbookAPI.Models.Macquarie.Handbook.Data.Shared;
 
-public class MaterialMetadataDTO
+public class MaterialMetadataDto
 {
-        public ushort ImplementationYear { get; set; }
-        public string Status { get; set; }
-        public string AcademicOrganisation { get; set; }
-        public string School { get; set; }
-        public UInt16 CreditPoints { get; set; }
-        public string Type { get; set; }
-        public string Description { get; set; }
-        public string SearchTitle { get; set; }
-        public string Code { get; set; }
-        public string Title { get; set; }
-        public string ContentType { get; set; }
-        public string CreditPointsHeader { get; set; }
-        public string Version { get; set; }
-        public string ClassName { get; set; }
-        public string Overview { get; set; }
-        public string AcademicItemType { get; set; }
-        public List<Requirement> InherentRequirements { get; set; }
-        public List<Requirement> OtherRequirements { get; set; }
-        public string ExternalProvider { get; set; }
-        public List<string> Links { get; set; }
-        public LabelledValue PublishedInHandbook { get; set; }
+    public ushort ImplementationYear { get; init; }
+    public string Status { get; init; } = string.Empty;
+    //TODO Make AcademicOrganisation enum? Potentially translate any ID's to string names.
+    public string AcademicOrganisation { get; init; } = string.Empty;
+    public string School { get; init; } = string.Empty;
+    public ushort CreditPoints { get; init; } = 0;
+    public string Type { get; init; } = string.Empty;
+    public string Description { get; init; } = string.Empty;
+    public string SearchTitle { get; init; } = string.Empty;
+    public string Code { get; init; } = string.Empty;
+    public string Title { get; init; } = string.Empty;
+    public string ContentType { get; init; } = string.Empty;
+    public string CreditPointsHeader { get; init; } = string.Empty;
+    public string Version { get; init; } = string.Empty;
+    public string ClassName { get; init; } = string.Empty;
+    public string Overview { get; init; } = string.Empty;
+    public string AcademicItemType { get; init; } = string.Empty;
+    public List<Requirement>? InherentRequirements { get; init; }
+    public List<Requirement>? OtherRequirements { get; init; }
+    public string ExternalProvider { get; init; } = string.Empty;
+    public List<string>? Links { get; init; }
+    public LabelledValue? PublishedInHandbook { get; init; }
 }

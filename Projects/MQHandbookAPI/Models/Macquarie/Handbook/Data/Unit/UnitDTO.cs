@@ -1,21 +1,21 @@
 namespace MQHandbookAPI.Models.Macquarie.Handbook.Data.Unit;
 
-using global::Macquarie.Handbook.Data.Unit;
 using MQHandbookAPI.Models.Macquarie.Handbook.Data.Shared;
-using Newtonsoft.Json;
 
-public class UnitDTO : MacquarieMetadataDTO
+public record UnitDto : MetadataDto
 {
-    //[JsonConverter(typeof(MacquarieEmbeddedJsonConverter<MacquarieUnitData>))]
-    public UnitDataDTO UnitData { get; set; }
-    public ushort CreditPoints { get; set; }
-    public string Description { get; set; }
-    public string Level { get; set; }
-    public ushort PublishedInHandbook { get; set; }
-    public string LevelDisplay { get; set; }
-    public DateTime? EffectiveDate { get; set; }
-    public string Status { get; set; }
-    public string Version { get; set; }
-    public string Type { get; set; }
-    //public override string ToString() => $"{UnitData.Code} {ImplementationYear}";
+    public UnitDataDto Data { get; init; } = null!;
+    public ushort CreditPoints { get; init; }
+    public string Description { get; init; } = string.Empty;
+    public string Level { get; init; } = string.Empty;
+    public ushort PublishedInHandbook { get; init; }
+    public string LevelDisplay { get; init; } = string.Empty;
+    public DateTime? EffectiveDate { get; init; }
+    public string Status { get; init; } = string.Empty;
+    public string Version { get; init; } = string.Empty;
+    public string Type { get; init; } = string.Empty;
+    
+    public override string ToString() => $"{Data.Code} {ImplementationYear}";
+
+    public string FullUrl { get => $"{HostName}{UrlMapForContent}"; }
 }

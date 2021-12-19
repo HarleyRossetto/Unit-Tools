@@ -1,27 +1,24 @@
-using Macquarie.Handbook.Data.Shared;
-using Microsoft.AspNetCore.Mvc.ApiExplorer;
-
 namespace MQHandbookAPI.Models.Macquarie.Handbook.Data.Unit;
 
-public class UnitOfferingDTO
+public record UnitOfferingDto
 {
-        public string Publish { get; set; }
-        public string Name { get; set; }
-        public string DisplayName { get; set; }
-        public string TeachingPeriod { get; set; }
-        public string AttendanceMode { get; set; }
-        public string QuotaNumber { get; set; }
-        public string StudyLevel { get; set; }
-        public string AcademicItem { get; set; }
-        public string ClarificationToAppearInHandbook { get; set; }
-        public string SelfEnrol { get; set; }
-        public string Order { get; set; }
-        public string FeesCommonwealth { get; set; }
-        public string FeesInternational { get; set; }
-        public string CourseRestrictions { get; set; }
-        public string QuotaLimit { get; set; }
-        public string FeesDomestic { get; set; }
-        public string Location { get; set; }
+        public string Publish { get; init; } = string.Empty; 
+        public string Name { get; init; } = string.Empty;
+        public string DisplayName { get; init; } = string.Empty;
+        public string TeachingPeriod { get; init; } = string.Empty;
+        public string AttendanceMode { get; init; } = string.Empty;
+        public string QuotaNumber { get; init; } = string.Empty;
+        public string StudyLevel { get; init; } = string.Empty;
+        public string AcademicItem { get; init; } = string.Empty;
+        public string ClarificationToAppearInHandbook { get; init; } = string.Empty;
+        public string SelfEnrol { get; init; } = string.Empty;
+        public string Order { get; init; } = string.Empty;
+        public string FeesCommonwealth { get; init; } = string.Empty;
+        public string FeesInternational { get; init; } = string.Empty;
+        public string CourseRestrictions { get; init; } = string.Empty;
+        public string QuotaLimit { get; init; } = string.Empty;
+        public string FeesDomestic { get; init; } = string.Empty;
+        public string Location { get; init; } = string.Empty;
 
     public override string ToString() => DisplayName;
 }

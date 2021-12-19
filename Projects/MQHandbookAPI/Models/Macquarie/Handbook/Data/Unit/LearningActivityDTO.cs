@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace MQHandbookAPI.Models.Macquarie.Handbook.Data.Unit
 {
-    public class LearningActivityDTO
+    public class LearningActivityDto
     {
-        public string Description { get; init; }
-        public string Activity { get; init; }
-        public string Offerings { get; init; }
+        public string Description { get; init; } = string.Empty;
+        public string Activity { get; init; } = string.Empty;
+        public string Offerings { get; init; } = string.Empty;
 
         public override string ToString() {
             return Description;

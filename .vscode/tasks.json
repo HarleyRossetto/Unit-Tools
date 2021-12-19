@@ -57,19 +57,44 @@
         {
             "label": "Open Coverage Report",
             "type": "shell",
-            "linux":{
-                "command": "google-chrome",
+            "linux": {
+                "command": "google-chrome"
             },
-            "windows":{
-                "command": "chrome.exe",
+            "windows": {
+                "command": "Start-Process"
             },
             "args": [
-                "${workspaceFolder}/Projects/Projects/MQHandbookLib/Tests/Coverage/report/html/index.html"
+                "${workspaceFolder}\\Projects\\MQHandbookLib_Tests\\Coverage\\report\\html\\index.html"
             ],
             "dependsOn": [
                 "Generate Test Coverage Report"
             ],
             "problemMatcher": []
+        },
+        {
+            "label": "HotReload",
+            "type": "shell",
+            "command": "dotnet",
+            "args": [
+                "watch",
+                "--project",
+                "${input:hotreloadProject}"
+            ],
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "type": "pickString",
+            "id": "hotreloadProject",
+            "description": "Which project to hot reload?",
+            "options": [
+                "Projects/Demo_UI",
+                "Projects/MQHandbookAPI/MQHandbookAPI.csproj",
+                "Projects/MQHandbookLib",
+                "Projects/MQHandbookLib_Tests"
+            ],
+            "default": "Projects/MQHandbookAPI"
         }
     ]
 }

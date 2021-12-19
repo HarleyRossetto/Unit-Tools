@@ -1,19 +1,18 @@
 using Macquarie.Handbook.Helpers.Extensions;
 
-namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts
+namespace Macquarie.Handbook.Data.Unit.Prerequisites.Facts;
+
+public record CreditPoint
 {
-    public record CreditPoint
-    {
-        private uint _creditPointValue;
-        public uint Value {
-            get => _creditPointValue;
-            init => _creditPointValue = value.Clamp(0, int.MaxValue); //TODO Revise maximum clamp value.
-        }
+    private uint _creditPointValue;
+    public uint Value {
+        get => _creditPointValue;
+        init => _creditPointValue = value.Clamp(0, int.MaxValue); //TODO Revise maximum clamp value.
+    }
 
-        public CreditPoint(uint credits) => Value = credits;
+    public CreditPoint(uint credits) => Value = credits;
 
-        public override string ToString() {
-            return Value.ToString();
-        }
+    public override string ToString() {
+        return Value.ToString();
     }
 }

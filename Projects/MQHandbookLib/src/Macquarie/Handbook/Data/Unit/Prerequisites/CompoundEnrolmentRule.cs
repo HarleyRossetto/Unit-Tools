@@ -1,17 +1,15 @@
 using System.Collections.Generic;
 
-namespace Macquarie.Handbook.Data.Unit.Prerequisites
+namespace Macquarie.Handbook.Data.Unit.Prerequisites;
+
+public record CompoundEnrolmentRule : EnrolmentRule
 {
-    public record CompoundEnrolmentRule : EnrolmentRule
-    {
-        public CompoundType RuleCompoundType { get; init; }
-        public List<EnrolmentRule> Rules {get; init;}
-    }
+    public CompoundType RuleCompoundType { get; init; }
+    public List<EnrolmentRule> Rules { get; init; }
+}
 
-    public enum CompoundType
-    {
-        AND,
-        OR
-    }
-
+public enum CompoundType
+{
+    AND,
+    OR
 }

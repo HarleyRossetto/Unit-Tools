@@ -1,7 +1,6 @@
-namespace Macquarie.Handbook.Data.Transcript.Facts
+namespace Macquarie.Handbook.Data.Transcript.Facts;
+
+public interface ITranscriptFact
 {
-    public interface ITranscriptFact
-    {
-        public string GetKey();
-    }
+    public string GetKey();
 }

@@ -6,34 +6,33 @@ using System.Linq;
 
 using Newtonsoft.Json;
 
-namespace Macquarie.Handbook.Data.Shared
+namespace Macquarie.Handbook.Data.Shared;
+
+public class MacquarieDataCollection<T> where T : MacquarieMetadata
 {
-    public class MacquarieDataCollection<T> where T : MacquarieMetadata
-    {
-        //Empty constructor for JSON.net to use
-        public MacquarieDataCollection() {  }
+    //Empty constructor for JSON.net to use
+    public MacquarieDataCollection() { }
 
-        public MacquarieDataCollection(int capacity) {
-            Collection = new List<T>(capacity);
-        }
+    public MacquarieDataCollection(int capacity) {
+        Collection = new List<T>(capacity);
+    }
 
-        public MacquarieDataCollection(IEnumerable<T> tempCollection) {
-            Collection = new List<T>(tempCollection);
-        }
+    public MacquarieDataCollection(IEnumerable<T> tempCollection) {
+        Collection = new List<T>(tempCollection);
+    }
 
-        [JsonProperty("contentlets")]
-        public List<T> Collection { get; set; }
-        
-        public T this[int index] { get => Collection[index]; set => Collection[index] = value; }
+    [JsonProperty("contentlets")]
+    public List<T> Collection { get; set; }
 
-        public int Count { get => Collection.Count; }
+    public T this[int index] { get => Collection[index]; set => Collection[index] = value; }
 
-        public IEnumerator<T> GetEnumerator() => Collection.GetEnumerator();
+    public int Count { get => Collection.Count; }
 
-        public void Add(T value) => Collection.Add(value);
+    public IEnumerator<T> GetEnumerator() => Collection.GetEnumerator();
 
-        public IEnumerable<T> AsEnumerable() {
-            return Collection.AsEnumerable();
-        }
+    public void Add(T value) => Collection.Add(value);
+
+    public IEnumerable<T> AsEnumerable() {
+        return Collection.AsEnumerable();
     }
 }

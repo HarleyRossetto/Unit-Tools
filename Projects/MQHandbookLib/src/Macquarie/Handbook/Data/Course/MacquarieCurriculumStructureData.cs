@@ -4,12 +4,10 @@ using System;
 using System.Collections.Generic;
 using Macquarie.Handbook.Data.Shared;
 using Newtonsoft.Json;
-
-
 public record MacquarieCurriculumStructureData //: IdentifiableRecord
 {
     [JsonProperty("credit_points")]
-    public string CreditPoints { get; set; }
+    public short CreditPoints { get; set; }
     [JsonProperty("effective_date", NullValueHandling = NullValueHandling.Ignore)]
     public DateTime? EffectiveDate { get; set; }
     [JsonProperty("container")]

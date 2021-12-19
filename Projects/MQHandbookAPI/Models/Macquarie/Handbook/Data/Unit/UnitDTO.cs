@@ -14,7 +14,7 @@ public record UnitDto : MetadataDto
     public string Status { get; init; } = string.Empty;
     public string Version { get; init; } = string.Empty;
     public string Type { get; init; } = string.Empty;
-    
+
     public override string ToString() => $"{Data.Code} {ImplementationYear}";
 
     public string FullUrl { get => $"{HostName}{UrlMapForContent}"; }

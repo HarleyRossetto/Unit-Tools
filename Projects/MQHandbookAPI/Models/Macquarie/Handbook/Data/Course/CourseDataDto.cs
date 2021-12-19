@@ -6,7 +6,7 @@ namespace MQHandbookAPI.Models.Macquarie.Handbook.Data.Course;
 
 public record CourseDataDto : MetadataDto
 {
-    public string AqfLevel { get; init; }  = string.Empty;
+    public string AqfLevel { get; init; } = string.Empty;
     public List<string>? AccreditingBodies { get; init; }
     public string AbbreviatedNameAndMajor { get; init; } = string.Empty;
     public string CourseCode { get; init; } = string.Empty;

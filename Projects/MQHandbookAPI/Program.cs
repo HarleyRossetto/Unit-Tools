@@ -13,9 +13,9 @@ builder.Services.AddSwaggerGen();
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 
-
 builder.Services.AddSingleton<IMacquarieHandbook, MacquarieHandbook>();
 
+//Configure class mappings via profile.
 builder.Services.AddAutoMapper(cfg => {
     cfg.AddProfile<MacquarieDtoMappingProfile>();
 });

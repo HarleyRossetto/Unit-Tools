@@ -10,7 +10,7 @@ public record OfferingDto
     public DateTime? EndDate { get; init; }
     public string Comments { get; init; } = string.Empty;
     public LabelledValue? LanguageOfInstruction;
-    public string ExtId { get; init; }  = string.Empty;
+    public string ExtId { get; init; } = string.Empty;
     public bool Publish { get; init; }
     public string Status { get; init; } = string.Empty;
     public bool Offered { get; init; }

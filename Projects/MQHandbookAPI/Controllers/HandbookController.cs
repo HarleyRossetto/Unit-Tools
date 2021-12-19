@@ -80,28 +80,28 @@ public class HandbookController : ControllerBase
         foreach (var unit in units.Collection) {
             foreach (var outcome in unit.Data.LearningOutcomes) {
 
-                    var properties = outcome.GetType().GetProperties();
-                    foreach (var property in properties) {
+                var properties = outcome.GetType().GetProperties();
+                foreach (var property in properties) {
 
-                        //If the value map does not contain our property, create new map and add to map.
-                        if (!valueMap.TryGetValue(property.Name, out Dictionary<string, int>? map)) {
-                            map = new();
-                            valueMap.Add(property.Name, map);
-                        }
+                    //If the value map does not contain our property, create new map and add to map.
+                    if (!valueMap.TryGetValue(property.Name, out Dictionary<string, int>? map)) {
+                        map = new();
+                        valueMap.Add(property.Name, map);
+                    }
 
-                        var propValue = property.GetValue(outcome);
+                    var propValue = property.GetValue(outcome);
 
-                        //If value type dont need to inspect deeper
-                        if (property.DeclaringType!.IsValueType) {
-                            _logger.LogInformation("{type} is value type. Not logging.", property.Name);
+                    //If value type dont need to inspect deeper
+                    if (property.DeclaringType!.IsValueType) {
+                        _logger.LogInformation("{type} is value type. Not logging.", property.Name);
+                    } else {
+                        var key = propValue?.ToString() ?? "null";
+                        if (map.ContainsKey(key)) {
+                            map[key]++;
                         } else {
-                            var key = propValue?.ToString() ?? "null";
-                            if (map.ContainsKey(key)) {
-                                map[key]++;
-                            } else {
-                                map.Add(key, 1);
-                            }
+                            map.Add(key, 1);
                         }
+                    }
                 }
             }
         }

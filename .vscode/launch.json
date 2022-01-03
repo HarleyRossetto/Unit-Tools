@@ -100,6 +100,17 @@
             }
         },
         {
+            "name": "CosmosTest",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Projects/CosmosDbTest/bin/Debug/net6.0/CosmosDbTest.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Projects/CosmosDbTest",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+        },
+        {
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach"

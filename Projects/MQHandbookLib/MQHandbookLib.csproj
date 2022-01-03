@@ -15,4 +15,21 @@
     <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+ <PropertyGroup>
+    <PackageId>MQHandbookLib</PackageId>
+    <Authors>Harley Rossetto</Authors>
+    <Owners>Harley Rossetto</Owners>
+    <PackageTags>Library, Macquarie, Handbook</PackageTags>
+    <Title>MQHandbookLib</Title>
+    <Description>Access and Definition of Macquarie University unit and course data objects.</Description>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Version>1.0.0</Version>
+    <RepositoryUrl>https://github.com/HarleyRossetto/HXAVR.Macquarie.Planner.Packages.Test</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
 </Project>

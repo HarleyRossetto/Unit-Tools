@@ -1,6 +1,4 @@
 namespace Macquarie.Handbook.Data.Shared;
-
-using System;
 using System.Collections.Generic;
 using Macquarie.Handbook.Converters;
 using Newtonsoft.Json;

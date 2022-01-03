@@ -24,7 +24,7 @@ public class TestAdmissionRequirementFact
             Fact = validFact
         };
 
-        Assert.ReferenceEquals(validFact, admissionFact.Fact);
+        Assert.IsTrue(ReferenceEquals(validFact, admissionFact.Fact));
 
     }
 

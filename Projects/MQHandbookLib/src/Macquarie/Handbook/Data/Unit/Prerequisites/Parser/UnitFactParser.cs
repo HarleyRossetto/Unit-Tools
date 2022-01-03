@@ -53,6 +53,6 @@ public class UnitFactParser : IPrerequisiteParser
 
         }
 
-        return null;
+        return null; //TODO Don't have null return. Look into have empty/base case Requirement Fact.
     }
 }

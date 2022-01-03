@@ -5,12 +5,18 @@ using Newtonsoft.Json;
 
 public class MacquarieMetadata
 {
+    //TODO DateTime.DateTimeNow could become some dependancy to allow unit testing?
+    //Otherwise it should be set another way.
     public DateTime DATE_DATA_RETRIEVED { get; init; } = DateTime.Now;
 
     [JsonProperty("modDate", NullValueHandling = NullValueHandling.Ignore)]
     public DateTime? ModificationDate { get; set; }
     [JsonProperty("code")]
     public string Code { get; set; }
+    public string CodeSubject {
+        get => Code[..4];
+    }
+
     [JsonProperty("title")]
     public string Title { get; set; }
     [JsonProperty("implementationYear")]
@@ -104,4 +110,10 @@ public class MacquarieMetadata
     public ushort SortOrder { get; set; }
     [JsonProperty("modUser")]
     public string ModificationUser { get; set; }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [JsonProperty("id")]
+    public string Id => $"{Code}.{ImplementationYear}";
 }

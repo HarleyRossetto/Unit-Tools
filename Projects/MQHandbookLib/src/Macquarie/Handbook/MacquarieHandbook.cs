@@ -1,31 +1,34 @@
-//#define WRITE_ALL_JSON_TO_DISK
-
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
+using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
 using Macquarie.Handbook.Data;
 using Macquarie.Handbook.Data.Shared;
 using Macquarie.Handbook.WebApi;
 using Microsoft.Extensions.Logging;
-using Unit_Info.Helpers;
-using static Macquarie.JSON.JsonSerialisationHelper;
-//Bad separation...
-using static Unit_Info.Helpers.LocalDataDirectoryHelper;
-using static Unit_Info.Helpers.LocalDirectories;
+using MQHandbookLib.src.Helpers;
+using MQHandbookLib.src.Macquarie.Handbook.JSON;
+using static MQHandbookLib.src.Helpers.LocalDataDirectoryHelper;
+using static MQHandbookLib.src.Helpers.LocalDirectories;
+using static MQHandbookLib.src.Macquarie.Handbook.JSON.JsonSerialisationHelper;
 
-namespace Macquarie.Handbook;
+namespace MQHandbookLib.src.Macquarie.Handbook;
 
 public class MacquarieHandbook : IMacquarieHandbook
 {
     private readonly HttpClient _httpClient = new();
     private readonly ILogger<MacquarieHandbook> _logger;
+    private readonly IDateTimeProvider _dateTimeProvider;
     public TimeSpan WebRequestTimeout { get => _httpClient.Timeout; set => _httpClient.Timeout = value; }
+    private readonly JsonSerialisationHelper _jsonSerialisationHelper;
 
-    public MacquarieHandbook(ILogger<MacquarieHandbook> logger) {
-        _logger = logger;
+    public MacquarieHandbook(ILogger<MacquarieHandbook> handbookLogger, ILogger<JsonSerialisationHelper> jsonLogger, IDateTimeProvider dateTimeProvider) {
+        _logger = handbookLogger;
+        _dateTimeProvider = dateTimeProvider;
+        _jsonSerialisationHelper = new(dateTimeProvider, jsonLogger);
     }
 
     /// <summary>
@@ -35,7 +38,7 @@ public class MacquarieHandbook : IMacquarieHandbook
     /// <param name="url">The URL from which to download the JSON resource.</param>
     /// <returns>JSON retrieved from URL. In the event of a http failure, an empty string.</returns>
     public async Task<string> DownloadJsonDataFromUrl(string url, CancellationToken cancellationToken) {
-        _logger.LogInformation("Retrieving json data form {url}.", url);
+        _logger.LogInformation("Retrieving json data from {url}.", url);
 
         var response = await _httpClient.GetAsync(url, cancellationToken);
 
@@ -47,20 +50,13 @@ public class MacquarieHandbook : IMacquarieHandbook
         return string.Empty;
     }
 
-    private async Task<MacquarieDataCollection<T>> DownloadDataAsCollection<T>(string url, CancellationToken cancellationToken) where T : MacquarieMetadata {
+    private async Task<MacquarieDataCollection<T>> DownloadDataAsCollection<T>(string url, CancellationToken cancellationToken = default) where T : MacquarieMetadata {
         var jsonString = await DownloadJsonDataFromUrl(url, cancellationToken);
 
-        //
         if (string.IsNullOrEmpty(jsonString)) {
-            return null;
+            return default;
         } else {
-            var dataCollection = DeserialiseJsonObject<MacquarieDataCollection<T>>(jsonString);
-
-            //string fileName = $"{Environment.CurrentDirectory}//{LocalDataDirectoryHelper.GetDirectory(LocalDirectories.Unit)}//Raw.json";
-
-            //await File.WriteAllTextAsync(fileName, jsonString);
-
-            return dataCollection;
+            return DeserialiseJsonObject<MacquarieDataCollection<T>>(jsonString);
         }
     }
 
@@ -77,12 +73,11 @@ public class MacquarieHandbook : IMacquarieHandbook
         } catch (Exception ex) {
             _logger.LogError("Exception thrown in {methodName}. Exception: {exMessage}", nameof(LoadObjectFromFile), ex.Message);
         }
-        return null;
+        return default;
     }
 
     public async Task<T> TryLoadLocalData<T>(string code, APIResourceType resourceType) where T : MacquarieMetadata {
-        LocalDirectories path = resourceType switch
-        {
+        LocalDirectories path = resourceType switch {
             APIResourceType.Course => Course_Individual,
             APIResourceType.Unit => Unit_Individual,
             _ => NoDirectory
@@ -94,12 +89,16 @@ public class MacquarieHandbook : IMacquarieHandbook
             _logger.LogInformation("Attempting to load {code} from local cache at {localPath}", code, localPath);
             var result = await LoadObjectFromFile<T>(localPath);
 
-            if (result is not null)
-                _logger.LogInformation("Successfully loaded {code}", code);
+            if (result is null) {
+                _logger.LogError("Failed to load unit {unitCode} from {localPath}", code, localPath);
+                return default;
+            }
 
+            _logger.LogInformation("Successfully loaded {code}", code);
             return result;
         }
 
+        _logger.LogWarning("Unable to load local resource with path: {path}", path);
         return default;
     }
 
@@ -111,19 +110,32 @@ public class MacquarieHandbook : IMacquarieHandbook
 
                 var results = new MacquarieDataCollection<T>();
 
-                foreach (var file in filesToLoad) {
-                    var jsonString = await File.ReadAllTextAsync(file);
-                    var data = DeserialiseJsonObject<T>(jsonString);
-                    results.Add(data);
-                }
+                //Asynchronously load all tasks.
+                List<Task> readAsyncTasks = new();
+                filesToLoad.ForEach(file => {
+                    readAsyncTasks.Add(new Task(async () => {
+                        var data = DeserialiseJsonObject<T>(await File.ReadAllTextAsync(file));
+                        results.Add(data);
+                    }));
+                });
+
+                await Parallel.ForEachAsync(readAsyncTasks, new ParallelOptions() { MaxDegreeOfParallelism = 10 }, default);
+               // await Task.WhenAll(readAsyncTasks);
+
+                // foreach (var file in filesToLoad) {
+                //     var jsonString = await File.ReadAllTextAsync(file);
+                //     var data = DeserialiseJsonObject<T>(jsonString);
+                //     results.Add(data);
+                // }
+
                 return results;
 
             } catch (Exception ex) {
                 _logger.LogError("Failed to load get all files in {dirPath}. Exception: {ex}", dirPath, ex.ToString());
-                return null;
+                return default;
             }
         } else {
-            return null;
+            return default;
         }
     }
 
@@ -142,7 +154,7 @@ public class MacquarieHandbook : IMacquarieHandbook
         }
 
         //Save to local cache  while we at it
-        await SerialiseObjectToJsonFile(result, CreateFilePath(Unit_Individual, unitCode));
+        await _jsonSerialisationHelper.SerialiseObjectToJsonFile(result, CreateFilePath(Unit_Individual, unitCode));
 
         return result;
     }
@@ -153,7 +165,7 @@ public class MacquarieHandbook : IMacquarieHandbook
     }
 
     public async Task<MacquarieDataCollection<MacquarieUnit>> GetAllUnits(int? implementationYear = null, int limit = 3000, bool readFromDisk = false, CancellationToken cancellationToken = default) {
-        implementationYear ??= DateTime.Now.Year;
+        implementationYear ??= _dateTimeProvider.DateTimeNow.Year;
 
         _logger.LogInformation("Loading all unit data for {implementationYear}.", implementationYear);
 
@@ -180,7 +192,7 @@ public class MacquarieHandbook : IMacquarieHandbook
             if (resultsCollection.Count >= 1)
                 return resultsCollection[0];
             else
-                return null; //TODO instead of returning null consider returning empty Course object? 
+                return default;
         }
 
         return result;
@@ -188,7 +200,7 @@ public class MacquarieHandbook : IMacquarieHandbook
 
     public async Task<MacquarieDataCollection<MacquarieCourse>> GetAllCourses(int? implementationYear = null, int limit = 3000) {
         //If the provided year is null, assume this current year.
-        implementationYear ??= DateTime.Now.Year;
+        implementationYear ??= _dateTimeProvider.DateTimeNow.Year;
 
         var apiRequest = new CourseApiRequestBuilder() { ImplementationYear = implementationYear, Limit = limit };
 

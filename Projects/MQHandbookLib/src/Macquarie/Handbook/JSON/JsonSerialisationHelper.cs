@@ -1,17 +1,24 @@
 using System;
 using System.IO;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
+using MQHandbookLib.src.Helpers;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Macquarie.JSON;
+namespace MQHandbookLib.src.Macquarie.Handbook.JSON;
 
-public static class JsonSerialisationHelper
+public class JsonSerialisationHelper
 {
+    private readonly ILogger<JsonSerialisationHelper> _logger;
+    private readonly IDateTimeProvider _dateTimeProvider;
+
+    public JsonSerialisationHelper(IDateTimeProvider dateTimeProvider, ILogger<JsonSerialisationHelper> logger) {
+        _dateTimeProvider = dateTimeProvider;
+        _logger = logger;
+    }
+
     public static T DeserialiseJsonObject<T>(string json) {
-#if WRITE_ALL_JSON_TO_DISK
-            _ = WriteJsonToFile($"data/units/raw/{DateTime.Now.ToString("yyMMdd_HHmmss_fffff")}", json);
-#endif
         return JsonConvert.DeserializeObject<T>(json);
     }
 
@@ -19,20 +26,20 @@ public static class JsonSerialisationHelper
         return JsonConvert.SerializeObject(obj, formatting, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore, Converters = { new StringEnumConverter() } });
     }
 
-    public static async Task SerialiseObjectToJsonFile(object obj, string fileName, bool saveWithTimeStamp = false, Formatting formatting = Formatting.Indented) {
+    public async Task SerialiseObjectToJsonFile(object obj, string fileName, bool saveWithTimeStamp = false, Formatting formatting = Formatting.Indented) {
         var jsonString = SerialiseObject(obj, formatting);
 
         await WriteJsonToFile(fileName, jsonString, saveWithTimeStamp);
     }
 
-    public static async Task WriteJsonToFile(string fileName, string jsonString, bool saveWithTimeStamp = false) {
+    public async Task WriteJsonToFile(string fileName, string jsonString, bool saveWithTimeStamp = false) {
         if (string.IsNullOrEmpty(fileName)) {
-            System.Console.WriteLine("Cannot serialise object to file with null/empty fileName!");
+            _logger.LogWarning("Cannot serialise object to file with null or empty fileName.");
             return;
         }
 
         if (saveWithTimeStamp)
-            fileName = $"{fileName}_{DateTime.Now:yyMMdd_HHmmss_fffff}";
+            fileName = $"{fileName}_{_dateTimeProvider.DateTimeNow:yyMMdd_HHmmss_fffff}";
 
 
         string filePath = fileName;
@@ -40,28 +47,13 @@ public static class JsonSerialisationHelper
         if (!fileName.EndsWith(".json"))
             filePath += ".json";
 
-        if (TryCreateDirectory(filePath)) {
+        if (DirectoryUtilities.TryCreateDirectory(filePath)) {
             try {
                 await File.WriteAllTextAsync(filePath, jsonString);
-            }
-            catch (Exception ex) {
-                System.Console.WriteLine($"Failed to serialise json string.\nReason:\n{ex}");
+            } catch (Exception ex) {
+                _logger.LogError("Failed to serialise json string.\nReason:\n{exception}", ex);
             }
         }
     }
 
-    private static bool TryCreateDirectory(string filePath) {
-        FileInfo outputFileInfo;
-        try {
-            outputFileInfo = new FileInfo(filePath);
-
-            if (!Directory.Exists(outputFileInfo.DirectoryName))
-                Directory.CreateDirectory(outputFileInfo.DirectoryName);
-            return true;
-        }
-        catch (Exception ex) {
-            System.Console.WriteLine($"Failed to create directory.\n {ex.Message}");
-            return false;
-        }
-    }
 }

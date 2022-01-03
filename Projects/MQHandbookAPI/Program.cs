@@ -1,5 +1,6 @@
-using Macquarie.Handbook;
 using MQHandbookAPI.Models.Macquarie;
+using MQHandbookLib.src.Helpers;
+using MQHandbookLib.src.Macquarie.Handbook;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,7 @@ builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 
 builder.Services.AddSingleton<IMacquarieHandbook, MacquarieHandbook>();
+builder.Services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
 
 //Configure class mappings via profile.
 builder.Services.AddAutoMapper(cfg => {
@@ -31,7 +33,7 @@ if (app.Environment.IsDevelopment()) {
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
+app.UseAuthorization(); 
 
 app.MapControllers();
 

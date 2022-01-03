@@ -160,7 +160,7 @@ public record MacquarieCourseData : MacquarieMaterialMetadata
     [JsonProperty("ib_english")]
     public string IbEnglish { get; set; }
     [JsonProperty("credit_arrangements")]
-    public string CReditArrangements { get; set; }
+    public string CreditArrangements { get; set; }
     [JsonProperty("outcomes")]
     public string Outcomes { get; set; }
     [JsonProperty("major_minors")]

@@ -1,7 +1,7 @@
 using System;
 using Newtonsoft.Json;
 using System.Diagnostics.CodeAnalysis;
-using static Macquarie.JSON.JsonSerialisationHelper;
+using static MQHandbookLib.src.Macquarie.Handbook.JSON.JsonSerialisationHelper;
 
 namespace Macquarie.Handbook.Converters;
 

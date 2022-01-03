@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using Macquarie.Handbook.Data.Shared;
 using Macquarie.Handbook.Data.Unit.Prerequisites;
-using Macquarie.JSON;
-using Unit_Info.Helpers;
 
 namespace Macquarie.Handbook.Helpers;
 

@@ -1,12 +1,9 @@
-//#define WRITE_ALL_JSON_TO_DISK
-
 using System.Threading;
 using System.Threading.Tasks;
 using Macquarie.Handbook.Data;
 using Macquarie.Handbook.Data.Shared;
-//Bad separation...
 
-namespace Macquarie.Handbook;
+namespace MQHandbookLib.src.Macquarie.Handbook;
 
 public interface IMacquarieHandbook
 {

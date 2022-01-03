@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Unit_Info.Helpers;
+namespace MQHandbookLib.src.Helpers;
 
 public static class LocalDataDirectoryHelper
 {

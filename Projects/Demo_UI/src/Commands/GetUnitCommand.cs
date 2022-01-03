@@ -3,7 +3,8 @@ using System.CommandLine;
 using System.CommandLine.Invocation;
 using System.CommandLine.IO;
 using System.Threading.Tasks;
-using Macquarie.Handbook;
+using MQHandbookLib.src.Helpers;
+using MQHandbookLib.src.Macquarie.Handbook;
 
 namespace Demo_UI.src.Commands;
 
@@ -54,7 +55,7 @@ public class GetUnitCommand : Command
         public IConsole Console { get; set; }
 
         public async Task<int> InvokeAsync(InvocationContext context) {
-            var handbook = new MacquarieHandbook(default);
+            var handbook = new MacquarieHandbook(default, default, new DateTimeProvider());
             if (Unit is not null) {
                 var unit = await handbook.GetUnit(Unit, Year, false);
 
@@ -62,7 +63,6 @@ public class GetUnitCommand : Command
                     Console.Out.WriteLine(unit.ToString());
                     return 0;
                 }
-
                 return -1;
             } else {
                 var units = await handbook.GetAllUnits(Year, Limit);

@@ -1,8 +1,8 @@
 namespace MQHandbookAPI.Controllers;
 
 using System.Threading.Tasks;
-using Macquarie.Handbook;
 using Microsoft.AspNetCore.Mvc;
+using MQHandbookLib.src.Macquarie.Handbook;
 
 [ApiController]
 [Route("[controller]")]

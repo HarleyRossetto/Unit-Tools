@@ -1,9 +1,13 @@
 namespace MQHandbookAPI.Models.Macquarie.Handbook.Data.Shared;
 
 using System;
+using MQHandbookLib.src.Macquarie.Handbook.Data;
 
 public record MetadataDto
 {
+    //TODO DateTime.DateTimeNow could become some dependancy to allow unit testing?
+    //Otherwise it should be set another way; considering this is a DTO it should be provided
+    //by the original source, not set independantly.
     public DateTime DateRetrieved { get; init; } = DateTime.Now;
     public DateTime? ModificationDate { get; init; }
     public string Code { get; init; } = string.Empty;

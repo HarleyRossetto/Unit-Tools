@@ -1,8 +1,8 @@
 namespace MQHandbookAPI.Controllers;
 
+using System.Diagnostics;
 using System.Threading.Tasks;
 using AutoMapper;
-using Macquarie.Handbook;
 using Macquarie.Handbook.Data;
 using Macquarie.Handbook.Data.Shared;
 using Macquarie.Handbook.Helpers.Extensions;
@@ -10,6 +10,8 @@ using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
 using MQHandbookAPI.Models.Macquarie.Handbook.Data.Course;
 using MQHandbookAPI.Models.Macquarie.Handbook.Data.Unit;
+using MQHandbookAPI.Tools.Statistics;
+using MQHandbookLib.src.Macquarie.Handbook;
 
 [ApiController]
 [Route("[controller]")]
@@ -62,6 +64,7 @@ public class HandbookController : ControllerBase
                select unit.Code;
     }
 
+/*
     [HttpGet("[action]")]
     public async Task<Dictionary<string, Dictionary<string, int>>> GatherUnitStatistics() {
         //Get all units for default year.
@@ -107,5 +110,23 @@ public class HandbookController : ControllerBase
         }
 
         return valueMap;
+    }
+    */
+
+    [HttpGet("[action]")]
+    public async Task<Statistics> GetObjectStats() {
+        var sw = Stopwatch.StartNew();
+        //Get all units for default year.
+        var units = await _handbook.GetAllUnits(2021, 5);
+        sw.Stop();
+        _logger.LogInformation("Retrieved {count} units in {seconds}", units.Count, sw.ElapsedMilliseconds / 1000);
+
+        //If results is null or count is 0, return 1 and finish.
+        if (units is null || units.Count < 1)
+            return new();
+
+        _logger.LogInformation("Units loaded.");
+
+        return ObjectStatistics.GetObjectStatistics(units.Collection, true);
     }
 }

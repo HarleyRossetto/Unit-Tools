@@ -5,10 +5,14 @@
 **/obj
 **/bin
 
+[Nn]uget.config
+
 #Line Test Coverage files 
 **/Coverage/*
+
 .idea/.idea.Unit Tools.dir/.idea/.gitignore
 .idea/.idea.Unit Tools.dir/.idea/encodings.xml
 .idea/.idea.Unit Tools.dir/.idea/indexLayout.xml
 .idea/.idea.Unit Tools.dir/.idea/vcs.xml
+
 Projects/MQHandbookAPI/.idea/.idea.MQHandbookAPI.dir/.idea/*
